@@ -2645,23 +2645,17 @@ class BONScraper:
     """
     BON — Boletín Oficial de Navarra
 
-    La URL /es/ultimo devuelve el último boletín publicado con contenido
-    completo renderizado en servidor (66+ links a anuncios).
-    Las URLs por fecha (/es/boletin/-/boletin/YYYY/NUM) y findByDate usan
-    JS rendering — no accesibles sin Playwright.
-
-    Estrategia:
-      1. Fetch /es/ultimo → extrae la fecha del boletín del texto
-         "BOLETÍN Nº N - DD de MES de YYYY"
-      2. Si la fecha coincide con la solicitada → parsear items
-      3. Si no coincide (fecha histórica o mismo día pero aún no publicado)
-         → 0 items (limitación aceptada)
+    Estrategia dual:
+      - Día actual  → /es/ultimo (SSR, rápido)
+      - Histórico   → /es/indice-boletines → buscar enlace de la edición por fecha
+                      → fetch de esa edición → parsear anuncios
     """
-    BASE       = "https://bon.navarra.es"
-    URL_ULTIMO = "https://bon.navarra.es/es/ultimo"
+    BASE        = "https://bon.navarra.es"
+    URL_ULTIMO  = "https://bon.navarra.es/es/ultimo"
+    URL_INDICE  = "https://bon.navarra.es/es/indice-boletines"
 
     ANUNCIO_PAT = re.compile(r"/es/anuncio/-/texto/\d{4}/\d+/\d+")
-    # "19 de mayo de 2026" o "BOLETÍN Nº 96 - 19 de mayo de 2026"
+    EDICION_PAT = re.compile(r"/es/boletin/-/boletin/\d{4}/\d+")
     FECHA_PAT   = re.compile(
         r"(\d{1,2})\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto"
         r"|septiembre|octubre|noviembre|diciembre)\s+de\s+(\d{4})", re.I
@@ -2681,28 +2675,203 @@ class BONScraper:
         })
 
     def get_items(self, fecha: str) -> list:
+        # ── 1. Ruta rápida: /es/ultimo (solo si es el boletín del día pedido) ──
         try:
             r = self.s.get(self.URL_ULTIMO, timeout=25)
-            logger.debug(f"BON /es/ultimo: HTTP {r.status_code} {len(r.content)}B")
-            if r.status_code != 200:
-                return []
-            enc  = r.encoding or "utf-8"
-            html = r.content.decode(enc, errors="replace")
-
-            # Verificar que el boletín es del día solicitado
-            bon_fecha = self._extraer_fecha(html)
-            if bon_fecha != fecha:
-                logger.debug(
-                    f"BON: último boletín es {bon_fecha}, se pedía {fecha} → 0 items"
-                )
-                return []
-
-            items = self._parse(html, fecha)
-            logger.debug(f"BON {fecha}: {len(items)} items energéticos")
-            return items
+            if r.status_code == 200:
+                enc  = r.encoding or "utf-8"
+                html = r.content.decode(enc, errors="replace")
+                if self._extraer_fecha(html) == fecha:
+                    items = self._parse(html, fecha)
+                    logger.debug(f"BON {fecha} (ultimo): {len(items)} items")
+                    return items
         except Exception as e:
             logger.debug(f"BON /es/ultimo: {e}")
-            return []
+
+        # ── 2. Ruta histórica: índice → buscar anuncios directos o nº edición ──
+        items, num_edicion = self._buscar_en_indice(fecha)
+        if items:
+            logger.debug(f"BON {fecha} (índice directo): {len(items)} items")
+            return items
+
+        # ── 3. Si tenemos nº de edición, enumerar anuncios individualmente ──────
+        #     Las páginas de edición son JS-rendered; las de anuncio son SSR.
+        #     Enumeramos /es/anuncio/-/texto/{yyyy}/{num}/{i} i=1…N
+        #     y nos detenemos tras MAX_FALLOS errores consecutivos.
+        if num_edicion:
+            items = self._enumerar_anuncios(fecha, num_edicion)
+            logger.debug(f"BON {fecha} (enumeración edición {num_edicion}): {len(items)} items")
+            return items
+
+        logger.debug(f"BON {fecha}: edición no encontrada en índice")
+        return []
+
+    def _buscar_en_indice(self, fecha: str):
+        """
+        Busca en el indice de BON la edicion y los anuncios para 'fecha'.
+        Estrategia: parsear el script tag JSON/toString incrustado en el HTML
+        (el indice es JS-rendered pero los datos estan en un <script> de 400K).
+
+        Devuelve:
+          (items_relevantes, None)  si pudo extraer datos del script
+          ([], None)                si no hay datos (dia sin publicacion)
+        La enumeracion individual queda como fallback externo.
+        """
+        dt        = datetime.strptime(fecha, "%Y%m%d")
+        fecha_iso = "{}-{:02d}-{:02d}".format(dt.year, dt.month, dt.day)
+
+        urls_indice = [
+            self.URL_INDICE + "?mes={}&anio={}".format(dt.month, dt.year),
+            self.URL_INDICE,
+            self.URL_INDICE + "?anio={}&mes={:02d}".format(dt.year, dt.month),
+        ]
+
+        for url_idx in urls_indice:
+            try:
+                r = self.s.get(url_idx, timeout=25)
+                if r.status_code != 200:
+                    continue
+                enc  = r.encoding or "utf-8"
+                html = r.content.decode(enc, errors="replace")
+
+                if fecha_iso not in html:
+                    logger.debug("BON indice %s: %s no aparece", url_idx, fecha_iso)
+                    continue
+
+                soup = BeautifulSoup(html, "lxml")
+
+                for script in soup.find_all("script"):
+                    content = script.string or ""
+                    if fecha_iso not in content:
+                        continue
+
+                    # ── A. Extraer numero de edicion del JSON de calendario ──────
+                    # Formato: "2026-05-07":[{"boletinId":"2026.88","extraordinario":null,"numero":88}]
+                    m_ed = re.search(
+                        r'"' + re.escape(fecha_iso) + r'":\[{"boletinId":"[^"]+","extraordinario":[^,]+,"numero":(\d+)}',
+                        content
+                    )
+                    if not m_ed:
+                        continue
+                    num_edicion = m_ed.group(1)
+                    logger.debug("BON indice: edicion %s -> nº %s", fecha, num_edicion)
+
+                    # ── B. Extraer titulos de anuncios del toString Java ──────────
+                    # Formato: anuncioId=2026.88.N, titulo=TITULO, organoSolicitante=
+                    pat = re.compile(
+                        r"anuncioId=" + str(dt.year) + r"\." + num_edicion +
+                        r"\.(\d+),\s*titulo=(.*?),\s*organoSolicitante="
+                    )
+                    items = []
+                    seen  = set()
+                    for am in pat.finditer(content):
+                        item_num = am.group(1)
+                        titulo   = am.group(2).strip()
+                        if not titulo or item_num in seen:
+                            continue
+                        seen.add(item_num)
+                        url_item = "{}/es/anuncio/-/texto/{}/{}/{}".format(
+                            self.BASE, dt.year, num_edicion, item_num)
+                        if es_relevante(titulo):
+                            items.append({
+                                "boletin": "BON", "ccaa": "Navarra",
+                                "id":           "BON-{}-{}-{}".format(dt.year, num_edicion, item_num),
+                                "fecha":        fecha,
+                                "departamento": "",
+                                "titulo":       titulo[:300],
+                                "url":          url_item,
+                                "url_pdf": "", "url_xml": "", "texto": "",
+                            })
+
+                    logger.debug("BON script: %d anuncios parseados, %d relevantes (edicion %s)",
+                                 len(seen), len(items), num_edicion)
+                    return (items, None)
+
+            except Exception as e:
+                logger.debug("BON indice %s: %s", url_idx, e)
+
+        return ([], None)
+
+    def _enumerar_anuncios(self, fecha: str, num_edicion: str) -> list:
+        """
+        Fallback: enumera /es/anuncio/-/texto/{yyyy}/{num}/{i} desde i=0.
+        Solo se usa si _buscar_en_indice no pudo extraer datos del script
+        (p.ej. ediciones muy antiguas fuera del rango del indice).
+        Para el texto usa 'main' o '#content' que son SSR en BON.
+        """
+        dt   = datetime.strptime(fecha, "%Y%m%d")
+        yyyy = str(dt.year)
+        items      = []
+        seen       = set()
+        fallos     = 0
+        MAX_I      = 300
+        MAX_FALLOS = 4
+
+        for i in range(0, MAX_I):
+            url = "{}/es/anuncio/-/texto/{}/{}/{}".format(self.BASE, yyyy, num_edicion, i)
+            try:
+                r = self.s.get(url, timeout=15)
+                if r.status_code in (404, 410):
+                    fallos += 1
+                    if fallos >= MAX_FALLOS:
+                        break
+                    continue
+                if r.status_code != 200:
+                    fallos += 1
+                    if fallos >= MAX_FALLOS:
+                        break
+                    continue
+
+                enc  = r.encoding or "utf-8"
+                html = r.content.decode(enc, errors="replace")
+                soup = BeautifulSoup(html, "lxml")
+
+                # main / #content son SSR en BON; el contenido real empieza
+                # despues del encabezado "BOLETIN Nº X - fecha".
+                txt = ""
+                for sel in ["main", "#content", "article"]:
+                    el = soup.select_one(sel)
+                    if el:
+                        txt = el.get_text(" ", strip=True)
+                        break
+                if len(txt) < 50:
+                    txt = soup.get_text(" ", strip=True)
+
+                if len(txt) < 50:
+                    fallos += 1
+                    if fallos >= MAX_FALLOS:
+                        break
+                    continue
+
+                fallos = 0
+
+                # Extraer titulo: texto despues de la cabecera de edicion
+                titulo = txt
+                m_hdr = self.FECHA_PAT.search(txt)
+                if m_hdr:
+                    titulo = txt[m_hdr.end():].strip()[:400]
+
+                dept = ""
+                if url not in seen and es_relevante(titulo[:600]):
+                    seen.add(url)
+                    items.append({
+                        "boletin": "BON", "ccaa": "Navarra",
+                        "id":           "BON-{}-{}-{}".format(yyyy, num_edicion, i),
+                        "fecha":        fecha,
+                        "departamento": dept,
+                        "titulo":       titulo[:300],
+                        "url":          url,
+                        "url_pdf": "", "url_xml": "",
+                        "texto": titulo[:4000],
+                    })
+
+            except Exception as e:
+                logger.debug("BON anuncio %s: %s", url, e)
+                fallos += 1
+                if fallos >= MAX_FALLOS:
+                    break
+
+        return items
 
     def _extraer_fecha(self, html: str) -> str:
         """Extrae YYYYMMDD del texto 'BOLETÍN Nº N - DD de MES de YYYY'."""
@@ -2787,40 +2956,30 @@ class BOLRScraper:
     """
     BOLR — Boletín Oficial de La Rioja
 
-    El portal principal (web.larioja.org/bor-portada) es JS-rendered (Liferay/Joomla).
-    Se intentan múltiples endpoints alternativos en orden:
+    URL directa por fecha (confirmada):
+      https://web.larioja.org/bor-portada?fecha=YYYY-MM-DD
 
-      1. web.larioja.org/bor-portada?anio=&mes=&dia=   → JS-only (68KB shell)
-      2. ias1.larioja.org/bor/web/bor/buscador-boletines  → Liferay alternativo
-      3. ias1.larioja.org/bor/web/bor/inicio              → Portada alternativa
-      4. RSS de BOR                                        → feed de items recientes
-      5. web.larioja.org/bor-portada/boranuncio + fecha   → URL directa de anuncio
+    Fallback para compatibilidad: Liferay JSON API (ignora filtro de fecha,
+    devuelve boletín más reciente; se verifica fecha en _parse).
     """
     BASE_WEB  = "https://web.larioja.org"
     BASE_IAS1 = "https://ias1.larioja.org"
 
-    # URLs a probar en orden
+    # URL directa por fecha — primer intento (SSR, sin JS)
+    URL_FECHA = "https://web.larioja.org/bor-portada?fecha={yyyy}-{mm}-{dd}"
+
+    # Portales HTML JS-only (último recurso)
     URLS_DIA = [
-        # Principal (JS-only, puede devolver contenido en algunas condiciones)
         "https://web.larioja.org/bor-portada?anio={yyyy}&mes={mm}&dia={dd}",
-        # Backend alternativo — sin JS — buscador Liferay
-        ("https://ias1.larioja.org/bor/web/bor/buscador-boletines"
-         "?anio={yyyy}&mes={mm}&dia={dd}"),
-        # Portada alternativa con selector de fecha
-        "https://ias1.larioja.org/bor/web/bor/inicio?anio={yyyy}&mes={mm}&dia={dd}",
+        "https://ias1.larioja.org/bor/web/bor/buscador-boletines?anio={yyyy}&mes={mm}&dia={dd}",
     ]
-    # JSON API — varios formatos de parámetros (el filtros= es ignorado por Liferay;
-    # la API devuelve el boletín más reciente. Se verifica fecha en _parse).
+    # Fallbacks Liferay (si URL_FECHA falla o devuelve vacío)
     URLS_JSON = [
-        # Con filtros JSON (puede ser ignorado, retorna boletín actual)
         ("https://web.larioja.org/bor-portada/bor"
          "?filtros=%7B%22fecha_publicacion%22%3A%22{yyyy}-{mm}-{dd}%22%7D&page=1"),
-        # Con parámetros de formulario (misma lógica que la portada)
         "https://web.larioja.org/bor-portada/bor?anio={yyyy}&mes={mm}&dia={dd}&page=1",
-        # Sin filtro de fecha — retorna boletín más reciente (útil si fecha == hoy)
         "https://web.larioja.org/bor-portada/bor?page=1",
     ]
-    # RSS del BOR
     URLS_RSS = [
         "https://web.larioja.org/bor-portada/bor-rss",
         "https://ias1.larioja.org/bor/web/bor/rss",
@@ -2839,20 +2998,22 @@ class BOLRScraper:
         mm   = f"{dt.month:02d}"
         dd   = f"{dt.day:02d}"
 
-        # ── 1. JSON API (primera prioridad — devuelve contenido real del BOR) ──
-        # NOTA: el filtro de fecha puede ser ignorado por Liferay y devolver el
-        # boletín más reciente. _parse() verifica la fecha de cada item.
+        fecha_iso   = f"{fecha[0:4]}-{fecha[4:6]}-{fecha[6:8]}"
+        fecha_slash = f"{fecha[6:8]}/{fecha[4:6]}/{fecha[0:4]}"
+
+        # ── 1. JSON API con cabecera AJAX + filtro de fecha ───────────────────
+        # Liferay responde con JSON de items; si el filtro de fecha funciona,
+        # el contenido incluirá la fecha solicitada. Si devuelve el BOR actual
+        # (filtro ignorado), _parse() lo descartará por fecha.
+        ajax_headers = {**self.s.headers,
+                        "X-Requested-With": "XMLHttpRequest",
+                        "Accept": "application/json, text/javascript, */*; q=0.01"}
         for url_json_tmpl in self.URLS_JSON:
             url_json = url_json_tmpl.format(yyyy=yyyy, mm=mm, dd=dd)
             try:
-                r = self.s.get(url_json, timeout=20)
+                r = self.s.get(url_json, timeout=20, headers=ajax_headers)
                 logger.debug(f"BOLR JSON: {r.status_code} {len(r.content)}B ({url_json[-50:]})")
                 if r.status_code == 200 and len(r.content) > 5000:
-                    # Guardia de fecha: la API Liferay ignora el filtro y puede devolver
-                    # el BOR del día actual aunque se pida una fecha histórica.
-                    # Si la respuesta no menciona la fecha solicitada → BOR incorrecto.
-                    fecha_iso   = f"{fecha[0:4]}-{fecha[4:6]}-{fecha[6:8]}"  # "2026-05-16"
-                    fecha_slash = f"{fecha[6:8]}/{fecha[4:6]}/{fecha[0:4]}"   # "16/05/2026"
                     resp_tiene_fecha = (fecha_iso in r.text or fecha_slash in r.text)
                     try:
                         data = r.json()
@@ -2871,8 +3032,6 @@ class BOLRScraper:
                                      f"{len(items)} items energéticos para {fecha}")
                         if items:
                             return items
-                    # Si la URL respondió bien pero no hay items para esta fecha,
-                    # seguir probando otras URLs JSON (pueden filtrar mejor)
             except Exception as e:
                 logger.debug(f"BOLR JSON: {e}")
 
@@ -3152,6 +3311,7 @@ class MultiBoletinScraper:
                 if PLAYWRIGHT_DISPONIBLE:
                     for nombre in boletines_pw_solicitados:
                         scraper_pw = get_playwright_scraper(nombre)
+                        scraper_pw = get_playwright_scraper(nombre)
                         if scraper_pw:
                             playwright_scrapers[nombre] = scraper_pw
                             logger.info(f"  {nombre}: usando Playwright (JS completo)")
@@ -3182,13 +3342,14 @@ class MultiBoletinScraper:
                 logger.error(f"  {nombre} falló: {e}")
             time.sleep(1)
 
-        
-        # Ejecutar scrapers Playwright (si aplica)
-        for nombre, scraper_pw in playwright_scrapers.items():
+        # Ejecutar scrapers Playwright (si están disponibles)
+        for nombre in [n for n in (boletines or list(scrapers_activos.keys()))
+                       if n in playwright_scrapers]:
             logger.info(f"Scraping {nombre} (Playwright) — {fecha}")
             try:
+                scraper_pw = playwright_scrapers[nombre]
                 items = scraper_pw.get_items(fecha)
-                logger.info(f"  {nombre}: {len(items)} items relevantes")
+                logger.info(f"  {nombre} (Playwright): {len(items)} items relevantes")
                 todos.extend(items)
             except Exception as e:
                 logger.error(f"  {nombre} (Playwright) falló: {e}")
