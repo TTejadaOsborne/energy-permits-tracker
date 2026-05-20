@@ -177,19 +177,51 @@ def run(dry: bool):
         print("\n[DRY RUN] No se aplican cambios.")
         return
 
-    # Aplicar actualizaciones primero (sin alterar índices de fila)
+    sheet_id = ws.id   # numeric worksheet id for batchUpdate
+
+    # ── Correcciones de nombre: una sola llamada batch ────────────────────────
     if rows_to_update:
-        print("\nAplicando correcciones de nombre…")
+        print("\nAplicando correcciones de nombre (batch)…")
+        updates = []
         for row_num, col_num, value in rows_to_update:
-            ws.update_cell(row_num, col_num, value)
+            cell = gspread.utils.rowcol_to_a1(row_num, col_num)
+            updates.append({"range": f"{SHEET_NAME}!{cell}", "values": [[value]]})
+        ws.spreadsheet.values_batch_update({
+            "valueInputOption": "USER_ENTERED",
+            "data": updates,
+        })
         print(f"  {len(rows_to_update)} celdas actualizadas")
 
-    # Eliminar filas de abajo a arriba (para no desplazar índices)
+    # ── Eliminación: una sola batchUpdate con todas las filas ─────────────────
+    # Rangos en orden DESCENDENTE para que los índices no se desplacen.
     if rows_to_delete:
-        print("\nEliminando filas duplicadas/inválidas…")
-        for row_num in sorted(rows_to_delete, reverse=True):
-            ws.delete_rows(row_num)
-        print(f"  {len(rows_to_delete)} filas eliminadas")
+        print(f"\nEliminando {len(rows_to_delete)} filas duplicadas/inválidas (batch)…")
+        sorted_rows = sorted(rows_to_delete, reverse=True)
+
+        # Consolidar filas consecutivas en rangos
+        ranges = []
+        i = 0
+        while i < len(sorted_rows):
+            start = sorted_rows[i]
+            end   = sorted_rows[i]
+            while i + 1 < len(sorted_rows) and sorted_rows[i + 1] == sorted_rows[i] - 1:
+                end = sorted_rows[i + 1]
+                i += 1
+            # API 0-based: startIndex inclusive, endIndex exclusive
+            ranges.append({
+                "deleteDimension": {
+                    "range": {
+                        "sheetId":    sheet_id,
+                        "dimension":  "ROWS",
+                        "startIndex": end - 1,
+                        "endIndex":   start,
+                    }
+                }
+            })
+            i += 1
+
+        ws.spreadsheet.batch_update({"requests": ranges})
+        print(f"  {len(rows_to_delete)} filas eliminadas en {len(ranges)} rangos")
 
     print("\nFIN. Datos corregidos en el Sheet.")
 
