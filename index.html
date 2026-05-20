@@ -3613,7 +3613,12 @@ function buildPrjDetail(p){
     var countBadge = count>1
       ? '<span style="font-size:9px;background:#e0e7ff;color:#3730a3;border-radius:10px;padding:1px 6px;font-family:IBM Plex Mono,monospace">×'+count+'</span>'
       : '';
-    var desc = pub.observaciones || pub.titulo || '';
+    // Determinar qué mostrar: titulo formal (empieza mayúscula, ≥80 ch) o fragmento BOPA
+    var tit = pub.titulo || '';
+    var obs = pub.observaciones || '';
+    var isFormalTitle = tit.length >= 80 && /^[A-ZÁÉÍÓÚÜÑ]/.test(tit);
+    var mainDesc  = isFormalTitle ? tit : (obs || tit);
+    var secondDesc= isFormalTitle && obs ? obs : '';
     timeline += '<div class="prj-pub">'
       +'<div class="prj-pub-dot" style="background:'+dotColor+'"></div>'
       +'<div>'
@@ -3626,7 +3631,8 @@ function buildPrjDetail(p){
       +(pub.es_fallido||grp.extras.some(function(q){return q.es_fallido;})?'<span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
       +(pub.mw_liberados?'<span style="font-size:9px;color:#7c3aed">'+pub.mw_liberados+' MW liberados</span>':'')
       +'</div>'
-      +(desc?'<div class="prj-pub-titulo">'+_esc(desc)+'</div>':'')
+      +(mainDesc?'<div class="prj-pub-titulo">'+_esc(mainDesc)+'</div>':'')
+      +(secondDesc?'<div style="font-size:10.5px;color:rgba(26,26,24,.45);line-height:1.4;margin-top:3px;font-style:italic">'+_esc(secondDesc)+'</div>':'')
       +'<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px">'+idChips+'</div>'
       +'</div>'
       +'</div>';
