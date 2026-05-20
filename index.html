@@ -601,13 +601,15 @@ z-index:1199;
 .prj-detail-inner{padding:14px 20px 14px 48px;border-bottom:2px solid rgba(26,26,24,.08)}
 .prj-timeline{display:flex;flex-direction:column;gap:0;position:relative}
 .prj-timeline::before{content:'';position:absolute;left:7px;top:8px;bottom:8px;width:1.5px;background:rgba(26,26,24,.1)}
-.prj-pub{display:grid;grid-template-columns:16px 90px 80px 90px 1fr auto;gap:8px;align-items:center;padding:7px 0;position:relative}
-.prj-pub-dot{width:14px;height:14px;border-radius:50%;flex-shrink:0;border:2px solid #fff;box-shadow:0 0 0 1.5px rgba(26,26,24,.2);position:relative;z-index:1}
-.prj-pub-fecha{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.5)}
-.prj-pub-boletin{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.55)}
-.prj-pub-tipo{font-size:10px;background:rgba(26,26,24,.07);padding:1px 6px;border-radius:4px;white-space:nowrap;font-family:'IBM Plex Mono',monospace}
-.prj-pub-titulo{font-size:11px;color:rgba(26,26,24,.65);line-height:1.3;max-width:480px}
-.prj-pub-link{color:#1a6bc4;font-size:10px;font-family:'IBM Plex Mono',monospace;text-decoration:none;white-space:nowrap;padding:2px 6px;border:1px solid rgba(26,26,24,.12);border-radius:4px}
+.prj-pub{display:grid;grid-template-columns:16px 1fr;gap:0 10px;padding:8px 0;position:relative;align-items:start}
+.prj-pub-dot{width:14px;height:14px;border-radius:50%;flex-shrink:0;border:2px solid #fff;box-shadow:0 0 0 1.5px rgba(26,26,24,.2);position:relative;z-index:1;margin-top:2px}
+.prj-pub-meta{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:3px}
+.prj-pub-fecha{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.45)}
+.prj-pub-boletin{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.4)}
+.prj-pub-tipo{font-size:10px;background:rgba(26,26,24,.07);padding:1px 6px;border-radius:4px;white-space:nowrap;font-family:'IBM Plex Mono',monospace;color:rgba(26,26,24,.7)}
+.prj-pub-est{font-size:9.5px;padding:1px 6px;border-radius:4px;white-space:nowrap;font-family:'IBM Plex Mono',monospace}
+.prj-pub-titulo{font-size:11px;color:rgba(26,26,24,.65);line-height:1.4;white-space:normal;word-break:break-word}
+.prj-pub-link{color:#1a6bc4;font-size:10px;font-family:'IBM Plex Mono',monospace;text-decoration:none;white-space:nowrap;padding:2px 6px;border:1px solid rgba(26,26,24,.12);border-radius:4px;margin-left:4px}
 .prj-pub-link:hover{background:#f0f4ff}
 .prj-detail-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;font-size:11px;color:rgba(26,26,24,.55);font-family:'Inter',sans-serif}
 .prj-detail-meta span b{color:#1a1a18;font-weight:500}
@@ -3427,7 +3429,7 @@ async function loadProjects(){
       PROJECTS_DATA = j.proyectos || [];
       populatePrjFilters();
       const cnt = document.getElementById('cnt-proyectos');
-      if(cnt){ cnt.textContent = PROJECTS_DATA.length; cnt.style.display=''; }
+      if(cnt){ cnt.textContent = PROJECTS_DATA.length; /* badge nav oculto */ }
     } else {
       if(tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:40px;color:#ef4444;font-size:12px">Error cargando projects.json (HTTP '+r.status+')</td></tr>';
     }
@@ -3577,20 +3579,36 @@ function buildPrjDetail(p){
     var dotColor = ESTADO_DOT[(pub.estado||'').toLowerCase()] || '#94a3b8';
     var fechaFmt = pub.fecha ? pub.fecha.slice(0,4)+'-'+pub.fecha.slice(4,6)+'-'+pub.fecha.slice(6) : '—';
     var tp = pub.tipo_permiso||'—';
-    var est = ESTADOS[pub.estado]||{label:pub.estado||'—',color:'#555',bg:'#f3f4f6'};
-    var titulo = (pub.titulo||'').slice(0,120)+(pub.titulo&&pub.titulo.length>120?'…':'');
-    var _pUrl=boletinUrl(pub);var linkBtn = _pUrl?'<a class="prj-pub-link" href="'+_pUrl+'" target="_blank" onclick="event.stopPropagation()">'+(pub.boletin||'BOE')+' ↗</a>':'';
+    var tpLabel = TIPOS[tp]||tp;
+    var est = ESTADOS[pub.estado]||{label:pub.estado||'',color:'#555',bg:'#f3f4f6'};
+    // boletinUrl adaptado: usa pub.fecha (no fecha_publicacion) + pub.url directo
+    var _pUrl = pub.url || (function(){
+      var f=pub.fecha||''; if(f.length<8) return '';
+      var Y=f.slice(0,4),M=f.slice(4,6),D=f.slice(6,8);
+      if(pub.boletin==='BOPA') return 'https://sede.asturias.es/bopa/'+Y+'/'+M+'/'+D+'/'+f+'.pdf';
+      if(pub.boletin==='BOA')  return 'https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&BASE=BOLE&SEC=BUSQUEDA_FECHA&PUBL='+f;
+      return '';
+    })();
+    var linkBtn = _pUrl
+      ? '<a class="prj-pub-link" href="'+_pUrl+'" target="_blank" onclick="event.stopPropagation()">'+_esc(pub.boletin||'BOE')+' ↗</a>'
+      : '';
+    var estChip = est.label
+      ? '<span class="prj-pub-est" style="background:'+est.bg+';color:'+est.color+'">'+est.label+'</span>'
+      : '';
     timeline += '<div class="prj-pub">'
       +'<div class="prj-pub-dot" style="background:'+dotColor+'"></div>'
+      +'<div>'
+      +'<div class="prj-pub-meta">'
       +'<span class="prj-pub-fecha">'+fechaFmt+'</span>'
       +'<span class="prj-pub-boletin">'+_esc(pub.boletin||'')+'</span>'
-      +'<span class="prj-pub-tipo">'+_esc(tp)+'</span>'
-      +'<div>'
-      +'<span class="prj-pub-titulo">'+_esc(titulo)+'</span>'
-      +(pub.es_fallido?'<span style="font-size:9px;color:#c2410c;margin-left:6px">⚡ Fallido</span>':'')
-      +(pub.mw_liberados?'<span style="font-size:9px;color:#c2410c;margin-left:6px">'+pub.mw_liberados+' MW liberados</span>':'')
-      +'</div>'
+      +'<span class="prj-pub-tipo">'+_esc(tpLabel)+'</span>'
+      +estChip
       +linkBtn
+      +(pub.es_fallido?'<span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
+      +(pub.mw_liberados?'<span style="font-size:9px;color:#7c3aed">'+pub.mw_liberados+' MW liberados</span>':'')
+      +'</div>'
+      +(pub.titulo?'<div class="prj-pub-titulo">'+_esc(pub.titulo)+'</div>':'')
+      +'</div>'
       +'</div>';
   });
   timeline += '</div>';
