@@ -1,0 +1,192 @@
+{
+  "fecha": "20251229",
+  "total": 25,
+  "energeticos": 25,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 25,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-26968",
+      "titulo_original": "Resolución de 15 de diciembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Parques eólicos Meleagro de 49,5 MW, y Kitsune de 49,5 MW, y sus infraestructuras de evacuación, en las provincias de Zaragoza y Valencia».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNnzVVxLko6vTqcoqvb'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-26969",
+      "titulo_original": "Resolución de 16 de diciembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental de los proyectos eólicos «Pasama» y «Cerro de Magaña», de 50,10 MW cada uno, y su infraestructura de evacuación, en la provincia de Soria.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo1K7TDxtycZUrmBgF'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-26970",
+      "titulo_original": "Resolución de 17 de diciembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Instalación fotovoltaica \"El Prado\" de 33 MW de potencia instalada, y para su infraestructura de evacuación, en la provincia de Toledo».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo2YXpN5hBMoo1tQUa'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251229-33",
+      "titulo_original": "Resolución de 2 de diciembre de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre aprobación de la modificación del proyecto de ejecución para la construcción de una subestación denominada “Cisneros-Nabiax” 220/20 kV (RSA278) en avenida Punto Com, número 23, en el término municipal de Alcalá de Henares, solicitado por Digital DHF Iberia, S. L. U. Número expediente: 2023P371-14-0141-00371.8/2023",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo3Wa38ch3LVLQHRzR'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251229-34",
+      "titulo_original": "Convenio de 14 de diciembre de 2025, entre la Comunidad de Madrid (Consejería de Medio Ambiente, Agricultura e Interior) y el Ayuntamiento de Buitrago del Lozoya para la adhesión de información relativa a su patrimonio de suelo disponible al Portal de Suelo de la Comunidad de Madrid",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo4PQUuuBN2ou4YLAm'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-2",
+      "titulo_original": "ORDEN IEM/1474/2025, de 22 de diciembre, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo6DHg6RwNHWbQttVN'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-9",
+      "titulo_original": "EXTRACTO de la Orden de 21 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan subvenciones, para el año 2026, dirigidas a impulsar la ciberseguridad industrial en Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo71ukXhaKfAFfqubr'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-10",
+      "titulo_original": "EXTRACTO de la Orden de 21 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan subvenciones, para el año 2026, dirigidas a la adquisición de maquinaria industrial nueva en empresas industriales de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo7n3hgmNj3JpcRFrD'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-11",
+      "titulo_original": "EXTRACTO de la Orden de 23 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan, para 2026, subvenciones públicas dirigidas a la realización inversiones para la mejora de los lugares de trabajo en los centros de trabajo de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo8cu4KnZCLMA7eY12'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-12",
+      "titulo_original": "EXTRACTO de la Orden de 23 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan, para 2026, subvenciones públicas dirigidas a la mejora de las condiciones de seguridad y salud en el trabajo, a través de la adquisición, adaptación o renovación de equipos de trabajo en centros de trabajo de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNo9awaXcon4mMEw2PY'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-13",
+      "titulo_original": "EXTRACTO de la Orden de 23 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan, para el año 2026, subvenciones públicas dirigidas a la retirada segura y la sustitución de cubiertas ligeras que contengan materiales con amianto en los centros de trabajo de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoAndFqSKYkULsjoQz'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-14",
+      "titulo_original": "EXTRACTO de la Orden de 23 de diciembre de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan, para el año 2026, subvenciones públicas dirigidas a la realización de acciones que contribuyan al bienestar laboral en centros de trabajo de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoBakEcPqdB3UZudFn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-16",
+      "titulo_original": "ACUERDO 56/2025, de 23 de diciembre, de la Junta de Castilla y León, por el que se declara proyecto industrial prioritario las «Inversiones asociadas a nuevos sistemas de propulsión» de Horse Powertrain Spain, S.L. en Valladolid (2025-2028).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoCP7w4WPi21xhrvpb'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-17",
+      "titulo_original": "ACUERDO 57/2025, de 23 de diciembre, de la Junta de Castilla y León, por el que se extiende el plazo de vigencia, hasta el 31 de diciembre de 2026, del proyecto industrial prioritario «Plan Industrial de Renault España, S.A. en Castilla y León 2021-2024».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoDQ8mSRoS5G6UbNzK'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-18",
+      "titulo_original": "ORDEN MAV/1471/2025, de 18 de diciembre, por la que se modifica la Resolución de 29 de julio de 2016, de la Secretaría General de la Consejería de Fomento y Medio Ambiente, por la que se concede autorización ambiental a la planta de fabricación de cemento y clínker, ubicada en el término municipal de Toral de los Vados (León), titularidad de «Votorantim Cementos España, S.A.» (antes «Cementos Cosmos, S.A.»), como consecuencia de la modificación no sustancial MNS 17. Expte.: 100-25-MNSLE.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoEpiKKzzZPhUpW4U5'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-21",
+      "titulo_original": "RESOLUCIÓN de 19 de diciembre de 2025, de la Delegación Territorial de Zamora, por la que se dicta el informe de impacto ambiental del proyecto de almacenamiento energético en baterías «Bess Mulas» en hibridación con la planta solar fotovoltaica «Las Mulas», en el término municipal de Cubillos (Zamora), promovido por «Energías Renovables de Ormonde 37, S.L.». Expte.: EIAS/2025/ZA/016.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoFdaRXpuF9Vt26ov9'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-31",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de declaración de utilidad pública, en concreto, del parque eólico «Terrae» e instalaciones eléctricas asociadas, en los términos municipales de Ibeas de Juarros, Castrillo del Val y Carcedo de Burgos (Burgos), promovido por «EDP Renovables España, S.L.U.». Expte.: PE/BU/002/2019.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoGRTAs7SJ1nJQFr3E'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-34",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica con hibridación para almacenamiento por baterías denominada «FV Pendon» conectada a la red de distribución, en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2678-ALM ATCE-183.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoHNzu66a2zLag1c6q'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-35",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica con hibridación para almacenamiento por baterías denominada «FV Estandarte» conectada a la red de distribución, en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2703-ALM ATCE-194.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoJt38vjZMkg6jj8kN'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29122025-36",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica con hibridación para almacenamiento por baterías denominada «FV Camunyas» conectada a la red de transporte, en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2722-ALM ATCE-214.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoKhA38g9aXBjX9sXg'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20251229-0",
+      "titulo_original": "Resolución de 19 de diciembre de 2025, de la Dirección Gerencia de la Agencia Digital de Andalucía, por la que se anuncia convocatoria pública para cubrir puesto de trabajo por el procedimiento de libre designación.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoLdDNjUGu8k8EYU4x'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251229-0",
+      "titulo_original": "RESOLUCIÓN de 15 de diciembre de 2025 por la que se publica el convenio de colaboración entre la Xunta de Galicia, a través de esta consellería, y la Empresa Pública de Servizos Agrarios Galegos, S.A. (Seaga), en materia de prevención y defensa contra incendios forestales, para la consolidación del ",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoMTKfsi6AePJKwYag'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20251229-0",
+      "titulo_original": "para realizar instalaciones de autoconsumo, con fuentes de energía renovable, en el sector residencial, las",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoNHvT6kBEg2igcvHZ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251229025",
+      "titulo_original": "RESOLUCIÓN de 15 de diciembre de 2025, del Servicio Provincial del Departamento de Presidencia, Economía y Justicia de Teruel, por la que se concede autorización administrativa previa y de construcción de la instalación solar fotovoltaica \"Mareral\" de 1 MW/1,281 MWp en el término municipal de Fuentespalda (Teruel). Número de expediente G-T-2025-008.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoPTsQPqYThEu1g3YC'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251229-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNoQGyzwB6GtLqQfgVo'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

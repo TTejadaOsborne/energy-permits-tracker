@@ -1,0 +1,189 @@
+{
+  "fecha": "20250820",
+  "total": 11,
+  "energeticos": 10,
+  "descartados": 1,
+  "exitosos": 2,
+  "errores": 8,
+  "tokens": {
+    "input": 16127,
+    "output": 1656
+  },
+  "coste_usd": 0.01953,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCM-20250820-25",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20250820",
+      "titulo_original": "Resolución de 22 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública para la construcción de 4 líneas de 20kV en cmo. Esparragal, sin número, en los términos municipales de Parla y Pinto, solicitada por Hidrocantábrico Distribución Eléctrica, S. A. U.",
+      "url": "https://www.bocm.es/bocm-20250820-25",
+      "datos": {
+        "nombre_proyecto": "Líneas 20kV Camino Esparragal Parla-Pinto",
+        "numero_expediente_industria": "2022P806",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Hidrocantábrico Distribución Eléctrica, S.A.U.",
+        "tecnologia": "LAT",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST Pinto (HSE75)",
+        "tension_conexion_kv": 20,
+        "gestor_red": "Hidrocantábrico Distribución Eléctrica",
+        "municipio": "Parla y Pinto",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2025-07-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación de 4 líneas de 20kV de simple circuito con origen en ST Pinto (HSE75) y final en CR El Gallo (HCES16092). Objeto: mejorar la infraestructura eléctrica de la zona. Presupuesto: 585.502,07 euros. Sometido a período de información pública de 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5824,
+        "output": 444
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCM-20250820-27",
+      "titulo_original": "Resolución de 31 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de “Ampliación de la actividad de gestión de vehículos al final de su vida útil”, en la calle Plomo, número 8, P. I. Aimayr, en el término municipal de San Martín de la Vega, promovida por Autodesguaces el Golpe, S. L. (Expediente: 26-EIA-00035.2/2025)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTEZZ1EH7muhZWagL4k'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250820-28",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20250820",
+      "titulo_original": "Resolución de 4 de agosto de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Cordel de la Asperilla, en el término municipal de Villamanrique de Tajo, para la Instalación de la Acometida en BT para CGP en Paseo del Parque, 0, en Villamanrique de Tajo, en finca con referencia catastral 9752001VK7395N0001EY, actuación promovida por UFD Distribución de Electricidad, S. A.",
+      "url": "https://www.bocm.es/bocm-20250820-28",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "0602/25",
+        "promotor": "UFD Distribución de Electricidad, S. A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "OcupacionUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "UFD Distribución de Electricidad, S. A.",
+        "municipio": "Villamanrique de Tajo",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2025-08-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de autorización de ocupación temporal de la vía pecuaria Cordel de la Asperilla para la instalación de acometida en baja tensión para centro de generación de potencia (CGP). Sometido a información pública por plazo de un mes. Referencia catastral: 9752001VK7395N0001EY. Expediente de referencia: 10/584593.9/25.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5934,
+        "output": 821
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-20082025-3",
+      "titulo_original": "INFORMACIÓN pública relativa a la nueva solicitud de autorización administrativa previa y autorización administrativa de construcción para una instalación de producción de energía eléctrica, mediante tecnología fotovoltaica, denominada «PSF La Rumbona», de 2,8 MW de potencia, en la localidad de Torredondo, en término municipal de Segovia, tras proyectarse modificaciones sustanciales respecto a la autorización administrativa previa inicial. Expte.: FV-496.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTFiJ9U2zuhwozU2FHB'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-20082025-4",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «PV LAN Zambrana III», y su reconocimiento de utilidad pública, en concreto, en los términos municipales de La Cistérniga y Valladolid. Expte.: FV-2691.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTGJka8Y6aoFZczhrdV'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250820-0",
+      "titulo_original": "Anuncio de 18 de julio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por el que se somete a trámite de audiencia e información pública la solicitud de autorización administrativa previa y aprobación del proyecto de construcci",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTGuCGBpgDJahv9Zhaf'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250820-0",
+      "titulo_original": "ANUNCIO de notificación a los titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de la gestión de la biomasa vegetal y de la retirada de especies arbóreas.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTHUwXLUxEj9JVMkUWy'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250820002",
+      "titulo_original": "ECONOMÍA Y JUSTICIA ORDEN PEJ/1012/2025, de 1 de agosto, por la que se reconoce, en concreto, la utilidad pública de la instalación: \"LAT La Custodia/Las Fuesas Sur-SET Magallón FV\", ubicada en los términos municipales de Pedrola y Pozuelo de Aragón (Zaragoza), promovida por la mercantil Duplexia Experts, SL. Expediente: DUP- Z-2024-0054 // AT-2020-248.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTJ42MVvGgkATHyPLhD'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250820003",
+      "titulo_original": "ORDEN PEJ/1013/2025, de 1 de agosto, por la que se reconoce, en concreto, la utilidad pública de la instalación: \"Línea aérea de alta tensión de la subestación eléctrica Canteras IV-V a la subestación eléctrica María Promotores, y subestación eléctrica Canteras IV-V\", ubicada en los términos municipales de Botorrita, Longares, María de Huerva, Mezalocha, Mozota, Muel, Tosos y Villanueva de Huerva,",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTJfXnpycoPkcjbqfo5'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250820013",
+      "boletin": "BOA",
+      "ccaa_boletin": "Aragón",
+      "fecha_publicacion": "20250820",
+      "titulo_original": "ANUNCIO del Servicio Provincial del Departamento de Presidencia, Economía y Justicia de Teruel, por el que se somete a información pública, la solicitud de autorización administrativa previa y de construcción, del proyecto \"PFV Rebusquillo y su infraestructura de evacuación\" de 1,125 MW, titular B10775682, Desarrollos de la Piñola, SL. (Expediente G-T-2023-030).",
+      "url": "",
+      "datos": {
+        "nombre_proyecto": "PFV Rebusquillo y su infraestructura de evacuación",
+        "numero_expediente_industria": "G-T-2023-030",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Desarrollos de la Piñola, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 1.125,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Teruel",
+        "comunidad_autonoma": "Aragón",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de planta fotovoltaica de 1.125 MW con infraestructura de evacuación. Sometido a información pública por el Servicio Provincial del Departamento de Presidencia, Economía y Justicia de Teruel. Titular: B10775682 (Desarrollos de la Piñola, SL).",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4369,
+        "output": 391
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOLR-20250820-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTKPuDgAEq4zfY2nAEx'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

@@ -1833,25 +1833,50 @@ class GenericHTMLScraper:
             logger.debug(f"{self.nombre} PDF: {e}")
             return []
 
-        items = []
-        dept  = ""
+        # Recomponer párrafos: las líneas del PDF se cortan con guion o siguen
+        # en la siguiente. Hay que juntar fragmentos en oraciones completas.
+        parrafos = []
+        buf = ""
         for line in text.split("\n"):
             line = line.strip()
             if not line:
+                if buf:
+                    parrafos.append(buf)
+                    buf = ""
                 continue
-            # Detectar consejería
+            # Detectar consejería/sección (sin unir al buffer)
             if (any(w in line for w in ["Consejería","Consejeria","Presidencia",
                                          "Dirección General","Servicio","Agencia"])
-                    and len(line) < 150):
-                dept = line
+                    and len(line) < 150 and not buf):
+                parrafos.append("__DEPT__" + line)
                 continue
-            # Detectar disposición relevante
-            if len(line) > 40 and es_relevante(line, departamento=dept):
+            # Si la línea anterior termina en guion, es continuación
+            if buf.endswith("-"):
+                buf = buf[:-1] + line   # unir sin espacio (guion de partición)
+            elif buf:
+                buf = buf + " " + line
+            else:
+                buf = line
+            # Si la línea termina en punto/corchete/cierra paréntesis = fin de frase
+            if line.endswith((".", "]", ")")) or re.search(r"\[\d+ págs?\.?\]$", line):
+                parrafos.append(buf)
+                buf = ""
+        if buf:
+            parrafos.append(buf)
+
+        items = []
+        dept  = ""
+        for parrafo in parrafos:
+            if parrafo.startswith("__DEPT__"):
+                dept = parrafo[8:]
+                continue
+            parrafo = parrafo.strip()
+            if len(parrafo) > 40 and es_relevante(parrafo, departamento=dept):
                 items.append({
                     "boletin": self.nombre, "ccaa": self.ccaa,
                     "id": f"{self.nombre}-{fecha}-{len(items)}",
                     "fecha": fecha, "departamento": dept,
-                    "titulo": line[:300], "url": "",
+                    "titulo": parrafo[:500], "url": "",
                     "url_pdf": url_pdf, "url_xml": "", "texto": ""
                 })
         return items

@@ -1,0 +1,129 @@
+{
+  "fecha": "20251230",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-27011",
+      "titulo_original": "Real Decreto 1190/2025, de 26 de diciembre, por el que se regulan los procedimientos nacionales relativos a la inscripción, modificación y anulación de las indicaciones geográficas de productos artesanales e industriales de ámbito territorial supraautonómico en el Registro de la Unión, así como determinados aspectos relativos a las mismas de conformidad con la normativa de la Unión Europea.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtGxqZRjVreaW2kE7K'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-27099",
+      "titulo_original": "Resolución de 17 de diciembre de 2025, de la Dirección General de Políticas contra la Despoblación, por la que se publica el Convenio con la Fundación Ciudad de la Energía-Ciuden, F.S.P., y la Comunidad Autónoma del Principado de Asturias, para el desarrollo del Centro de Innovación Territorial.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtHkxvr7kSoyPVtXkc'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251230-25",
+      "titulo_original": "Acuerdo de 23 de diciembre de 2025, del Consejo de Gobierno, por el que se aprueba el programa de apoyo a las policías locales de la Comunidad de Madrid para los años 2026 a 2029 y se autoriza el otorgamiento de la subvención por concesión directa para gastos de personal",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtJapgtZsTVyZhXXBB'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-1",
+      "titulo_original": "ORDEN MAV/1478/2025, de 19 de diciembre, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtKNSxHFkmDQcrpKgY'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-3",
+      "titulo_original": "ORDEN IEM/1493/2025, de 23 de diciembre, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtLBKCgeXt6ekehJmA'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-4",
+      "titulo_original": "ORDEN IEM/1494/2025, de 23 de diciembre, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtLySSUdQmAP223X8X'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-10",
+      "titulo_original": "ORDEN MAV/1479/2025, de 19 de diciembre, por la que se establecen las bases reguladoras relativas a las ayudas para la prevención de daños y selvicultura, contenidas en el marco del Plan Estratégico de la Política Agrícola Común de España para el periodo 2023-2027, y cofinanciadas por el Fondo Europeo Agrícola de Desarrollo Rural (FEADER).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtMrXCM71UGrTaDPWy'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-11",
+      "titulo_original": "EXTRACTO de la Resolución de 25 de diciembre de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan becas y ayudas para personas desempleadas que participen en la oferta formativa asociada al Catálogo Nacional de Cualificaciones Profesionales prevista en la Orden EFP/942/2022, de 23 de septiembre, para el año 2026.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtNn5dEfKwC2NA8tPk'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-12",
+      "titulo_original": "EXTRACTO de la Resolución de 25 de diciembre de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan becas y ayudas para personas desempleadas que participen en la oferta formativa prevista en la Orden TMS/368/2019, de 28 de marzo, para el año 2026.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtPheTcvPPYAJDFLXM'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-32",
+      "titulo_original": "RESOLUCIÓN de 19 de diciembre de 2025, de la Delegación Territorial de León, por la que se acuerda la prórroga de la vigencia del informe de impacto ambiental del proyecto de una planta de tratamiento y valorización de residuos orgánicos no peligrosos, promovido por «Reciclados Astorga, S.L.U.», en el término municipal de Santiago Millas (León). Expte.: I.A. 022/2019-24.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtbeEksbaRn2kLZd6d'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30122025-43",
+      "titulo_original": "INFORMACIÓN pública relativa a la ocupación temporal de terrenos en la vía pecuaria «Colada del Camino de Moraleja a Medina del Campo o de Trasierra», en el término municipal de Rubí de Bracamonte (Valladolid). Expte.: VA-VP-25856-O.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtciyUi1g9tdRFEKf4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1766144802544600090",
+      "titulo_original": "Medio Ambiente. Resolución de 17/12/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por la que se formula la declaración de impacto ambiental del proyecto denominado: Planta solar fotovoltaica FV de 1,06 MWp/0,90 MWn e infraestructura de evacuación (término municipal de F",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtdXbqAaYjnt8mYtFx'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251230017",
+      "titulo_original": "TERRITORIAL ORDEN FOM/1846/2025, de 23 de diciembre, por la que se aprueba inicialmente el Plan de Interés General de Aragón \"Green It Aragón\" en los términos municipales de Luceni, Pedrola, Plasencia de Jalón y Rueda de Jalón (Zaragoza) promovido por la mercantil Sociedad Anónima Minera Catalano Aragonesa y sus empresas filiales, Data Center Ribera Alta del Ebro, SL y Molinos del Ebro, SA.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNteRfnYKwEwkxLrnD3'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251230022",
+      "titulo_original": "TERRITORIAL ANUNCIO conjunto de la Dirección General de Planificación Estratégica y Logística y del Instituto Aragonés de Gestión Ambiental (INAGA), por la que se somete a información y participación pública el Plan de Interés General de Aragón \"Green IT Aragón\" en los términos municipales de Luceni, Rueda de Jalón, Plasencia de Jalón y Pedrola (Zaragoza) promovido por \"Sociedad Anónima Minera Cat",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtfmXuWjsggeijR4fL'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251230033",
+      "titulo_original": "ANUNCIO del Instituto Aragonés de Gestión Ambiental, por el que se pone en público conocimiento la tramitación del procedimiento administrativo de evaluación de impacto ambiental simplificada del proyecto de hibridación instalación fotovoltaica con baterías “San Miguel C Hibridación” a ubicar en polígono 212 parcelas 29 y 46 en el término municipal de Fuentes de Ebro (Zaragoza) (Número de Expedien",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNtgauDgvS1my5YRCK6'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251230-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNthPGV95R2HNJwEgVy'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

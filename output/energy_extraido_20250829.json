@@ -1,0 +1,272 @@
+{
+  "fecha": "20250829",
+  "total": 13,
+  "energeticos": 12,
+  "descartados": 1,
+  "exitosos": 4,
+  "errores": 8,
+  "tokens": {
+    "input": 29205,
+    "output": 2582
+  },
+  "coste_usd": 0.03369,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-17312",
+      "titulo_original": "Real Decreto 716/2025, de 26 de agosto, por el que se aprueban las directrices y criterios comunes de los planes anuales para la prevención, vigilancia y extinción de incendios forestales.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUoeoK4rSL9ZEDhdpN1'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250829-21",
+      "titulo_original": "Resolución de 17 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa y aprobación del proyecto de ejecución para la ampliación de la subestación denominada STR Navalagamella (ISE81) ubicada en la CTRA. M-521 Navalagamella-Quijorna, km 9,300 en el término municipal de Navalagamella, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U. Expediente: 2022P1089 - 14-0141-01089.7/2022",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUpEeGwMnkUHhRM9xTA'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250829-22",
+      "titulo_original": "Resolución de 29 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de la subestación de maniobra y reparto SMR Socimi-Hilanderas en calle Fundidores, número 40, en el término municipal de Getafe, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUppXUgnJyfJdYbrjwQ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250829-23",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20250829",
+      "titulo_original": "Resolución de 6 de agosto de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de 2 líneas de 132 kV en línea 132 kV de ST Melancólicos a ST Pozuelo, en los términos municipales de Madrid y Pozuelo de Alarcón, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "url": "https://www.bocm.es/bocm-20250829-23",
+      "datos": {
+        "nombre_proyecto": "Línea 132 kV ST Melancólicos - ST Pozuelo",
+        "numero_expediente_industria": "2019P902",
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+        "tecnologia": "LAT",
+        "potencia_mw": null,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [
+          "AAP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST Melancólicos - ST Pozuelo",
+        "tension_conexion_kv": 132,
+        "gestor_red": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+        "municipio": "Madrid, Pozuelo de Alarcón",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2025-08-06",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Línea de evacuación/distribución de 132 kV. Proyecto de mejora de infraestructura eléctrica compuesto por 2 tramos principales con subdivisiones. Presupuesto: 4.252.296,53 euros. Período de información pública de un mes desde publicación en BOCM. Expediente clasificado como mejora de infraestructura eléctrica, no como generación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6036,
+        "output": 463
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-29082025-2",
+      "titulo_original": "ORDEN IEM/971/2025, de 26 de agosto, de la Consejería de Industria, Comercio y Empleo, por la que se adoptan una serie de medidas en materia de subvenciones dirigidas a la promoción del empleo para contribuir al apoyo y recuperación de las zonas afectadas por los incendios forestales en el verano de 2025.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUqesLN1kKUQ4SHFPU4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29082025-3",
+      "titulo_original": "RESOLUCIÓN de 26 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Burgos, por la que se otorga autorización administrativa previa a la instalación de producción de energía eléctrica, mediante tecnología fotovoltaica hibridada con equipos de almacenamiento BESS denominada «El Picadero» y su infraestructura de evacuación, con conexión a la red de distribución instalada en estructura con seguidor a un eje, en el término municipal de Medina de Pomar (Burgos). Expte.: FVH 676.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUrD1McvXaCyqG2j8aX'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-29082025-4",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250829",
+      "titulo_original": "RESOLUCIÓN de 12 de junio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, relativa a la autorización administrativa previa y autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «IFV Tordesillas II», por modificación de las infraestructuras de evacuación, en el término municipal de Tordesillas (Valladolid). Expte.: FV-2583, ATCE-107.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/29/html/BOCYL-D-29082025-4.do",
+      "datos": {
+        "nombre_proyecto": "IFV Tordesillas II",
+        "numero_expediente_industria": "FV-2583, ATCE-107",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Parque Solar Piscis, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "ModAAP",
+          "ModAAC"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "i-DE Redes Eléctricas Inteligentes",
+        "municipio": "Tordesillas",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-06-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa previa y de construcción por modificación de infraestructuras de evacuación. La modificación fue necesaria debido a comunicación de la Demarcación de Carreteras del Estado sobre posible ampliación de la plataforma de la Autovía A-62, lo que afectaba las instalaciones proyectadas. Proyecto anteriormente autorizado mediante Resolución de 22/09/2023. Información pública realizada el 18/03/2025 con periodo de 20 días hábiles.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6309,
+        "output": 472
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-29082025-5",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250829",
+      "titulo_original": "RESOLUCIÓN de 12 de junio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, relativa a la autorización administrativa previa y autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «IFV Tordesillas III», por modificación de las infraestructuras de evacuación, en el término municipal de Tordesillas (Valladolid). Expte.: FV-2584; ATCE-108.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/29/html/BOCYL-D-29082025-5.do",
+      "datos": {
+        "nombre_proyecto": "IFV Tordesillas III",
+        "numero_expediente_industria": "FV-2584; ATCE-108",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Parque Solar Piscis, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAP_ModAAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "i-DE",
+        "municipio": "Tordesillas",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-06-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de una modificación de las infraestructuras de evacuación (trazado de línea de evacuación y reubicación del centro de seccionamiento) de una instalación ya autorizada previamente mediante Resolución de 22/09/2023. La modificación fue debida a comunicación de la Demarcación de Carreteras del Estado sobre posible ampliación de la plataforma de la Autovía A-62. Resolución otorga tanto la Autorización Administrativa Previa como la Autorización Administrativa de Construcción por modificación. El proyecto fue sometido a información pública por 20 días hábiles a partir de 18/03/2025. Se han recibido informes favorables del Ayuntamiento de Tordesillas e i-DE Redes Eléctricas Inteligentes. El promotor ha conformado todos los condicionantes establecidos.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6280,
+        "output": 526
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-29082025-7",
+      "titulo_original": "ORDEN MAV/959/2025, de 22 de agosto, por la que se extingue la autorización ambiental concedida a la planta para fabricación de clavos y grapas industriales, ubicada en el término municipal de Burgos, titularidad de «ITW España, S.L.U.». Expte.: 041-23-DEBU.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUsTAS292d1N9Jr6nxT'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250829-0",
+      "boletin": "BOJA",
+      "ccaa_boletin": "Andalucía",
+      "fecha_publicacion": "20250829",
+      "titulo_original": "Resolución de 1 de agosto de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por la que se concede, modificación de autorización administrativa previa y autorización administrativa de construcción y declaración en concreto de util",
+      "url": "https://www.juntadeandalucia.es/boja/2025/166/7",
+      "datos": {
+        "nombre_proyecto": "Proyecto Energético ModAAP Sevilla",
+        "numero_expediente_industria": "PP. 1737/2025",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Otro",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAP",
+        "permisos_adicionales": [
+          "AAC",
+          "DUP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2025-08-01",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que concede modificación de autorización administrativa previa (ModAAP), autorización administrativa de construcción (AAC) y declaración de utilidad pública (DUP) para infraestructura eléctrica de evacuación asociada a instalación de generación de energía eléctrica. El texto proporcionado contiene únicamente el encabezado y navegación web, sin detalles técnicos del proyecto (nombre, tecnología, potencia, ubicación específica, promotor).",
+        "confianza": 0.35,
+        "es_proyecto_energetico": true,
+        "_nombre_original": "de la Delegación Territorial de Economía"
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5558,
+        "output": 553
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20250829-0",
+      "titulo_original": "ANUNCIO de 5 de agosto de 2025 de procedimiento de requerimiento de gestión de la biomasa.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUu2kYiVLoVHXRhCiFm'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250829-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20250829",
+      "titulo_original": "ANUNCIO de notificación en materia de ejecución subsidiaria de gestión de la biomasa.",
+      "url": "https://www.xunta.gal/dog/Publicados/2025/20250829/AnuncioL254-080825-0002_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Ayuntamiento de Tomiño",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Tomiño",
+        "provincia": "Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2025-08-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación por ejecución subsidiaria de gestión de biomasa (limpieza de parcelas). No es un proyecto de generación energética ni aprovechamiento de biomasa para producción de energía. Se trata de un procedimiento administrativo de limpieza y gestión de residuos forestales en parcelas municipales.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5022,
+        "output": 568
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOLR-20250829-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUuviSWJqr4s5WnFBPZ'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

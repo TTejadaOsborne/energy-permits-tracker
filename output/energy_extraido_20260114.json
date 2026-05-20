@@ -1,0 +1,16 @@
+{
+  "fecha": "20260114",
+  "total": 0,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 4320,
+    "output": 358
+  },
+  "coste_usd": 0.00489,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": []
+}

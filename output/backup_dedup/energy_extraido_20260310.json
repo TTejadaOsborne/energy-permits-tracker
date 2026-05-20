@@ -1,0 +1,55 @@
+{
+  "fecha": "20260310",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 4320,
+    "output": 391
+  },
+  "coste_usd": 0.00502,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOLR-20260310-0",
+      "boletin": "BOLR",
+      "ccaa_boletin": "La Rioja",
+      "fecha_publicacion": "20260310",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "url": "https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=40449647-1-PDF-577383-X",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Raposeras",
+        "numero_expediente_industria": "BOLR-20260310-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Energías Alternativas Eólicas Riojanas, SL",
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "desistido",
+        "es_proyecto_fallido": true,
+        "motivo_fallo": "Desistimiento voluntario de la solicitud de autorización administrativa previa",
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "La Rioja",
+        "comunidad_autonoma": "La Rioja",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que acepta el desistimiento presentado por el promotor. Se trata de una repotenciación (ampliación/modernización) del parque eólico existente Raposeras. Expediente tramitado por la Dirección General de Política Energética y Minas de La Rioja.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4320,
+        "output": 391
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

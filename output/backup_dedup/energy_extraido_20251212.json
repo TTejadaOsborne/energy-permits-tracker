@@ -1,0 +1,129 @@
+{
+  "fecha": "20251212",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-25490",
+      "titulo_original": "Orden ITU/1435/2025, de 10 de diciembre, por la que se establecen las bases reguladoras para la concesión de ayudas mediante el programa de impulso de la cadena de valor industrial, CVI 2025, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMG5dqBnmozAKCZHr1f'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25492",
+      "titulo_original": "Resolución de 4 de diciembre de 2025, de la Confederación Hidrográfica del Guadiana, O.A., por la que se publica el Convenio con la Junta de Extremadura y la Diputación Provincial de Badajoz, para la financiación y ejecución de las obras contenidas en el proyecto de «Acondicionamiento y rehabilitación estructural de \"La Lanzadera\". Tramos: desde Guareña a Valdetorres a través del camino C-5 y desde el final de la C.P BA-142, entre la acequia XXVI-J a Santa Amalia».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMG6fM8ABuamf2SuQqU'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25493",
+      "titulo_original": "Resolución de 14 de noviembre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Energías Renovables Zednemen, SL, autorización administrativa previa de modificaciones y autorización administrativa de construcción para la instalación fotovoltaica Zednemen Fase II, de 95 MW de potencia instalada, y su infraestructura de evacuación, en Casarrubios del Monte (Toledo) y Fuenlabrada y Alcorcón (Madrid).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMG7TDir2erJX4BWz17'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251212-60",
+      "titulo_original": "Resolución de 24 de noviembre de 2025, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la reforma de una línea aérea de 20 kV en Cmo. Finca El Chicharrón, s/n, en el término municipal de El Escorial, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMG8i8N1MsTkGT3msXM'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251212-61",
+      "titulo_original": "Resolución de 25 de noviembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la modificación de la subestación Loeches 220 kV (RSE89) en Av. de la Constitución, número 55, en el término municipal de Loeches, solicitada por Red Eléctrica de España, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMG9dSotHsqZxT78YrX'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251212-62",
+      "titulo_original": "Acuerdo 99/2025, de 27 de noviembre, de la Comisión de Urbanismo de Madrid, relativo a la aprobación definitiva del Plan Especial de Infraestructuras para las Plantas Solares Fotovoltaicas “Calera”, “Vallejón” y líneas subterráneas de evacuación, en el término municipal de Cabanillas de la Sierra",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGAQKyHWovw1vXfU9y'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-12122025-9",
+      "titulo_original": "ORDEN MAV/1404/2025, de 4 de diciembre, por la que se modifica la Orden de 14 de febrero de 2011, de la Consejería de Medio Ambiente, por la que se concede autorización ambiental para la instalación de destilación de miera y síntesis de derivados de colofonia, ubicada en el término municipal de Coca (Segovia), titularidad de «Luresa Resinas, S.L.», como consecuencia de la modificación no sustancial 10 (MNS n.º 10). Expte.: 061-24-MNSSG.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGBDC3u4kf2SReExsZ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-12122025-12",
+      "titulo_original": "ORDEN MAV/1434/2025, de 11 de diciembre, por la que se declara la emergencia cinegética en la Comunidad de Castilla y León por jabalí (Sus scrofa) y sus hibridaciones para la prevención de la peste porcina africana.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGC1Zi7CKEQZTgabjr'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-12122025-24",
+      "titulo_original": "ANUNCIO de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por el que se hace pública la renovación de la inscripción en el Registro de Organizaciones adheridas al sistema comunitario de gestión y auditoría medioambientales en la Comunidad de Castilla y León a determinadas organizaciones.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGCogks9Sd1BG7QfRx'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1764836053886900024",
+      "titulo_original": "Ayudas y Subvenciones. Resolución de 03/12/2025 , de la Dirección General de Transición Energética, sobre concesión y desestimación de ayudas correspondientes al programa 4, a consecuencia de la resolución de recursos administrativos, correspondientes a programas de incentivos ligados al autoconsumo",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGDb4o1vkJngo7ykHW'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20251212-0",
+      "titulo_original": "Resolución de 27 de noviembre de 2025, de la Secretaría General Técnica, por la que se somete a audiencia e información pública el proyecto de Orden que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGEQBP1SewbXQbLiHf'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251212-0",
+      "titulo_original": "ACUERDO de 11 de noviembre de 2025, del Departamento Territorial de A Coruña, por el que se somete a información pública la solicitud de otorgamiento de las autorizaciones administrativas previa y de construcción de una instalación de almacenamiento de energía eléctrica mediante baterías y su infrae",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGFDJ1fPjSTVd7eGV2'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251212-1",
+      "titulo_original": "ANUNCIO de 14 de noviembre de 2025, del Servicio de Tramitación de Autorizaciones y Concesiones, por el que se publica la resolución por la que se autoriza la modificación de las características de la concesión otorgada para la instalación de un aprovechamiento hidroeléctrico reversible en el lago d",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGG9MUK8a4oMQ58LcE'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251212-2",
+      "titulo_original": "ANUNCIO del requerimiento del cumplimiento de las obligaciones en materia de gestión de la biomasa vegetal.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGH4fuH6eFErPY7DTD'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251212-3",
+      "titulo_original": "ANUNCIO de 20 de noviembre de 2025 de notificación del procedimiento de ejecución subsidiaria relativo a la gestión de la biomasa.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGJ5CK3q3VrPjXvxvM'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251212-4",
+      "titulo_original": "ANUNCIO de requerimiento de gestión de la biomasa y retirada de especies arbóreas prohibidas.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMGJt4cEiZ3jHCh3sLj'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

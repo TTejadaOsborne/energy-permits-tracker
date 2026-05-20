@@ -1,0 +1,279 @@
+{
+  "fecha": "20250826",
+  "total": 14,
+  "energeticos": 14,
+  "descartados": 0,
+  "exitosos": 5,
+  "errores": 9,
+  "tokens": {
+    "input": 28804,
+    "output": 2446
+  },
+  "coste_usd": 0.03283,
+  "alertas_capacidad_liberada": 1,
+  "mw_totales_liberados": 48.8,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-17154",
+      "titulo_original": "Orden TED/934/2025, de 1 de agosto, por la que se desarrolla el régimen jurídico de las entidades colaboradoras de la Administración hidráulica en materia de seguridad de presas y embalses.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDU72yANKA7ibEb2hy1U'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-17183",
+      "titulo_original": "Resolución de 24 de julio de 2025, de la Dirección General de Planificación y Coordinación Energética, por la que se autoriza la aprobación de tipo de aparato radiactivo de los equipos generadores de rayos X de la marca Wuxi Unicomp Technology Co., Ltd., modelos AX8200Max, CX3000 y CX7000L.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDU7cJsUC93DPfj9hQNi'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250826-19",
+      "titulo_original": "Resolución de 11 de agosto de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45 kV entre la subestación transformadora ST Villaverde y la futura SMR Socimi-Hilanderas, en los términos municipales de Getafe y Madrid, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDU8PQGQXbRGKfwsd1KU'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-9",
+      "titulo_original": "ORDEN IEM/951/2025, de 19 de agosto, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDU8thdnKUw2S5Qk7gZn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-14",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250826",
+      "titulo_original": "RESOLUCIÓN de 19 de agosto de 2025, del Servicio Territorial de Industria, Comercio y Economía de Soria, por la que se deniega la autorización administrativa previa y se declara el archivo del expediente del parque eólico híbrido con baterías «Serrezuela», en los términos municipales de San Pedro Manrique, Valdeprado, Cerbón, Fuentes de Magaña, Magaña, Valdelagua del Cerro y Trévago (Soria), titularidad de «Parque Eólico Serrezuela, S.L.U.».",
+      "url": "https://bocyl.jcyl.es/html/2025/08/26/html/BOCYL-D-26082025-14.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Híbrido Serrezuela",
+        "numero_expediente_industria": "SOR-AT-2021/XXXXX",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Parque Eólico Serrezuela, S.L.U.",
+        "tecnologia": "Eólica+BESS",
+        "potencia_mw": 48.8,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "denegado",
+        "es_proyecto_fallido": true,
+        "motivo_fallo": "Informe de la Dirección General de Patrimonio Natural y Política Forestal concluyó que el proyecto resulta inviable desde el punto de vista ambiental. Resolución de 19 de agosto de 2025 deniega la autorización administrativa previa y declara el archivo del expediente.",
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "REE",
+        "municipio": "San Pedro Manrique, Valdeprado, Cerbón, Fuentes de Magaña, Magaña, Valdelagua del Cerro, Trévago",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-08-19",
+        "capacidad_mw_liberada": 48.8,
+        "observaciones": "Proyecto híbrido de parque eólico con sistema de almacenamiento en baterías. El expediente fue presentado inicialmente por AMP Energía Eólica, S.L. el 5 de mayo de 2021. Se realizó cambio de titularidad a Parque Eólico Serrezuela, S.L.U. en octubre de 2023. Se sometió a información pública el 12 de marzo de 2024 (publicado en BOCyL el 22 de marzo de 2024). El informe ambiental de enero de 2025 de la Dirección General de Patrimonio Natural y Política Forestal declaró el proyecto inviable desde el punto de vista ambiental, lo que condujo a la denegación y archivo del expediente.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6393,
+        "output": 633
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26082025-16",
+      "titulo_original": "RESOLUCIÓN de 25 de agosto de 2025, del Director General de Patrimonio Natural y Política Forestal, por la que se declara situación de alerta para la Comunidad de Castilla y León y alarma extrema para los municipios del Anexo I por riesgo meteorológico de incendios forestales para los días 27 al 29 de agosto en la Comunidad Autónoma de Castilla y León.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUABgNNPAyqjBwZkvad'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-17",
+      "titulo_original": "ACUERDO de 29 de mayo de 2025, de la Comisión Territorial de Medio Ambiente y Urbanismo de León, por el que se aprueba definitivamente el plan parcial sector SUR-I-05, en la localidad de San Feliz de Torío del Ayuntamiento de Garrafe de Torío (León), promovido por la Junta Vecinal de San Feliz de Torío. Expte.: 2023-011.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUAt21kpDtgw6KVdBk5'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-23",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación eléctrica denominada «Hibridación con fotovoltaica parque eólico Becerril IIB», a ubicar en el término municipal de Villaumbrales (Palencia). Expte.: NIE 4530-H.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUBTQx7qKs3e1WYEBBa'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-24",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de ampliación del reconocimiento de utilidad pública, en concreto, de las instalaciones de evacuación de la instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Soto», en el término municipal de Tordesillas (Valladolid). Expte.: FV-2563 ATCE-82.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUByH43cypy39599X8h'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26082025-25",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250826",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización ambiental y al estudio de impacto ambiental del proyecto de una planta de valorización y tratamiento de residuos agroganaderos para la obtención de biometano y biofertilizantes, en el término municipal de Palacios de Goda (Ávila), promovido por «Greening Biomethane I, S.L.». Expte.: 014-24-AAÁV.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/26/html/BOCYL-D-26082025-25.do",
+      "datos": {
+        "nombre_proyecto": "Planta Biometano Palacios de Goda",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "014-24-AAÁV",
+        "promotor": "Greening Biomethane I, S.L.",
+        "tecnologia": "Biometano",
+        "potencia_mw": null,
+        "tipo_permiso": "AAI",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Palacios de Goda",
+        "provincia": "Ávila",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de valorización y tratamiento de residuos agroganaderos para obtención de biometano y biofertilizantes. Sometido a información pública por 30 días hábiles a partir de la publicación. Emplazamiento: Parcela 768 del Polígono 21. Actividad regulada bajo RD 815/2013 (emisiones industriales) - epígrafe 5.4 (valorización de residuos no peligrosos >75t/día). Incluido en Anexo II de Ley 21/2013 (evaluación ambiental). Tramitación conjunta de Autorización Ambiental Integrada y Estudio de Impacto Ambiental.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5892,
+        "output": 498
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26082025-26",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250826",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización ambiental y al estudio de impacto ambiental del proyecto de una planta de valorización de residuos para la producción de biometano y compost, en el término municipal de Cuéllar (Segovia), promovido por «Albio Cuéllar, S.L.». Expte.: 027-24-AASG.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/26/html/BOCYL-D-26082025-26.do",
+      "datos": {
+        "nombre_proyecto": "Planta De Valorización De Residuos Para Producción De Biometano Y Compost Cuéllar",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "027-24-AASG",
+        "promotor": "Albio Cuéllar, S.L.",
+        "tecnologia": "Biometano",
+        "potencia_mw": null,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [
+          "AAI"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Cuéllar",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta de valorización de residuos no peligrosos con capacidad superior a 75 t/día que incluye tratamiento biológico para producción de biometano y compost. Emplazamiento: Parcelas 67, 69, 71 y 75 del Polígono 28 de Cuéllar. Sometida a información pública por 30 días hábiles a partir de la publicación en BOCyL. Tramitación conjunta de Estudio de Impacto Ambiental (EsIA) y Autorización Ambiental Integrada (AAI) conforme a RD Legislativo 1/2016 y Ley 21/2013.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5845,
+        "output": 498
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26082025-27",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250826",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización ambiental y al estudio de impacto ambiental del proyecto de una planta de producción de biogás para su posterior purificación a biometano y compostaje, en el término municipal de Langa de Duero (Soria), promovido por «SPV BGR, I, S.L.». Expte.: 155-24-AASO.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/26/html/BOCYL-D-26082025-27.do",
+      "datos": {
+        "nombre_proyecto": "Planta de Producción de Biometano y Compostaje Langa de Duero",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "155-24-AASO",
+        "promotor": "SPV BGR, I, S.L.",
+        "tecnologia": "Biometano",
+        "potencia_mw": null,
+        "tipo_permiso": "AAI",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Langa de Duero",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta de producción de biogás para purificación a biometano y compostaje. Capacidad superior a 75 t/día de tratamiento biológico de residuos no peligrosos. Ubicada en parcelas 21, 21-B1, 21-B2 del Polígono 2. Sometida a información pública por 30 días hábiles desde la publicación en BOCyL. Requiere Autorización Ambiental Integrada (AAI) según RD Legislativo 1/2016 y Ley 21/2013.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5846,
+        "output": 459
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOJA-20250826-0",
+      "boletin": "BOJA",
+      "ccaa_boletin": "Andalucía",
+      "fecha_publicacion": "20250826",
+      "titulo_original": "Anuncio de 25 de julio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por el que se convoca para el levantamiento de actas previas a la ocupación de determinadas fincas afectadas por la construcción de las infraestructuras elé",
+      "url": "https://www.juntadeandalucia.es/boja/2025/163/16",
+      "datos": {
+        "nombre_proyecto": "Proyecto Energético LAP Sevilla (2)",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Otro",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "en_tramitacion",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2025-07-25",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de convocatoria para levantamiento de actas previas a la ocupación de fincas afectadas por construcción de infraestructuras eléctricas. Texto de acceso restringido tras más de 6 meses de publicación. No se dispone de información detallada sobre el proyecto específico (nombre, tecnología, ubicación, potencia, promotor).",
+        "confianza": 0.25,
+        "es_proyecto_energetico": true,
+        "_nombre_original": "de la Delegación Territorial de Economía"
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4828,
+        "output": 358
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOLR-20250826-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDUFxs7RuZvXCYhsDuBH'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

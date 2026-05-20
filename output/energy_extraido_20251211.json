@@ -1,0 +1,150 @@
+{
+  "fecha": "20251211",
+  "total": 19,
+  "energeticos": 19,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 19,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-25273",
+      "titulo_original": "Real Decreto 1132/2025, de 10 de diciembre, por el que se modifican el Real Decreto 1118/2021, de 21 de diciembre; el Real Decreto 449/2022, de 14 de junio; y el Real Decreto 1011/2022, de 5 de diciembre, por los que se regula la concesión directa de subvenciones destinadas a la financiación de las estrategias de resiliencia turística para territorios extrapeninsulares, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAfeoYhheZPXAkVa6u'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251211-39",
+      "titulo_original": "Extracto de la Orden 4841/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se amplía en 331.217 euros el crédito presupuestario disponible de la Orden 3524/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se hace pública la declaración del crédito presupuestario disponible en el ejercicio 2025 para financiar las ayudas a los municipios de la Comunidad de Madrid, de población igual o inferior a 2.500 habitantes, para la recogida y transporte de los residuos domésticos",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAhPjEHB6zdTeSk1FB'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251211-40",
+      "titulo_original": "Anuncio de 28 de noviembre de 2025, por el que se hace público el Acuerdo de 24 de noviembre de 2025, del Consejo de Administración del Consorcio Urbanístico “Leganés Norte”, de Leganés (Madrid), por el que se delegan competencias, se dejan sin efecto delegaciones adoptadas y se modifica la delegación de competencias previstas en los puntos tercero y cuarto del Acuerdo del Consejo de Administración de 17 de junio de 2025",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAiJJCaQyvuDMAuR4c'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251211-65",
+      "titulo_original": "Resolución de 27 de noviembre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público la Declaración Ambiental Estratégica de la Estrategia de Economía Circular de la Comunidad de Madrid 2025-2032.  (Expediente: 26-UB2-00165.2/2025, SIA 25/165)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAj6RP7bHQbKQzy1uc'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-31",
+      "titulo_original": "RESOLUCIÓN de 8 de octubre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Zamora, por la que se otorgan las autorizaciones administrativas previa y de construcción del proyecto de la planta solar fotovoltaica «PSFV Matarredonda 2», en el término municipal de Monfarracinos (Zamora). N.º planta: 9146.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAjv37uiZYo2Uk4LCS'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-32",
+      "titulo_original": "RESOLUCIÓN de 13 de noviembre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Zamora, por la que se otorgan las autorizaciones administrativas previa y de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega I», en el término municipal de Monfarracinos (Zamora). N.º planta: 961.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAky2uq7MQZevgG9Mn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-33",
+      "titulo_original": "RESOLUCIÓN de 14 de noviembre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Zamora, por la que se otorgan las autorizaciones administrativas previa y de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega II», en el término municipal de Monfarracinos (Zamora). N.º planta: 962.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAoNQAPL75DZ2Rehox'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-40",
+      "titulo_original": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de León, por la que se dicta el informe de impacto ambiental del proyecto de ampliación de una explotación de ganado vacuno de cebo de 532 hasta 1.100 plazas, promovido por «Ganadería La Barraca, S.L.», en Valdesandinas, en el término municipal de Villazala (León). Expte.: I.A. 017/2025-24.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMApDzkjLUXd2bBJWvS'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-41",
+      "titulo_original": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de León, por la que se dicta la declaración de impacto ambiental del proyecto de apertura de labores de la autorización de explotación para recursos de la sección a), arenas y gravas, denominada «La Cuesta», número 780, en el término municipal de Ardón (León), promovido por «Graveras Valencia, S.A.». Expte.: I.A. 27/2025-24.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAqKUe554HBVazcCbn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-42",
+      "titulo_original": "RESOLUCIÓN de 26 de noviembre de 2025, de la Delegación Territorial de Palencia, por la que se dicta el informe de impacto ambiental del proyecto de ejecución de la planta solar fotovoltaica denominada «Ángeles Energy» y sus infraestructuras de evacuación, en el término municipal de Magaz de Pisuerga (Palencia), promovido por «Bembros PV-1, S.L.». Expte.: EIAS/2025/PA/003.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAr9LVb5roSBB6YUo5'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-49",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de una instalación denominada «Proyecto de ampliación subestación Zaratán 220 kV», en el término municipal de Zaratán (Valladolid). Expte.: AT-51710 ATSB-125.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMArxCoukqx2zSJHska'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11122025-51",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto de la planta solar fotovoltaica «Arrives FV», así como las instalaciones de evacuación, en los términos municipales de Cubillos y Monfarracinos (Zamora). Expte.: Energía: 231210. N.º planta: 9161.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAskKvM618xoU9doJf'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251211-0",
+      "titulo_original": "ANUNCIO de notificación de ejecución subsidiaria de gestión de la biomasa y retirada de especies árboreas.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAtXTTSLg1iE3CnKE2'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251211-1",
+      "titulo_original": "ANUNCIO de notificación a titulares desconocidos o con notificación infructuosa del requerimiento para recordar el cumplimento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAuL5LNiwtYnUV2PJm'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251211033",
+      "titulo_original": "ECONOMÍA Y JUSTICIA RESOLUCIÓN de 30 de julio de 2025, de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación del parque eólico \"Arbequina\" en los términos municipales de Belchite (Zaragoza) y Vinaceite (Teruel).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAv7TFRYRhuMgLxThh'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251211034",
+      "titulo_original": "RESOLUCIÓN de 31 de julio de 2025, de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación del parque eólico \"Bonastre 1\" en los términos municipales de Quinto (Zaragoza) y Azaila (Teruel).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAvvpdJ2LXnujwWJLZ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251211035",
+      "titulo_original": "RESOLUCIÓN de 24 de octubre de 2025, de la Directora General de Energía y Minas, por la que se otorga la autorización administrativa previa y autorización de construcción de la modificación del parque eólico “Henar III” en el término municipal de Tosos (Zaragoza).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAwnQkjFEU6RdgGcUQ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251211036",
+      "titulo_original": "RESOLUCIÓN de 28 de octubre de 2025, de la Directora General de Energía y Minas, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación del parque eólico “Los Borjas II” en los términos municipales de Bulbuente, Vera de Moncayo y Tarazona (Zaragoza).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAxaYBuzVRQss8K4Fz'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251211-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMAydnjFDKGHFr68ZYd'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

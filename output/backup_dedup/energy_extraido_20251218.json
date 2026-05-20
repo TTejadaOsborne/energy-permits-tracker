@@ -1,0 +1,213 @@
+{
+  "fecha": "20251218",
+  "total": 28,
+  "energeticos": 28,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 28,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-25989",
+      "titulo_original": "Orden TED/1477/2025, de 17 de diciembre, por la que se aprueban las bases reguladoras del programa de incentivos a la instalación de infraestructura de recarga de acceso público de vehículos eléctricos ligeros en España (Programa MOVES Corredores de Recarga), en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-Next GenerationEU.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7jxJFNizR5wy7uXKq'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25990",
+      "titulo_original": "Orden TED/1478/2025, de 17 de diciembre, por la que se establecen las bases reguladoras del programa de incentivos a proyectos de electrificación de flotas de vehículos ligeros (Programa MOVES Flotas Plus), en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-NextGenerationEU.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7kuMCWf4x6nwKbgbC'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25991",
+      "titulo_original": "Resolución de 10 de diciembre de 2025, de la Dirección General de Políticas contra la Despoblación, por la que se publica el Convenio con la Diputación Provincial de Burgos, para el desarrollo del Centro de Innovación Territorial.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7mmScTofBmBDnhKt9'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25992",
+      "titulo_original": "Resolución de 13 de noviembre de 2025, de la Dirección General de Planificación y Coordinación Energética, por la que se autoriza la aprobación de tipo de aparato radiactivo de los equipos generadores de radiaciones ionizantes de la marca Gilardoni modelo Radgil2.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7oRAMgB2WLpn3h5G7'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25993",
+      "titulo_original": "Resolución de 24 de noviembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Línea aérea de transporte de energía eléctrica, de doble circuito a 400 kV, Carmona-Villanueva del Rey, subestación Villanueva del Rey (Écija) y ampliación de la subestación de Carmona a 400 kV».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7pKEe4EKg9XkcuZpZ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25994",
+      "titulo_original": "Resolución de 25 de noviembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta eólica El Cerrate, de 69,84 MW, y sus infraestructuras de evacuación, en la provincia de Burgos».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7qDZGxTDGMehPLy35'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25995",
+      "titulo_original": "Resolución de 17 de octubre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Baylio Solar, SLU, autorización administrativa previa para el módulo de almacenamiento «Zurbarán», de 17,50 MW de potencia instalada, para su hibridación con el parque fotovoltaico existente «FV Zurbarán», de 38,948 MW de potencia instalada, y para su infraestructura de evacuación, en Logrosán (Cáceres).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7r97t69vmNCWTzTRu'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25996",
+      "titulo_original": "Resolución de 17 de octubre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Furatena Solar 1, SLU, autorización administrativa previa para el módulo de almacenamiento «Quijote», de 38,5 MW de potencia instalada, para su hibridación con el parque fotovoltaico existente «FV Quijote», de 38,948 MW de potencia instalada, y para parte de su infraestructura de evacuación, en Logrosán (Cáceres).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7sAPHk2Bwpos74Wbo'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25997",
+      "titulo_original": "Resolución de 12 de noviembre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Enel Green Power España Solar 1, SLU, autorización administrativa previa para el módulo de almacenamiento «Apicio», de 38,5 MW de potencia instalada, y sus infraestructuras de evacuación, para su hibridación con el módulo solar fotovoltaico existente «FV Apicio», de 42,25 MW de potencia instalada, conformando una instalación híbrida de 50 MW de potencia instalada, en Fregenal de la Sierra (Badajoz).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7t1jXsYJ7Ns5SeadN'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25998",
+      "titulo_original": "Resolución de 14 de noviembre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Energías Renovables Zednemen, SL, autorización administrativa previa de modificaciones y autorización administrativa de construcción para la instalación fotovoltaica Zednemen, de 43,23 MW de potencia instalada, y su infraestructura de evacuación, en Casarrubios del Monte (Toledo).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7tt57t6EPZsPe1MdV'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25999",
+      "titulo_original": "Resolución de 25 de noviembre de 2025, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 17 de octubre de 2025, por la que se desestima la solicitud de Envatios Promoción XXIII, SL, de autorización administrativa previa de modificaciones y autorización administrativa de construcción de la instalación fotovoltaica Envatios XXIII, de 242,35 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Toledo y Madrid.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7ugh869pLsqMAwASn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-26000",
+      "titulo_original": "Resolución de 3 de diciembre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Seomaei Solar Jónico, SL, autorización administrativa previa para la instalación fotovoltaica La Mota, de 100,8 MW de potencia instalada, y sus infraestructuras de evacuación, en Medina del Campo, Rueda y Villaverde de Medina (Valladolid).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7vWYuyp4Pdcj8HVoS'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-32",
+      "titulo_original": "Orden 4828/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID de los precios comunicados por la entidad privada colaboradora urbanística Licencias y Certificaciones de Madrid, S. L., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7wkDPonYMgkGxdejk'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-33",
+      "titulo_original": "Orden 4829/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID de los precios comunicados por la entidad privada colaboradora urbanística Enmacosa Consultoría Técnica, S. A., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7xpxBWc1WNBJjCUZ9'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-34",
+      "titulo_original": "Orden 4830/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID, de los precios comunicados por la entidad privada colaboradora urbanística AB-EIC Control Reglamentario, S. L., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7yi2wNQLyM5XCMgvt'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-35",
+      "titulo_original": "Orden 4831/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID de los precios comunicados por la entidad privada colaboradora urbanística SCI Servicios de Control e Inspección, S. A., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN7zX9jhKhVNXzQs2ye'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-36",
+      "titulo_original": "Orden 4832/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID, de los precios comunicados por la entidad privada colaboradora urbanística Ecium Entidad Colaboradora Urbanística, S. L., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN81NFJDyBRAkNBw5y5'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-37",
+      "titulo_original": "Orden 4833/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se dispone la publicación en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID, de los precios comunicados por la entidad privada colaboradora urbanística Deklara Obras y Actividades, S. L., a percibir por el ejercicio de sus funciones en el año 2026",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN82BcHERaJm2d7GEDS'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-38",
+      "titulo_original": "Orden 4933/2025, de 5 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se aprueba la “Estrategia de Seguridad Integral en la Comunidad de Madrid (ESICAM179) para los años 2026 a 2029”",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8975o8MKat6BrodRR'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-49",
+      "titulo_original": "Resolución de 24 de noviembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la modificación de la subestación ST Ardoz Nueva (04ISE006) en calle Marie Curie, número 3, en el término municipal de Torrejón de Ardoz, solicitada por I-De Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8AwTptULYoodhWiWN'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-50",
+      "titulo_original": "Resolución de 24 de noviembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública para la instalación de dos líneas eléctricas de 20 kV en avenida Buenos Aires, s/n, en el término municipal de Collado Mediano, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8BjLe5PA76Bg67mj4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-51",
+      "titulo_original": "Resolución de 28 de noviembre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el cambio de titularidad de la Autorización Ambiental Integrada otorgada a La Casa de la Carne, S. A. U., para una instalación de “sacrificio de ganado”, sita en el término municipal de Getafe, a favor de Embutidos Carracedo Llamas, S. L. (Expediente: 26-IPPC-00028.3/2025)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8CcRLhZNTRmwcqjGj'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-53",
+      "titulo_original": "Resolución de 2 de diciembre de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de una línea subterránea de 45 kV ubicada en la ST Valdemoro-LAT 45 kV derivación 1/Valdemoro en el término municipal de Valdemoro, solicitado por UFD distribución electricidad, S. A. Número expediente: 2023P769 - 14-0141-00769.8/2023",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8DQoEkLddkWYUE5Zp'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251218-54",
+      "titulo_original": "Resolución de 2 de diciembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea mixta de 220 kV en el PL UZP0203 Los Ahijones 7062 en el término municipal de Madrid, solicitada por Red Eléctrica de España, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8EDfU3Mud8iiGqBPc'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-18122025-17",
+      "titulo_original": "ANUNCIO de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por el que se hace pública la aprobación del plan de acción en materia de contaminación acústica del término municipal de Salamanca, de la cuarta fase de aplicación de la Directiva sobre evaluación y gestión del ruido ambiental.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8F2XSHjqbWxe5u57M'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-18122025-18",
+      "titulo_original": "INFORMACIÓN pública relativa a la ocupación temporal de terrenos en la vía pecuaria «Cordel de Madrid a La Coruña», en el término municipal de Medina del Campo (Valladolid). Expte.: VA-VP-25978-O.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8Fr9BqZmpJQQwoZZW'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251218022",
+      "titulo_original": "ECONOMÍA Y JUSTICIA ANUNCIO del Servicio Provincial del Departamento de Presidencia, Economía y Justicia de Teruel, por el que se somete a información pública, la solicitud de autorización administrativa previa y de construcción de ampliación de la planta fotovoltaica “Fertinagro Tecnos Maxima” de autoconsumo con excedentes, de 1,575 MW a 2,25 MW, ubicada en el término municipal de Sarrión, en la ",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8GeWbMhdM7awjfauQ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251218-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCN8HReC6pjVzUTxojp8'}",
+      "estado_validacion": "error"
+    }
+  ]
+}
