@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/energy_raw_*.json
+data/enriched_*.json
+logs/
+*.xlsx
+sets_capacity.json
+projects.json
+projects_data.js
+credentials.json
+token.json
