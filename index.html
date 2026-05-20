@@ -1524,7 +1524,23 @@ function loadSetsHistory(){
   _setsHistPromise = (async function(){
     try {
       const r = await fetch('sets_history.json');
-      if(r.ok){ SETS_HISTORY = await r.json(); }
+      if(r.ok){
+        const raw = await r.json();
+        if(raw._v === 2){
+          // Array format: [date, cap_gen, cap_gen_ocup, cap_gen_tram, cap_dem, cap_dem_ocup, cap_dem_tram, acept]
+          const parsed = {};
+          Object.keys(raw).forEach(function(k){
+            if(k==='_v') return;
+            parsed[k] = raw[k].map(function(a){
+              return {date:a[0],cap_gen:a[1],cap_gen_ocup:a[2],cap_gen_tram:a[3],
+                      cap_dem:a[4],cap_dem_ocup:a[5],cap_dem_tram:a[6],acept:a[7]};
+            });
+          });
+          SETS_HISTORY = parsed;
+        } else {
+          SETS_HISTORY = raw;
+        }
+      }
     } catch(e) { console.warn('sets_history load failed:', e); }
   })();
   return _setsHistPromise;
@@ -3171,7 +3187,8 @@ function openSetDetail(key){
     // Full-screen panel: no pan offset
   }
 
-  // History — preloaded at startup; render immediately (shows spinner if still loading)
+  // History — lazy load; spinner shown while fetching, re-renders on completion
+  loadSetsHistory().then(function(){ renderHistoryChart(key); });
   renderHistoryChart(key);
 
   // Forecast section
@@ -3536,7 +3553,6 @@ if(!CONFIG.AUTH.enabled || sessionStorage.getItem(CONFIG.AUTH.session_key)){
   setTimeout(()=>{ const el=document.getElementById('login-pwd'); if(el) el.focus(); }, 100);
 }
 loadSetsCapacity();
-loadSetsHistory();  // preload 8.5MB history in background
 // ── PROYECTOS ────────────────────────────────────────────────
 let PROJECTS_DATA = null;
 let PRJ_SORT_KEY = 'fecha_ultima', PRJ_SORT_ASC = false;
