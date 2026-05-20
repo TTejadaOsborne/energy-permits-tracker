@@ -3171,8 +3171,7 @@ function openSetDetail(key){
     // Full-screen panel: no pan offset
   }
 
-  // History (lazy load + render)
-  loadSetsHistory().then(function(){ renderHistoryChart(key); });
+  // History — preloaded at startup; render immediately (shows spinner if still loading)
   renderHistoryChart(key);
 
   // Forecast section
@@ -3298,7 +3297,15 @@ function renderHistoryChart(key){
   var periodEl = document.getElementById('sdp-hist-period');
   if(!svg) return;
 
-  if(!SETS_HISTORY || !SETS_HISTORY[key] || !SETS_HISTORY[key].length){
+  if(!SETS_HISTORY){
+    // Still loading — show spinner text and re-render when ready
+    svg.setAttribute('viewBox','0 0 620 60');
+    svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.35)" font-family="IBM Plex Mono,monospace">Cargando datos históricos…</text>';
+    if(periodEl) periodEl.textContent = '';
+    loadSetsHistory().then(function(){ renderHistoryChart(key); });
+    return;
+  }
+  if(!SETS_HISTORY[key] || !SETS_HISTORY[key].length){
     svg.setAttribute('viewBox','0 0 620 60');
     svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.25)" font-family="IBM Plex Mono,monospace">Sin datos históricos disponibles</text>';
     if(periodEl) periodEl.textContent = '';
@@ -3529,6 +3536,7 @@ if(!CONFIG.AUTH.enabled || sessionStorage.getItem(CONFIG.AUTH.session_key)){
   setTimeout(()=>{ const el=document.getElementById('login-pwd'); if(el) el.focus(); }, 100);
 }
 loadSetsCapacity();
+loadSetsHistory();  // preload 8.5MB history in background
 // ── PROYECTOS ────────────────────────────────────────────────
 let PROJECTS_DATA = null;
 let PRJ_SORT_KEY = 'fecha_ultima', PRJ_SORT_ASC = false;
