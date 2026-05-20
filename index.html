@@ -1884,11 +1884,15 @@ function updateSidebar(){
 // ── VISTAS ───────────────────────────────────────────────────────────────────
 function navigateToProject(nombre){
   // Cierra modal, va a Proyectos y filtra por nombre
+  // Normaliza: quita prefijos genéricos, reemplaza guiones por espacios
+  var q = nombre.replace(/[-_]/g,' ').replace(/\s+/g,' ').trim();
+  // Quitar prefijo tecnológico corto si quedan >=2 palabras (FV → "", PFV → "", etc.)
+  q = q.replace(/^(planta solar fotovoltaica|parque fotovoltaico|parque eólico|instalación fotovoltaica|pfv|pf|fv)\s+/i, '').trim() || q;
   document.getElementById("modal").classList.remove("open");
   setView("proyectos");
   setTimeout(function(){
     var inp = document.getElementById("prj-search");
-    if(inp){ inp.value = nombre; }
+    if(inp){ inp.value = q; }
     renderProyectos();
   }, 200);
 }
@@ -3437,8 +3441,9 @@ function renderProyectos(){
     if(fProv.size  && !fProv.has(p.provincia))    return false;
     if(fMulti && p.n_publicaciones < 2)           return false;
     if(q){
-      var hay = [p.nombre,p.promotor,p.provincia,p.municipio,...(p.expedientes||[])].filter(Boolean).join(' ').toLowerCase();
-      if(!hay.includes(q)) return false;
+      var normQ = q.replace(/[-_]/g,' ').replace(/\s+/g,' ').trim();
+      var hay = [p.nombre,p.promotor,p.provincia,p.municipio,...(p.expedientes||[])].filter(Boolean).join(' ').toLowerCase().replace(/[-_]/g,' ');
+      if(!hay.includes(normQ)) return false;
     }
     return true;
   });
