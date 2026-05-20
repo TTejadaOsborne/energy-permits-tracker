@@ -60,7 +60,7 @@ body{font-family:'Inter',sans-serif;background:#f5f0e8;color:#1a1a18;font-size:1
 
 /* ── SIDEBAR ── */
 .sidebar{
-  width:64px;min-width:64px;
+  width:76px;min-width:76px;
   background:#fff;
   border-right:1px solid rgba(26,26,24,.1);
   display:flex;flex-direction:column;align-items:center;
@@ -615,6 +615,89 @@ z-index:1199;
 .prj-detail-meta span b{color:#1a1a18;font-weight:500}
 .prj-expand-icon{transition:transform .2s;display:inline-block;font-size:10px;color:rgba(26,26,24,.3)}
 .prj-row.expanded .prj-expand-icon{transform:rotate(90deg)}
+
+/* ── Vista Oportunidades ──────────────────────────────────── */
+#view-oportunidades{display:none;flex-direction:column;height:100%;overflow:hidden}
+.oport-kpis{display:flex;gap:10px;padding:14px 20px;border-bottom:1px solid rgba(26,26,24,.08);flex-shrink:0;flex-wrap:wrap;align-items:stretch}
+.oport-kpi-card{display:flex;flex-direction:column;gap:4px;min-width:130px;background:#fff;border:1px solid rgba(26,26,24,.08);border-radius:10px;padding:10px 14px;flex:1;max-width:200px;position:relative;overflow:hidden}
+.oport-kpi-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--kpi-accent,#c9a84c);border-radius:3px 0 0 3px}
+.oport-kpi-card.green::before{--kpi-accent:#22c55e}
+.oport-kpi-card.amber::before{--kpi-accent:#f59e0b}
+.oport-kpi-card.blue::before{--kpi-accent:#3b82f6}
+.oport-kpi-icon{font-size:18px;line-height:1;margin-bottom:2px}
+.oport-kpi-val{font-size:26px;font-weight:700;color:#1a1a18;font-family:'IBM Plex Mono',monospace;letter-spacing:-.04em;line-height:1}
+.oport-kpi-val.green{color:#16a34a}
+.oport-kpi-val.amber{color:#b45309}
+.oport-kpi-val.blue{color:#1d4ed8}
+.oport-kpi-lbl{font-size:11px;font-weight:500;color:#1a1a18;line-height:1.2}
+.oport-kpi-sub{font-size:10px;color:rgba(26,26,24,.4);margin-top:1px}
+.oport-qdist{display:flex;gap:0;height:6px;border-radius:4px;overflow:hidden;margin-top:6px;width:100%}
+.oport-qdist-seg{height:100%;transition:flex .3s}
+.oport-sort{font-size:9px;color:rgba(26,26,24,.25);margin-left:2px}
+.oport-estado-enc{display:inline-block;padding:2px 8px;border-radius:3px;font-size:9.5px;font-weight:700;background:#dcfce7;color:#166534;font-family:'IBM Plex Mono',monospace}
+.oport-estado-prox{display:inline-block;padding:2px 8px;border-radius:3px;font-size:9.5px;font-weight:600;background:rgba(201,168,76,.15);color:#7a5c1a;font-family:'IBM Plex Mono',monospace}
+.oport-conf-bar-wrap{display:inline-flex;align-items:center;gap:5px;vertical-align:middle}
+.oport-conf-bar{height:5px;border-radius:3px;background:linear-gradient(90deg,#f59e0b,#22c55e)}
+.sdp-forecast-section{margin-top:20px;padding-top:16px;border-top:1px solid rgba(26,26,24,.08)}
+.sdp-forecast-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:#1a1a18;margin-bottom:10px;letter-spacing:-.02em}
+.sdp-forecast-card{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.sdp-fc-item{display:flex;flex-direction:column;gap:2px}
+.sdp-fc-label{font-size:9.5px;color:rgba(26,26,24,.4);text-transform:uppercase;letter-spacing:.06em;font-family:'IBM Plex Mono',monospace}
+.sdp-fc-value{font-size:13px;font-weight:600;color:#1a1a18}
+
+/* SET link chip */
+.set-name-link{font-weight:600;color:#1a1a18;cursor:pointer;border-bottom:1.5px dashed rgba(201,168,76,.6);transition:color .12s,border-color .12s}
+.set-name-link:hover{color:#7a5c1a;border-bottom-color:#c9a84c}
+.oport-set-cap-box{background:#fafaf8;border:1px solid rgba(26,26,24,.1);border-radius:10px;padding:14px 16px}
+.oport-cap-kpis{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:2px}
+.oport-cap-kpi{display:flex;flex-direction:column;align-items:center;background:#fff;border:1px solid rgba(26,26,24,.08);border-radius:8px;padding:8px 14px;min-width:72px}
+.oport-cap-kpi-val{font-family:'IBM Plex Mono',monospace;font-size:16px;font-weight:700;line-height:1;margin-bottom:3px}
+.oport-cap-kpi-lbl{font-size:9px;color:rgba(26,26,24,.45);text-align:center;text-transform:uppercase;letter-spacing:.05em}
+.set-link-chip{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:10px;
+  font-size:10px;font-weight:500;background:rgba(201,168,76,.12);color:#7a5c1a;
+  border:1px solid rgba(201,168,76,.25);cursor:pointer;white-space:nowrap;
+  text-decoration:none;font-family:'Inter',sans-serif;line-height:1.4;vertical-align:middle;margin-left:4px}
+.set-link-chip:hover{background:rgba(201,168,76,.22);border-color:rgba(201,168,76,.5)}
+/* Oport modal publication cards */
+.oport-pub-card{display:flex;gap:10px;padding:8px 10px;border-radius:7px;
+  background:#fafaf8;border:1px solid rgba(26,26,24,.07);margin-bottom:6px}
+.oport-pub-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.oport-pub-date{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.45);min-width:75px}
+.oport-pub-tipo{font-size:9.5px;padding:1px 6px;border-radius:3px;
+  background:rgba(26,26,24,.07);font-family:'IBM Plex Mono',monospace;white-space:nowrap}
+.oport-pub-estado{font-size:9.5px;padding:1px 6px;border-radius:3px;font-weight:600;white-space:nowrap}
+.oport-pub-nombre{font-size:11px;color:rgba(26,26,24,.65);line-height:1.35}
+.oport-pub-card.adverse{background:rgba(239,68,68,.04);border-color:rgba(239,68,68,.18)}
+/* Lag SVG timeline */
+.oport-lag-wrap{background:#fafaf8;border:1px solid rgba(26,26,24,.08);border-radius:8px;padding:14px 16px}
+.oport-lag-labels{display:flex;justify-content:space-between;margin-top:6px;
+  font-size:9.5px;font-family:'IBM Plex Mono',monospace;color:rgba(26,26,24,.45)}
+
+/* Oportunidades detail modal */
+.oport-modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:4000;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .18s}
+.oport-modal-bg.open{opacity:1;pointer-events:all}
+.oport-modal{background:#fff;border-radius:14px;width:min(680px,95vw);max-height:85vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.18)}
+.oport-modal-hdr{padding:18px 22px 14px;border-bottom:1px solid rgba(26,26,24,.08);display:flex;align-items:flex-start;justify-content:space-between;flex-shrink:0}
+.oport-modal-title{font-size:16px;font-weight:700;color:#1a1a18;letter-spacing:-.02em;line-height:1.2}
+.oport-modal-sub{font-size:11px;color:rgba(26,26,24,.45);font-family:'IBM Plex Mono',monospace;margin-top:3px}
+.oport-modal-close{background:none;border:none;cursor:pointer;font-size:17px;color:rgba(26,26,24,.35);padding:2px 6px;border-radius:6px;line-height:1}
+.oport-modal-close:hover{background:rgba(26,26,24,.06);color:#1a1a18}
+.oport-modal-body{flex:1;overflow-y:auto;padding:18px 22px;display:flex;flex-direction:column;gap:18px}
+.oport-section-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:rgba(26,26,24,.4);margin-bottom:8px;font-family:'IBM Plex Mono',monospace}
+.oport-explain-box{background:#fafaf8;border:1px solid rgba(26,26,24,.08);border-radius:8px;padding:14px;font-size:12px;line-height:1.6;color:#1a1a18}
+.oport-explain-box strong{color:#1a1a18;font-weight:600}
+.oport-timeline{display:flex;flex-direction:column;gap:0;position:relative;padding-left:18px}
+.oport-timeline::before{content:'';position:absolute;left:5px;top:6px;bottom:6px;width:1.5px;background:rgba(26,26,24,.1)}
+.oport-tl-item{display:flex;align-items:center;gap:10px;padding:4px 0;position:relative}
+.oport-tl-dot{width:11px;height:11px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1.5px rgba(26,26,24,.2);position:absolute;left:-18px;flex-shrink:0;background:#3b82f6}
+.oport-tl-dot.enc{background:#22c55e;box-shadow:0 0 0 1.5px #16a34a}
+.oport-tl-date{font-family:'IBM Plex Mono',monospace;font-size:11px;color:rgba(26,26,24,.5);min-width:82px}
+.oport-tl-delta{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#1a1a18}
+.oport-tl-q{font-size:10px;padding:1px 6px;border-radius:3px;background:rgba(201,168,76,.12);color:#7a5c1a;font-family:'IBM Plex Mono',monospace}
+.oport-window-box{background:rgba(201,168,76,.07);border:1px solid rgba(201,168,76,.25);border-radius:8px;padding:14px 16px;display:flex;flex-wrap:wrap;gap:14px}
+.oport-w-item{display:flex;flex-direction:column;gap:2px}
+.oport-w-label{font-size:9.5px;color:rgba(26,26,24,.4);text-transform:uppercase;letter-spacing:.06em;font-family:'IBM Plex Mono',monospace}
+.oport-w-value{font-size:13px;font-weight:600;color:#1a1a18}
 </style>
 </head>
 <body>
@@ -668,6 +751,10 @@ const CONFIG = {
       <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span>
       <span class="nav-label-sm">Proyectos</span>
       <span id="cnt-proyectos" style="display:none"></span>
+    </div>
+    <div class="nav-item" onclick="setView('oportunidades')" title="Afloramiento de capacidad" id="nav-oportunidades">
+      <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
+      <span class="nav-label-sm">Afloramiento</span>
     </div>
   </nav>
 
@@ -1105,6 +1192,34 @@ const CONFIG = {
         </div>
       </div>
 
+      <!-- Pronóstico de liberación de capacidad -->
+      <div class="sdp-forecast-section" id="sdp-forecast-section" style="display:none">
+        <div class="sdp-forecast-title">Pronóstico de liberación <span id="sdp-fc-conf-badge" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif"></span></div>
+        <div class="sdp-forecast-card">
+          <div class="sdp-fc-item">
+            <div class="sdp-fc-label">Patrón detectado</div>
+            <div class="sdp-fc-value" id="sdp-fc-patron">—</div>
+          </div>
+          <div class="sdp-fc-item">
+            <div class="sdp-fc-label">Próxima ventana</div>
+            <div class="sdp-fc-value" id="sdp-fc-ventana">—</div>
+          </div>
+          <div class="sdp-fc-item">
+            <div class="sdp-fc-label">Estado</div>
+            <div class="sdp-fc-value" id="sdp-fc-estado">—</div>
+          </div>
+          <div class="sdp-fc-item">
+            <div class="sdp-fc-label">MW medio hist.</div>
+            <div class="sdp-fc-value" id="sdp-fc-mw">—</div>
+          </div>
+          <div class="sdp-fc-item">
+            <div class="sdp-fc-label">Confianza</div>
+            <div class="sdp-fc-value" id="sdp-fc-conf">—</div>
+          </div>
+        </div>
+        <div style="margin-top:8px;font-size:10px;color:rgba(26,26,24,.35);font-family:'IBM Plex Mono',monospace" id="sdp-fc-hist">—</div>
+      </div>
+
       </div><!-- /sdp-right-pane -->
     </div><!-- /sdp-body2 -->
   </div><!-- /set-detail-panel -->
@@ -1153,6 +1268,7 @@ const CONFIG = {
           <th onclick="prjSort('potencia_mw')">MW <span id="prj-si-mw">⇅</span></th>
           <th onclick="prjSort('promotor')">Promotor <span id="prj-si-prom">⇅</span></th>
           <th onclick="prjSort('provincia')">Provincia <span id="prj-si-prov">⇅</span></th>
+          <th onclick="prjSort('subestacion')" title="Subestación">SET <span id="prj-si-set">⇅</span></th>
           <th onclick="prjSort('estado_actual')">Estado actual <span id="prj-si-est">⇅</span></th>
           <th onclick="prjSort('fecha_ultima')">Última pub. <span id="prj-si-fecha">⇅</span></th>
           <th onclick="prjSort('n_publicaciones')" title="Nº publicaciones">Pub. <span id="prj-si-npub">⇅</span></th>
@@ -1164,6 +1280,76 @@ const CONFIG = {
     <div id="prj-empty" style="display:none;padding:48px;text-align:center;color:rgba(26,26,24,.3);font-size:13px">
       Sin proyectos para los filtros seleccionados
     </div>
+  </div>
+</div>
+
+<!-- ── VISTA OPORTUNIDADES ── -->
+<div id="view-oportunidades" class="content" style="display:none;flex-direction:column">
+  <div class="oport-kpis" id="op-kpis-row">
+    <div class="oport-kpi-card">
+      <div class="oport-kpi-val" id="op-kpi-total">—</div>
+      <div class="oport-kpi-lbl">Casos monitorizados</div>
+      <div class="oport-kpi-sub" id="op-kpi-total-sub">proyectos con permiso adverso</div>
+    </div>
+    <div class="oport-kpi-card amber">
+      <div class="oport-kpi-val amber" id="op-kpi-enc">—</div>
+      <div class="oport-kpi-lbl">Pendiente de confirmar</div>
+      <div class="oport-kpi-sub" id="op-kpi-enc-sub">han superado el plazo estimado</div>
+    </div>
+    <div class="oport-kpi-card green">
+      <div class="oport-kpi-val green" id="op-kpi-90d">—</div>
+      <div class="oport-kpi-lbl">Confirmados</div>
+      <div class="oport-kpi-sub" id="op-kpi-90d-sub">afloración verificada en datos DSO/REE</div>
+    </div>
+    <div class="oport-kpi-card" style="flex:2;min-width:260px;justify-content:center">
+      <div class="oport-kpi-lbl" style="margin-bottom:6px;font-size:10.5px">Metodología · base empírica</div>
+      <div style="font-size:11px;color:rgba(26,26,24,.55);line-height:1.5" id="op-kpi-metodologia">
+        Cuando un proyecto recibe un permiso adverso decisivo, la capacidad de acceso reservada suele aflorar en los mapas del distribuidor entre <span id="op-kpi-p25">44</span> y <span id="op-kpi-p75">134</span> días después (mediana <span id="op-kpi-med">117</span>d · <span id="op-kpi-n">5</span> casos confirmados).
+      </div>
+    </div>
+    <div style="align-self:flex-start;padding-top:4px">
+      <button onclick="exportOportCSV()" style="border:1px solid rgba(26,26,24,.15);border-radius:7px;padding:6px 14px;font-size:11px;background:#fafaf8;color:#1a1a18;cursor:pointer;font-family:'Inter',sans-serif">↓ CSV</button>
+    </div>
+  </div>
+  <div class="prj-toolbar">
+    <input class="prj-search" id="op-search" type="text" placeholder="Buscar subestación, proyecto, provincia…" oninput="renderOportunidades()" style="max-width:260px">
+    <select class="prj-filter-sel" id="op-fil-estado" onchange="renderOportunidades()">
+      <option value="">Todos los estados</option>
+      <option value="EN_VENTANA">🟢 En ventana</option>
+      <option value="SOBREPLAZO">⚠️ Sobreplazo</option>
+      <option value="CONFIRMADO">✓ Confirmado</option>
+    </select>
+    <select class="prj-filter-sel" id="op-fil-tipo" onchange="renderOportunidades()">
+      <option value="">Todos los permisos</option>
+      <option value="AAP_AAC">AAP/AAC</option>
+      <option value="AAP">AAP</option>
+      <option value="DIA">DIA</option>
+    </select>
+    <select class="prj-filter-sel" id="op-fil-dso" onchange="renderOportunidades()">
+      <option value="">Todas las distribuidoras</option>
+      <option value="Endesa">Endesa</option>
+      <option value="iDE">iDE</option>
+      <option value="REE">REE</option>
+      <option value="UFD">UFD</option>
+    </select>
+    <div class="prj-stats" id="op-stats">—</div>
+  </div>
+  <div class="prj-table-wrap">
+    <table class="prj-table" id="op-table">
+      <thead><tr>
+        <th onclick="sortOport('distribuidora')">Gestor red <span class="oport-sort" id="osh-distribuidora"></span></th>
+        <th onclick="sortOport('subestacion')">Subestación <span class="oport-sort" id="osh-subestacion"></span></th>
+        <th onclick="sortOport('proyecto_nombre')">Proyecto adverso <span class="oport-sort" id="osh-proyecto_nombre"></span></th>
+        <th onclick="sortOport('tipo_adverso')">Trámite <span class="oport-sort" id="osh-tipo_adverso"></span></th>
+        <th onclick="sortOport('fecha_adversa')">Decisión <span class="oport-sort" id="osh-fecha_adversa"></span></th>
+        <th onclick="sortOport('fecha_adversa')" title="Días transcurridos desde la decisión adversa">Días <span class="oport-sort" id="osh-dias_elapsed"></span></th>
+        <th onclick="sortOport('estado_ventana')">Estado <span class="oport-sort" id="osh-estado_ventana"></span></th>
+        <th onclick="sortOport('mw_proyecto')" style="text-align:right">MW <span class="oport-sort" id="osh-mw_proyecto"></span></th>
+        <th style="width:28px"></th>
+      </tr></thead>
+      <tbody id="op-tbody"></tbody>
+    </table>
+    <div id="op-empty" style="display:none;padding:48px;text-align:center;color:rgba(26,26,24,.3);font-size:13px">Sin resultados para los filtros seleccionados</div>
   </div>
 </div>
 </main>
@@ -1212,6 +1398,8 @@ const CONFIG = {
   </div>
 </div>
 
+<script src="forecast_data.js"></script>
+<script src="adverse_forecast_data.js"></script>
 <script>
 // ── TAXONOMÍAS ──────────────────────────────────────────────────────────────
 const ESTADOS = {
@@ -1518,6 +1706,8 @@ async function loadData(){
     render();
     // First load: go to dashboard
     if(VIEW==="busqueda") setView('inicio');
+  // Replace initial state so back doesn't leave the page
+  history.replaceState({view:VIEW}, "", "#"+VIEW);
 
     // Auto-refresh
     if(CONFIG.REFRESH_MINS>0){
@@ -1860,8 +2050,8 @@ function renderTable(){
     const techBg=TECH_COLORS[tech]||"rgba(26,26,24,.06)";
     const tipo=TIPOS[r.tipo_permiso]||r.tipo_permiso||"—";
     return `<tr class="${fall?"fallido":""}" onclick="openModal('${r.id_boe}')">
-      <td style="color:rgba(26,26,24,.5);white-space:nowrap;font-family:'IBM Plex Mono',monospace;font-size:10px">${fmtF(r.fecha_publicacion)}</td>
-      <td style="font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap;color:#555">${r.id_boe||'<span class="dash">—</span>'}</td>
+      <td style="color:rgba(26,26,24,.5);white-space:nowrap;font-family:\'IBM Plex Mono\',monospace;font-size:10px">${fmtF(r.fecha_publicacion)}</td>
+      <td style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;white-space:nowrap;color:#555">${r.id_boe||'<span class="dash">—</span>'}</td>
       <td style="max-width:200px">
         <div style="font-size:12px;font-weight:500;color:#1a1a18;line-height:1.3">${cleanName(r)||'<span style="color:rgba(26,26,24,.3);font-style:italic;font-weight:400;font-size:11px">Sin nombre</span>'}</div>
       </td>
@@ -1870,7 +2060,7 @@ function renderTable(){
       <td style="font-size:11px;color:#555;max-width:140px">${r.promotor||'<span class="dash">—</span>'}</td>
       <td style="font-size:11px;color:#555;white-space:nowrap">${r.provincia||'<span class="dash">—</span>'}</td>
       <td style="font-size:11px;color:#555">${r.municipio||'<span class="dash">—</span>'}</td>
-      <td class="cnx-cell">${r.subestacion_conexion?`<strong>${r.subestacion_conexion}</strong>${r.tension_conexion_kv?' <span style="opacity:.5">'+r.tension_conexion_kv+'kV</span>':''}`:'<span class="dash">—</span>'}</td>
+      <td class="cnx-cell">${(function(){var sc=r.subestacion_conexion;if(!sc) return '<span class="dash">—</span>';var linked=typeof findCapacity==='function'&&SETS_CAPACITY&&findCapacity(sc);var kv=r.tension_conexion_kv?' <span style="opacity:.45;font-size:10px">'+r.tension_conexion_kv+'kV</span>':'';return linked?'<span class="set-name-link" onclick="event.stopPropagation();jumpToSet(\''+sc.replace(/'/g,'\\"')+'\','+r.tension_conexion_kv+')" title="Ver subestación">'+sc+'</span>'+kv:'<span style="color:rgba(26,26,24,.55)">'+sc+'</span>'+kv;})()}</td>
       <td>${tipo?`<span class="tramite-pill">${tipo}</span>`:'<span class="dash">—</span>'}</td>
       <td><span class="result-pill" style="color:${es.color};background:${es.bg}">${es.label}</span></td>
       <td>${boletinUrl(r)?`<a class="link-cell" href="${boletinUrl(r)}" target="_blank" onclick="event.stopPropagation()">${r.boletin||'BOE'} ↗</a>`:'<span class="dash">—</span>'}</td>
@@ -1912,14 +2102,16 @@ function navigateToProject(nombre){
   }, 200);
 }
 
-function setView(v){
+function setView(v, _noPush){
+  if(!_noPush && typeof history !== "undefined") history.pushState({view:v}, "", "#"+v);
   VIEW=v;
   document.getElementById("view-inicio").style.display=v==="inicio"?"flex":"none";
   document.getElementById("view-busqueda").style.display=v==="busqueda"?"flex":"none";
   document.getElementById("view-subestaciones").style.display=v==="subestaciones"?"flex":"none";
   document.getElementById("view-proyectos").style.display=v==="proyectos"?"flex":"none";
+  document.getElementById("view-oportunidades").style.display=v==="oportunidades"?"flex":"none";
   document.querySelectorAll(".nav-item").forEach(el=>el.classList.remove("active"));
-  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos"};
+  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos","oportunidades":"nav-oportunidades"};
   var activeEl=document.getElementById(navMap[v]||"nav-busqueda");
   if(activeEl) activeEl.classList.add("active");
   if(v==="busqueda"){
@@ -1934,6 +2126,9 @@ function setView(v){
   } else if(v==="inicio"){
     document.getElementById("page-title").textContent="Inicio";
     renderDashboard();
+  } else if(v==="oportunidades"){
+    document.getElementById("page-title").textContent="Afloramiento";
+    initOportunidades();
   }
 }
 
@@ -2103,7 +2298,7 @@ function openModal(id_boe){
   const hijasHtml = ci.hijas ? `<div style="margin-top:6px;font-size:10px;opacity:.5">Posiciones: ${ci.hijas.join(', ')}</div>` : '';
   return `<div class="field" style="grid-column:1/-1;border-left:3px solid ${aceptColor||"#ddd"};padding-left:8px">
     <div class="lbl">Subestación vinculada
-      <span style="margin-left:6px;background:rgba(26,26,24,.07);padding:1px 7px;border-radius:10px;font-size:9px;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">${ci.titular} · ${ci.red}</span>
+      <span style="margin-left:6px;background:rgba(26,26,24,.07);padding:1px 7px;border-radius:10px;font-size:9px;font-family:\'IBM Plex Mono\',monospace;letter-spacing:.04em">${ci.titular} · ${ci.red}</span>
       <span style="opacity:.4;font-size:9px;margin-left:6px">conf. ${ci.confianza}</span>
     </div>
     <div class="val" style="font-weight:600;margin-bottom:6px">${ci.set_kv}</div>
@@ -2125,7 +2320,7 @@ function openModal(id_boe){
       ${f("Confianza IA",r.confianza?Math.round(parseFloat(r.confianza)*100)+"%":"")}
     </div>
     ${boletinUrl(r)?`<a class="modal-link" href="${boletinUrl(r)}" target="_blank">→ Ver en boletín oficial</a>`:""}
-    <button class="modal-link" data-nombre="${cleanName(r).replace(/"/g,'&quot;')}" style="margin-left:${boletinUrl(r)?'8px':'0'};background:none;border:1.5px solid rgba(26,26,24,.15);border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:all .15s" onmouseenter="this.style.borderColor='#1a1a18'" onmouseleave="this.style.borderColor='rgba(26,26,24,.15)'" onclick="navigateToProject(this.dataset.nombre)">→ Ver en Proyectos</button>
+    <button class="modal-link" data-nombre="${cleanName(r).replace(/"/g,'&quot;')}" style="margin-left:${boletinUrl(r)?'8px':'0'};background:none;border:1.5px solid rgba(26,26,24,.15);border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;font-family:\'Inter\',sans-serif;color:#1a1a18;transition:all .15s" onmouseenter="this.style.borderColor='#1a1a18'" onmouseleave="this.style.borderColor='rgba(26,26,24,.15)'" onclick="navigateToProject(this.dataset.nombre)">→ Ver en Proyectos</button>
     <div class="modal-id">${r.id_boe}</div>
   `;
   document.getElementById("modal").classList.add("open");
@@ -2966,6 +3161,9 @@ function openSetDetail(key){
   loadSetsHistory().then(function(){ renderHistoryChart(key); });
   renderHistoryChart(key);
 
+  // Forecast section
+  updateSdpForecast(d[10]||'', key, d[4]);
+
   panel.classList.add('open');
   overlay.classList.add('open');
 }
@@ -3236,9 +3434,14 @@ function renderHistoryChart(key){
       var tram2=isGen?(s.cap_gen_tram||0):(s.cap_dem_tram||0);
       drawBar(cx,0,disp2,ocup2,tram2,dateLbl,String(i));
     }
-    // Month label
-    if(n<=24||(i%2===0)){
-      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+25)+'" text-anchor="middle" font-size="7.5" fill="rgba(26,26,24,.45)" font-family="IBM Plex Mono,monospace">'+dateLbl+'</text>');
+    // Month label — density adapts to dataset size
+    var _step = n<=12?1:n<=24?2:n<=36?3:4;
+    var _showYr = dp[0]!==((snaps[i-1]||{}).date||'').slice(0,4);
+    if(i%_step===0 || _showYr){
+      var _lbl = _showYr && n>24 ? dp[0] : dateLbl;
+      var _fw  = _showYr && n>24 ? '600' : '400';
+      var _col = _showYr && n>24 ? 'rgba(26,26,24,.65)' : 'rgba(26,26,24,.45)';
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+( padT+chartH+25)+'" text-anchor="middle" font-size="7.5" font-weight="'+_fw+'" fill="'+_col+'" font-family="IBM Plex Mono,monospace">'+_lbl+'</text>');
     }
   });
 
@@ -3259,7 +3462,7 @@ function closeSetDetail(){
 }
 
 document.addEventListener('keydown', function(e){
-  if(e.key==='Escape') closeSetDetail();
+  if(e.key==='Escape'){ closeSetDetail(); closeOportModal(); }
 });
 
 document.getElementById("view-inicio").style.display="none";
@@ -3421,7 +3624,7 @@ async function loadProjects(){
     populatePrjFilters();
     return;
   }
-  if(tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:40px;color:rgba(26,26,24,.35);font-size:12px">Cargando proyectos…</td></tr>';
+  if(tbody) tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:40px;color:rgba(26,26,24,.35);font-size:12px">Cargando proyectos…</td></tr>';
   try {
     const r = await fetch('projects.json');
     if(r.ok){
@@ -3431,11 +3634,11 @@ async function loadProjects(){
       const cnt = document.getElementById('cnt-proyectos');
       if(cnt){ cnt.textContent = PROJECTS_DATA.length; /* badge nav oculto */ }
     } else {
-      if(tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:40px;color:#ef4444;font-size:12px">Error cargando projects.json (HTTP '+r.status+')</td></tr>';
+      if(tbody) tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:40px;color:#ef4444;font-size:12px">Error cargando projects.json (HTTP '+r.status+')</td></tr>';
     }
   } catch(e){
     console.warn('projects.json no disponible',e);
-    if(tbody) tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:40px;color:#ef4444;font-size:12px">Error: '+e.message+'</td></tr>';
+    if(tbody) tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:40px;color:#ef4444;font-size:12px">Error: '+e.message+'</td></tr>';
   }
 }
 
@@ -3474,6 +3677,7 @@ function buildPrjRow(p){
     +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap;font-size:11px">'+mw+'</td>'
     +'<td style="font-size:11px;color:rgba(26,26,24,.6);max-width:150px">'+(p.promotor?_esc(p.promotor.slice(0,35)):'<span style="opacity:.3">—</span>')+'</td>'
     +'<td style="font-size:11px;white-space:nowrap">'+(p.provincia||'—')+'</td>'
+    +'<td>'+(p.subestacion?(function(){var lnk=typeof findCapacity==='function'&&typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY&&findCapacity(p.subestacion);var lbl=_esc(p.subestacion.length>22?p.subestacion.slice(0,21)+'\u2026':p.subestacion);var kv=p.tension_kv?' <span style="font-size:9px;opacity:.4">'+p.tension_kv+'kV</span>':'';return lnk?'<span class="set-name-link" onclick="event.stopPropagation();jumpToSet('+JSON.stringify(p.subestacion)+','+JSON.stringify(p.tension_kv||null)+')">'+lbl+'</span>'+kv:'<span style="color:rgba(26,26,24,.55)">'+lbl+'</span>'+kv;})():'<span style="opacity:.25">—</span>')+'</td>'
     +'<td>'
     +'<span class="prj-estado-badge" style="background:'+est.bg+';color:'+est.color+'">'+est.label+'</span>'
     +(p.ultimo_tipo_permiso?' <span style="font-size:9px;font-family:IBM Plex Mono,monospace;background:rgba(26,26,24,.07);padding:1px 5px;border-radius:3px;color:rgba(26,26,24,.5)">'+(TIPOS[p.ultimo_tipo_permiso]||p.ultimo_tipo_permiso)+'</span>':'')
@@ -3484,7 +3688,7 @@ function buildPrjRow(p){
     +'<td><span class="prj-expand-icon">▶</span></td>'
     +'</tr>';
   if(exp){
-    row += '<tr class="prj-detail-row" data-id="'+p.id+'"><td colspan="9">'+buildPrjDetail(p)+'</td></tr>';
+    row += '<tr class="prj-detail-row" data-id="'+p.id+'"><td colspan="10">'+buildPrjDetail(p)+'</td></tr>';
   }
   return row;
 }
@@ -3548,7 +3752,7 @@ function prjLoadMore(){
   if(PRJ_PAGE_LOADED < PRJ_LIST_FILTERED.length){
     var s = document.createElement('tr');
     s.id = 'prj-sentinel';
-    s.innerHTML = '<td colspan="9" style="text-align:center;padding:12px">'
+    s.innerHTML = '<td colspan="10" style="text-align:center;padding:12px">'
       +'<button onclick="prjLoadMore()" style="font-size:11px;padding:5px 18px;border:1px solid rgba(26,26,24,.15);border-radius:6px;background:#fff;cursor:pointer;color:rgba(26,26,24,.55)">'
       +'Ver '+(PRJ_LIST_FILTERED.length-PRJ_PAGE_LOADED)+' más</button></td>';
     tbody.appendChild(s);
@@ -3560,7 +3764,7 @@ function _esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>
 function buildPrjDetail(p){
   var meta = '<div class="prj-detail-meta">';
   if(p.potencia_mw!=null) meta+='<span><b>'+p.potencia_mw+' MW</b></span>';
-  if(p.subestacion)       meta+='<span>⚡ <b>'+_esc(p.subestacion)+'</b></span>';
+  if(p.subestacion){var _sl=typeof findCapacity==='function'&&typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY&&findCapacity(p.subestacion);meta+='<span>⚡ '+(_sl?'<span class="set-link-chip" onclick="event.stopPropagation();jumpToSet('+JSON.stringify(p.subestacion)+','+JSON.stringify(p.tension_kv||null)+')" title="Ver en SETs"><b>'+_esc(p.subestacion)+'</b> →</span>':'<b>'+_esc(p.subestacion)+'</b>')+'</span>';}
   if(p.tension_kv)        meta+='<span>'+p.tension_kv+' kV</span>';
   if(p.municipio)         meta+='<span>📍 '+_esc(p.municipio)+(p.provincia?' ('+_esc(p.provincia)+')':'')+'</span>';
   if(p.expedientes&&p.expedientes.length) meta+='<span>📋 '+p.expedientes.join(' · ')+'</span>';
@@ -3642,13 +3846,686 @@ function buildPrjDetail(p){
   return '<div class="prj-detail-inner">'+meta+timeline+'</div>';
 }
 
+// ── OPORTUNIDADES (metodología: lag tras permiso adverso) ────────────────────
+var _oport_initialized = false;
+var _oport_sort_key    = 'fecha_adversa';
+var _oport_sort_asc    = false;
+var OPORT_EXPANDED     = new Set();
+var _oport_filtered    = [];
+
+var ESTADO_ADVERSE_LABEL = {
+  EN_VENTANA: {label:'En plazo estimado', cls:'oport-estado-enc', color:'#1d4ed8', bg:'#dbeafe'},
+  SOBREPLAZO: {label:'Pendiente',         cls:'oport-estado-prox',color:'#92400e', bg:'#fef3c7'},
+  CONFIRMADO: {label:'Confirmado ✓',      cls:'oport-estado-enc', color:'#166534', bg:'#dcfce7'},
+};
+
+function initOportunidades(){
+  if(typeof ADVERSE_FORECAST_DATA === 'undefined'){
+    document.getElementById('op-tbody').innerHTML =
+      '<tr><td colspan="10" style="padding:32px;text-align:center;color:rgba(26,26,24,.35);font-size:12px">'
+      +'Cargando datos de permisos adversos…</td></tr>';
+    return;
+  }
+  if(!_oport_initialized){
+    _oport_initialized = true;
+    _buildOportKpis();
+  }
+  renderOportunidades();
+}
+
+function _buildOportKpis(){
+  if(typeof ADVERSE_FORECAST_DATA==='undefined') return;
+  var stats=typeof ADVERSE_LAG_STATS!=='undefined'?ADVERSE_LAG_STATS:{n:5,p25:44,mediana:117,p75:134};
+  var total=ADVERSE_FORECAST_DATA.length;
+  var nSobre=ADVERSE_FORECAST_DATA.filter(function(r){return r.estado_ventana==='SOBREPLAZO';}).length;
+  var nConf =ADVERSE_FORECAST_DATA.filter(function(r){return r.estado_ventana==='CONFIRMADO';}).length;
+  var nVent =ADVERSE_FORECAST_DATA.filter(function(r){return r.estado_ventana==='EN_VENTANA';}).length;
+  function sv(id,v){ var e=document.getElementById(id); if(e) e.textContent=v; }
+  sv('op-kpi-total', total);
+  sv('op-kpi-total-sub', nVent?nVent+' en plazo estimado':'sin ninguno en plazo ahora');
+  sv('op-kpi-enc', nSobre);
+  sv('op-kpi-enc-sub', nSobre?'han superado P75='+stats.p75+'d sin confirmarse':'ninguno fuera de plazo');
+  sv('op-kpi-90d', nConf);
+  sv('op-kpi-90d-sub', nConf+' de '+total+' con afloración verificada');
+  sv('op-kpi-p25', stats.p25);
+  sv('op-kpi-p75', stats.p75);
+  sv('op-kpi-med', stats.mediana);
+  sv('op-kpi-n',   stats.n);
+}
+
+function renderOportunidades(){
+  if(typeof ADVERSE_FORECAST_DATA === 'undefined') return;
+  var estado = (document.getElementById('op-fil-estado')||{}).value||'';
+  var tipo   = (document.getElementById('op-fil-tipo')  ||{}).value||'';
+  var dso    = (document.getElementById('op-fil-dso')   ||{}).value||'';
+  var srch   = ((document.getElementById('op-search')   ||{}).value||'').toLowerCase().trim();
+
+  var rows = ADVERSE_FORECAST_DATA.filter(function(r){
+    if(estado && r.estado_ventana !== estado) return false;
+    if(tipo   && r.tipo_adverso   !== tipo)   return false;
+    if(dso    && r.distribuidora  !== dso)    return false;
+    if(srch){
+      var hay=((r.subestacion||'')+' '+(r.proyecto_nombre||'')+' '+(r.provincia||'')+' '+(r.distribuidora||'')).toLowerCase();
+      if(hay.indexOf(srch)<0) return false;
+    }
+    return true;
+  });
+
+  rows.sort(function(a,b){
+    var av=a[_oport_sort_key], bv=b[_oport_sort_key];
+    if(av==null) av=_oport_sort_asc?'￿':'';
+    if(bv==null) bv=_oport_sort_asc?'￿':'';
+    if(typeof av==='number'&&typeof bv==='number') return _oport_sort_asc?av-bv:bv-av;
+    av=String(av).toLowerCase(); bv=String(bv).toLowerCase();
+    return _oport_sort_asc?av.localeCompare(bv,'es'):bv.localeCompare(av,'es');
+  });
+
+  _oport_filtered = rows;
+
+  document.querySelectorAll('[id^="osh-"]').forEach(function(el){
+    var k=el.id.replace('osh-','');
+    el.textContent = k===_oport_sort_key?(_oport_sort_asc?'▲':'▼'):'';
+  });
+
+  var statsEl=document.getElementById('op-stats');
+  if(statsEl) statsEl.textContent=rows.length+' subestación'+(rows.length!==1?'es':'');
+
+  var tbody=document.getElementById('op-tbody');
+  var empty=document.getElementById('op-empty');
+  if(!tbody) return;
+  if(!rows.length){
+    tbody.innerHTML='';
+    if(empty) empty.style.display='block';
+    return;
+  }
+  if(empty) empty.style.display='none';
+
+  var html='';
+  rows.forEach(function(r){
+    var es  = ESTADO_ADVERSE_LABEL[r.estado_ventana]||{label:r.estado_ventana||'—',color:'#555',bg:'#f3f4f6'};
+    var badge='<span style="display:inline-block;padding:2px 8px;border-radius:3px;font-size:9.5px;font-weight:600;font-family:IBM Plex Mono,monospace;background:'+(es.bg||'#f3f4f6')+';color:'+(es.color||'#555')+'">'+es.label+'</span>';
+
+    // Días transcurridos desde decisión adversa
+    var diasFmt='—';
+    if(r.fecha_adversa){
+      var dAdv=new Date(r.fecha_adversa), dHoy=new Date();
+      var dias=Math.round((dHoy-dAdv)/86400000);
+      var stats2=typeof ADVERSE_LAG_STATS!=='undefined'?ADVERSE_LAG_STATS:{p25:44,mediana:117,p75:134};
+      var dColor=r.estado_ventana==='CONFIRMADO'?'#16a34a':dias>stats2.p75?'#b45309':'#1d4ed8';
+      if(r.estado_ventana==='CONFIRMADO' && r.lag_real_dias && !isNaN(r.lag_real_dias)){
+        diasFmt='<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:#16a34a">'+Math.round(r.lag_real_dias)+'d</span>';
+      } else {
+        diasFmt='<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:'+dColor+'">'+dias+'d</span>'
+          +(dias>stats2.p75?'<span title="Superó el plazo estimado (P75='+stats2.p75+'d)" style="font-size:9px;color:#b45309;margin-left:3px">↑</span>':'');
+      }
+    }
+
+    // Fecha adversa
+    var fadv = r.fecha_adversa ? r.fecha_adversa.slice(0,10) : '—';
+
+    // Tipo badge
+    var tipoBg = r.tipo_adverso==='DIA'?'#fef3c7':'rgba(26,26,24,.07)';
+    var tipoCol= r.tipo_adverso==='DIA'?'#92400e':'rgba(26,26,24,.6)';
+    var tipoBadge='<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:'+tipoBg+';color:'+tipoCol+';font-family:\'IBM Plex Mono\',monospace">'+_esc(r.tipo_adverso||'')+'</span>';
+
+    var idx=JSON.stringify(r.proyecto_id);
+    var isExp=OPORT_EXPANDED.has(r.proyecto_id);
+    html+='<tr class="prj-row'+(isExp?' expanded':'')+' onclick="toggleOportDetail('+idx+')" title="Ver análisis detallado">'
+      +'<td style="font-size:10px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.5);white-space:nowrap">'+_esc(r.distribuidora||'—')+'</td>'
+      +'<td style="font-weight:600;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+_esc(r.subestacion||'—')+(r.provincia?'<div style="font-size:9.5px;font-weight:400;color:rgba(26,26,24,.45)">'+_esc(r.provincia)+'</div>':'')+'</td>'
+      +'<td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px">'+_esc(r.proyecto_nombre||'—')+'</td>'
+      +'<td>'+tipoBadge+'</td>'
+      +'<td style="font-family:IBM Plex Mono,monospace;font-size:11px;white-space:nowrap;color:rgba(26,26,24,.5)">'+fadv+'</td>'
+      +'<td>'+diasFmt+'</td>'
+      +'<td>'+badge+'</td>'
+      +'<td style="text-align:right;font-family:IBM Plex Mono,monospace;font-size:11px">'+(r.mw_proyecto!=null?r.mw_proyecto+' MW':'—')+'</td>'
+      +'<td style="text-align:center;font-size:11px"><span class="prj-expand-icon">▶</span></td>'
+      +'</tr>';
+    if(isExp) html+=buildOportDetail(r);
+  });
+  tbody.innerHTML=html;
+}
+
+
+function buildOportDetail(rec){
+  if(!rec) return '';
+  var stats = typeof ADVERSE_LAG_STATS!=='undefined' ? ADVERSE_LAG_STATS : {n:5,p25:44,mediana:117,p75:134,min:18,max:190};
+  var conf  = rec.estado_ventana==='CONFIRMADO';
+  var ADVERSE_EST = {denegado:1,desistido:1,desistida:1,desfavorable:1,archivado:1,caducado:1};
+  var EST_COLORS = {
+    otorgado:'#16a34a',favorable:'#16a34a',informacion_publica:'#1d4ed8',
+    en_tramitacion:'#b45309',denegado:'#dc2626',desistido:'#6b7280',
+    archivado:'#6b7280',caducado:'#6b7280',inadmitido:'#dc2626'
+  };
+  var EST_BG = {
+    otorgado:'#dcfce7',favorable:'#dcfce7',informacion_publica:'#dbeafe',
+    en_tramitacion:'#fef3c7',denegado:'#fee2e2',desistido:'#f3f4f6',
+    archivado:'#f3f4f6',caducado:'#f3f4f6',inadmitido:'#fee2e2'
+  };
+
+  // ── Sección A: Decisión + lag timeline ───────────────────────
+  var diasAdv = rec.fecha_adversa ? Math.round((new Date()-new Date(rec.fecha_adversa))/86400000) : null;
+  var decBox = '<div class="oport-window-box" style="margin-bottom:12px">'
+    +'<div class="oport-w-item"><div class="oport-w-label">Trámite</div><div class="oport-w-value" style="font-family:IBM Plex Mono,monospace">'+_esc(rec.tipo_adverso||'—')+'</div></div>'
+    +'<div class="oport-w-item"><div class="oport-w-label">Resolución</div><div class="oport-w-value" style="color:#dc2626;text-transform:capitalize">'+_esc(rec.estado_adverso||'—')+'</div></div>'
+    +'<div class="oport-w-item"><div class="oport-w-label">Fecha</div><div class="oport-w-value" style="font-family:IBM Plex Mono,monospace">'+(rec.fecha_adversa||'—')+(diasAdv?' <span style="color:rgba(26,26,24,.4);font-size:9px">('+diasAdv+'d)</span>':'')+'</div></div>'
+    +(rec.mw_proyecto?'<div class="oport-w-item"><div class="oport-w-label">MW</div><div class="oport-w-value">'+rec.mw_proyecto+' MW</div></div>':'')
+    +(conf&&rec.lag_real_dias&&!isNaN(rec.lag_real_dias)?'<div class="oport-w-item"><div class="oport-w-label">Lag real</div><div class="oport-w-value" style="color:#16a34a">'+Math.round(rec.lag_real_dias)+'d ✓</div></div>':'')
+    +'</div>';
+
+  // ── Sección B: Por qué puede aflorar ─────────────────────────
+  var explainBox = '<div class="oport-explain-box" style="margin-bottom:12px">'
+    +'Cuando se deniega o desiste un permiso decisivo (<strong>'+_esc(rec.tipo_adverso)+' '+_esc(rec.estado_adverso)+'</strong>), '
+    +'la capacidad de acceso reservada en la subestación queda liberada. '
+    +'Basado en <strong>'+stats.n+' casos confirmados</strong> en esta herramienta, '
+    +'la capacidad aparece en los mapas del distribuidor entre '
+    +'<strong>'+stats.p25+'–'+stats.p75+' días</strong> tras la decisión (mediana '+stats.mediana+'d). '
+    +(diasAdv&&diasAdv>stats.p75
+      ? 'Este caso lleva <strong style="color:#b45309">'+diasAdv+'d</strong>, superando ya el P75 ('+stats.p75+'d): puede aflorar en cualquier momento o puede haber recursos administrativos pendientes.'
+      : diasAdv?'Han transcurrido <strong>'+diasAdv+'d</strong> desde la decisión.':'')
+    +'</div>';
+
+  // ── Sección C: Lag SVG timeline ───────────────────────────────
+  var lagSvg = '';
+  if(rec.fecha_adversa){
+    var totalSpan = stats.max*1.15;
+    var toX = function(d){ return Math.round(Math.min(d/totalSpan,1)*420); };
+    var todayDays = diasAdv || 0;
+    var xP25=toX(stats.p25), xMed=toX(stats.mediana), xP75=toX(stats.p75);
+    var xToday=toX(Math.min(todayDays,totalSpan));
+    lagSvg = '<svg viewBox="0 0 440 48" style="width:100%;display:block;overflow:visible;margin:8px 0 12px">'
+      +'<rect x="10" y="20" width="420" height="7" rx="3" fill="#f0ece4"/>'
+      +'<rect x="'+(10+xP25)+'" y="20" width="'+(xP75-xP25)+'" height="7" rx="2" fill="rgba(201,168,76,.4)"/>'
+      +'<line x1="'+(10+xMed)+'" y1="16" x2="'+(10+xMed)+'" y2="31" stroke="#c9a84c" stroke-width="2" stroke-dasharray="3,2"/>'
+      +(todayDays>0?'<circle cx="'+(10+xToday)+'" cy="23" r="5" fill="'+(todayDays>stats.p75?'#f59e0b':'#1d4ed8')+'" stroke="#fff" stroke-width="1.5"/><text x="'+(10+xToday)+'" y="12" text-anchor="middle" font-size="8" fill="'+(todayDays>stats.p75?'#b45309':'#1d4ed8')+'" font-family="IBM Plex Mono,monospace">Hoy</text>':'')
+      +(conf&&rec.lag_real_dias&&!isNaN(rec.lag_real_dias)?'<circle cx="'+(10+toX(rec.lag_real_dias))+'" cy="23" r="5" fill="#22c55e" stroke="#fff" stroke-width="1.5"/><text x="'+(10+toX(rec.lag_real_dias))+'" y="44" text-anchor="middle" font-size="8" fill="#16a34a" font-family="IBM Plex Mono,monospace">'+Math.round(rec.lag_real_dias)+'d ✓</text>':'')
+      +'<text x="10" y="44" text-anchor="start" font-size="8" fill="rgba(26,26,24,.3)" font-family="IBM Plex Mono,monospace">0d</text>'
+      +'<text x="'+(10+xP25)+'" y="44" text-anchor="middle" font-size="8" fill="rgba(26,26,24,.45)" font-family="IBM Plex Mono,monospace">P25 '+stats.p25+'d</text>'
+      +'<text x="'+(10+xMed)+'" y="44" text-anchor="middle" font-size="8" fill="#7a5c1a" font-family="IBM Plex Mono,monospace">med '+stats.mediana+'d</text>'
+      +'<text x="'+(10+xP75)+'" y="44" text-anchor="middle" font-size="8" fill="rgba(26,26,24,.45)" font-family="IBM Plex Mono,monospace">P75 '+stats.p75+'d</text>'
+      +'</svg>';
+  }
+
+  // ── Sección D: Capacidad actual SET ──────────────────────────
+  var capHtml = '';
+  var setNom = rec.subestacion||rec.subestacion_raw||'';
+  if(setNom && typeof findCapacity==='function' && typeof SETS_CAPACITY!=='undefined' && SETS_CAPACITY){
+    var ci = findCapacity(setNom);
+    if(ci){
+      var capDisp=ci.cap!=null?Math.round(ci.cap):null;
+      var capOcup=ci.ocup!=null?Math.round(ci.ocup):null;
+      var capAcept=ci.acept!=null?Math.round(ci.acept):null;
+      var mwP=parseFloat(rec.mw_proyecto)||0;
+      var satR=(capDisp>0)?Math.min((capAcept||0)/capDisp,1):null;
+      var alertIcon, alertText;
+      if(capDisp==null){alertIcon='⚪';alertText='Capacidad no disponible en base de datos.';}
+      else if(capDisp<=0){alertIcon='🔴';alertText='Capacidad disponible = 0 MW. Aunque aflore capacidad, puede que ya no sea suficiente para nuevas solicitudes.';}
+      else if(satR!=null&&satR>=0.85){alertIcon='🟡';alertText=capDisp+' MW disponibles pero '+(capAcept||0)+' MW en tramitación (~'+Math.round(satR*100)+'%). La cola puede absorber la capacidad liberada.';}
+      else if(mwP>0&&capDisp<mwP*0.5){alertIcon='🟡';alertText='Capacidad disponible ('+capDisp+' MW) menor a la mitad del proyecto adverso ('+mwP+' MW).';}
+      else{alertIcon='🟢';alertText=capDisp+' MW disponibles'+(capAcept?' y '+capAcept+' MW en tramitación':'')+'. Margen para absorber la capacidad liberada.';}
+      capHtml='<div class="oport-set-cap-box" style="margin-bottom:12px">'
+        +'<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap">'
+          +'<span style="font-size:12px;font-weight:600;color:#1a1a18">'+_esc(ci.set_kv||setNom)+'</span>'
+          +'<span style="font-size:10px;color:rgba(26,26,24,.4);font-family:IBM Plex Mono,monospace">'+_esc(ci.titular||'')+(ci.tension?' · '+ci.tension+' kV':'')+'</span>'
+          +(typeof jumpToSet==='function'?'<span class="set-link-chip" onclick="event.stopPropagation();jumpToSet('+JSON.stringify(setNom)+',null)" style="cursor:pointer">Ver SET →</span>':'')
+        +'</div>'
+        +'<div class="oport-cap-kpis" style="margin-bottom:8px">'
+          +(capDisp!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#16a34a">'+capDisp+' MW</div><div class="oport-cap-kpi-lbl">Disponible</div></div>':'')
+          +(capOcup!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#dc2626">'+capOcup+' MW</div><div class="oport-cap-kpi-lbl">Ocupado</div></div>':'')
+          +(capAcept!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#f59e0b">'+capAcept+' MW</div><div class="oport-cap-kpi-lbl">En tramitación</div></div>':'')
+          +(mwP>0?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#7c3aed">'+mwP+' MW</div><div class="oport-cap-kpi-lbl">Proyecto adverso</div></div>':'')
+        +'</div>'
+        +'<div style="display:flex;gap:7px;align-items:flex-start;padding:7px 10px;background:rgba(26,26,24,.03);border-radius:6px;border:1px solid rgba(26,26,24,.06)">'
+          +'<span style="font-size:14px;flex-shrink:0">'+alertIcon+'</span>'
+          +'<span style="font-size:11px;color:rgba(26,26,24,.7);line-height:1.45">'+alertText+'</span>'
+        +'</div>'
+      +'</div>';
+    } else {
+      capHtml='<div style="font-size:11px;color:rgba(26,26,24,.4);font-style:italic;margin-bottom:12px">SET "'+_esc(setNom)+'" no vinculada a la base de capacidades.</div>';
+    }
+  }
+
+  // ── Sección E: Publicaciones ──────────────────────────────────
+  var pubs = [];
+  if(typeof PROJECTS_DATA!=='undefined'&&PROJECTS_DATA){
+    var prj=PROJECTS_DATA.find(function(p){return p.id===rec.proyecto_id;});
+    if(prj&&prj.publicaciones) pubs=prj.publicaciones.slice().sort(function(a,b){return (a.fecha||'').localeCompare(b.fecha||'');});
+  }
+  if(!pubs.length&&typeof ALL!=='undefined'){
+    var nn=(rec.proyecto_nombre||'').toLowerCase();
+    var parts=nn.split(' ').filter(function(w){return w.length>=5;}).slice(0,3);
+    if(parts.length) pubs=ALL.filter(function(r){
+      var rn=(r.nombre_proyecto||'').toLowerCase();
+      return parts.every(function(w){return rn.indexOf(w)>=0;});
+    }).map(function(r){return{fecha:r.fecha_publicacion,tipo_permiso:r.tipo_permiso,estado:r.estado_permiso,titulo:r.titulo_original,boletin:r.boletin,id_boe:r.id_boe};})
+    .sort(function(a,b){return (a.fecha||'').localeCompare(b.fecha||'');});
+  }
+  if(!pubs.length&&(typeof PROJECTS_DATA==='undefined'||!PROJECTS_DATA)){
+    loadProjects().then(function(){ if(OPORT_EXPANDED.has(rec.proyecto_id)) renderOportunidades(); });
+  }
+
+  var pubHtml='';
+  if(pubs.length){
+    pubHtml=pubs.map(function(pub){
+      var isAdv=ADVERSE_EST[pub.estado||''];
+      var col=EST_COLORS[pub.estado]||'#9ca3af';
+      var bg=EST_BG[pub.estado]||'#f9fafb';
+      var fecha=(pub.fecha||'').length===8&&!(pub.fecha||'').includes('-')
+        ?pub.fecha.slice(0,4)+'-'+pub.fecha.slice(4,6)+'-'+pub.fecha.slice(6):pub.fecha||'—';
+      var estLabel=(pub.estado||'—').charAt(0).toUpperCase()+(pub.estado||'').slice(1);
+      return '<div class="oport-pub-card'+(isAdv?' adverse':'')+'">'
+        +'<div class="oport-pub-dot" style="background:'+col+'"></div>'
+        +'<div style="flex:1;min-width:0">'
+          +'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-bottom:2px">'
+            +'<span class="oport-pub-date">'+fecha+'</span>'
+            +'<span class="oport-pub-tipo">'+_esc(pub.tipo_permiso||'—')+'</span>'
+            +'<span class="oport-pub-estado" style="background:'+bg+';color:'+col+'">'+_esc(estLabel)+'</span>'
+            +(isAdv?'<span style="font-size:9px;font-weight:700;color:#dc2626">← DECISIVO</span>':'')
+          +'</div>'
+          +(pub.titulo?'<div class="oport-pub-nombre">'+_esc(pub.titulo.slice(0,120))+'</div>':'')
+        +'</div>'
+        +'</div>';
+    }).join('');
+  } else {
+    pubHtml='<div style="font-size:11px;color:rgba(26,26,24,.35);font-style:italic">Cargando publicaciones…</div>';
+  }
+
+  return '<tr class="prj-detail-row"><td colspan="9">'
+    +'<div class="prj-detail-inner" style="padding:16px 20px">'
+      +'<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:14px">'
+        +'<div>'
+          +'<div class="oport-section-title" style="margin-bottom:8px">Decisión adversa</div>'
+          +decBox
+        +'</div>'
+        +'<div>'
+          +'<div class="oport-section-title" style="margin-bottom:8px">Capacidad de la subestación</div>'
+          +capHtml
+        +'</div>'
+      +'</div>'
+      +'<div class="oport-section-title" style="margin-bottom:4px">¿Por qué puede aflorar aquí?</div>'
+      +explainBox
+      +lagSvg
+      +'<div class="oport-section-title" style="margin-bottom:8px">Publicaciones del expediente ('+pubs.length+')</div>'
+      +pubHtml
+    +'</div>'
+    +'</td></tr>';
+}
+
+function sortOport(key){
+  if(_oport_sort_key===key){ _oport_sort_asc=!_oport_sort_asc; }
+  else { _oport_sort_key=key; _oport_sort_asc=(key!=='mw_proyecto'); }
+  renderOportunidades();
+}
+
+function openOportModal(proyecto_id){
+  if(typeof ADVERSE_FORECAST_DATA==='undefined') return;
+  var rec=ADVERSE_FORECAST_DATA.find(function(r){ return r.proyecto_id===proyecto_id; });
+  if(!rec) return;
+
+  document.getElementById('oport-modal-title').textContent = rec.subestacion||rec.subestacion_raw||'—';
+  document.getElementById('oport-modal-sub').textContent   =
+    (rec.distribuidora||'') + (rec.provincia?' · '+rec.provincia:'') +
+    (rec.mw_proyecto?' · '+rec.mw_proyecto+' MW':'');
+
+  var stats = typeof ADVERSE_LAG_STATS!=='undefined' ? ADVERSE_LAG_STATS : {n:0,p25:44,mediana:117,p75:134,min:18,max:190};
+  var conf  = rec.estado_ventana==='CONFIRMADO';
+  var sobre = rec.estado_ventana==='SOBREPLAZO';
+
+  // ── Sección A: Publicaciones del proyecto ──────────────────────────────────
+  var pubCards = '';
+  var ADVERSE_EST = {denegado:1,desistido:1,desistida:1,desfavorable:1,archivado:1,caducado:1};
+  var EST_COLORS  = {
+    otorgado:'#16a34a', favorable:'#16a34a', informacion_publica:'#1d4ed8',
+    en_tramitacion:'#b45309', denegado:'#dc2626', desistido:'#6b7280',
+    archivado:'#6b7280', caducado:'#6b7280', inadmitido:'#dc2626'
+  };
+  var EST_BG = {
+    otorgado:'#dcfce7', favorable:'#dcfce7', informacion_publica:'#dbeafe',
+    en_tramitacion:'#fef3c7', denegado:'#fee2e2', desistido:'#f3f4f6',
+    archivado:'#f3f4f6', caducado:'#f3f4f6', inadmitido:'#fee2e2'
+  };
+
+  // Try PROJECTS_DATA first (structured), fallback to ALL (flat)
+  var pubs = [];
+  if(typeof PROJECTS_DATA!=='undefined' && PROJECTS_DATA){
+    var prj = PROJECTS_DATA.find(function(p){ return p.id===proyecto_id; });
+    if(prj && prj.publicaciones) pubs = prj.publicaciones.slice().sort(function(a,b){
+      return (a.fecha||'').localeCompare(b.fecha||'');
+    });
+  }
+  if(!pubs.length && typeof ALL!=='undefined'){
+    var normNom = (rec.proyecto_nombre||'').toLowerCase();
+    var parts   = normNom.split(' ').filter(function(w){ return w.length>=5; }).slice(0,3);
+    pubs = ALL.filter(function(r){
+      if(!r.nombre_proyecto) return false;
+      var rn = r.nombre_proyecto.toLowerCase();
+      return parts.length && parts.every(function(w){ return rn.indexOf(w)>=0; });
+    }).map(function(r){
+      return {fecha:r.fecha_publicacion,tipo_permiso:r.tipo_permiso,estado:r.estado_permiso,
+              titulo:r.titulo_original,boletin:r.boletin,id_boe:r.id_boe};
+    }).sort(function(a,b){ return (a.fecha||'').localeCompare(b.fecha||''); });
+  }
+
+  if(pubs.length){
+    pubCards = pubs.map(function(pub){
+      var isAdv = ADVERSE_EST[pub.estado||''];
+      var col   = EST_COLORS[pub.estado]||'#9ca3af';
+      var bg    = EST_BG[pub.estado]||'#f9fafb';
+      var fecha = (pub.fecha||'').slice(0,10);
+      if(fecha.length===8 && !fecha.includes('-'))
+        fecha = fecha.slice(0,4)+'-'+fecha.slice(4,6)+'-'+fecha.slice(6);
+      var tipoLabel = pub.tipo_permiso||'—';
+      var estLabel  = (pub.estado||'—').charAt(0).toUpperCase()+(pub.estado||'').slice(1);
+      return '<div class="oport-pub-card'+(isAdv?' adverse':'')+'">'
+        +'<div class="oport-pub-dot" style="background:'+col+';'+(isAdv?'box-shadow:0 0 0 3px '+col+'33':'')+'"></div>'
+        +'<div style="flex:1;min-width:0">'
+          +'<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px">'
+            +'<span class="oport-pub-date">'+fecha+'</span>'
+            +'<span class="oport-pub-tipo">'+_esc(tipoLabel)+'</span>'
+            +'<span class="oport-pub-estado" style="background:'+bg+';color:'+col+'">'+_esc(estLabel)+'</span>'
+            +(isAdv?'<span style="font-size:9px;font-weight:700;color:#dc2626">← DECISIVO</span>':'')
+          +'</div>'
+          +(pub.titulo?'<div class="oport-pub-nombre">'+_esc(pub.titulo.slice(0,120))+'</div>':'')
+        +'</div>'
+        +'</div>';
+    }).join('');
+  } else {
+    pubCards = '<div style="font-size:11px;color:rgba(26,26,24,.35);font-style:italic">No se han encontrado publicaciones vinculadas en la base de datos actual.</div>';
+  }
+
+  // ── Sección B: Timeline SVG de lag ────────────────────────────────────────
+  var advDate = rec.fecha_adversa ? new Date(rec.fecha_adversa) : null;
+  var today   = new Date();
+  var lagSvg  = '';
+  var windowDesc = '';
+
+  if(advDate){
+    var totalSpan  = stats.max * 1.1;   // días totales en el eje
+    var toX = function(d){ return Math.round(Math.min(d/totalSpan,1)*440); };
+    var todayDays  = Math.round((today - advDate)/86400000);
+    var xP25 = toX(stats.p25), xMed = toX(stats.mediana), xP75 = toX(stats.p75);
+    var xToday = toX(Math.min(todayDays, stats.max*1.05));
+    var xMax   = 440;
+
+    // Window text
+    if(conf){
+      windowDesc = 'Afloración confirmada el '+rec.ventana_inicio+' ('+rec.lag_real_dias+'d)';
+    } else if(sobre){
+      windowDesc = 'Sobreplazo: '+todayDays+'d transcurridos (P75='+stats.p75+'d)';
+    } else {
+      windowDesc = 'Ventana estimada: '+rec.ventana_inicio+' → '+rec.ventana_fin;
+    }
+
+    lagSvg = '<div class="oport-lag-wrap">'
+      +'<div style="font-size:10px;font-weight:600;color:rgba(26,26,24,.5);text-transform:uppercase;letter-spacing:.07em;margin-bottom:8px">Línea temporal del lag</div>'
+      +'<svg viewBox="0 0 460 52" style="width:100%;display:block;overflow:visible">'
+        // Background track
+        +'<rect x="10" y="22" width="440" height="8" rx="4" fill="#f0ece4"/>'
+        // P25–P75 band (expected zone)
+        +'<rect x="'+(10+xP25)+'" y="22" width="'+(xP75-xP25)+'" height="8" rx="3" fill="rgba(201,168,76,.35)"/>'
+        // Median line
+        +'<line x1="'+(10+xMed)+'" y1="18" x2="'+(10+xMed)+'" y2="34" stroke="#c9a84c" stroke-width="2" stroke-dasharray="3,2"/>'
+        // Today marker
+        +(todayDays<=stats.max*1.05 ?
+          '<circle cx="'+(10+xToday)+'" cy="26" r="5" fill="'+(sobre?'#f59e0b':'#1d4ed8')+'" stroke="#fff" stroke-width="1.5"/>'
+          +'<text x="'+(10+xToday)+'" y="14" text-anchor="middle" font-size="8" fill="'+(sobre?'#b45309':'#1d4ed8')+'" font-family="IBM Plex Mono,monospace">Hoy</text>'
+         : '')
+        // Confirmed marker
+        +(conf && rec.lag_real_dias ?
+          '<circle cx="'+(10+toX(rec.lag_real_dias))+'" cy="26" r="5" fill="#22c55e" stroke="#fff" stroke-width="1.5"/>'
+          +'<text x="'+(10+toX(rec.lag_real_dias))+'" y="46" text-anchor="middle" font-size="8" fill="#16a34a" font-family="IBM Plex Mono,monospace">'+rec.lag_real_dias+'d ✓</text>'
+         : '')
+        // Labels on axis
+        +'<text x="10" y="46" text-anchor="start" font-size="8" fill="rgba(26,26,24,.35)" font-family="IBM Plex Mono,monospace">0d</text>'
+        +'<text x="'+(10+xP25)+'" y="46" text-anchor="middle" font-size="8" fill="rgba(26,26,24,.5)" font-family="IBM Plex Mono,monospace">P25 '+stats.p25+'d</text>'
+        +'<text x="'+(10+xMed)+'" y="46" text-anchor="middle" font-size="8" fill="#7a5c1a" font-family="IBM Plex Mono,monospace">med '+stats.mediana+'d</text>'
+        +'<text x="'+(10+xP75)+'" y="46" text-anchor="middle" font-size="8" fill="rgba(26,26,24,.5)" font-family="IBM Plex Mono,monospace">P75 '+stats.p75+'d</text>'
+      +'</svg>'
+      +'<div style="font-size:10px;font-family:IBM Plex Mono,monospace;color:'+(sobre?'#b45309':conf?'#16a34a':'#1d4ed8')+';margin-top:2px">'+_esc(windowDesc)+'</div>'
+      +'<div style="font-size:9.5px;color:rgba(26,26,24,.35);margin-top:4px">Zona ámbar = rango P25–P75 observado en '+stats.n+' caso'+(stats.n!==1?'s confirmados':'')+'  ·  línea discontinua = mediana</div>'
+      +'</div>';
+  }
+
+  // ── Sección C: Decisión adversa ───────────────────────────────────────────
+  var diasAdv = rec.fecha_adversa ? Math.round((new Date()-new Date(rec.fecha_adversa))/86400000) : null;
+  var diasStr = diasAdv!=null ? diasAdv+'d transcurridos' : '';
+  var decBox = '<div class="oport-window-box">'
+    +'<div class="oport-w-item"><div class="oport-w-label">Tipo permiso</div>'
+    +'<div class="oport-w-value" style="font-family:IBM Plex Mono,monospace">'+_esc(rec.tipo_adverso||'—')+'</div></div>'
+    +'<div class="oport-w-item"><div class="oport-w-label">Resolución</div>'
+    +'<div class="oport-w-value" style="color:#dc2626;text-transform:capitalize">'+_esc(rec.estado_adverso||'—')+'</div></div>'
+    +'<div class="oport-w-item"><div class="oport-w-label">Fecha decisión</div>'
+    +'<div class="oport-w-value" style="font-family:IBM Plex Mono,monospace">'+(rec.fecha_adversa||'—')+(diasStr?' <span style="color:rgba(26,26,24,.45);font-size:10px">('+diasStr+')</span>':'')+'</div></div>'
+    +(rec.mw_proyecto?'<div class="oport-w-item"><div class="oport-w-label">MW proyecto</div>'
+    +'<div class="oport-w-value">'+rec.mw_proyecto+' MW</div></div>':'')
+    +(conf&&rec.lag_real_dias&&!isNaN(rec.lag_real_dias)?'<div class="oport-w-item"><div class="oport-w-label">Lag real</div>'
+    +'<div class="oport-w-value" style="color:#16a34a">'+Math.round(rec.lag_real_dias)+'d</div></div>':'')
+    +'</div>';
+
+
+  // Section D: Capacidad actual de la SET
+  var capSection = '';
+  var setNombre = rec.subestacion||rec.subestacion_raw||'';
+  if(setNombre && typeof findCapacity==='function' && typeof SETS_CAPACITY!=='undefined' && SETS_CAPACITY){
+    var ci = findCapacity(setNombre);
+    if(ci){
+      var capDisp  = ci.cap!=null  ? Math.round(ci.cap)  : null;
+      var capOcup  = ci.ocup!=null ? Math.round(ci.ocup) : null;
+      var capAcept = ci.acept!=null? Math.round(ci.acept): null;
+      var mwProj   = parseFloat(rec.mw_proyecto)||0;
+      var capTotal = capDisp;
+      var capSolic = capAcept||0;
+      var satRatio = (capTotal>0) ? Math.min(capSolic/capTotal,1) : null;
+      var alertIcon, alertText;
+      if(capTotal==null){ alertIcon='⚪'; alertText='Capacidad de la SET no disponible en base de datos.'; }
+      else if(capTotal<=0){ alertIcon='🔴'; alertText='Capacidad disponible neta = 0 MW. La capacidad que aflore puede no ser suficiente.'; }
+      else if(satRatio!=null && satRatio>=0.85){ alertIcon='🟡'; alertText=''+capTotal+' MW disponibles pero '+capSolic+' MW ya en tramitación (~'+Math.round(satRatio*100)+'%). La cola puede absorber la capacidad liberada.'; }
+      else if(mwProj>0 && capTotal<mwProj*0.5){ alertIcon='🟡'; alertText='Capacidad disponible ('+capTotal+' MW) menor a la mitad del proyecto adverso ('+mwProj+' MW).'; }
+      else { alertIcon='🟢'; alertText=''+capTotal+' MW disponibles'+(capSolic?' y '+capSolic+' MW en tramitación':'')+'. Margen para absorber la capacidad liberada.'; }
+      var barPct = satRatio!=null?Math.round(satRatio*100):0;
+      var barClr = (satRatio!=null&&satRatio>=0.85)?'#f59e0b':'#22c55e';
+      capSection='<div class="oport-set-cap-box">'
+        +'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:6px">'
+          +'<div style="font-size:12px;font-weight:600;color:#1a1a18">'+_esc(ci.set_kv||setNombre)+'</div>'
+          +'<div style="font-size:10px;color:rgba(26,26,24,.4);font-family:\'IBM Plex Mono\',monospace">'+_esc(ci.titular||'')+(ci.tension?' · '+ci.tension+' kV':'')+'</div>'
+        +'</div>'
+        +'<div class="oport-cap-kpis">'
+          +(capDisp!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#16a34a">'+capDisp+' MW</div><div class="oport-cap-kpi-lbl">Disponible</div></div>':'')
+          +(capOcup!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#16a34a">'+capOcup+' MW</div><div class="oport-cap-kpi-lbl">Ocupado</div></div>':'')
+          +(capAcept!=null?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#f59e0b">'+capAcept+' MW</div><div class="oport-cap-kpi-lbl">En tramitación</div></div>':'')
+          +(mwProj>0?'<div class="oport-cap-kpi"><div class="oport-cap-kpi-val" style="color:#7c3aed">'+mwProj+' MW</div><div class="oport-cap-kpi-lbl">Proyecto adverso</div></div>':'')
+        +'</div>'
+        +(satRatio!=null&&capTotal>0?'<div style="margin:10px 0 4px"><div style="height:6px;border-radius:3px;background:#f0ece4;overflow:hidden;margin-bottom:3px"><div style="height:100%;width:'+barPct+'%;background:'+barClr+';border-radius:3px"></div></div><div style="font-size:9px;color:rgba(26,26,24,.35)">'+barPct+'% de la capacidad disponible ya solicitado o reservado</div></div>':'')
+        +'<div style="display:flex;gap:8px;align-items:flex-start;padding:8px;background:rgba(26,26,24,.03);border-radius:7px;border:1px solid rgba(26,26,24,.06);margin-top:6px">'
+          +'<span style="font-size:14px;flex-shrink:0">'+alertIcon+'</span>'
+          +'<span style="font-size:11px;color:rgba(26,26,24,.7);line-height:1.45">'+alertText+'</span>'
+        +'</div>'
+      +'</div>';
+    } else {
+      capSection='<div class="oport-set-cap-box" style="opacity:.55"><div style="font-size:11px;color:rgba(26,26,24,.4);font-style:italic">SET no vinculada a la base de capacidades.</div></div>';
+    }
+  }
+
+  // ── Compose ───────────────────────────────────────────────────────────────
+  var setBtn = (rec.subestacion||rec.subestacion_raw)
+    ? '<button onclick="closeOportModal();jumpToSet('+JSON.stringify(rec.subestacion||rec.subestacion_raw)+',null)" '
+      +'style="padding:7px 16px;border:1px solid rgba(26,26,24,.15);border-radius:7px;font-size:12px;cursor:pointer;background:#1a1a18;color:#fff">Ver subestación en detalle →</button>'
+    : '';
+
+  var body = ''
+    +'<div><div class="oport-section-title">Proyecto con permiso adverso</div>'
+    +'<div style="font-size:13px;font-weight:600;color:#1a1a18;margin-bottom:8px">'+_esc(rec.proyecto_nombre||'—')+'</div>'
+    +decBox+'</div>'
+    +'<div><div class="oport-section-title">¿Por qué puede aflorar capacidad aquí?</div>'
+    +'<div class="oport-explain-box">Cuando un proyecto recibe un permiso decisivo adverso (<strong>'
+    +_esc(rec.tipo_adverso)+' '+_esc(rec.estado_adverso)+'</strong>), la capacidad de acceso reservada '
+    +'en la subestación queda liberada. Basado en <strong>'+stats.n+' caso'+(stats.n!==1?'s confirmados':'')
+    +'</strong> en esta herramienta, la capacidad suele aflorar en los mapas del distribuidor entre '
+    +'<strong>'+stats.p25+'–'+stats.p75+' días</strong> tras la decisión (mediana '+stats.mediana+'d). '
+    +'No está garantizado: pueden mediar recursos administrativos o retrasos del distribuidor.</div>'
+    +lagSvg+'</div>'
+    +'<div><div class="oport-section-title">Capacidad actual de la subestación</div>'
+    +capSection+'</div>'
+    +'<div><div class="oport-section-title">Publicaciones del expediente ('+pubs.length+')</div>'
+    +pubCards+'</div>'
+    +(setBtn?'<div>'+setBtn+'</div>':'');
+
+  document.getElementById('oport-modal-body').innerHTML = body;
+  document.getElementById('oport-modal-bg').classList.add('open');
+
+  // Lazy-load PROJECTS_DATA for richer pubs on next open
+  if((typeof PROJECTS_DATA==='undefined'||!PROJECTS_DATA) && pubs.length===0){
+    loadProjects().then(function(){ /* will show on re-open */ });
+  }
+}
+
+function closeOportModal(){
+  document.getElementById('oport-modal-bg').classList.remove('open');
+}
+
+window.addEventListener('popstate', function(e){
+  if(e.state && e.state.view) setView(e.state.view, true);
+  else if(location.hash) setView(location.hash.slice(1)||'busqueda', true);
+});
+
+function jumpToSet(nombre, tension){
+  if(!nombre || nombre==='—') return;
+  // Use findCapacity (already handles fuzzy match via normSetName voting)
+  var key = null;
+  var ci  = findCapacity(nombre);
+  if(ci) key = Object.keys(SETS_CAPACITY).find(function(k){ return SETS_CAPACITY[k][0]===ci.set_kv; });
+  // Fallback: direct key lookup
+  if(!key){
+    var norm = function(s){ return String(s||'').toUpperCase().normalize('NFD')
+      .replace(/[\u0300-\u036f]/g,'').replace(/[^A-Z0-9 ]/g,' ').replace(/\s+/g,' ').trim(); };
+    var nn = norm(nombre);
+    key = Object.keys(SETS_CAPACITY).find(function(k){ return norm(k)===nn; });
+    if(!key) key = Object.keys(SETS_CAPACITY).find(function(k){
+      var words = nn.split(' ').filter(function(w){ return w.length>=4; });
+      return words.length && words.every(function(w){ return norm(k).indexOf(w)>=0; });
+    });
+  }
+  if(key){ setView('subestaciones'); setTimeout(function(){ openSetDetail(key); }, 120); }
+  else { setView('subestaciones'); }
+}
+
+function openOportSet(dist, nombre, tension){
+  if(typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY){
+    var norm=function(s){ return String(s||'').toUpperCase().trim(); };
+    var normNombre=norm(nombre);
+    var matchKey=Object.keys(SETS_CAPACITY).find(function(k){ return norm(k)===normNombre; });
+    if(!matchKey) matchKey=Object.keys(SETS_CAPACITY).find(function(k){
+      var words=normNombre.split(' ').filter(function(w){ return w.length>3; });
+      return words.length&&words.every(function(w){ return norm(k).indexOf(w)>=0; });
+    });
+    if(matchKey){ setView('subestaciones'); setTimeout(function(){ openSetDetail(matchKey); },100); return; }
+  }
+}
+
+function exportOportCSV(){
+  if(!_oport_filtered.length) return;
+  var keys=['proyecto_id','proyecto_nombre','distribuidora','subestacion','provincia',
+            'fecha_adversa','tipo_adverso','estado_adverso','mw_proyecto',
+            'ventana_inicio','ventana_fin','estado_ventana','lag_real_dias',
+            'lag_p25_dias','lag_mediana_dias','lag_p75_dias','confianza'];
+  var lines=[keys.join(',')];
+  _oport_filtered.forEach(function(r){
+    lines.push(keys.map(function(k){
+      var v=r[k]; if(v==null) v='';
+      v=String(v);
+      if(v.indexOf(',')>-1||v.indexOf('"')>-1) v='"'+v.replace(/"/g,'""')+'"';
+      return v;
+    }).join(','));
+  });
+  var blob=new Blob([lines.join('\n')],{type:'text/csv;charset=utf-8;'});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement('a');
+  a.href=url; a.download='oportunidades_adverse.csv'; a.click();
+  URL.revokeObjectURL(url);
+}
+// ── Forecast section in SET detail panel ──────────────────────────────────────
+function updateSdpForecast(distribuidora, subestacion, tension_kv){
+  var sec = document.getElementById('sdp-forecast-section');
+  if(!sec) return;
+  if(typeof FORECAST_DATA === 'undefined'){ sec.style.display='none'; return; }
+
+  var norm = function(s){ return String(s||'').toUpperCase().trim(); };
+  var rec  = FORECAST_DATA.find(function(r){
+    return norm(r.distribuidora) === norm(distribuidora) &&
+           norm(r.subestacion)   === norm(subestacion)   &&
+           Math.abs((parseFloat(r.tension_kv)||0) - (parseFloat(tension_kv)||0)) < 1;
+  });
+
+  if(!rec){ sec.style.display='none'; return; }
+
+  sec.style.display = 'block';
+  var Q_LABELS = {1:'Q1 (Ene–Mar)',2:'Q2 (Abr–Jun)',3:'Q3 (Jul–Sep)',4:'Q4 (Oct–Dic)'};
+  var confPct  = Math.round((rec.confianza||0)*100);
+  var enc      = rec.estado_ventana === 'EN_CURSO';
+
+  var patronEl = document.getElementById('sdp-fc-patron');
+  if(patronEl) patronEl.textContent = Q_LABELS[rec.trimestre_patron] || ('Q'+rec.trimestre_patron);
+
+  var ventEl = document.getElementById('sdp-fc-ventana');
+  if(ventEl && rec.ventana_inicio && rec.ventana_fin)
+    ventEl.textContent = rec.ventana_inicio.slice(0,7) + ' → ' + rec.ventana_fin.slice(0,7);
+
+  var estEl = document.getElementById('sdp-fc-estado');
+  if(estEl){
+    estEl.innerHTML = enc
+      ? '<span class="oport-estado-enc">EN CURSO</span>'
+      : '<span class="oport-estado-prox">'+_esc(rec.estado_ventana||'—')+'</span>';
+  }
+
+  var mwEl = document.getElementById('sdp-fc-mw');
+  if(mwEl) mwEl.textContent = rec.avg_delta_mw != null ? Math.round(rec.avg_delta_mw)+' MW' : '—';
+
+  var confEl = document.getElementById('sdp-fc-conf');
+  if(confEl){
+    var barW = Math.round(confPct * 0.7);
+    confEl.innerHTML = '<span class="oport-conf-bar-wrap">'
+      + '<span class="oport-conf-bar" style="width:'+barW+'px"></span>'
+      + '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;font-weight:700">'+confPct+'%</span>'
+      + '</span>';
+  }
+
+  var badgeEl = document.getElementById('sdp-fc-conf-badge');
+  if(badgeEl) badgeEl.textContent = '· ' + (rec.n_eventos_hist||0) + ' eventos históricos';
+
+  var histEl = document.getElementById('sdp-fc-hist');
+  if(histEl && rec.fechas_historicas){
+    var fechas = String(rec.fechas_historicas).split('|').slice(-6);
+    histEl.textContent = 'Últimas liberaciones: ' + fechas.join('  ·  ');
+  }
+}
+
 function togglePrjDetail(id){
   if(PRJ_EXPANDED.has(id)) PRJ_EXPANDED.delete(id);
   else PRJ_EXPANDED.add(id);
   renderProyectos();
 }
 
+function toggleOportDetail(id){
+  if(OPORT_EXPANDED.has(id)) OPORT_EXPANDED.delete(id);
+  else OPORT_EXPANDED.add(id);
+  renderOportunidades();
+}
+
 </script>
+
+<!-- OPORT DETAIL MODAL -->
+<div class="oport-modal-bg" id="oport-modal-bg" onclick="if(event.target===this)closeOportModal()">
+  <div class="oport-modal">
+    <div class="oport-modal-hdr">
+      <div>
+        <div class="oport-modal-title" id="oport-modal-title">—</div>
+        <div class="oport-modal-sub" id="oport-modal-sub">—</div>
+      </div>
+      <button class="oport-modal-close" onclick="closeOportModal()">✕</button>
+    </div>
+    <div class="oport-modal-body" id="oport-modal-body"></div>
+  </div>
+</div>
 </body>
 </html>
    
