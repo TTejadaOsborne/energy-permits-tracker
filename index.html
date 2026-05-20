@@ -1111,9 +1111,14 @@ const CONFIG = {
 <!-- ── VISTA PROYECTOS ── -->
 <div id="view-proyectos" class="content" style="display:none;flex-direction:column">
   <div class="prj-toolbar">
-    <input class="prj-search" id="prj-search" type="text"
-      placeholder="Buscar por nombre, promotor, expediente…"
-      oninput="renderProyectos()">
+    <div style="position:relative;flex:1;min-width:200px">
+      <input class="prj-search" id="prj-search" type="text"
+        placeholder="Buscar por nombre, promotor, expediente…"
+        oninput="updatePrjClearBtn();renderProyectos()"
+        style="width:100%;padding-right:28px">
+      <button id="prj-clear-btn" onclick="clearPrjSearch()" title="Borrar búsqueda"
+        style="display:none;position:absolute;right:7px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;font-size:13px;color:rgba(26,26,24,.4);line-height:1;padding:0">✕</button>
+    </div>
     <div class="filter-btn" id="prj-btn-tech" onclick="togglePrjDropdown(event,'tech')">
       <span class="filter-label" id="prj-lbl-tech">Tecnología</span>
       <span class="chevron">▾</span>
@@ -1133,6 +1138,8 @@ const CONFIG = {
       <input type="checkbox" id="prj-f-multi" onchange="renderProyectos()" style="cursor:pointer">
       Con trazabilidad
     </label>
+    <button id="prj-reset-btn" onclick="resetPrjFiltros()" class="sets-pill-btn"
+      style="display:none;font-size:11px">✕ Limpiar</button>
     <span class="prj-stats" id="prj-stats">—</span>
   </div>
   <div class="prj-table-wrap">
@@ -3303,6 +3310,50 @@ let PRJ_SORT_KEY = 'fecha_ultima', PRJ_SORT_ASC = false;
 let PRJ_EXPANDED = new Set();
 const PRJ_FILTROS = { tech: new Set(), estado: new Set(), prov: new Set() };
 
+function clearPrjSearch(){
+  var inp = document.getElementById('prj-search');
+  if(inp){ inp.value = ''; }
+  updatePrjClearBtn();
+  renderProyectos();
+}
+
+function updatePrjClearBtn(){
+  var inp = document.getElementById('prj-search');
+  var btn = document.getElementById('prj-clear-btn');
+  if(btn) btn.style.display = (inp && inp.value) ? 'block' : 'none';
+  updatePrjResetBtn();
+}
+
+function updatePrjResetBtn(){
+  var hasText   = !!(document.getElementById('prj-search') || {}).value;
+  var hasFilter = PRJ_FILTROS.tech.size || PRJ_FILTROS.estado.size || PRJ_FILTROS.prov.size;
+  var hasMulti  = document.getElementById('prj-f-multi') && document.getElementById('prj-f-multi').checked;
+  var btn = document.getElementById('prj-reset-btn');
+  if(btn) btn.style.display = (hasText || hasFilter || hasMulti) ? 'inline-flex' : 'none';
+}
+
+function resetPrjFiltros(){
+  var inp = document.getElementById('prj-search');
+  if(inp) inp.value = '';
+  PRJ_FILTROS.tech.clear();
+  PRJ_FILTROS.estado.clear();
+  PRJ_FILTROS.prov.clear();
+  var multi = document.getElementById('prj-f-multi');
+  if(multi) multi.checked = false;
+  // Reset dropdown labels
+  ['tech','estado','prov'].forEach(function(k){
+    var lbl = document.getElementById('prj-lbl-'+k);
+    if(lbl) lbl.textContent = k==='tech'?'Tecnología':k==='estado'?'Estado':'Provincia';
+    var btn = document.getElementById('prj-btn-'+k);
+    if(btn) btn.classList.remove('active');
+    // Uncheck all checkboxes in dropdown
+    var dd = document.getElementById('prj-dd-'+k);
+    if(dd) dd.querySelectorAll('input[type=checkbox]').forEach(function(cb){ cb.checked=false; });
+  });
+  updatePrjClearBtn();
+  renderProyectos();
+}
+
 function normPrjTech(t){
   if(!t) return t;
   if(t==='BESS+FV') return 'FV+BESS';
@@ -3319,6 +3370,7 @@ function togglePrjDropdown(evt, key){
 
 function buildPrjDropdown(key, vals, defaultLbl){
   var dd  = document.getElementById('prj-dd-'+key);
+  updatePrjResetBtn();
   var lbl = document.getElementById('prj-lbl-'+key);
   var btn = document.getElementById('prj-btn-'+key);
   if(!dd||!lbl||!btn) return;
