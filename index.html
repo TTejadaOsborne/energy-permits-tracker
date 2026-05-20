@@ -2106,7 +2106,7 @@ function openModal(id_boe){
       ${f("Confianza IA",r.confianza?Math.round(parseFloat(r.confianza)*100)+"%":"")}
     </div>
     ${boletinUrl(r)?`<a class="modal-link" href="${boletinUrl(r)}" target="_blank">→ Ver en boletín oficial</a>`:""}
-    <button class="modal-link" style="margin-left:${boletinUrl(r)?'8px':'0'};background:none;border:1.5px solid rgba(26,26,24,.15);border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:all .15s" onmouseenter="this.style.borderColor='#1a1a18'" onmouseleave="this.style.borderColor='rgba(26,26,24,.15)'" onclick="navigateToProject('${cleanName(r).replace(/'/g,\"&apos;\")}')">→ Ver en Proyectos</button>
+    <button class="modal-link" data-nombre="${cleanName(r).replace(/"/g,'&quot;')}" style="margin-left:${boletinUrl(r)?'8px':'0'};background:none;border:1.5px solid rgba(26,26,24,.15);border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:all .15s" onmouseenter="this.style.borderColor='#1a1a18'" onmouseleave="this.style.borderColor='rgba(26,26,24,.15)'" onclick="navigateToProject(this.dataset.nombre)">→ Ver en Proyectos</button>
     <div class="modal-id">${r.id_boe}</div>
   `;
   document.getElementById("modal").classList.add("open");
