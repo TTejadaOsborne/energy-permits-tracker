@@ -226,15 +226,22 @@ def build_projects(records, uf):
         else:
             nombre_can = pubs_sorted[0].get('titulo_original', 'Sin nombre')[:80]
 
-        # --- Estado: el de la publicación más reciente que tenga estado definido ---
-        # La publicación más reciente marca el estado actual del proyecto.
-        # Si no tiene estado, retrocedemos hasta encontrar uno.
+        # --- Estado y tipo: de la misma publicación más reciente con estado definido ---
+        # La publicación más reciente con estado marca tanto el estado actual como
+        # el tipo de trámite al que hace referencia ese estado.
         estado_actual = None
+        ultimo_tipo_permiso_estado = None
         for r in reversed(pubs_sorted):
             e = (r.get('estado_permiso') or '').strip()
             if e:
                 estado_actual = e
+                ultimo_tipo_permiso_estado = r.get('tipo_permiso') or None
                 break
+        # Fallback: si ninguna pub tiene estado, el tipo es el de la más reciente con tipo
+        if ultimo_tipo_permiso_estado is None:
+            ultimo_tipo_permiso_estado = next(
+                (r.get('tipo_permiso') for r in reversed(pubs_sorted) if r.get('tipo_permiso')), None
+            )
 
         # --- Otros campos: del registro más reciente con dato ---
         def best(field):
@@ -261,7 +268,7 @@ def build_projects(records, uf):
             'tension_kv':      best('tension_conexion_kv'),
             'expedientes':     sorted(exps),
             'estado_actual':   estado_actual,
-            'ultimo_tipo_permiso': next((r.get('tipo_permiso') for r in reversed(pubs_sorted) if r.get('tipo_permiso')), None),
+            'ultimo_tipo_permiso': ultimo_tipo_permiso_estado,
             'ultimo_boletin':      pubs_sorted[-1].get('boletin'),
             'es_fallido':      any(r.get('es_proyecto_fallido') for r in pubs_sorted),
             'mw_liberados':    best('capacidad_mw_liberada'),
