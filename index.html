@@ -752,7 +752,7 @@ const CONFIG = {
       <span class="nav-label-sm">Proyectos</span>
       <span id="cnt-proyectos" style="display:none"></span>
     </div>
-    <div class="nav-item" onclick="setView('oportunidades')" title="Afloramiento de capacidad" id="nav-oportunidades">
+    <div class="nav-item" onclick="setView('subestaciones');setTimeout(function(){setSetsMainView('afloramiento');},80)" title="Afloramiento de capacidad" id="nav-oportunidades">
       <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
       <span class="nav-label-sm">Afloramiento</span>
     </div>
@@ -896,7 +896,8 @@ const CONFIG = {
     <!-- Main tabs -->
     <div style="display:flex;align-items:center;gap:0;border-bottom:1px solid rgba(26,26,24,.1);padding:0 24px;background:#fff;flex-shrink:0">
       <button id="sets-main-tab-cap"  class="sets-tab sets-tab-active" onclick="setSetsMainView('capacidades')">Capacidades mensuales</button>
-      <button id="sets-main-tab-bole" class="sets-tab"                 onclick="setSetsMainView('boletines')">Afloramiento Boletines</button>
+      <button id="sets-main-tab-bole" class="sets-tab"                 onclick="setSetsMainView('boletines')">Boletines</button>
+      <button id="sets-main-tab-aflor" class="sets-tab"                onclick="setSetsMainView('afloramiento')">Afloramiento</button>
     </div>
 
     <!-- ── CAPACIDADES VIEW ─────────────────────────────────────────── -->
@@ -1028,6 +1029,11 @@ const CONFIG = {
       <p style="font-size:12px;opacity:.5;margin-bottom:16px">Oportunidades de entrada por afloramiento de capacidad</p>
       <div id="set-cards"></div>
       <div id="set-empty" style="color:rgba(26,26,24,.4);font-size:12px;display:none">No hay proyectos fallidos con subestación identificada.</div>
+    </div>
+
+    <!-- ── AFLORAMIENTO VIEW (within SETs) ─────────────────────────────────── -->
+    <div id="sets-view-afloramiento" style="display:none;flex:1;overflow-y:auto">
+      <div id="sets-aflor-inner"></div>
     </div>
   </div>
 
@@ -1284,7 +1290,7 @@ const CONFIG = {
 </div>
 
 <!-- ── VISTA OPORTUNIDADES ── -->
-<div id="view-oportunidades" class="content" style="display:none;flex-direction:column">
+<div id="view-oportunidades" class="content" style="display:none">
   <div class="oport-kpis" id="op-kpis-row">
     <div class="oport-kpi-card">
       <div class="oport-kpi-val" id="op-kpi-total">—</div>
@@ -1511,15 +1517,17 @@ async function loadSetsCapacity(){
 }
 
 let SETS_HISTORY = null;
-let _setsHistLoading = false;
-async function loadSetsHistory(){
-  if(SETS_HISTORY || _setsHistLoading) return;
-  _setsHistLoading = true;
-  try {
-    const r = await fetch('sets_history.json');
-    if(r.ok){ SETS_HISTORY = await r.json(); }
-  } catch(e) {}
-  _setsHistLoading = false;
+let _setsHistPromise = null;
+function loadSetsHistory(){
+  if(SETS_HISTORY) return Promise.resolve();
+  if(_setsHistPromise) return _setsHistPromise;
+  _setsHistPromise = (async function(){
+    try {
+      const r = await fetch('sets_history.json');
+      if(r.ok){ SETS_HISTORY = await r.json(); }
+    } catch(e) { console.warn('sets_history load failed:', e); }
+  })();
+  return _setsHistPromise;
 }
 
 function normSetName(s){
@@ -2109,9 +2117,11 @@ function setView(v, _noPush){
   document.getElementById("view-busqueda").style.display=v==="busqueda"?"flex":"none";
   document.getElementById("view-subestaciones").style.display=v==="subestaciones"?"flex":"none";
   document.getElementById("view-proyectos").style.display=v==="proyectos"?"flex":"none";
-  document.getElementById("view-oportunidades").style.display=v==="oportunidades"?"flex":"none";
+  document.getElementById("view-oportunidades").style.display="none";  // content moved into SETs tab
+  // When navigating to oportunidades, show subestaciones view instead
+  if(v==="oportunidades") document.getElementById("view-subestaciones").style.display="flex";
   document.querySelectorAll(".nav-item").forEach(el=>el.classList.remove("active"));
-  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos","oportunidades":"nav-oportunidades"};
+  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos"};
   var activeEl=document.getElementById(navMap[v]||"nav-busqueda");
   if(activeEl) activeEl.classList.add("active");
   if(v==="busqueda"){
@@ -2128,7 +2138,8 @@ function setView(v, _noPush){
     renderDashboard();
   } else if(v==="oportunidades"){
     document.getElementById("page-title").textContent="Afloramiento";
-    initOportunidades();
+    // Override the capacidades tab set by subestaciones branch above
+    setTimeout(function(){ setSetsMainView('afloramiento'); initOportunidades(); }, 10);
   }
 }
 
@@ -2425,16 +2436,19 @@ function getCapColor(d){
 
 function setSetsMainView(view){
   SETS_MAIN_VIEW = view;
-  ['cap','bole'].forEach(k=>{
-    const id = k==='cap' ? 'capacidades' : 'boletines';
+  const tabMap = {cap:'capacidades', bole:'boletines', aflor:'afloramiento'};
+  Object.keys(tabMap).forEach(k=>{
     const tab = document.getElementById('sets-main-tab-'+k);
-    if(tab) tab.className = 'sets-tab' + (id===view ? ' sets-tab-active' : '');
+    if(tab) tab.className = 'sets-tab' + (tabMap[k]===view ? ' sets-tab-active' : '');
   });
-  const capEl  = document.getElementById('sets-view-capacidades');
-  const boleEl = document.getElementById('sets-view-boletines');
-  if(capEl)  capEl.style.display  = view==='capacidades' ? 'flex'  : 'none';
-  if(boleEl) boleEl.style.display = view==='boletines'   ? 'block' : 'none';
-  if(view==='boletines') { renderSets(); }
+  const capEl   = document.getElementById('sets-view-capacidades');
+  const boleEl  = document.getElementById('sets-view-boletines');
+  const aflorEl = document.getElementById('sets-view-afloramiento');
+  if(capEl)   capEl.style.display   = view==='capacidades'  ? 'flex'  : 'none';
+  if(boleEl)  boleEl.style.display  = view==='boletines'    ? 'block' : 'none';
+  if(aflorEl) aflorEl.style.display = view==='afloramiento' ? 'block' : 'none';
+  if(view==='boletines')    { renderSets(); }
+  else if(view==='afloramiento') { _renderAfloramientoTab(); }
   else { buildSetsFiltered(); if(SETS_CAP_VIEW==='mapa') renderSetsMap(); else renderSetsListado(); }
 }
 
@@ -3970,7 +3984,7 @@ function renderOportunidades(){
 
     var idx=JSON.stringify(r.proyecto_id);
     var isExp=OPORT_EXPANDED.has(r.proyecto_id);
-    html+='<tr class="prj-row'+(isExp?' expanded':'')+' onclick="toggleOportDetail('+idx+')" title="Ver análisis detallado">'
+    html+='<tr class="prj-row'+(isExp?' expanded':'') +'" onclick="toggleOportDetail('+idx+')" title="Ver análisis detallado">'
       +'<td style="font-size:10px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.5);white-space:nowrap">'+_esc(r.distribuidora||'—')+'</td>'
       +'<td style="font-weight:600;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+_esc(r.subestacion||'—')+(r.provincia?'<div style="font-size:9.5px;font-weight:400;color:rgba(26,26,24,.45)">'+_esc(r.provincia)+'</div>':'')+'</td>'
       +'<td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px">'+_esc(r.proyecto_nombre||'—')+'</td>'
@@ -4149,6 +4163,19 @@ function buildOportDetail(rec){
       +pubHtml
     +'</div>'
     +'</td></tr>';
+}
+
+function _renderAfloramientoTab(){
+  const inner = document.getElementById('sets-aflor-inner');
+  if(!inner) return;
+  // Move (or clone) the oport panel into the SETs tab the first time
+  const oport = document.getElementById('view-oportunidades');
+  if(oport && !inner.hasChildNodes()){
+    // Move all children of view-oportunidades into inner
+    while(oport.firstChild) inner.appendChild(oport.firstChild);
+  }
+  _buildOportKpis();
+  renderOportunidades();
 }
 
 function sortOport(key){
