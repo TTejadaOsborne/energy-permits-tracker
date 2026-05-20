@@ -41,8 +41,25 @@ def norm(s):
     s = re.sub(r'\s+', ' ', s).strip()
     return s
 
+# Patrón para números romanos (I–MMMM)
+_ROMAN_PAT = re.compile(
+    r'^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
+)
+
 def tokens(s, min_len=3):
-    return set(t for t in norm(s).split() if len(t) >= min_len and t not in _STOPWORDS)
+    """
+    Tokeniza un nombre normalizado.
+    Conserva dígitos y números romanos aunque sean < min_len chars,
+    para evitar que 'Solar 1' y 'Solar 2' colapsen al mismo token-set.
+    """
+    result = set()
+    for t in norm(s).split():
+        if t in _STOPWORDS:
+            continue
+        is_short_num = t.isdigit() or (len(t) >= 1 and _ROMAN_PAT.match(t))
+        if len(t) >= min_len or is_short_num:
+            result.add(t)
+    return result
 
 def jaccard(a, b):
     ta, tb = tokens(a), tokens(b)

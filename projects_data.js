@@ -1,332 +1,8 @@
 window.PROJECTS_INLINE = {
   "version": "1.0",
   "generado": "2026-05-20",
-  "total": 744,
+  "total": 765,
   "proyectos": [
-    {
-      "id": "prj_00816",
-      "nombre": "FV Solaria Pinofranqueado Solar 1",
-      "promotor": "EDP Renovables España, SLU",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Cáceres",
-      "municipio": "Pinofranqueado",
-      "comunidad_autonoma": "Extremadura",
-      "subestacion": null,
-      "tension_kv": 30,
-      "expedientes": [
-        "DOE-25081618",
-        "DOE-25081619",
-        "DOE-25081620",
-        "DOE-26060393",
-        "DOE-26060396",
-        "DOE-26060402",
-        "DOE-26060412",
-        "DOE-26060848",
-        "DOE-26060849",
-        "DOE-26060850",
-        "DOE-26060851"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "DOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20251009",
-      "fecha_ultima": "20260421",
-      "n_publicaciones": 11,
-      "publicaciones": [
-        {
-          "id_boe": "DOE-25081618",
-          "fecha": "20251009",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081618.pdf",
-          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 4\", ubicada en el término municipal d",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa y Estudio de Impacto Ambiental. Publicado en DOE (Diario Oficial de Extremadura). El texto completo no está disponible, se extraen datos del título y metadatos."
-        },
-        {
-          "id_boe": "DOE-25081619",
-          "fecha": "20251009",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081619.pdf",
-          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", ubicada en el término municipal d",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Información pública simultánea de solicitud de autorización administrativa previa (AAP) y estudio de impacto ambiental (EsIA). Anuncio publicado en DOE por la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-25081620",
-          "fecha": "20251009",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081620.pdf",
-          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 2\", ubicada en el término municipal d",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Información pública de solicitud de autorización administrativa previa y estudio de impacto ambiental. Publicado en DOE (Diario Oficial de Extremadura). El texto completo no está disponible, por lo que algunos datos no pueden extraerse."
-        },
-        {
-          "id_boe": "DOE-26060393",
-          "fecha": "20260216",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060393.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", a realizar en el término municipal de Guijo de Coria (Cáceres)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura"
-        },
-        {
-          "id_boe": "DOE-26060396",
-          "fecha": "20260216",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060396.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 4\" y línea subterránea de conexión 30 kV para evacuación de energí",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica con línea subterránea de conexión 30 kV para evacuación de energía. Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-26060402",
-          "fecha": "20260216",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060402.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 3\", a realizar en el término municipal de Guijo de Coria (Cáceres)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Declaración de Impacto Ambiental favorable formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-26060412",
-          "fecha": "20260217",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/320o/26060412.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 2\" y línea subterránea de conexión 30 kV para evacuación de energí",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica con línea subterránea de conexión a 30 kV para evacuación de energía. Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-26060848",
-          "fecha": "20260420",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/740o/26060848.pdf",
-          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SL, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 2\", ubicada en el término munic",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa emitida por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura"
-        },
-        {
-          "id_boe": "DOE-26060849",
-          "fecha": "20260421",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060849.pdf",
-          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", ubicada en el término muni",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Autorización Administrativa Previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. El texto completo no está disponible en el anuncio publicado en el DOE."
-        },
-        {
-          "id_boe": "DOE-26060850",
-          "fecha": "20260421",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060850.pdf",
-          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 4\", ubicada en el término muni",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa emitida por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-26060851",
-          "fecha": "20260421",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060851.pdf",
-          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 3\", ubicada en el término muni",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución otorga autorización administrativa previa. Información disponible limitada por falta de texto completo del BOE/DOE."
-        }
-      ]
-    },
-    {
-      "id": "prj_00663",
-      "nombre": "Planta Solar Fotovoltaica Valdecarros",
-      "promotor": "Calvitero Solar 13, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 4.8,
-      "provincia": "Valladolid",
-      "municipio": "Zaratán",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "ST Valladolid",
-      "tension_kv": 13.2,
-      "expedientes": [
-        "EIA/VA/2025/61",
-        "FV-2642",
-        "FV-2705 ATCE-196",
-        "FV-2709 ATCE-199",
-        "FV-2710 ATCE-200",
-        "FV-2711 ATCE-201",
-        "FV-2712 ATCE-202",
-        "FV-2713 ATCE-203"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250922",
-      "fecha_ultima": "20251204",
-      "n_publicaciones": 8,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-22092025-35",
-          "fecha": "20250922",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/09/22/html/BOCYL-D-22092025-35.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Valdecarros», en el término municipal de Zaratán (Valladolid). Expte.: FV-2642.",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica de 4.800 kW con capacidad de acceso concedida de 4.999 kW. La infraestructura de evacuación incluye línea subterránea de 13,2 kV hacia nuevo centro de seccionamiento CS Prado. Requiere evaluación de impacto ambiental simplificada. Plazo de resolución: seis meses con silencio administrativo desestimatorio. Información pública por 20 días hábiles."
-        },
-        {
-          "id_boe": "BOCYL-D-15102025-22",
-          "fecha": "20251015",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/10/15/html/BOCYL-D-15102025-22.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Valladolid Solar I», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2705 ATCE-196.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de 5940 kW (potencia instalada) con capacidad de acceso concedida de 4889,6 kW. La línea de evacuación de 13,2 kV comparte trazado con múltiples otras instalaciones en tramitación (expedientes FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2681, FV-2682, FV-2683, FV-2688, FV-2690, FV-2697, FV-2708, FV-2709, FV-2710, FV-2711, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Centro de Transformación con transformador de 5000 kVA (0,8/13,2 kV). Punto de entrega en Centro de Seccionamiento línea 16 'Amanecer' de ST Valladolid. Plazo de resolución: seis meses con silencio administrativo desestimatorio. Requiere evaluación de impacto ambiental simplificada competencia del Servicio Territorial de Medio Ambiente de Valladolid."
-        },
-        {
-          "id_boe": "BOCYL-D-20112025-38",
-          "fecha": "20251120",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/11/20/html/BOCYL-D-20112025-38.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar VI», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2713 ATCE-203.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Planta fotovoltaica de 4620 kW de potencia instalada con capacidad de acceso concedida de 3800 kW. Centro de Transformación de 4000 kVA con relación 0.8/13.2 kV. Línea de evacuación de 13,2 kV compartida con múltiples instalaciones (expedientes FV-2639 a FV-2726). Punto de entrega en centro de seccionamiento telemandado en línea Pio Rio Hortega de la ST Valladolid. Evaluación ambiental simplificada requerida. Plazo de resolución: seis meses con silencio administrativo desestimatorio."
-        },
-        {
-          "id_boe": "BOCYL-D-01122025-25",
-          "fecha": "20251201",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/12/01/html/BOCYL-D-01122025-25.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar II», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2709 ATCE-199.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica con potencia instalada según RD 413/2014 de 5.940 kW. Capacidad de acceso concedida: 4.899,6 kW. Línea de evacuación subterránea de 13,2 kV con trazado compartido con múltiples instalaciones de terceros. Requiere evaluación de impacto ambiental simplificada. Plazo de información pública: 20 días hábiles. Plazo de resolución: 6 meses con silencio administrativo desestimatorio."
-        },
-        {
-          "id_boe": "BOCYL-D-03122025-16",
-          "fecha": "20251203",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-16.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar III», en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2710 ATCE-200.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación de producción de energía eléctrica por tecnología fotovoltaica con potencia instalada de 2970 kW y capacidad de acceso concedida de 2530 kW. Línea de evacuación subterránea de 13,2 kV. Evaluación de impacto ambiental simplificada requerida. Infraestructura compartida con otros expedientes en tramitación (FV-2642, FV-2688, FV-2622 y otros). Centro de Transformación con transformador de 3000 kVA y relación 0,8/13,2 kV. Punto de entrega en centro de seccionamiento telemandado (CS) en línea DR. Villacian de ST Valladolid."
-        },
-        {
-          "id_boe": "BOCYL-D-03122025-17",
-          "fecha": "20251203",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-17.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar IV», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2711 ATCE-201.",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Planta fotovoltaica de 4.950 kW con capacidad de acceso concedida de 4.000 kW. Infraestructura de evacuación mediante líneas subterráneas de 13,2 kV. Línea de evacuación compartida con múltiples otros expedientes (FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2681, FV-2682, FV-2683, FV-2688, FV-2690, FV-2697, FV-2705, FV-2708, FV-2709, FV-2710, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Plazo de información pública: 20 días hábiles."
-        },
-        {
-          "id_boe": "BOCYL-D-03122025-18",
-          "fecha": "20251203",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-18.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar V», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2712 ATCE-202.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Planta fotovoltaica de 4.950 kW de potencia instalada con capacidad de acceso de 3.940 kW. Línea de evacuación subterránea de 13,2 kV compartida con múltiples instalaciones fotovoltaicas en tramitación. Evaluación de impacto ambiental simplificada requerida. Plazo de resolución: 6 meses (silencio administrativo desestimatorio). Plazo de información pública: 20 días hábiles."
-        },
-        {
-          "id_boe": "BOCYL-D-04122025-22",
-          "fecha": "20251204",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/12/04/html/BOCYL-D-04122025-22.do",
-          "titulo": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de la Junta de Castilla y León en Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Valdecarros» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid, promovido por Calvitero Solar 13, S.L. Expte.: EIA/VA/2025/61.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de planta solar fotovoltaica de 4,8 MW con extensión de 14,40 hectáreas. Incluye línea de evacuación subterránea a 13,2 kV con longitud de 920 m hasta subestación ST Valladolid. Línea compartida con otras instalaciones FV de la zona. Evaluación de impacto ambiental simplificada según Anexo II, Grupo 4, apartado j) de Ley 21/2013. Alternativa 2 seleccionada como la de menor impacto ambiental de las tres evaluadas."
-        }
-      ]
-    },
     {
       "id": "prj_00412",
       "nombre": "Planta Solar Fotovoltaica Toro Iferma 1",
@@ -430,6 +106,102 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Planta solar fotovoltaica que evacúa energía a través de infraestructuras comunes con otras plantas (PSFV Iferma 1, PSFV Guareña 2, PSFV Matarredonda 2, PSFV Armeza, PSFV Ojaranzos, PSFV Matarredonda 1 y PSFV Peñasomada). Se dispone de acuerdos previos con todos los titulares de terrenos afectados. El promotor aceptó los condicionados técnicos derivados del informe ambiental. Número de planta: 9149."
+        }
+      ]
+    },
+    {
+      "id": "prj_00665",
+      "nombre": "Planta Solar Fotovoltaica Valdecarros",
+      "promotor": "Calvitero Solar 13, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.8,
+      "provincia": "Valladolid",
+      "municipio": "Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "EIA/VA/2025/61",
+        "FV-2642",
+        "FV-2705 ATCE-196",
+        "FV-2712 ATCE-202",
+        "FV-2713 ATCE-203"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250922",
+      "fecha_ultima": "20251204",
+      "n_publicaciones": 5,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-22092025-35",
+          "fecha": "20250922",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/09/22/html/BOCYL-D-22092025-35.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Valdecarros», en el término municipal de Zaratán (Valladolid). Expte.: FV-2642.",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica de 4.800 kW con capacidad de acceso concedida de 4.999 kW. La infraestructura de evacuación incluye línea subterránea de 13,2 kV hacia nuevo centro de seccionamiento CS Prado. Requiere evaluación de impacto ambiental simplificada. Plazo de resolución: seis meses con silencio administrativo desestimatorio. Información pública por 20 días hábiles."
+        },
+        {
+          "id_boe": "BOCYL-D-15102025-22",
+          "fecha": "20251015",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/10/15/html/BOCYL-D-15102025-22.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Valladolid Solar I», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2705 ATCE-196.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de 5940 kW (potencia instalada) con capacidad de acceso concedida de 4889,6 kW. La línea de evacuación de 13,2 kV comparte trazado con múltiples otras instalaciones en tramitación (expedientes FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2681, FV-2682, FV-2683, FV-2688, FV-2690, FV-2697, FV-2708, FV-2709, FV-2710, FV-2711, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Centro de Transformación con transformador de 5000 kVA (0,8/13,2 kV). Punto de entrega en Centro de Seccionamiento línea 16 'Amanecer' de ST Valladolid. Plazo de resolución: seis meses con silencio administrativo desestimatorio. Requiere evaluación de impacto ambiental simplificada competencia del Servicio Territorial de Medio Ambiente de Valladolid."
+        },
+        {
+          "id_boe": "BOCYL-D-20112025-38",
+          "fecha": "20251120",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/11/20/html/BOCYL-D-20112025-38.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar VI», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2713 ATCE-203.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Planta fotovoltaica de 4620 kW de potencia instalada con capacidad de acceso concedida de 3800 kW. Centro de Transformación de 4000 kVA con relación 0.8/13.2 kV. Línea de evacuación de 13,2 kV compartida con múltiples instalaciones (expedientes FV-2639 a FV-2726). Punto de entrega en centro de seccionamiento telemandado en línea Pio Rio Hortega de la ST Valladolid. Evaluación ambiental simplificada requerida. Plazo de resolución: seis meses con silencio administrativo desestimatorio."
+        },
+        {
+          "id_boe": "BOCYL-D-03122025-18",
+          "fecha": "20251203",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-18.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar V», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2712 ATCE-202.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Planta fotovoltaica de 4.950 kW de potencia instalada con capacidad de acceso de 3.940 kW. Línea de evacuación subterránea de 13,2 kV compartida con múltiples instalaciones fotovoltaicas en tramitación. Evaluación de impacto ambiental simplificada requerida. Plazo de resolución: 6 meses (silencio administrativo desestimatorio). Plazo de información pública: 20 días hábiles."
+        },
+        {
+          "id_boe": "BOCYL-D-04122025-22",
+          "fecha": "20251204",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/12/04/html/BOCYL-D-04122025-22.do",
+          "titulo": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de la Junta de Castilla y León en Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Valdecarros» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid, promovido por Calvitero Solar 13, S.L. Expte.: EIA/VA/2025/61.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de planta solar fotovoltaica de 4,8 MW con extensión de 14,40 hectáreas. Incluye línea de evacuación subterránea a 13,2 kV con longitud de 920 m hasta subestación ST Valladolid. Línea compartida con otras instalaciones FV de la zona. Evaluación de impacto ambiental simplificada según Anexo II, Grupo 4, apartado j) de Ley 21/2013. Alternativa 2 seleccionada como la de menor impacto ambiental de las tres evaluadas."
         }
       ]
     },
@@ -606,89 +378,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00460",
-      "nombre": "Planta Solar Fotovoltaica Fortuna II",
-      "promotor": "Calvitero Solar 13, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 6.25,
-      "provincia": "Valladolid",
-      "municipio": "Zaratán",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "ST Valladolid",
-      "tension_kv": 13.2,
-      "expedientes": [
-        "EIA/VA/2025/22",
-        "EIA/VA/2025/23",
-        "FV-2639",
-        "FV-2640"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": true,
-      "mw_liberados": null,
-      "fecha_primera": "20250814",
-      "fecha_ultima": "20251104",
-      "n_publicaciones": 4,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-14082025-11",
-          "fecha": "20250814",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/08/14/html/BOCYL-D-14082025-11.do",
-          "titulo": "RESOLUCIÓN de 5 de agosto de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Fortuna II» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid (Valladolid), promovido por «Desarrollos Energéticos Almazán, S.L.». Expte.: EIA/VA/2025/22.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de evaluación de impacto ambiental simplificada. La planta Fortuna II tiene potencia nominal de 4,8 MWn y potencia pico de 6,28 MWp, ocupando 12 ha. Línea de evacuación soterrada de media tensión a 13,2 kV con longitud de 9.438 m. El documento ambiental evalúa conjuntamente Fortuna II y Fortuna III, pero la resolución se refiere específicamente a Fortuna II."
-        },
-        {
-          "id_boe": "BOCYL-D-14082025-12",
-          "fecha": "20250814",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/08/14/html/BOCYL-D-14082025-12.do",
-          "titulo": "RESOLUCIÓN de 5 de agosto de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Fortuna III» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid (Valladolid), promovido por «Desarrollos Energéticos Villabáñez, S.L.». Expte.: EIA/VA/2025/23.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución por la que se hace público el informe de impacto ambiental. Evaluación ambiental simplificada conforme a Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Planta con potencia nominal instalada de 6,25 MWp (6.25 MW). Superficie vallada de 11,10 ha. Línea de evacuación soterrada de media tensión a 13,2 kV con longitud de 9.438 m (según proyecto técnico). Documento ambiental redactado conjuntamente para Fortuna II y Fortuna III, aunque esta resolución se refiere específicamente a Fortuna III. Acceso a través del Camino de Cigüeñuela a Fuensaldaña."
-        },
-        {
-          "id_boe": "BOCYL-D-04112025-3",
-          "fecha": "20251104",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "desistido",
-          "url": "https://bocyl.jcyl.es/html/2025/11/04/html/BOCYL-D-04112025-3.do",
-          "titulo": "RESOLUCIÓN de 20 de octubre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Fortuna II», en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2639.",
-          "permisos_adicionales": [
-            "AAC",
-            "EsIA"
-          ],
-          "es_fallido": true,
-          "mw_liberados": null,
-          "observaciones": "El proyecto fue sometido a información pública el 01/07/2025 por 20 días hábiles. La titularidad del expediente cambió de Desarrollos Energéticos Almazán, S.L. (solicitante original, 09/06/2023) a Calvitero Solar 13, S.L. (14/02/2025). El desistimiento de la AAC fue registrado el 24/02/2025, aunque la información pública de la AAP se efectuó posteriormente el 01/07/2025. Se solicitó evaluación ambiental simplificada (EsIA) al Servicio Territorial de Medio Ambiente con fecha 20/02/2025. Se emitió informe de viabilidad ambiental favorable el 16/02/2024."
-        },
-        {
-          "id_boe": "BOCYL-D-04112025-4",
-          "fecha": "20251104",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/11/04/html/BOCYL-D-04112025-4.do",
-          "titulo": "RESOLUCIÓN de 20 de octubre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Fortuna III», en el término municipal de Zaratán (Valladolid). Expte.: FV-2640.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de autorización administrativa previa. El expediente incluye solicitud conjunta de AAP y AAC presentada el 09/06/2023 por Desarrollos Energéticos Villabáñez, S.L., posteriormente con cambio de titularidad a Calvitero Solar 13, S.L. Se registró solicitud de desistimiento de la AAC el 24/02/2025. Se ha realizado evaluación ambiental simplificada e información pública según Decreto 46/2022. Se solicitan informes técnicos a múltiples organismos incluyendo Ayuntamiento de Zaratán, CHD, Defensa, ST Medio Ambiente. El Ayuntamiento de Zaratán emite informe desfavorable al trazado de la línea de evacuación conjunta con Fortuna II (FV-2639)."
-        }
-      ]
-    },
-    {
       "id": "prj_00472",
       "nombre": "Planta Solar Fotovoltaica Híbrida El Hierro",
       "promotor": "Parque Eólico Peñarroldana, S.L.",
@@ -855,326 +544,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00505",
-      "nombre": "Planta Fotovoltaica Arañuelo A",
-      "promotor": "Fuerzas Energéticas del Sur de Europa XX",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Cáceres",
-      "municipio": "El Gordo",
-      "comunidad_autonoma": "Extremadura",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "DOE-25063959",
-        "DOE-25063969",
-        "DOE-25063970",
-        "DOE-25063971"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "ModAAE",
-      "ultimo_boletin": "DOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20251110",
-      "fecha_ultima": "20251110",
-      "n_publicaciones": 4,
-      "publicaciones": [
-        {
-          "id_boe": "DOE-25063959",
-          "fecha": "20251110",
-          "boletin": "DOE",
-          "tipo_permiso": "ModAAP",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063959.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo B\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación del proyecto de planta fotovoltaica e inclusión de línea de evacuación asociada. Publicada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        },
-        {
-          "id_boe": "DOE-25063969",
-          "fecha": "20251110",
-          "boletin": "DOE",
-          "tipo_permiso": "ModAAE",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063969.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo A\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación de proyecto fotovoltaico. Incluye línea de evacuación asociada. Texto completo no disponible en el anuncio publicado."
-        },
-        {
-          "id_boe": "DOE-25063970",
-          "fecha": "20251110",
-          "boletin": "DOE",
-          "tipo_permiso": "ModAAE",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063970.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo D\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación de proyecto de planta fotovoltaica y su línea de evacuación. Incluye infraestructura de red asociada (LAT)."
-        },
-        {
-          "id_boe": "DOE-25063971",
-          "fecha": "20251110",
-          "boletin": "DOE",
-          "tipo_permiso": "ModAAE",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063971.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de Planta Fotovoltaica \"Arañuelo C\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación del proyecto de planta fotovoltaica y su línea de evacuación. La tramitación es de carácter ambiental a través de la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        }
-      ]
-    },
-    {
-      "id": "prj_00696",
-      "nombre": "Planta Solar Fotovoltaica Pintia II",
-      "promotor": "Salvia Solar V, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 4.9,
-      "provincia": "Valladolid",
-      "municipio": "Villanubla, Ciguñuela, Zaratán",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "SMR Pintia Sur",
-      "tension_kv": 45,
-      "expedientes": [
-        "EIA/VA/2024/61",
-        "EIA/VA/2024/62",
-        "EIA/VA/2024/63",
-        "EIA/VA/2025/45"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20251111",
-      "fecha_ultima": "20251209",
-      "n_publicaciones": 4,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-11112025-11",
-          "fecha": "20251111",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-11.do",
-          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia I» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar I, S.L.». Expte.: EIA/VA/2024/61.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de evaluación ambiental simplificada según Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Superficie ocupada: 14,14 ha. Incluye línea de evacuación con tramos subterráneos (4.987,88 m y 2.062,1 m) y tramo aéreo (992,74 m). Se proyectan adyacentemente las plantas Pintia II y Pintia VI. Subestación elevadora 45/30 kV ST Pintia Norte como infraestructura común. Se analizaron tres alternativas de ubicación más alternativa 0 de no ejecución. Se subsanaron deficiencias documentales en abril de 2025."
-        },
-        {
-          "id_boe": "BOCYL-D-11112025-12",
-          "fecha": "20251111",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-12.do",
-          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia II» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar II, S.L.». Expte.: EIA/VA/2024/62.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que hace público el informe de impacto ambiental (DIA) del proyecto. La planta ocupa 13,61 hectáreas con 9.164 módulos fotovoltaicos. Incluye línea de evacuación de 8.045 m (parcialmente subterránea) y subestación elevadora 45/30 kV. Evaluación ambiental simplificada conforme a Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Se analizaron tres alternativas de ubicación, seleccionándose la Alternativa 1."
-        },
-        {
-          "id_boe": "BOCYL-D-11112025-13",
-          "fecha": "20251111",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-13.do",
-          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia VI» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Tomillo Solar IV, S.L.». Expte.: EIA/VA/2024/63.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Planta solar fotovoltaica con potencia nominal de 4.800 kWn (4,8 MW). Incluye subestación elevadora 45/30 kV (ST Pintia Norte) y línea de evacuación de 8.045 m hacia SMR Pintia Norte con tramos subterráneos y aéreo. Se desarrolla junto a plantas solares adyacentes Pintia I y Pintia II. Informe de impacto ambiental emitido por la Delegación Territorial de Valladolid bajo evaluación ambiental simplificada (Anexo II, Grupo 4.j de Ley 21/2013)."
-        },
-        {
-          "id_boe": "BOCYL-D-09122025-29",
-          "fecha": "20251209",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/12/09/html/BOCYL-D-09122025-29.do",
-          "titulo": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Pintia V» y su línea de evacuación, en los términos municipales de Ciguñuela, Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar V, S.L.». Expte.: EIA/VA/2025/45.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de evaluación ambiental simplificada (Anexo II, Grupo 4, apartado j). La planta ocupa 11,20 ha en Villanubla. Forma parte de un conjunto de 3 plantas solares (Pintia III, IV y V) con potencia total de 14,7 MW. Línea de evacuación subterránea de 45 kV de 5,54 km. Conexión en nudo de transporte ZARATAN (220 kV) a través de SMR Pintia Sur. Se han evaluado 3 alternativas de localización además de alternativa 0 (no realizar proyecto). Informe de impacto ambiental hace público en esta resolución."
-        }
-      ]
-    },
-    {
-      "id": "prj_00801",
-      "nombre": "FRV Guijo Solar IV",
-      "promotor": "FRV Guijo Solar 4, SLU",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Cáceres",
-      "municipio": "Guijo de Córdoba",
-      "comunidad_autonoma": "Extremadura",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "DOE-26060697",
-        "DOE-26060703",
-        "IA24/1420",
-        "IA24/1421"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "DOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20260119",
-      "fecha_ultima": "20260401",
-      "n_publicaciones": 4,
-      "publicaciones": [
-        {
-          "id_boe": "DOE-26060077",
-          "fecha": "20260119",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060077.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar III\", a realizar en el término municipal de Guijo de Coria Cáceres). Expte.: IA24/1420.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de Declaración de Impacto Ambiental favorable publicada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. Expediente administrativo DOE-26060077."
-        },
-        {
-          "id_boe": "DOE-26060080",
-          "fecha": "20260119",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060080.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar IV, a realizar en el término municipal de Guijo de Coria Cáceres\". Expte.: IA24/1421.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Declaración de impacto ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. Expediente DOE-26060080."
-        },
-        {
-          "id_boe": "DOE-26060697",
-          "fecha": "20260401",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060697.pdf",
-          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Guijo Solar 3, SLU, para la instalación fotovoltaica \"FRV Guijo Solar III\", ubicada en el término municipal de Guijo de ",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa para instalación fotovoltaica. Texto completo no disponible en la publicación."
-        },
-        {
-          "id_boe": "DOE-26060703",
-          "fecha": "20260401",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060703.pdf",
-          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Guijo Solar 4, SLU, para la instalación fotovoltaica \"FRV Guijo Solar IV\", ubicada en el término municipal de Guijo de C",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Autorización administrativa previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
-        }
-      ]
-    },
-    {
-      "id": "prj_00803",
-      "nombre": "FRV Guijo Solar VI",
-      "promotor": "FRV Calzadilla Solar 6, SLU",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Cáceres",
-      "municipio": "Guijo de Granadilla",
-      "comunidad_autonoma": "Extremadura",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "DOE-26060082",
-        "DOE-26060705",
-        "DOE-26060706",
-        "IA24/1422"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "DOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20260119",
-      "fecha_ultima": "20260401",
-      "n_publicaciones": 4,
-      "publicaciones": [
-        {
-          "id_boe": "DOE-26060081",
-          "fecha": "20260119",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060081.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar V\", a realizar en el término municipal de Calzadilla (Cáceres). Expte.: IA24/1422.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de Declaración de Impacto Ambiental favorable formulada por la Dirección General de Sostenibilidad (Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura). Publicación en DOE con expediente DOE-26060081."
-        },
-        {
-          "id_boe": "DOE-26060082",
-          "fecha": "20260119",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060082.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar VI\", a realizar en los términos municipales de Calzadilla y Casas de Don Gómez (Cáceres",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Declaración de Impacto Ambiental formulada por resolución de 5 de enero de 2026 de la Dirección General de Sostenibilidad (Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura)"
-        },
-        {
-          "id_boe": "DOE-26060705",
-          "fecha": "20260401",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060705.pdf",
-          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Calzadilla Solar 5, SLU, para la instalación fotovoltaica \"FRV Guijo Solar V\", ubicada en el término municipal de Calzad",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de autorización administrativa previa publicada en DOE. Promotor: FRV Calzadilla Solar 5, SLU. Texto completo no disponible en la consulta."
-        },
-        {
-          "id_boe": "DOE-26060706",
-          "fecha": "20260401",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060706.pdf",
-          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Calzadilla Solar 6, SLU, para la instalación fotovoltaica \"FRV Guijo Solar VI\", ubicada en los términos municipales de C",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de autorización administrativa previa para instalación fotovoltaica. El título indica ubicación en términos municipales de Guijo (probable: Guijo de Granadilla, provincia de Cáceres). Texto completo no disponible, datos extraídos del título y metadatos del DOE."
-        }
-      ]
-    },
-    {
       "id": "prj_00725",
       "nombre": "Instalación Solar Fotovoltaica Fuerzas Energéticas del Sur de Europa XXIII",
       "promotor": "Fuerzas Energéticas del Sur de Europa XXIV, SL",
@@ -1326,72 +695,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00385",
-      "nombre": "Planta Solar Fotovoltaica La Vega II",
-      "promotor": "Naturgy Renovables, S.L.U.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 5.7,
-      "provincia": "Zamora",
-      "municipio": "Monfarracinos",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Subestación existente Parque Eólico La Vega II",
-      "tension_kv": 20,
-      "expedientes": [
-        "BOCYL-D-28082025-21",
-        "ZA-AT-2025/961",
-        "ZA-AT-2025/962"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250828",
-      "fecha_ultima": "20251023",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-28082025-21",
-          "fecha": "20250828",
-          "boletin": "BOCyL",
-          "tipo_permiso": "IPA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2025/08/28/html/BOCYL-D-28082025-21.do",
-          "titulo": "ORDEN MAV/955/2025, de 21 de agosto, por la que se formula informe de determinación de afección ambiental del proyecto de una planta solar fotovoltaica de hibridación con el parque eólico «La Vega I», en el término municipal de Monfarracinos (Zamora), promovido por «Naturgy Renovables, S.L.U.».",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de hibridación con parque eólico existente 'La Vega I'. Informe de determinación de afección ambiental favorable al continuar con la tramitación de autorización. Infraestructuras de evacuación: línea subterránea de interconexión a 20 kV (2.020 m) y línea de evacuación a 45 kV (6.200 m) hacia SE ZAMORA 45 kV. Ocupa 13,26 ha de las 23,89 ha totales de las parcelas 747 y 802. Proyecto tramitado mediante procedimiento simplificado de determinación de afección ambiental según Decreto-ley 2/2022."
-        },
-        {
-          "id_boe": "BOCYL-D-23102025-25",
-          "fecha": "20251023",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/10/23/html/BOCYL-D-23102025-25.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega I», en el término municipal de Monfarracinos (Zamora). N.º Planta: 961.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con el Parque Eólico La Vega I existente. Potencia pico de 6,18 MWp. Tramitado mediante procedimiento simplificado (plazos reducidos a la mitad). Plazo de información pública: 10 días desde publicación en BOCyL. Línea de evacuación subterránea de 20 kV. Incluye ampliación de subestación existente."
-        },
-        {
-          "id_boe": "BOCYL-D-23102025-26",
-          "fecha": "20251023",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/10/23/html/BOCYL-D-23102025-26.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega II», en el término municipal de Monfarracinos (Zamora). N.º Planta: 962.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con instalación existente Parque Eólico La Vega II. Planta fotovoltaica de 6,18 MWp (5,7 MW instalados) con 10.125 módulos de 610 Wp. Acogido a procedimiento simplificado según Decreto-ley 2/2022. Línea de evacuación subterránea de 20 kV. Plazo de alegaciones: 10 días desde publicación. Competente: Servicio Territorial de Industria, Comercio y Economía de Zamora."
-        }
-      ]
-    },
-    {
       "id": "prj_00631",
       "nombre": "Planta De Almacenamiento Peleas De Abajo",
       "promotor": "Portolín FV, S.L.",
@@ -1522,72 +825,206 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00423",
-      "nombre": "Línea Subterránea 45kV Valdemoro I-Valdemoro II",
-      "promotor": "UFD Distribución Electricidad, S. A.",
-      "tecnologia": "LAT",
+      "id": "prj_00815",
+      "nombre": "FV Solaria Pinofranqueado Solar 4",
+      "promotor": "EDP Renovables España, SLU",
+      "tecnologia": "Fotovoltaica",
       "potencia_mw": null,
-      "provincia": "Madrid",
-      "municipio": "Valdemoro",
-      "comunidad_autonoma": "Comunidad de Madrid",
-      "subestacion": "ST Valdemoro",
-      "tension_kv": 45,
+      "provincia": "Cáceres",
+      "municipio": "Pinofranqueado",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": 30,
       "expedientes": [
-        "2023P674",
-        "2023P682",
-        "2023P769"
+        "DOE-25081618",
+        "DOE-26060396",
+        "DOE-26060850"
       ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "IP",
-      "ultimo_boletin": "BOCM",
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
-      "fecha_primera": "20251014",
-      "fecha_ultima": "20251029",
+      "fecha_primera": "20251009",
+      "fecha_ultima": "20260421",
       "n_publicaciones": 3,
       "publicaciones": [
         {
-          "id_boe": "BOCM-20251014-42",
-          "fecha": "20251014",
-          "boletin": "BOCM",
-          "tipo_permiso": "IP",
+          "id_boe": "DOE-25081618",
+          "fecha": "20251009",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
           "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20251014-42",
-          "titulo": "Resolución de 16 de septiembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45 kV en la ST Valdemoro, en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081618.pdf",
+          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 4\", ubicada en el término municipal d",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa y Estudio de Impacto Ambiental. Publicado en DOE (Diario Oficial de Extremadura). El texto completo no está disponible, se extraen datos del título y metadatos."
+        },
+        {
+          "id_boe": "DOE-26060396",
+          "fecha": "20260216",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060396.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 4\" y línea subterránea de conexión 30 kV para evacuación de energí",
           "permisos_adicionales": [],
           "es_fallido": false,
           "mw_liberados": null,
-          "observaciones": "Modificación del trazado de la línea de 45 kV Circuito 1 LAT 45 kV Derivación 1/Valdemoro para blindaje de la ST Valdemoro. Instalación de nueva línea subterránea desde futuro edificio de celdas de 45 kV hasta pórtico existente. Presupuesto: 52.089,830 euros. Período de información pública: 1 mes desde publicación."
+          "observaciones": "Instalación solar fotovoltaica con línea subterránea de conexión 30 kV para evacuación de energía. Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
         },
         {
-          "id_boe": "BOCM-20251029-51",
-          "fecha": "20251029",
-          "boletin": "BOCM",
-          "tipo_permiso": "IP",
+          "id_boe": "DOE-26060850",
+          "fecha": "20260421",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060850.pdf",
+          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 4\", ubicada en el término muni",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa emitida por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        }
+      ]
+    },
+    {
+      "id": "prj_00814",
+      "nombre": "FV Solaria Pinofranqueado Solar 1",
+      "promotor": "EDP Renovables España, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Pinofranqueado",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-25081619",
+        "DOE-26060393",
+        "DOE-26060849"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251009",
+      "fecha_ultima": "20260421",
+      "n_publicaciones": 3,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-25081619",
+          "fecha": "20251009",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
           "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20251029-51",
-          "titulo": "Resolución de 14 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45kV en Vereda de la Carreruela entre la ST Valdemoro I y ST Valdemoro II en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081619.pdf",
+          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", ubicada en el término municipal d",
           "permisos_adicionales": [
-            "AAP"
+            "EsIA"
           ],
           "es_fallido": false,
           "mw_liberados": null,
-          "observaciones": "Proyecto de renovación del trazado del circuito LAT 45kV Valdemoro/Valdemoro 2 mediante interconexión con LAT 45kV C1 VD2 LSD. Presupuesto total: 44.156,35 euros. Período de información pública de un mes a partir del día siguiente a la publicación."
+          "observaciones": "Información pública simultánea de solicitud de autorización administrativa previa (AAP) y estudio de impacto ambiental (EsIA). Anuncio publicado en DOE por la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
         },
         {
-          "id_boe": "BOCM-20251029-52",
-          "fecha": "20251029",
-          "boletin": "BOCM",
-          "tipo_permiso": "IP",
+          "id_boe": "DOE-26060393",
+          "fecha": "20260216",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060393.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", a realizar en el término municipal de Guijo de Coria (Cáceres)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura"
+        },
+        {
+          "id_boe": "DOE-26060849",
+          "fecha": "20260421",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060849.pdf",
+          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 1\", ubicada en el término muni",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Autorización Administrativa Previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. El texto completo no está disponible en el anuncio publicado en el DOE."
+        }
+      ]
+    },
+    {
+      "id": "prj_00813",
+      "nombre": "FV Solaria Pinofranqueado Solar 2",
+      "promotor": "EDP Renovables España, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Pinofranqueado",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": 30,
+      "expedientes": [
+        "DOE-25081620",
+        "DOE-26060412",
+        "DOE-26060848"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251009",
+      "fecha_ultima": "20260420",
+      "n_publicaciones": 3,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-25081620",
+          "fecha": "20251009",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
           "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20251029-52",
-          "titulo": "Resolución de 14 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45 kV en la ST Valdemoro en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/1950o/25081620.pdf",
+          "titulo": "Información pública.- Anuncio de 2 de octubre de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 2\", ubicada en el término municipal d",
           "permisos_adicionales": [
-            "AAP"
+            "EsIA"
           ],
           "es_fallido": false,
           "mw_liberados": null,
-          "observaciones": "Proyecto de modificación del trazado de línea de 45 kV (Circuito 1) para blindaje de la ST Valdemoro. Instalación de nueva línea subterránea desde edificio de celdas de 45 kV, en canalización bajo tubo hormigonada hasta pórtico existente. Presupuesto: 41.543,790 euros. Período de información pública: 1 mes desde publicación en BOCM."
+          "observaciones": "Información pública de solicitud de autorización administrativa previa y estudio de impacto ambiental. Publicado en DOE (Diario Oficial de Extremadura). El texto completo no está disponible, por lo que algunos datos no pueden extraerse."
+        },
+        {
+          "id_boe": "DOE-26060412",
+          "fecha": "20260217",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/320o/26060412.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 2\" y línea subterránea de conexión 30 kV para evacuación de energí",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica con línea subterránea de conexión a 30 kV para evacuación de energía. Declaración de Impacto Ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        },
+        {
+          "id_boe": "DOE-26060848",
+          "fecha": "20260420",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/740o/26060848.pdf",
+          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SL, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 2\", ubicada en el término munic",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa emitida por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura"
         }
       ]
     },
@@ -1658,6 +1095,74 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga de forma simultánea Autorización Administrativa Previa (AAP), Aprobación del Proyecto de Ejecución (AAC) y Declaración en Concreto de Utilidad Pública (DUP) para la planta fotovoltaica y su infraestructura de evacuación ubicada en polígono 10 del término municipal de Cobeña. El proyecto fue sometido a información pública conjunta. La evaluación ambiental concluyó que no son necesarios efectos ambientales significativos (evaluación de impacto ordinaria no requerida). No se recibieron alegaciones en la fase de información pública."
+        }
+      ]
+    },
+    {
+      "id": "prj_00664",
+      "nombre": "FV Valladolid Solar III",
+      "promotor": "Calvitero Solar 13, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.95,
+      "provincia": "Valladolid",
+      "municipio": "Zaratán y Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid (13,2 kV)",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2709 ATCE-199",
+        "FV-2710 ATCE-200",
+        "FV-2711 ATCE-201"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251201",
+      "fecha_ultima": "20251203",
+      "n_publicaciones": 3,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-01122025-25",
+          "fecha": "20251201",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/12/01/html/BOCYL-D-01122025-25.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar II», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2709 ATCE-199.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica con potencia instalada según RD 413/2014 de 5.940 kW. Capacidad de acceso concedida: 4.899,6 kW. Línea de evacuación subterránea de 13,2 kV con trazado compartido con múltiples instalaciones de terceros. Requiere evaluación de impacto ambiental simplificada. Plazo de información pública: 20 días hábiles. Plazo de resolución: 6 meses con silencio administrativo desestimatorio."
+        },
+        {
+          "id_boe": "BOCYL-D-03122025-16",
+          "fecha": "20251203",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-16.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar III», en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2710 ATCE-200.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación de producción de energía eléctrica por tecnología fotovoltaica con potencia instalada de 2970 kW y capacidad de acceso concedida de 2530 kW. Línea de evacuación subterránea de 13,2 kV. Evaluación de impacto ambiental simplificada requerida. Infraestructura compartida con otros expedientes en tramitación (FV-2642, FV-2688, FV-2622 y otros). Centro de Transformación con transformador de 3000 kVA y relación 0,8/13,2 kV. Punto de entrega en centro de seccionamiento telemandado (CS) en línea DR. Villacian de ST Valladolid."
+        },
+        {
+          "id_boe": "BOCYL-D-03122025-17",
+          "fecha": "20251203",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/12/03/html/BOCYL-D-03122025-17.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Valladolid Solar IV», en el término municipal de Zaratán y Valladolid (Valladolid). Expte.: FV-2711 ATCE-201.",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Planta fotovoltaica de 4.950 kW con capacidad de acceso concedida de 4.000 kW. Infraestructura de evacuación mediante líneas subterráneas de 13,2 kV. Línea de evacuación compartida con múltiples otros expedientes (FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2681, FV-2682, FV-2683, FV-2688, FV-2690, FV-2697, FV-2705, FV-2708, FV-2709, FV-2710, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Plazo de información pública: 20 días hábiles."
         }
       ]
     },
@@ -1830,63 +1335,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00042",
-      "nombre": "Fotovoltaica Barcina Garoña Vega II",
-      "promotor": "Vega Lyra Promociones Fotovoltaicas, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 63.57,
-      "provincia": "Burgos",
-      "municipio": "Valle de Tobalina",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "SET Barcina-Garoña REE",
-      "tension_kv": 400,
-      "expedientes": [
-        "BOE-A-2025-16688",
-        "BOE-A-2025-16689"
-      ],
-      "estado_actual": "denegado",
-      "ultimo_tipo_permiso": "AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": true,
-      "mw_liberados": 63.57,
-      "fecha_primera": "20250811",
-      "fecha_ultima": "20250811",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2025-16688",
-          "fecha": "20250811",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "denegado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16688",
-          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Vega Lyra Promociones Fotovoltaicas, SL, de autorización administrativa previa y autorización administrativa de construcción de la instalación solar fotovoltaica Barcina Garoña Vega II, de 63,57 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Burgos.",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP"
-          ],
-          "es_fallido": true,
-          "mw_liberados": 63.57,
-          "observaciones": "La solicitud original de AAP fue otorgada el 30 de septiembre de 2023 (63,57 MW de potencia instalada). Posteriormente, el promotor solicitó el 24 de febrero de 2024 modificación de AAP y autorización de construcción, con subsanaciones presentadas hasta noviembre de 2024. La resolución de desestimación se publica el 11 de agosto de 2025. El proyecto incluye infraestructura de evacuación con líneas soterradas a 30 kV, centro de seccionamiento y línea a 400 kV hasta SET Garoña REE. Requería informe preceptivo del Consejo de Seguridad Nuclear por proximidad a central nuclear."
-        },
-        {
-          "id_boe": "BOE-A-2025-16689",
-          "fecha": "20250811",
-          "boletin": "BOE",
-          "tipo_permiso": "AAC",
-          "estado": "denegado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16689",
-          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Vega Lyra Promociones Fotovoltaicas, SL, de autorización administrativa de construcción de la instalación solar fotovoltaica Barcina Garoña Vega I, de 63,57 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Burgos.",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": true,
-          "mw_liberados": 63.57,
-          "observaciones": "El promotor solicitó AAC en febrero de 2024 con múltiples subsanaciones hasta noviembre de 2024. Desistió de la solicitud de DUP en octubre de 2024. La resolución desestima la solicitud de AAC. Previamente se había otorgado AAP (30 de septiembre de 2023) con potencia pico de 68,9832 MW. El proyecto incluía una DIA favorable de 9 de junio de 2023. Se realizaron modificaciones técnicas en la infraestructura de evacuación incluyendo eliminación de líneas aéreas y transformación a subterráneas."
-        }
-      ]
-    },
-    {
       "id": "prj_00044",
       "nombre": "Planta Solar Fotovoltaica Azután III",
       "promotor": "Iberdrola Generación, SAU",
@@ -1993,6 +1441,113 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Línea subterránea de 45 kV con longitud total de 5.280 m entre ST Retamar y la futura subestación SMR Socimi-Hilanderas. Presupuesto total: 2.652.001,92 euros. Período de información pública de un mes desde la publicación en BOCM. Sometida a información pública según Ley 24/2013 y Decreto 70/2010."
+        }
+      ]
+    },
+    {
+      "id": "prj_00459",
+      "nombre": "Planta Solar Fotovoltaica Fortuna II",
+      "promotor": "Calvitero Solar 13, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 6.28,
+      "provincia": "Valladolid",
+      "municipio": "Zaratán y Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "EIA/VA/2025/22",
+        "FV-2639"
+      ],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20250814",
+      "fecha_ultima": "20251104",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-14082025-11",
+          "fecha": "20250814",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/08/14/html/BOCYL-D-14082025-11.do",
+          "titulo": "RESOLUCIÓN de 5 de agosto de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Fortuna II» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid (Valladolid), promovido por «Desarrollos Energéticos Almazán, S.L.». Expte.: EIA/VA/2025/22.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de evaluación de impacto ambiental simplificada. La planta Fortuna II tiene potencia nominal de 4,8 MWn y potencia pico de 6,28 MWp, ocupando 12 ha. Línea de evacuación soterrada de media tensión a 13,2 kV con longitud de 9.438 m. El documento ambiental evalúa conjuntamente Fortuna II y Fortuna III, pero la resolución se refiere específicamente a Fortuna II."
+        },
+        {
+          "id_boe": "BOCYL-D-04112025-3",
+          "fecha": "20251104",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://bocyl.jcyl.es/html/2025/11/04/html/BOCYL-D-04112025-3.do",
+          "titulo": "RESOLUCIÓN de 20 de octubre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Fortuna II», en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2639.",
+          "permisos_adicionales": [
+            "AAC",
+            "EsIA"
+          ],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "El proyecto fue sometido a información pública el 01/07/2025 por 20 días hábiles. La titularidad del expediente cambió de Desarrollos Energéticos Almazán, S.L. (solicitante original, 09/06/2023) a Calvitero Solar 13, S.L. (14/02/2025). El desistimiento de la AAC fue registrado el 24/02/2025, aunque la información pública de la AAP se efectuó posteriormente el 01/07/2025. Se solicitó evaluación ambiental simplificada (EsIA) al Servicio Territorial de Medio Ambiente con fecha 20/02/2025. Se emitió informe de viabilidad ambiental favorable el 16/02/2024."
+        }
+      ]
+    },
+    {
+      "id": "prj_00460",
+      "nombre": "Planta Solar Fotovoltaica Fortuna III",
+      "promotor": "Calvitero Solar 13, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 6.25,
+      "provincia": "Valladolid",
+      "municipio": "Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "EIA/VA/2025/23",
+        "FV-2640"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250814",
+      "fecha_ultima": "20251104",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-14082025-12",
+          "fecha": "20250814",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/08/14/html/BOCYL-D-14082025-12.do",
+          "titulo": "RESOLUCIÓN de 5 de agosto de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Fortuna III» y su línea de evacuación, en los términos municipales de Zaratán y Valladolid (Valladolid), promovido por «Desarrollos Energéticos Villabáñez, S.L.». Expte.: EIA/VA/2025/23.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución por la que se hace público el informe de impacto ambiental. Evaluación ambiental simplificada conforme a Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Planta con potencia nominal instalada de 6,25 MWp (6.25 MW). Superficie vallada de 11,10 ha. Línea de evacuación soterrada de media tensión a 13,2 kV con longitud de 9.438 m (según proyecto técnico). Documento ambiental redactado conjuntamente para Fortuna II y Fortuna III, aunque esta resolución se refiere específicamente a Fortuna III. Acceso a través del Camino de Cigüeñuela a Fuensaldaña."
+        },
+        {
+          "id_boe": "BOCYL-D-04112025-4",
+          "fecha": "20251104",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/11/04/html/BOCYL-D-04112025-4.do",
+          "titulo": "RESOLUCIÓN de 20 de octubre de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «Fortuna III», en el término municipal de Zaratán (Valladolid). Expte.: FV-2640.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de autorización administrativa previa. El expediente incluye solicitud conjunta de AAP y AAC presentada el 09/06/2023 por Desarrollos Energéticos Villabáñez, S.L., posteriormente con cambio de titularidad a Calvitero Solar 13, S.L. Se registró solicitud de desistimiento de la AAC el 24/02/2025. Se ha realizado evaluación ambiental simplificada e información pública según Decreto 46/2022. Se solicitan informes técnicos a múltiples organismos incluyendo Ayuntamiento de Zaratán, CHD, Defensa, ST Medio Ambiente. El Ayuntamiento de Zaratán emite informe desfavorable al trazado de la línea de evacuación conjunta con Fortuna II (FV-2639)."
         }
       ]
     },
@@ -2160,61 +1715,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00298",
-      "nombre": "FV Secadal II",
-      "promotor": "Premier SPV 18, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 2.865,
-      "provincia": "Valladolid",
-      "municipio": "Zaratán, Ciguñuela, Valladolid",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Valladolid",
-      "tension_kv": 13.2,
-      "expedientes": [
-        "FV-2681 ATCE-172",
-        "FV-2681 ATCE-176",
-        "FV-2682 ATCE-177"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250822",
-      "fecha_ultima": "20251009",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-22082025-11",
-          "fecha": "20250822",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/08/22/html/BOCYL-D-22082025-11.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Secadal I», en el término municipal de Ciguñuela, Zaratán y Valladolid (Valladolid). Expte.: FV-2681 ATCE-176.",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Planta fotovoltaica en Ciguñuela. Infraestructura de evacuación en Ciguñuela, Zaratán y Valladolid. Capacidad de acceso concedida: 2250 kW. Infraestructura compartida con múltiples expedientes (FV-2682, FV-2683, FV-2697, FV-2688, FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2690, FV-2705, FV-2708, FV-2709, FV-2710, FV-2711, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Plazo de resolución: 6 meses. Silencio administrativo desestimatorio. Plazo información pública: 20 días hábiles."
-        },
-        {
-          "id_boe": "BOCYL-D-09102025-38",
-          "fecha": "20251009",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/10/09/html/BOCYL-D-09102025-38.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Secadal II», en el término municipal de Ciguñuela, Zaratán y Valladolid (Valladolid). Expte.: FV-2682 ATCE-177.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de 2865 kW conectada a red de distribución. Capacidad de acceso concedida: 2351 kW. Infraestructura de evacuación mediante líneas subterráneas de 13,2 kV. Requiere evaluación de impacto ambiental simplificada. Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Punto de entrega de energía: Línea 9 Villa de Prado 1 entre CT Villa de Prado 6 y CT Villa de Prado 10 de la ST Valladolid."
-        }
-      ]
-    },
-    {
       "id": "prj_00294",
       "nombre": "Planta Fotovoltaica Cobesol",
       "promotor": "Meletea Investments, S. L.",
@@ -2317,6 +1817,58 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga autorización administrativa previa y aprobación del proyecto de ejecución para ampliación de subestación transformadora 220/20 kV ST Deportiva ubicada en calle Arzobispo Morcillo número 1. Declarado no necesario procedimiento de evaluación ambiental (28 de mayo de 2025). Información pública completada (17 de julio de 2025, BOCM 204/2025). Organismos consultados (Ayuntamiento de Madrid y Canal de Isabel II) sin contestación. Consulta de terceros sin alegaciones."
+        }
+      ]
+    },
+    {
+      "id": "prj_00384",
+      "nombre": "Planta Solar Fotovoltaica La Vega I",
+      "promotor": "Naturgy Renovables, S.L.U.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 5.7,
+      "provincia": "Zamora",
+      "municipio": "Monfarracinos",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Subestación existente La Vega I",
+      "tension_kv": 20,
+      "expedientes": [
+        "BOCYL-D-28082025-21",
+        "ZA-AT-2025/961"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250828",
+      "fecha_ultima": "20251023",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-28082025-21",
+          "fecha": "20250828",
+          "boletin": "BOCyL",
+          "tipo_permiso": "IPA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/08/28/html/BOCYL-D-28082025-21.do",
+          "titulo": "ORDEN MAV/955/2025, de 21 de agosto, por la que se formula informe de determinación de afección ambiental del proyecto de una planta solar fotovoltaica de hibridación con el parque eólico «La Vega I», en el término municipal de Monfarracinos (Zamora), promovido por «Naturgy Renovables, S.L.U.».",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de hibridación con parque eólico existente 'La Vega I'. Informe de determinación de afección ambiental favorable al continuar con la tramitación de autorización. Infraestructuras de evacuación: línea subterránea de interconexión a 20 kV (2.020 m) y línea de evacuación a 45 kV (6.200 m) hacia SE ZAMORA 45 kV. Ocupa 13,26 ha de las 23,89 ha totales de las parcelas 747 y 802. Proyecto tramitado mediante procedimiento simplificado de determinación de afección ambiental según Decreto-ley 2/2022."
+        },
+        {
+          "id_boe": "BOCYL-D-23102025-25",
+          "fecha": "20251023",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/10/23/html/BOCYL-D-23102025-25.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega I», en el término municipal de Monfarracinos (Zamora). N.º Planta: 961.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con el Parque Eólico La Vega I existente. Potencia pico de 6,18 MWp. Tramitado mediante procedimiento simplificado (plazos reducidos a la mitad). Plazo de información pública: 10 días desde publicación en BOCyL. Línea de evacuación subterránea de 20 kV. Incluye ampliación de subestación existente."
         }
       ]
     },
@@ -2430,110 +1982,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00121",
-      "nombre": "Planta Solar Fotovoltaica Ajalvir II",
-      "promotor": "Castañar Dos Ibérica, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Madrid",
-      "municipio": "Ajalvir y Cobeña",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "26-EIA-00017.0/2025",
-        "26-EIA-00018.1/2025"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250902",
-      "fecha_ultima": "20250903",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCM-20250902-32",
-          "fecha": "20250902",
-          "boletin": "BOCM",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.bocm.es/bocm-20250902-32",
-          "titulo": "Resolución de 21 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta Solar Fotovoltaica “Ajalvir I” e infraestructuras de evacuación», en el término municipal de Ajalvir, promovido por Castañar Dos Ibérica, S. L. (Expediente: 26-EIA-00017.0/2025)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que acuerda hacer público el Informe de Impacto Ambiental del proyecto. El proyecto incluye infraestructuras de evacuación. El informe está disponible en el portal institucional de la Comunidad de Madrid."
-        },
-        {
-          "id_boe": "BOCM-20250903-15",
-          "fecha": "20250903",
-          "boletin": "BOCM",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.bocm.es/bocm-20250903-15",
-          "titulo": "Resolución de 18 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta solar fotovoltaica “Ajalvir II” y su infraestructura de evacuación», en los términos municipales de Ajalvir y Cobeña, promovido por Castañar Dos Ibérica, S. L. (Expediente: 26-EIA-00018.1/2025)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Informe de Impacto Ambiental publicado conforme art. 47.3 de la Ley 21/2013 de Evaluación Ambiental. Incluye infraestructura de evacuación."
-        }
-      ]
-    },
-    {
-      "id": "prj_00448",
-      "nombre": "Planta Solar Fotovoltaica Brezos I",
-      "promotor": "Clancy Capital Advisers, S. L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Madrid",
-      "municipio": "Torrejón de Velasco",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "26-EIA-00013.5/2025",
-        "26-EIA-00111.6/2025"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250902",
-      "fecha_ultima": "20251103",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCM-20250902-33",
-          "fecha": "20250902",
-          "boletin": "BOCM",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.bocm.es/bocm-20250902-33",
-          "titulo": "Resolución de 28 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de “Planta Solar Fotovoltaica Brezos I y su infraestructura de evacuación”, en los términos municipales de Torrejón de Velasco y Valdemoro, promovido por Clancy Capital Advisers, S. L. (Expediente: 26-EIA-00013.5/2025)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que hace público el Informe de Impacto Ambiental (DIA) del proyecto. El informe puede consultarse en el portal institucional de la Comunidad de Madrid (https://gestiona.comunidad.madrid/rlma_web/html/web/index.htm). El proyecto incluye infraestructura de evacuación asociada."
-        },
-        {
-          "id_boe": "BOCM-20251103-68",
-          "fecha": "20251103",
-          "boletin": "BOCM",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.bocm.es/bocm-20251103-68",
-          "titulo": "Resolución de 2 de octubre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta solar fotovoltaica “Brezos II” y su infraestructura de evacuación», en el término municipal de Torrejón de Velasco promovido por Clancy Capital Advisers, S. L. (Expediente: 26-EIA-00111.6/2025)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que hace público el Informe de Impacto Ambiental (DIA) del proyecto. El proyecto incluye infraestructura de evacuación asociada. El informe completo está disponible en el portal institucional de la Comunidad de Madrid."
-        }
-      ]
-    },
-    {
       "id": "prj_00656",
       "nombre": "LAT 220 kV DC Lousame-Tivo",
       "promotor": "Red Eléctrica de España, S.A.U.",
@@ -2636,58 +2084,6 @@ window.PROJECTS_INLINE = {
           "es_fallido": true,
           "mw_liberados": 56,
           "observaciones": "Resolución de corrección de errores en la Resolución de 8 de julio de 2025. Se rectifica el nombre del promotor (Belenus, no Fulgora) y la fecha de resolución en el párrafo de referencia. El proyecto ha sido denegado definitivamente. La resolución de fondo fue publicada en BOE núm. 181, de 29 de julio de 2025, página 102010."
-        }
-      ]
-    },
-    {
-      "id": "prj_00158",
-      "nombre": "Montalbo Solar 1",
-      "promotor": "Iberosolar Energías, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Cuenca",
-      "municipio": "Montalbo",
-      "comunidad_autonoma": "Castilla-La Mancha",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "2703/01445-M1",
-        "2703/01446-M1"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "ModAAE",
-      "ultimo_boletin": "DOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250912",
-      "fecha_ultima": "20250912",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "DOCM-1756885226135010011",
-          "fecha": "20250912",
-          "boletin": "DOCM",
-          "tipo_permiso": "ModAAC",
-          "estado": "otorgado",
-          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1756885226135010011",
-          "titulo": "Instalaciones Eléctricas. Resolución de 02/09/2025 , de la Dirección General de Transición Energética, sobre modificación de la instalación solar fotovoltaica denominada Montalbo Solar 1, infraestructuras auxiliares y de evacuación. (Referencia: 2703/01445). [NID 2025/6814] 28647 > 215 KB",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación de la instalación solar fotovoltaica Montalbo Solar 1 con infraestructuras auxiliares y de evacuación. Referencia anterior: DOCM 44, 03/03/2023, página 7536 (Resolución de 15/02/2023 sobre autorización administrativa previa y autorización administrativa de construcción). La presente resolución corresponde a una modificación de la autorización de construcción (ModAAC)."
-        },
-        {
-          "id_boe": "DOCM-1756886827927010026",
-          "fecha": "20250912",
-          "boletin": "DOCM",
-          "tipo_permiso": "ModAAE",
-          "estado": "otorgado",
-          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1756886827927010026",
-          "titulo": "Instalaciones Eléctricas. Resolución de 02/09/2025 , de la Dirección General de Transición Energética, sobre modificación de la instalación solar fotovoltaica denominada Montalbo Solar 2, infraestructuras auxiliares y de evacuación. (Referencia: 2703/01446). [NID 2025/6806] 28651 > 213 KB",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución sobre modificación de la instalación solar fotovoltaica Montalbo Solar 2 e infraestructuras auxiliares y de evacuación. Órgano competente: Dirección General de Transición Energética de Castilla-La Mancha."
         }
       ]
     },
@@ -3508,60 +2904,6 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
-      "id": "prj_00278",
-      "nombre": "PV LAN Zambrana II",
-      "promotor": "Castellana de Desarrollos Solares, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Valladolid",
-      "municipio": "Valladolid",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "FV-2546",
-        "FV-2548"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAC",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20251008",
-      "fecha_ultima": "20251008",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-08102025-29",
-          "fecha": "20251008",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAC",
-          "estado": "otorgado",
-          "url": "https://bocyl.jcyl.es/html/2025/10/08/html/BOCYL-D-08102025-29.do",
-          "titulo": "RESOLUCIÓN de 28 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por la que se otorga autorización administrativa de construcción de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «PV LAN Zambrana II», y su reconocimiento de utilidad pública, en concreto, en los términos municipales de La Cistérniga y Valladolid (Valladolid). Expte.: FV-2546.",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución otorga simultáneamente Autorización Administrativa de Construcción (AAC) y reconocimiento de Declaración de Utilidad Pública (DUP). Previamente se había otorgado Autorización Administrativa Previa (AAP) con fecha 04/02/2025. El proyecto incluye infraestructura de evacuación. Se tramitó evaluación de impacto ambiental simplificada con informe ambiental favorable (04/12/2024). Hubo desistimiento previo de DUP (15/03/2024) que fue posteriormente retomado (08/11/2024)."
-        },
-        {
-          "id_boe": "BOCYL-D-08102025-30",
-          "fecha": "20251008",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAC",
-          "estado": "otorgado",
-          "url": "https://bocyl.jcyl.es/html/2025/10/08/html/BOCYL-D-08102025-30.do",
-          "titulo": "RESOLUCIÓN de 28 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por la que se otorga autorización administrativa de construcción de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «PV LAN Zambrana I», en el término municipal de Valladolid. Expte.: FV-2548.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga autorización administrativa de construcción (AAC). El proyecto había recibido previamente autorización administrativa previa (AAP) publicada el 04/02/2025. Se incluye infraestructura de evacuación. El promotor aportó documentación técnica de condicionados de organismos afectados y acuerdo previo con particulares, por lo que se eximió de trámites de consultas y audiencia pública."
-        }
-      ]
-    },
-    {
       "id": "prj_00559",
       "nombre": "Parque Eólico Somozas",
       "promotor": "Energías Ambientales de Somozas, S.A.",
@@ -3725,6 +3067,60 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Autorización Administrativa de Construcción otorgada. La resolución incluye condiciones referentes a: constitución de fianza ambiental (322.537 euros), inscripción en Registro Autonómico, cumplimiento de DIA de 16.11.2024, medidas adicionales para minimizar impacto en aves y quirópteros, títulos habilitantes municipales urbanísticos, y presentación de Plan de vigilancia ambiental antes del inicio de obras."
+        }
+      ]
+    },
+    {
+      "id": "prj_00424",
+      "nombre": "Línea Subterránea 45 kV ST Valdemoro",
+      "promotor": "UFD Distribución Electricidad, S. A.",
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Valdemoro",
+      "comunidad_autonoma": "Comunidad de Madrid",
+      "subestacion": "ST Valdemoro",
+      "tension_kv": 45,
+      "expedientes": [
+        "2023P682",
+        "2023P769"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251014",
+      "fecha_ultima": "20251029",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20251014-42",
+          "fecha": "20251014",
+          "boletin": "BOCM",
+          "tipo_permiso": "IP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20251014-42",
+          "titulo": "Resolución de 16 de septiembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45 kV en la ST Valdemoro, en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Modificación del trazado de la línea de 45 kV Circuito 1 LAT 45 kV Derivación 1/Valdemoro para blindaje de la ST Valdemoro. Instalación de nueva línea subterránea desde futuro edificio de celdas de 45 kV hasta pórtico existente. Presupuesto: 52.089,830 euros. Período de información pública: 1 mes desde publicación."
+        },
+        {
+          "id_boe": "BOCM-20251029-52",
+          "fecha": "20251029",
+          "boletin": "BOCM",
+          "tipo_permiso": "IP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20251029-52",
+          "titulo": "Resolución de 14 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45 kV en la ST Valdemoro en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "permisos_adicionales": [
+            "AAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de modificación del trazado de línea de 45 kV (Circuito 1) para blindaje de la ST Valdemoro. Instalación de nueva línea subterránea desde edificio de celdas de 45 kV, en canalización bajo tubo hormigonada hasta pórtico existente. Presupuesto: 41.543,790 euros. Período de información pública: 1 mes desde publicación en BOCM."
         }
       ]
     },
@@ -4200,6 +3596,58 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00503",
+      "nombre": "Planta Fotovoltaica Arañuelo A",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XX",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "El Gordo",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-25063959",
+        "DOE-25063969"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251110",
+      "fecha_ultima": "20251110",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-25063959",
+          "fecha": "20251110",
+          "boletin": "DOE",
+          "tipo_permiso": "ModAAP",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063959.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo B\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación del proyecto de planta fotovoltaica e inclusión de línea de evacuación asociada. Publicada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        },
+        {
+          "id_boe": "DOE-25063969",
+          "fecha": "20251110",
+          "boletin": "DOE",
+          "tipo_permiso": "ModAAE",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063969.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo A\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación de proyecto fotovoltaico. Incluye línea de evacuación asociada. Texto completo no disponible en el anuncio publicado."
+        }
+      ]
+    },
+    {
       "id": "prj_00697",
       "nombre": "Planta Solar Fotovoltaica Zaratán II",
       "promotor": "Heros Virtual Time, S.L.U.",
@@ -4365,6 +3813,266 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00800",
+      "nombre": "FRV Guijo Solar III",
+      "promotor": "FRV Guijo Solar 3, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Guijo de",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26060697",
+        "IA24/1420"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260119",
+      "fecha_ultima": "20260401",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26060077",
+          "fecha": "20260119",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060077.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar III\", a realizar en el término municipal de Guijo de Coria Cáceres). Expte.: IA24/1420.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de Declaración de Impacto Ambiental favorable publicada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. Expediente administrativo DOE-26060077."
+        },
+        {
+          "id_boe": "DOE-26060697",
+          "fecha": "20260401",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060697.pdf",
+          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Guijo Solar 3, SLU, para la instalación fotovoltaica \"FRV Guijo Solar III\", ubicada en el término municipal de Guijo de ",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa para instalación fotovoltaica. Texto completo no disponible en la publicación."
+        }
+      ]
+    },
+    {
+      "id": "prj_00801",
+      "nombre": "FRV Guijo Solar IV",
+      "promotor": "FRV Guijo Solar 4, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Guijo de Córdoba",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26060703",
+        "IA24/1421"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260119",
+      "fecha_ultima": "20260401",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26060080",
+          "fecha": "20260119",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060080.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar IV, a realizar en el término municipal de Guijo de Coria Cáceres\". Expte.: IA24/1421.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Declaración de impacto ambiental formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. Expediente DOE-26060080."
+        },
+        {
+          "id_boe": "DOE-26060703",
+          "fecha": "20260401",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060703.pdf",
+          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Guijo Solar 4, SLU, para la instalación fotovoltaica \"FRV Guijo Solar IV\", ubicada en el término municipal de Guijo de C",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Autorización administrativa previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        }
+      ]
+    },
+    {
+      "id": "prj_00802",
+      "nombre": "FRV Guijo Solar V",
+      "promotor": "FRV Calzadilla Solar 5, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Badajoz",
+      "municipio": "Calzadilla",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26060705",
+        "IA24/1422"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260119",
+      "fecha_ultima": "20260401",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26060081",
+          "fecha": "20260119",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060081.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar V\", a realizar en el término municipal de Calzadilla (Cáceres). Expte.: IA24/1422.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de Declaración de Impacto Ambiental favorable formulada por la Dirección General de Sostenibilidad (Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura). Publicación en DOE con expediente DOE-26060081."
+        },
+        {
+          "id_boe": "DOE-26060705",
+          "fecha": "20260401",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060705.pdf",
+          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Calzadilla Solar 5, SLU, para la instalación fotovoltaica \"FRV Guijo Solar V\", ubicada en el término municipal de Calzad",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de autorización administrativa previa publicada en DOE. Promotor: FRV Calzadilla Solar 5, SLU. Texto completo no disponible en la consulta."
+        }
+      ]
+    },
+    {
+      "id": "prj_00803",
+      "nombre": "FRV Guijo Solar VI",
+      "promotor": "FRV Calzadilla Solar 6, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Guijo de Granadilla",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26060082",
+        "DOE-26060706"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260119",
+      "fecha_ultima": "20260401",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26060082",
+          "fecha": "20260119",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/110o/26060082.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 5 de enero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto instalación solar fotovoltaica \"FRV Guijo Solar VI\", a realizar en los términos municipales de Calzadilla y Casas de Don Gómez (Cáceres",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Declaración de Impacto Ambiental formulada por resolución de 5 de enero de 2026 de la Dirección General de Sostenibilidad (Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura)"
+        },
+        {
+          "id_boe": "DOE-26060706",
+          "fecha": "20260401",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/630o/26060706.pdf",
+          "titulo": "Energía solar.- Resolución de 24 de marzo de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad FRV Calzadilla Solar 6, SLU, para la instalación fotovoltaica \"FRV Guijo Solar VI\", ubicada en los términos municipales de C",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de autorización administrativa previa para instalación fotovoltaica. El título indica ubicación en términos municipales de Guijo (probable: Guijo de Granadilla, provincia de Cáceres). Texto completo no disponible, datos extraídos del título y metadatos del DOE."
+        }
+      ]
+    },
+    {
+      "id": "prj_00816",
+      "nombre": "FV Solaria Pinofranqueado Solar 3",
+      "promotor": "EDP Renovables España, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Pinofranqueado",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26060402",
+        "DOE-26060851"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260216",
+      "fecha_ultima": "20260421",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26060402",
+          "fecha": "20260216",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/310o/26060402.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 6 de febrero de 2026, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"FV Solaria Pinofranqueado Solar 3\", a realizar en el término municipal de Guijo de Coria (Cáceres)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Declaración de Impacto Ambiental favorable formulada por la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        },
+        {
+          "id_boe": "DOE-26060851",
+          "fecha": "20260421",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/750o/26060851.pdf",
+          "titulo": "Energía solar.- Resolución de 10 de abril de 2026, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad EDP Renovables España, SLU, para la instalación fotovoltaica \"FV Solaria Pinofranqueado Solar 3\", ubicada en el término muni",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución otorga autorización administrativa previa. Información disponible limitada por falta de texto completo del BOE/DOE."
+        }
+      ]
+    },
+    {
       "id": "prj_00795",
       "nombre": "Magallanes 8",
       "promotor": "VLT Renovables II, SL",
@@ -4465,60 +4173,6 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de otorgamiento de autorización administrativa previa para instalación fotovoltaica publicada en DOE por la Dirección General de Industria, Energía y Minas de Extremadura."
-        }
-      ]
-    },
-    {
-      "id": "prj_00832",
-      "nombre": "FV Ciguñuela II",
-      "promotor": "PV Ingenergy Solar Dzeta, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 3.0,
-      "provincia": "Valladolid",
-      "municipio": "Ciguñuela",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "ST Valladolid",
-      "tension_kv": 13.2,
-      "expedientes": [
-        "FV-2715 ATCE-205",
-        "FV-2716 ATCE-206"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20260505",
-      "fecha_ultima": "20260505",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-05052026-83-22",
-          "fecha": "20260505",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2026/05/05/html/BOCYL-D-05052026-83-22.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Ciguñuela I», en el término municipal de Ciguñuela (Valladolid). Expte.: FV-2715 ATCE-205.",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de 3.300 kW de potencia instalada con capacidad de acceso de 3.630 kW. Infraestructura de evacuación subterránea de 13,2 kV compartida con múltiples instalaciones fotovoltaicas (más de 25 proyectos). Conexión a centro de seccionamiento (CS) en Línea 37 - Norte de la ST Valladolid. Plazo de información pública: 20 días hábiles. Silencio administrativo desestimatorio. Requiere evaluación de impacto ambiental simplificada por parte del Servicio Territorial de Medio Ambiente de Valladolid."
-        },
-        {
-          "id_boe": "BOCYL-D-05052026-83-23",
-          "fecha": "20260505",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2026/05/05/html/BOCYL-D-05052026-83-23.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Ciguñuela II», en el término municipal de Ciguñuela (Valladolid). Expte.: FV-2716 ATCE-206.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación de 3000 kW de potencia instalada con capacidad de acceso concedida de 3300 kW. Infraestructura de evacuación compartida con múltiples expedientes (FV-2715, FV-2708, FV-2688, FV-2622, etc.). Línea subterránea de 13,2 kV hasta Centro de Seccionamiento en Línea 44 – Cabildo. Requiere evaluación de impacto ambiental simplificada. Plazo de información pública: 20 días hábiles desde la publicación (22 de abril de 2026)."
         }
       ]
     },
@@ -6046,6 +5700,87 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00041",
+      "nombre": "Fotovoltaica Barcina Garoña Vega II",
+      "promotor": "Vega Lyra Promociones Fotovoltaicas, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 63.57,
+      "provincia": "Burgos",
+      "municipio": "Valle de Tobalina",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET Colectora Vega / SET Garoña REE",
+      "tension_kv": 400,
+      "expedientes": [
+        "BOE-A-2025-16688"
+      ],
+      "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": true,
+      "mw_liberados": 63.57,
+      "fecha_primera": "20250811",
+      "fecha_ultima": "20250811",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2025-16688",
+          "fecha": "20250811",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "denegado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16688",
+          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Vega Lyra Promociones Fotovoltaicas, SL, de autorización administrativa previa y autorización administrativa de construcción de la instalación solar fotovoltaica Barcina Garoña Vega II, de 63,57 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Burgos.",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP"
+          ],
+          "es_fallido": true,
+          "mw_liberados": 63.57,
+          "observaciones": "La solicitud original de AAP fue otorgada el 30 de septiembre de 2023 (63,57 MW de potencia instalada). Posteriormente, el promotor solicitó el 24 de febrero de 2024 modificación de AAP y autorización de construcción, con subsanaciones presentadas hasta noviembre de 2024. La resolución de desestimación se publica el 11 de agosto de 2025. El proyecto incluye infraestructura de evacuación con líneas soterradas a 30 kV, centro de seccionamiento y línea a 400 kV hasta SET Garoña REE. Requería informe preceptivo del Consejo de Seguridad Nuclear por proximidad a central nuclear."
+        }
+      ]
+    },
+    {
+      "id": "prj_00042",
+      "nombre": "Barcina Garoña Vega I",
+      "promotor": "Vega Lyra Promociones Fotovoltaicas, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 63.57,
+      "provincia": "Burgos",
+      "municipio": "Valle de Tobalina",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET Barcina-Garoña REE",
+      "tension_kv": 400,
+      "expedientes": [
+        "BOE-A-2025-16689"
+      ],
+      "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": true,
+      "mw_liberados": 63.57,
+      "fecha_primera": "20250811",
+      "fecha_ultima": "20250811",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2025-16689",
+          "fecha": "20250811",
+          "boletin": "BOE",
+          "tipo_permiso": "AAC",
+          "estado": "denegado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16689",
+          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Vega Lyra Promociones Fotovoltaicas, SL, de autorización administrativa de construcción de la instalación solar fotovoltaica Barcina Garoña Vega I, de 63,57 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Burgos.",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": true,
+          "mw_liberados": 63.57,
+          "observaciones": "El promotor solicitó AAC en febrero de 2024 con múltiples subsanaciones hasta noviembre de 2024. Desistió de la solicitud de DUP en octubre de 2024. La resolución desestima la solicitud de AAC. Previamente se había otorgado AAP (30 de septiembre de 2023) con potencia pico de 68,9832 MW. El proyecto incluía una DIA favorable de 9 de junio de 2023. Se realizaron modificaciones técnicas en la infraestructura de evacuación incluyendo eliminación de líneas aéreas y transformación a subterráneas."
+        }
+      ]
+    },
+    {
       "id": "prj_00045",
       "nombre": "Planta Fotovoltaica Sextante Solar",
       "promotor": "Sextante Solar, SL",
@@ -7315,6 +7050,47 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00086",
+      "nombre": "FV Secadal I",
+      "promotor": "Premier SPV 14, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 2.3,
+      "provincia": "Valladolid",
+      "municipio": "Ciguñuela, Zaratán y Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2681 ATCE-172",
+        "FV-2681 ATCE-176"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250822",
+      "fecha_ultima": "20250822",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-22082025-11",
+          "fecha": "20250822",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/08/22/html/BOCYL-D-22082025-11.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Secadal I», en el término municipal de Ciguñuela, Zaratán y Valladolid (Valladolid). Expte.: FV-2681 ATCE-176.",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Planta fotovoltaica en Ciguñuela. Infraestructura de evacuación en Ciguñuela, Zaratán y Valladolid. Capacidad de acceso concedida: 2250 kW. Infraestructura compartida con múltiples expedientes (FV-2682, FV-2683, FV-2697, FV-2688, FV-2639, FV-2640, FV-2642, FV-2649, FV-2650, FV-2665, FV-2666, FV-2667, FV-2690, FV-2705, FV-2708, FV-2709, FV-2710, FV-2711, FV-2712, FV-2713, FV-2715, FV-2716, FV-2721, FV-2723, FV-2724, FV-2725, FV-2726, FV-2622, FV-2678, FV-2703, FV-2722). Plazo de resolución: 6 meses. Silencio administrativo desestimatorio. Plazo información pública: 20 días hábiles."
+        }
+      ]
+    },
+    {
       "id": "prj_00088",
       "nombre": "Planta Fotovoltaica PFV La Rubia",
       "promotor": "RP Energía Dos, S.L.",
@@ -8089,6 +7865,82 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00114",
+      "nombre": "Planta Solar Fotovoltaica Ajalvir I",
+      "promotor": "Castañar Dos Ibérica, S. L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Ajalvir",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "26-EIA-00017.0/2025"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250902",
+      "fecha_ultima": "20250902",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250902-32",
+          "fecha": "20250902",
+          "boletin": "BOCM",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.bocm.es/bocm-20250902-32",
+          "titulo": "Resolución de 21 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta Solar Fotovoltaica “Ajalvir I” e infraestructuras de evacuación», en el término municipal de Ajalvir, promovido por Castañar Dos Ibérica, S. L. (Expediente: 26-EIA-00017.0/2025)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que acuerda hacer público el Informe de Impacto Ambiental del proyecto. El proyecto incluye infraestructuras de evacuación. El informe está disponible en el portal institucional de la Comunidad de Madrid."
+        }
+      ]
+    },
+    {
+      "id": "prj_00115",
+      "nombre": "Planta Solar Fotovoltaica Brezos I",
+      "promotor": "Clancy Capital Advisers, S. L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Torrejón de Velasco y Valdemoro",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "26-EIA-00013.5/2025"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250902",
+      "fecha_ultima": "20250902",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250902-33",
+          "fecha": "20250902",
+          "boletin": "BOCM",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.bocm.es/bocm-20250902-33",
+          "titulo": "Resolución de 28 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de “Planta Solar Fotovoltaica Brezos I y su infraestructura de evacuación”, en los términos municipales de Torrejón de Velasco y Valdemoro, promovido por Clancy Capital Advisers, S. L. (Expediente: 26-EIA-00013.5/2025)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que hace público el Informe de Impacto Ambiental (DIA) del proyecto. El informe puede consultarse en el portal institucional de la Comunidad de Madrid (https://gestiona.comunidad.madrid/rlma_web/html/web/index.htm). El proyecto incluye infraestructura de evacuación asociada."
+        }
+      ]
+    },
+    {
       "id": "prj_00116",
       "nombre": "Infraestructura De Evacuación Conjunta Isla Peralveche",
       "promotor": null,
@@ -8238,6 +8090,44 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Proyecto consistente en dos plantas fotovoltaicas (Capiruza I de 49,4 MW y Capiruza II de 41,8 MW) hibridadas con parques eólicos existentes. Potencia nominal total 91,2 MW. Ocupan 147,13 ha en Peñas de San Pedro. Expedientes acumulados en único procedimiento. Energía evacuada a SET Pinilla 400 kV (REE). Se han cumplido trámites de información pública (nov 2023) sin alegaciones recibidas."
+        }
+      ]
+    },
+    {
+      "id": "prj_00121",
+      "nombre": "Planta Solar Fotovoltaica Ajalvir II",
+      "promotor": "Castañar Dos Ibérica, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Ajalvir y Cobeña",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "26-EIA-00018.1/2025"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250903",
+      "fecha_ultima": "20250903",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250903-15",
+          "fecha": "20250903",
+          "boletin": "BOCM",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.bocm.es/bocm-20250903-15",
+          "titulo": "Resolución de 18 de julio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta solar fotovoltaica “Ajalvir II” y su infraestructura de evacuación», en los términos municipales de Ajalvir y Cobeña, promovido por Castañar Dos Ibérica, S. L. (Expediente: 26-EIA-00018.1/2025)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Informe de Impacto Ambiental publicado conforme art. 47.3 de la Ley 21/2013 de Evaluación Ambiental. Incluye infraestructura de evacuación."
         }
       ]
     },
@@ -9463,6 +9353,82 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga autorización administrativa previa y autorización administrativa de construcción. Incluye infraestructuras auxiliares y de evacuación. Referencia anterior: PE-723. Anuncio de información pública publicado en DOCM el 23/01/2024."
+        }
+      ]
+    },
+    {
+      "id": "prj_00157",
+      "nombre": "Montalbo Solar 1",
+      "promotor": "Iberosolar Energías, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Montalbo",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "2703/01445-M1"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250912",
+      "fecha_ultima": "20250912",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1756885226135010011",
+          "fecha": "20250912",
+          "boletin": "DOCM",
+          "tipo_permiso": "ModAAC",
+          "estado": "otorgado",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1756885226135010011",
+          "titulo": "Instalaciones Eléctricas. Resolución de 02/09/2025 , de la Dirección General de Transición Energética, sobre modificación de la instalación solar fotovoltaica denominada Montalbo Solar 1, infraestructuras auxiliares y de evacuación. (Referencia: 2703/01445). [NID 2025/6814] 28647 > 215 KB",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación de la instalación solar fotovoltaica Montalbo Solar 1 con infraestructuras auxiliares y de evacuación. Referencia anterior: DOCM 44, 03/03/2023, página 7536 (Resolución de 15/02/2023 sobre autorización administrativa previa y autorización administrativa de construcción). La presente resolución corresponde a una modificación de la autorización de construcción (ModAAC)."
+        }
+      ]
+    },
+    {
+      "id": "prj_00158",
+      "nombre": "Montalbo Solar 2",
+      "promotor": "Iberosolar Energías, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Montalbo",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "2703/01446-M1"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250912",
+      "fecha_ultima": "20250912",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1756886827927010026",
+          "fecha": "20250912",
+          "boletin": "DOCM",
+          "tipo_permiso": "ModAAE",
+          "estado": "otorgado",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1756886827927010026",
+          "titulo": "Instalaciones Eléctricas. Resolución de 02/09/2025 , de la Dirección General de Transición Energética, sobre modificación de la instalación solar fotovoltaica denominada Montalbo Solar 2, infraestructuras auxiliares y de evacuación. (Referencia: 2703/01446). [NID 2025/6806] 28651 > 213 KB",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución sobre modificación de la instalación solar fotovoltaica Montalbo Solar 2 e infraestructuras auxiliares y de evacuación. Órgano competente: Dirección General de Transición Energética de Castilla-La Mancha."
         }
       ]
     },
@@ -13290,6 +13256,84 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00277",
+      "nombre": "PV LAN Zambrana II",
+      "promotor": "Castellana de Desarrollos Solares, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Valladolid",
+      "municipio": "La Cistérniga y Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "FV-2546"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251008",
+      "fecha_ultima": "20251008",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-08102025-29",
+          "fecha": "20251008",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAC",
+          "estado": "otorgado",
+          "url": "https://bocyl.jcyl.es/html/2025/10/08/html/BOCYL-D-08102025-29.do",
+          "titulo": "RESOLUCIÓN de 28 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por la que se otorga autorización administrativa de construcción de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «PV LAN Zambrana II», y su reconocimiento de utilidad pública, en concreto, en los términos municipales de La Cistérniga y Valladolid (Valladolid). Expte.: FV-2546.",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución otorga simultáneamente Autorización Administrativa de Construcción (AAC) y reconocimiento de Declaración de Utilidad Pública (DUP). Previamente se había otorgado Autorización Administrativa Previa (AAP) con fecha 04/02/2025. El proyecto incluye infraestructura de evacuación. Se tramitó evaluación de impacto ambiental simplificada con informe ambiental favorable (04/12/2024). Hubo desistimiento previo de DUP (15/03/2024) que fue posteriormente retomado (08/11/2024)."
+        }
+      ]
+    },
+    {
+      "id": "prj_00278",
+      "nombre": "PV LAN Zambrana I",
+      "promotor": "Castellana de Desarrollos Solares, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Valladolid",
+      "municipio": "Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "FV-2548"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251008",
+      "fecha_ultima": "20251008",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-08102025-30",
+          "fecha": "20251008",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAC",
+          "estado": "otorgado",
+          "url": "https://bocyl.jcyl.es/html/2025/10/08/html/BOCYL-D-08102025-30.do",
+          "titulo": "RESOLUCIÓN de 28 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por la que se otorga autorización administrativa de construcción de una instalación de producción de energía eléctrica por tecnología fotovoltaica, denominada «PV LAN Zambrana I», en el término municipal de Valladolid. Expte.: FV-2548.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga autorización administrativa de construcción (AAC). El proyecto había recibido previamente autorización administrativa previa (AAP) publicada el 04/02/2025. Se incluye infraestructura de evacuación. El promotor aportó documentación técnica de condicionados de organismos afectados y acuerdo previo con particulares, por lo que se eximió de trámites de consultas y audiencia pública."
+        }
+      ]
+    },
+    {
       "id": "prj_00279",
       "nombre": "Planta Solar Fotovoltaica Hontoria II",
       "promotor": "Prokon New Energy Spain, S.L.",
@@ -13863,6 +13907,44 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de autorización administrativa previa de instalación fotovoltaica. Se incluye infraestructura de evacuación. Promotor: Erasp Spain, S.L.U. (NIF B67831016, domicilio: Calle Mallorca 221, Barcelona). Solicitud registrada 15/05/2023. Informe de viabilidad ambiental emitido 13/02/2024. Información pública publicada 27/06/2025 (BOP Valladolid) y 01/07/2025 (BOCyL). Período información pública: 30 días hábiles. Relación de bienes/derechos a expropiar remitida 18/06/2025 y publicada en periódico El Mundo 23/06/2025. Se solicitaron informes a múltiples organismos incluyendo Confederación Hidrográfica del Duero, i-DE, Red Eléctrica Española, AESA, Ministerio de Defensa, entre otros. Informe condicionado de CHD de 18/09/2025 requiere autorización previa para trabajos. i-DE emitió informe el 15/09/2025."
+        }
+      ]
+    },
+    {
+      "id": "prj_00298",
+      "nombre": "FV Secadal II",
+      "promotor": "Premier SPV 18, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 2.865,
+      "provincia": "Valladolid",
+      "municipio": "Zaratán, Ciguñuela, Valladolid",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2682 ATCE-177"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251009",
+      "fecha_ultima": "20251009",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-09102025-38",
+          "fecha": "20251009",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/10/09/html/BOCYL-D-09102025-38.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Secadal II», en el término municipal de Ciguñuela, Zaratán y Valladolid (Valladolid). Expte.: FV-2682 ATCE-177.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de 2865 kW conectada a red de distribución. Capacidad de acceso concedida: 2351 kW. Infraestructura de evacuación mediante líneas subterráneas de 13,2 kV. Requiere evaluación de impacto ambiental simplificada. Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Punto de entrega de energía: Línea 9 Villa de Prado 1 entre CT Villa de Prado 6 y CT Villa de Prado 10 de la ST Valladolid."
         }
       ]
     },
@@ -16342,6 +16424,44 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00385",
+      "nombre": "Planta Solar Fotovoltaica La Vega II",
+      "promotor": "Naturgy Renovables, S.L.U.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 5.7,
+      "provincia": "Zamora",
+      "municipio": "Monfarracinos",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Subestación existente Parque Eólico La Vega II",
+      "tension_kv": 20,
+      "expedientes": [
+        "ZA-AT-2025/962"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251023",
+      "fecha_ultima": "20251023",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-23102025-26",
+          "fecha": "20251023",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/10/23/html/BOCYL-D-23102025-26.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de la planta solar fotovoltaica hibridación «La Vega II», en el término municipal de Monfarracinos (Zamora). N.º Planta: 962.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con instalación existente Parque Eólico La Vega II. Planta fotovoltaica de 6,18 MWp (5,7 MW instalados) con 10.125 módulos de 610 Wp. Acogido a procedimiento simplificado según Decreto-ley 2/2022. Línea de evacuación subterránea de 20 kV. Plazo de alegaciones: 10 días desde publicación. Competente: Servicio Territorial de Industria, Comercio y Economía de Zamora."
+        }
+      ]
+    },
+    {
       "id": "prj_00386",
       "nombre": "Planta De Producción De Biometano Villaseca De La Sagra",
       "promotor": "La Sagra Biogás, SL",
@@ -17469,6 +17589,46 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00423",
+      "nombre": "Línea Subterránea 45kV Valdemoro I-Valdemoro II",
+      "promotor": "UFD Distribución Electricidad, S. A.",
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Valdemoro",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST Valdemoro I",
+      "tension_kv": 45,
+      "expedientes": [
+        "2023P674"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251029",
+      "fecha_ultima": "20251029",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20251029-51",
+          "fecha": "20251029",
+          "boletin": "BOCM",
+          "tipo_permiso": "IP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20251029-51",
+          "titulo": "Resolución de 14 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de una línea subterránea de 45kV en Vereda de la Carreruela entre la ST Valdemoro I y ST Valdemoro II en el término municipal de Valdemoro, solicitada por UFD Distribución Electricidad, S. A.",
+          "permisos_adicionales": [
+            "AAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de renovación del trazado del circuito LAT 45kV Valdemoro/Valdemoro 2 mediante interconexión con LAT 45kV C1 VD2 LSD. Presupuesto total: 44.156,35 euros. Período de información pública de un mes a partir del día siguiente a la publicación."
+        }
+      ]
+    },
+    {
       "id": "prj_00425",
       "nombre": "Planta Fotovoltaica Belvis",
       "promotor": "Generación Fotovoltaica El Arquillo, S. L. U.",
@@ -18189,6 +18349,44 @@ window.PROJECTS_INLINE = {
           "es_fallido": true,
           "mw_liberados": 165,
           "observaciones": "Resolución de 17 de octubre de 2025 que acepta el desistimiento formulado por el promotor. La solicitud de AAP se presentó el 15 de julio de 2021 (modificada el 2 de junio de 2022). Se sometió a información pública con publicación en BOE y BOA. La DIA desfavorable se emitió el 11 de agosto de 2023 (BOE-A-2023-18904). Los permisos de acceso y conexión a la red de transporte (IVA, ICCTC, IVCTC) caducaron el 31 de octubre de 2023. El promotor presentó solicitud de desistimiento en múltiples ocasiones (13 de noviembre de 2023, 16 de julio de 2024, 14 de enero de 2025, 14 de abril de 2025 y 18 de julio de 2025). El aval depositado (6.600.000,00 €, registro 34.063/21, expediente 2021-00373-O-0130300) ha sido solicitado en excepción de ejecución por el promotor."
+        }
+      ]
+    },
+    {
+      "id": "prj_00448",
+      "nombre": "Planta Solar Fotovoltaica Brezos II",
+      "promotor": "Clancy Capital Advisers, S. L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Torrejón de Velasco",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "26-EIA-00111.6/2025"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251103",
+      "fecha_ultima": "20251103",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20251103-68",
+          "fecha": "20251103",
+          "boletin": "BOCM",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.bocm.es/bocm-20251103-68",
+          "titulo": "Resolución de 2 de octubre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Planta solar fotovoltaica “Brezos II” y su infraestructura de evacuación», en el término municipal de Torrejón de Velasco promovido por Clancy Capital Advisers, S. L. (Expediente: 26-EIA-00111.6/2025)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que hace público el Informe de Impacto Ambiental (DIA) del proyecto. El proyecto incluye infraestructura de evacuación asociada. El informe completo está disponible en el portal institucional de la Comunidad de Madrid."
         }
       ]
     },
@@ -19808,6 +20006,82 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00504",
+      "nombre": "Planta Fotovoltaica Arañuelo D",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XX",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "El Gordo",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-25063970"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251110",
+      "fecha_ultima": "20251110",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-25063970",
+          "fecha": "20251110",
+          "boletin": "DOE",
+          "tipo_permiso": "ModAAE",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063970.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de planta fotovoltaica \"Arañuelo D\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación de proyecto de planta fotovoltaica y su línea de evacuación. Incluye infraestructura de red asociada (LAT)."
+        }
+      ]
+    },
+    {
+      "id": "prj_00505",
+      "nombre": "Planta Fotovoltaica Arañuelo C",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XX",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "El Gordo",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-25063971"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251110",
+      "fecha_ultima": "20251110",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-25063971",
+          "fecha": "20251110",
+          "boletin": "DOE",
+          "tipo_permiso": "ModAAE",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/2160o/25063971.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 2 de noviembre de 2025, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de Planta Fotovoltaica \"Arañuelo C\" y su línea de evacuación, en el término municipal de El Gordo (Cáceres), cuya promotora es Fuerzas Energéticas del Sur de Europa XX",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación del proyecto de planta fotovoltaica y su línea de evacuación. La tramitación es de carácter ambiental a través de la Dirección General de Sostenibilidad de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura."
+        }
+      ]
+    },
+    {
       "id": "prj_00506",
       "nombre": "Parque Solar Fotovoltaico Caramonte",
       "promotor": "Eólica de Medinaceli SL",
@@ -19920,6 +20194,120 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Planta fotovoltaica de 1,8 MW con 3.600 paneles de 650 Wp, 6 inversores de 300 kW, centro de transformación de 2.000 kVA y línea de 15 kV soterrada. Superficie ocupada: 3,99 ha. Presupuesto total: 1.088.073,89 euros. Período de información pública de 30 días a partir del día siguiente a la publicación."
+        }
+      ]
+    },
+    {
+      "id": "prj_00509",
+      "nombre": "Planta Solar Fotovoltaica Pintia I",
+      "promotor": "Salvia Solar I, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.8,
+      "provincia": "Valladolid",
+      "municipio": "Villanubla y Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR Pintia Norte",
+      "tension_kv": 45,
+      "expedientes": [
+        "EIA/VA/2024/61"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251111",
+      "fecha_ultima": "20251111",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-11112025-11",
+          "fecha": "20251111",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-11.do",
+          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia I» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar I, S.L.». Expte.: EIA/VA/2024/61.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de evaluación ambiental simplificada según Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Superficie ocupada: 14,14 ha. Incluye línea de evacuación con tramos subterráneos (4.987,88 m y 2.062,1 m) y tramo aéreo (992,74 m). Se proyectan adyacentemente las plantas Pintia II y Pintia VI. Subestación elevadora 45/30 kV ST Pintia Norte como infraestructura común. Se analizaron tres alternativas de ubicación más alternativa 0 de no ejecución. Se subsanaron deficiencias documentales en abril de 2025."
+        }
+      ]
+    },
+    {
+      "id": "prj_00510",
+      "nombre": "Planta Solar Fotovoltaica Pintia II",
+      "promotor": "Salvia Solar II, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.8,
+      "provincia": "Valladolid",
+      "municipio": "Villanubla y Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR Pintia Norte",
+      "tension_kv": 45,
+      "expedientes": [
+        "EIA/VA/2024/62"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251111",
+      "fecha_ultima": "20251111",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-11112025-12",
+          "fecha": "20251111",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-12.do",
+          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia II» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar II, S.L.». Expte.: EIA/VA/2024/62.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que hace público el informe de impacto ambiental (DIA) del proyecto. La planta ocupa 13,61 hectáreas con 9.164 módulos fotovoltaicos. Incluye línea de evacuación de 8.045 m (parcialmente subterránea) y subestación elevadora 45/30 kV. Evaluación ambiental simplificada conforme a Anexo II, Grupo 4, apartado j) de la Ley 21/2013. Se analizaron tres alternativas de ubicación, seleccionándose la Alternativa 1."
+        }
+      ]
+    },
+    {
+      "id": "prj_00511",
+      "nombre": "Planta Solar Fotovoltaica Pintia VI",
+      "promotor": "Tomillo Solar IV, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.8,
+      "provincia": "Valladolid",
+      "municipio": "Villanubla y Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR Pintia Norte",
+      "tension_kv": 45,
+      "expedientes": [
+        "EIA/VA/2024/63"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251111",
+      "fecha_ultima": "20251111",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-11112025-13",
+          "fecha": "20251111",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/11/11/html/BOCYL-D-11112025-13.do",
+          "titulo": "RESOLUCIÓN de 4 de noviembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de la planta solar fotovoltaica «Pintia VI» y su línea de evacuación, en el término municipal de Villanubla y Zaratán (Valladolid), promovido por «Tomillo Solar IV, S.L.». Expte.: EIA/VA/2024/63.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Planta solar fotovoltaica con potencia nominal de 4.800 kWn (4,8 MW). Incluye subestación elevadora 45/30 kV (ST Pintia Norte) y línea de evacuación de 8.045 m hacia SMR Pintia Norte con tramos subterráneos y aéreo. Se desarrolla junto a plantas solares adyacentes Pintia I y Pintia II. Informe de impacto ambiental emitido por la Delegación Territorial de Valladolid bajo evaluación ambiental simplificada (Anexo II, Grupo 4.j de Ley 21/2013)."
         }
       ]
     },
@@ -25902,6 +26290,44 @@ window.PROJECTS_INLINE = {
       ]
     },
     {
+      "id": "prj_00696",
+      "nombre": "Planta Solar Fotovoltaica Pintia V",
+      "promotor": "Salvia Solar V, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.9,
+      "provincia": "Valladolid",
+      "municipio": "Villanubla, Ciguñuela, Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR Pintia Sur",
+      "tension_kv": 45,
+      "expedientes": [
+        "EIA/VA/2025/45"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251209",
+      "fecha_ultima": "20251209",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-09122025-29",
+          "fecha": "20251209",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2025/12/09/html/BOCYL-D-09122025-29.do",
+          "titulo": "RESOLUCIÓN de 1 de diciembre de 2025, de la Delegación Territorial de Valladolid, por la que se hace público el informe de impacto ambiental del proyecto de planta solar fotovoltaica «Pintia V» y su línea de evacuación, en los términos municipales de Ciguñuela, Villanubla y Zaratán (Valladolid), promovido por «Salvia Solar V, S.L.». Expte.: EIA/VA/2025/45.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de evaluación ambiental simplificada (Anexo II, Grupo 4, apartado j). La planta ocupa 11,20 ha en Villanubla. Forma parte de un conjunto de 3 plantas solares (Pintia III, IV y V) con potencia total de 14,7 MW. Línea de evacuación subterránea de 45 kV de 5,54 km. Conexión en nudo de transporte ZARATAN (220 kV) a través de SMR Pintia Sur. Se han evaluado 3 alternativas de localización además de alternativa 0 (no realizar proyecto). Informe de impacto ambiental hace público en esta resolución."
+        }
+      ]
+    },
+    {
       "id": "prj_00698",
       "nombre": "LAT 132kV Ávila-Lastras y Ávila-Burguillo (Modificación)",
       "promotor": "I-DE Redes Eléctricas Inteligentes, S.L.U.",
@@ -29592,6 +30018,84 @@ window.PROJECTS_INLINE = {
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación de 3.96 MW de potencia instalada (3.96 MWp según RD 413/2014). Capacidad de acceso concedida: 3.96 MW. Infraestructura de evacuación subterránea de 13.2 kV compartida con múltiples instalaciones fotovoltaicas en tramitación (expedientes FV-2715, FV-2716, FV-2688, FV-2622, entre otros). El punto de entrega está en centro de seccionamiento (CS) entre CS Millán La Cogolla y CT Villa del Prado-3 de la Línea 27 – Villa del Prado 2 (13.2 kV). Promotor domiciliado en La Eliana (Valencia) con NIF B10641116. Plazo de resolución: seis meses con silencio administrativo desestimatorio. Requiere evaluación de impacto ambiental simplificada por el Servicio Territorial de Medio Ambiente de Valladolid."
+        }
+      ]
+    },
+    {
+      "id": "prj_00831",
+      "nombre": "FV Ciguñuela I",
+      "promotor": "PV Ingenergy Solar Gamma, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 3.63,
+      "provincia": "Valladolid",
+      "municipio": "Ciguñuela",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2715 ATCE-205"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260505",
+      "fecha_ultima": "20260505",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-05052026-83-22",
+          "fecha": "20260505",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2026/05/05/html/BOCYL-D-05052026-83-22.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Ciguñuela I», en el término municipal de Ciguñuela (Valladolid). Expte.: FV-2715 ATCE-205.",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de 3.300 kW de potencia instalada con capacidad de acceso de 3.630 kW. Infraestructura de evacuación subterránea de 13,2 kV compartida con múltiples instalaciones fotovoltaicas (más de 25 proyectos). Conexión a centro de seccionamiento (CS) en Línea 37 - Norte de la ST Valladolid. Plazo de información pública: 20 días hábiles. Silencio administrativo desestimatorio. Requiere evaluación de impacto ambiental simplificada por parte del Servicio Territorial de Medio Ambiente de Valladolid."
+        }
+      ]
+    },
+    {
+      "id": "prj_00832",
+      "nombre": "FV Ciguñuela II",
+      "promotor": "PV Ingenergy Solar Dzeta, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 3.0,
+      "provincia": "Valladolid",
+      "municipio": "Ciguñuela",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2716 ATCE-206"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260505",
+      "fecha_ultima": "20260505",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-05052026-83-23",
+          "fecha": "20260505",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2026/05/05/html/BOCYL-D-05052026-83-23.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «FV Ciguñuela II», en el término municipal de Ciguñuela (Valladolid). Expte.: FV-2716 ATCE-206.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación de 3000 kW de potencia instalada con capacidad de acceso concedida de 3300 kW. Infraestructura de evacuación compartida con múltiples expedientes (FV-2715, FV-2708, FV-2688, FV-2622, etc.). Línea subterránea de 13,2 kV hasta Centro de Seccionamiento en Línea 44 – Cabildo. Requiere evaluación de impacto ambiental simplificada. Plazo de información pública: 20 días hábiles desde la publicación (22 de abril de 2026)."
         }
       ]
     },
