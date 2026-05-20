@@ -3573,28 +3573,47 @@ function buildPrjDetail(p){
     'otro':'#94a3b8','inadmitido':'#ef4444','revocado':'#ef4444',
   };
 
-  var pubs = (p.publicaciones||[]).slice().reverse();
+  // Agrupar publicaciones por (fecha, tipo_permiso, estado) para colapsar duplicados de parser
+  var rawPubs = (p.publicaciones||[]).slice().reverse();
+  var grpMap = []; var grpIdx = {};
+  rawPubs.forEach(function(pub){
+    var key = (pub.fecha||'')+'|'+(pub.tipo_permiso||'')+'|'+(pub.estado||'');
+    if(grpIdx[key]!==undefined){ grpMap[grpIdx[key]].extras.push(pub); }
+    else{ grpIdx[key]=grpMap.length; grpMap.push({main:pub,extras:[]}); }
+  });
+
   var timeline = '<div class="prj-timeline">';
-  pubs.forEach(function(pub){
+  grpMap.forEach(function(grp){
+    var pub = grp.main;
+    var count = 1 + grp.extras.length;
     var dotColor = ESTADO_DOT[(pub.estado||'').toLowerCase()] || '#94a3b8';
     var fechaFmt = pub.fecha ? pub.fecha.slice(0,4)+'-'+pub.fecha.slice(4,6)+'-'+pub.fecha.slice(6) : '—';
     var tp = pub.tipo_permiso||'—';
     var tpLabel = TIPOS[tp]||tp;
     var est = ESTADOS[pub.estado]||{label:pub.estado||'',color:'#555',bg:'#f3f4f6'};
-    // boletinUrl adaptado: usa pub.fecha (no fecha_publicacion) + pub.url directo
-    var _pUrl = pub.url || (function(){
-      var f=pub.fecha||''; if(f.length<8) return '';
+    function pubUrl(q){
+      if(q.url) return q.url;
+      var f=q.fecha||''; if(f.length<8) return '';
       var Y=f.slice(0,4),M=f.slice(4,6),D=f.slice(6,8);
-      if(pub.boletin==='BOPA') return 'https://sede.asturias.es/bopa/'+Y+'/'+M+'/'+D+'/'+f+'.pdf';
-      if(pub.boletin==='BOA')  return 'https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&BASE=BOLE&SEC=BUSQUEDA_FECHA&PUBL='+f;
+      if(q.boletin==='BOPA') return 'https://sede.asturias.es/bopa/'+Y+'/'+M+'/'+D+'/'+f+'.pdf';
+      if(q.boletin==='BOA')  return 'https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&BASE=BOLE&SEC=BUSQUEDA_FECHA&PUBL='+f;
       return '';
-    })();
-    var linkBtn = _pUrl
-      ? '<a class="prj-pub-link" href="'+_pUrl+'" target="_blank" onclick="event.stopPropagation()">'+_esc(pub.boletin||'BOE')+' ↗</a>'
-      : '';
+    }
+    // IDs de todas las pubs del grupo
+    var allPubs = [pub].concat(grp.extras);
+    var idChips = allPubs.map(function(q){
+      var u = pubUrl(q);
+      return u
+        ? '<a class="prj-pub-link" href="'+u+'" target="_blank" onclick="event.stopPropagation()">'+_esc(q.id_boe||q.boletin||'BOE')+' ↗</a>'
+        : '<span class="prj-pub-tipo" style="opacity:.6">'+_esc(q.id_boe||q.boletin||'—')+'</span>';
+    }).join(' ');
     var estChip = est.label
       ? '<span class="prj-pub-est" style="background:'+est.bg+';color:'+est.color+'">'+est.label+'</span>'
       : '';
+    var countBadge = count>1
+      ? '<span style="font-size:9px;background:#e0e7ff;color:#3730a3;border-radius:10px;padding:1px 6px;font-family:IBM Plex Mono,monospace">×'+count+'</span>'
+      : '';
+    var desc = pub.observaciones || pub.titulo || '';
     timeline += '<div class="prj-pub">'
       +'<div class="prj-pub-dot" style="background:'+dotColor+'"></div>'
       +'<div>'
@@ -3603,14 +3622,12 @@ function buildPrjDetail(p){
       +'<span class="prj-pub-boletin">'+_esc(pub.boletin||'')+'</span>'
       +'<span class="prj-pub-tipo">'+_esc(tpLabel)+'</span>'
       +estChip
-      +linkBtn
-      +(pub.es_fallido?'<span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
+      +countBadge
+      +(pub.es_fallido||grp.extras.some(function(q){return q.es_fallido;})?'<span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
       +(pub.mw_liberados?'<span style="font-size:9px;color:#7c3aed">'+pub.mw_liberados+' MW liberados</span>':'')
       +'</div>'
-      +(pub.observaciones
-        ? '<div class="prj-pub-titulo">'+_esc(pub.observaciones)+'</div>'
-          +(pub.titulo&&!pub.titulo.match(/^[a-záéíóúüñ]/i)?'<div style="font-size:10px;color:rgba(26,26,24,.35);margin-top:2px;font-family:IBM Plex Mono,monospace">'+_esc(pub.titulo)+'</div>':'')
-        : (pub.titulo?'<div class="prj-pub-titulo">'+_esc(pub.titulo)+'</div>':''))
+      +(desc?'<div class="prj-pub-titulo">'+_esc(desc)+'</div>':'')
+      +'<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px">'+idChips+'</div>'
       +'</div>'
       +'</div>';
   });
