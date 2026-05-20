@@ -17,6 +17,16 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+
+# Cargar variables de .env si existe (permite ejecutar sin pasar por run_pipeline.bat)
+_env_path = Path(__file__).parent / ".env"
+if _env_path.exists():
+    with open(_env_path, encoding="utf-8") as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
 from scrapers.multi_scraper import MultiBoletinScraper
 from extractor.energy_extractor import EnergyExtractor
 
@@ -45,6 +55,16 @@ def run(fecha=None, boletines=None, max_items=None, api_key=None, modelo="haiku"
 
     if max_items:
         items = items[:max_items]
+
+    # Filtrar URLs ya procesadas (evita duplicados de boletines con ventana larga)
+    _seen_path = Path(__file__).parent / "references" / "seen_urls.json"
+    if _seen_path.exists():
+        with open(_seen_path, encoding="utf-8") as _f:
+            _seen_urls = json.load(_f)
+        _antes = len(items)
+        items = [it for it in items if not it.get("url") or it["url"] not in _seen_urls]
+        if _antes != len(items):
+            print(f"   -> {_antes - len(items)} items filtrados (URL ya procesada)")
 
     print(f"\n📥 Items relevantes encontrados: {len(items)}")
     by_boletin = {}
@@ -97,6 +117,19 @@ def run(fecha=None, boletines=None, max_items=None, api_key=None, modelo="haiku"
 
     print(f"\n  📁 Output: output/energy_extraido_{fecha}.json")
     print(f"{'═'*62}\n")
+    # Actualizar seen_urls.json con las URLs de este run
+    _seen_path2 = Path(__file__).parent / "references" / "seen_urls.json"
+    _seen_urls2 = {}
+    if _seen_path2.exists():
+        with open(_seen_path2, encoding="utf-8") as _f2:
+            _seen_urls2 = json.load(_f2)
+    for _it in items:
+        _url = (_it.get("url") or "").strip()
+        if _url and _url not in _seen_urls2:
+            _seen_urls2[_url] = {"file": "pipeline", "id": _it.get("id",""), "fecha": fecha}
+    with open(_seen_path2, "w", encoding="utf-8") as _f2:
+        json.dump(_seen_urls2, _f2, ensure_ascii=False, indent=2)
+
     return resultado
 
 

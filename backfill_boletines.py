@@ -187,11 +187,7 @@ def main():
         filas = [resultado_a_fila(r) for r in energeticos
                  if r.get("id") not in ids_sheet]
         if filas:
-            fila_inicio = ws.row_count + 1
-            # Añadir filas si hace falta
-            ws.add_rows(len(filas) + 10)
-            rango = f"A{fila_inicio}:{chr(64+len(COLUMNAS))}{fila_inicio + len(filas) - 1}"
-            ws.update(range_name=rango, values=filas, value_input_option="USER_ENTERED")
+            ws.append_rows(filas, value_input_option="USER_ENTERED")
             ids_sheet.update(r.get("id","") for r in energeticos)
             total_nuevos += len(filas)
             logger.info(f"  ✅ {fecha}: {len(filas)} filas añadidas al Sheet")
