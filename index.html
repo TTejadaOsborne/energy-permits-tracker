@@ -752,10 +752,7 @@ const CONFIG = {
       <span class="nav-label-sm">Proyectos</span>
       <span id="cnt-proyectos" style="display:none"></span>
     </div>
-    <div class="nav-item" onclick="setView('subestaciones');setTimeout(function(){setSetsMainView('afloramiento');},80)" title="Afloramiento de capacidad" id="nav-oportunidades">
-      <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
-      <span class="nav-label-sm">Afloramiento</span>
-    </div>
+
   </nav>
 
   <!-- Counts ocultos (usados por JS) -->
@@ -893,11 +890,16 @@ const CONFIG = {
 
   <!-- SUBESTACIONES VIEW -->
   <div id="view-subestaciones" class="content" style="display:none;flex-direction:column">
-    <!-- Main tabs -->
-    <div style="display:flex;align-items:center;gap:0;border-bottom:1px solid rgba(26,26,24,.1);padding:0 24px;background:#fff;flex-shrink:0">
-      <button id="sets-main-tab-cap"  class="sets-tab sets-tab-active" onclick="setSetsMainView('capacidades')">Capacidades mensuales</button>
-      <button id="sets-main-tab-bole" class="sets-tab"                 onclick="setSetsMainView('boletines')">Boletines</button>
-      <button id="sets-main-tab-aflor" class="sets-tab"                onclick="setSetsMainView('afloramiento')">Afloramiento</button>
+    <!-- Main tabs — 2 views: Capacidades / Afloramiento -->
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 24px 0;background:#fff;flex-shrink:0;border-bottom:2px solid rgba(26,26,24,.08)">
+      <button id="sets-main-tab-cap" onclick="setSetsMainView('capacidades')"
+        style="padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all .15s;background:#1a1a18;color:#fff;border-bottom:2px solid #1a1a18;margin-bottom:-2px">
+        📊 Capacidades
+      </button>
+      <button id="sets-main-tab-aflor" onclick="setSetsMainView('afloramiento')"
+        style="padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all .15s;background:rgba(26,26,24,.06);color:rgba(26,26,24,.5);border-bottom:2px solid transparent;margin-bottom:-2px">
+        ⚡ Afloramiento
+      </button>
     </div>
 
     <!-- ── CAPACIDADES VIEW ─────────────────────────────────────────── -->
@@ -1512,7 +1514,12 @@ let SETS_CAPACITY = null;
 async function loadSetsCapacity(){
   try {
     const r = await fetch('sets_capacity.json');
-    if(r.ok){ SETS_CAPACITY = await r.json(); populateSetsProvincias(); }
+    if(r.ok){
+      SETS_CAPACITY = await r.json();
+      populateSetsProvincias();
+      // Re-render Proyectos so SET name links appear (they need SETS_CAPACITY loaded)
+      if(typeof renderProyectos==='function' && PROJECTS_DATA) renderProyectos();
+    }
   } catch(e) {}
 }
 
@@ -1528,15 +1535,11 @@ function loadSetsHistory(){
       if(r.ok){
         const raw = await r.json();
         if(raw && raw._v === 2){
-          const parsed = {};
-          Object.keys(raw).forEach(function(k){
-            if(k==='_v') return;
-            parsed[k] = raw[k].map(function(a){
-              return {date:a[0],cap_gen:a[1],cap_gen_ocup:a[2],cap_gen_tram:a[3],
-                      cap_dem:a[4],cap_dem_ocup:a[5],cap_dem_tram:a[6],acept:a[7]};
-            });
-          });
-          SETS_HISTORY = parsed;
+          // Keep as raw arrays — chart accesses by index (faster, less memory)
+          // [0]=date [1]=cap_gen [2]=cap_gen_ocup [3]=cap_gen_tram
+          // [4]=cap_dem [5]=cap_dem_ocup [6]=cap_dem_tram [7]=acept
+          delete raw._v;
+          SETS_HISTORY = raw;
         } else if(raw) {
           SETS_HISTORY = raw;
         }
@@ -2453,19 +2456,18 @@ function getCapColor(d){
 
 function setSetsMainView(view){
   SETS_MAIN_VIEW = view;
-  const tabMap = {cap:'capacidades', bole:'boletines', aflor:'afloramiento'};
-  Object.keys(tabMap).forEach(k=>{
-    const tab = document.getElementById('sets-main-tab-'+k);
-    if(tab) tab.className = 'sets-tab' + (tabMap[k]===view ? ' sets-tab-active' : '');
-  });
-  const capEl   = document.getElementById('sets-view-capacidades');
-  const boleEl  = document.getElementById('sets-view-boletines');
-  const aflorEl = document.getElementById('sets-view-afloramiento');
+  // Update pill tab styles
+  var tabCap   = document.getElementById('sets-main-tab-cap');
+  var tabAflor = document.getElementById('sets-main-tab-aflor');
+  var activeStyle  = 'padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:Inter,sans-serif;cursor:pointer;transition:all .15s;background:#1a1a18;color:#fff;border-bottom:2px solid #1a1a18;margin-bottom:-2px';
+  var inactStyle   = 'padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:Inter,sans-serif;cursor:pointer;transition:all .15s;background:rgba(26,26,24,.06);color:rgba(26,26,24,.5);border-bottom:2px solid transparent;margin-bottom:-2px';
+  if(tabCap)   tabCap.style.cssText   = view==='capacidades'  ? activeStyle : inactStyle;
+  if(tabAflor) tabAflor.style.cssText = view==='afloramiento' ? activeStyle : inactStyle;
+  var capEl   = document.getElementById('sets-view-capacidades');
+  var aflorEl = document.getElementById('sets-view-afloramiento');
   if(capEl)   capEl.style.display   = view==='capacidades'  ? 'flex'  : 'none';
-  if(boleEl)  boleEl.style.display  = view==='boletines'    ? 'block' : 'none';
   if(aflorEl) aflorEl.style.display = view==='afloramiento' ? 'block' : 'none';
-  if(view==='boletines')    { renderSets(); }
-  else if(view==='afloramiento') { _renderAfloramientoTab(); }
+  if(view==='afloramiento') { _renderAfloramientoTab(); }
   else { buildSetsFiltered(); if(SETS_CAP_VIEW==='mapa') renderSetsMap(); else renderSetsListado(); }
 }
 
@@ -3228,20 +3230,24 @@ function _renderSdpCapacity(key){
   if(SETS_HISTORY && SETS_HISTORY[key] && SETS_HISTORY[key].length){
     var snaps = SETS_HISTORY[key];
     var latest = snaps[snaps.length-1];
+    var _sh=function(e,nm,i){return Array.isArray(e)?e[i]:e[nm];};
     if(isAlm){
-      var gOcup=latest.cap_gen_ocup, dOcup=latest.cap_dem_ocup;
-      var gTram=latest.cap_gen_tram, dTram=latest.cap_dem_tram;
+      var gOcup=_sh(latest,'cap_gen_ocup',2), dOcup=_sh(latest,'cap_dem_ocup',5);
+      var gTram=_sh(latest,'cap_gen_tram',3), dTram=_sh(latest,'cap_dem_tram',6);
       ocup=(gOcup!=null&&dOcup!=null)?Math.min(gOcup,dOcup):(gOcup??dOcup);
       tram=(gTram!=null&&dTram!=null)?Math.min(gTram,dTram):(gTram??dTram);
-      if(latest.cap_gen!=null&&latest.cap_dem!=null) disp=Math.min(latest.cap_gen,latest.cap_dem);
+      var _lg=_sh(latest,'cap_gen',1), _ld=_sh(latest,'cap_dem',4);
+      if(_lg!=null&&_ld!=null) disp=Math.min(_lg,_ld);
     } else if(isGen){
-      if(latest.cap_gen!=null) disp=latest.cap_gen;
-      ocup=latest.cap_gen_ocup!=null?latest.cap_gen_ocup:null;
-      tram=latest.cap_gen_tram!=null?latest.cap_gen_tram:null;
+      var _lg=_sh(latest,'cap_gen',1);
+      if(_lg!=null) disp=_lg;
+      ocup=_sh(latest,'cap_gen_ocup',2);
+      tram=_sh(latest,'cap_gen_tram',3);
     } else {
-      if(latest.cap_dem!=null) disp=latest.cap_dem;
-      ocup=latest.cap_dem_ocup!=null?latest.cap_dem_ocup:null;
-      tram=latest.cap_dem_tram!=null?latest.cap_dem_tram:null;
+      var _ld=_sh(latest,'cap_dem',4);
+      if(_ld!=null) disp=_ld;
+      ocup=_sh(latest,'cap_dem_ocup',5);
+      tram=_sh(latest,'cap_dem_tram',6);
     }
   }
 
@@ -3344,9 +3350,10 @@ function renderHistoryChart(key){
 
   // Unified y-axis from gen+dem
   var maxTotal = 0;
+  var _s = function(e,nm,i){ return Array.isArray(e)?e[i]:e[nm]; };
   snaps.forEach(function(s){
-    var tg=(s.cap_gen||0)+(s.cap_gen_ocup||0)+(s.cap_gen_tram||0);
-    var td=(s.cap_dem||0)+(s.cap_dem_ocup||0)+(s.cap_dem_tram||0);
+    var tg=(_s(s,'cap_gen',1)||0)+(_s(s,'cap_gen_ocup',2)||0)+(_s(s,'cap_gen_tram',3)||0);
+    var td=(_s(s,'cap_dem',4)||0)+(_s(s,'cap_dem_ocup',5)||0)+(_s(s,'cap_dem_tram',6)||0);
     if(tg>maxTotal) maxTotal=tg; if(td>maxTotal) maxTotal=td;
   });
   if(maxTotal===0) maxTotal=1;
@@ -3461,31 +3468,46 @@ function renderHistoryChart(key){
 
   snaps.forEach(function(s,i){
     var cx=padL+(i+0.5)*slotW;
-    var dp=s.date.split('-');
+    var _sdate=Array.isArray(s)?s[0]:s.date;
+    var dp=_sdate.split('-');
     var mNum=parseInt(dp[1],10);
     var yr=dp[0].slice(2);
     var dateLbl=(monthNames[mNum]||dp[1])+' '+yr;
 
     if(isBoth){
       var offset=barW/2+barGap/2;
-      drawBar(cx,-offset,s.cap_gen||0,s.cap_gen_ocup||0,s.cap_gen_tram||0,dateLbl,i+'g');
-      drawBar(cx, offset,s.cap_dem||0,s.cap_dem_ocup||0,s.cap_dem_tram||0,dateLbl,i+'d');
+      drawBar(cx,-offset,_s(s,'cap_gen',1)||0,_s(s,'cap_gen_ocup',2)||0,_s(s,'cap_gen_tram',3)||0,dateLbl,i+'g');
+      drawBar(cx, offset,_s(s,'cap_dem',4)||0,_s(s,'cap_dem_ocup',5)||0,_s(s,'cap_dem_tram',6)||0,dateLbl,i+'d');
       parts.push('<text x="'+(cx-offset).toFixed(1)+'" y="'+(padT+chartH+13)+'" text-anchor="middle" font-size="8.5" font-weight="600" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">G</text>');
       parts.push('<text x="'+(cx+offset).toFixed(1)+'" y="'+(padT+chartH+13)+'" text-anchor="middle" font-size="8.5" font-weight="600" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">D</text>');
     } else {
-      var disp2=isGen?(s.cap_gen||0):(s.cap_dem||0);
-      var ocup2=isGen?(s.cap_gen_ocup||0):(s.cap_dem_ocup||0);
-      var tram2=isGen?(s.cap_gen_tram||0):(s.cap_dem_tram||0);
+      var disp2=isGen?(_s(s,'cap_gen',1)||0):(_s(s,'cap_dem',4)||0);
+      var ocup2=isGen?(_s(s,'cap_gen_ocup',2)||0):(_s(s,'cap_dem_ocup',5)||0);
+      var tram2=isGen?(_s(s,'cap_gen_tram',3)||0):(_s(s,'cap_dem_tram',6)||0);
       drawBar(cx,0,disp2,ocup2,tram2,dateLbl,String(i));
     }
-    // Month label — density adapts to dataset size
-    var _step = n<=12?1:n<=24?2:n<=36?3:4;
-    var _showYr = dp[0]!==((snaps[i-1]||{}).date||'').slice(0,4);
-    if(i%_step===0 || _showYr){
-      var _lbl = _showYr && n>24 ? dp[0] : dateLbl;
-      var _fw  = _showYr && n>24 ? '600' : '400';
-      var _col = _showYr && n>24 ? 'rgba(26,26,24,.65)' : 'rgba(26,26,24,.45)';
-      parts.push('<text x="'+cx.toFixed(1)+'" y="'+( padT+chartH+25)+'" text-anchor="middle" font-size="7.5" font-weight="'+_fw+'" fill="'+_col+'" font-family="IBM Plex Mono,monospace">'+_lbl+'</text>');
+    // X-axis labels: year markers at boundaries + quarterly marks, no overlap
+    var _prevDate = i>0 ? (Array.isArray(snaps[i-1])?snaps[i-1][0]:snaps[i-1].date) : '';
+    var _showYr   = dp[0] !== (_prevDate||'').slice(0,4);
+    var _qMon     = parseInt(dp[1],10);
+    var _showQ    = (_qMon===1||_qMon===4||_qMon===7||_qMon===10);
+    // After a year marker, skip the next 2 quarter marks to avoid overlap
+    var _nearYr   = false;
+    if(!_showYr && i>0){
+      for(var _bi=Math.max(0,i-2);_bi<i;_bi++){
+        var _bd=Array.isArray(snaps[_bi])?snaps[_bi][0]:snaps[_bi].date;
+        if(_bd&&_bd.slice(0,4)!==dp[0]){_nearYr=true;break;}
+      }
+    }
+    if(_showYr){
+      // Bold year marker — replace slot label
+      parts.push('<line x1="'+cx.toFixed(1)+'" y1="'+(padT+chartH+4)+'" x2="'+cx.toFixed(1)+'" y2="'+(padT+chartH+10)+'" stroke="rgba(26,26,24,.3)" stroke-width="1"/>');
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(26,26,24,.7)" font-family="IBM Plex Mono,monospace">'+dp[0]+'</text>');
+    } else if(_showQ && !_nearYr && n>8){
+      // Quarterly tick
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="7" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+dateLbl+'</text>');
+    } else if(n<=8){
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="7.5" fill="rgba(26,26,24,.45)" font-family="IBM Plex Mono,monospace">'+dateLbl+'</text>');
     }
   });
 
@@ -3493,7 +3515,8 @@ function renderHistoryChart(key){
   svg.innerHTML=parts.join('');
 
   if(periodEl&&snaps.length){
-    var first=snaps[0].date,last=snaps[snaps.length-1].date;
+    var first=Array.isArray(snaps[0])?snaps[0][0]:snaps[0].date;
+    var last=Array.isArray(snaps[snaps.length-1])?snaps[snaps.length-1][0]:snaps[snaps.length-1].date;
     periodEl.textContent=first===last?first:first+' — '+last;
   }
 }
