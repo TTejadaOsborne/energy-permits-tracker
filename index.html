@@ -1518,6 +1518,7 @@ async function loadSetsCapacity(){
 
 let SETS_HISTORY = null;
 let _setsHistPromise = null;
+let _setsHistDone    = false;  // true once load attempt finishes (ok or failed)
 function loadSetsHistory(){
   if(SETS_HISTORY) return Promise.resolve();
   if(_setsHistPromise) return _setsHistPromise;
@@ -1526,8 +1527,7 @@ function loadSetsHistory(){
       const r = await fetch('sets_history.json');
       if(r.ok){
         const raw = await r.json();
-        if(raw._v === 2){
-          // Array format: [date, cap_gen, cap_gen_ocup, cap_gen_tram, cap_dem, cap_dem_ocup, cap_dem_tram, acept]
+        if(raw && raw._v === 2){
           const parsed = {};
           Object.keys(raw).forEach(function(k){
             if(k==='_v') return;
@@ -1537,11 +1537,12 @@ function loadSetsHistory(){
             });
           });
           SETS_HISTORY = parsed;
-        } else {
+        } else if(raw) {
           SETS_HISTORY = raw;
         }
       }
     } catch(e) { console.warn('sets_history load failed:', e); }
+    _setsHistDone = true;
   })();
   return _setsHistPromise;
 }
@@ -3315,16 +3316,21 @@ function renderHistoryChart(key){
   if(!svg) return;
 
   if(!SETS_HISTORY){
-    // Still loading — show spinner text and re-render when ready
     svg.setAttribute('viewBox','0 0 620 60');
-    svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.35)" font-family="IBM Plex Mono,monospace">Cargando datos históricos…</text>';
+    if(_setsHistDone){
+      // Load finished but failed — show error, not infinite retry
+      svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.3)" font-family="IBM Plex Mono,monospace">No se pudo cargar sets_history.json</text>';
+    } else {
+      // Still in flight — show spinner, re-render once done
+      svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.35)" font-family="IBM Plex Mono,monospace">Cargando datos históricos…</text>';
+      loadSetsHistory().then(function(){ renderHistoryChart(key); });
+    }
     if(periodEl) periodEl.textContent = '';
-    loadSetsHistory().then(function(){ renderHistoryChart(key); });
     return;
   }
   if(!SETS_HISTORY[key] || !SETS_HISTORY[key].length){
     svg.setAttribute('viewBox','0 0 620 60');
-    svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.25)" font-family="IBM Plex Mono,monospace">Sin datos históricos disponibles</text>';
+    svg.innerHTML = '<text x="310" y="34" text-anchor="middle" font-size="11" fill="rgba(26,26,24,.25)" font-family="IBM Plex Mono,monospace">Sin datos históricos (SET no cubierta por UFD/iDE/REE)</text>';
     if(periodEl) periodEl.textContent = '';
     return;
   }
