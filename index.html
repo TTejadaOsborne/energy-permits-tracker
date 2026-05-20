@@ -3607,7 +3607,10 @@ function buildPrjDetail(p){
       +(pub.es_fallido?'<span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
       +(pub.mw_liberados?'<span style="font-size:9px;color:#7c3aed">'+pub.mw_liberados+' MW liberados</span>':'')
       +'</div>'
-      +(pub.titulo?'<div class="prj-pub-titulo">'+_esc(pub.titulo)+'</div>':'')
+      +(pub.observaciones
+        ? '<div class="prj-pub-titulo">'+_esc(pub.observaciones)+'</div>'
+          +(pub.titulo&&!pub.titulo.match(/^[a-záéíóúüñ]/i)?'<div style="font-size:10px;color:rgba(26,26,24,.35);margin-top:2px;font-family:IBM Plex Mono,monospace">'+_esc(pub.titulo)+'</div>':'')
+        : (pub.titulo?'<div class="prj-pub-titulo">'+_esc(pub.titulo)+'</div>':''))
       +'</div>'
       +'</div>';
   });

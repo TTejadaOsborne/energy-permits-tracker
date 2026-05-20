@@ -283,7 +283,7 @@ def build_projects(records, uf):
                     'tipo_permiso':  r.get('tipo_permiso'),
                     'estado':        r.get('estado_permiso'),
                     'url':           r.get('url'),
-                    'titulo':        (r.get('titulo_original') or '')[:200],
+                    'titulo':        (r.get('titulo_original') or '')[:500],
                     'permisos_adicionales': r.get('permisos_adicionales', []),
                     'es_fallido':    r.get('es_proyecto_fallido', False),
                     'mw_liberados':  r.get('capacidad_mw_liberada'),
