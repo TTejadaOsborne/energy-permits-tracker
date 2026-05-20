@@ -28,6 +28,8 @@
         "DOE-26060851"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -207,6 +209,8 @@
         "FV-2713 ATCE-203"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -339,6 +343,8 @@
         "ZA-AT-2023/XXXXX"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -445,6 +451,8 @@
         "BOPA-20260518-7"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAE",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260514",
@@ -535,6 +543,8 @@
         "PRO-CR-22-1599"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250812",
@@ -613,6 +623,8 @@
         "FV-2640"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -692,7 +704,9 @@
         "BOCYL-D-14102025-9",
         "ZA-AT-2025/950"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -768,6 +782,8 @@
         "PFot-475-AC"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 94,
       "fecha_primera": "20251103",
@@ -856,6 +872,8 @@
         "DOE-25063971"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251110",
@@ -934,6 +952,8 @@
         "EIA/VA/2025/45"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -1012,6 +1032,8 @@
         "IA24/1421"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260119",
@@ -1090,6 +1112,8 @@
         "IA24/1422"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260119",
@@ -1167,7 +1191,9 @@
         "DOE-26060128",
         "DOE-26060130"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260122",
@@ -1245,6 +1271,8 @@
         "26-EIA-00007.1/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -1313,7 +1341,9 @@
         "ZA-AT-2025/961",
         "ZA-AT-2025/962"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250828",
@@ -1376,6 +1406,8 @@
         "EIAS/2025/ZA/011"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250828",
@@ -1440,6 +1472,8 @@
         "BOPA-20251121-3"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -1504,6 +1538,8 @@
         "2023P769"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -1572,6 +1608,8 @@
         "26-EIA-00069.3/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -1636,6 +1674,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "archivado",
+      "ultimo_tipo_permiso": "InscReg",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20260324",
@@ -1698,7 +1738,9 @@
         "FV-2692 ATCE-185",
         "FV-2692; ATCE-185"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250807",
@@ -1749,6 +1791,8 @@
         "DOE-26080466"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -1801,6 +1845,8 @@
         "BOE-A-2025-16689"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 63.57,
       "fecha_primera": "20250811",
@@ -1855,6 +1901,8 @@
         "CHidr-FV-01 AC"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -1909,7 +1957,9 @@
         "2024P406",
         "26-EIA-00020.4/2025"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -1961,6 +2011,8 @@
         "IN408A 2020/029"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -2012,7 +2064,9 @@
         "BOPA-20250814-0",
         "BOPA-20251202-0"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -2062,6 +2116,8 @@
         "RI-22496"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250822",
@@ -2120,6 +2176,8 @@
         "FV-2682 ATCE-177"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250822",
@@ -2172,6 +2230,8 @@
         "26-UB2-00202.2/2024"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250825",
@@ -2224,6 +2284,8 @@
         "2024P371-14-0141-00371.5/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250827",
@@ -2275,6 +2337,8 @@
         "2019P902-14-0141-00902.6/2019"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250829",
@@ -2329,6 +2393,8 @@
         "BOE-A-2025-17444"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -2379,6 +2445,8 @@
         "26-EIA-00018.1/2025"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -2429,6 +2497,8 @@
         "26-EIA-00111.6/2025"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -2478,6 +2548,8 @@
         "IN407A 2010/268-1"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -2527,6 +2599,8 @@
         "PEol-489"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 56,
       "fecha_primera": "20250909",
@@ -2581,6 +2655,8 @@
         "2703/01446-M1"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -2629,7 +2705,9 @@
       "expedientes": [
         "FV-870"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -2685,7 +2763,9 @@
       "expedientes": [
         "PEol-941"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 54.4,
       "fecha_primera": "20250918",
@@ -2738,6 +2818,8 @@
         "FVA/2285"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -2788,6 +2870,8 @@
         "Pe-227"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -2837,6 +2921,8 @@
         "G-Z-2025-036"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250926",
@@ -2888,6 +2974,8 @@
         "G-Z-2025-038"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250929",
@@ -2936,7 +3024,9 @@
       "expedientes": [
         "PE-593"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -2988,6 +3078,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -3040,6 +3132,8 @@
         "FV-2690; ATCE-182"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251002",
@@ -3093,7 +3187,9 @@
         "EIA/VA/2024/42",
         "FV-2688; ATCE-180"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251002",
@@ -3148,6 +3244,8 @@
         "FV-2695; ATCE-187"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -3198,7 +3296,9 @@
       "expedientes": [
         "IN408A 2020/108"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -3256,6 +3356,8 @@
         "SGIISE/PEol-FV-183"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 15,
       "fecha_primera": "20251006",
@@ -3312,6 +3414,8 @@
         "SGIISE/PFot-530"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -3366,7 +3470,9 @@
         "EIAS/2024/SA/022",
         "RI-19.843 ATCE-57"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -3417,6 +3523,8 @@
         "FV-2548"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -3467,7 +3575,9 @@
       "expedientes": [
         "IN408A 2020/105"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -3522,6 +3632,8 @@
         "PEol-FV-ALM-023"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 67.25,
       "fecha_primera": "20251009",
@@ -3577,6 +3689,8 @@
         "IN408A 2020/67"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -3630,6 +3744,8 @@
         "PP.899/2026"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -3683,6 +3799,8 @@
         "ZA-AT-2023/NNNN"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -3732,7 +3850,9 @@
         "2023P625",
         "26-EIA-00067.7/2023"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -3782,6 +3902,8 @@
         "2022P292"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -3832,6 +3954,8 @@
         "582-23-AASG"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -3885,7 +4009,9 @@
         "BOPA-20251028-0",
         "BOPA-20251030-0"
       ],
-      "estado_actual": "favorable",
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -3933,6 +4059,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251030",
@@ -3983,6 +4111,8 @@
         "IA24/1937"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -4033,6 +4163,8 @@
         "IA24/19"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -4083,6 +4215,8 @@
         "FV-2666 ATCE-161"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -4135,6 +4269,8 @@
         "BOE-A-2025-23994"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -4189,6 +4325,8 @@
         "FV 1980, 34/ATLI/6637"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -4242,6 +4380,8 @@
         "IA25/2066"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260320",
@@ -4292,6 +4432,8 @@
         "IA26/0213"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260417",
@@ -4342,6 +4484,8 @@
         "FV-2716 ATCE-206"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260505",
@@ -4393,6 +4537,8 @@
         "IN408A 2023/018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -4445,7 +4591,9 @@
         "BOPA-20260518-10",
         "BOPA-20260518-2"
       ],
-      "estado_actual": "otorgado",
+      "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -4495,6 +4643,8 @@
         "26-EIA-00069.0/2023"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4531,6 +4681,8 @@
         "2023P676"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4569,6 +4721,8 @@
         "2023P755 - 14-0141-00755.2/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4605,6 +4759,8 @@
         "PE-2/2020/23493"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4643,6 +4799,8 @@
         "34/ATLI/6663"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4679,6 +4837,8 @@
         "BOPA-20250801-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4715,6 +4875,8 @@
         "BOPA-20250801-1"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4751,6 +4913,8 @@
         "BOA20250801017"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4788,6 +4952,8 @@
         "EIA 07/2026"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOLR",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250801",
@@ -4824,6 +4990,8 @@
         "2024P1455-14-0141-01455.3/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250804",
@@ -4858,6 +5026,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250805",
@@ -4892,6 +5062,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250805",
@@ -4928,6 +5100,8 @@
         "BOA20250805017"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250805",
@@ -4964,6 +5138,8 @@
         "G-T-BOA20250805022"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250805",
@@ -4998,6 +5174,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 126,
       "fecha_primera": "20250806",
@@ -5036,6 +5214,8 @@
         "EIAO/2025/LE/008"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5072,6 +5252,8 @@
         "FV-2032"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5108,6 +5290,8 @@
         "FV-2656; ATCE-152"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5147,6 +5331,8 @@
         "FV-2657"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5183,6 +5369,8 @@
         "BOJA-20250806-0"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5219,6 +5407,8 @@
         "BOA20250806024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250806",
@@ -5255,6 +5445,8 @@
         "027-24-AALE"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250807",
@@ -5291,6 +5483,8 @@
         "VA-VP-25641-O"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250807",
@@ -5327,6 +5521,8 @@
         "PP. 1626/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250807",
@@ -5363,6 +5559,8 @@
         "IN407A 2023/326-4"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250807",
@@ -5399,6 +5597,8 @@
         "BOE-A-2025-16483"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5438,6 +5638,8 @@
         "BOE-A-2025-16484"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5475,6 +5677,8 @@
         "FVH676"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5514,6 +5718,8 @@
         "FVH677"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5550,6 +5756,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5584,6 +5792,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5620,6 +5830,8 @@
         "BOPA-20250808-0"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5656,6 +5868,8 @@
         "BOA20250808021"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5692,6 +5906,8 @@
         "G-H-2023-044"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5728,6 +5944,8 @@
         "DOE-25063039"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250808",
@@ -5764,6 +5982,8 @@
         "BOE-A-2025-16686"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -5800,6 +6020,8 @@
         "BOE-A-2025-16687"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -5838,6 +6060,8 @@
         "BOE-A-2025-16692"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -5877,6 +6101,8 @@
         "BOE-A-2025-16693"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 125.115,
       "fecha_primera": "20250811",
@@ -5915,6 +6141,8 @@
         "EIAS/2024/SA/025"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -5951,6 +6179,8 @@
         "EIAS/2025/SA/001"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -5987,6 +6217,8 @@
         "EIAS/2025/SA/002"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -6023,6 +6255,8 @@
         "EIAS/2025/SA/003"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -6059,6 +6293,8 @@
         "BOPA-20250811-0"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -6095,6 +6331,8 @@
         "BOPA-20250811-1"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -6131,6 +6369,8 @@
         "G-H-2023-016"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250811",
@@ -6167,6 +6407,8 @@
         "AT-LE-2025-NNNNNN"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250812",
@@ -6203,6 +6445,8 @@
         "FV-495"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250812",
@@ -6239,6 +6483,8 @@
         "BOA20250812026"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250812",
@@ -6275,6 +6521,8 @@
         "BOA20250812028"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250812",
@@ -6311,6 +6559,8 @@
         "EIAS/2024/SG/11"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6347,6 +6597,8 @@
         "EIAS/2025/SG/05"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6383,6 +6635,8 @@
         "VA-VP-24154-O"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6419,6 +6673,8 @@
         "PRO-AB-23-1521"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6453,6 +6709,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6489,6 +6747,8 @@
         "AB-11288"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6525,6 +6785,8 @@
         "BOA20250813021"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250813",
@@ -6561,6 +6823,8 @@
         "BOA20250814011"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -6597,6 +6861,8 @@
         "DOE-25063107"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250814",
@@ -6633,6 +6899,8 @@
         "2023P305"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250818",
@@ -6669,6 +6937,8 @@
         "Energía 240523"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250818",
@@ -6707,6 +6977,8 @@
         "G-Z-2021-067"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250818",
@@ -6743,6 +7015,8 @@
         "2024P141 - 14-0141-00141.2/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250819",
@@ -6779,6 +7053,8 @@
         "RI-49398; FV-2501"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250819",
@@ -6818,6 +7094,8 @@
         "BOA20250819014"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250819",
@@ -6854,6 +7132,8 @@
         "G-H-2024-013"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250819",
@@ -6890,6 +7170,8 @@
         "2022P806"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250820",
@@ -6928,6 +7210,8 @@
         "G-T-2023-030"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250820",
@@ -6964,6 +7248,8 @@
         "BOE-A-2025-17075"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250821",
@@ -7003,6 +7289,8 @@
         "26-EIA-00021.8/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250821",
@@ -7041,6 +7329,8 @@
         "2023P424"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250825",
@@ -7077,6 +7367,8 @@
         "BOPA-20250825-0"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250825",
@@ -7113,6 +7405,8 @@
         "BOA20250825021"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250825",
@@ -7149,6 +7443,8 @@
         "SOR-AT-2021/XXXXX"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": true,
       "mw_liberados": 48.8,
       "fecha_primera": "20250826",
@@ -7187,6 +7483,8 @@
         "014-24-AAÁV"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250826",
@@ -7225,6 +7523,8 @@
         "027-24-AASG"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250826",
@@ -7263,6 +7563,8 @@
         "155-24-AASO"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250826",
@@ -7299,6 +7601,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250826",
@@ -7335,6 +7639,8 @@
         "BOE-A-2025-17250"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250827",
@@ -7369,6 +7675,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250827",
@@ -7405,6 +7713,8 @@
         "BOE-A-2025-17301"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250828",
@@ -7441,6 +7751,8 @@
         "FV-2583, ATCE-107"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250829",
@@ -7480,6 +7792,8 @@
         "FV-2584; ATCE-108"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAP_ModAAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250829",
@@ -7516,6 +7830,8 @@
         "PP. 1737/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250829",
@@ -7555,6 +7871,8 @@
         "BOE-A-2025-17441"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7591,6 +7909,8 @@
         "BOE-A-2025-17442"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7628,6 +7948,8 @@
         "FVH681"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7664,6 +7986,8 @@
         "014-24-MSPAy"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7700,6 +8024,8 @@
         "BOCYL-D-01092025-19"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7739,6 +8065,8 @@
         "DUP-Z-2022/0008"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250901",
@@ -7773,6 +8101,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -7809,6 +8139,8 @@
         "G-Z-2023-018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -7845,6 +8177,8 @@
         "BOA20250902020"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250902",
@@ -7884,6 +8218,8 @@
         "BOE-A-2025-17585"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250903",
@@ -7920,6 +8256,8 @@
         "HU-SP-ENE-AT-2025-067"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250903",
@@ -7956,6 +8294,8 @@
         "BOA20250903023"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250903",
@@ -7992,6 +8332,8 @@
         "PRO-CU-21-1159"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250904",
@@ -8028,6 +8370,8 @@
         "PRO-CU-21-1092"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250904",
@@ -8064,6 +8408,8 @@
         "DOE-25063238"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250904",
@@ -8100,6 +8446,8 @@
         "2022P121"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250905",
@@ -8138,6 +8486,8 @@
         "FV-996, 34-ATLI-6428, 34-ATCT-2064"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250905",
@@ -8176,6 +8526,8 @@
         "PP. 1827/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250905",
@@ -8212,6 +8564,8 @@
         "BOPA-20250905-0"
       ],
       "estado_actual": "suspendido",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250905",
@@ -8248,6 +8602,8 @@
         "2023P554-14-0141-00554.4/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250908",
@@ -8284,6 +8640,8 @@
         "26-UB2-00044.3/2025"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250908",
@@ -8321,6 +8679,8 @@
         "G-Z-2023/092"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250908",
@@ -8357,6 +8717,8 @@
         "BOE-A-2025-17914"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8393,6 +8755,8 @@
         "PEol-490"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 49,
       "fecha_primera": "20250909",
@@ -8431,6 +8795,8 @@
         "26-UB2-00021.5/2025"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8465,6 +8831,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "Concesion",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8501,6 +8869,8 @@
         "IN661A 2010/01-3 AT"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8537,6 +8907,8 @@
         "G-H-2024-009"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8573,6 +8945,8 @@
         "G-Z-2023-158"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8609,6 +8983,8 @@
         "BOA20250909033"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8647,6 +9023,8 @@
         "DOE-25063243"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8683,6 +9061,8 @@
         "DOE-25080895"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250909",
@@ -8719,6 +9099,8 @@
         "BOE-A-2025-17992"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250910",
@@ -8755,6 +9137,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250910",
@@ -8791,6 +9175,8 @@
         "PE-254"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250910",
@@ -8827,6 +9213,8 @@
         "G-Z-2023-143"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250910",
@@ -8863,6 +9251,8 @@
         "BU2400656"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250911",
@@ -8901,6 +9291,8 @@
         "S478/2025/AB/00012"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250911",
@@ -8937,6 +9329,8 @@
         "BOA20250911018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250911",
@@ -8973,6 +9367,8 @@
         "2024P1085"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9011,6 +9407,8 @@
         "2024P1298 - 14-0141-01298.8/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9045,6 +9443,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9081,6 +9481,8 @@
         "2703/01447-M1"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9117,6 +9519,8 @@
         "AU-2002"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9153,6 +9557,8 @@
         "BOA20250912020"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250912",
@@ -9189,6 +9595,8 @@
         "BOE-A-2025-18282"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9225,6 +9633,8 @@
         "BOE-A-2025-18283"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9261,6 +9671,8 @@
         "BOE-A-2025-18284"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9297,6 +9709,8 @@
         "BOE-A-2025-18285"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9333,6 +9747,8 @@
         "BOE-A-2025-18286"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9369,6 +9785,8 @@
         "BOE-A-2025-18287"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9408,6 +9826,8 @@
         "FV-2382-ALM ATCE-234"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9447,6 +9867,8 @@
         "IN408A 2020/121"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9485,6 +9907,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250915",
@@ -9521,6 +9945,8 @@
         "G-Z-2023-200"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250916",
@@ -9555,6 +9981,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250916",
@@ -9591,6 +10019,8 @@
         "BOE-A-2025-18432"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9627,6 +10057,8 @@
         "BOE-A-2025-18433"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9663,6 +10095,8 @@
         "BOE-A-2025-18434"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9699,6 +10133,8 @@
         "BOE-A-2025-18435"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9735,6 +10171,8 @@
         "BOE-A-2025-18436"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9771,6 +10209,8 @@
         "BOA20250917012"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9809,6 +10249,8 @@
         "BOA20250917013"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250917",
@@ -9845,6 +10287,8 @@
         "BOE-A-2025-18508"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 50.1,
       "fecha_primera": "20250918",
@@ -9884,6 +10328,8 @@
         "BOE-A-2025-18509"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250918",
@@ -9920,6 +10366,8 @@
         "FV-2644; ATCE-149"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250918",
@@ -9956,6 +10404,8 @@
         "FV-2689; ATCE-181"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250918",
@@ -9992,6 +10442,8 @@
         "FV-2521"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250918",
@@ -10031,6 +10483,8 @@
         "2023P1416 - 14-0141-01416.8/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10067,6 +10521,8 @@
         "536-23-AAAV"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10103,6 +10559,8 @@
         "570-23-AASG"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10139,6 +10597,8 @@
         "ATLI/29.351"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10175,6 +10635,8 @@
         "G-Z-2023-152"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10211,6 +10673,8 @@
         "G-H-2024-005"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250919",
@@ -10247,6 +10711,8 @@
         "2024P1017 - 14-0141-01017.3/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -10281,6 +10747,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -10317,6 +10785,8 @@
         "BOPA-20250922-1"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAE",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250922",
@@ -10353,6 +10823,8 @@
         "BOE-A-2025-18825"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModDIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250923",
@@ -10389,6 +10861,8 @@
         "2023P387 - 14-0141-00387.7/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250923",
@@ -10425,6 +10899,8 @@
         "2022P134 - 14-0141-00134.0/2022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250923",
@@ -10464,6 +10940,8 @@
         "BOA20250923015"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250923",
@@ -10501,6 +10979,8 @@
         "26-EIA-00049.2/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250924",
@@ -10537,6 +11017,8 @@
         "2023P1219 - 14-0141-01219.5/2023"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250924",
@@ -10573,6 +11055,8 @@
         "PE/BU/008/2021"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250924",
@@ -10611,6 +11095,8 @@
         "121-EOL"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250924",
@@ -10647,6 +11133,8 @@
         "BOA20250924029"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20250924",
@@ -10683,6 +11171,8 @@
         "BOPA-20250925-0"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250925",
@@ -10719,6 +11209,8 @@
         "BOPA-20250925-1"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250925",
@@ -10755,6 +11247,8 @@
         "BOA20250925016"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250925",
@@ -10791,6 +11285,8 @@
         "BOA20250925024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250925",
@@ -10827,6 +11323,8 @@
         "AAI18/016"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250925",
@@ -10863,6 +11361,8 @@
         "2025P108 - 14-0141-00108.7/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250926",
@@ -10900,6 +11400,8 @@
         "FV665"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250926",
@@ -10936,6 +11438,8 @@
         "G-Z-2025-035"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250926",
@@ -10972,6 +11476,8 @@
         "BOE-A-2025-19322"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250929",
@@ -11008,6 +11514,8 @@
         "INAGA 500306/01L/2024/11908"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250929",
@@ -11044,6 +11552,8 @@
         "2024P1219 - 14-0141-01219.2/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -11080,6 +11590,8 @@
         "FV-2388-ALM ATCE-233"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -11119,6 +11631,8 @@
         "Peol-939"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -11155,6 +11669,8 @@
         "INAGA 500306/01L/2024/10353"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20250930",
@@ -11191,6 +11707,8 @@
         "26-EIA-00040.2/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11227,6 +11745,8 @@
         "26-EIA-00032.2/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11263,6 +11783,8 @@
         "34/ATLI/6604"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11300,6 +11822,8 @@
         "RI-19.841"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11336,6 +11860,8 @@
         "FVH/680"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11372,6 +11898,8 @@
         "FV 919-H"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11410,6 +11938,8 @@
         "BOA20251001018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11446,6 +11976,8 @@
         "BOA20251001022"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11482,6 +12014,8 @@
         "INAGA 500306/01L/2024/06079"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251001",
@@ -11518,6 +12052,8 @@
         "BOE-A-2025-19580"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251002",
@@ -11554,6 +12090,8 @@
         "VA-VP-25650-O"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251002",
@@ -11590,6 +12128,8 @@
         "PRO-CU-21-1091"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251002",
@@ -11626,6 +12166,8 @@
         "EIA/VA/2024/74"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11662,6 +12204,8 @@
         "FV-2696; ATCE-188"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11696,6 +12240,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11730,6 +12276,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11766,6 +12314,8 @@
         "PB 05/2024"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11802,6 +12352,8 @@
         "BOA20251003016"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11838,6 +12390,8 @@
         "G-Z-2023-170"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251003",
@@ -11874,6 +12428,8 @@
         "BOE-A-2025-19874"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -11910,6 +12466,8 @@
         "PFot-781"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 108.9,
       "fecha_primera": "20251006",
@@ -11946,6 +12504,8 @@
         "2023P404"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -11982,6 +12542,8 @@
         "578-23-AAPA"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12016,6 +12578,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12052,6 +12616,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "LicObras",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12088,6 +12654,8 @@
         "INAGA 500306/01L/2024/10451"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12124,6 +12692,8 @@
         "G-Z-2024-047"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12160,6 +12730,8 @@
         "G-Z-2023-197"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12196,6 +12768,8 @@
         "BOLR-20251006-0"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOLR",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251006",
@@ -12232,6 +12806,8 @@
         "BOE-A-2025-19985"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12270,6 +12846,8 @@
         "BOE-A-2025-19986"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12308,6 +12886,8 @@
         "BOE-A-2025-19987"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12344,6 +12924,8 @@
         "EIAS/2024/SA/024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12380,6 +12962,8 @@
         "EIAS/2025/SA/015"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12416,6 +13000,8 @@
         "2024PROD002"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12454,6 +13040,8 @@
         "PE-697"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12490,6 +13078,8 @@
         "PE-698"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12526,6 +13116,8 @@
         "DOCM-1759130189979520043"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12562,6 +13154,8 @@
         "PE-701"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12596,6 +13190,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12632,6 +13228,8 @@
         "BOA20251007026"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12668,6 +13266,8 @@
         "BOA20251007034"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251007",
@@ -12704,6 +13304,8 @@
         "EIAS/2024/PA/011"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12738,6 +13340,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12772,6 +13376,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12808,6 +13414,8 @@
         "PRO-TO-24-3310"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12842,6 +13450,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12878,6 +13488,8 @@
         "INAGA 500306/01L/2024/12170"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12914,6 +13526,8 @@
         "BOA20251008019"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12950,6 +13564,8 @@
         "G-H-2023-041"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -12986,6 +13602,8 @@
         "BOA20251008024"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251008",
@@ -13024,6 +13642,8 @@
         "BOE-A-2025-20187"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13058,6 +13678,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 217,
       "fecha_primera": "20251009",
@@ -13096,6 +13718,8 @@
         "BOE-A-2025-20191"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13132,6 +13756,8 @@
         "FV-2620; ATCE-135"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13172,6 +13798,8 @@
         "FV-2621; ATCE-136"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13212,6 +13840,8 @@
         "FV-2622; ATCE-137"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13251,6 +13881,8 @@
         "FV-2683 ATCE-178"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13289,6 +13921,8 @@
         "BOPA-20251009-0"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13325,6 +13959,8 @@
         "INAGA BOA20251009018"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13361,6 +13997,8 @@
         "BOA20251009019"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13397,6 +14035,8 @@
         "G-T-2023-038"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251009",
@@ -13433,6 +14073,8 @@
         "BOPA-20251010-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251010",
@@ -13469,6 +14111,8 @@
         "INAGA 500306/01L/2024/12008"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251010",
@@ -13507,6 +14151,8 @@
         "DOE-25081627"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251010",
@@ -13545,6 +14191,8 @@
         "BOE-A-2025-20484"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251013",
@@ -13581,6 +14229,8 @@
         "IN661A 2010/12"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251013",
@@ -13617,6 +14267,8 @@
         "BOE-A-2025-20573"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -13653,6 +14305,8 @@
         "2023P1214 - 14-0141-01214.0/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -13689,6 +14343,8 @@
         "FV/686"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -13727,6 +14383,8 @@
         "118-24-AASG"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251014",
@@ -13766,6 +14424,8 @@
         "26-EIA-00022.0/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -13802,6 +14462,8 @@
         "GA-130640"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -13838,6 +14500,8 @@
         "135-24-AAZA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -13876,6 +14540,8 @@
         "BOA20251015031"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251015",
@@ -13912,6 +14578,8 @@
         "BOE-A-2025-20780"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -13948,6 +14616,8 @@
         "BOE-A-2025-20781"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -13984,6 +14654,8 @@
         "BOE-A-2025-20782"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -14020,6 +14692,8 @@
         "BOE-A-2025-20783"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 49.46,
       "fecha_primera": "20251016",
@@ -14059,6 +14733,8 @@
         "ZA-AT-2025/1044"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -14095,6 +14771,8 @@
         "159-24-AASG"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -14131,6 +14809,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -14167,6 +14847,8 @@
         "BOA20251016026"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251016",
@@ -14203,6 +14885,8 @@
         "2022P529 - 14-0141-00529.6/2022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14237,6 +14921,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14273,6 +14959,8 @@
         "ZA-AT-2023/9145"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14309,6 +14997,8 @@
         "ATLI/29.183"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14347,6 +15037,8 @@
         "NIE-4402"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14387,6 +15079,8 @@
         "IE/FV/271-2022"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14425,6 +15119,8 @@
         "BOPA-20251017-0"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14461,6 +15157,8 @@
         "G-H-2025-008"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251017",
@@ -14497,6 +15195,8 @@
       "tension_kv": 15,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251020",
@@ -14535,6 +15235,8 @@
         "FV606"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251020",
@@ -14574,6 +15276,8 @@
         "EIAO/2024/SA/013"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251020",
@@ -14608,6 +15312,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251020",
@@ -14644,6 +15350,8 @@
         "IA-PP-0131/2025"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251020",
@@ -14680,6 +15388,8 @@
         "BOE-A-2025-21187"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -14716,6 +15426,8 @@
         "2023P534"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -14752,6 +15464,8 @@
         "FV-1624/2023"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -14788,6 +15502,8 @@
         "G-Z-2024-083"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -14824,6 +15540,8 @@
         "BOA20251021048"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251021",
@@ -14860,6 +15578,8 @@
         "BOE-A-2025-21291"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -14896,6 +15616,8 @@
         "2024P189 - 14-0141-00189.0/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -14932,6 +15654,8 @@
         "26-EIA-00062.2/2023"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -14968,6 +15692,8 @@
         "589-23-AAVA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -15006,6 +15732,8 @@
         "017-25-AAZA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -15042,6 +15770,8 @@
         "ZA-VP-301/25"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -15078,6 +15808,8 @@
         "BOA20251022029"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251022",
@@ -15114,6 +15846,8 @@
         "BOE-A-2025-21357"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15153,6 +15887,8 @@
         "BOE-A-2025-21358"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15189,6 +15925,8 @@
         "BOE-A-2025-21359"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15225,6 +15963,8 @@
         "BOE-A-2025-21360"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15261,6 +16001,8 @@
         "BOE-A-2025-21362"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15299,6 +16041,8 @@
         "BOE-A-2025-21363"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15335,6 +16079,8 @@
         "BOE-A-2025-21364"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15374,6 +16120,8 @@
         "SGEE/Peol-FV-010"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15410,6 +16158,8 @@
         "BOE-A-2025-21366"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15449,6 +16199,8 @@
         "BOE-A-2025-21367"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 66.5,
       "fecha_primera": "20251023",
@@ -15487,6 +16239,8 @@
         "2023P737"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15526,6 +16280,8 @@
         "2023P722"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15562,6 +16318,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15598,6 +16356,8 @@
         "AAI-TO-476"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15634,6 +16394,8 @@
         "2102/00138-M1"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251023",
@@ -15674,6 +16436,8 @@
         "115-24-AASG"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15710,6 +16474,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15744,6 +16510,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15778,6 +16546,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15815,6 +16585,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15854,6 +16626,8 @@
         "BOPA-20251024-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15890,6 +16664,8 @@
         "BOA20251024014"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15926,6 +16702,8 @@
         "BOA20251024017"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -15964,6 +16742,8 @@
         "BOA20251024022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -16000,6 +16780,8 @@
         "BOA20251024023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251024",
@@ -16036,6 +16818,8 @@
         "SGIISE/PFot-586"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 77.1,
       "fecha_primera": "20251027",
@@ -16075,6 +16859,8 @@
         "SGIISE/PFot-587"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 77.1,
       "fecha_primera": "20251027",
@@ -16111,6 +16897,8 @@
         "2024P1462"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16149,6 +16937,8 @@
         "FV678 y FV679"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16185,6 +16975,8 @@
         "FV-2723 ATCE-215"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16223,6 +17015,8 @@
         "FV-2724 ATCE-216"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16261,6 +17055,8 @@
         "152-24-AASO"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16299,6 +17095,8 @@
         "BOA20251027029"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16335,6 +17133,8 @@
         "BOA20251027030"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16371,6 +17171,8 @@
         "BOA20251027038"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251027",
@@ -16409,6 +17211,8 @@
         "ZA-AT-2023/NNNN"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16445,6 +17249,8 @@
         "PE/BU/012/2020"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16483,6 +17289,8 @@
         "34/ATLI/6661"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16521,6 +17329,8 @@
         "PP. 2153/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16559,6 +17369,8 @@
         "iA-iA-0161/2025"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16595,6 +17407,8 @@
         "BOA20251028031"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251028",
@@ -16631,6 +17445,8 @@
         "2023P536"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251029",
@@ -16665,6 +17481,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251029",
@@ -16699,6 +17517,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251029",
@@ -16735,6 +17555,8 @@
         "BOA20251029026"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251029",
@@ -16771,6 +17593,8 @@
         "BOA20251029034"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251029",
@@ -16805,6 +17629,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251030",
@@ -16841,6 +17667,8 @@
         "IA-IA-0162/2025"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251030",
@@ -16877,6 +17705,8 @@
         "BOA20251030018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251030",
@@ -16913,6 +17743,8 @@
         "BOA20251030021"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251030",
@@ -16949,6 +17781,8 @@
         "BOE-A-2025-22004"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -16988,6 +17822,8 @@
         "FV-207/2022-Cubillos"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17026,6 +17862,8 @@
         "EIAS/2025/ZA/015"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17062,6 +17900,8 @@
         "FV-2536"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17100,6 +17940,8 @@
         "558-23-AASA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17136,6 +17978,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17170,6 +18014,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17207,6 +18053,8 @@
         "G-Z-2022-203"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17243,6 +18091,8 @@
         "DOE-25063874"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251031",
@@ -17279,6 +18129,8 @@
         "BOE-A-2025-22227"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17315,6 +18167,8 @@
         "BOE-A-2025-22228"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 165,
       "fecha_primera": "20251103",
@@ -17353,6 +18207,8 @@
         "BOCYL-D-03112025-17"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAE",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17389,6 +18245,8 @@
         "FV-2591 ATCE-110"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17425,6 +18283,8 @@
         "FV-2698; ATCE-190"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17463,6 +18323,8 @@
         "VA-VP-25202-O"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17500,6 +18362,8 @@
         "G-SO-Z-231-2020"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17536,6 +18400,8 @@
         "BOA20251103021"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17572,6 +18438,8 @@
         "BOA20251103032"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251103",
@@ -17610,6 +18478,8 @@
         "BOE-A-2025-22321"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -17646,6 +18516,8 @@
         "ATLI-51688 ATCT-2875"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -17682,6 +18554,8 @@
         "BOA20251104024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -17718,6 +18592,8 @@
         "TE-AT0005/13"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -17754,6 +18630,8 @@
         "BOA20251104026"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251104",
@@ -17792,6 +18670,8 @@
         "BOE-A-2025-22417"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -17828,6 +18708,8 @@
         "BOE-A-2025-22418"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -17864,6 +18746,8 @@
         "EIAS/2025/BU/016"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -17900,6 +18784,8 @@
         "BOPA-20251105-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -17936,6 +18822,8 @@
         "BOA20251105015"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -17974,6 +18862,8 @@
         "BOA20251105016"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -18010,6 +18900,8 @@
         "BOA20251105025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251105",
@@ -18046,6 +18938,8 @@
         "BOE-A-2025-22502"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18082,6 +18976,8 @@
         "BOE-A-2025-22503"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18118,6 +19014,8 @@
         "BOE-A-2025-22504"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 75.6,
       "fecha_primera": "20251106",
@@ -18154,6 +19052,8 @@
         "BOE-A-2025-22506"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18190,6 +19090,8 @@
         "2022P694 - 14-0141-00694.0/2022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18226,6 +19128,8 @@
         "RI-19.873; ATCE-53"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18264,6 +19168,8 @@
         "FV-2630; ATCE-140"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18300,6 +19206,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18336,6 +19244,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18370,6 +19280,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18404,6 +19316,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18442,6 +19356,8 @@
         "PE-250"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251106",
@@ -18478,6 +19394,8 @@
         "2023P711"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18514,6 +19432,8 @@
         "FV-2673, ATCE-165"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18550,6 +19470,8 @@
         "FV-2674, ATCE-166"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18586,6 +19508,8 @@
         "FV-2367-ALM ATCE-239"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18623,6 +19547,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "LicObras",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18660,6 +19586,8 @@
         "G-SO-Z-2020-216"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18697,6 +19625,8 @@
         "TE-AT0128/20"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18735,6 +19665,8 @@
         "BOA20251107027"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251107",
@@ -18776,6 +19708,8 @@
         "581-23-AAAV"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251110",
@@ -18812,6 +19746,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251110",
@@ -18848,6 +19784,8 @@
         "BOA20251110030"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251110",
@@ -18884,6 +19822,8 @@
         "BOE-A-2025-22850"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -18920,6 +19860,8 @@
         "26-EIA-00095.8/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -18956,6 +19898,8 @@
         "2023P840"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -18994,6 +19938,8 @@
         "FV-874"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -19031,6 +19977,8 @@
         "PE-132-CIII"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251111",
@@ -19071,6 +20019,8 @@
         "BOE-A-2025-22924"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19109,6 +20059,8 @@
         "2024P1397"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19145,6 +20097,8 @@
         "2023P708"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19181,6 +20135,8 @@
         "2023P710"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19217,6 +20173,8 @@
         "2023P472"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19253,6 +20211,8 @@
         "2023P707"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19290,6 +20250,8 @@
         "ATSB-141, ATSB-142"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19330,6 +20292,8 @@
         "147-24-AALE"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19368,6 +20332,8 @@
         "PRO-TO-24-3309"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19406,6 +20372,8 @@
         "BOPA-20251112-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19442,6 +20410,8 @@
         "G-H-2024-014"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19478,6 +20448,8 @@
         "G-H-2023-03"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19514,6 +20486,8 @@
         "INAGA 440101/56/2024/11"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19550,6 +20524,8 @@
         "DOE-25063999"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19586,6 +20562,8 @@
         "DOE-25064000"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251112",
@@ -19622,6 +20600,8 @@
         "BOE-A-2025-23027"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -19658,6 +20638,8 @@
         "BOE-A-2025-23028"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -19694,6 +20676,8 @@
         "BOE-A-2025-23029"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -19730,6 +20714,8 @@
         "SGIISE/PFot-290"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 56.5,
       "fecha_primera": "20251113",
@@ -19768,6 +20754,8 @@
         "BOE-A-2025-23031"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 170,
       "fecha_primera": "20251113",
@@ -19804,6 +20792,8 @@
         "BOE-A-2025-23032"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -19843,6 +20833,8 @@
         "BOE-A-2025-23033"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 242.35,
       "fecha_primera": "20251113",
@@ -19881,6 +20873,8 @@
         "PFot-709 AC"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 78,
       "fecha_primera": "20251113",
@@ -19919,6 +20913,8 @@
         "PFot-709 AC"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 52,
       "fecha_primera": "20251113",
@@ -19955,6 +20951,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -19989,6 +20987,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20023,6 +21023,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20060,6 +21062,8 @@
         "PRO-SC-23-1093"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20099,6 +21103,8 @@
         "PRO-SC-23-1040"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20137,6 +21143,8 @@
         "BOA20251113023"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20173,6 +21181,8 @@
         "BOA20251113033"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251113",
@@ -20209,6 +21219,8 @@
         "2022P1072/14-0141-01072.7/2022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251114",
@@ -20247,6 +21259,8 @@
         "PE-3/2020/23494"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251114",
@@ -20285,6 +21299,8 @@
         "AAI-TO-497"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251114",
@@ -20323,6 +21339,8 @@
         "BOE-A-2025-23262"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": true,
       "mw_liberados": 42.48,
       "fecha_primera": "20251117",
@@ -20362,6 +21380,8 @@
         "EIAO/2024/SO/13"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20398,6 +21418,8 @@
         "EIAO/SO/2023/004"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20434,6 +21456,8 @@
         "EIAO/SO/2023/002"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20470,6 +21494,8 @@
         "IN408A 2023/064"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20509,6 +21535,8 @@
         "BOA20251117022"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20545,6 +21573,8 @@
         "BOA20251117034"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251117",
@@ -20581,6 +21611,8 @@
         "Energía 240210"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20617,6 +21649,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "LicObras",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20655,6 +21689,8 @@
         "VP/69/24"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20691,6 +21727,8 @@
         "IN661A 2011 02/3 AT"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20727,6 +21765,8 @@
         "BOA20251118028"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20763,6 +21803,8 @@
         "DOE-25064060"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251118",
@@ -20799,6 +21841,8 @@
         "RI-18.025, ATCE-72"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251119",
@@ -20833,6 +21877,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251119",
@@ -20867,6 +21913,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251119",
@@ -20901,6 +21949,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251119",
@@ -20937,6 +21987,8 @@
         "BOA20251119026"
       ],
       "estado_actual": "no_necesario",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251119",
@@ -20971,6 +22023,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21007,6 +22061,8 @@
         "EIAO/2025/VA/002"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21043,6 +22099,8 @@
         "EIAO/2024/LE/009"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21081,6 +22139,8 @@
         "ATLI-52.201"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21117,6 +22177,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21153,6 +22215,8 @@
         "G-Z-2024-018"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21189,6 +22253,8 @@
         "G-Z-2024-117"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251120",
@@ -21225,6 +22291,8 @@
         "2024P1475-14-0141-01475.7/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21261,6 +22329,8 @@
         "EIAO/2024/SO/008"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21297,6 +22367,8 @@
         "EIAO/2023/BU/001"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21333,6 +22405,8 @@
         "018-24-AASO"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21371,6 +22445,8 @@
         "PB 04/2024"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21407,6 +22483,8 @@
         "DOG-20251121-1"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21445,6 +22523,8 @@
         "BOPA-20251121-0"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21481,6 +22561,8 @@
         "BOPA-20251121-1"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21517,6 +22599,8 @@
         "BOPA-20251121-2"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21553,6 +22637,8 @@
         "BOPA-20251121-4"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21589,6 +22675,8 @@
         "BOPA-20251121-5"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251121",
@@ -21625,6 +22713,8 @@
         "BOE-A-2025-23794"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21661,6 +22751,8 @@
         "BOE-A-2025-23795"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21697,6 +22789,8 @@
         "BOE-A-2025-23797"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21735,6 +22829,8 @@
         "BOE-A-2025-23798"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21773,6 +22869,8 @@
         "BOE-A-2025-23799"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21811,6 +22909,8 @@
         "BOE-A-2025-23800"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21849,6 +22949,8 @@
         "2020P102 - 14-0141-00102.7/2020"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21887,6 +22989,8 @@
         "134-25-MNSSO"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21923,6 +23027,8 @@
         "EIAO/2024/BU/006"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21961,6 +23067,8 @@
         "FV-2539"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -21999,6 +23107,8 @@
         "FV-2540"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -22035,6 +23145,8 @@
         "FV-2665 ATCE-160"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -22073,6 +23185,8 @@
         "FV-2667 ATCE-162"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -22111,6 +23225,8 @@
         "004-24-AASO"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -22149,6 +23265,8 @@
         "BOA20251124036"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251124",
@@ -22185,6 +23303,8 @@
         "2025P290-14-0141-00290.2/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251125",
@@ -22221,6 +23341,8 @@
         "BOA20251125037"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251125",
@@ -22257,6 +23379,8 @@
         "2025P36"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22295,6 +23419,8 @@
         "BAT.972.2024"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22333,6 +23459,8 @@
         "BOPA-20251126-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22369,6 +23497,8 @@
         "BOA20251126040"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22405,6 +23535,8 @@
         "G-T-2023-039"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22441,6 +23573,8 @@
         "DOE-25064157"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251126",
@@ -22477,6 +23611,8 @@
         "BOE-A-2025-24097"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22513,6 +23649,8 @@
         "BOE-A-2025-24098"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22547,6 +23685,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22583,6 +23723,8 @@
         "2023P630"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22619,6 +23761,8 @@
         "2023P631"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22657,6 +23801,8 @@
         "2023P781"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22695,6 +23841,8 @@
         "Energía 220045"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22731,6 +23879,8 @@
         "PRO-CU-24-1329"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22769,6 +23919,8 @@
         "PRO-CU-24-1328"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22807,6 +23959,8 @@
         "PRO-CU-24-1330"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22845,6 +23999,8 @@
         "PRO-CU-24-1331"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22881,6 +24037,8 @@
         "PRO-CU-24-1327"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22919,6 +24077,8 @@
         "2024-IPPC-I-51"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22955,6 +24115,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251127",
@@ -22991,6 +24153,8 @@
         "EXE 01/25"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23030,6 +24194,8 @@
         "PH/BU/001/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23068,6 +24234,8 @@
         "111-25-MNSBU"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23104,6 +24272,8 @@
         "S478/2025/CR/00065"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23142,6 +24312,8 @@
         "S478/2025/CR/00063"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23178,6 +24350,8 @@
       "tension_kv": 400,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251128",
@@ -23217,6 +24391,8 @@
         "2020P704"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251201",
@@ -23255,6 +24431,8 @@
         "DGEM-5/25"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251201",
@@ -23291,6 +24469,8 @@
         "ATLI-51713, ATSB-172"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251201",
@@ -23327,6 +24507,8 @@
         "IN408A/2020/079"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251201",
@@ -23365,6 +24547,8 @@
         "G-H-2024"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20251201",
@@ -23399,6 +24583,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251202",
@@ -23437,6 +24623,8 @@
         "34/ATLI/6662"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251202",
@@ -23473,6 +24661,8 @@
         "IN408A 2020/144"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251202",
@@ -23509,6 +24699,8 @@
         "BOA20251202020"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251202",
@@ -23545,6 +24737,8 @@
         "2022P696"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23581,6 +24775,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23615,6 +24811,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23651,6 +24849,8 @@
         "FV-50/2020/23528"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23687,6 +24887,8 @@
         "023-24-AABU"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23725,6 +24927,8 @@
         "173-24-AAVA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23763,6 +24967,8 @@
         "174-24-AASA"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IPA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23801,6 +25007,8 @@
         "S478/2025/CR/00064"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23837,6 +25045,8 @@
         "DOE-25081937"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23873,6 +25083,8 @@
         "DOE-25081938"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251203",
@@ -23909,6 +25121,8 @@
         "BOE-A-2025-24690"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -23945,6 +25159,8 @@
         "BOE-A-2025-24691"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -23981,6 +25197,8 @@
         "2023P494"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -24020,6 +25238,8 @@
         "FV/622"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -24056,6 +25276,8 @@
         "AAI-CR-081"
       ],
       "estado_actual": "archivado",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": true,
       "mw_liberados": 40,
       "fecha_primera": "20251204",
@@ -24090,6 +25312,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -24126,6 +25350,8 @@
         "S244-45-1540-2026"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -24162,6 +25388,8 @@
         "BOPA-20251204-0"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251204",
@@ -24198,6 +25426,8 @@
         "2023P654 - 14-0141-00654.7/2023"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24234,6 +25464,8 @@
         "26-EIA-00031.1/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24270,6 +25502,8 @@
         "26-UB2-00191.7/2024"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24306,6 +25540,8 @@
         "EIAS/2024/PA/012"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24342,6 +25578,8 @@
         "EIAS/2024/PA/013"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24378,6 +25616,8 @@
         "2703/01115-A1"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24414,6 +25654,8 @@
         "2703/01113-A1"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24448,6 +25690,8 @@
       "tension_kv": 220,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24482,6 +25726,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24518,6 +25764,8 @@
         "DOE-25064325"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251205",
@@ -24554,6 +25802,8 @@
         "EIAS/2025/PA/007"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24590,6 +25840,8 @@
         "EIA/VA/2024/78"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24626,6 +25878,8 @@
         "EIA/VA/2024/79"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24662,6 +25916,8 @@
         "ATLI-52.204"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24698,6 +25954,8 @@
       "tension_kv": 45,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24735,6 +25993,8 @@
       "tension_kv": 45,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24769,6 +26029,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24807,6 +26069,8 @@
         "2020PROD021"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24843,6 +26107,8 @@
         "IN661A 2010/13"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24877,6 +26143,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24913,6 +26181,8 @@
         "G-Z-2024-100"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24949,6 +26219,8 @@
         "G-T-2019-002"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251209",
@@ -24985,6 +26257,8 @@
         "BOE-A-2025-25239"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25025,6 +26299,8 @@
         "PRO-SC-24-1153"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25061,6 +26337,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25099,6 +26377,8 @@
         "IN661A DXIEM-02/11"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25139,6 +26419,8 @@
         "BOA20251210029"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25175,6 +26457,8 @@
         "BOA20251210031"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20251210",
@@ -25211,6 +26495,8 @@
         "BOJA-20260107-0"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Concesion",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260107",
@@ -25247,6 +26533,8 @@
         "DOE-26060013"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260112",
@@ -25285,6 +26573,8 @@
         "DOE-26080042"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260119",
@@ -25321,6 +26611,8 @@
         "DOE-25082072"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260120",
@@ -25357,6 +26649,8 @@
         "DOE-25080846"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260126",
@@ -25393,6 +26687,8 @@
         "DOE-26060234"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260130",
@@ -25429,6 +26725,8 @@
         "BOE-A-2026-2538"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25465,6 +26763,8 @@
         "BOE-A-2026-2539"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25501,6 +26801,8 @@
         "BOE-A-2026-2540"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25537,6 +26839,8 @@
         "BOE-A-2026-2541"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25575,6 +26879,8 @@
         "2023P955"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25611,6 +26917,8 @@
         "2023P954"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25647,6 +26955,8 @@
         "SO-AT-2026/31"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260203",
@@ -25683,6 +26993,8 @@
         "2023P629-RLE16238"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260206",
@@ -25722,6 +27034,8 @@
         "2023P509"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260206",
@@ -25759,6 +27073,8 @@
       "tension_kv": 45,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260206",
@@ -25795,6 +27111,8 @@
         "FV-2609; ATCE-124"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260206",
@@ -25834,6 +27152,8 @@
         "DOE-26060309"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260210",
@@ -25870,6 +27190,8 @@
         "DOE-26080183"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260212",
@@ -25906,6 +27228,8 @@
         "DOE-26060425"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260219",
@@ -25943,6 +27267,8 @@
         "26-EIA-00065.2/2024"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -25981,6 +27307,8 @@
         "26-EIA-00058.3/2024"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -26017,6 +27345,8 @@
         "ZA-AT-2022/XXXXXX"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -26051,6 +27381,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -26089,6 +27421,8 @@
         "IN408A 2023/001"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -26127,6 +27461,8 @@
         "2007/169-3 AT"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260225",
@@ -26163,6 +27499,8 @@
         "EIAS/2025/BU/046"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260303",
@@ -26199,6 +27537,8 @@
         "PA-VP-OC-019/25"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260303",
@@ -26235,6 +27575,8 @@
         "S478/2025/AB/00029"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260303",
@@ -26269,6 +27611,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260306",
@@ -26303,6 +27647,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260306",
@@ -26339,6 +27685,8 @@
         "IN408A 2024/010"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260306",
@@ -26375,6 +27723,8 @@
         "BOE-A-2026-5698"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26411,6 +27761,8 @@
         "BOE-A-2026-5699"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26448,6 +27800,8 @@
       "tension_kv": 20,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26484,6 +27838,8 @@
         "26-EIA-00002.2/2025"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26520,6 +27876,8 @@
         "2024P822"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26558,6 +27916,8 @@
         "LE-AT-383/21/16940"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26596,6 +27956,8 @@
         "FV-2677"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26634,6 +27996,8 @@
         "2020PROD006"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260311",
@@ -26670,6 +28034,8 @@
         "DOE-26080363"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260313",
@@ -26708,6 +28074,8 @@
         "DOE-26060564"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260316",
@@ -26744,6 +28112,8 @@
         "DOE-26080307"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260316",
@@ -26780,6 +28150,8 @@
         "DOE-26060567"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260317",
@@ -26816,6 +28188,8 @@
         "DOE-26060568"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260317",
@@ -26852,6 +28226,8 @@
         "DOE-26060580"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260317",
@@ -26888,6 +28264,8 @@
         "DOE-26060581"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260317",
@@ -26924,6 +28302,8 @@
         "BOE-A-2026-6395"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -26960,6 +28340,8 @@
         "BOCM-20260318-70"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "PlanEsp",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -26996,6 +28378,8 @@
         "2025P569"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27032,6 +28416,8 @@
         "512-22-AAVA"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27070,6 +28456,8 @@
         "OT-25-14-Armonia Green"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAI",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27107,6 +28495,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27141,6 +28531,8 @@
       "tension_kv": 132,
       "expedientes": [],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27180,6 +28572,8 @@
         "2023Dist047"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27219,6 +28613,8 @@
         "E-45211121490"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260318",
@@ -27255,6 +28651,8 @@
         "DOE-26060598"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "ModAAE",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260320",
@@ -27291,6 +28689,8 @@
         "FV-2491-PE ATCE-238"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260324",
@@ -27327,6 +28727,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260324",
@@ -27363,6 +28765,8 @@
         "DOE-26080453"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260325",
@@ -27399,6 +28803,8 @@
         "DOE-26080463"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260326",
@@ -27435,6 +28841,8 @@
         "DOE-26060653"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260327",
@@ -27471,6 +28879,8 @@
         "DOE-26060788"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260415",
@@ -27507,6 +28917,8 @@
         "IA26/0079"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260415",
@@ -27543,6 +28955,8 @@
         "DOE-26060790"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260415",
@@ -27579,6 +28993,8 @@
         "2025P555"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260416",
@@ -27615,6 +29031,8 @@
         "FV-2702-ALM"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260416",
@@ -27652,6 +29070,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260416",
@@ -27688,6 +29108,8 @@
         "BOE-A-2026-8933"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260423",
@@ -27724,6 +29146,8 @@
         "BOE-A-2026-8934"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260423",
@@ -27762,6 +29186,8 @@
         "PP. 485/2026"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260423",
@@ -27799,6 +29225,8 @@
         "FV-2698"
       ],
       "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": true,
       "mw_liberados": 4.995,
       "fecha_primera": "20260424",
@@ -27839,6 +29267,8 @@
         "FV-2725 ATCE-219"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260424",
@@ -27878,6 +29308,8 @@
         "DOE-26060894"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260427",
@@ -27914,6 +29346,8 @@
         "BOE-A-2026-9683"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -27950,6 +29384,8 @@
         "BOE-A-2026-9684"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -27986,6 +29422,8 @@
         "BOE-A-2026-9685"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -28020,6 +29458,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -28056,6 +29496,8 @@
         "PP. 548/2026"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAU",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -28092,6 +29534,8 @@
         "IN408A/2020/062"
       ],
       "estado_actual": "denegado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOG",
       "es_fallido": true,
       "mw_liberados": null,
       "fecha_primera": "20260504",
@@ -28128,6 +29572,8 @@
         "FV-2708 ATCE-198"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260505",
@@ -28164,6 +29610,8 @@
         "PP. 880/2026"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOJA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260505",
@@ -28200,6 +29648,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOG",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260505",
@@ -28236,6 +29686,8 @@
         "BON-2026-88-21"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BON",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260507",
@@ -28272,6 +29724,8 @@
         "DOE-26080773"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260513",
@@ -28310,6 +29764,8 @@
         "FV-1860"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260514",
@@ -28348,6 +29804,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "LicObras",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260514",
@@ -28382,6 +29840,8 @@
       "tension_kv": null,
       "expedientes": [],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260514",
@@ -28418,6 +29878,8 @@
         "PRO-GU-22-0637"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260514",
@@ -28454,6 +29916,8 @@
         "DOE-26080775"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "DOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260515",
@@ -28490,6 +29954,8 @@
         "BOE-A-2026-10728"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28528,6 +29994,8 @@
         "BOE-A-2026-10729"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28568,6 +30036,8 @@
         "BOE-A-2026-10730"
       ],
       "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28605,6 +30075,8 @@
       "tension_kv": 15,
       "expedientes": [],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28641,6 +30113,8 @@
         "2025P1047-14-0141-01047.6/2025"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28678,6 +30152,8 @@
         "STVA-51720"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28716,6 +30192,8 @@
         "FV-2554 ATCE-78"
       ],
       "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28752,6 +30230,8 @@
         "ReSP/2026/702"
       ],
       "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28788,6 +30268,8 @@
         "BOPA-20260518-3"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAE",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28824,6 +30306,8 @@
         "BOPA-20260518-6"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28860,6 +30344,8 @@
         "BOPA-20260518-8"
       ],
       "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "DUP",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",
@@ -28896,6 +30382,8 @@
         "BOPA-20260518-9"
       ],
       "estado_actual": "otro",
+      "ultimo_tipo_permiso": "Otro",
+      "ultimo_boletin": "BOPA",
       "es_fallido": false,
       "mw_liberados": null,
       "fecha_primera": "20260518",

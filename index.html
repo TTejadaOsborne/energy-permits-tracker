@@ -3414,8 +3414,11 @@ function buildPrjRow(p){
     +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap;font-size:11px">'+mw+'</td>'
     +'<td style="font-size:11px;color:rgba(26,26,24,.6);max-width:150px">'+(p.promotor?_esc(p.promotor.slice(0,35)):'<span style="opacity:.3">—</span>')+'</td>'
     +'<td style="font-size:11px;white-space:nowrap">'+(p.provincia||'—')+'</td>'
-    +'<td><span class="prj-estado-badge" style="background:'+est.bg+';color:'+est.color+'">'+est.label+'</span>'
-    +(p.es_fallido?'<span style="font-size:9px;color:#c2410c;margin-left:4px">Fallido</span>':'')+'</td>'
+    +'<td>'
+    +'<span class="prj-estado-badge" style="background:'+est.bg+';color:'+est.color+'">'+est.label+'</span>'
+    +(p.ultimo_tipo_permiso?' <span style="font-size:9px;font-family:IBM Plex Mono,monospace;background:rgba(26,26,24,.07);padding:1px 5px;border-radius:3px;color:rgba(26,26,24,.5)">'+(TIPOS[p.ultimo_tipo_permiso]||p.ultimo_tipo_permiso)+'</span>':'')
+    +(p.es_fallido?' <span style="font-size:9px;color:#c2410c">⚡ Fallido</span>':'')
+    +'</td>'
     +'<td style="font-family:IBM Plex Mono,monospace;font-size:10px;white-space:nowrap;color:rgba(26,26,24,.5)">'+fecha+'</td>'
     +'<td><span class="prj-npub'+(npub>1?' multi':'')+'">'+npub+'</span></td>'
     +'<td><span class="prj-expand-icon">▶</span></td>'
