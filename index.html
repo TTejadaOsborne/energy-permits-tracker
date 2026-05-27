@@ -2402,10 +2402,10 @@ async function loadData(){
     showError("Error de conexión",e.message);
     document.getElementById("status-txt").textContent="Error de conexión";
   }
-  // Re-render dashboard after data loads – use 200ms to let table-wrap show and DOM settle
-  if(VIEW==='inicio') setTimeout(function(){
+  // Pre-renderizar dashboard siempre al terminar carga (queda listo aunque no sea la vista activa)
+  setTimeout(function(){
     if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); } }
-  }, 200);
+  }, 100);
 }
 
 function showError(msg,detail){
@@ -2893,10 +2893,9 @@ function setView(v, _noPush){
     if(!PROJECTS_DATA && window.PROJECTS_INLINE){
       PROJECTS_DATA = window.PROJECTS_INLINE.proyectos || [];
     }
-    // Defer render: give display:none→flex a full layout pass before measuring clientWidth
-    requestAnimationFrame(function(){
-      setTimeout(function(){ try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); } }, 50);
-    });
+    // Render inmediato + segundo render a 300ms para que el SVG mida el ancho real
+    if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); } }
+    setTimeout(function(){ if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){}; } }, 300);
   } else if(v==="oportunidades"){
     document.getElementById("page-title").textContent="Potenciales Afloramientos";
     // Override the capacidades tab set by subestaciones branch above
@@ -4040,7 +4039,7 @@ function renderDashboard(){
       var vals=periods.map(function(d){return byPeriod[d];});
       var rawMax=Math.max.apply(null,vals)||1;
       var sc=niceTicks(rawMax,5);
-      var W=Math.max(tlEl.clientWidth||360,260), H=320, LP=44, RP=14, TP=12, BP=28;
+      var W=700, H=320, LP=44, RP=14, TP=12, BP=28;
       var uw=W-LP-RP, uh=H-TP-BP;
       var n=periods.length;
       var pts=periods.map(function(d,i){
