@@ -3713,7 +3713,8 @@ function _toggleSidebar(){
   setTimeout(function(){if(typeof renderDashboard==='function') renderDashboard();},220);
 }
 function renderDashboard(){
-  if(!ALL || !ALL.length) return;
+  // Renderizar KPIs/barras/mapa desde PROJECTS_DATA aunque ALL no haya cargado aún
+  if(typeof PROJECTS_DATA==='undefined' && !window.PROJECTS_INLINE) return;
 
   if(!window._DASH_TECHS) window._DASH_TECHS=[];
   if(!window._DASH_YEARS) window._DASH_YEARS=[];
@@ -4001,6 +4002,7 @@ function renderDashboard(){
 
   // ── MW TRAMITADOS – monthly aggregation, smooth bezier curve ────────────────
   var tlEl = document.getElementById('dash-timeline-chart');
+  if(tlEl && (!ALL || !ALL.length)){ tlEl.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(26,26,24,.25);font-size:10px;font-family:Inter,sans-serif">Cargando datos de histórico…</div>'; }
   if(tlEl){
     // Use weekly if single year selected, otherwise monthly
     var _useWeekly=(window._DASH_YEARS.length===1);
@@ -6997,6 +6999,8 @@ function renderDetMiniMap(prov, muni){
   // Determine initial view from URL hash or default
   var initView = (location.hash && location.hash.slice(1)) || 'busqueda';
   setView(initView, /*noPush=*/true);
+  // Renderizar dashboard inmediatamente con datos estáticos (no espera Sheets)
+  setTimeout(function(){ try{ renderDashboard(); }catch(e){} }, 0);
   // Start the app: verify session then call loadData()
   if(!CONFIG.AUTH.enabled || localStorage.getItem(CONFIG.AUTH.session_key)){
     showApp();
