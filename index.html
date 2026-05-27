@@ -951,7 +951,7 @@ const CONFIG = {
     <div class="topbar-right">
       <div class="updated-badge">
         <div class="updated-dot" id="updated-dot"></div>
-        <span id="updated-txt">Cargando...</span>
+        <span id="updated-txt">Cargando...</span> <span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.3);margin-left:4px" id="ver-badge">v35</span>
       </div>
       <div style="display:flex;gap:4px;align-items:center">
         <span class="mw-badge mw-badge-gen" id="mw-badge-gen" title="Capacidad generación disponible">Gen —</span>
@@ -7005,6 +7005,14 @@ function renderDetMiniMap(prov, muni){
   if(!CONFIG.AUTH.enabled || localStorage.getItem(CONFIG.AUTH.session_key)){
     showApp();
   }
+  // Polling: fuerza render cada 800ms si KPIs siguen en blanco
+  (function _dashPoll(){
+    var kpi=document.getElementById('dash-kpi-total');
+    if(kpi && (kpi.textContent==='\u2014'||kpi.textContent==='')){
+      try{ renderDashboard(); }catch(e){}
+    }
+    setTimeout(_dashPoll, 800);
+  })();
 })();
 
 
