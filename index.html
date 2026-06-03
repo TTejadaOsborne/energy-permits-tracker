@@ -725,7 +725,7 @@ z-index:1199;
 .kpi3-val{font-family:'Playfair Display',serif;font-size:38px;font-weight:400;color:#1a1a18;line-height:1;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .kpi3-val.amber{color:#9a6f1e}
 .kpi3-sub{font-size:9.5px;color:rgba(26,26,24,.35);font-family:'Inter',sans-serif}
-.dash-header-row{display:flex;align-items:stretch;gap:10px;padding:6px 12px;flex-wrap:nowrap}
+.dash-header-row{display:flex;align-items:stretch;gap:10px;padding:6px 12px;flex-wrap:nowrap;position:sticky;top:0;z-index:30;background:#f7f6f3}
 .dash-kpis-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;flex:1;min-width:0}
 .dash-kpi-c{background:#fff;border:1px solid rgba(26,26,24,.1);border-radius:10px;padding:10px 14px;display:flex;flex-direction:column}
 .dash-kpic-lbl{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:rgba(26,26,24,.4);margin-bottom:3px}
@@ -748,7 +748,7 @@ z-index:1199;
 .dash-fpill-clear:hover{color:#1a1a18}
 .dash-active-filter{display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 8px;background:rgba(57,148,57,.1);border:1px solid rgba(57,148,57,.3);border-radius:20px;font-size:10px;font-family:'IBM Plex Mono',monospace;color:#2d6e2d;cursor:pointer;transition:background .12s;white-space:nowrap}
 .dash-active-filter:hover{background:rgba(57,148,57,.18)}
-.dash-filter-chips{display:flex;gap:6px;flex-wrap:wrap;padding:6px 14px 0;min-height:0;align-items:center}
+.dash-filter-chips{display:flex;gap:6px;flex-wrap:wrap;padding:4px 14px;min-height:0;align-items:center;position:sticky;top:52px;z-index:29;background:#f7f6f3}
 .dash-kpic-delta{display:flex;align-items:center;gap:3px;margin-top:5px;font-size:9px;font-family:'IBM Plex Mono',monospace;color:rgba(26,26,24,.3)}
 .dash-kpic-delta.up{color:#2d7a2d}
 .dash-kpic-delta.down{color:#c0392b}
@@ -762,8 +762,8 @@ z-index:1199;
 .dash-row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 12px;min-height:0;overflow:hidden}
 .dash-row2.full{grid-template-columns:1fr 2fr}
 .dash-row-full{padding:0 12px;min-height:0}
-.dash-card2{background:#fff;border:1px solid rgba(26,26,24,.1);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-height:0;overflow:hidden}
-.dash-card2-title{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(26,26,24,.68);font-weight:600;flex-shrink:0}
+.dash-card2{background:#fff;border:1px solid rgba(26,26,24,.1);border-radius:10px;padding:8px 12px;display:flex;flex-direction:column;gap:3px;min-height:0;overflow:hidden}
+.dash-card2-title{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(26,26,24,.68);font-weight:600;flex-shrink:0;line-height:1.2;padding-bottom:2px}
 /* Boletines table */
 .dash-bol-table{width:100%;border-collapse:collapse;font-size:11px}
 .dash-bol-table th{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:rgba(26,26,24,.4);padding:5px 7px;border-bottom:1px solid rgba(26,26,24,.08);text-align:left;white-space:nowrap;background:#fff;position:sticky;top:0;z-index:1}
@@ -818,6 +818,8 @@ z-index:1199;
 .srch-proj-link:hover{color:#2563eb}
 .srch-muni-lbl{display:flex;align-items:center;gap:7px;padding:5px 8px;border-radius:5px;cursor:pointer;font-size:12px;color:#1a1a18;transition:background .1s}
 .srch-muni-lbl:hover{background:#f5f5f0}
+.muni-tip-lbl{background:rgba(26,26,24,.82)!important;border:none!important;color:#fff!important;font-size:10px!important;font-family:'Inter',sans-serif!important;padding:2px 6px!important;border-radius:4px!important;white-space:nowrap}
+.muni-tip-lbl::before{display:none!important}
 .srch-boe-lnk{color:rgba(26,26,24,.3);margin-left:4px;text-decoration:none;font-size:11px;transition:color .15s}
 .srch-boe-lnk:hover{color:#1a1a18}
 .srch-hist-row{border-bottom:1px solid rgba(26,26,24,.06);transition:background .1s}
@@ -885,7 +887,7 @@ const CONFIG = {
       <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
       <span class="nav-label-sm">Dashboard</span>
     </div>
-    <div class="nav-item active" onclick="setView('busqueda')" title="Búsqueda de proyectos" id="nav-busqueda">
+    <div class="nav-item" onclick="setView('busqueda')" title="Búsqueda de proyectos" id="nav-busqueda">
       <span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
       <span class="nav-label-sm">Búsqueda</span>
       <span id="cnt-total" style="display:none"></span>
@@ -942,25 +944,34 @@ const CONFIG = {
   </div>
 </div>
 
+<!-- ── LOADING OVERLAY ── -->
+<div id="loading" style="display:none;position:fixed;inset:0;z-index:8000;background:rgba(247,246,243,.92);flex-direction:column;align-items:center;justify-content:center;gap:14px;backdrop-filter:blur(2px)">
+  <div style="width:36px;height:36px;border:3px solid rgba(57,148,57,.2);border-top-color:#399439;border-radius:50%;animation:spin .8s linear infinite"></div>
+  <div style="font-family:Inter,sans-serif;font-size:12px;color:rgba(26,26,24,.55);letter-spacing:.02em" id="loading-msg">Cargando datos…</div>
+</div>
+<style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+
+<!-- ── TOOLTIP TIMELINE ── -->
+<div id="tl-tooltip" style="display:none;position:fixed;z-index:9000;background:#1a1a18;color:#fff;border-radius:8px;padding:8px 12px;pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,.25);min-width:110px">
+  <div id="tl-tt-date" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(255,255,255,.55);letter-spacing:.06em;margin-bottom:3px"></div>
+  <div id="tl-tt-val" style="font-family:'Playfair Display',serif;font-size:18px;font-weight:400;line-height:1;color:#fff"></div>
+  <div style="font-family:Inter,sans-serif;font-size:8px;color:rgba(255,255,255,.45);margin-top:2px">MW tramitados</div>
+</div>
+
 <!-- ── MAIN ── -->
 <main class="main">
 
   <!-- TOPBAR -->
   <div class="topbar">
-    <div class="page-title" id="page-title">Búsqueda de proyectos</div>
+    <div class="page-title" id="page-title">Dashboard</div>
     <div class="topbar-right">
       <div class="updated-badge">
         <div class="updated-dot" id="updated-dot"></div>
-        <span id="updated-txt">Cargando...</span> <span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.3);margin-left:4px" id="ver-badge">v35</span>
+        <span id="updated-txt">Cargando...</span> <span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.3);margin-left:4px" id="ver-badge">v50</span>
       </div>
-      <div style="display:flex;gap:4px;align-items:center">
-        <span class="mw-badge mw-badge-gen" id="mw-badge-gen" title="Capacidad generación disponible">Gen —</span>
-        <span class="mw-badge mw-badge-dem" id="mw-badge-dem" title="Capacidad demanda disponible">Dem —</span>
-        <span class="mw-badge mw-badge-alm" id="mw-badge-alm" title="Capacidad almacenamiento disponible">Alm —</span>
-        <span style="font-size:9px;color:rgba(26,26,24,.35);font-family:'IBM Plex Mono',monospace">MW disp.</span>
-      </div>
+
       <button onclick="exportCSV()" style="padding:5px 14px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↓ CSV</button>
-      <button onclick="loadData()" style="padding:5px 11px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:13px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s;line-height:1" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↺</button>
+      <button id="dash-reload-btn" onclick="(function(btn){btn.disabled=true;btn.textContent='↻';btn.style.opacity='.5';loadData().then(function(){try{renderDashboard();}catch(e){}}).catch(function(){}).finally(function(){btn.disabled=false;btn.textContent='↺';btn.style.opacity='1';});})(this)" style="padding:5px 11px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:13px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s,opacity .12s;line-height:1" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↺</button>
       <button class="logout-btn" onclick="doLogout()" title="Cerrar sesión" style="display:flex;align-items:center;gap:5px"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>Cerrar sesión</button>
     </div>
   </div>
@@ -980,9 +991,14 @@ const CONFIG = {
       <!-- Count -->
       <div id="srch-count" style="font-size:11px;color:rgba(26,26,24,.4);margin-left:auto;white-space:nowrap">— proyectos</div>
       <!-- Filtros toggle -->
-      <button id="srch-filter-btn" onclick="toggleSrchFilters()" style="display:flex;align-items:center;gap:5px;padding:6px 12px;border:1px solid rgba(26,26,24,.2);border-radius:7px;background:#1a1a18;color:#fff;font-size:12px;font-family:inherit;cursor:pointer;transition:background .15s,color .15s">
+      <button id="srch-filter-btn" onclick="toggleSrchFilters()" style="display:flex;align-items:center;gap:5px;padding:6px 12px;border:1px solid rgba(26,26,24,.2);border-radius:7px;background:#fff;color:#1a1a18;font-size:12px;font-family:inherit;cursor:pointer;transition:background .15s,color .15s">
         <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><rect x="2" y="3.5" width="12" height="1.5" rx=".75"/><rect x="2" y="7.25" width="8" height="1.5" rx=".75"/><rect x="2" y="11" width="5" height="1.5" rx=".75"/></svg>
         Filtros
+      </button>
+      <!-- Clear filters btn (shown only when filters active) -->
+      <button id="srch-clear-btn" onclick="clearSrchFilters()" style="display:none;align-items:center;gap:5px;padding:6px 12px;border:1.5px solid #dc2626;border-radius:7px;background:#fef2f2;color:#dc2626;font-size:12px;font-family:inherit;cursor:pointer;font-weight:600;transition:background .15s" onmouseover="this.style.background='#fee2e2'" onmouseout="this.style.background='#fef2f2'">
+        <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm3.5 9.1L10.1 11.5 8 9.4l-2.1 2.1L4.5 10.1 6.6 8 4.5 5.9l1.4-1.4L8 6.6l2.1-2.1 1.4 1.4L9.4 8l2.1 2.1z"/></svg>
+        Limpiar filtros
       </button>
     </div>
 
@@ -1002,6 +1018,7 @@ const CONFIG = {
                 <th style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px">Tecnología</th>
                 <th onclick="srchSortBy('promotor')" style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px;cursor:pointer;user-select:none">Promotor<span id="srch-si-promotor" style="margin-left:3px;font-size:10px"></span></th>
                 <th style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px">Estado</th>
+                <th style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px;white-space:nowrap">Permiso</th>
                 <th onclick="srchSortBy('subestacion')" style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px;cursor:pointer;user-select:none">Punto de Conexión<span id="srch-si-subestacion" style="margin-left:3px;font-size:10px"></span></th>
                 <th onclick="srchSortBy('provincia')" style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px;cursor:pointer;user-select:none">Provincia<span id="srch-si-provincia" style="margin-left:3px;font-size:10px"></span></th>
                 <th onclick="srchSortBy('municipio')" style="padding:9px 12px;font-weight:600;color:rgba(26,26,24,.5);font-size:11px;cursor:pointer;user-select:none">Municipio<span id="srch-si-municipio" style="margin-left:3px;font-size:10px"></span></th>
@@ -1014,65 +1031,81 @@ const CONFIG = {
         </div>
 
         <!-- Right filter panel -->
-        <div id="srch-fp" style="width:260px;flex-shrink:0;background:#fff;border-left:1px solid rgba(26,26,24,.08)">
-          <!-- Potencia -->
-          <div style="padding:14px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:10px">Potencia (MW)</div>
-            <div style="display:flex;gap:6px;margin-bottom:10px">
-              <div style="flex:1">
-                <div style="font-size:10px;color:rgba(26,26,24,.4);margin-bottom:3px">Mín</div>
-                <input id="srch-mw-min" type="number" min="0" placeholder="0" style="width:100%;padding:5px 8px;border:1px solid rgba(26,26,24,.15);border-radius:5px;font-size:11px;font-family:inherit;outline:none;box-sizing:border-box" oninput="onSrchMwInput()">
+        <div id="srch-fp" style="width:0;overflow:hidden;flex-shrink:0;background:#fff;border-left:1px solid rgba(26,26,24,.08)">
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('mw')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Potencia (MW) <span id="srch-fold-badge-mw" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-mw" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-mw" style="display:none;padding:0 16px 12px">
+              <div style="display:flex;gap:6px;margin-bottom:10px">
+                <div style="flex:1"><div style="font-size:10px;color:rgba(26,26,24,.4);margin-bottom:3px">Mín</div><input id="srch-mw-min" type="number" min="0" placeholder="0" style="width:100%;padding:5px 8px;border:1px solid rgba(26,26,24,.15);border-radius:5px;font-size:11px;font-family:inherit;outline:none;box-sizing:border-box" oninput="onSrchMwInput()"></div>
+                <div style="flex:1"><div style="font-size:10px;color:rgba(26,26,24,.4);margin-bottom:3px">Máx</div><input id="srch-mw-max" type="number" min="0" placeholder="—" style="width:100%;padding:5px 8px;border:1px solid rgba(26,26,24,.15);border-radius:5px;font-size:11px;font-family:inherit;outline:none;box-sizing:border-box" oninput="onSrchMwInput()"></div>
               </div>
-              <div style="flex:1">
-                <div style="font-size:10px;color:rgba(26,26,24,.4);margin-bottom:3px">Máx</div>
-                <input id="srch-mw-max" type="number" min="0" placeholder="—" style="width:100%;padding:5px 8px;border:1px solid rgba(26,26,24,.15);border-radius:5px;font-size:11px;font-family:inherit;outline:none;box-sizing:border-box" oninput="onSrchMwInput()">
+              <div class="srch-range-wrap"><div class="srch-range-track"><div id="srch-range-fill" class="srch-range-fill" style="left:0;right:0"></div></div><input id="srch-range-min" type="range" min="0" max="1000" value="0" step="5" oninput="syncRangeToInput('min')"><input id="srch-range-max" type="range" min="0" max="1000" value="1000" step="5" oninput="syncRangeToInput('max')"></div>
+              <div style="display:flex;justify-content:space-between;font-size:10px;color:rgba(26,26,24,.3);margin-top:2px"><span>0</span><span id="srch-range-max-lbl">1000 MW</span></div>
+            </div>
+          </div>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('tech')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Tecnología <span id="srch-fold-badge-tech" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-tech" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-tech" style="display:none;padding:0 16px 12px">
+              <div id="srch-tech-checks" style="display:flex;flex-direction:column;gap:2px;max-height:160px;overflow-y:auto"></div>
+            </div>
+          </div>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('hibrida')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Hibridación <span id="srch-fold-badge-hibrida" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-hibrida" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-hibrida" style="display:none;padding:0 16px 12px">
+              <div id="srch-hibrida-checks" style="display:flex;flex-direction:column;gap:2px">
+                <label style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;font-size:12px;font-family:inherit"><input type="checkbox" value="si" onchange="renderBusqueda()" style="accent-color:#1a1a18;cursor:pointer;flex-shrink:0"><span style="color:rgba(26,26,24,.78)">Sí</span></label>
+                <label style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;font-size:12px;font-family:inherit"><input type="checkbox" value="no" onchange="renderBusqueda()" style="accent-color:#1a1a18;cursor:pointer;flex-shrink:0"><span style="color:rgba(26,26,24,.78)">No</span></label>
               </div>
             </div>
-            <div class="srch-range-wrap">
-              <div class="srch-range-track"><div id="srch-range-fill" class="srch-range-fill" style="left:0;right:0"></div></div>
-              <input id="srch-range-min" type="range" min="0" max="1000" value="0" step="5" oninput="syncRangeToInput('min')">
-              <input id="srch-range-max" type="range" min="0" max="1000" value="1000" step="5" oninput="syncRangeToInput('max')">
+          </div>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('permiso')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Permiso <span id="srch-fold-badge-permiso" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-permiso" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-permiso" style="display:none;padding:0 16px 12px">
+              <div id="srch-permiso-checks" style="display:flex;flex-direction:column;gap:4px"></div>
             </div>
-            <div style="display:flex;justify-content:space-between;font-size:10px;color:rgba(26,26,24,.3);margin-top:2px">
-              <span>0</span><span id="srch-range-max-lbl">1000 MW</span>
+          </div>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('estado')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Estado <span id="srch-fold-badge-estado" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-estado" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-estado" style="display:none;padding:0 16px 12px">
+              <div id="srch-estado-checks" style="display:flex;flex-direction:column;gap:2px"></div>
             </div>
           </div>
-          <!-- Tecnología (multi-checkbox) -->
-          <div style="padding:12px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Tecnología</div>
-            <div id="srch-tech-checks" style="display:flex;flex-direction:column;gap:2px;max-height:140px;overflow-y:auto"></div>
-          </div>
-          <!-- Hibridación -->
-          <div style="padding:12px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Hibridación</div>
-            <select id="srch-f-hibrida" class="srch-fp-sel" onchange="renderBusqueda()">
-              <option value="">Todas</option>
-              <option value="SI">Sí</option>
-              <option value="NO">No</option>
-            </select>
-          </div>
-          <!-- Estado (multi-checkbox) -->
-          <div style="padding:12px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Estado Tramitación</div>
-            <div id="srch-estado-checks" style="display:flex;flex-direction:column;gap:2px;max-height:140px;overflow-y:auto"></div>
-          </div>
-          <!-- Provincia -->
-          <div style="padding:12px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Provincia</div>
-            <select id="srch-f-prov" class="srch-fp-sel" onchange="onSrchProvChange()"><option value="">Seleccionar provincia</option></select>
-          </div>
-          <!-- Municipio -->
-          <div style="padding:12px 16px;border-bottom:1px solid rgba(26,26,24,.06)">
-            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Municipio</div>
-            <div style="display:flex;gap:5px;align-items:center">
-              <select id="srch-f-muni" class="srch-fp-sel" style="flex:1" onchange="renderBusqueda()"><option value="">Todos</option></select>
-              <button onclick="openMuniPopup()" title="Seleccionar municipios" style="padding:6px 9px;border:1px solid rgba(26,26,24,.15);border-radius:6px;background:#fff;cursor:pointer;font-size:13px;flex-shrink:0;transition:background .15s" onmouseover="this.style.background='#f5f5f0'" onmouseout="this.style.background='#fff'">📍</button>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('prov')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Provincia <span id="srch-fold-badge-prov" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-prov" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-prov" style="display:none;padding:0 16px 12px">
+              <select id="srch-f-prov" class="srch-fp-sel" onchange="onSrchProvChange()"><option value="">Todas las provincias</option></select>
             </div>
-            <div id="srch-muni-chips" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px"></div>
           </div>
-          <!-- Limpiar -->
-          <div style="padding:12px 16px">
-            <button onclick="clearSrchFilters()" style="width:100%;padding:7px;border:1px solid rgba(26,26,24,.15);border-radius:6px;background:#fff;font-size:12px;font-family:inherit;cursor:pointer;color:rgba(26,26,24,.6);transition:background .15s" onmouseover="this.style.background='#f5f5f0'" onmouseout="this.style.background='#fff'">✕ Limpiar filtros</button>
+          <div style="border-bottom:1px solid rgba(26,26,24,.06)">
+            <button onclick="_srchToggleFold('muni')" style="width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 16px;background:none;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;color:rgba(26,26,24,.7);text-align:left;transition:color .12s" onmouseover="this.style.color='#1a1a18'" onmouseout="this.style.color='rgba(26,26,24,.7)'">
+              <span style="display:flex;align-items:center">Municipio <span id="srch-fold-badge-muni" style="display:none;background:#1a1a18;color:#fff;border-radius:8px;font-size:9px;padding:1px 5px;font-weight:700;margin-left:4px"></span></span>
+              <span id="srch-fold-chev-muni" style="font-size:9px;color:rgba(26,26,24,.35);transition:transform .15s">▶</span>
+            </button>
+            <div id="srch-fold-muni" style="display:none;padding:0 16px 12px">
+              <div style="display:flex;gap:5px;align-items:center">
+                <select id="srch-f-muni" class="srch-fp-sel" style="flex:1" onchange="renderBusqueda()"><option value="">Todos</option></select>
+                <button onclick="openMuniPopup()" title="Seleccionar municipios en mapa" style="padding:6px 9px;border:1px solid rgba(26,26,24,.15);border-radius:6px;background:#fff;cursor:pointer;font-size:13px;flex-shrink:0;transition:background .15s" onmouseover="this.style.background='#f5f5f0'" onmouseout="this.style.background='#fff'">📍</button>
+              </div>
+              <div id="srch-muni-chips" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -1422,7 +1455,7 @@ const CONFIG = {
   <!-- DASHBOARD / INICIO VIEW -->
   <div id="view-inicio" class="content" style="display:none;flex-direction:column;gap:12px;padding-bottom:16px;overflow-y:auto">
     <!-- Dashboard header: compact KPIs + filter pills -->
-    <div class="dash-header-row">
+    <div class="dash-header-row" style="flex-shrink:0">
       <!-- 4 compact KPI cards -->
       <div class="dash-kpis-grid">
         <div class="dash-kpi-c">
@@ -1487,31 +1520,31 @@ const CONFIG = {
       </div>
     </div>
     <!-- Active filter chips (geo/estado from chart clicks) -->
-    <div id="dash-filter-chips" class="dash-filter-chips" style="display:none"></div>
-    <!-- Charts row 1 -->
-    <div class="dash-row2" style="padding:0 12px;height:480px;overflow:hidden">
+    <div id="dash-filter-chips" class="dash-filter-chips" style="display:none;flex-shrink:0"></div>
+    <!-- Charts row 1: Estado (left) + Timeline (right) -->
+    <div class="dash-row2" style="padding:0 12px;height:clamp(300px,36vh,460px);overflow:hidden;flex-shrink:0;grid-template-columns:1fr 1.8fr">
       <div class="dash-card2" style="overflow:hidden;height:100%">
         <div class="dash-card2-title">Potencia por estado</div>
-        <div id="dash-estado-chart" style="flex:1;overflow-y:auto;min-height:0;position:relative"></div>
+        <div id="dash-estado-chart" style="flex:1;overflow:hidden;min-height:0;position:relative"></div>
       </div>
       <div class="dash-card2" style="overflow:hidden;height:100%">
         <div class="dash-card2-title">MW Tramitados</div>
         <div id="dash-timeline-chart" style="flex:1;overflow:hidden;min-height:0;position:relative"></div>
       </div>
     </div>
-    <!-- Charts row 2: CCAA + mapa (full width) -->
-    <div class="dash-row-full">
-      <div class="dash-card2" style="height:420px">
-        <div class="dash-card2-title">Potencia por CCAA / Provincias</div>
-        <div style="display:flex;gap:16px;flex:1;overflow:hidden;min-height:0">
-          <div id="dash-prov-bars" style="width:280px;overflow-y:auto;flex-shrink:0;padding-right:4px"></div>
-          <div id="dash-spain-map" style="flex:1;min-width:200px;overflow:hidden;display:flex;align-items:center;justify-content:center"></div>
-        </div>
+    <!-- Charts row 2: CCAA bars (left) + Spain map (right) — same grid as Estado+Timeline -->
+    <div class="dash-row2" style="padding:0 12px;height:clamp(320px,36vh,480px);overflow:hidden;flex-shrink:0;grid-template-columns:1fr 1.8fr">
+      <div class="dash-card2" style="overflow:hidden;height:100%">
+        <div class="dash-card2-title" id="dash-ccaa-title">Potencia por CCAA / Provincias</div>
+        <div id="dash-prov-bars" style="flex:1;overflow-y:auto;min-height:0;padding-right:4px"></div>
+      </div>
+      <div class="dash-card2" style="overflow:hidden;height:100%;position:relative">
+        <div id="dash-spain-map" style="flex:1;overflow:hidden;display:flex;align-items:stretch;min-height:0"></div>
       </div>
     </div>
     <!-- Charts row 3: Últimos boletines (full width) -->
-    <div class="dash-row-full">
-      <div class="dash-card2" style="max-height:340px">
+    <div class="dash-row-full" style="flex-shrink:0">
+      <div class="dash-card2" style="max-height:260px">
         <div class="dash-card2-title">Últimos boletines</div>
         <div id="dash-boletines-wrap" style="flex:1;overflow-y:auto;min-height:0">
           <table class="dash-bol-table">
@@ -1794,6 +1827,19 @@ function doLogout(){
   document.getElementById('login-pwd').focus();
 }
 
+function _cleanProv(s){ return (s||'').replace(/\s*\([^)]*\)/g,'').replace(/\s*principalmente\s*/gi,'').trim(); }
+function _dashCCAAClick(el){
+  var ca=el.getAttribute('data-ca');
+  window._DASH_CCAA_FILTER=(window._DASH_CCAA_FILTER===ca)?null:ca;
+  window._DASH_PROV_FILTER=null;
+  if(typeof renderDashboard==='function') renderDashboard();
+}
+function _dashProvClick(el){
+  var pv=el.getAttribute('data-pv');
+  window._DASH_PROV_FILTER=pv;
+  if(typeof renderDashboard==='function') renderDashboard();
+}
+
 function showApp(role){
   // Si no se pasa role (recarga desde localStorage), leerlo
   if(!role){
@@ -2038,6 +2084,8 @@ async function loadSetsCapacity(){
     if(r.ok){
       SETS_CAPACITY = await r.json();
       populateSetsProvincias();
+      // Re-render so Gen/Dem/Alm badges and dashboard update
+      if(typeof renderDashboard==='function') try{ renderDashboard(); }catch(e){}
       // Re-render Proyectos so SET name links appear (they need SETS_CAPACITY loaded)
       if(typeof renderProyectos==='function' && PROJECTS_DATA) renderProyectos();
     }
@@ -2165,6 +2213,8 @@ function findCapacity(set_name){
 
 async function loadData(){
   show("loading"); hide("table-wrap"); hide("error-box");
+  var _ldMsg = document.getElementById("loading-msg");
+  if(_ldMsg) _ldMsg.textContent = "Conectando con Google Sheets…";
   document.getElementById("status-txt").textContent = "Conectando...";
 
   const {SPREADSHEET_ID,API_KEY,SHEET_NAME} = CONFIG;
@@ -2172,13 +2222,53 @@ async function loadData(){
     showError("Sin configurar","Edita el index.html: rellena SPREADSHEET_ID y API_KEY en CONFIG");
     return;
   }
-  const url=`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${encodeURIComponent(SHEET_NAME)}?key=${API_KEY}`;
+  // Intentar primero Sheets API v4; si falla, fallback a exportación CSV pública
+  const urlApi=`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${encodeURIComponent(SHEET_NAME)}?key=${API_KEY}`;
+  const urlCsv=`https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/export?format=csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
   try{
-    const ctrl=new AbortController(); setTimeout(()=>ctrl.abort(),12000);
-    let r; try{ r=await fetch(url,{signal:ctrl.signal}); }catch(fe){ throw new Error(fe.name==="AbortError"?"Timeout (12s) — comprueba que el Sheet es publico (Compartir → Cualquier persona con enlace → Lector) y que la API key es valida":fe.message); }
-    if(!r.ok) throw new Error(`HTTP ${r.status} — ${r.statusText}`);
-    const data=await r.json();
-    const rows=data.values||[];
+    let rows=null;
+    // Intento 1: Sheets API v4 (necesita API key sin restricciones de dominio)
+    try{
+      const ctrl=new AbortController(); setTimeout(()=>ctrl.abort(),10000);
+      const r=await fetch(urlApi,{signal:ctrl.signal});
+      if(r.ok){
+        const data=await r.json();
+        rows=data.values||[];
+        console.log('[Nodalys] Sheets API OK,',rows.length,'filas');
+      } else {
+        console.warn('[Nodalys] Sheets API HTTP',r.status,'— probando CSV fallback');
+      }
+    }catch(apiErr){
+      console.warn('[Nodalys] Sheets API error:',apiErr.message,'— probando CSV fallback');
+    }
+    // Intento 2: CSV export (funciona si el sheet es público sin API key)
+    if(!rows){
+      try{
+        const ctrl2=new AbortController(); setTimeout(()=>ctrl2.abort(),10000);
+        const r2=await fetch(urlCsv,{signal:ctrl2.signal});
+        if(r2.ok){
+          const csvText=await r2.text();
+          const csvRows=csvText.split('\n').map(function(line){
+            // Parse CSV line respetando comillas
+            var res=[],cur='',inQ=false;
+            for(var ci=0;ci<line.length;ci++){
+              var ch=line[ci];
+              if(ch==='"'){ if(inQ&&line[ci+1]==='"'){cur+='"';ci++;} else inQ=!inQ; }
+              else if(ch===','&&!inQ){ res.push(cur); cur=''; }
+              else cur+=ch;
+            }
+            res.push(cur);
+            return res;
+          }).filter(function(r){return r.some(function(c){return c.trim();});});
+          rows=csvRows;
+          console.log('[Nodalys] CSV fallback OK,',rows.length,'filas');
+        } else {
+          throw new Error('CSV HTTP '+r2.status+' — El Sheet debe ser público (Compartir → Cualquier persona con enlace → Lector)');
+        }
+      }catch(csvErr){
+        throw new Error('API y CSV fallidos. '+csvErr.message);
+      }
+    }
     if(rows.length<2){showError("Sin datos","El Google Sheet está vacío. Ejecuta el pipeline primero.");return;}
     ALL=rows.slice(1).map(row=>{
       const o={};
@@ -2385,6 +2475,8 @@ async function loadData(){
     document.getElementById("status-txt").textContent = "API conectada";
     document.getElementById("version-txt").textContent = `Nodalys v1.0 · ${ALL.length} registros`;
 
+    var _ldMsg3 = document.getElementById("loading-msg");
+    if(_ldMsg3) _ldMsg3.textContent = ALL.length + " registros cargados";
     hide("loading"); show("table-wrap");
     populateFilters();
     updateSidebar();
@@ -2399,13 +2491,26 @@ async function loadData(){
       setTimeout(loadData, CONFIG.REFRESH_MINS*60*1000);
     }
   }catch(e){
+    console.error('[Nodalys] loadData error:', e.message, e);
+    hide("loading");
+    var _ldMsg2 = document.getElementById("loading-msg");
+    if(_ldMsg2) _ldMsg2.textContent = "Error: " + e.message.slice(0,80);
     showError("Error de conexión",e.message);
     document.getElementById("status-txt").textContent="Error de conexión";
+    var _errMsg=e.message.slice(0,160);
+    var _retryBtn='<button onclick="loadData().then(function(){try{renderDashboard();}catch(er){}}).catch(function(){})" style="margin-top:6px;padding:4px 12px;border:1px solid rgba(26,26,24,.2);border-radius:12px;background:#fff;font-size:10px;cursor:pointer;font-family:Inter,sans-serif">↺ Reintentar</button>';
+    var _errHtml='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:6px"><span style="font-size:10px;color:#ef4444;font-family:Inter,sans-serif">⚠ Error Google Sheets</span><span style="font-size:9px;color:rgba(26,26,24,.4);font-family:IBM Plex Mono,monospace;text-align:center;max-width:220px">'+_errMsg+'</span>'+_retryBtn+'</div>';
+    var _tlErrEl=document.getElementById('dash-timeline-chart');
+    if(_tlErrEl) _tlErrEl.innerHTML=_errHtml;
+    var _bolWrap=document.getElementById('dash-boletines-tbody');
+    if(_bolWrap) _bolWrap.innerHTML='<tr><td colspan="8" style="padding:16px;text-align:center;color:#ef4444;font-size:10px;font-family:Inter,sans-serif">⚠ Sin conexión a Google Sheets — abre F12→Console para ver el error exacto</td></tr>';
   }
-  // Pre-renderizar dashboard siempre al terminar carga (queda listo aunque no sea la vista activa)
-  setTimeout(function(){
-    if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); } }
-  }, 100);
+  // Render dashboard immediately after ALL loads (no delay to avoid stale state)
+  if(ALL && ALL.length){
+    try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); }
+    if(!SRCH_INIT_DONE && PROJECTS_DATA && PROJECTS_DATA.length){ try{ initBusqueda(); }catch(e){} }
+    else if(SRCH_INIT_DONE){ try{ renderBusqueda(); }catch(e){} }
+  }
 }
 
 function showError(msg,detail){
@@ -2893,9 +2998,9 @@ function setView(v, _noPush){
     if(!PROJECTS_DATA && window.PROJECTS_INLINE){
       PROJECTS_DATA = window.PROJECTS_INLINE.proyectos || [];
     }
-    // Render inmediato + segundo render a 300ms para que el SVG mida el ancho real
-    if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); } }
-    setTimeout(function(){ if(ALL && ALL.length){ try{ renderDashboard(); }catch(e){}; } }, 300);
+    // Render inmediato desde PROJECTS_DATA + re-render a 400ms (por si ALL ya cargó)
+    try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); }
+    setTimeout(function(){ try{ renderDashboard(); }catch(e){}; }, 400);
   } else if(v==="oportunidades"){
     document.getElementById("page-title").textContent="Potenciales Afloramientos";
     // Override the capacidades tab set by subestaciones branch above
@@ -3763,11 +3868,63 @@ function renderDashboard(){
     'Región de Murcia','Islas Baleares','País Vasco','La Rioja',
     'Aragón','Cataluña','Andalucía','Extremadura','Galicia',
     'Navarra','Asturias','Cantabria','Madrid','Murcia','Canarias'];
-  var _CCAA_ALIAS={'Comunitat Valenciana':'Comunidad Valenciana','C. Valenciana':'Comunidad Valenciana',
-    'Castilla Y León':'Castilla y León','Catalunya':'Cataluña',
-    'Andalucía / Ceuta':'Andalucía','Principado de Asturias':'Asturias',
-    'Comunidad Foral de Navarra':'Navarra','Comunidad de Madrid':'Madrid',
-    'Región de Murcia':'Murcia'};
+  var _CCAA_ALIAS={
+    'Comunitat Valenciana':'Comunidad Valenciana','C. Valenciana':'Comunidad Valenciana',
+    'Castilla Y León':'Castilla y León','Castilla y leon':'Castilla y León',
+    'Catalunya':'Cataluña','Cataluña':'Cataluña',
+    'Andalucía / Ceuta':'Andalucía','Andalucia':'Andalucía',
+    // Formas cortas → nombre oficial usado en _CCAA_TO_PROVS
+    'Principado de Asturias':'Principado de Asturias','Asturias':'Principado de Asturias',
+    'Comunidad Foral de Navarra':'Comunidad Foral de Navarra','Navarra':'Comunidad Foral de Navarra',
+    'Comunidad de Madrid':'Comunidad de Madrid','Madrid':'Comunidad de Madrid',
+    'Región de Murcia':'Región de Murcia','Murcia':'Región de Murcia',
+    'Illes Balears':'Islas Baleares','Baleares':'Islas Baleares'
+  };
+  // Hardcoded provincia→CCAA (ground truth, overrides inconsistent data)
+  var _PROV_TO_CCAA={
+    'A Coruña':'Galicia','Lugo':'Galicia','Ourense':'Galicia','Pontevedra':'Galicia',
+    'Asturias':'Principado de Asturias',
+    'Cantabria':'Cantabria',
+    'Álava':'País Vasco','Guipúzcoa':'País Vasco','Vizcaya':'País Vasco',
+    'Navarra':'Comunidad Foral de Navarra',
+    'La Rioja':'La Rioja',
+    'Huesca':'Aragón','Teruel':'Aragón','Zaragoza':'Aragón',
+    'Barcelona':'Cataluña','Girona':'Cataluña','Lleida':'Cataluña','Tarragona':'Cataluña',
+    'Alicante':'Comunidad Valenciana','Castellón':'Comunidad Valenciana','Valencia':'Comunidad Valenciana',
+    'Badajoz':'Extremadura','Cáceres':'Extremadura',
+    'Huelva':'Andalucía','Sevilla':'Andalucía','Cádiz':'Andalucía','Córdoba':'Andalucía',
+    'Málaga':'Andalucía','Granada':'Andalucía','Jaén':'Andalucía','Almería':'Andalucía',
+    'Murcia':'Región de Murcia',
+    'Albacete':'Castilla-La Mancha','Ciudad Real':'Castilla-La Mancha','Cuenca':'Castilla-La Mancha',
+    'Guadalajara':'Castilla-La Mancha','Toledo':'Castilla-La Mancha',
+    'Ávila':'Castilla y León','Burgos':'Castilla y León','León':'Castilla y León',
+    'Palencia':'Castilla y León','Salamanca':'Castilla y León','Segovia':'Castilla y León',
+    'Soria':'Castilla y León','Valladolid':'Castilla y León','Zamora':'Castilla y León',
+    'Madrid':'Comunidad de Madrid',
+    'Las Palmas':'Canarias','Santa Cruz de Tenerife':'Canarias',
+    'Balears':'Islas Baleares','Illes Balears':'Islas Baleares',
+    'Baleares':'Islas Baleares'
+  };
+  // Reverse map: CCAA → canonical province list (all provinces shown even if 0 MW)
+  var _CCAA_TO_PROVS={
+    'Galicia':['A Coruña','Lugo','Ourense','Pontevedra'],
+    'Principado de Asturias':['Asturias'],
+    'Cantabria':['Cantabria'],
+    'País Vasco':['Álava','Guipúzcoa','Vizcaya'],
+    'Comunidad Foral de Navarra':['Navarra'],
+    'La Rioja':['La Rioja'],
+    'Aragón':['Huesca','Teruel','Zaragoza'],
+    'Cataluña':['Barcelona','Girona','Lleida','Tarragona'],
+    'Comunidad Valenciana':['Alicante','Castellón','Valencia'],
+    'Extremadura':['Badajoz','Cáceres'],
+    'Andalucía':['Almería','Cádiz','Córdoba','Granada','Huelva','Jaén','Málaga','Sevilla'],
+    'Región de Murcia':['Murcia'],
+    'Castilla-La Mancha':['Albacete','Ciudad Real','Cuenca','Guadalajara','Toledo'],
+    'Castilla y León':['Ávila','Burgos','León','Palencia','Salamanca','Segovia','Soria','Valladolid','Zamora'],
+    'Comunidad de Madrid':['Madrid'],
+    'Canarias':['Las Palmas','Santa Cruz de Tenerife'],
+    'Islas Baleares':['Illes Balears']
+  };
   function firstCCAA(str){
     str=(str||'').trim();
     if(_CCAA_ALIAS[str]) return _CCAA_ALIAS[str];
@@ -3776,6 +3933,10 @@ function renderDashboard(){
     }
     // fallback: split only on commas/semicolons/slashes
     return str.split(/[,;\/]/)[0].trim();
+  }
+  // Province→CCAA lookup: hardcoded map takes precedence over field data
+  function provToCCAA(provName){
+    return _PROV_TO_CCAA[provName] || null;
   }
   function normCCAA(ca){ return _CCAA_ALIAS[ca]||ca; }
 
@@ -3922,87 +4083,88 @@ function renderDashboard(){
     if(!prjFiltered.length){
       estadoEl.innerHTML='<div style="color:rgba(26,26,24,.3);font-size:11px;padding:24px;text-align:center">Sin datos</div>';
     } else {
-      // Aggregate by simplified label – AAP/AAC split logic
-      var grupos={};
+      // ── Grouped vertical bar chart: thin bars with grey track ────────────────
+      var _GROUPS=['DIA','AAP','AAP+AAC','AAC','DUP'];
+      var _STATES=['Aprobada','Pendiente','Denegada'];
+      // Color único por estado — igual en todos los grupos (DIA, AAP, AAP+AAC, AAC, DUP)
+      var _SCOLORS={
+        Aprobada:'#22c55e',
+        Pendiente:'#60a5fa',
+        Denegada: '#ef4444'
+      };
+      var _cd={};
+      _GROUPS.forEach(function(g){ _cd[g]={Aprobada:0,Pendiente:0,Denegada:0}; });
       prjFiltered.forEach(function(p){
         var tipo=p.ultimo_tipo_permiso||''; var mw=parseFloat(p.potencia_mw)||0; if(!mw) return;
         var est=normEst(p.estado_actual);
-        // ── DUP: Declaración de Utilidad Pública ─────────────────────────────
-        if(tipo==='DUP'){
-          var xlbl=est?est+' DUP':'DUP';
-          grupos[xlbl]=(grupos[xlbl]||0)+mw; return;
-        }
-        // ── Expropiación (OcupacionUP, servidumbres) ──────────────────────────
-        if(tipo==='OcupacionUP'){
-          var xlbl2=est?est+' Exprop.':'Expropiación';
-          grupos[xlbl2]=(grupos[xlbl2]||0)+mw; return;
-        }
-        if(!est) return;
-        // ── AAP_AAC pending → count in BOTH Pendiente AAP AND Pendiente AAC ──
-        if((tipo==='AAP_AAC'||tipo==='AAC_AAP') && est==='Pendiente'){
-          grupos['Pendiente AAP']=(grupos['Pendiente AAP']||0)+mw;
-          grupos['Pendiente AAC']=(grupos['Pendiente AAC']||0)+mw;
-          return;
-        }
-        // ── AAC pending → AAP already granted, AAC still pending ─────────────
-        if(tipo==='AAC' && est==='Pendiente'){
-          grupos['Aprobada AAP']=(grupos['Aprobada AAP']||0)+mw;
-          grupos['Pendiente AAC']=(grupos['Pendiente AAC']||0)+mw;
-          return;
-        }
-        // ── AAC approved → both AAP and AAC fully approved ───────────────────
-        if(tipo==='AAC' && est==='Aprobada'){
-          grupos['Aprobada AAP']=(grupos['Aprobada AAP']||0)+mw;
-          grupos['Aprobada AAC']=(grupos['Aprobada AAC']||0)+mw;
-          return;
-        }
-        // ── AAC denied/other ─────────────────────────────────────────────────
-        if(tipo==='AAC'){ grupos[est+' AAC']=(grupos[est+' AAC']||0)+mw; return; }
-        // ── ModAAP, ModAAC, ModAAP_ModAAC ────────────────────────────────────
-        if(tipo==='ModAAP'||tipo==='ModAAC'||tipo==='ModAAP_ModAAC'||tipo==='ModAAP_AAC'){
-          var mt=tipo.indexOf('AAC')>=0?'Mod.AAC':'Mod.AAP'; grupos[est+' '+mt]=(grupos[est+' '+mt]||0)+mw; return;
-        }
-        // ── Standard: DIA, AAP, AAP_AAC (non-pending), IP ───────────────────
-        var normT=normTipo(tipo); if(!normT) return;
-        grupos[est+' '+normT]=(grupos[est+' '+normT]||0)+mw;
+        if((tipo==='AAP_AAC'||tipo==='AAC_AAP') && est==='Pendiente'){ _cd['AAP'].Pendiente+=mw; _cd['AAP+AAC'].Pendiente+=mw; return; }
+        if(tipo==='AAC' && est==='Pendiente'){ _cd['AAP'].Aprobada+=mw; _cd['AAC'].Pendiente+=mw; return; }
+        if(tipo==='AAC' && est==='Aprobada'){ _cd['AAP'].Aprobada+=mw; _cd['AAC'].Aprobada+=mw; return; }
+        if(tipo==='AAC' && est==='Denegada'){ _cd['AAC'].Denegada+=mw; return; }
+        var g=tipo==='DIA'?'DIA':tipo==='AAP'?'AAP':(tipo==='AAP_AAC'||tipo==='AAC_AAP')?'AAP+AAC':tipo==='DUP'?'DUP':null;
+        if(g && est && _cd[g] && _cd[g][est]!==undefined) _cd[g][est]+=mw;
       });
-      var ORDER=['Aprobada DIA','Aprobada AAP','Aprobada AAP+AAC','Aprobada AAC',
-                 'Pendiente DIA','Pendiente AAP','Pendiente AAC',
-                 'Denegada DIA','Denegada AAP','Denegada AAP+AAC','Denegada AAC',
-                 'Aprobada DUP','Pendiente DUP','Denegada DUP',
-                 'Aprobada Exprop.','Pendiente Exprop.','Expropiación'];
-      var COLORS={'Aprobada DIA':'#4ade80','Aprobada AAP':'#22c55e','Aprobada AAP+AAC':'#16a34a','Aprobada AAC':'#15803d',
-                  'Pendiente DIA':'#93c5fd','Pendiente AAP':'#60a5fa','Pendiente AAC':'#2563eb',
-                  'Denegada DIA':'#fca5a5','Denegada AAP':'#f87171','Denegada AAP+AAC':'#ef4444','Denegada AAC':'#dc2626',
-                  'Aprobada DUP':'#ea580c','Pendiente DUP':'#fb923c','Denegada DUP':'#9a3412',
-                  'Aprobada Exprop.':'#d97706','Pendiente Exprop.':'#fbbf24','Expropiación':'#fbbf24'};
-      var rows=ORDER.filter(function(k){return (grupos[k]||0)>0;}).map(function(k){return [k,grupos[k]];});
-      var maxMWe = rows.length ? Math.max.apply(null,rows.map(function(g){return g[1];})) : 1;
-      var niceMaxE = niceMax(maxMWe, 4);
-      estadoEl.innerHTML='<div style="display:flex;flex-direction:column;gap:6px;padding:4px 2px 2px">'
-        +rows.map(function(g){
-          var pct=(g[1]/niceMaxE*100).toFixed(1);
-          var col=COLORS[g[0]]||'#94a3b8';
-                    var parts2=g[0].split(' '); var lbl1=parts2[0]; var lbl2=parts2.slice(1).join(' ');
-          var mwLbl=g[1]>=1000?(g[1]/1000).toFixed(1)+'k':Math.round(g[1])+'';
-          return '<div style="display:flex;align-items:center;gap:8px;padding:3px 4px">'
-            +'<div style="width:90px;flex-shrink:0;text-align:right">'
-              +'<span style="font-size:9px;font-family:Inter,sans-serif;color:'+col+';font-weight:500">'+lbl1+'</span> '
-              +'<span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.5)">'+lbl2+'</span>'
-            +'</div>'
-            +'<div style="flex:1;height:10px;background:#f0ede8;border-radius:5px;overflow:hidden">'
-              +'<div style="height:100%;width:'+pct+'%;background:'+col+';border-radius:5px;transition:width .4s;opacity:.85"></div>'
-            +'</div>'
-            +'<div style="width:44px;font-family:IBM Plex Mono,monospace;font-size:9px;color:rgba(26,26,24,.55);text-align:right;flex-shrink:0">'+mwLbl+'</div>'
-            +'</div>';
-        }).join('')
-        +'</div>';
+      var _maxV=0;
+      _GROUPS.forEach(function(g){ _STATES.forEach(function(s){ _maxV=Math.max(_maxV,_cd[g][s]); }); });
+      var _sc=niceTicks(_maxV,4);
+      var _niceMax=_sc.max||1;
+      var _W=560,_H=300,_ml=50,_mr=10,_mt=26,_mb=54;
+      var _pw=_W-_ml-_mr, _ph=_H-_mt-_mb;
+      var _gw=_pw/_GROUPS.length;
+      var _bw=14,_bg=4;
+      var _groupBarW=3*_bw+2*_bg;
+      var _groupPadL=(_gw-_groupBarW)/2;
+      var _svg=['<svg viewBox="0 0 '+_W+' '+_H+'" width="100%" height="100%" style="display:block">'];
+      var _ticks=_sc.ticks;
+      // Unidad MW sobre el eje Y — con fondo para visibilidad
+      _svg.push('<text x="5" y="13" text-anchor="start" font-size="8" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.4)" font-weight="500" letter-spacing=".05em">MW</text>');
+      _ticks.forEach(function(t){
+        var _y=_mt+_ph-(t/_niceMax)*_ph;
+        _svg.push('<line x1="'+_ml+'" y1="'+_y.toFixed(1)+'" x2="'+(_W-_mr)+'" y2="'+_y.toFixed(1)+'" stroke="rgba(26,26,24,.07)" stroke-width="1"/>');
+        var _tl=t>=1000?(t/1000).toFixed(0)+'k':t+'';
+        _svg.push('<text x="'+(_ml-5)+'" y="'+(_y+3).toFixed(1)+'" text-anchor="end" font-size="8" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.4)">'+_tl+'</text>');
+      });
+      _GROUPS.forEach(function(g,gi){
+        var _gx=_ml+gi*_gw+_groupPadL;
+        _STATES.forEach(function(s,si){
+          var _mw=_cd[g][s]||0;
+          var _bh=_niceMax>0?Math.min(_ph,(_mw/_niceMax)*_ph):0;
+          var _x=(_gx+si*(_bw+_bg)).toFixed(1);
+          var _col=_SCOLORS[s];
+          _svg.push('<rect x="'+_x+'" y="'+_mt+'" width="'+_bw+'" height="'+_ph+'" fill="#f5f4f2" rx="3"/>');
+          if(_bh>0){
+            _svg.push('<rect x="'+_x+'" y="'+(_mt+_ph-_bh).toFixed(1)+'" width="'+_bw+'" height="'+_bh.toFixed(1)+'" fill="'+_col+'" rx="3" opacity=".88"/>');
+          }
+          // Always show value label; anchor above bar if tall, near top of track if small
+          if(_mw>0){
+            var _vl=_mw>=1000?(_mw/1000).toFixed(1)+'k':Math.round(_mw)+'';
+            var _ly=Math.max(_mt+6, _mt+_ph-_bh-3);
+            var _fill=_bh>10?'rgba(26,26,24,.55)':'rgba(26,26,24,.38)';
+            _svg.push('<text x="'+(_gx+si*(_bw+_bg)+_bw/2).toFixed(1)+'" y="'+_ly.toFixed(1)+'" text-anchor="middle" font-size="7" font-family="IBM Plex Mono,monospace" fill="'+_fill+'">'+_vl+'</text>');
+          }
+        });
+        _svg.push('<text x="'+(_ml+gi*_gw+_gw/2).toFixed(1)+'" y="'+(_mt+_ph+13)+'" text-anchor="middle" font-size="9" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.7)" font-weight="600">'+g+'</text>');
+      });
+      // Centered legend
+      var _legItems=[{l:'Aprobada',c:'#22c55e'},{l:'Pendiente',c:'#60a5fa'},{l:'Denegada',c:'#ef4444'}];
+      var _legTotalW=_legItems.length*72-4;
+      var _legStartX=(_W-_legTotalW)/2;
+      var _legY=_H-8;
+      _legItems.forEach(function(item,_li){
+        var _legX=_legStartX+_li*72;
+        _svg.push('<rect x="'+_legX.toFixed(1)+'" y="'+(_legY-7)+'" width="8" height="8" fill="'+item.c+'" rx="2"/>');
+        _svg.push('<text x="'+(_legX+11).toFixed(1)+'" y="'+_legY+'" font-size="8" font-family="Inter,sans-serif" fill="rgba(26,26,24,.55)">'+item.l+'</text>');
+      });
+      _svg.push('</svg>');
+      estadoEl.innerHTML=_svg.join('');
     }
   }
 
   // ── MW TRAMITADOS – monthly aggregation, smooth bezier curve ────────────────
   var tlEl = document.getElementById('dash-timeline-chart');
-  if(tlEl && (!ALL || !ALL.length)){ tlEl.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(26,26,24,.25);font-size:10px;font-family:Inter,sans-serif">Cargando datos de histórico…</div>'; }
+  if(tlEl && (!ALL || !ALL.length)){
+    tlEl.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(26,26,24,.25);font-size:10px;font-family:Inter,sans-serif">⏳ Cargando datos de histórico…</div>';
+  } else if(tlEl) {
   if(tlEl){
     // Use weekly if single year selected, otherwise monthly
     var _useWeekly=(window._DASH_YEARS.length===1);
@@ -4035,23 +4197,43 @@ function renderDashboard(){
         if(pr) byPeriod[pr]=(byPeriod[pr]||0)+(parseFloat(r.potencia_mw)||0);
       });
     }
-    var periods=Object.keys(byPeriod).sort();
+    // Rellenar todos los meses Jan2022→mes actual con 0 para eje X fijo
+    if(!_useWeekly){
+      var _fNow=new Date(),_fEnd=_fNow.getFullYear()*100+(_fNow.getMonth()+1);
+      for(var _fm=202101;_fm<=_fEnd;){
+        var _fk=''+_fm;
+        if(!byPeriod[_fk]) byPeriod[_fk]=0;
+        var _fy2=Math.floor(_fm/100),_fmo2=_fm%100+1;
+        if(_fmo2>12){_fy2++;_fmo2=1;} _fm=_fy2*100+_fmo2;
+      }
+    }
+        var periods=Object.keys(byPeriod).sort();
     if(!periods.length){ tlEl.innerHTML=''; }
     else {
       var vals=periods.map(function(d){return byPeriod[d];});
       var rawMax=Math.max.apply(null,vals)||1;
       var sc=niceTicks(rawMax,5);
-      var W=700, H=320, LP=44, RP=14, TP=12, BP=28;
+      var W=900, H=320, LP=54, RP=16, TP=22, BP=40;
       var uw=W-LP-RP, uh=H-TP-BP;
       var n=periods.length;
+      // ── Mapeo X por tiempo real (no por índice) ──────────────────────────
+      function _periodToMonthIdx(d){
+        return _useWeekly
+          ? (parseInt(d.slice(0,4))-2020)*52+parseInt(d.slice(5,7))
+          : (parseInt(d.slice(0,4))-2020)*12+(parseInt(d.slice(4,6))-1);
+      }
+      var _minM=_periodToMonthIdx(periods[0]);
+      var _maxM=_periodToMonthIdx(periods[periods.length-1]);
+      var _spanM=_maxM-_minM||1;
+      function _mToX(m){ return LP+(m-_minM)/_spanM*uw; }
       var pts=periods.map(function(d,i){
-        return {x:LP+i/(n-1||1)*uw, y:TP+uh-(vals[i]/sc.max*uh), d:d, mw:vals[i]};
+        return {x:_mToX(_periodToMonthIdx(d)), y:TP+uh-(vals[i]/sc.max*uh), d:d, mw:vals[i]};
       });
       // Smooth cubic bezier path
       function _bezierPath(pts){
         if(pts.length<2) return 'M '+pts[0].x.toFixed(1)+','+pts[0].y.toFixed(1);
         var d='M '+pts[0].x.toFixed(1)+','+pts[0].y.toFixed(1);
-        var t=0.25; // tension: 0=straight lines, 0.5=fully smooth
+        var t=0.25;
         for(var i=1;i<pts.length;i++){
           var p0=pts[i-1],p1=pts[i];
           var dx=p1.x-p0.x;
@@ -4063,22 +4245,29 @@ function renderDashboard(){
       var linePath=_bezierPath(pts);
       var areaPath='M '+pts[0].x.toFixed(1)+','+(TP+uh)+' '+linePath.slice(1)+' L '+pts[n-1].x.toFixed(1)+','+(TP+uh)+' Z';
       // Y-axis
+      // MW label arriba del eje Y — igual que POTENCIA POR ESTADO
+      var _tlMWlabel='<text x="5" y="14" text-anchor="start" font-size="8" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace" font-weight="500" letter-spacing=".05em">MW</text>';
       var yLabels=sc.ticks.map(function(v){
         var y2=TP+uh-(v/sc.max*uh);
-        return '<text x="'+(LP-4)+'" y="'+(y2+3)+'" text-anchor="end" font-size="8" fill="rgba(26,26,24,.35)" font-family="IBM Plex Mono,monospace">'+fmtTick(v)+'</text>'
+        return '<text x="'+(LP-4)+'" y="'+(y2+3)+'" text-anchor="end" font-size="8" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+fmtTick(v)+'</text>'
           +'<line x1="'+LP+'" y1="'+y2+'" x2="'+(LP+uw)+'" y2="'+y2+'" stroke="rgba(26,26,24,.05)" stroke-width="1"/>';
       }).join('');
-      // X-axis: year labels
+      // X-axis: años distribuidos uniformemente en el tiempo
       var _MABBR2=['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-      var xLabels=''; var lastXLbl='';
-      pts.forEach(function(p){
-        var lbl=_useWeekly?p.d.slice(0,4):p.d.slice(0,4);
-        if(lbl!==lastXLbl){
-          xLabels+='<text x="'+p.x.toFixed(1)+'" y="'+(H-4)+'" text-anchor="middle" font-size="8" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+lbl+'</text>'
-            +'<line x1="'+p.x.toFixed(1)+'" y1="'+(TP+uh)+'" x2="'+p.x.toFixed(1)+'" y2="'+(TP+uh+4)+'" stroke="rgba(26,26,24,.18)" stroke-width="1"/>';
-          lastXLbl=lbl;
-        }
-      });
+      var xLabels='';
+      var _startYr=parseInt(periods[0].slice(0,4));
+      var _endYr  =new Date().getFullYear();
+      var _lastLblX=-999;
+      for(var _y=_startYr;_y<=_endYr;_y++){
+        var _ym=_useWeekly?((_y-2020)*52):( (_y-2020)*12 );
+        if(_ym<_minM) _ym=_minM; // primer año: posición del primer dato
+        var _xpos=_mToX(_ym);
+        if(_xpos<LP||_xpos>LP+uw+2) continue;
+        if(_xpos-_lastLblX<20) continue; // evitar solapamiento
+        _lastLblX=_xpos;
+        xLabels+='<text x="'+_xpos.toFixed(1)+'" y="'+(TP+uh+14)+'" text-anchor="middle" font-size="9" fill="rgba(26,26,24,.7)" font-family="IBM Plex Mono,monospace" font-weight="600">'+_y+'</text>'
+          +'<line x1="'+_xpos.toFixed(1)+'" y1="'+(TP+uh)+'" x2="'+_xpos.toFixed(1)+'" y2="'+(TP+uh+5)+'" stroke="rgba(26,26,24,.25)" stroke-width="1"/>';
+      }
       // Dots with tooltips
       var dots=pts.map(function(p){
         var lbl;
@@ -4086,61 +4275,197 @@ function renderDashboard(){
         else { var mi=parseInt(p.d.slice(4,6))-1; lbl=(_MABBR2[mi+1]||'')+' '+p.d.slice(0,4)+': '+(p.mw>=1000?(p.mw/1000).toFixed(1)+'k':Math.round(p.mw))+' MW'; }
         return '<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="2.5" fill="#05233D" stroke="#fff" stroke-width="1.2"><title>'+lbl+'</title></circle>';
       }).join('');
-      tlEl.innerHTML='<svg width="100%" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet" style="overflow:hidden;display:block">'
+      // Guardar pts para el tooltip
+      var _tlPtsData=pts.map(function(p){ return {x:p.x,y:p.y,d:p.d,mw:p.mw}; });
+      var _MABBR3=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+      tlEl.innerHTML='<svg id="tl-svg" width="100%" height="100%" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" style="display:block">'
         +'<defs><linearGradient id="tlGradBlue" x1="0" y1="0" x2="0" y2="1">'
         +'<stop offset="0%" stop-color="#05233D" stop-opacity=".18"/>'
         +'<stop offset="80%" stop-color="#05233D" stop-opacity=".03"/>'
         +'<stop offset="100%" stop-color="#05233D" stop-opacity="0"/>'
         +'</linearGradient></defs>'
-        +yLabels+xLabels
+        +_tlMWlabel+yLabels+xLabels
         +'<path d="'+areaPath+'" fill="url(#tlGradBlue)"/>'
         +'<path d="'+linePath+'" fill="none" stroke="#05233D" stroke-width="1.8" stroke-linecap="round"/>'
-        +dots+'</svg>';
+        +'<line id="tl-cursor-line" x1="0" y1="'+TP+'" x2="0" y2="'+(TP+uh)+'" stroke="rgba(26,26,24,.2)" stroke-width="1" stroke-dasharray="3,3" style="display:none"/>'
+        +'<circle id="tl-cursor-dot" cx="0" cy="0" r="4" fill="#05233D" stroke="#fff" stroke-width="2" style="display:none"/>'
+        +dots
+        +'<rect id="tl-hit-area" x="'+LP+'" y="'+TP+'" width="'+uw+'" height="'+uh+'" fill="transparent" style="cursor:crosshair"/>'
+        +'</svg>';
+      // Attach tooltip logic
+      (function(){
+        var svg=document.getElementById('tl-svg');
+        var hit=document.getElementById('tl-hit-area');
+        var tip=document.getElementById('tl-tooltip');
+        var cline=document.getElementById('tl-cursor-line');
+        var cdot=document.getElementById('tl-cursor-dot');
+        if(!svg||!hit||!tip) return;
+        var ptsD=_tlPtsData;
+        var vbW=900, vbH=320;
+        hit.addEventListener('mousemove',function(e){
+          var rect=svg.getBoundingClientRect();
+          var mx=(e.clientX-rect.left)/rect.width*vbW;
+          // Find nearest point
+          var best=ptsD[0],bestDist=Infinity;
+          ptsD.forEach(function(p){ var d=Math.abs(p.x-mx); if(d<bestDist){bestDist=d;best=p;} });
+          if(!best) return;
+          // Cursor line + dot
+          cline.setAttribute('x1',best.x.toFixed(1)); cline.setAttribute('x2',best.x.toFixed(1)); cline.style.display='';
+          cdot.setAttribute('cx',best.x.toFixed(1)); cdot.setAttribute('cy',best.y.toFixed(1)); cdot.style.display='';
+          // Tooltip content
+          var yr=best.d.slice(0,4), mo=parseInt(best.d.slice(4,6))-1;
+          var dateStr=_MABBR3[mo]+(mo>=0?' '+yr:'');
+          var valStr=best.mw>=1000?(best.mw/1000).toFixed(1)+'k':Math.round(best.mw)+'';
+          document.getElementById('tl-tt-date').textContent=dateStr;
+          document.getElementById('tl-tt-val').textContent=valStr;
+          // Position tooltip
+          var tx=e.clientX+14, ty=e.clientY-40;
+          if(tx+130>window.innerWidth) tx=e.clientX-140;
+          tip.style.left=tx+'px'; tip.style.top=ty+'px'; tip.style.display='block';
+        });
+        hit.addEventListener('mouseleave',function(){
+          tip.style.display='none'; cline.style.display='none'; cdot.style.display='none';
+        });
+      })();
     }
-  }
+  } // end if(tlEl) inner
+  } // end else if(tlEl)
 
   // ── POTENCIA POR CCAA – barras + mapa provincial ────────────────────────────
   var provEl=document.getElementById('dash-prov-bars');
   var mapEl=document.getElementById('dash-spain-map');
   if(prjFiltered.length){
-    // Left bars: by CCAA
-    var byCom2={};
-    prjFiltered.forEach(function(p){
-      var ca=firstCCAA(p.comunidad_autonoma||'')||'Sin datos';
-      byCom2[ca]=(byCom2[ca]||0)+(parseFloat(p.potencia_mw)||0);
-    });
-    var comArr=Object.entries(byCom2).filter(function(e){return e[0]&&e[0]!=='Sin datos';}).sort(function(a,b){return b[1]-a[1];});
-    var maxCom2=comArr.length?comArr[0][1]:1;
-    var scCom=niceTicks(maxCom2,4);
-
-    // Right map: by province (first province if multiple)
+    // Left bars: CCAA mode OR province mode (when province selected → show provinces within CCAA)
+    // Right map: by province
     var byProv={};
     prjFiltered.forEach(function(p){
       var pv=(p.provincia||'').split(/[,;\/]| y /)[0].trim(); if(!pv) return;
+      // Si hay filtro CCAA activo, excluir provincias que pertenecen a otra CCAA según mapa hardcoded
+      if(_geoCCAAFilter){
+        var _pvCC=_PROV_TO_CCAA[pv]||null;
+        if(_pvCC && _pvCC!==_geoCCAAFilter) return;
+      }
       byProv[pv]=(byProv[pv]||0)+(parseFloat(p.potencia_mw)||0);
     });
     var maxProv=Object.values(byProv).reduce(function(a,b){return Math.max(a,b);},1)||1;
 
-    if(provEl){
-      provEl.innerHTML=comArr.map(function(c){
-        var pct=(c[1]/scCom.max*100).toFixed(1);
-        var lbl=c[1]>=1000?(c[1]/1000).toFixed(1)+'k':Math.round(c[1])+'';
-        var name=c[0].length>18?c[0].slice(0,17)+'…':c[0];
-        var isAct=(_geoCCAAFilter===c[0]);
-        var safeCa=c[0].replace(/'/g,"\\'");
-        var dimmed=(_geoCCAAFilter&&!isAct)?'0.35':'1';
-        return '<div style="display:flex;align-items:center;gap:6px;padding:4px 4px;border-radius:4px;cursor:pointer;opacity:'+dimmed+';background:'+( isAct?'rgba(57,148,57,.08)':'transparent')+'"'
-          +' onclick="window._DASH_CCAA_FILTER=(window._DASH_CCAA_FILTER===\''+safeCa+'\'?null:\''+safeCa+'\');window._DASH_PROV_FILTER=null;renderDashboard()">'
-          +'<div style="width:88px;font-size:9px;color:rgba(26,26,24,.7);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;font-family:Inter,sans-serif;font-weight:'+( isAct?'700':'400')+'">'+name+'</div>'
-          +'<div style="flex:1;background:#f0ede8;border-radius:2px;height:6px;overflow:hidden">'
-            +'<div style="height:100%;width:'+pct+'%;background:'+( isAct?'#2d7a2d':'#399439')+';border-radius:2px;opacity:.9;transition:width .3s"></div>'
-          +'</div>'
-          +'<div style="font-family:IBM Plex Mono,monospace;font-size:9px;color:rgba(26,26,24,.5);width:30px;text-align:right;flex-shrink:0;font-weight:'+( isAct?'700':'400')+'">'+lbl+'</div>'
-          +'</div>';
-      }).join('');
+    var _inProvMode = !!_geoProvFilter;
+    var _titleEl = document.getElementById('dash-ccaa-title');
+
+    if(_inProvMode){
+      // Find CCAA of selected province: hardcoded map first, then PROJECTS_DATA fallback
+      var _selCCAA=provToCCAA(_geoProvFilter)||null;
+      if(!_selCCAA){
+        var _allSrc=PROJECTS_DATA||[];
+        for(var _pi=0;_pi<_allSrc.length;_pi++){
+          var _pp=_allSrc[_pi];
+          var _pv=(_pp.provincia||'').split(/[,;\/]| y /)[0].trim();
+          if(_pv===_geoProvFilter){ _selCCAA=firstCCAA(_pp.comunidad_autonoma||'')||null; break; }
+        }
+      }
+      var _allSrc=PROJECTS_DATA||[];
+      // Aggregate all provinces within that CCAA (not filtered to single province)
+      var _byPIC={};
+      _allSrc.forEach(function(p){
+        var mw=parseFloat(p.potencia_mw)||0; if(!mw) return;
+        var pv=_cleanProv((p.provincia||'').split(/[,;\/]| y /)[0].trim()); if(!pv) return;
+        // Use hardcoded map first — ignores inconsistent comunidad_autonoma field
+        var pvCCAA=_PROV_TO_CCAA[pv]||firstCCAA(p.comunidad_autonoma||'')||null;
+        if(!_selCCAA||pvCCAA!==_selCCAA) return;
+        _byPIC[pv]=(_byPIC[pv]||0)+mw;
+      });
+      // Build full province list from hardcoded map — show all provinces even with 0 MW
+      var _canonProvs=(_CCAA_TO_PROVS[_selCCAA]||Object.keys(_byPIC));
+      var _seenProvs=new Set();
+      var _provArr=_canonProvs
+        .filter(function(pv){ if(_seenProvs.has(pv)) return false; _seenProvs.add(pv); return true; })
+        .map(function(pv){ return [pv, _byPIC[pv]||0]; })
+        .sort(function(a,b){ return b[1]-a[1]; });
+      // Also add any data provinces not in canonical list (edge cases)
+      Object.keys(_byPIC).forEach(function(pv){
+        if(!_seenProvs.has(pv)){ _provArr.push([pv,_byPIC[pv]]); _seenProvs.add(pv); }
+      });
+      var _scP=niceTicks(_provArr.length?Math.max.apply(null,_provArr.map(function(x){return x[1];})):1,4);
+      if(_titleEl) _titleEl.innerHTML='<span style="cursor:pointer;color:#399439;font-weight:500" onclick="window._DASH_PROV_FILTER=null;renderDashboard()" title="Volver a todas las CCAA">← CCAA</span>  <span style="color:rgba(26,26,24,.5);font-size:8px">'+(_selCCAA||'')+'</span>';
+      if(provEl){
+        provEl.innerHTML='<div style="display:flex;flex-direction:column;gap:1px;padding:2px 2px">'+_provArr.map(function(c){
+          var pct=(c[1]/_scP.max*100).toFixed(1);
+          var lbl=c[1]>=1000?(c[1]/1000).toFixed(1)+'k':Math.round(c[1])+'';
+          var name=c[0].length>16?c[0].slice(0,15)+'…':c[0];
+          var isAct=(c[0]===_geoProvFilter);
+          return '<div style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;background:'+(isAct?'rgba(57,148,57,.1)':'transparent')+';border-left:'+(isAct?'3px solid #2d7a2d':'3px solid transparent')+'"'
+            +' data-pv="'+_esc(c[0])+'" onclick="_dashProvClick(this)">'
+            +'<div style="width:86px;font-size:9px;color:rgba(26,26,24,'+(isAct?'.9':'.7')+');white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;font-family:Inter,sans-serif;font-weight:'+(isAct?'700':'400')+'">'+name+'</div>'
+            +'<div style="flex:1;background:#f5f4f2;border-radius:2px;height:6px;overflow:hidden">'
+              +'<div style="height:100%;width:'+pct+'%;background:'+(isAct?'#2d7a2d':'#5a9e5a')+';border-radius:2px;opacity:.9;transition:width .3s"></div>'
+            +'</div>'
+            +'<div style="font-family:IBM Plex Mono,monospace;font-size:9px;color:rgba(26,26,24,.5);width:30px;text-align:right;flex-shrink:0;font-weight:'+(isAct?'700':'400')+'">'+lbl+'</div>'
+            +'</div>';
+        }).join('')+'</div>';
+      }
+    } else {
+      // Normal CCAA mode
+      var byCom2={};
+      prjFiltered.forEach(function(p){
+        var ca=firstCCAA(p.comunidad_autonoma||'')||'Sin datos';
+        byCom2[ca]=(byCom2[ca]||0)+(parseFloat(p.potencia_mw)||0);
+      });
+      var comArr=Object.entries(byCom2).filter(function(e){return e[0]&&e[0]!=='Sin datos';}).sort(function(a,b){return b[1]-a[1];});
+      var maxCom2=comArr.length?comArr[0][1]:1;
+      var scCom=niceTicks(maxCom2,4);
+      if(_titleEl) _titleEl.textContent='Potencia por CCAA / Provincias';
+      if(provEl){
+        provEl.innerHTML='<div style="display:flex;flex-direction:column;gap:1px;padding:2px 2px">'+comArr.map(function(c){
+          var pct=(c[1]/scCom.max*100).toFixed(1);
+          var lbl=c[1]>=1000?(c[1]/1000).toFixed(1)+'k':Math.round(c[1])+'';
+          var name=c[0].length>18?c[0].slice(0,17)+'…':c[0];
+          var isAct=(_geoCCAAFilter===c[0]);
+          var safeCa=c[0].replace(/'/g,"\'");
+          var dimmed=(_geoCCAAFilter&&!isAct)?'0.35':'1';
+          var rowHtml='<div style="display:flex;align-items:center;gap:6px;padding:4px 4px;border-radius:4px;cursor:pointer;opacity:'+dimmed+';background:'+(isAct?'rgba(57,148,57,.08)':'transparent')+'"'
+            +' data-ca="'+_esc(c[0])+'" onclick="_dashCCAAClick(this)">'
+            +'<div style="width:88px;font-size:9px;color:rgba(26,26,24,.7);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;font-family:Inter,sans-serif;font-weight:'+(isAct?'700':'400')+'">'+name+'</div>'
+            +'<div style="flex:1;background:#f5f4f2;border-radius:2px;height:6px;overflow:hidden">'
+              +'<div style="height:100%;width:'+pct+'%;background:'+(isAct?'#2d7a2d':'#399439')+';border-radius:2px;opacity:.9;transition:width .3s"></div>'
+            +'</div>'
+            +'<div style="font-family:IBM Plex Mono,monospace;font-size:9px;color:rgba(26,26,24,.5);width:30px;text-align:right;flex-shrink:0;font-weight:'+(isAct?'700':'400')+'">'+lbl+'</div>'
+            +'</div>';
+          // Si esta CCAA está activa, añadir desglose de provincias inline
+          if(isAct){
+            var _provInline=(_CCAA_TO_PROVS[c[0]]||[]);
+            var _byPI2={};
+            (PROJECTS_DATA||[]).forEach(function(p){
+              var mw=parseFloat(p.potencia_mw)||0; if(!mw) return;
+              var pv=_cleanProv((p.provincia||''). split(/[,;\/]| y /)[0].trim()); if(!pv) return;
+              if(_PROV_TO_CCAA[pv]===c[0]) _byPI2[pv]=(_byPI2[pv]||0)+mw;
+            });
+            // Merge canonical list + any data provinces
+            var _piSeen=new Set();
+            var _piArr=(_provInline.length?_provInline:Object.keys(_byPI2))
+              .filter(function(pv){ if(_piSeen.has(pv))return false;_piSeen.add(pv);return true; })
+              .map(function(pv){return [pv,_byPI2[pv]||0];})
+              .sort(function(a,b){return b[1]-a[1];});
+            var _piMax=_piArr.reduce(function(m,x){return Math.max(m,x[1]);},1)||1;
+            rowHtml+=_piArr.map(function(pv){
+              var ppct=(pv[1]/_piMax*100).toFixed(1);
+              var plbl=pv[1]>=1000?(pv[1]/1000).toFixed(1)+'k':Math.round(pv[1])+'';
+              var pname=pv[0].length>14?pv[0].slice(0,13)+'…':pv[0];
+              var isAPv=(window._DASH_PROV_FILTER===pv[0]);
+              return '<div style="display:flex;align-items:center;gap:6px;padding:2px 4px 2px 14px;cursor:pointer;border-radius:3px;background:'+(isAPv?'rgba(57,148,57,.1)':'transparent')+'"'
+                +' data-pv="'+_esc(pv[0])+'" onclick="event.stopPropagation();_dashProvClick(this)">'
+                +'<div style="width:74px;font-size:8px;color:rgba(26,26,24,'+(pv[1]?'.6':'.3')+');white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;font-family:Inter,sans-serif">'+ pname+'</div>'
+                +'<div style="flex:1;background:#f5f4f2;border-radius:2px;height:4px;overflow:hidden">'
+                  +'<div style="height:100%;width:'+ppct+'%;background:'+(isAPv?'#2d7a2d':'#6ab66a')+';border-radius:2px;opacity:.85"></div>'
+                +'</div>'
+                +'<div style="font-family:IBM Plex Mono,monospace;font-size:8px;color:rgba(26,26,24,.4);width:30px;text-align:right;flex-shrink:0">'+ plbl+'</div>'
+                +'</div>';
+            }).join('');
+          }
+          return rowHtml;
+        }).join('')+'</div>';
+      }
     }
 
-    // Province-level SVG map (fetch GeoJSON, fallback to CCAA)
     if(mapEl){
       var byCom={};
       prjFiltered.forEach(function(p){
@@ -4184,11 +4509,12 @@ function renderDashboard(){
           var mw=byProv[norm]||byProv[name]||0;
           var d=featD(f); if(!d) return '';
           var isActProv=(_geoProvFilter&&(_geoProvFilter===norm||_geoProvFilter===name));
+          var isInCCAA=(_geoCCAAFilter&&(_PROV_TO_CCAA[norm]===_geoCCAAFilter||_PROV_TO_CCAA[name]===_geoCCAAFilter));
           var tip=name+' — '+(mw>=1000?(mw/1000).toFixed(1)+'k MW':mw>0?Math.round(mw)+' MW':'Sin datos');
           var fill=_provGreenGrad(mw);
-          var stroke=isActProv?'#2d7a2d':'rgba(255,255,255,0.85)';
-          var sw=isActProv?'1.2':'0.6';
-          var op=(_geoProvFilter&&!isActProv)?'0.72':'1';
+          var stroke=isActProv?'#2d7a2d':isInCCAA?'#2d7a2d':'rgba(255,255,255,0.85)';
+          var sw=isActProv?'1.4':isInCCAA?'1.0':'0.6';
+          var op=(_geoProvFilter&&!isActProv)?'0.72':(_geoCCAAFilter&&!isInCCAA)?'0.55':'1';
           var safeName=name.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
           return '<path d="'+d+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="'+sw+'" stroke-linejoin="round" opacity="'+op+'" style="cursor:pointer" onclick="_onProvClick(\''+safeName+'\')"><title>'+tip+'</title></path>';
         }).filter(Boolean).join('');
@@ -4197,7 +4523,7 @@ function renderDashboard(){
         var vb=window._MAP_VB;
         var vbStr=vb.x+' '+vb.y+' '+vb.w+' '+vb.h;
         var legend='<defs><linearGradient id="pgGr2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d4edda"/><stop offset="100%" stop-color="#399439"/></linearGradient></defs>';
-        var svgEl='<svg id="dash-prov-svg" viewBox="'+vbStr+'" width="100%" style="display:block;max-height:320px;cursor:crosshair">'+legend+svgPaths+'</svg>';
+        var svgEl='<svg id="dash-prov-svg" viewBox="'+vbStr+'" width="100%" style="display:block;width:100%;height:100%;cursor:crosshair">'+legend+svgPaths+'</svg>';
         var zoomCtrl='<div style="position:absolute;top:4px;right:4px;display:flex;flex-direction:column;gap:2px;z-index:5">'
           +'<button onclick="event.stopPropagation();_mapZoom(0.6)" style="width:22px;height:22px;border:1px solid rgba(26,26,24,.15);border-radius:4px;background:#fff;cursor:pointer;font-size:14px;line-height:1;display:flex;align-items:center;justify-content:center">+</button>'
           +'<button onclick="event.stopPropagation();_mapZoom(1.65)" style="width:22px;height:22px;border:1px solid rgba(26,26,24,.15);border-radius:4px;background:#fff;cursor:pointer;font-size:14px;line-height:1;display:flex;align-items:center;justify-content:center">−</button>'
@@ -4209,29 +4535,36 @@ function renderDashboard(){
 
       window._onProvClick=function(name){
         var norm=_PROV_ALIAS[name]||name;
-        if(window._DASH_PROV_FILTER===norm){
-          window._DASH_PROV_FILTER=null; window._DASH_CCAA_FILTER=null;
-          window._MAP_VB={x:0,y:0,w:280,h:185};
-        } else {
-          window._DASH_PROV_FILTER=norm; window._DASH_CCAA_FILTER=null;
-          // Auto-zoom to province
-          var svg=document.getElementById('dash-prov-svg');
-          if(svg){
-            var found=null;
-            svg.querySelectorAll('path').forEach(function(p){
-              var t=p.querySelector('title');
-              if(t&&t.textContent.indexOf(name)===0) found=p;
-            });
-            if(found){
-              try{
-                var bb=found.getBBox();
-                var pad=45; var nw=Math.max(110,bb.width+pad*2); var nh=Math.max(80,bb.height+pad*2);
-                window._MAP_VB={x:bb.x+bb.width/2-nw/2,y:bb.y+bb.height/2-nh/2,w:nw,h:nh};
-              }catch(e){}
+        var _pvCCAA=_PROV_TO_CCAA[norm]||null;
+        if(_pvCCAA){
+          if(window._DASH_CCAA_FILTER===_pvCCAA){
+            window._DASH_CCAA_FILTER=null; window._DASH_PROV_FILTER=null;
+            window._MAP_VB={x:0,y:0,w:280,h:185};
+          } else {
+            window._DASH_CCAA_FILTER=_pvCCAA; window._DASH_PROV_FILTER=null;
+            // Auto-zoom to selected CCAA
+            var svg=document.getElementById('dash-prov-svg');
+            if(svg){
+              var found=null;
+              svg.querySelectorAll('path').forEach(function(p){
+                var t=p.querySelector('title');
+                if(t&&t.textContent.indexOf(name)===0) found=p;
+              });
+              if(found){
+                try{
+                  var bb=found.getBBox();
+                  var pad=45; var nw=Math.max(110,bb.width+pad*2); var nh=Math.max(80,bb.height+pad*2);
+                  window._MAP_VB={x:bb.x+bb.width/2-nw/2,y:bb.y+bb.height/2-nh/2,w:nw,h:nh};
+                }catch(e){}
+              }
             }
           }
+          renderDashboard();
+        } else {
+          window._DASH_PROV_FILTER=(window._DASH_PROV_FILTER===norm)?null:norm;
+          window._DASH_CCAA_FILTER=null;
+          renderDashboard();
         }
-        renderDashboard();
       };
       window._mapZoom=function(f){
         var vb=window._MAP_VB||{x:0,y:0,w:280,h:185};
@@ -4266,7 +4599,7 @@ function renderDashboard(){
           {id:'VAL',name:'Comunidad Valenciana',d:'M180,102 L210,86 L218,104 L216,150 L200,162 L184,150 L183,124 Z'},
           {id:'MUR',name:'Murcia',d:'M184,150 L200,162 L206,176 L190,178 L172,168 L178,154 Z'},
         ];
-        var AL2={'Galicia':'GAL','Asturias':'AST','Cantabria':'CNT','País Vasco':'PVA','Navarra':'NAV','La Rioja':'RIO','Aragón':'ARA','Cataluña':'CAT','Castilla y León':'CYL','Castilla Y León':'CYL','Madrid':'MAD','Comunidad de Madrid':'MAD','Castilla-La Mancha':'CLM','Extremadura':'EXT','Andalucía':'AND','Comunidad Valenciana':'VAL','Región de Murcia':'MUR','Murcia':'MUR'};
+        var AL2={'Galicia':'GAL','Asturias':'AST','Principado de Asturias':'AST','Cantabria':'CNT','País Vasco':'PVA','Navarra':'NAV','Comunidad Foral de Navarra':'NAV','La Rioja':'RIO','Aragón':'ARA','Cataluña':'CAT','Castilla y León':'CYL','Castilla Y León':'CYL','Madrid':'MAD','Comunidad de Madrid':'MAD','Castilla-La Mancha':'CLM','Extremadura':'EXT','Andalucía':'AND','Comunidad Valenciana':'VAL','Región de Murcia':'MUR','Murcia':'MUR','Islas Baleares':'BAL','Canarias':'CAN'};
         var mwById={};
         Object.entries(byCom).forEach(function(e){var id=AL2[e[0]];if(id)mwById[id]=(mwById[id]||0)+e[1];});
         function ccGreen(mw){if(!mw)return '#eef7ee';var t=Math.min(1,mw/maxCom);return 'rgb('+Math.round(212+(57-212)*t)+','+Math.round(237+(148-237)*t)+','+Math.round(218+(57-218)*t)+')';}
@@ -6264,7 +6597,7 @@ function closeOportModal(){
 
 window.addEventListener('popstate', function(e){
   if(e.state && e.state.view) setView(e.state.view, true);
-  else if(location.hash) setView(location.hash.slice(1)||'busqueda', true);
+  else if(location.hash) setView(location.hash.slice(1)||'inicio', true);
 });
 
 function jumpToSet(nombre, tension, precomputedKey){
@@ -6400,7 +6733,7 @@ function toggleOportDetail(id){
 // ═══════════════════════════════════════════════════════
 //  BÚSQUEDA — project search with filter panel + detail
 // ═══════════════════════════════════════════════════════
-var SRCH_PANEL_OPEN = true;
+var SRCH_PANEL_OPEN = false;
 var SRCH_SORT_KEY   = 'fecha_primera';
 var SRCH_SORT_ASC   = false;
 var SRCH_DETAIL_PID = null;
@@ -6409,55 +6742,208 @@ var SRCH_MUNI_SELECTED = [];
 var SRCH_ALL_MUNIS  = [];
 var SRCH_INIT_DONE  = false;
 
-var SRCH_TECH_COLORS  = {'Fotovoltaica':'#d97706','Eólica':'#2563eb','BESS':'#7c3aed','Biometano':'#16a34a','Biogás':'#15803d','H2':'#0891b2','LAT':'#64748b','Termosolar':'#ea580c','Hidráulica':'#0e7490','Otro':'#6b7280'};
-var SRCH_EST_LABELS   = {otorgado:'Otorgado',favorable:'Favorable',informacion_publica:'Inf. Pública',en_tramitacion:'En Tramitación',denegado:'Denegado',desistido:'Desistido',desfavorable:'Desfavorable',archivado:'Archivado',suspendido:'Suspendido',otro:'Otro'};
-var SRCH_EST_COLORS   = {otorgado:'#16a34a',favorable:'#2563eb',informacion_publica:'#9333ea',en_tramitacion:'#d97706',denegado:'#dc2626',desistido:'#6b7280',desfavorable:'#dc2626',archivado:'#6b7280',suspendido:'#f59e0b',otro:'#6b7280'};
+// Tecnologías canónicas para filtro (orden fijo)
+var SRCH_TECH_CANONICAL = [
+  {display:'BESS',         values:['BESS','BESS Standalone','BESS+Eólica','BESS+Fotovoltaica'], color:'#7c3aed'},
+  {display:'Biogás',       values:['Biogás'],                                                   color:'#15803d'},
+  {display:'Biometano',    values:['Biometano'],                                                color:'#16a34a'},
+  {display:'Cogeneración', values:['Cogeneración'],                                             color:'#92400e'},
+  {display:'Data Center',  values:['Data Center'],                                              color:'#64748b'},
+  {display:'Eólica',       values:['Eólica'],                                                   color:'#2563eb'},
+  {display:'Fotovoltaica', values:['Fotovoltaica'],                                             color:'#d97706'},
+  {display:'Hidráulica',   values:['Hidráulica'],                                               color:'#0e7490'},
+  {display:'Hidrógeno',    values:['H2','Hidrógeno'],                                           color:'#0891b2'},
+  {display:'LAT/SET',      values:['LAT/SET','LAT','SET'],                                      color:'#475569'},
+  {display:'Termosolar',   values:['Termosolar'],                                               color:'#ea580c'},
+  {display:'Otros',        values:null,                                                         color:'#9ca3af'},
+];
+var SRCH_TECH_COLORS  = (function(){var m={};SRCH_TECH_CANONICAL.forEach(function(tc){(tc.values||[tc.display]).forEach(function(v){m[v]=tc.color;});});return m;})();
+// Estados agrupados: clave→{label,values,color}
+var SRCH_ESTADO_GROUPS = [
+  {key:'favorable',          label:'Favorable / Otorgado',     values:['favorable','otorgado','no_necesario'],       color:'#2563eb'},
+  {key:'en_tramitacion',     label:'En Tramitación',           values:['en_tramitacion','suspendido'],               color:'#d97706'},
+  {key:'informacion_publica',label:'Inf. Pública',             values:['informacion_publica'],                       color:'#9333ea'},
+  {key:'denegado',           label:'Desfavorable / Denegado',  values:['denegado','desfavorable','inadmitido'],      color:'#dc2626'},
+  {key:'archivado',          label:'Archivado / Desistido',    values:['archivado','desistido','revocado'],           color:'#6b7280'},
+  {key:'caducado',           label:'Caducado',                 values:['caducado'],                                  color:'#f59e0b'},
+];
+var SRCH_EST_LABELS   = (function(){var m={};SRCH_ESTADO_GROUPS.forEach(function(g){g.values.forEach(function(v){m[v]=g.label;});});return m;})();
+var SRCH_EST_COLORS   = (function(){var m={};SRCH_ESTADO_GROUPS.forEach(function(g){g.values.forEach(function(v){m[v]=g.color;});});return m;})();
+// Permit options — organized by procedural phase
+var SRCH_PERM_GROUPS = [
+  {
+    group:'Ambiental', color:'#15803d',
+    items:[
+      {key:'InfDAE',label:'Inf.DAE',sublabel:'Inf. Determinación de Afección Ambiental',
+       values:['InfDAE'],color:'#166534'},
+      {key:'DIA',label:'DIA',sublabel:'Declaración de Impacto Ambiental',
+       values:['DIA','EsIA','EIA','AAU','AAI','ModDIA','ModAAU','ModAAI'],color:'#15803d'},
+    ]
+  },
+  {
+    group:'Administrativa', color:'#1d4ed8',
+    items:[
+      {key:'AAP',label:'AAP',sublabel:'Autorización Administrativa Previa',
+       values:['AAP','ModAAP'],color:'#1d4ed8'},
+      {key:'AAC',label:'AAC',sublabel:'Autorización Administrativa de Construcción',
+       values:['AAC','AAP_AAC','ModAAC','ModAAP_AAC','ModAAP_ModAAC','ModAAP_ModAAC_DUP'],color:'#2563eb'},
+      {key:'DUP',label:'DUP',sublabel:'Declaración de Utilidad Pública',
+       values:['DUP','LAP','OcupacionUP'],color:'#7c3aed'},
+      {key:'AAE',label:'AAE',sublabel:'Autorización de Explotación',
+       values:['AAE','ModAAE'],color:'#ea580c'},
+    ]
+  },
+  {
+    group:'Urbanístico', color:'#0891b2',
+    items:[
+      {key:'AUESR',label:'AUESR / CU',sublabel:'Autori. Uso Excepcional Suelo Rústico / Calificación Urbanística',
+       values:['AUESR','CU'],color:'#0891b2'},
+    ]
+  },
+  {
+    group:'Terrenos', color:'#854d0e',
+    items:[
+      {key:'MUP',label:'MUP',sublabel:'Montes de Utilidad Pública (ocupación)',
+       values:['MUP'],color:'#854d0e'},
+      {key:'Servidumbre',label:'Servidumbre',sublabel:'Servidumbre de paso',
+       values:['Servidumbre'],color:'#92400e'},
+    ]
+  },
+  {
+    group:'Otros', color:'#64748b',
+    items:[
+      {key:'LicObras',  label:'Lic.Obras',   sublabel:'Licencia de Obras (municipal)',               values:['LicObras'],                      color:'#64748b'},
+      {key:'PlanEsp',   label:'Plan Esp.',   sublabel:'Plan Especial',                               values:['PlanEsp'],                       color:'#64748b'},
+      {key:'Otro',      label:'Otro',        sublabel:'Otros / sin clasificar',                      values:['Otro'],                          color:'#9ca3af'},
+    ]
+  },
+];
+var SRCH_PERM_OPTS = (function(){var a=[];SRCH_PERM_GROUPS.forEach(function(g){g.items.forEach(function(it){a.push(it);});});return a;})();
 var SRCH_TRAM_COLORS  = {DIA:'#1d4ed8',AAP:'#7c3aed',AAC:'#0891b2',DUP:'#ea580c',LAP:'#b45309',EsIA:'#15803d',INF:'#64748b',AAE:'#16a34a','Mod.AAP':'#6d28d9','Mod.AAC':'#0e7490'};
+// Provincias canónicas (normalización)
+var _PROV_NORM_SRCH = {'Ourense':'Orense','Gipuzkoa':'Guipúzcoa','Guipuzcoa':'Guipúzcoa','Bizkaia':'Vizcaya','Girona':'Gerona','Lleida':'Lérida','Illes Balears':'Islas Baleares','Baleares':'Islas Baleares','Alacant':'Alicante','Castelló':'Castellón','Araba':'Álava','Nafarroa':'Navarra','A Coruna':'A Coruña'};
+function _normProvSrch(p){ return (_PROV_NORM_SRCH[p]||p).replace(/\s*\(principalmente\)/gi,'').replace(/\s*\(.*?\)/g,'').trim(); }
+function _normMuniSrch(m){ return m.replace(/\s*\(.*?\)/g,'').trim(); }
 
+// ── Filter accordion state ──
+var _srchFoldOpen={};
+function _srchToggleFold(key){
+  _srchFoldOpen[key]=!_srchFoldOpen[key];
+  var c=document.getElementById('srch-fold-'+key);
+  var chev=document.getElementById('srch-fold-chev-'+key);
+  if(c){c.style.display=_srchFoldOpen[key]?'block':'none';}
+  if(chev){chev.style.transform=_srchFoldOpen[key]?'rotate(90deg)':'none';}
+}
+function _hasSrchFilters(){
+  var q=document.getElementById('srch-q');if(q&&q.value.trim())return true;
+  var mwMin=document.getElementById('srch-mw-min');if(mwMin&&mwMin.value&&parseFloat(mwMin.value)>0)return true;
+  var mwMax=document.getElementById('srch-mw-max');if(mwMax&&mwMax.value&&mwMax.value!=='')return true;
+  var prov=document.getElementById('srch-f-prov');if(prov&&prov.value)return true;
+  if(SRCH_MUNI_SELECTED&&SRCH_MUNI_SELECTED.length>0)return true;
+  var allChecks=['srch-tech-checks','srch-estado-checks','srch-permiso-checks','srch-hibrida-checks'];
+  for(var i=0;i<allChecks.length;i++){
+    var w=document.getElementById(allChecks[i]);
+    if(w&&w.querySelector('input[type=checkbox]:checked'))return true;
+  }
+  return false;
+}
+function _updateSrchClearBtn(){
+  var btn=document.getElementById('srch-clear-btn');
+  if(!btn)return;
+  var active=_hasSrchFilters();
+  btn.style.display=active?'flex':'none';
+  // Also update per-section badges
+  var badgeDefs={
+    mw:function(){var mn=document.getElementById('srch-mw-min'),mx=document.getElementById('srch-mw-max');return (mn&&mn.value&&parseFloat(mn.value)>0)||(mx&&mx.value);},
+    tech:function(){var w=document.getElementById('srch-tech-checks');return w&&!!w.querySelector('input:checked');},
+    hibrida:function(){var w=document.getElementById('srch-hibrida-checks');return w&&!!w.querySelector('input:checked');},
+    permiso:function(){var w=document.getElementById('srch-permiso-checks');return w&&!!w.querySelector('input:checked');},
+    estado:function(){var w=document.getElementById('srch-estado-checks');return w&&!!w.querySelector('input:checked');},
+    prov:function(){var el=document.getElementById('srch-f-prov');return el&&!!el.value;},
+    muni:function(){return SRCH_MUNI_SELECTED&&SRCH_MUNI_SELECTED.length>0;}
+  };
+  _syncFilterBtnStyle();
+  Object.keys(badgeDefs).forEach(function(k){
+    var badge=document.getElementById('srch-fold-badge-'+k);
+    if(!badge)return;
+    var active=badgeDefs[k]();
+    badge.style.display=active?'inline':'none';
+    if(active){
+      var count=0;
+      if(k==='prov'){count=1;}
+      else if(k==='muni'){count=SRCH_MUNI_SELECTED.length;}
+      else{var w=document.getElementById('srch-'+k+'-checks');if(w)count=w.querySelectorAll('input:checked').length;}
+      badge.textContent=count||'✓';
+    }
+  });
+}
 function initBusqueda(){
   if(!PROJECTS_DATA || !PROJECTS_DATA.length) return;
   SRCH_INIT_DONE = true;
 
-  // Tecnología: usar solo la tecnología BASE (antes del '+'), normalizando alias
-  var _baseTechSet=new Set();
+  // Tecnología: lista fija canónica (SRCH_TECH_CANONICAL) — solo mostrar las que existen en los datos
+  var _rawTechsInData=new Set();
   PROJECTS_DATA.forEach(function(p){
     var t=(p.tecnologia||'').split('+')[0].trim();
     if(t==='FV') t='Fotovoltaica';
     if(t==='LAT'||t==='SET') t='LAT/SET';
-    if(t) _baseTechSet.add(t);
+    if(t) _rawTechsInData.add(t);
   });
-  var techs=[..._baseTechSet].sort();
   var techWrap=document.getElementById('srch-tech-checks');
   if(techWrap){
-    techWrap.innerHTML=techs.map(function(t){
-      var col=SRCH_TECH_COLORS[t]||'#6b7280';
+    techWrap.innerHTML=SRCH_TECH_CANONICAL.filter(function(tc){
+      if(!tc.values) return _rawTechsInData.size>0; // Otros: show if any data
+      return tc.values.some(function(v){return _rawTechsInData.has(v);});
+    }).map(function(tc){
       return '<label style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;font-size:12px;font-family:inherit">'
-        +'<input type="checkbox" value="'+escHtml(t)+'" onchange="renderBusqueda()" style="accent-color:'+col+';cursor:pointer;flex-shrink:0">'
-        +'<span style="color:rgba(26,26,24,.78)">'+escHtml(t)+'</span></label>';
+        +'<input type="checkbox" value="'+escHtml(tc.display)+'" onchange="renderBusqueda()" style="accent-color:'+tc.color+';cursor:pointer;flex-shrink:0">'
+        +'<span style="color:rgba(26,26,24,.78)">'+escHtml(tc.display)+'</span></label>';
     }).join('');
   }
 
-  // Estado (checkboxes)
-  var ests=[...new Set(PROJECTS_DATA.map(function(p){return p.estado_actual;}).filter(Boolean))].sort();
+  // Permiso (checkboxes agrupados por grupo)
+  var permisoWrap=document.getElementById('srch-permiso-checks');
+  if(permisoWrap){
+    permisoWrap.innerHTML=SRCH_PERM_GROUPS.map(function(g){
+      var items=g.items.map(function(po){
+        return '<label style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;font-size:12px;font-family:inherit">'
+          +'<input type="checkbox" value="'+po.key+'" onchange="renderBusqueda()" style="accent-color:'+po.color+';cursor:pointer;flex-shrink:0">'
+          +'<span style="display:flex;flex-direction:column">'
+          +'<span style="color:rgba(26,26,24,.85);font-weight:600">'+po.label+'</span>'
+          +(po.sublabel?'<span style="color:rgba(26,26,24,.38);font-size:9.5px;line-height:1.2">'+po.sublabel+'</span>':'')
+          +'</span></label>';
+      }).join('');
+      return '<div style="margin-bottom:8px">'
+        +'<div style="font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:'+g.color+';margin-bottom:4px;padding:0 4px">'+g.group+'</div>'
+        +items+'</div>';
+    }).join('');
+  }
+
+  // Estado: grupos fijos (SRCH_ESTADO_GROUPS)
   var estWrap=document.getElementById('srch-estado-checks');
   if(estWrap){
-    estWrap.innerHTML=ests.map(function(e){
-      var col=SRCH_EST_COLORS[e]||'#6b7280';
+    estWrap.innerHTML=SRCH_ESTADO_GROUPS.map(function(g){
       return '<label style="display:flex;align-items:center;gap:6px;padding:3px 4px;border-radius:4px;cursor:pointer;font-size:12px;font-family:inherit">'
-        +'<input type="checkbox" value="'+escHtml(e)+'" onchange="renderBusqueda()" style="accent-color:'+col+';cursor:pointer;flex-shrink:0">'
-        +'<span style="color:rgba(26,26,24,.78)">'+escHtml(SRCH_EST_LABELS[e]||e)+'</span></label>';
+        +'<input type="checkbox" value="'+g.key+'" onchange="renderBusqueda()" style="accent-color:'+g.color+';cursor:pointer;flex-shrink:0">'
+        +'<span style="color:rgba(26,26,24,.78)">'+escHtml(g.label)+'</span></label>';
     }).join('');
   }
 
-  // Provincia: split por TODOS los separadores usados (coma, punto y coma, slash, " y ")
-  function _splitProvStr(s){ return (s||'').split(/[,;]|\s+\/\s+|\s+y\s+/).map(function(v){return v.trim();}).filter(Boolean); }
+  // Provincia: normalizar nombres, deduplicar, excluir CCAA
+  var _KNOWN_CCAA=new Set(['Andalucía','Aragón','Asturias','Baleares','Canarias','Cantabria',
+    'Castilla y León','Castilla-La Mancha','Cataluña','Ceuta','Comunidad Valenciana',
+    'Extremadura','Galicia','Islas Canarias','La Rioja','Madrid','Melilla','Murcia',
+    'Navarra','País Vasco','Región de Murcia','Illes Balears','Comunitat Valenciana',
+    'C. Valenciana','Comunidad de Madrid']);
+  function _splitProvStr(s){ return (s||'').split(/[,;]|\s+\/\s+|\s+y\s+/).map(function(v){return _normProvSrch(v.trim());}).filter(Boolean); }
   var _provSet=new Set();
-  PROJECTS_DATA.forEach(function(p){ _splitProvStr(p.provincia).forEach(function(v){_provSet.add(v);}); });
-  var provs=[..._provSet].sort();
+  PROJECTS_DATA.forEach(function(p){ _splitProvStr(p.provincia).forEach(function(v){
+    if(v&&!_KNOWN_CCAA.has(v)) _provSet.add(v);
+  }); });
+  var provs=[..._provSet].sort(function(a,b){return a.localeCompare(b,'es',{sensitivity:'base'});});
   var ps=document.getElementById('srch-f-prov');
-  if(ps){ ps.innerHTML='<option value="">Seleccionar provincia</option>';
+  if(ps){ ps.innerHTML='<option value="">Todas las provincias</option>';
     provs.forEach(function(p){var o=document.createElement('option');o.value=p;o.textContent=p;ps.appendChild(o);}); }
-  // Expose split helper globally for reuse
   window._splitProvStr=_splitProvStr;
 
   // Range max
@@ -6484,7 +6970,7 @@ function renderBusqueda(){
   }
   var techs_sel=_getCheckedVals('srch-tech-checks');
   var estados_sel=_getCheckedVals('srch-estado-checks');
-  var hibrida=document.getElementById('srch-f-hibrida')?document.getElementById('srch-f-hibrida').value:'';
+  var permisos_sel=_getCheckedVals('srch-permiso-checks');
   var prov=document.getElementById('srch-f-prov')?document.getElementById('srch-f-prov').value:'';
   var muni=document.getElementById('srch-f-muni')?document.getElementById('srch-f-muni').value:'';
   var mwMin=parseFloat(document.getElementById('srch-mw-min')&&document.getElementById('srch-mw-min').value)||0;
@@ -6493,30 +6979,52 @@ function renderBusqueda(){
 
   var filtered=PROJECTS_DATA.filter(function(p){
     if(q){var hay=[p.nombre,p.promotor,p.provincia,p.municipio,p.subestacion].filter(Boolean).join(' ').toLowerCase();if(!hay.includes(q))return false;}
-    // Tech: match against BASE tech, normalizing aliases
+    // Tech: match against canonical display name using SRCH_TECH_CANONICAL
     if(techs_sel.length){
       var _raw=p.tecnologia||'';
       var _base=_raw.split('+')[0].trim();
       if(_base==='FV') _base='Fotovoltaica';
       if(_base==='LAT'||_base==='SET') _base='LAT/SET';
-      if(techs_sel.indexOf(_base)<0)return false;
+      var _techMatch=techs_sel.some(function(sel){
+        var tc=SRCH_TECH_CANONICAL.find(function(c){return c.display===sel;});
+        if(!tc)return false;
+        if(!tc.values) return !SRCH_TECH_CANONICAL.some(function(c2){return c2.values&&c2.values.indexOf(_base)>=0;});
+        return tc.values.indexOf(_base)>=0;
+      });
+      if(!_techMatch)return false;
     }
-    // Hibridación: Sí = tiene '+' en tecnología, No = no tiene
-    if(hibrida){
-      var _isH=(p.tecnologia||'').indexOf('+')>=0;
-      if(hibrida==='SI'&&!_isH)return false;
-      if(hibrida==='NO'&&_isH)return false;
+    // Permiso: match solo ultimo_tipo_permiso
+    if(permisos_sel.length){
+      var _tp=p.ultimo_tipo_permiso||'';
+      var _permMatch=permisos_sel.some(function(pk){
+        var po=SRCH_PERM_OPTS.find(function(x){return x.key===pk;});
+        return po&&po.values.indexOf(_tp)>=0;
+      });
+      if(!_permMatch)return false;
     }
-    // Estado multi-select
-    if(estados_sel.length&&estados_sel.indexOf(p.estado_actual)<0)return false;
+    // Estado: match against group values
+    if(estados_sel.length){
+      var _estMatch=estados_sel.some(function(gk){
+        var gr=SRCH_ESTADO_GROUPS.find(function(g){return g.key===gk;});
+        return gr&&gr.values.indexOf(p.estado_actual)>=0;
+      });
+      if(!_estMatch)return false;
+    }
+    // Hibridación filter
+    var hibrida_sel=_getCheckedVals('srch-hibrida-checks');
+    if(hibrida_sel.length&&!(hibrida_sel.includes('si')&&hibrida_sel.includes('no'))){
+      var _isHib=(p.tecnologia||'').indexOf('+')>=0;
+      if(hibrida_sel.includes('si')&&!_isHib)return false;
+      if(hibrida_sel.includes('no')&&_isHib)return false;
+    }
     // Provincia: split por todos separadores
     if(prov){
       if(_splitP(p.provincia).indexOf(prov)<0)return false;
     }
-    if(muni){var ms=(p.municipio||'').split(',').map(function(m){return m.trim();});if(!ms.includes(muni))return false;}
+    if(muni){var ms=(p.municipio||'').split(/[,;\/ ]|\s+y\s+/).map(function(m){return _normMuniSrch(m.trim());}).filter(Boolean);if(!ms.includes(_normMuniSrch(muni)))return false;}
     if(SRCH_MUNI_SELECTED.length>0){
-      var pm=(p.municipio||'').split(',').map(function(m){return m.trim();});
-      if(!SRCH_MUNI_SELECTED.some(function(m){return pm.includes(m);}))return false;
+      var pm=(p.municipio||'').split(/[,;\/ ]|\s+y\s+/).map(function(m){return _normMuniSrch(m.trim());}).filter(Boolean);
+      if(!SRCH_MUNI_SELECTED.some(function(m){return pm.includes(_normMuniSrch(m));}))return false;
     }
     var mw=p.potencia_mw||0;
     if(mwMin>0&&mw<mwMin)return false;
@@ -6533,6 +7041,7 @@ function renderBusqueda(){
   });
 
   var totalMw=filtered.reduce(function(s,p){return s+(p.potencia_mw||0);},0);
+  _updateSrchClearBtn();
   var cnt=document.getElementById('srch-count');
   if(cnt) cnt.textContent=filtered.length.toLocaleString('es-ES')+' proyectos · '+(totalMw>0?Math.round(totalMw).toLocaleString('es-ES')+' MW':'—');
 
@@ -6545,24 +7054,26 @@ function renderBusqueda(){
   var rows=filtered.map(function(p){
     var tc=SRCH_TECH_COLORS[p.tecnologia]||'#6b7280';
     var ec=SRCH_EST_COLORS[p.estado_actual]||'#6b7280';
-    var _estBase=SRCH_EST_LABELS[p.estado_actual]||p.estado_actual||'—';
+    var _estLabel=SRCH_EST_LABELS[p.estado_actual]||p.estado_actual||'—';
     var _tipoP=p.ultimo_tipo_permiso||'';
-    var el=_estBase+(_tipoP?' '+_tipoP:'');
+    var _tipoC=SRCH_TRAM_COLORS[_tipoP]||'#64748b';
     var fecha=p.fecha_primera?p.fecha_primera.replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1'):'—';
     var mw=p.potencia_mw?p.potencia_mw.toLocaleString('es-ES',{maximumFractionDigits:1})+' MW':'—';
-    var munis=(p.municipio||'').split(',');
-    var muniTxt=munis[0].trim()||'—';
+    var munis=(p.municipio||'').split(/[,;\/]|\s+y\s+/).map(function(m){return _normMuniSrch(m.trim());}).filter(Boolean);
+    var muniTxt=munis[0]||'—';
     var moreM=munis.length>1?' <span style="color:rgba(26,26,24,.35);font-size:10px">+'+((munis.length-1))+'</span>':'';
-    var pid=p.id.replace(/'/g,"\\'");
+    var pid=p.id.replace(/'/g,"\'");
+    var _provDisp=_normProvSrch(p.provincia||'');
     return '<tr class="srch-row-hover" style="border-bottom:1px solid rgba(26,26,24,.06)">'
       +'<td style="padding:8px 12px;white-space:nowrap;color:rgba(26,26,24,.45);font-size:11px">'+fecha+'</td>'
       +'<td style="padding:8px 12px;max-width:220px"><span data-pid="'+escHtml(pid)+'" onclick="openProjDetail(this.dataset.pid)" class="srch-proj-link">'+escHtml(p.nombre||'Sin nombre')+'</span></td>'
       +'<td style="padding:8px 12px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;font-size:12px">'+mw+'</td>'
-      +'<td style="padding:8px 12px"><span style="background:'+tc+'18;color:'+tc+';padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500;white-space:nowrap">'+escHtml(p.tecnologia||'—')+'</span></td>'
+      +'<td style="padding:8px 12px">'+function(){var _rawT=p.tecnologia||'—';var _baseT=_rawT.split('+')[0].trim();if(_baseT==='FV')_baseT='Fotovoltaica';var _tcEntry=SRCH_TECH_CANONICAL.find(function(c){return c.values&&c.values.indexOf(_baseT)>=0;})||null;var _tc2=_tcEntry?_tcEntry.color:tc;var _hib=_rawT.indexOf('+')>=0?'<span title="Hibridado" style="background:#f3e8ff;color:#7c3aed;padding:1px 5px;border-radius:8px;font-size:10px;font-weight:600;margin-left:3px">⊕</span>':'';return '<span style="background:'+_tc2+'18;color:'+_tc2+';padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500;white-space:nowrap">'+escHtml(_baseT)+'</span>'+_hib;}()+'</td>'
       +'<td style="padding:8px 12px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(26,26,24,.65)">'+escHtml(p.promotor||'—')+'</td>'
-      +'<td style="padding:8px 12px;white-space:nowrap"><span style="background:'+ec+'18;color:'+ec+';padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500">'+el+'</span></td>'
+      +'<td style="padding:8px 12px;white-space:nowrap"><span style="background:'+ec+'18;color:'+ec+';padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500">'+_estLabel+'</span></td>'
+      +'<td style="padding:8px 12px;white-space:nowrap">'+(_tipoP?'<span style="background:'+_tipoC+'18;color:'+_tipoC+';padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500">'+escHtml(_tipoP)+'</span>':'<span style="color:rgba(26,26,24,.25)">—</span>')+'</td>'
       +'<td style="padding:8px 12px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(26,26,24,.55);font-size:11px">'+escHtml(p.subestacion||'—')+'</td>'
-      +'<td style="padding:8px 12px;white-space:nowrap;color:rgba(26,26,24,.7)">'+escHtml(p.provincia||'—')+'</td>'
+      +'<td style="padding:8px 12px;white-space:nowrap;color:rgba(26,26,24,.7)">'+escHtml(_provDisp||'—')+'</td>'
       +'<td style="padding:8px 12px;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(26,26,24,.6)">'+escHtml(muniTxt)+moreM+'</td>'
       +'<td style="padding:8px 12px;text-align:center;color:rgba(26,26,24,.35);font-size:11px">'+(p.n_publicaciones||1)+'</td>'
       +'</tr>';
@@ -6585,9 +7096,16 @@ function srchSortBy(key){
 function toggleSrchFilters(){
   SRCH_PANEL_OPEN=!SRCH_PANEL_OPEN;
   var fp=document.getElementById('srch-fp');
-  var btn=document.getElementById('srch-filter-btn');
   if(fp){fp.style.width=SRCH_PANEL_OPEN?'260px':'0';fp.style.overflow=SRCH_PANEL_OPEN?'auto':'hidden';}
-  if(btn){btn.style.background=SRCH_PANEL_OPEN?'#1a1a18':'#fff';btn.style.color=SRCH_PANEL_OPEN?'#fff':'#1a1a18';btn.style.borderColor=SRCH_PANEL_OPEN?'#1a1a18':'rgba(26,26,24,.2)';}
+  _syncFilterBtnStyle();
+}
+function _syncFilterBtnStyle(){
+  var btn=document.getElementById('srch-filter-btn');if(!btn)return;
+  // Black = panel open OR filters active; white = panel closed AND no filters
+  var active=SRCH_PANEL_OPEN||_hasSrchFilters();
+  btn.style.background=active?'#1a1a18':'#fff';
+  btn.style.color=active?'#fff':'#1a1a18';
+  btn.style.borderColor=active?'#1a1a18':'rgba(26,26,24,.2)';
 }
 
 function onSrchProvChange(){
@@ -6597,11 +7115,11 @@ function onSrchProvChange(){
   SRCH_MUNI_SELECTED=[];renderMuniChips();
   if(prov&&PROJECTS_DATA){
     var ms=new Set();
-    var _sP=window._splitProvStr||(function(s){return (s||'').split(/[,;]|\s+\/\s+|\s+y\s+/).map(function(v){return v.trim();}).filter(Boolean);});
+    var _sP=window._splitProvStr||(function(s){return (s||'').split(/[,;]|\s+\/\s+|\s+y\s+/).map(function(v){return _normProvSrch(v.trim());}).filter(Boolean);});
     PROJECTS_DATA.filter(function(p){
       return _sP(p.provincia).indexOf(prov)>=0;
     }).forEach(function(p){
-      (p.municipio||'').split(',').forEach(function(m){m=m.trim();if(m)ms.add(m);});
+      (p.municipio||'').split(/[,;\/]|\s+y\s+/).forEach(function(m){m=_normMuniSrch(m.trim());if(m)ms.add(m);});
     });
     SRCH_ALL_MUNIS=[...ms].sort();
     SRCH_ALL_MUNIS.forEach(function(m){var o=document.createElement('option');o.value=m;o.textContent=m;muniSel.appendChild(o);});
@@ -6616,6 +7134,7 @@ function onSrchMwInput(){
   if(rmn&&imn&&imn.value!=='') rmn.value=imn.value;
   if(rmx&&imx&&imx.value!=='') rmx.value=imx.value;
   updateRangeTrack();renderBusqueda();
+  _updateSrchClearBtn();
 }
 
 function syncRangeToInput(type){
@@ -6639,9 +7158,9 @@ function updateRangeTrack(){
 
 function clearSrchFilters(){
   ['srch-q','srch-mw-min','srch-mw-max'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
-  ['srch-f-hibrida','srch-f-prov'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
-  // Uncheck all tech/estado checkboxes
-  ['srch-tech-checks','srch-estado-checks'].forEach(function(cid){
+  ['srch-f-prov'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  // Uncheck all tech/estado/permiso checkboxes
+  ['srch-tech-checks','srch-estado-checks','srch-permiso-checks','srch-hibrida-checks'].forEach(function(cid){
     var wrap=document.getElementById(cid);
     if(wrap)wrap.querySelectorAll('input[type=checkbox]').forEach(function(cb){cb.checked=false;});
   });
@@ -6664,7 +7183,7 @@ function openMuniPopup(){
 }
 function closeMuniPopup(){
   document.getElementById('muni-popup-overlay').style.display='none';
-  if(window._muniLeafMap){try{window._muniLeafMap.remove();}catch(e){}window._muniLeafMap=null;window._muniLeafMarkers={};}
+  if(window._muniLeafMap){try{window._muniLeafMap.remove();}catch(e){}window._muniLeafMap=null;window._muniLeafLayers={};window._muniLeafMarkers={};}
 }
 
 function renderMuniListPopup(){
@@ -6682,11 +7201,13 @@ function toggleMuniTemp(m,chk){
   if(chk){SRCH_MUNI_TEMP.add(m);_addMuniMarker(m);}
   else{
     SRCH_MUNI_TEMP.delete(m);
-    if(window._muniLeafMap&&window._muniLeafMarkers&&window._muniLeafMarkers[m]){
-      window._muniLeafMap.removeLayer(window._muniLeafMarkers[m]);delete window._muniLeafMarkers[m];
+    if(window._muniLeafMap&&window._muniLeafLayers&&window._muniLeafLayers[m]){
+      try{window._muniLeafMap.removeLayer(window._muniLeafLayers[m]);}catch(e){}
+      delete window._muniLeafLayers[m];
     }
   }
   updateMuniSelCount();
+  renderMuniListPopup();
 }
 function updateMuniSelCount(){
   var el=document.getElementById('muni-sel-count');
@@ -6767,69 +7288,87 @@ function _buildCCAAFallbackSVG(highlightCCAAId){
 }
 function renderMuniMapSvg(prov){
   var el=document.getElementById('muni-map-svg');if(!el)return;
-  el.style.background='#e8e8e4';
-  if(window._muniLeafMap){try{window._muniLeafMap.remove();}catch(e){}window._muniLeafMap=null;}
+  el.style.background='#e8e8e4';el.style.minHeight='220px';
+  if(window._muniLeafMap){try{window._muniLeafMap.remove();}catch(e){}window._muniLeafMap=null;window._muniLeafLayers={};}
   el.innerHTML='<div style="width:100%;height:100%;min-height:220px;display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(26,26,24,.4)">Cargando mapa…</div>';
   if(typeof L==='undefined'){
     var ccaaId=_PROV_TO_CCAA[prov]||null;
-    el.innerHTML=ccaaId?_buildCCAAFallbackSVG(ccaaId):'<div style="font-size:12px;color:rgba(26,26,24,.35);text-align:center">'+escHtml(prov)+'</div>';
+    el.innerHTML=ccaaId?_buildCCAAFallbackSVG(ccaaId):'<div style="padding:20px;text-align:center;color:rgba(26,26,24,.35)">'+escHtml(prov)+'</div>';
     return;
   }
-  var query=prov+', España';
-  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(query)+'&limit=1&countrycodes=es',
-    {headers:{'Accept-Language':'es'}})
+  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(prov+', España')+'&limit=1&countrycodes=es',{headers:{'Accept-Language':'es'}})
     .then(function(r){return r.json();})
     .then(function(res){
       if(!res||!res.length)throw new Error('no results');
       var lat=parseFloat(res[0].lat),lon=parseFloat(res[0].lon);
-      el.innerHTML='';el.style.minHeight='220px';
-      var map=L.map(el,{zoomControl:true,attributionControl:false,scrollWheelZoom:false}).setView([lat,lon],8);
-      window._muniLeafMap=map;
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18}).addTo(map);
-      window._muniLeafMarkers={};
-      // Re-add markers for already-selected munis
-      SRCH_MUNI_TEMP.forEach(function(m){_addMuniMarker(m);});
+      el.innerHTML='';
+      var map=L.map(el,{zoomControl:true,attributionControl:false,scrollWheelZoom:true}).setView([lat,lon],9);
+      window._muniLeafMap=map;window._muniLeafLayers={};
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19}).addTo(map);
+      try{L.tileLayer.wms('https://www.ign.es/wms-inspire/unidades-administrativas',{
+        layers:'AU.AdministrativeUnit',format:'image/png',transparent:true,opacity:0.65,version:'1.3.0'
+      }).addTo(map);}catch(e){}
+      map.on('click',function(e){
+        fetch('https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat='+e.latlng.lat+'&lon='+e.latlng.lng+'&zoom=10&addressdetails=1&polygon_geojson=1',{headers:{'Accept-Language':'es'}})
+          .then(function(r){return r.json();})
+          .then(function(data){
+            if(!data||!data.address)return;
+            var muni=data.address.municipality||data.address.city||data.address.town||data.address.village||data.address.hamlet||'';
+            muni=_normMuniSrch(muni);if(!muni)return;
+            if(SRCH_ALL_MUNIS.indexOf(muni)<0){
+              var found=SRCH_ALL_MUNIS.find(function(m){return m.toLowerCase()===muni.toLowerCase();});
+              if(found)muni=found;
+            }
+            var wasSel=SRCH_MUNI_TEMP.has(muni);
+            toggleMuniTemp(muni,!wasSel);
+            if(!wasSel){
+              if(data.geojson&&window._muniLeafMap&&window._muniLeafLayers){
+                var layer=L.geoJSON(data.geojson,{style:{color:'#1a1a18',weight:2,fillColor:'#1a1a18',fillOpacity:0.18}});
+                layer.addTo(window._muniLeafMap);
+                layer.bindTooltip(muni,{permanent:true,direction:'center',className:'muni-tip-lbl'});
+                window._muniLeafLayers[muni]=layer;
+              }
+            } else {
+              if(window._muniLeafLayers&&window._muniLeafLayers[muni]){
+                try{window._muniLeafMap.removeLayer(window._muniLeafLayers[muni]);}catch(e){}
+                delete window._muniLeafLayers[muni];
+              }
+            }
+          }).catch(function(){});
+      });
+      var hint=L.control({position:'topright'});
+      hint.onAdd=function(){var d=L.DomUtil.create('div','');d.innerHTML='<div style="background:rgba(255,255,255,.85);padding:4px 8px;border-radius:5px;font-size:10px;color:rgba(26,26,24,.5);pointer-events:none">Clic para seleccionar municipio</div>';return d;};
+      hint.addTo(map);
+      SRCH_MUNI_TEMP.forEach(function(m){_addMuniLayer(m);});
     })
     .catch(function(){
       var ccaaId=_PROV_TO_CCAA[prov]||null;
-      el.innerHTML=ccaaId?_buildCCAAFallbackSVG(ccaaId):'<div style="font-size:12px;color:rgba(26,26,24,.35);text-align:center;padding:20px">'+escHtml(prov)+'</div>';
+      el.innerHTML=ccaaId?_buildCCAAFallbackSVG(ccaaId):'<div style="padding:20px;text-align:center;color:rgba(26,26,24,.35)">'+escHtml(prov)+'</div>';
     });
 }
 var _MUNI_GEOCACHE={};
-function _addMuniMarker(muni){
+function _addMuniLayer(muni){
   if(!window._muniLeafMap||!muni)return;
-  if(window._muniLeafMarkers&&window._muniLeafMarkers[muni])return;
+  if(window._muniLeafLayers&&window._muniLeafLayers[muni])return;
   var prov=document.getElementById('srch-f-prov')?document.getElementById('srch-f-prov').value:'';
   var q=muni+(prov?', '+prov:'')+', España';
-  if(_MUNI_GEOCACHE[q]){
-    _placeMarker(muni,_MUNI_GEOCACHE[q].lat,_MUNI_GEOCACHE[q].lon); return;
-  }
-  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(q)+'&limit=1&countrycodes=es',
-    {headers:{'Accept-Language':'es'}})
+  if(_MUNI_GEOCACHE[q]&&_MUNI_GEOCACHE[q].geojson){_placeMuniLayer(muni,_MUNI_GEOCACHE[q].geojson);return;}
+  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(q)+'&limit=1&countrycodes=es&polygon_geojson=1',{headers:{'Accept-Language':'es'}})
     .then(function(r){return r.json();})
     .then(function(res){
       if(!res||!res.length)return;
-      var lat=parseFloat(res[0].lat),lon=parseFloat(res[0].lon);
-      _MUNI_GEOCACHE[q]={lat:lat,lon:lon};
-      _placeMarker(muni,lat,lon);
+      _MUNI_GEOCACHE[q]={geojson:res[0].geojson};
+      _placeMuniLayer(muni,res[0].geojson);
     }).catch(function(){});
 }
-function _placeMarker(muni,lat,lon){
-  if(!window._muniLeafMap||!window._muniLeafMarkers)return;
-  if(window._muniLeafMarkers[muni])return;
-  var icon=L.divIcon({className:'',html:'<div title="'+muni+'" style="width:10px;height:10px;background:#1a1a18;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.4);cursor:pointer"></div>',iconSize:[10,10],iconAnchor:[5,5]});
-  var m=L.marker([lat,lon],{icon:icon}).addTo(window._muniLeafMap);
-  m.bindTooltip(muni,{direction:'top',offset:[0,-6]});
-  m.on('click',function(){
-    toggleMuniTemp(muni,false);
-    window._muniLeafMap.removeLayer(m);
-    delete window._muniLeafMarkers[muni];
-    // uncheck in list
-    var list=document.getElementById('muni-list');
-    if(list){var cb=list.querySelector('input[data-muni="'+muni.replace(/"/g,'\\"')+'"]');if(cb)cb.checked=false;}
-    updateMuniSelCount();
-  });
-  window._muniLeafMarkers[muni]=m;
+function _addMuniMarker(muni){_addMuniLayer(muni);}
+function _placeMuniLayer(muni,geojson){
+  if(!window._muniLeafMap||!window._muniLeafLayers||!geojson)return;
+  if(window._muniLeafLayers[muni])return;
+  var layer=L.geoJSON(geojson,{style:{color:'#1a1a18',weight:2,fillColor:'#1a1a18',fillOpacity:0.18}});
+  layer.addTo(window._muniLeafMap);
+  layer.bindTooltip(muni,{permanent:true,direction:'center',className:'muni-tip-lbl'});
+  window._muniLeafLayers[muni]=layer;
 }
 
 // ── Project detail ────────────────────────────────────
@@ -6997,26 +7536,54 @@ function renderDetMiniMap(prov, muni){
     if(!PROJECTS_DATA || !PROJECTS_DATA.length) PROJECTS_DATA = window.PROJECTS_INLINE.proyectos;
   }
   // Determine initial view from URL hash or default
-  var initView = (location.hash && location.hash.slice(1)) || 'busqueda';
+  var initView = (location.hash && location.hash.slice(1)) || 'inicio';
   setView(initView, /*noPush=*/true);
   // Renderizar dashboard inmediatamente con datos estáticos (no espera Sheets)
   setTimeout(function(){ try{ renderDashboard(); }catch(e){} }, 0);
+  // Fallback: si búsqueda sigue vacía tras 200ms, forzar initBusqueda
+  setTimeout(function(){
+    if(!SRCH_INIT_DONE && PROJECTS_DATA && PROJECTS_DATA.length){ try{ initBusqueda(); }catch(e){} }
+    else if(SRCH_INIT_DONE){ try{ renderBusqueda(); }catch(e){} }
+  }, 200);
   // Start the app: verify session then call loadData()
   if(!CONFIG.AUTH.enabled || localStorage.getItem(CONFIG.AUTH.session_key)){
     showApp();
   }
-  // Polling: fuerza render cada 800ms si KPIs siguen en blanco
-  (function _dashPoll(){
-    var kpi=document.getElementById('dash-kpi-total');
-    if(kpi && (kpi.textContent==='\u2014'||kpi.textContent==='')){
+  // Failsafe: si tras 4s el timeline sigue con "Cargando" pero ALL ya tiene datos, forzar render
+  setTimeout(function(){
+    var tl=document.getElementById('dash-timeline-chart');
+    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && ALL && ALL.length){
       try{ renderDashboard(); }catch(e){}
     }
-    setTimeout(_dashPoll, 800);
-  })();
+  }, 4000);
+  // Si tras 8s ALL sigue vacío, mostrar botón de reintento en el timeline
+  setTimeout(function(){
+    var tl=document.getElementById('dash-timeline-chart');
+    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && (!ALL || !ALL.length)){
+      tl.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:6px">'
+        +'<span style="font-size:10px;color:rgba(26,26,24,.45);font-family:Inter,sans-serif">No se pudieron cargar datos históricos</span>'
+        +'<button onclick="loadData().then(function(){try{renderDashboard();}catch(e){}}).catch(function(){})" style="padding:4px 12px;border:1px solid rgba(26,26,24,.2);border-radius:12px;background:#fff;font-size:10px;cursor:pointer;font-family:Inter,sans-serif">&#8635; Reintentar</button>'
+        +'</div>';
+    }
+  }, 8000);
 })();
 
 
 </script>
 
 <!-- OPORT DETAIL MODAL -->
-<div class="oport-modal-bg" id="oport-modal-bg" onclick="if(event.target===t
+<div class="oport-modal-bg" id="oport-modal-bg" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="oport-modal">
+    <div class="oport-modal-hdr">
+      <div>
+        <div class="oport-modal-title" id="oport-modal-title">—</div>
+        <div class="oport-modal-sub" id="oport-modal-sub">—</div>
+      </div>
+      <button class="oport-modal-close" onclick="document.getElementById('oport-modal-bg').classList.remove('open')">✕</button>
+    </div>
+    <div class="oport-modal-body" id="oport-modal-body"></div>
+  </div>
+</div>
+
+</body>
+</html>
