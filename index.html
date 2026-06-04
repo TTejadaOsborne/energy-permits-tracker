@@ -7116,41 +7116,79 @@ function renderBusqueda(){
   window._SRCH_FILTERED_PROJECTS = filtered; // for CSV export
 }
 
+function _csvEsc(v){
+  if(v==null||v===undefined)v='';
+  return '"'+(v+'').replace(/"/g,'""')+'"';
+}
+function _fmtFecha(v){
+  return (v+'').replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1');
+}
 function exportSrchCSV(){
   var data=window._SRCH_FILTERED_PROJECTS||[];
   if(!data.length){alert('No hay resultados para exportar.');return;}
-  var cols=['fecha_primera','fecha_ultima','nombre','promotor','tecnologia','potencia_mw','ultimo_tipo_permiso','estado_actual','subestacion','provincia','municipio','n_publicaciones'];
-  var labels=['Fecha primera','Fecha ultima','Nombre proyecto','Promotor','Tecnologia','Potencia MW','Permiso','Estado','Punto de conexion','Provincia','Municipio','Nº publicaciones'];
   var sep=';';
-  var lines=[labels.map(function(l){return '"'+l+'"';}).join(sep)];
+  // One row per publicacion — full detail including URL
+  var headers=[
+    'Proyecto ID','Nombre proyecto','Promotor','Tecnologia','Hibridacion',
+    'Potencia MW','Provincia','Municipio','CCAA','Punto de conexion','Tension kV',
+    'Estado actual','Nº publicaciones','Fecha primera','Fecha ultima',
+    // Per-publicacion fields
+    'Pub fecha','Pub boletin','Pub id_boe','Pub tipo_permiso','Pub permisos_adicionales',
+    'Pub estado','Pub es_fallido','Pub mw_liberados','Pub titulo','Pub URL'
+  ];
+  var lines=[headers.map(_csvEsc).join(sep)];
   data.forEach(function(p){
-    lines.push(cols.map(function(c){
-      var v=p[c]; if(v==null||v===undefined)v='';
-      if(c==='fecha_primera'||c==='fecha_ultima') v=(v+'').replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1');
-      v=(v+'').replace(/"/g,'""');
-      return '"'+v+'"';
-    }).join(sep));
+    var pubs=(p.publicaciones&&p.publicaciones.length)?p.publicaciones:[{}];
+    var isHib=(p.tecnologia||'').indexOf('+')>=0;
+    var baseCols=[
+      p.id||'',
+      p.nombre||'',
+      p.promotor||'',
+      (p.tecnologia||'').split('+')[0].trim(),
+      isHib?'Sí':'No',
+      p.potencia_mw!=null?p.potencia_mw:'',
+      p.provincia||'',
+      p.municipio||'',
+      p.comunidad_autonoma||'',
+      p.subestacion||'',
+      p.tension_kv!=null?p.tension_kv:'',
+      p.estado_actual||'',
+      p.n_publicaciones||pubs.length,
+      _fmtFecha(p.fecha_primera),
+      _fmtFecha(p.fecha_ultima)
+    ];
+    pubs.forEach(function(pub){
+      var permAdic=(pub.permisos_adicionales||[]);
+      var permAdicStr=Array.isArray(permAdic)?permAdic.join('|'):permAdic;
+      var pubCols=[
+        _fmtFecha(pub.fecha||pub.fecha_publicacion||''),
+        pub.boletin||'',
+        pub.id_boe||'',
+        pub.tipo_permiso||'',
+        permAdicStr,
+        pub.estado||pub.estado_permiso||'',
+        pub.es_fallido?'Sí':'No',
+        pub.mw_liberados!=null?pub.mw_liberados:'',
+        pub.titulo||pub.titulo_original||'',
+        pub.url||pub.url_boletin||''
+      ];
+      lines.push(baseCols.concat(pubCols).map(_csvEsc).join(sep));
+    });
   });
   var csv='\uFEFF'+lines.join('\r\n');
+  var fname='nodalys_detalle_'+new Date().toISOString().slice(0,10)+'.csv';
   try {
     var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
     var url=URL.createObjectURL(blob);
     var a=document.createElement('a');
-    a.style.display='none';
-    a.href=url;
-    a.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
-    document.body.appendChild(a);
-    a.click();
-    setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},200);
-  } catch(e) {
-    // Fallback: data URI para navegadores sin soporte Blob
-    var encoded=encodeURIComponent(csv);
+    a.style.display='none'; a.href=url; a.download=fname;
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},300);
+  } catch(e){
     var a2=document.createElement('a');
-    a2.href='data:text/csv;charset=utf-8,'+encoded;
-    a2.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
-    document.body.appendChild(a2);
-    a2.click();
-    setTimeout(function(){document.body.removeChild(a2);},200);
+    a2.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);
+    a2.download=fname; document.body.appendChild(a2); a2.click();
+    setTimeout(function(){document.body.removeChild(a2);},300);
   }
 }
 function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
