@@ -990,6 +990,7 @@ const CONFIG = {
       <input id="srch-q" type="text" placeholder="Buscar por nombre o promotor…" style="flex:1;max-width:380px;padding:7px 12px;border:1px solid rgba(26,26,24,.15);border-radius:8px;font-size:12px;font-family:inherit;outline:none;background:#fafaf8;transition:border-color .15s" oninput="renderBusqueda()" onfocus="this.style.borderColor='rgba(26,26,24,.4)'" onblur="this.style.borderColor='rgba(26,26,24,.15)'">
       <!-- Count -->
       <div id="srch-count" style="font-size:11px;color:rgba(26,26,24,.4);margin-left:auto;white-space:nowrap">— proyectos</div>
+      <button onclick="exportSrchCSV()" id="srch-csv-btn" title="Exportar resultados actuales a CSV" style="display:none;padding:5px 12px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↓ CSV</button>
       <!-- Filtros toggle -->
       <button id="srch-filter-btn" onclick="toggleSrchFilters()" style="display:flex;align-items:center;gap:5px;padding:6px 12px;border:1px solid rgba(26,26,24,.2);border-radius:7px;background:#fff;color:#1a1a18;font-size:12px;font-family:inherit;cursor:pointer;transition:background .15s,color .15s">
         <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><rect x="2" y="3.5" width="12" height="1.5" rx=".75"/><rect x="2" y="7.25" width="8" height="1.5" rx=".75"/><rect x="2" y="11" width="5" height="1.5" rx=".75"/></svg>
@@ -7070,6 +7071,8 @@ function renderBusqueda(){
 
   var totalMw=filtered.reduce(function(s,p){return s+(p.potencia_mw||0);},0);
   _updateSrchClearBtn();
+  var _csvBtn=document.getElementById('srch-csv-btn');
+  if(_csvBtn) _csvBtn.style.display=filtered.length?'block':'none';
   var cnt=document.getElementById('srch-count');
   if(cnt) cnt.textContent=filtered.length.toLocaleString('es-ES')+' proyectos · '+(totalMw>0?Math.round(totalMw).toLocaleString('es-ES')+' MW':'—');
 
@@ -7107,8 +7110,29 @@ function renderBusqueda(){
       +'</tr>';
   });
   tbody.innerHTML=rows.join('');
+  window._SRCH_FILTERED_PROJECTS = filtered; // for CSV export
 }
 
+function exportSrchCSV(){
+  var data=window._SRCH_FILTERED_PROJECTS||[];
+  if(!data.length){alert('No hay resultados para exportar.');return;}
+  var cols=['fecha_primera','fecha_ultima','nombre','promotor','tecnologia','potencia_mw','ultimo_tipo_permiso','estado_actual','subestacion','provincia','municipio','n_publicaciones'];
+  var labels=['Fecha primera','Fecha ultima','Nombre proyecto','Promotor','Tecnologia','Potencia MW','Permiso','Estado','Punto de conexion','Provincia','Municipio','Nº publicaciones'];
+  var sep=';';
+  var header=labels.map(function(l){return '"'+l+'"';}).join(sep);
+  var rows=data.map(function(p){
+    return cols.map(function(c){
+      var v=p[c]; if(v==null)v='';
+      if(c==='fecha_primera'||c==='fecha_ultima') v=(v+'').replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1');
+      return '"'+(v+'').replace(/"/g,'""')+'"';
+    }).join(sep);
+  }).join('\r\n');
+  var blob=new Blob(['﻿'+header+'\r\n'+rows],{type:'text/csv;charset=utf-8;'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
+  a.click();
+}
 function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 function srchSortBy(key){
@@ -7412,6 +7436,7 @@ function openProjDetail(pid){
   var q=document.getElementById('srch-q');if(q)q.style.display='none';
   var cnt=document.getElementById('srch-count');if(cnt)cnt.style.display='none';
   var fb=document.getElementById('srch-filter-btn');if(fb)fb.style.display='none';
+  var cb=document.getElementById('srch-csv-btn');if(cb)cb.style.display='none';
   renderProjDetail(p);
 }
 
@@ -7424,6 +7449,8 @@ function closeProjDetail(){
   var q=document.getElementById('srch-q');if(q)q.style.display='';
   var cnt=document.getElementById('srch-count');if(cnt)cnt.style.display='';
   var fb=document.getElementById('srch-filter-btn');if(fb)fb.style.display='';
+  var cb=document.getElementById('srch-csv-btn');
+  if(cb&&window._SRCH_FILTERED_PROJECTS&&window._SRCH_FILTERED_PROJECTS.length) cb.style.display='block';
 }
 
 function renderProjDetail(p){
