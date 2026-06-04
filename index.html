@@ -2535,9 +2535,10 @@ async function loadData(){
 
 function showError(msg,detail){
   hide("loading");hide("table-wrap");show("error-box");
-  document.getElementById("error-msg").textContent=msg;
-  document.getElementById("error-detail").textContent=detail;
-  document.getElementById("updated-dot").style.background="#f87171";
+  var _em=document.getElementById("error-msg");    if(_em) _em.textContent=msg;
+  var _ed=document.getElementById("error-detail"); if(_ed) _ed.textContent=detail;
+  var _dot=document.getElementById("updated-dot"); if(_dot) _dot.style.background="#f87171";
+  console.error("[Nodalys] Error:",msg,detail);
 }
 
 // ── FILTROS ──────────────────────────────────────────────────────────────────
@@ -2603,6 +2604,7 @@ function buildDropdown(key, vals, defaultLbl){
   const btn = document.getElementById("btn-" + key);
   const sel = FILTROS[key];
 
+  if(!dd || !sel) return; // elementos no presentes en este contexto de UI
   dd.innerHTML = "";
 
   // Opción "Todos"
