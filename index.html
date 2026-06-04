@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nodalys · Permisos Energéticos</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNiIgZmlsbD0iIzFhMWExOCIvPjx0ZXh0IHg9IjE1IiB5PSIyMyIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsc2VyaWYiIGZvbnQtc2l6ZT0iMTkiIGZvbnQtd2VpZ2h0PSI1MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNmNWY0ZjIiPk48L3RleHQ+PGNpcmNsZSBjeD0iMjIiIGN5PSIyMSIgcj0iMi4yIiBmaWxsPSIjYzlhODRjIi8+PC9zdmc+">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2ZmZmZmZiIvPgogIDwhLS0gTiBvdXRsaW5lIG5hdnkgLS0+CiAgPHBvbHlsaW5lIHBvaW50cz0iNSwyNiA1LDYgMTUsMjAgMjUsNiAyNSwyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMGQxYjNlIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPgogIDwhLS0gYm90dG9tIGJhciBvZiBOIC0tPgogIDxsaW5lIHgxPSI1IiB5MT0iMjYiIHgyPSIyNSIgeTI9IjI2IiBzdHJva2U9IiMwZDFiM2UiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIi8+CiAgPCEtLSBncmVlbiBiYXJzIChjaGFydCBpbnNpZGUgTikgLS0+CiAgPHJlY3QgeD0iMTMiIHk9IjE4IiB3aWR0aD0iMi41IiBoZWlnaHQ9IjUiIHJ4PSIwLjQiIGZpbGw9IiMzYWFhMzUiLz4KICA8cmVjdCB4PSIxNyIgeT0iMTMiIHdpZHRoPSIyLjUiIGhlaWdodD0iMTAiIHJ4PSIwLjQiIGZpbGw9IiMzYWFhMzUiLz4KICA8cmVjdCB4PSIyMSIgeT0iOCIgd2lkdGg9IjIuNSIgaGVpZ2h0PSIxNSIgcng9IjAuNCIgZmlsbD0iIzNhYWEzNSIvPgo8L3N2Zz4=">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -880,7 +880,7 @@ const CONFIG = {
 <!-- ── SIDEBAR ── -->
 <aside class="sidebar">
   <div class="brand">
-    <div class="brand-name">N<span>.</span></div>
+    <div class="brand-name" style="display:flex;align-items:center;justify-content:center;padding:4px 0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="44" height="44"><polyline points="8,50 8,10 28,38 48,10 48,50" fill="none" stroke="#0d1b3e" stroke-width="4" stroke-linejoin="miter" stroke-linecap="square"/><line x1="8" y1="50" x2="48" y2="50" stroke="#0d1b3e" stroke-width="4" stroke-linecap="square"/><rect x="24" y="34" width="5" height="10" rx="1" fill="#3aaa35"/><rect x="32" y="25" width="5" height="19" rx="1" fill="#3aaa35"/><rect x="40" y="16" width="5" height="28" rx="1" fill="#3aaa35"/></svg></div>
   </div>
 
   <nav style="width:100%;padding:8px 0">
@@ -931,7 +931,7 @@ const CONFIG = {
 <!-- ── LOGIN ── -->
 <div class="login-overlay" id="login-overlay">
   <div class="login-card">
-    <div class="login-logo">Noda<span>lys</span></div>
+    <div class="login-logo" style="display:flex;align-items:center;justify-content:center;gap:10px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="36" height="36"><polyline points="8,50 8,10 28,38 48,10 48,50" fill="none" stroke="#0d1b3e" stroke-width="4" stroke-linejoin="miter" stroke-linecap="square"/><line x1="8" y1="50" x2="48" y2="50" stroke="#0d1b3e" stroke-width="4" stroke-linecap="square"/><rect x="24" y="34" width="5" height="10" rx="1" fill="#3aaa35"/><rect x="32" y="25" width="5" height="19" rx="1" fill="#3aaa35"/><rect x="40" y="16" width="5" height="28" rx="1" fill="#3aaa35"/></svg>Noda<span>lys</span></div>
     <div class="login-subtitle">Gestión de permisos · Red eléctrica</div>
     <div class="login-field">
       <label>Contraseña de acceso</label>

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "generado": "2026-06-04",
-  "total": 5528,
+  "total": 5531,
   "proyectos": [
     {
       "id": "prj_07641",
@@ -4927,6 +4927,148 @@
       ]
     },
     {
+      "id": "prj_05445",
+      "nombre": "Nudo Montearenas Sur 400 kV e Infraestructuras de Evacuación Nudo Montearenas 220 kV",
+      "promotor": "Erbienergia Inversiones, S.L.",
+      "tecnologia": "LAT/SET",
+      "potencia_mw": 279,
+      "provincia": "León",
+      "municipio": "Quintana del Castillo, Villagatón, Magaz de Cepeda, Brazuelo",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Nudo Montearenas Este 400 kV",
+      "tension_kv": 400,
+      "expedientes": [
+        "BOCYL-D-23012023-17",
+        "BOCYL-D-23012023-20",
+        "LE-AT-2020/253",
+        "LE-AT-253/2020"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20210420",
+      "fecha_ultima": "20240627",
+      "n_publicaciones": 8,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-20042021-26",
+          "fecha": "20210420",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2021/04/20/html/BOCYL-D-20042021-26.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una infraestructura de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Torre del Bierzo, Castropodame, Molinaseca y Congosto (León). Expte.: 2",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Infraestructura de evacuación común para plantas fotovoltaicas y eólicas. Incluye tres componentes principales: SET Fotovoltaica 1 – Destriana 132/30 kV (8 transformadores 55 MVA), LAAT 132 kV SET Eólica 1 y 2 - Veldedo – SET Fotovoltaica 1 – Destriana (29,176 km, 83 apoyos), SET Colectora Eólica 1 y 2 – Veldedo 400/132/30 kV (4 transformadores 40 MVA + 2 bancadas 600 MVA). Presupuesto total aproximado: 14 millones de euros. Sometido a información pública conforme a RD 1955/2000, Decreto-Ley 4/2020, Decreto 13/2013, Ley 24/2013 y Ley 21/2013 de Evaluación Ambiental."
+        },
+        {
+          "id_boe": "BOCYL-D-26112021-31",
+          "fecha": "20211126",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2021/11/26/html/BOCYL-D-26112021-31.do",
+          "titulo": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa y autorización administrativa de construcción y evaluación de impacto ambiental, de infraestructura de evacuación de plantas fotovoltaicas, denominada «Nudo Montearenas Sur 220 kv», en los términos municipales de Valderrey, Destriana y Quintana y Congosto (León). Expte.: 279/2020.",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Infraestructura de evacuación de plantas fotovoltaicas. Se somete a información pública documentación complementaria del EsIA presentada por el promotor. Plazo de alegaciones: 30 días. Expediente publicado en Portal de Energía y Minería de Castilla y León."
+        },
+        {
+          "id_boe": "BOCYL-D-23122021-30",
+          "fecha": "20211223",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2021/12/23/html/BOCYL-D-23122021-30.do",
+          "titulo": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa y autorización administrativa de construcción y evaluación de impacto ambiental de la infraestructura de evacuación de la planta fotovoltaica denominada «Nudo Montearenas Sur 400 kv», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Torre del Bierzo, Castropodam",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Se trata de la infraestructura de evacuación de plantas fotovoltaicas. La información pública se reabre por presentación de documentación complementaria relevante al Estudio de Impacto Ambiental. Plazo de 30 días para reclamaciones desde la publicación. El expediente 254/2020 mencionado en el texto se refiere al mismo proyecto (infraestructura de evacuación)."
+        },
+        {
+          "id_boe": "BOCYL-D-23012023-17",
+          "fecha": "20230123",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2023/01/23/html/BOCYL-D-23012023-17.do",
+          "titulo": "ORDEN MAV/35/2023, de 16 de enero, por la que se dicta la declaración de impacto ambiental del proyecto «Infraestructuras de evacuación nudo Montearenas 400 kv Este», en los términos municipales Quintana del Castillo, Villagatón y Brazuelo, en la provincia de León, promovido por «Erbienergía Inversiones, S.L.».",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de infraestructuras de evacuación (subestación transformadora SET Fotovoltaica 3 Villarmeriel 132/30 kV y líneas de transmisión de energía eléctrica) diseñado para servir como nudo de evacuación de energía generada por nuevas instalaciones de generación renovables (plantas fotovoltaicas y parques eólicos) en la zona. La DIA se dicta como evaluación ambiental ordinaria según art. 7.1.d) de la Ley 21/2013, a solicitud del promotor. La resolución se publica en BOCyL conforme al art. 59 de la Ley de Prevención Ambiental de Castilla y León."
+        },
+        {
+          "id_boe": "BOCYL-D-23012023-20",
+          "fecha": "20230123",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2023/01/23/html/BOCYL-D-23012023-20.do",
+          "titulo": "ORDEN MAV/39/2023, de 13 de enero, por la que se dicta la declaración de impacto ambiental del proyecto «Infraestructuras de evacuación nudo Montearenas 400 kv Sur», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Castropodame, Molinaseca y Congosto, en la provincia de León, promovido por «Erbienergía Inversiones, S.L.».",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "DIA favorable dictada por la Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio. Proyecto de línea de transmisión de energía eléctrica a 400 kV con longitud superior a 3 km. Tramitado como evaluación ambiental ordinaria (conforme art. 7.1.d de Ley 21/2013). Las infraestructuras permitirán evacuar energía de plantas fotovoltaicas y eólicas proyectadas en la zona."
+        },
+        {
+          "id_boe": "BOCYL-D-28112023-20",
+          "fecha": "20231128",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2023/11/28/html/BOCYL-D-28112023-20.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento de los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur 400 kV e infraestructuras de evacuación Nudo Montearenas 220 kV plantas fotovoltaicas zona Quintana y Congosto», en los términos municipales de ",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Infraestructura de evacuación común para plantas fotovoltaicas y parques eólicos. Proyectos modificados para dar cumplimiento a los condicionados de la DIA. Incluye cuatro subestaciones transformadoras (SET FV1-Destriana 132/30 kV, SET Quintana y Congosto 132/30 kV, SET Elevadora Cto2 220/132 kV, SET Colectora Veldedo 400/132/30 kV). Expediente 253/2020 (Nudo Montearenas Sur 400 kV) y Expediente 279/2020 (Nudo Montearenas Sur 220 kV). Presupuesto total de las tres primeras subestaciones: 11.298.869,24 €."
+        },
+        {
+          "id_boe": "BOCYL-D-27062024-22",
+          "fecha": "20240627",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/06/27/html/BOCYL-D-27062024-22.do",
+          "titulo": "RESOLUCIÓN de 18 de junio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede la autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento a los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur 400 kV e infraestructuras de evacuación Nudo Montearenas 220 kV ",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de autorización para proyectos modificados para dar cumplimiento a condicionados de la Declaración de Impacto Ambiental. Infraestructura de evacuación común para plantas fotovoltaicas y eólicas. Se otorgan conjuntamente Autorización Administrativa Previa (AAP) y Autorización Administrativa de Construcción (AAC). Expedientes tramitados: 253/2020 (Nudo Montearenas Sur 400 kV) y 279/2020 (Nudo Montearenas 220 kV). Promotor: Pedro García Merayo en representación de Erbienergia Inversiones, S.L."
+        },
+        {
+          "id_boe": "BOCYL-D-27062024-23",
+          "fecha": "20240627",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/06/27/html/BOCYL-D-27062024-23.do",
+          "titulo": "RESOLUCIÓN de 18 de junio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede la autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento a los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas del denominado «Nudo Montearenas Este 400 kV», en los términos municipales de Quintana del Castillo, Villag",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que concede AAP y AAC para infraestructuras de evacuación común para plantas fotovoltaicas. El proyecto ha sido modificado para dar cumplimiento a los condicionados de la DIA emitida el 16 de enero de 2023. Se trata de infraestructura de red de alta tensión (400 kV) destinada a evacuar energía de múltiples plantas fotovoltaicas. El expediente incluye análisis de avifauna y ha contado con información pública, consultas medioambientales y diversos informes de organismos competentes."
+        }
+      ]
+    },
+    {
       "id": "prj_03589",
       "nombre": "Planta Fotovoltaica Barcones",
       "promotor": "Yequera Solar 5, S.L.",
@@ -7214,128 +7356,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que declara la utilidad pública de la instalación fotovoltaica. La instalación consta de 88.398 paneles fotovoltaicos de 565 Wp (potencia pico 49,94 MWp; potencia nominal de inversores 46,08 MW; potencia total del proyecto 50 MW). Incluye subestación transformadora 132/30 kV 'Mirado de Arriba' (50/60 MVA) y línea de evacuación aérea 132 kV hacia SET Cerrato Promotores. Previamente se otorgaron: AAP (17/04/2023) y AAC (04/07/2023). No se presentaron alegaciones durante el período de información pública."
-        }
-      ]
-    },
-    {
-      "id": "prj_07373",
-      "nombre": "Planta Solar Fotovoltaica Alconchel 2020.2",
-      "promotor": "Alter Enersun, SA",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": null,
-      "provincia": "Badajoz",
-      "municipio": "Alconchel",
-      "comunidad_autonoma": "Extremadura",
-      "subestacion": null,
-      "tension_kv": null,
-      "expedientes": [
-        "DOE-21061908",
-        "DOE-21080195",
-        "DOE-22060048",
-        "DOE-22060388",
-        "DOE-22060801",
-        "DOE-22081207",
-        "DOE-25081192"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "ModAAP",
-      "ultimo_boletin": "DOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20210305",
-      "fecha_ultima": "20250718",
-      "n_publicaciones": 7,
-      "publicaciones": [
-        {
-          "id_boe": "DOE-21080195",
-          "fecha": "20210305",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2021/440o/21080195.pdf",
-          "titulo": "Información pública.- Anuncio de 17 de febrero de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020.2\", ubicada en el término municipal de Barcarrota (Badajoz), e infraestructura de evacuac",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa. Proyecto incluye infraestructura de evacuación (presumiblemente LAT de conexión)."
-        },
-        {
-          "id_boe": "DOE-21061908",
-          "fecha": "20210629",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2021/1230o/21061908.pdf",
-          "titulo": "Energía solar.- Resolución de 17 de junio de 2021, de la Dirección General de Sostenibilidad, por la que se formula informe de impacto ambiental del proyecto de planta solar fotovoltaica \"Alconchel 2020.2\" e infraestructura de evacuación, cuyo promotor es Alter Enersun, SA, en el término municipal d",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de Declaración de Impacto Ambiental (DIA) favorable. Incluye infraestructura de evacuación asociada al proyecto."
-        },
-        {
-          "id_boe": "DOE-22060048",
-          "fecha": "20220117",
-          "boletin": "DOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2022/100o/22060048.pdf",
-          "titulo": "Impacto ambiental.- Resolución de 10 de enero de 2022, de la Dirección General de Sostenibilidad, por la que se formula informe de impacto ambiental del proyecto de planta solar fotovoltaica \"Alconchel 2020\" e infraestructura de evacuación, cuyo promotor es Alter Enersun, SA, en el término municipal",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto incluye infraestructura de evacuación. Resolución de la Dirección General de Sostenibilidad de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El texto completo no está disponible, por lo que algunos datos no pudieron extraerse."
-        },
-        {
-          "id_boe": "DOE-22060388",
-          "fecha": "20220214",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2022/300o/22060388.pdf",
-          "titulo": "Energía solar.- Resolución de 2 de febrero de 2022, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Alter Enersun, SA, para la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel, e infra",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El título menciona infraestructura pero el texto completo no está disponible para extraer detalles adicionales."
-        },
-        {
-          "id_boe": "DOE-22060801",
-          "fecha": "20220318",
-          "boletin": "DOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://doe.juntaex.es/pdfs/doe/2022/540o/22060801.pdf",
-          "titulo": "Energía solar.- Resolución de 10 de marzo de 2022, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Alter Enersun, SA, para la instalación fotovoltaica \"Alconchel 2020.2\", ubicada en el término municipal de Barcarrota (Badaj",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución publicada en Diario Oficial de Extremadura (DOE). Autorización Administrativa Previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura."
-        },
-        {
-          "id_boe": "DOE-22081207",
-          "fecha": "20220720",
-          "boletin": "DOE",
-          "tipo_permiso": "DUP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2022/1390o/22081207.pdf",
-          "titulo": "Información pública.- Anuncio de 12 de julio de 2022 por el que se somete a información pública la solicitud de reconocimiento de utilidad pública correspondiente a la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel (Badajoz), e infraestructura de evacuación d",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Anuncio de información pública para reconocimiento de utilidad pública. Incluye infraestructura de evacuación asociada. Expediente del DOE (Diario Oficial de Extremadura)."
-        },
-        {
-          "id_boe": "DOE-25081192",
-          "fecha": "20250718",
-          "boletin": "DOE",
-          "tipo_permiso": "ModAAP",
-          "estado": "informacion_publica",
-          "url": "https://doe.juntaex.es/pdfs/doe/2025/1380o/25081192.pdf",
-          "titulo": "Información pública.- Anuncio de 11 de julio de 2025 por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel (Badajoz), e infraestruct",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Modificación de autorización administrativa previa sometida a información pública. El título menciona infraestructura asociada (probablemente línea de evacuación) pero está truncado."
         }
       ]
     },
@@ -10425,6 +10445,114 @@
       ]
     },
     {
+      "id": "prj_01657",
+      "nombre": "Instalación Fotovoltaica Alconchel 2020.2",
+      "promotor": "Alter Enersun, SA",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Badajoz",
+      "municipio": "Alconchel",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-21080195",
+        "DOE-22060048",
+        "DOE-22060388",
+        "DOE-22060801",
+        "DOE-22081207",
+        "DOE-25081192"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20210305",
+      "fecha_ultima": "20250718",
+      "n_publicaciones": 6,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-21080195",
+          "fecha": "20210305",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2021/440o/21080195.pdf",
+          "titulo": "Información pública.- Anuncio de 17 de febrero de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020.2\", ubicada en el término municipal de Barcarrota (Badajoz), e infraestructura de evacuac",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa. Proyecto incluye infraestructura de evacuación (presumiblemente LAT de conexión)."
+        },
+        {
+          "id_boe": "DOE-22060048",
+          "fecha": "20220117",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2022/100o/22060048.pdf",
+          "titulo": "Impacto ambiental.- Resolución de 10 de enero de 2022, de la Dirección General de Sostenibilidad, por la que se formula informe de impacto ambiental del proyecto de planta solar fotovoltaica \"Alconchel 2020\" e infraestructura de evacuación, cuyo promotor es Alter Enersun, SA, en el término municipal",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto incluye infraestructura de evacuación. Resolución de la Dirección General de Sostenibilidad de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El texto completo no está disponible, por lo que algunos datos no pudieron extraerse."
+        },
+        {
+          "id_boe": "DOE-22060388",
+          "fecha": "20220214",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2022/300o/22060388.pdf",
+          "titulo": "Energía solar.- Resolución de 2 de febrero de 2022, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Alter Enersun, SA, para la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel, e infra",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El título menciona infraestructura pero el texto completo no está disponible para extraer detalles adicionales."
+        },
+        {
+          "id_boe": "DOE-22060801",
+          "fecha": "20220318",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2022/540o/22060801.pdf",
+          "titulo": "Energía solar.- Resolución de 10 de marzo de 2022, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Alter Enersun, SA, para la instalación fotovoltaica \"Alconchel 2020.2\", ubicada en el término municipal de Barcarrota (Badaj",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución publicada en Diario Oficial de Extremadura (DOE). Autorización Administrativa Previa otorgada por la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura."
+        },
+        {
+          "id_boe": "DOE-22081207",
+          "fecha": "20220720",
+          "boletin": "DOE",
+          "tipo_permiso": "DUP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2022/1390o/22081207.pdf",
+          "titulo": "Información pública.- Anuncio de 12 de julio de 2022 por el que se somete a información pública la solicitud de reconocimiento de utilidad pública correspondiente a la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel (Badajoz), e infraestructura de evacuación d",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Anuncio de información pública para reconocimiento de utilidad pública. Incluye infraestructura de evacuación asociada. Expediente del DOE (Diario Oficial de Extremadura)."
+        },
+        {
+          "id_boe": "DOE-25081192",
+          "fecha": "20250718",
+          "boletin": "DOE",
+          "tipo_permiso": "ModAAP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2025/1380o/25081192.pdf",
+          "titulo": "Información pública.- Anuncio de 11 de julio de 2025 por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel (Badajoz), e infraestruct",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Modificación de autorización administrativa previa sometida a información pública. El título menciona infraestructura asociada (probablemente línea de evacuación) pero está truncado."
+        }
+      ]
+    },
+    {
       "id": "prj_02643",
       "nombre": "Parque Eólico Valdehierro",
       "promotor": "Parque Eólico Valdehierro, S.L.",
@@ -10534,118 +10662,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución otorga Autorización Administrativa de Construcción y Declaración de Utilidad Pública simultáneamente. Proyecto consta de 3 aerogeneradores G145 de 5 MW cada uno (15 MW total). Red subterránea 30 kV con conexión a Subestación San Cipriano 30/132 kV existente de Iberdrola. Se aprueba nueva posición del transformador T-3 y nuevo transformador 132/30 kV, 18 MVA. La tramitación incluyó modificación de AAP (Resolución 25 de febrero 2022) y sometimiento a información pública sin alegaciones presentadas. Los condicionados impuestos por organismos afectados fueron aceptados por la promotora."
-        }
-      ]
-    },
-    {
-      "id": "prj_02668",
-      "nombre": "Infraestructuras de Evacuación Nudo Montearenas 400 kV Este",
-      "promotor": "Erbienergia Inversiones, S.L.",
-      "tecnologia": "LAT/SET",
-      "potencia_mw": 1200,
-      "provincia": "León",
-      "municipio": "Quintana del Castillo, Villagatón, Magaz de Cepeda, Brazuelo",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Nudo Montearenas Este 400 kV",
-      "tension_kv": 400,
-      "expedientes": [
-        "BOCYL-D-23012023-17",
-        "BOCYL-D-23012023-20"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20210420",
-      "fecha_ultima": "20240627",
-      "n_publicaciones": 6,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-20042021-26",
-          "fecha": "20210420",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2021/04/20/html/BOCYL-D-20042021-26.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una infraestructura de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Torre del Bierzo, Castropodame, Molinaseca y Congosto (León). Expte.: 2",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Infraestructura de evacuación común para plantas fotovoltaicas y eólicas. Incluye tres componentes principales: SET Fotovoltaica 1 – Destriana 132/30 kV (8 transformadores 55 MVA), LAAT 132 kV SET Eólica 1 y 2 - Veldedo – SET Fotovoltaica 1 – Destriana (29,176 km, 83 apoyos), SET Colectora Eólica 1 y 2 – Veldedo 400/132/30 kV (4 transformadores 40 MVA + 2 bancadas 600 MVA). Presupuesto total aproximado: 14 millones de euros. Sometido a información pública conforme a RD 1955/2000, Decreto-Ley 4/2020, Decreto 13/2013, Ley 24/2013 y Ley 21/2013 de Evaluación Ambiental."
-        },
-        {
-          "id_boe": "BOCYL-D-26112021-31",
-          "fecha": "20211126",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2021/11/26/html/BOCYL-D-26112021-31.do",
-          "titulo": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa y autorización administrativa de construcción y evaluación de impacto ambiental, de infraestructura de evacuación de plantas fotovoltaicas, denominada «Nudo Montearenas Sur 220 kv», en los términos municipales de Valderrey, Destriana y Quintana y Congosto (León). Expte.: 279/2020.",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Infraestructura de evacuación de plantas fotovoltaicas. Se somete a información pública documentación complementaria del EsIA presentada por el promotor. Plazo de alegaciones: 30 días. Expediente publicado en Portal de Energía y Minería de Castilla y León."
-        },
-        {
-          "id_boe": "BOCYL-D-23122021-30",
-          "fecha": "20211223",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2021/12/23/html/BOCYL-D-23122021-30.do",
-          "titulo": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa y autorización administrativa de construcción y evaluación de impacto ambiental de la infraestructura de evacuación de la planta fotovoltaica denominada «Nudo Montearenas Sur 400 kv», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Torre del Bierzo, Castropodam",
-          "permisos_adicionales": [
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Se trata de la infraestructura de evacuación de plantas fotovoltaicas. La información pública se reabre por presentación de documentación complementaria relevante al Estudio de Impacto Ambiental. Plazo de 30 días para reclamaciones desde la publicación. El expediente 254/2020 mencionado en el texto se refiere al mismo proyecto (infraestructura de evacuación)."
-        },
-        {
-          "id_boe": "BOCYL-D-23012023-17",
-          "fecha": "20230123",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2023/01/23/html/BOCYL-D-23012023-17.do",
-          "titulo": "ORDEN MAV/35/2023, de 16 de enero, por la que se dicta la declaración de impacto ambiental del proyecto «Infraestructuras de evacuación nudo Montearenas 400 kv Este», en los términos municipales Quintana del Castillo, Villagatón y Brazuelo, en la provincia de León, promovido por «Erbienergía Inversiones, S.L.».",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de infraestructuras de evacuación (subestación transformadora SET Fotovoltaica 3 Villarmeriel 132/30 kV y líneas de transmisión de energía eléctrica) diseñado para servir como nudo de evacuación de energía generada por nuevas instalaciones de generación renovables (plantas fotovoltaicas y parques eólicos) en la zona. La DIA se dicta como evaluación ambiental ordinaria según art. 7.1.d) de la Ley 21/2013, a solicitud del promotor. La resolución se publica en BOCyL conforme al art. 59 de la Ley de Prevención Ambiental de Castilla y León."
-        },
-        {
-          "id_boe": "BOCYL-D-23012023-20",
-          "fecha": "20230123",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2023/01/23/html/BOCYL-D-23012023-20.do",
-          "titulo": "ORDEN MAV/39/2023, de 13 de enero, por la que se dicta la declaración de impacto ambiental del proyecto «Infraestructuras de evacuación nudo Montearenas 400 kv Sur», en los términos municipales de Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Castropodame, Molinaseca y Congosto, en la provincia de León, promovido por «Erbienergía Inversiones, S.L.».",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "DIA favorable dictada por la Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio. Proyecto de línea de transmisión de energía eléctrica a 400 kV con longitud superior a 3 km. Tramitado como evaluación ambiental ordinaria (conforme art. 7.1.d de Ley 21/2013). Las infraestructuras permitirán evacuar energía de plantas fotovoltaicas y eólicas proyectadas en la zona."
-        },
-        {
-          "id_boe": "BOCYL-D-27062024-23",
-          "fecha": "20240627",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/06/27/html/BOCYL-D-27062024-23.do",
-          "titulo": "RESOLUCIÓN de 18 de junio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede la autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento a los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas del denominado «Nudo Montearenas Este 400 kV», en los términos municipales de Quintana del Castillo, Villag",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que concede AAP y AAC para infraestructuras de evacuación común para plantas fotovoltaicas. El proyecto ha sido modificado para dar cumplimiento a los condicionados de la DIA emitida el 16 de enero de 2023. Se trata de infraestructura de red de alta tensión (400 kV) destinada a evacuar energía de múltiples plantas fotovoltaicas. El expediente incluye análisis de avifauna y ha contado con información pública, consultas medioambientales y diversos informes de organismos competentes."
         }
       ]
     },
@@ -13232,6 +13248,127 @@
       ]
     },
     {
+      "id": "prj_06607",
+      "nombre": "Instalación Solar Fotovoltaica Las Majas VII D",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XI, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 10.89,
+      "provincia": "Zaragoza",
+      "municipio": "Herrera de los Navarros",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "SET Las Majas VII D 30/220 kV",
+      "tension_kv": 220,
+      "expedientes": [
+        "BOE-A-2024-22418",
+        "BOE-A-2024-22420",
+        "BOE-A-2024-22421",
+        "BOE-A-2025-4497",
+        "BOE-A-2025-4499",
+        "BOE-A-2025-4500"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241030",
+      "fecha_ultima": "20250306",
+      "n_publicaciones": 6,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2024-22418",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22418",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII B, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con parque eólico Las Majas VII B existente (49,40 MW) para capacidad total de 60,29 MW. Infraestructura de evacuación mediante línea subterránea de media tensión 30 kV de 5.686 m compartida con otras tres plantas fotovoltaicas (Las Majas VII A, C y E). Conexión final a nudo Muniesa 400 kV ya existente. Superficie total 20,83 ha, ocupación de módulos 5,71 ha. Se sometió a información pública el 4 de septiembre de 2023 (BOE) y 7 de septiembre de 2023 (BOP Zaragoza)."
+        },
+        {
+          "id_boe": "BOE-A-2024-22420",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22420",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII C, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Planta fotovoltaica de 10,89 MWn / 12,15 MWp. Capacidad híbrida total: 60,29 MW. Infraestructura de evacuación mediante línea subterránea 30 kV de 6.360 m compartida con otras plantas fotovoltaicas próximas (Las Majas VII A, VII B y VII E). Conexión final a nudo Muniesa 400 kV de REE. Superficie total: 22,23 ha (5,71 ha ocupadas por módulos). 24.300 módulos monocristalinos de 500 Wp. Procedimiento incluye información pública y consultas a administraciones."
+        },
+        {
+          "id_boe": "BOE-A-2024-22421",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22421",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII D, de 24,25 MW, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación de planta fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW), sumando 73,65 MW. Incluye ampliación y modificación de la subestación colectora SET Las Majas VII D 30/220 kV. Superficie total: 46,64 ha. La resolución es una Declaración de Impacto Ambiental favorable emitida por la Dirección General de Calidad y Evaluación Ambiental."
+        },
+        {
+          "id_boe": "BOE-A-2025-4497",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4497",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XII, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII C, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros y Villar de los Na",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto sometido a evaluación de impacto ambiental ordinaria con DIA favorable emitida el 18 de octubre de 2024. Se tramitó conforme al RD 1955/2000 y Ley 21/2013. Se recibió alegación de Enel Green Power España, SL respecto a falta de separata del proyecto. Incoado el 6 de noviembre de 2022, subsanado el 2 de febrero de 2023. Información pública publicada el 4 de septiembre de 2023 en BOE y 7 de septiembre de 2023 en BOPZ."
+        },
+        {
+          "id_boe": "BOE-A-2025-4499",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4499",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa V, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII D, de 24,25 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y sus infraestructuras de evacuación, en Moyuela y Azuara (Zaragoza).",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación de instalación solar fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW). La resolución otorga simultáneamente Autorización Administrativa Previa y Autorización Administrativa de Construcción. Se ha emitido Declaración de Impacto Ambiental favorable mediante Resolución de 18 de octubre de 2024. Durante la información pública se recibió alegación de Enel Green Power España, SL respecto a afecciones a su parque eólico Tico existente."
+        },
+        {
+          "id_boe": "BOE-A-2025-4500",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4500",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XI, SLU, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII B, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros (Zaragoza).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII B de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto tramitado conforme a RD 1955/2000 y Ley 21/2013. Se emitió Declaración de Impacto Ambiental favorable en Resolución de 18 de octubre de 2024. La información pública se realizó en BOE el 4 de septiembre de 2023 y en BOPZ el 7 de septiembre de 2023."
+        }
+      ]
+    },
+    {
       "id": "prj_02603",
       "nombre": "Parque Eólico Ubierna",
       "promotor": "EDP Renovables España, S.L.",
@@ -13428,107 +13565,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de 19 de noviembre de 2024 del Servicio Territorial de Industria, Comercio y Economía de Soria. Expediente de larga tramitación desde 2002 con múltiples modificaciones. Proyecto originalmente de Urbaenergía S.L., después de Cobra Concesiones S.L., actualmente de Green Capital Power S.L.U. Incluye línea de evacuación de 132 kV desde SET Hazapierna hasta SET Medinaceli II (132/400 kV). El procedimiento ha contado con informe IRNA sobre afecciones al medio natural."
-        }
-      ]
-    },
-    {
-      "id": "prj_06204",
-      "nombre": "LAT 132kV Hazapierna-Medinaceli II y SET Medinaceli II 400/132kV",
-      "promotor": "Green Capital Power, S.L.U.",
-      "tecnologia": "LAT",
-      "potencia_mw": 99,
-      "provincia": "Soria",
-      "municipio": "Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón, Medinaceli",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Medinaceli II 400/132/30 kV",
-      "tension_kv": 132,
-      "expedientes": [
-        "BOCYL-D-04042023-28",
-        "IE/AT/64-2019"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "ModAAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20200115",
-      "fecha_ultima": "20241203",
-      "n_publicaciones": 5,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-15012020-12",
-          "fecha": "20200115",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2020/01/15/html/BOCYL-D-15012020-12.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y declaración de impacto ambiental para la instalación de una línea eléctrica aérea de alta tensión 132 kv para evacuación de la energía eléctrica entre SET «Hazapierna» y SET «Medinaceli II», subestación «Medinaceli II» 400/132 kv de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón y Medinaceli (Soria). Ex",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Línea aérea de alta tensión 132 kV de simple circuito con longitud aproximada de 46.081 metros. Origen en SET Hazapierna (conexión de parques eólicos Hazapierna y Praderas Altas) y final en SET Medinaceli II de nueva construcción. Subestación Medinaceli II 400/132/33 kV con transformador de 120 MVA para interconexión con SET Medinaceli (Red Eléctrica de España). Presupuesto total: 8.201.292,23 €. Plazo de resolución: 3 meses desde recepción de DIA."
-        },
-        {
-          "id_boe": "BOCYL-D-04042023-28",
-          "fecha": "20230404",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2023/04/04/html/BOCYL-D-04042023-28.do",
-          "titulo": "ORDEN MAV/404/2023, de 27 de marzo, por la que se dicta la declaración de impacto ambiental del proyecto de la línea eléctrica aérea de alta tensión de 132 kv para la evacuación de la energía eléctrica entre la SET «Hazapierna» y la SET «Medinaceli II» y la subestación SET «Medinaceli II» 400/132 kv de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón y Medinaceli (Soria).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Declaración de Impacto Ambiental favorable. Proyecto incluye línea aérea 132kV de 46,84 km entre SET Hazapierna y SET Medinaceli II, con 220 apoyos metálicos de celosía, y construcción de nueva subestación Medinaceli II 400/132kV de interconexión con SET Medinaceli (REE). Proyecto modificado durante tramitación para responder a condicionantes ambientales. Afecta a espacios naturales protegidos y Red Natura 2000 en más de 3 km. Consejería competente: Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio de Castilla y León."
-        },
-        {
-          "id_boe": "BOCYL-D-10072023-29",
-          "fecha": "20230710",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2023/07/10/html/BOCYL-D-10072023-29.do",
-          "titulo": "RESOLUCIÓN de 19 de junio de 2023, del Servicio Territorial de Industria, Comercio y Economía de Soria, relativa a la autorización administrativa previa y declaración de impacto ambiental del proyecto de la línea eléctrica de alta tensión 132 kV para la evacuación de la energía eléctrica entre la SET «Hazapierna» y SET «Medinaceli II», así como la subestación «Medinaceli II» 400/132 kV de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, ",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Línea de evacuación de 132 kV entre SET Hazapierna y SET Medinaceli II con subestación transformadora 400/132 kV de interconexión. DIA favorable otorgada mediante Orden MAV/404/2023 de 27 de marzo de 2023 (BOCL 4 de abril de 2023). El proyecto incluye infraestructura para evacuación de energía de parques eólicos Hazapierna y Praderas Altas, titularidad de Green Capital Power, S.L.U."
-        },
-        {
-          "id_boe": "BOCYL-D-06082024-26",
-          "fecha": "20240806",
-          "boletin": "BOCyL",
-          "tipo_permiso": "ModAAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2024/08/06/html/BOCYL-D-06082024-26.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de modificación de la autorización administrativa previa y solicitud de autorización de construcción y declaración, en concreto, de utilidad pública de la instalación eléctrica «Proyecto de línea eléctrica aérea de alta tensión 132 kV para la evacuación de la energía eléctrica entre «SET Hazapierna» y «SET Medinaceli II». Subestación «Medinaceli II» 400/132/30 kV de interconexión con la «SET Medinaceli» 400 kV». Expte.: IE/AT/64-2019.",
-          "permisos_adicionales": [
-            "AAC",
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Línea eléctrica aérea de alta tensión 132 kV de 52,3 km de longitud total. Compuesta por 4 tramos subterráneos (27,961 km) y 3 tramos aéreos (24,347 km). Evacuación de energía de parques eólicos Hazapierna, Praderas Altas, Torrecilla, Turkana y planta fotovoltaica Orquidea. Interconexión entre SET Hazapierna y SET Medinaceli II hasta conexión con red de transporte en SET Medinaceli 400 kV. Solicitud de modificación de AAP presentada el 17-06-2024 tras resolución favorable de 19-06-2023."
-        },
-        {
-          "id_boe": "BOCYL-D-03122024-58",
-          "fecha": "20241203",
-          "boletin": "BOCyL",
-          "tipo_permiso": "ModAAP",
-          "estado": "otorgado",
-          "url": "https://bocyl.jcyl.es/html/2024/12/03/html/BOCYL-D-03122024-58.do",
-          "titulo": "RESOLUCIÓN de 18 de noviembre de 2024, del Servicio Territorial de Industria, Comercio y Economía de Soria, de modificación de la autorización administrativa previa, autorización de construcción y declaración, en concreto, de utilidad pública de la instalación eléctrica «Proyecto de línea eléctrica aérea de alta tensión 132 kV para la evacuación de la energía eléctrica entre SET «Hazapierna» y SET «Medinaceli II». subestación «Medinaceli II 400/132/30 kV» de interconexión con la SET «Medinaceli ",
-          "permisos_adicionales": [
-            "ModAAC",
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de modificación de autorización administrativa previa, autorización de construcción y declaración de utilidad pública. Línea eléctrica aérea de alta tensión 132 kV para evacuación de energía entre SET Hazapierna y SET Medinaceli II, con subestación de interconexión con SET Medinaceli 400 kV. Modificación tramitada tras cumplimiento de condicionantes de la DIA favorable resuelta por Orden MAV/404/2023 de 27 de marzo de 2023. El promotor presentó dos alternativas de proyecto que fueron evaluadas. Orden MAV/404/2023 publicada en BOCYL el 4 de abril de 2023. Autorización Administrativa Previa y DIA otorgadas mediante Resolución de 19 de junio de 2023 (publicada en BOCYL el 10 de julio de 2023)."
         }
       ]
     },
@@ -19485,6 +19521,105 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de reconocimiento de utilidad pública de la instalación solar fotovoltaica PFV Piedrabuena 2021 con infraestructuras auxiliares y de evacuación. Publicada en DOCM número 90/2026 de 14/05/2026. Referencia: 2703/01678. Anuncio previo de información pública de 25/11/2025."
+        }
+      ]
+    },
+    {
+      "id": "prj_06566",
+      "nombre": "Planta Solar Fotovoltaica Envatios XXIV-Fase III",
+      "promotor": "Envatios Promoción XXIV, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 70.8,
+      "provincia": "Madrid",
+      "municipio": "Torres de la Alameda",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "SET Envatios XXIV",
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2023-15448",
+        "BOE-A-2023-15449",
+        "BOE-A-2024-19793",
+        "BOE-A-2025-1119"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230703",
+      "fecha_ultima": "20250226",
+      "n_publicaciones": 5,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2023-15448",
+          "fecha": "20230703",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15448",
+          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real y Arganda del Rey y Loeches (Madrid).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa por la Dirección General de Política Energética y Minas. Proyecto incluye infraestructura de evacuación: líneas subterráneas 30 kV, subestación 30/220 kV y línea aérea 220 kV. Tramitación bajo RD 1955/2000 y Ley 21/2013. Proyecto afecta a cuadrículas mineras (Morata II). Se han recibido condicionantes de varios organismos (confederación hidrográfica, ayuntamientos, ADIF, etc.) que han sido aceptados por el promotor."
+        },
+        {
+          "id_boe": "BOE-A-2023-15449",
+          "fecha": "20230703",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15449",
+          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa. La instalación fotovoltaica tiene una potencia de 70,80 MW (proyecto actualizado de 78 MWp inicial). Se tramitó conjuntamente con otros proyectos del complejo Envatios XXIV, posteriormente desacumulados. Se recibió oposición de la Subdirección General de Energía y Minas de Madrid por afección a cuadrícula minera Testudo I Fracción I Sección C número 2926-011. El promotor argumentó la prevalencia de utilidad pública de sus instalaciones. Se recibió oposición del Ayuntamiento de Mejorada del Campo (información incompleta en el texto suministrado)."
+        },
+        {
+          "id_boe": "BOE-A-2024-19793",
+          "fecha": "20241001",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19793",
+          "titulo": "Resolución de 19 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches y Velilla de San Antonio (Comunidad de Madrid) y se declara, en concreto,",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga AAP y AAC para la instalación fotovoltaica Envatios XXIV-Fase II. El proyecto fue modificado respecto a la AAP anterior (Resolución de 21 de junio de 2023): se redujo potencia de 91 MWp a 82,6 MW, se modificaron municipios afectados (se agregó Velilla de San Antonio), se restringió la ubicación de paneles en Valdilecha (solo zonas 1 y 2), y se soterró la línea de evacuación de 30kV en Valdilecha hacia la SET Envatios XXIV. Se cuenta con DIA favorable de 21 de marzo de 2023. El proyecto cumple condicionantes de Red Eléctrica, distribuidoras, Adif, AESA, Canal de Isabel II, Defensa y Telefónica. Se requiere gestión adicional respecto a derechos mineros 'Cancún FR:I' titularidad de TICO SA."
+        },
+        {
+          "id_boe": "BOE-A-2025-1119",
+          "fecha": "20250122",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1119",
+          "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga conjuntamente autorización administrativa previa (modificación), autorización administrativa de construcción y tramitación de declaración de utilidad pública. El proyecto requirió soterramiento de líneas de evacuación de 30kV para eliminar afecciones medioambientales. Planta solar fotovoltaica con infraestructura de evacuación asociada. La potencia inicial solicitada fue de 78 MWp, reducida finalmente a 70,80 MW."
+        },
+        {
+          "id_boe": "BOCM-20250226-45",
+          "fecha": "20250226",
+          "boletin": "BOCM",
+          "tipo_permiso": "OcupacionUP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20250226-45",
+          "titulo": "Resolución de 7 de febrero de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana, en el término municipal de Torres de la Alameda, para la instalación del proyecto planta solar fotovoltaica Envatios XXIV-fase III de 70,8 MW de potencia instalada, y su infraestructura de evacuación, actuación promovida por Envatios Promoción XXIV, S. L.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana. El proyecto incluye la planta solar fotovoltaica de 70,8 MW y su infraestructura de evacuación. Se abre período de información pública de un mes desde la publicación en BOCM."
         }
       ]
     },
@@ -48037,74 +48172,6 @@
       ]
     },
     {
-      "id": "prj_06566",
-      "nombre": "Planta Solar Fotovoltaica Envatios XXIV-Fase III",
-      "promotor": "Envatios Promoción XXIV, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 70.8,
-      "provincia": "Madrid",
-      "municipio": "Torres de la Alameda",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "SET Envatios XXIV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2023-15449",
-        "BOE-A-2025-1119"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "OcupacionUP",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230703",
-      "fecha_ultima": "20250226",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-15449",
-          "fecha": "20230703",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15449",
-          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa. La instalación fotovoltaica tiene una potencia de 70,80 MW (proyecto actualizado de 78 MWp inicial). Se tramitó conjuntamente con otros proyectos del complejo Envatios XXIV, posteriormente desacumulados. Se recibió oposición de la Subdirección General de Energía y Minas de Madrid por afección a cuadrícula minera Testudo I Fracción I Sección C número 2926-011. El promotor argumentó la prevalencia de utilidad pública de sus instalaciones. Se recibió oposición del Ayuntamiento de Mejorada del Campo (información incompleta en el texto suministrado)."
-        },
-        {
-          "id_boe": "BOE-A-2025-1119",
-          "fecha": "20250122",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1119",
-          "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga conjuntamente autorización administrativa previa (modificación), autorización administrativa de construcción y tramitación de declaración de utilidad pública. El proyecto requirió soterramiento de líneas de evacuación de 30kV para eliminar afecciones medioambientales. Planta solar fotovoltaica con infraestructura de evacuación asociada. La potencia inicial solicitada fue de 78 MWp, reducida finalmente a 70,80 MW."
-        },
-        {
-          "id_boe": "BOCM-20250226-45",
-          "fecha": "20250226",
-          "boletin": "BOCM",
-          "tipo_permiso": "OcupacionUP",
-          "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20250226-45",
-          "titulo": "Resolución de 7 de febrero de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana, en el término municipal de Torres de la Alameda, para la instalación del proyecto planta solar fotovoltaica Envatios XXIV-fase III de 70,8 MW de potencia instalada, y su infraestructura de evacuación, actuación promovida por Envatios Promoción XXIV, S. L.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana. El proyecto incluye la planta solar fotovoltaica de 70,8 MW y su infraestructura de evacuación. Se abre período de información pública de un mes desde la publicación en BOCM."
-        }
-      ]
-    },
-    {
       "id": "prj_05415",
       "nombre": "Parque Fotovoltaico Villaquirán",
       "promotor": "Kolsan Diseño Creativo, S.L.",
@@ -49863,78 +49930,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga Autorización Administrativa Previa y Autorización Administrativa de Construcción. Fianza ambiental de 279.961 euros (167.977 euros fase obras, 111.984 euros desmantelamiento). Requiere inscripción en Registro Autonómico, informes favorables de Patrimonio Natural e Instituto de Estudios del Territorio previos al inicio de obras, Plan de vigilancia ambiental, y certificado de final de obra. Declaración de Impacto Ambiental favorable de 7 de noviembre de 2023."
-        }
-      ]
-    },
-    {
-      "id": "prj_05607",
-      "nombre": "Línea de Evacuación Subterránea 45kV Villace II",
-      "promotor": "Sunivall Capital S.L.",
-      "tecnologia": "LAT",
-      "potencia_mw": 15,
-      "provincia": "León",
-      "municipio": "Villamañán",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "SET San Millán",
-      "tension_kv": 45,
-      "expedientes": [
-        "FV-178-2018-23236"
-      ],
-      "estado_actual": "en_tramitacion",
-      "ultimo_tipo_permiso": "LAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20231124",
-      "fecha_ultima": "20240806",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-24112023-27",
-          "fecha": "20231124",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2023/11/24/html/BOCYL-D-24112023-27.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV de la planta fotovoltaica «Villace II», para cumplir con los condicionados del informe de impacto ambiental, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236, FV Villace II.",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP",
-            "ModAAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto modificado de línea de evacuación subterránea de la planta fotovoltaica Villace II. Línea de simple circuito 45kV de 4.337 metros de longitud con cuatro perforaciones dirigidas bajo carreteras y arroyo. Presupuesto: 1.983.672,35 euros. Sometido a información pública para modificación de AAP, AAC y DUP. Se requirió nuevo informe ambiental según condicionados previos."
-        },
-        {
-          "id_boe": "BOCYL-D-11042024-15",
-          "fecha": "20240411",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/04/11/html/BOCYL-D-11042024-15.do",
-          "titulo": "RESOLUCIÓN de 2 de abril de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV de la planta fotovoltaica «Villace II», para cumplir con los condicionados del informe de impacto ambiental, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236, FV Villac",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Se concede autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV. La modificación fue requerida para cumplir con los condicionados del informe de impacto ambiental. El proyecto fue sometido a información pública con publicación en BOCyL (24 de noviembre de 2023) y BOP (17 de enero de 2024). Se recibió una alegación sobre afección a propiedad privada que fue resuelta por el promotor."
-        },
-        {
-          "id_boe": "BOCYL-D-06082024-25",
-          "fecha": "20240806",
-          "boletin": "BOCyL",
-          "tipo_permiso": "LAP",
-          "estado": "en_tramitacion",
-          "url": "https://bocyl.jcyl.es/html/2024/08/06/html/BOCYL-D-06082024-25.do",
-          "titulo": "RESOLUCIÓN de 24 de julio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se convoca al levantamiento de actas previas a la ocupación de los bienes y derechos afectados por el expediente de expropiación forzosa correspondiente al proyecto modificado de la línea de evacuación subterránea de 45 kV, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236 Villacé II.",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de convocatoria de levantamiento de actas previas a la ocupación de bienes y derechos afectados por expropiación forzosa. La Declaración de Utilidad Pública se dictó el 8 de abril de 2014. Se trata de un proyecto modificado. El levantamiento de actas está programado para el 5 de septiembre de 2024 en el Ayuntamiento de Villamañán. Línea subterránea de evacuación."
         }
       ]
     },
@@ -51909,74 +51904,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga autorización administrativa previa y autorización administrativa de construcción para instalación fotovoltaica FV Crátero. Se reconoce utilidad pública de las instalaciones de evacuación. Proyecto sometido a información pública del 26/03/2024 al 23/04/2024 aproximadamente. Evaluación de impacto ambiental simplificada tramitada. Informe de viabilidad favorable emitido el 30/08/2023. Múltiples informes y condicionantes técnicos solicitados a administraciones públicas e infraestructuras."
-        }
-      ]
-    },
-    {
-      "id": "prj_06428",
-      "nombre": "Parque Fotovoltaico Hinojosa de Duero I y II",
-      "promotor": "Inverhinojosa, S.L. / Abadengo Fotovoltaica, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 5.041,
-      "provincia": "Salamanca",
-      "municipio": "Lumbrales / Hinojosa de Duero",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "CH Saucelle 1",
-      "tension_kv": 220,
-      "expedientes": [
-        "EIAS/2024/SA/018",
-        "RI-19.381 / RI-19.833",
-        "RI-19.381 ATCE-45 / RI-19.833 ATCE-46"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20240327",
-      "fecha_ultima": "20250122",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-27032024-31",
-          "fecha": "20240327",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2024/03/27/html/BOCYL-D-27032024-31.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de las instalaciones fotovoltaicas de producción de energía eléctrica denominadas «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», ambas en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 y RI-19.833.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Se tramitan simultáneamente dos instalaciones fotovoltaicas: FV Hinojosa de Duero (3 MW, expediente RI-19.381 ATCE 45) y FV Hinojosa de Duero II (2.041 MW, expediente RI-19.833 ATCE 46), ambas conectadas a nueva SMR en línea Saucelle-Enusa 45 kV desde apoyo nº89. Ambas con estructura fija, líneas subterráneas de evacuación. Plazo para resolver: 6 meses. Silencio administrativo desestimatorio."
-        },
-        {
-          "id_boe": "BOCYL-D-12082024-20",
-          "fecha": "20240812",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/08/12/html/BOCYL-D-12082024-20.do",
-          "titulo": "RESOLUCIÓN de 5 de agosto de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de instalación solar fotovoltaica conectada a red «FV Hinojosa de Duero I» y «FV Hinojosa de Duero II», e instalaciones de evacuación, promovida por «Inverhinojosa, S.L.» y «Abadengo Fotovoltaica, S.L.», en el término municipal de Lumbrales (Salamanca). Expte.: EIAS/2024/SA/018.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto compuesto por dos instalaciones fotovoltaicas: FV Hinojosa I (3 MW, 7,33 ha) y FV Hinojosa II (2,041 MW, 6,23 ha). Incluye instalaciones de evacuación y conexión a red. Se dicta Informe de Impacto Ambiental sin efectos adversos significativos sobre el medio ambiente."
-        },
-        {
-          "id_boe": "BOCYL-D-22012025-9",
-          "fecha": "20250122",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://bocyl.jcyl.es/html/2025/01/22/html/BOCYL-D-22012025-9.do",
-          "titulo": "RESOLUCIÓN de 7 de enero de 2025, del Servicio Territorial de Industria, Comercio y Economía de Salamanca, dictada por delegación, por la que se otorga la autorización administrativa previa de los módulos de generación de energía eléctrica, mediante tecnología fotovoltaica, denominados «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 ATCE-45 y RI-19.833, ATCE-46.",
-          "permisos_adicionales": [
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga Autorización Administrativa Previa (AAP) de dos módulos fotovoltaicos (FV Hinojosa de Duero y FV Hinojosa de Duero II) en términos municipales de Lumbrales e Hinojosa de Duero. Ambas instalaciones han sido tramitadas como continuidad de instalaciones conforme al Decreto 46/2022. Evacúan en la misma red de distribución (línea 2 - Saucelle-Enusa 1 de 45 kV) y afectan al mismo nudo de transporte (CH Saucelle 1 a 220 kV). Informe ambiental favorable emitido por el Servicio Territorial de Medio Ambiente el 09 de octubre de 2024."
         }
       ]
     },
@@ -54236,77 +54163,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Autorización ambiental integrada otorgada para planta de producción de biometano y fertilizantes. Registro AAI: 2024-IPPC-51-387. Procedimiento incluye evaluación de impacto ambiental ordinaria."
-        }
-      ]
-    },
-    {
-      "id": "prj_06608",
-      "nombre": "Instalación Solar Fotovoltaica Las Majas VII D",
-      "promotor": "Fuerzas Energéticas del Sur de Europa XI, SLU",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 10.89,
-      "provincia": "Zaragoza",
-      "municipio": "Herrera de los Navarros",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII 30/220 kV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-22418",
-        "BOE-A-2025-4499",
-        "BOE-A-2025-4500"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20250306",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22418",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22418",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII B, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con parque eólico Las Majas VII B existente (49,40 MW) para capacidad total de 60,29 MW. Infraestructura de evacuación mediante línea subterránea de media tensión 30 kV de 5.686 m compartida con otras tres plantas fotovoltaicas (Las Majas VII A, C y E). Conexión final a nudo Muniesa 400 kV ya existente. Superficie total 20,83 ha, ocupación de módulos 5,71 ha. Se sometió a información pública el 4 de septiembre de 2023 (BOE) y 7 de septiembre de 2023 (BOP Zaragoza)."
-        },
-        {
-          "id_boe": "BOE-A-2025-4499",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4499",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa V, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII D, de 24,25 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y sus infraestructuras de evacuación, en Moyuela y Azuara (Zaragoza).",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación de instalación solar fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW). La resolución otorga simultáneamente Autorización Administrativa Previa y Autorización Administrativa de Construcción. Se ha emitido Declaración de Impacto Ambiental favorable mediante Resolución de 18 de octubre de 2024. Durante la información pública se recibió alegación de Enel Green Power España, SL respecto a afecciones a su parque eólico Tico existente."
-        },
-        {
-          "id_boe": "BOE-A-2025-4500",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4500",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XI, SLU, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII B, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros (Zaragoza).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII B de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto tramitado conforme a RD 1955/2000 y Ley 21/2013. Se emitió Declaración de Impacto Ambiental favorable en Resolución de 18 de octubre de 2024. La información pública se realizó en BOE el 4 de septiembre de 2023 y en BOPZ el 7 de septiembre de 2023."
         }
       ]
     },
@@ -57832,6 +57688,61 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de Declaración de Utilidad Pública para instalación fotovoltaica e infraestructura de evacuación. Publicado en DOE (Diario Oficial de Extremadura)."
+        }
+      ]
+    },
+    {
+      "id": "prj_03626",
+      "nombre": "LAT 132 kV Hazapierna-Medinaceli II y SET Medinaceli II",
+      "promotor": "Green Capital Power, S.L.U.",
+      "tecnologia": "LAT/SET",
+      "potencia_mw": 99,
+      "provincia": "Soria",
+      "municipio": "Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón, Medinaceli",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Medinaceli II 400/132 kV",
+      "tension_kv": 132,
+      "expedientes": [
+        "IE/AT/64-2019"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20200115",
+      "fecha_ultima": "20230710",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-15012020-12",
+          "fecha": "20200115",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2020/01/15/html/BOCYL-D-15012020-12.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y declaración de impacto ambiental para la instalación de una línea eléctrica aérea de alta tensión 132 kv para evacuación de la energía eléctrica entre SET «Hazapierna» y SET «Medinaceli II», subestación «Medinaceli II» 400/132 kv de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón y Medinaceli (Soria). Ex",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Línea aérea de alta tensión 132 kV de simple circuito con longitud aproximada de 46.081 metros. Origen en SET Hazapierna (conexión de parques eólicos Hazapierna y Praderas Altas) y final en SET Medinaceli II de nueva construcción. Subestación Medinaceli II 400/132/33 kV con transformador de 120 MVA para interconexión con SET Medinaceli (Red Eléctrica de España). Presupuesto total: 8.201.292,23 €. Plazo de resolución: 3 meses desde recepción de DIA."
+        },
+        {
+          "id_boe": "BOCYL-D-10072023-29",
+          "fecha": "20230710",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2023/07/10/html/BOCYL-D-10072023-29.do",
+          "titulo": "RESOLUCIÓN de 19 de junio de 2023, del Servicio Territorial de Industria, Comercio y Economía de Soria, relativa a la autorización administrativa previa y declaración de impacto ambiental del proyecto de la línea eléctrica de alta tensión 132 kV para la evacuación de la energía eléctrica entre la SET «Hazapierna» y SET «Medinaceli II», así como la subestación «Medinaceli II» 400/132 kV de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, ",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Línea de evacuación de 132 kV entre SET Hazapierna y SET Medinaceli II con subestación transformadora 400/132 kV de interconexión. DIA favorable otorgada mediante Orden MAV/404/2023 de 27 de marzo de 2023 (BOCL 4 de abril de 2023). El proyecto incluye infraestructura para evacuación de energía de parques eólicos Hazapierna y Praderas Altas, titularidad de Green Capital Power, S.L.U."
         }
       ]
     },
@@ -75025,6 +74936,58 @@
       ]
     },
     {
+      "id": "prj_05478",
+      "nombre": "Ampliación Subestación Fuendetodos 400/220 kV",
+      "promotor": "Red Eléctrica de España, SAU",
+      "tecnologia": "SET",
+      "potencia_mw": 600,
+      "provincia": "Zaragoza",
+      "municipio": "Fuendetodos",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "Fuendetodos",
+      "tension_kv": 400,
+      "expedientes": [
+        "BOE-A-2023-1582",
+        "BOE-A-2024-13567"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230119",
+      "fecha_ultima": "20240703",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2023-1582",
+          "fecha": "20230119",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-1582",
+          "titulo": "Resolución de 10 de enero de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de ampliación de la subestación Fuendetodos 400/220 kV, con un banco de transformación de 600 MVA y sus dos correspondientes posiciones, en Fuendetodos (Zaragoza).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Banco de transformación AT-2 400/220 de 600 MVA con dos posiciones. Proyecto incluido en Plan de Desarrollo de la Red de Transporte 2021-2026. Destinado a facilitar integración de renovables y resolver restricciones técnicas del eje Aragón-Cataluña sur. Sin alegaciones en información pública."
+        },
+        {
+          "id_boe": "BOE-A-2024-13567",
+          "fecha": "20240703",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13567",
+          "titulo": "Resolución de 22 de junio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción, para la ampliación, con dos nuevas posiciones, de la subestación de Fuendetodos en el parque de 400 kV, en Fuendetodos (Zaragoza).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Ampliación con dos nuevas posiciones de interruptor para conexión de instalaciones de generación renovable. Incluida en Plan de Desarrollo de la Red de Transporte 2021-2026 (una posición) y en modificación del plan aprobada por Consejo de Ministros el 16 de abril de 2024 (segunda posición). Información pública sin alegaciones. Trámite de audiencia completado con conformidad del promotor."
+        }
+      ]
+    },
+    {
       "id": "prj_03462",
       "nombre": "Instalación Solar Fotovoltaica La Nava",
       "promotor": "Instituto de Sistemas Fotovoltaicos de Concentración, SA",
@@ -82172,6 +82135,61 @@
       ]
     },
     {
+      "id": "prj_03629",
+      "nombre": "Villameca I y II Solar PV",
+      "promotor": "Roble New Energy, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 150.4,
+      "provincia": "León",
+      "municipio": "Benavides de Órbigo",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET Eólicos Villameca 400/132 kV",
+      "tension_kv": 400,
+      "expedientes": [
+        "BOE-A-2023-12900"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AUESR",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230531",
+      "fecha_ultima": "20230710",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2023-12900",
+          "fecha": "20230531",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-12900",
+          "titulo": "Resolución de 21 de abril de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Roble New Energy, SL, autorización administrativa previa para la instalación fotovoltaica Villameca I Solar PV, de 99,74 MW de potencia pico, 87,4 MW de potencia instalada y sus infraestructuras de evacuación, en Benavides, Quintana del Castillo y Villamejil (León).",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de 99,75 MWp y 87,4 MW de potencia instalada. Incluye red de líneas subterráneas a 30 kV, subestación SE Villameca I y II 132/30 kV y línea a 132 kV hacia SET Eólicos Villameca 400/132 kV. Tramitación conjunta con Villameca II Solar PV. Oposiciones de municipios y juntas vecinales por motivos medioambientales y urbanísticos, pero se otorga autorización. Publicación en BOE: 31 de mayo de 2023."
+        },
+        {
+          "id_boe": "BOCYL-D-10072023-52",
+          "fecha": "20230710",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AUESR",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2023/07/10/html/BOCYL-D-10072023-52.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para dos plantas fotovoltaicas «Villameca I Solar PV» (99,75 MWp/75,20 MWn), «Villameca II Solar PV» (99,75 MWp/75,20 MWn) e infraestructuras de evacuación, en el término municipal de Benavides de Órbigo (León). Expte. 495/2023.",
+          "permisos_adicionales": [
+            "LicObras"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de dos plantas fotovoltaicas (Villameca I: 99,75 MWp/75,20 MWn; Villameca II: 99,75 MWp/75,20 MWn) e infraestructuras de evacuación en Quintanilla del Monte. En trámite de información pública por 20 días (desde publicación en BOCyL 10/07/2023). Expediente municipal: 495/2023. Fecha de acuerdo: 30/06/2023."
+        }
+      ]
+    },
+    {
       "id": "prj_05999",
       "nombre": "Instalación Fotovoltaica Baluma Solar",
       "promotor": "Baluma Solar, SL",
@@ -83186,61 +83204,6 @@
       ]
     },
     {
-      "id": "prj_05899",
-      "nombre": "Instalación Fotovoltaica Envatios XXIV-Fase II",
-      "promotor": "Envatios Promoción XXIV, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 82.6,
-      "provincia": "Madrid",
-      "municipio": "Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches, Velilla de San Antonio",
-      "comunidad_autonoma": "Comunidad de Madrid",
-      "subestacion": "SET Envatios XXIV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2023-15448",
-        "BOE-A-2024-19793"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230703",
-      "fecha_ultima": "20241001",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-15448",
-          "fecha": "20230703",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15448",
-          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real y Arganda del Rey y Loeches (Madrid).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa por la Dirección General de Política Energética y Minas. Proyecto incluye infraestructura de evacuación: líneas subterráneas 30 kV, subestación 30/220 kV y línea aérea 220 kV. Tramitación bajo RD 1955/2000 y Ley 21/2013. Proyecto afecta a cuadrículas mineras (Morata II). Se han recibido condicionantes de varios organismos (confederación hidrográfica, ayuntamientos, ADIF, etc.) que han sido aceptados por el promotor."
-        },
-        {
-          "id_boe": "BOE-A-2024-19793",
-          "fecha": "20241001",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19793",
-          "titulo": "Resolución de 19 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches y Velilla de San Antonio (Comunidad de Madrid) y se declara, en concreto,",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga AAP y AAC para la instalación fotovoltaica Envatios XXIV-Fase II. El proyecto fue modificado respecto a la AAP anterior (Resolución de 21 de junio de 2023): se redujo potencia de 91 MWp a 82,6 MW, se modificaron municipios afectados (se agregó Velilla de San Antonio), se restringió la ubicación de paneles en Valdilecha (solo zonas 1 y 2), y se soterró la línea de evacuación de 30kV en Valdilecha hacia la SET Envatios XXIV. Se cuenta con DIA favorable de 21 de marzo de 2023. El proyecto cumple condicionantes de Red Eléctrica, distribuidoras, Adif, AESA, Canal de Isabel II, Defensa y Telefónica. Se requiere gestión adicional respecto a derechos mineros 'Cancún FR:I' titularidad de TICO SA."
-        }
-      ]
-    },
-    {
       "id": "prj_06213",
       "nombre": "Parque Solar Fotovoltaico La Vega",
       "promotor": "Desarrollos Renovables Biznaga, SL",
@@ -83342,61 +83305,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución de autorización administrativa previa y de construcción tramitadas conjuntamente. Incluye infraestructuras auxiliares y de evacuación. Sometido a información pública en DOCM 128 de 06/07/2023."
-        }
-      ]
-    },
-    {
-      "id": "prj_05688",
-      "nombre": "Villameca I y II Solar PV",
-      "promotor": "Roble New Energy, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 87.4,
-      "provincia": "León",
-      "municipio": "Benavides",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": null,
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-17076"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230710",
-      "fecha_ultima": "20240819",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-10072023-52",
-          "fecha": "20230710",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AUESR",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2023/07/10/html/BOCYL-D-10072023-52.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para dos plantas fotovoltaicas «Villameca I Solar PV» (99,75 MWp/75,20 MWn), «Villameca II Solar PV» (99,75 MWp/75,20 MWn) e infraestructuras de evacuación, en el término municipal de Benavides de Órbigo (León). Expte. 495/2023.",
-          "permisos_adicionales": [
-            "LicObras"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de dos plantas fotovoltaicas (Villameca I: 99,75 MWp/75,20 MWn; Villameca II: 99,75 MWp/75,20 MWn) e infraestructuras de evacuación en Quintanilla del Monte. En trámite de información pública por 20 días (desde publicación en BOCyL 10/07/2023). Expediente municipal: 495/2023. Fecha de acuerdo: 30/06/2023."
-        },
-        {
-          "id_boe": "BOE-A-2024-17076",
-          "fecha": "20240819",
-          "boletin": "BOE",
-          "tipo_permiso": "AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17076",
-          "titulo": "Resolución de 26 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Roble New Energy, SL, autorización administrativa de construcción para la instalación fotovoltaica \"Villameca II Solar PV\", de 87,4 MW de potencia instalada, y sus infraestructuras de evacuación, en el término municipal de Benavides (León).",
-          "permisos_adicionales": [
-            "AAP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga autorización administrativa de construcción tras previa de 24 de abril de 2023. Red Eléctrica presentó oposición inicial por incumplimiento de distancias a LAT 400 kV Lomba-Vilecha, pero finalmente no manifestó oposición siempre que se cumplan sus condiciones. DIA favorable emitida el 28 de diciembre de 2022. Infraestructura de evacuación a 30 kV."
         }
       ]
     },
@@ -85904,60 +85812,6 @@
       ]
     },
     {
-      "id": "prj_05390",
-      "nombre": "Línea Eléctrica Subterránea 30 kV Ciudad Rodrigo II",
-      "promotor": "Nefertem Solar, S.L.",
-      "tecnologia": "LAT/SET",
-      "potencia_mw": null,
-      "provincia": "Salamanca",
-      "municipio": "Ciudad Rodrigo",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "ST FV Ciudad Rodrigo",
-      "tension_kv": 30,
-      "expedientes": [
-        "EIAS/2023/SA/013",
-        "RI-18.433 ATCE-37"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20231010",
-      "fecha_ultima": "20240617",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-10102023-27",
-          "fecha": "20231010",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2023/10/10/html/BOCYL-D-10102023-27.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública de la línea de evacuación de la instalación fotovoltaica de producción de energía eléctrica denominada «FV Ciudad Rodrigo II», en el término municipal de Ciudad Rodrigo (Salamanca). Expte.: RI-18.433 ATCE-37.",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Línea subterránea de evacuación de 6.898 m de longitud, sección 400 mm², tipo de conducto RHZ1-OL 18/30 kV 3x1x400 mm² AL. Presupuesto: 1.205.235,43 €. Plazo de información pública: 30 días. Plazo de resolución: 6 meses. Silencio administrativo desestimatorio."
-        },
-        {
-          "id_boe": "BOCYL-D-17062024-16",
-          "fecha": "20240617",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/06/17/html/BOCYL-D-17062024-16.do",
-          "titulo": "RESOLUCIÓN de 10 de junio de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de línea eléctrica subterránea de 30 kV de la planta solar «Ciudad Rodrigo II», promovida por «Nefertem Solar, S.L.», en el término municipal de Ciudad Rodrigo (Salamanca). Expte.: EIAS/2023/SA/013.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de línea eléctrica subterránea de evacuación de 7.164 m de longitud. Modificación sustancial de la Resolución de 1 de abril de 2022 (EIA-SA-21-17). La línea conecta el parque solar fotovoltaico Ciudad Rodrigo II con la subestación ST FV Ciudad Rodrigo. Sometida a evaluación de impacto ambiental simplificada conforme al Anexo II, Grupo 4.b de la Ley 21/2013."
-        }
-      ]
-    },
-    {
       "id": "prj_04839",
       "nombre": "Parques Eólicos Robigus, Quirite, Providentia, Promitor, Recarano, Priamo, Pietas y Othar",
       "promotor": "Forestalia, SL (Energía Inagotable de Providentia, SL y siete más)",
@@ -87480,60 +87334,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico para línea de evacuación del Parque Eólico Las Quemadillas. Sometida a información pública por 20 días. Afecta a suelo rústico común, suelo rústico con protección de infraestructuras (carreteras P-901 y P-903) y suelo rústico con protección natural (MUP 414 Torozos y Cañada Real de las Merinas). Tramitación municipal conforme artículo 307.3 del Decreto 22/2024."
-        }
-      ]
-    },
-    {
-      "id": "prj_05445",
-      "nombre": "Nudo Montearenas Sur 400 kV e Infraestructuras de Evacuación Nudo Montearenas 220 kV",
-      "promotor": "Erbienergia Inversiones, S.L.",
-      "tecnologia": "LAT/SET",
-      "potencia_mw": 279,
-      "provincia": "León",
-      "municipio": "Quintana y Congosto, Destriana, Castrillo de la Valduerna, Santiago Millas, Val de San Lorenzo, Santa Colomba de Somoza, Astorga, Brazuelo, Torre del Bierzo, Castropodame, Molinaseca, Congosto",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Nudo Montearenas",
-      "tension_kv": 400,
-      "expedientes": [
-        "LE-AT-2020/253",
-        "LE-AT-253/2020"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20231128",
-      "fecha_ultima": "20240627",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-28112023-20",
-          "fecha": "20231128",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2023/11/28/html/BOCYL-D-28112023-20.do",
-          "titulo": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento de los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur 400 kV e infraestructuras de evacuación Nudo Montearenas 220 kV plantas fotovoltaicas zona Quintana y Congosto», en los términos municipales de ",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Infraestructura de evacuación común para plantas fotovoltaicas y parques eólicos. Proyectos modificados para dar cumplimiento a los condicionados de la DIA. Incluye cuatro subestaciones transformadoras (SET FV1-Destriana 132/30 kV, SET Quintana y Congosto 132/30 kV, SET Elevadora Cto2 220/132 kV, SET Colectora Veldedo 400/132/30 kV). Expediente 253/2020 (Nudo Montearenas Sur 400 kV) y Expediente 279/2020 (Nudo Montearenas Sur 220 kV). Presupuesto total de las tres primeras subestaciones: 11.298.869,24 €."
-        },
-        {
-          "id_boe": "BOCYL-D-27062024-22",
-          "fecha": "20240627",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/06/27/html/BOCYL-D-27062024-22.do",
-          "titulo": "RESOLUCIÓN de 18 de junio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede la autorización administrativa previa y autorización administrativa de construcción, para los proyectos modificados para dar cumplimiento a los condicionados de la declaración de impacto ambiental de las infraestructuras de evacuación común para plantas fotovoltaicas y eólicas denominado «Nudo Montearenas Sur 400 kV e infraestructuras de evacuación Nudo Montearenas 220 kV ",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de autorización para proyectos modificados para dar cumplimiento a condicionados de la Declaración de Impacto Ambiental. Infraestructura de evacuación común para plantas fotovoltaicas y eólicas. Se otorgan conjuntamente Autorización Administrativa Previa (AAP) y Autorización Administrativa de Construcción (AAC). Expedientes tramitados: 253/2020 (Nudo Montearenas Sur 400 kV) y 279/2020 (Nudo Montearenas 220 kV). Promotor: Pedro García Merayo en representación de Erbienergia Inversiones, S.L."
         }
       ]
     },
@@ -91797,6 +91597,58 @@
       ]
     },
     {
+      "id": "prj_05659",
+      "nombre": "Parque Fotovoltaico Hinojosa de Duero I y II",
+      "promotor": "Inverhinojosa, S.L. y Abadengo Fotovoltaica, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 5.041,
+      "provincia": "Salamanca",
+      "municipio": "Lumbrales",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR (Nueva Subestación de Maniobra)",
+      "tension_kv": 45,
+      "expedientes": [
+        "EIAS/2024/SA/018",
+        "RI-19.381 / RI-19.833"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240327",
+      "fecha_ultima": "20240812",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-27032024-31",
+          "fecha": "20240327",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2024/03/27/html/BOCYL-D-27032024-31.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de las instalaciones fotovoltaicas de producción de energía eléctrica denominadas «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», ambas en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 y RI-19.833.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Se tramitan simultáneamente dos instalaciones fotovoltaicas: FV Hinojosa de Duero (3 MW, expediente RI-19.381 ATCE 45) y FV Hinojosa de Duero II (2.041 MW, expediente RI-19.833 ATCE 46), ambas conectadas a nueva SMR en línea Saucelle-Enusa 45 kV desde apoyo nº89. Ambas con estructura fija, líneas subterráneas de evacuación. Plazo para resolver: 6 meses. Silencio administrativo desestimatorio."
+        },
+        {
+          "id_boe": "BOCYL-D-12082024-20",
+          "fecha": "20240812",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/08/12/html/BOCYL-D-12082024-20.do",
+          "titulo": "RESOLUCIÓN de 5 de agosto de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de instalación solar fotovoltaica conectada a red «FV Hinojosa de Duero I» y «FV Hinojosa de Duero II», e instalaciones de evacuación, promovida por «Inverhinojosa, S.L.» y «Abadengo Fotovoltaica, S.L.», en el término municipal de Lumbrales (Salamanca). Expte.: EIAS/2024/SA/018.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto compuesto por dos instalaciones fotovoltaicas: FV Hinojosa I (3 MW, 7,33 ha) y FV Hinojosa II (2,041 MW, 6,23 ha). Incluye instalaciones de evacuación y conexión a red. Se dicta Informe de Impacto Ambiental sin efectos adversos significativos sobre el medio ambiente."
+        }
+      ]
+    },
+    {
       "id": "prj_05135",
       "nombre": "Línea de Evacuación Planta Solar Fotovoltaica Huelva",
       "promotor": null,
@@ -92381,6 +92233,61 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación de producción de energía eléctrica mediante tecnología fotovoltaica en suelo sobre estructura fija. Potencia pico: 1.773,2 kW. Compuesta por 3.224 paneles de 550 W cada uno. Centro de transformación en edificio prefabricado compartido con centro de seccionamiento. Información pública realizada el 10 de abril de 2024 sin alegaciones. Informes favorables de Confederación Hidrográfica del Duero y Demarcación de Carreteras del Estado. Informes condicionados de Ministerio para la Transición Ecológica y Sección de Urbanismo aceptados por el promotor."
+        }
+      ]
+    },
+    {
+      "id": "prj_05607",
+      "nombre": "Línea Evacuación 45 kV Villace II",
+      "promotor": "Sunivall Capital S.L.",
+      "tecnologia": "LAT",
+      "potencia_mw": 15,
+      "provincia": "León",
+      "municipio": "Villamañán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET San Millán",
+      "tension_kv": 45,
+      "expedientes": [
+        "FV-178-2018-23236"
+      ],
+      "estado_actual": "en_tramitacion",
+      "ultimo_tipo_permiso": "LAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240411",
+      "fecha_ultima": "20240806",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-11042024-15",
+          "fecha": "20240411",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/04/11/html/BOCYL-D-11042024-15.do",
+          "titulo": "RESOLUCIÓN de 2 de abril de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV de la planta fotovoltaica «Villace II», para cumplir con los condicionados del informe de impacto ambiental, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236, FV Villac",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Se concede autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV. La modificación fue requerida para cumplir con los condicionados del informe de impacto ambiental. El proyecto fue sometido a información pública con publicación en BOCyL (24 de noviembre de 2023) y BOP (17 de enero de 2024). Se recibió una alegación sobre afección a propiedad privada que fue resuelta por el promotor."
+        },
+        {
+          "id_boe": "BOCYL-D-06082024-25",
+          "fecha": "20240806",
+          "boletin": "BOCyL",
+          "tipo_permiso": "LAP",
+          "estado": "en_tramitacion",
+          "url": "https://bocyl.jcyl.es/html/2024/08/06/html/BOCYL-D-06082024-25.do",
+          "titulo": "RESOLUCIÓN de 24 de julio de 2024, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se convoca al levantamiento de actas previas a la ocupación de los bienes y derechos afectados por el expediente de expropiación forzosa correspondiente al proyecto modificado de la línea de evacuación subterránea de 45 kV, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236 Villacé II.",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de convocatoria de levantamiento de actas previas a la ocupación de bienes y derechos afectados por expropiación forzosa. La Declaración de Utilidad Pública se dictó el 8 de abril de 2014. Se trata de un proyecto modificado. El levantamiento de actas está programado para el 5 de septiembre de 2024 en el Ayuntamiento de Villamañán. Línea subterránea de evacuación."
         }
       ]
     },
@@ -95560,6 +95467,63 @@
       ]
     },
     {
+      "id": "prj_06204",
+      "nombre": "LAT 132kV Hazapierna-Medinaceli II y SET Medinaceli II",
+      "promotor": "Green Capital Power, S.L.U.",
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Soria",
+      "municipio": "Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón, Medinaceli",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Medinaceli II 400/132/30 kV",
+      "tension_kv": 132,
+      "expedientes": [
+        "IE/AT/64-2019"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240806",
+      "fecha_ultima": "20241203",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-06082024-26",
+          "fecha": "20240806",
+          "boletin": "BOCyL",
+          "tipo_permiso": "ModAAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2024/08/06/html/BOCYL-D-06082024-26.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de modificación de la autorización administrativa previa y solicitud de autorización de construcción y declaración, en concreto, de utilidad pública de la instalación eléctrica «Proyecto de línea eléctrica aérea de alta tensión 132 kV para la evacuación de la energía eléctrica entre «SET Hazapierna» y «SET Medinaceli II». Subestación «Medinaceli II» 400/132/30 kV de interconexión con la «SET Medinaceli» 400 kV». Expte.: IE/AT/64-2019.",
+          "permisos_adicionales": [
+            "AAC",
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Línea eléctrica aérea de alta tensión 132 kV de 52,3 km de longitud total. Compuesta por 4 tramos subterráneos (27,961 km) y 3 tramos aéreos (24,347 km). Evacuación de energía de parques eólicos Hazapierna, Praderas Altas, Torrecilla, Turkana y planta fotovoltaica Orquidea. Interconexión entre SET Hazapierna y SET Medinaceli II hasta conexión con red de transporte en SET Medinaceli 400 kV. Solicitud de modificación de AAP presentada el 17-06-2024 tras resolución favorable de 19-06-2023."
+        },
+        {
+          "id_boe": "BOCYL-D-03122024-58",
+          "fecha": "20241203",
+          "boletin": "BOCyL",
+          "tipo_permiso": "ModAAP",
+          "estado": "otorgado",
+          "url": "https://bocyl.jcyl.es/html/2024/12/03/html/BOCYL-D-03122024-58.do",
+          "titulo": "RESOLUCIÓN de 18 de noviembre de 2024, del Servicio Territorial de Industria, Comercio y Economía de Soria, de modificación de la autorización administrativa previa, autorización de construcción y declaración, en concreto, de utilidad pública de la instalación eléctrica «Proyecto de línea eléctrica aérea de alta tensión 132 kV para la evacuación de la energía eléctrica entre SET «Hazapierna» y SET «Medinaceli II». subestación «Medinaceli II 400/132/30 kV» de interconexión con la SET «Medinaceli ",
+          "permisos_adicionales": [
+            "ModAAC",
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de modificación de autorización administrativa previa, autorización de construcción y declaración de utilidad pública. Línea eléctrica aérea de alta tensión 132 kV para evacuación de energía entre SET Hazapierna y SET Medinaceli II, con subestación de interconexión con SET Medinaceli 400 kV. Modificación tramitada tras cumplimiento de condicionantes de la DIA favorable resuelta por Orden MAV/404/2023 de 27 de marzo de 2023. El promotor presentó dos alternativas de proyecto que fueron evaluadas. Orden MAV/404/2023 publicada en BOCYL el 4 de abril de 2023. Autorización Administrativa Previa y DIA otorgadas mediante Resolución de 19 de junio de 2023 (publicada en BOCYL el 10 de julio de 2023)."
+        }
+      ]
+    },
+    {
       "id": "prj_08504",
       "nombre": "PSF El Cotillo II",
       "promotor": "Luxida Solar, S.L.",
@@ -98359,63 +98323,6 @@
       ]
     },
     {
-      "id": "prj_06605",
-      "nombre": "Planta Fotovoltaica Las Majas VII C",
-      "promotor": "Fuerzas Energéticas del Sur de Europa XII, SL",
-      "tecnologia": "FV+BESS",
-      "potencia_mw": 10.89,
-      "provincia": "Zaragoza",
-      "municipio": "Herrera de los Navarros, Villar de los Navarros",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII 30/220 kV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-22420",
-        "BOE-A-2025-4497"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20250306",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22420",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22420",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII C, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Planta fotovoltaica de 10,89 MWn / 12,15 MWp. Capacidad híbrida total: 60,29 MW. Infraestructura de evacuación mediante línea subterránea 30 kV de 6.360 m compartida con otras plantas fotovoltaicas próximas (Las Majas VII A, VII B y VII E). Conexión final a nudo Muniesa 400 kV de REE. Superficie total: 22,23 ha (5,71 ha ocupadas por módulos). 24.300 módulos monocristalinos de 500 Wp. Procedimiento incluye información pública y consultas a administraciones."
-        },
-        {
-          "id_boe": "BOE-A-2025-4497",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4497",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XII, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII C, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros y Villar de los Na",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto sometido a evaluación de impacto ambiental ordinaria con DIA favorable emitida el 18 de octubre de 2024. Se tramitó conforme al RD 1955/2000 y Ley 21/2013. Se recibió alegación de Enel Green Power España, SL respecto a falta de separata del proyecto. Incoado el 6 de noviembre de 2022, subsanado el 2 de febrero de 2023. Información pública publicada el 4 de septiembre de 2023 en BOE y 7 de septiembre de 2023 en BOPZ."
-        }
-      ]
-    },
-    {
       "id": "prj_06691",
       "nombre": "La Robla Green",
       "promotor": "Desarrollos Renovables Abies S.L., La Robla Nueva Energía S.L., Desarrollo Renovable Mahogany S.L.",
@@ -99868,58 +99775,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación de producción de energía eléctrica por tecnología fotovoltaica (originalmente inscrita como FV/Eólica en solicitud, pero resolución otorga solo fotovoltaica). Sometida a información pública en BOCYL el 13/12/2024 y en BOPV el 11/12/2024. Período de información pública de 30 días hábiles. Solicitante optó por continuar tramitación bajo normativa anterior (Decreto 127/2003) tras entrada en vigor del Decreto 46/2022. Se han solicitado informes técnicos a múltiples administraciones públicas y empresas de servicios. Condiciones del Ayuntamiento de Tordesillas incluyen exigencias de retirada de instalaciones al final de vida útil, adecuación estética al entorno (colores ocres/terrosos), prohibición de materiales brillantes, vegetación perimetral al vallado y especificaciones técnicas de compactación de zanjas."
-        }
-      ]
-    },
-    {
-      "id": "prj_06938",
-      "nombre": "Ampliación Subestación San Martín I 45/15 kV",
-      "promotor": "UFD Distribución Electricidad, S. A.",
-      "tecnologia": "SET",
-      "potencia_mw": 25,
-      "provincia": "Madrid",
-      "municipio": "San Martín de la Vega",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "ST San Martín I",
-      "tension_kv": 45,
-      "expedientes": [
-        "2023P446 - 14-0141-00446.1/2023",
-        "2023P446 - USE196"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAC",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241217",
-      "fecha_ultima": "20250505",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCM-20241217-52",
-          "fecha": "20241217",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20241217-52",
-          "titulo": "Resolución de 26 de noviembre de 2024, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST San Martín I 45/15 kV en Avda. Abogados de Atocha, número 11, en el término municipal de San Martín de la Vega, solicitada por UFD Distribución Electricidad, S. A.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Ampliación de subestación transformadora existente mediante sustitución de transformador de 15 MVA por otro de 25 MVA. Instalación de transformadores de tensión para detección de desequilibrio. Presupuesto total: 674.136,48 euros. Período de información pública: 1 mes desde la publicación."
-        },
-        {
-          "id_boe": "BOCM-20250505-30",
-          "fecha": "20250505",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAC",
-          "estado": "otorgado",
-          "url": "https://www.bocm.es/bocm-20250505-30",
-          "titulo": "Resolución de 8 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa y aprobación del proyecto de ejecución para la ampliación de la subestación ST San Martín I 45/15 kV ubicada en Avda. Abogados de atocha, 11, en el término municipal de San Martín de la Vega, solicitado por UFD Distribución Electricidad, S. A. Expediente: 2023P446 - 14-0141-00446.1/2023",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Subestación de distribución 45/15 kV. Resolución de autorización administrativa y aprobación del proyecto de ejecución. Se declara no necesaria la tramitación de evaluación de impacto ambiental según Ley 21/2013. Información pública completada (BOCM núm. 300, de 17 de diciembre de 2024). Ayuntamiento de San Martín de la Vega permite la modificación y ampliación del proyecto."
         }
       ]
     },
@@ -104281,58 +104136,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga autorización administrativa, aprueba proyecto de ejecución y declara utilidad pública para construcción de línea aérea de 15kV. Información pública realizada mediante RESOLUCIÓN de 17 de julio de 2025 (BOCM n.º 184, de 4 de agosto de 2025). Se resolvió la no necesidad de tramitación de evaluación de impacto ambiental según artículo 7 de Ley 21/2013 (SEA 9.142/23). Proyecto ubicado en polígono 1, parcelas 1320, 9003 y 335."
-        }
-      ]
-    },
-    {
-      "id": "prj_08112",
-      "nombre": "Línea Subterránea 132 kV y Subestación ST Escobares",
-      "promotor": "ATLAS DC2, S. L.",
-      "tecnologia": "LAT",
-      "potencia_mw": 200,
-      "provincia": "Madrid",
-      "municipio": "Alcobendas",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "ST Escobares",
-      "tension_kv": 132,
-      "expedientes": [
-        "2025P290",
-        "2025P290-14-0141-00290.2/2025"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20250818",
-      "fecha_ultima": "20251125",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCM-20250818-27",
-          "fecha": "20250818",
-          "boletin": "BOCM",
-          "tipo_permiso": "IP",
-          "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20250818-27",
-          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de 1 línea subterránea de 132 kV y 1 nueva subestación denominada “ST Escobares” en SUNS A-7 “Los Escobares” en el término municipal de Alcobendas, solicitada por Atlas DC2, S. L.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Nueva subestación de transformación 132/20 kV con doble transformador de 100 MVA cada uno (potencia total 200 MVA). Ubicada en SUNS A-7 'Los Escobares'. Línea subterránea de 132 kV. Presupuesto total: 11.097.799,81 euros. Período de información pública de un mes desde la publicación en BOCM."
-        },
-        {
-          "id_boe": "BOCM-20251125-33",
-          "fecha": "20251125",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.bocm.es/bocm-20251125-33",
-          "titulo": "Resolución de 21 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de una línea subterránea de 132 kV y una nueva subestación denominada “ST Escobares” ubicados en SUNS A-7 “Los Escobares” en el término municipal de Alcobendas, solicitado por ATLAS DC2, S. L. Número expediente: 2025P290-14-0141-00290.2/2025",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de ejecución para instalación de línea subterránea de 132 kV y nueva subestación denominada ST Escobares ubicados en SUNS A-7 Los Escobares. Sometido a información pública mediante Resolución de 18 de julio de 2025. Red Eléctrica de España no presenta oposición. Resto de organismos consultados (Ayuntamiento de Alcobendas, Canal de Isabel II, I-DE) no contestaron en plazo, lo que se entiende como conformidad. Proyecto visado por ingeniero colegiado el 15/10/2024."
         }
       ]
     },
@@ -122700,6 +122503,44 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución que otorga autorización administrativa, aprobación del proyecto de ejecución y declaración de utilidad pública para instalación fotovoltaica conectada a red. Se completa con DUP de bienes y derechos afectados por línea de evacuación. Se realizó información pública sin alegaciones presentadas. El promotor aceptó condicionados técnicos de ayuntamiento y consejería de cultura."
+        }
+      ]
+    },
+    {
+      "id": "prj_00979",
+      "nombre": "Planta Solar Fotovoltaica Alconchel 2020.2",
+      "promotor": "Alter Enersun, SA",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Badajoz",
+      "municipio": "Alconchel",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-21061908"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20210629",
+      "fecha_ultima": "20210629",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-21061908",
+          "fecha": "20210629",
+          "boletin": "DOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://doe.juntaex.es/pdfs/doe/2021/1230o/21061908.pdf",
+          "titulo": "Energía solar.- Resolución de 17 de junio de 2021, de la Dirección General de Sostenibilidad, por la que se formula informe de impacto ambiental del proyecto de planta solar fotovoltaica \"Alconchel 2020.2\" e infraestructura de evacuación, cuyo promotor es Alter Enersun, SA, en el término municipal d",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de Declaración de Impacto Ambiental (DIA) favorable. Incluye infraestructura de evacuación asociada al proyecto."
         }
       ]
     },
@@ -146872,44 +146713,6 @@
       ]
     },
     {
-      "id": "prj_02613",
-      "nombre": "Ampliación Subestación Fuendetodos 400/220 kV",
-      "promotor": "Red Eléctrica de España, SAU",
-      "tecnologia": "LAT/SET",
-      "potencia_mw": 600,
-      "provincia": "Zaragoza",
-      "municipio": "Fuendetodos",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "Fuendetodos 400/220 kV",
-      "tension_kv": 400,
-      "expedientes": [
-        "BOE-A-2023-1582"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230119",
-      "fecha_ultima": "20230119",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-1582",
-          "fecha": "20230119",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-1582",
-          "titulo": "Resolución de 10 de enero de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de ampliación de la subestación Fuendetodos 400/220 kV, con un banco de transformación de 600 MVA y sus dos correspondientes posiciones, en Fuendetodos (Zaragoza).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Banco de transformación AT-2 400/220 de 600 MVA con dos posiciones. Proyecto incluido en Plan de Desarrollo de la Red de Transporte 2021-2026. Destinado a facilitar integración de renovables y resolver restricciones técnicas del eje Aragón-Cataluña sur. Sin alegaciones en información pública."
-        }
-      ]
-    },
-    {
       "id": "prj_02614",
       "nombre": "Ampliación Subestación La Mudarra 400 kV",
       "promotor": "Red Eléctrica de España, SAU",
@@ -153587,6 +153390,44 @@
       ]
     },
     {
+      "id": "prj_02978",
+      "nombre": "LAT 132kV Hazapierna-Medinaceli II y SET Medinaceli II 400/132kV",
+      "promotor": "Green Capital Power, S.L.",
+      "tecnologia": "LAT/SET",
+      "potencia_mw": null,
+      "provincia": "Soria",
+      "municipio": "Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón, Medinaceli",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET Medinaceli",
+      "tension_kv": 132,
+      "expedientes": [
+        "BOCYL-D-04042023-28"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230404",
+      "fecha_ultima": "20230404",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-04042023-28",
+          "fecha": "20230404",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2023/04/04/html/BOCYL-D-04042023-28.do",
+          "titulo": "ORDEN MAV/404/2023, de 27 de marzo, por la que se dicta la declaración de impacto ambiental del proyecto de la línea eléctrica aérea de alta tensión de 132 kv para la evacuación de la energía eléctrica entre la SET «Hazapierna» y la SET «Medinaceli II» y la subestación SET «Medinaceli II» 400/132 kv de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón y Medinaceli (Soria).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Declaración de Impacto Ambiental favorable. Proyecto incluye línea aérea 132kV de 46,84 km entre SET Hazapierna y SET Medinaceli II, con 220 apoyos metálicos de celosía, y construcción de nueva subestación Medinaceli II 400/132kV de interconexión con SET Medinaceli (REE). Proyecto modificado durante tramitación para responder a condicionantes ambientales. Afecta a espacios naturales protegidos y Red Natura 2000 en más de 3 km. Consejería competente: Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio de Castilla y León."
+        }
+      ]
+    },
+    {
       "id": "prj_02985",
       "nombre": "Instalaciones Comunes de Evacuación FV Renedo I y FV Renedo GZ",
       "promotor": "Renedo Renovables, S.L. (socios fundadores: Alcaraz Solar, S.L. y Fotovoltaica Zarafot 4, S.L.)",
@@ -159455,46 +159296,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución otorga AAP para instalación fotovoltaica de 92,5 MW (especificada como 100 MWp en solicitud inicial). Incluye infraestructuras de evacuación en 30 kV y autorización de construcción para SET Pozo II 220/30 kV y línea L/220 kV. Proyecto fue acumulado inicialmente con otros expedientes (Bichero Solar, Montería Solar, Ojeador Solar, Aluvión Solar, Broza Solar, Bruma Solar) y posteriormente desacumulado en abril de 2023. Se sometió a información pública (19 de julio de 2021 en BOE, 16 de julio de 2021 en Boletín Oficial de Guadalajara) y se recibieron alegaciones. Todos los organismos consultados expresaron conformidad con el proyecto."
-        }
-      ]
-    },
-    {
-      "id": "prj_03450",
-      "nombre": "Villameca I Solar PV",
-      "promotor": "Roble New Energy, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 87.4,
-      "provincia": "León",
-      "municipio": "Benavides, Quintana del Castillo, Villamejil",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "SET Eólicos Villameca 400/132 kV",
-      "tension_kv": 400,
-      "expedientes": [
-        "BOE-A-2023-12900"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230531",
-      "fecha_ultima": "20230531",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-12900",
-          "fecha": "20230531",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-12900",
-          "titulo": "Resolución de 21 de abril de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Roble New Energy, SL, autorización administrativa previa para la instalación fotovoltaica Villameca I Solar PV, de 99,74 MW de potencia pico, 87,4 MW de potencia instalada y sus infraestructuras de evacuación, en Benavides, Quintana del Castillo y Villamejil (León).",
-          "permisos_adicionales": [
-            "DUP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de 99,75 MWp y 87,4 MW de potencia instalada. Incluye red de líneas subterráneas a 30 kV, subestación SE Villameca I y II 132/30 kV y línea a 132 kV hacia SET Eólicos Villameca 400/132 kV. Tramitación conjunta con Villameca II Solar PV. Oposiciones de municipios y juntas vecinales por motivos medioambientales y urbanísticos, pero se otorga autorización. Publicación en BOE: 31 de mayo de 2023."
         }
       ]
     },
@@ -170128,6 +169929,46 @@
       ]
     },
     {
+      "id": "prj_04069",
+      "nombre": "Línea De Evacuación FV Ciudad Rodrigo II",
+      "promotor": "NEFERTEM SOLAR, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Salamanca",
+      "municipio": "Ciudad Rodrigo",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST FV Ciudad Rodrigo",
+      "tension_kv": 30,
+      "expedientes": [
+        "RI-18.433 ATCE-37"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20231010",
+      "fecha_ultima": "20231010",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-10102023-27",
+          "fecha": "20231010",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2023/10/10/html/BOCYL-D-10102023-27.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública de la línea de evacuación de la instalación fotovoltaica de producción de energía eléctrica denominada «FV Ciudad Rodrigo II», en el término municipal de Ciudad Rodrigo (Salamanca). Expte.: RI-18.433 ATCE-37.",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Línea subterránea de evacuación de 6.898 m de longitud, sección 400 mm², tipo de conducto RHZ1-OL 18/30 kV 3x1x400 mm² AL. Presupuesto: 1.205.235,43 €. Plazo de información pública: 30 días. Plazo de resolución: 6 meses. Silencio administrativo desestimatorio."
+        }
+      ]
+    },
+    {
       "id": "prj_04072",
       "nombre": "Infraestructura De Evacuación De Energía Renovable",
       "promotor": null,
@@ -173107,6 +172948,48 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico para línea de evacuación eléctrica. Información pública de 20 días hábiles conforme artículo 307.3 del Decreto 22/2004 de Urbanismo de Castilla y León. Expediente municipal 53/2023. Parcelas afectadas en polígonos 1, 2, 3, 7 y 8 del término municipal."
+        }
+      ]
+    },
+    {
+      "id": "prj_04252",
+      "nombre": "Línea de Evacuación Subterránea 45kV Villace II",
+      "promotor": "Sunivall Capital S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 20,
+      "provincia": "León",
+      "municipio": "Villamañán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SET San Millán",
+      "tension_kv": 45,
+      "expedientes": [
+        "FV-178-2018-23236"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20231124",
+      "fecha_ultima": "20231124",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-24112023-27",
+          "fecha": "20231124",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2023/11/24/html/BOCYL-D-24112023-27.do",
+          "titulo": "INFORMACIÓN pública relativa a la solicitud de la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto modificado de la línea de evacuación subterránea de 45 kV de la planta fotovoltaica «Villace II», para cumplir con los condicionados del informe de impacto ambiental, en el término municipal de Villamañán (León). Expte.: FV-178-2018-23236, FV Villace II.",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP",
+            "ModAAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto modificado de línea de evacuación subterránea de la planta fotovoltaica Villace II. Línea de simple circuito 45kV de 4.337 metros de longitud con cuatro perforaciones dirigidas bajo carreteras y arroyo. Presupuesto: 1.983.672,35 euros. Sometido a información pública para modificación de AAP, AAC y DUP. Se requirió nuevo informe ambiental según condicionados previos."
         }
       ]
     },
@@ -190575,6 +190458,44 @@
       ]
     },
     {
+      "id": "prj_05390",
+      "nombre": "Línea Eléctrica Subterránea 30 kV Ciudad Rodrigo II",
+      "promotor": "Nefertem Solar, S.L.",
+      "tecnologia": "LAT/SET",
+      "potencia_mw": null,
+      "provincia": "Salamanca",
+      "municipio": "Ciudad Rodrigo",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "ST FV Ciudad Rodrigo",
+      "tension_kv": 30,
+      "expedientes": [
+        "EIAS/2023/SA/013"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240617",
+      "fecha_ultima": "20240617",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-17062024-16",
+          "fecha": "20240617",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/06/17/html/BOCYL-D-17062024-16.do",
+          "titulo": "RESOLUCIÓN de 10 de junio de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de línea eléctrica subterránea de 30 kV de la planta solar «Ciudad Rodrigo II», promovida por «Nefertem Solar, S.L.», en el término municipal de Ciudad Rodrigo (Salamanca). Expte.: EIAS/2023/SA/013.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de línea eléctrica subterránea de evacuación de 7.164 m de longitud. Modificación sustancial de la Resolución de 1 de abril de 2022 (EIA-SA-21-17). La línea conecta el parque solar fotovoltaico Ciudad Rodrigo II con la subestación ST FV Ciudad Rodrigo. Sometida a evaluación de impacto ambiental simplificada conforme al Anexo II, Grupo 4.b de la Ley 21/2013."
+        }
+      ]
+    },
+    {
       "id": "prj_05391",
       "nombre": "Planta Biometano Fuentelcésped",
       "promotor": "Agrocircular, S.L.",
@@ -192218,44 +192139,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Ampliación consistente en la instalación de una nueva posición de salida de línea para evacuación de renovables (EVRE). La actuación se encuentra incluida en el Plan de Desarrollo de la Red de Transporte de Energía Eléctrica 2021-2026. Se otorgaron simultáneamente autorización administrativa previa y autorización administrativa de construcción. No se recibieron alegaciones en el trámite de información pública."
-        }
-      ]
-    },
-    {
-      "id": "prj_05478",
-      "nombre": "Ampliación Subestación Fuendetodos 400 kV",
-      "promotor": "Red Eléctrica de España, SAU",
-      "tecnologia": "SET",
-      "potencia_mw": null,
-      "provincia": "Zaragoza",
-      "municipio": "Fuendetodos",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "Fuendetodos",
-      "tension_kv": 400,
-      "expedientes": [
-        "BOE-A-2024-13567"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20240703",
-      "fecha_ultima": "20240703",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-13567",
-          "fecha": "20240703",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13567",
-          "titulo": "Resolución de 22 de junio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción, para la ampliación, con dos nuevas posiciones, de la subestación de Fuendetodos en el parque de 400 kV, en Fuendetodos (Zaragoza).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Ampliación con dos nuevas posiciones de interruptor para conexión de instalaciones de generación renovable. Incluida en Plan de Desarrollo de la Red de Transporte 2021-2026 (una posición) y en modificación del plan aprobada por Consejo de Ministros el 16 de abril de 2024 (segunda posición). Información pública sin alegaciones. Trámite de audiencia completado con conformidad del promotor."
         }
       ]
     },
@@ -195867,6 +195750,46 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Resolución otorgando autorización administrativa previa y autorización administrativa de construcción. Instalación fotovoltaica de 56,51 MW de potencia pico y 50,1 MW de potencia instalada. Se incluyó modificación de AAP previa (ModAAP) respecto a cambios en módulos, inversores, trazado de circuitos de evacuación y retranqueos de vallado para evitar afección a yacimientos arqueológicos y línea de 220 kV Ricobayo-Zaratán. DIA favorable emitida el 12 de enero de 2023. AAP original otorgada el 17 de marzo de 2023. Proyecto cumple condicionantes ambientales e informes de REE e I-DE Redes Inteligentes."
+        }
+      ]
+    },
+    {
+      "id": "prj_05688",
+      "nombre": "Villameca II Solar PV",
+      "promotor": "Roble New Energy, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 87.4,
+      "provincia": "León",
+      "municipio": "Benavides",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": null,
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2024-17076"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240819",
+      "fecha_ultima": "20240819",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2024-17076",
+          "fecha": "20240819",
+          "boletin": "BOE",
+          "tipo_permiso": "AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17076",
+          "titulo": "Resolución de 26 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Roble New Energy, SL, autorización administrativa de construcción para la instalación fotovoltaica \"Villameca II Solar PV\", de 87,4 MW de potencia instalada, y sus infraestructuras de evacuación, en el término municipal de Benavides (León).",
+          "permisos_adicionales": [
+            "AAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga autorización administrativa de construcción tras previa de 24 de abril de 2023. Red Eléctrica presentó oposición inicial por incumplimiento de distancias a LAT 400 kV Lomba-Vilecha, pero finalmente no manifestó oposición siempre que se cumplan sus condiciones. DIA favorable emitida el 28 de diciembre de 2022. Infraestructura de evacuación a 30 kV."
         }
       ]
     },
@@ -201879,47 +201802,6 @@
       ]
     },
     {
-      "id": "prj_06035",
-      "nombre": "Planta Fotovoltaica Las Majas VII D",
-      "promotor": "Fuerzas Energéticas del Sur de Europa V, SL (grupo REPSOL)",
-      "tecnologia": "FV+BESS",
-      "potencia_mw": 24.25,
-      "provincia": "Zaragoza",
-      "municipio": "Moyuela, Azuara",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII D 30/220 kV",
-      "tension_kv": 220,
-      "expedientes": [
-        "BOE-A-2024-22421"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20241030",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22421",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22421",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII D, de 24,25 MW, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación de planta fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW), sumando 73,65 MW. Incluye ampliación y modificación de la subestación colectora SET Las Majas VII D 30/220 kV. Superficie total: 46,64 ha. La resolución es una Declaración de Impacto Ambiental favorable emitida por la Dirección General de Calidad y Evaluación Ambiental."
-        }
-      ]
-    },
-    {
       "id": "prj_06038",
       "nombre": "Línea Subterránea San Fernando-Puente San Fernando 220 kV",
       "promotor": "Red Eléctrica de España, S.A.U.",
@@ -206571,6 +206453,44 @@
       ]
     },
     {
+      "id": "prj_06277",
+      "nombre": "Ampliación Subestación San Martín I 45/15 kV",
+      "promotor": "UFD Distribución Electricidad, S. A.",
+      "tecnologia": "SET",
+      "potencia_mw": 25,
+      "provincia": "Madrid",
+      "municipio": "San Martín de la Vega",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST San Martín I",
+      "tension_kv": 45,
+      "expedientes": [
+        "2023P446 - USE196"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241217",
+      "fecha_ultima": "20241217",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20241217-52",
+          "fecha": "20241217",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20241217-52",
+          "titulo": "Resolución de 26 de noviembre de 2024, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST San Martín I 45/15 kV en Avda. Abogados de Atocha, número 11, en el término municipal de San Martín de la Vega, solicitada por UFD Distribución Electricidad, S. A.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Ampliación de subestación transformadora existente mediante sustitución de transformador de 15 MVA por otro de 25 MVA. Instalación de transformadores de tensión para detección de desequilibrio. Presupuesto total: 674.136,48 euros. Período de información pública: 1 mes desde la publicación."
+        }
+      ]
+    },
+    {
       "id": "prj_06280",
       "nombre": "Parque Eólico Cuesta del Rey",
       "promotor": "Alerion Spain, S.L.",
@@ -209797,6 +209717,46 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Línea subterránea de 220 kV en doble circuito. Modificación de instalación existente. Se han recibido alegaciones de Canal de Isabel II durante información pública, con respuesta satisfactoria del titular. Informes favorables de Nedgia Madrid y Orange España con condicionantes aceptados. Informe previo favorable de la Dirección General de Política Energética y Minas (AGE) de fecha 19 de agosto de 2022."
+        }
+      ]
+    },
+    {
+      "id": "prj_06428",
+      "nombre": "FV Hinojosa de Duero / FV Hinojosa de Duero II",
+      "promotor": "Inverhinojosa, S.L. / Abadengo Fotovoltaica, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Salamanca",
+      "municipio": "Lumbrales / Hinojosa de Duero",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "CH Saucelle 1",
+      "tension_kv": 220,
+      "expedientes": [
+        "RI-19.381 ATCE-45 / RI-19.833 ATCE-46"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250122",
+      "fecha_ultima": "20250122",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-22012025-9",
+          "fecha": "20250122",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://bocyl.jcyl.es/html/2025/01/22/html/BOCYL-D-22012025-9.do",
+          "titulo": "RESOLUCIÓN de 7 de enero de 2025, del Servicio Territorial de Industria, Comercio y Economía de Salamanca, dictada por delegación, por la que se otorga la autorización administrativa previa de los módulos de generación de energía eléctrica, mediante tecnología fotovoltaica, denominados «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 ATCE-45 y RI-19.833, ATCE-46.",
+          "permisos_adicionales": [
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga Autorización Administrativa Previa (AAP) de dos módulos fotovoltaicos (FV Hinojosa de Duero y FV Hinojosa de Duero II) en términos municipales de Lumbrales e Hinojosa de Duero. Ambas instalaciones han sido tramitadas como continuidad de instalaciones conforme al Decreto 46/2022. Evacúan en la misma red de distribución (línea 2 - Saucelle-Enusa 1 de 45 kV) y afectan al mismo nudo de transporte (CH Saucelle 1 a 220 kV). Informe ambiental favorable emitido por el Servicio Territorial de Medio Ambiente el 09 de octubre de 2024."
         }
       ]
     },
@@ -220145,6 +220105,44 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Informe de impacto ambiental favorable publicado de conformidad con el artículo 47 de la Ley 21/2013 de evaluación ambiental. Se trata de hibridación de parque eólico existente con sistema de almacenamiento en baterías (BESS) con potencia total de 7 MW repotenciado."
+        }
+      ]
+    },
+    {
+      "id": "prj_06938",
+      "nombre": "Ampliación Subestación San Martín I",
+      "promotor": "UFD Distribución Electricidad, S. A.",
+      "tecnologia": "SET",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "San Martín de la Vega",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST San Martín I",
+      "tension_kv": 45,
+      "expedientes": [
+        "2023P446 - 14-0141-00446.1/2023"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAC",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250505",
+      "fecha_ultima": "20250505",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250505-30",
+          "fecha": "20250505",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAC",
+          "estado": "otorgado",
+          "url": "https://www.bocm.es/bocm-20250505-30",
+          "titulo": "Resolución de 8 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa y aprobación del proyecto de ejecución para la ampliación de la subestación ST San Martín I 45/15 kV ubicada en Avda. Abogados de atocha, 11, en el término municipal de San Martín de la Vega, solicitado por UFD Distribución Electricidad, S. A. Expediente: 2023P446 - 14-0141-00446.1/2023",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Subestación de distribución 45/15 kV. Resolución de autorización administrativa y aprobación del proyecto de ejecución. Se declara no necesaria la tramitación de evaluación de impacto ambiental según Ley 21/2013. Información pública completada (BOCM núm. 300, de 17 de diciembre de 2024). Ayuntamiento de San Martín de la Vega permite la modificación y ampliación del proyecto."
         }
       ]
     },
@@ -233138,6 +233136,44 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación compuesta por 11.232 paneles fotovoltaicos de 560 Wp, 18 inversores de 200 kW y 8 inversores de 175 kW. Tres centros de transformación de 1250 kVA, 2500 kVA y 3150 kVA. Superficie total ocupada: 9,77 ha. Ubicación: polígono 39, parcela 16, y polígono 42, parcelas 17, 19, 22, 23 y 29. Presupuesto total: 3.595.242,66 euros. Periodo de información pública: un mes a partir del día siguiente a la publicación."
+        }
+      ]
+    },
+    {
+      "id": "prj_07533",
+      "nombre": "Subestación Escobares 132/20 kV",
+      "promotor": "Atlas DC2, S. L.",
+      "tecnologia": "LAT/SET",
+      "potencia_mw": 200,
+      "provincia": "Madrid",
+      "municipio": "Alcobendas",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST Escobares",
+      "tension_kv": 132,
+      "expedientes": [
+        "2025P290"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "IP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250818",
+      "fecha_ultima": "20250818",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250818-27",
+          "fecha": "20250818",
+          "boletin": "BOCM",
+          "tipo_permiso": "IP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20250818-27",
+          "titulo": "Resolución de 18 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de 1 línea subterránea de 132 kV y 1 nueva subestación denominada “ST Escobares” en SUNS A-7 “Los Escobares” en el término municipal de Alcobendas, solicitada por Atlas DC2, S. L.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Nueva subestación de transformación 132/20 kV con doble transformador de 100 MVA cada uno (potencia total 200 MVA). Ubicada en SUNS A-7 'Los Escobares'. Línea subterránea de 132 kV. Presupuesto total: 11.097.799,81 euros. Período de información pública de un mes desde la publicación en BOCM."
         }
       ]
     },
@@ -246543,6 +246579,44 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación híbrida con módulo fotovoltaico de 1 MW. Autorización Administrativa Previa y de Construcción otorgadas conjuntamente por la Directora General de Energía y Minas de Aragón."
+        }
+      ]
+    },
+    {
+      "id": "prj_08112",
+      "nombre": "Línea Subterránea 132 kV y Subestación ST Escobares",
+      "promotor": "ATLAS DC2, S. L.",
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Alcobendas",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST Escobares",
+      "tension_kv": 132,
+      "expedientes": [
+        "2025P290-14-0141-00290.2/2025"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251125",
+      "fecha_ultima": "20251125",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20251125-33",
+          "fecha": "20251125",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.bocm.es/bocm-20251125-33",
+          "titulo": "Resolución de 21 de octubre de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de una línea subterránea de 132 kV y una nueva subestación denominada “ST Escobares” ubicados en SUNS A-7 “Los Escobares” en el término municipal de Alcobendas, solicitado por ATLAS DC2, S. L. Número expediente: 2025P290-14-0141-00290.2/2025",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de ejecución para instalación de línea subterránea de 132 kV y nueva subestación denominada ST Escobares ubicados en SUNS A-7 Los Escobares. Sometido a información pública mediante Resolución de 18 de julio de 2025. Red Eléctrica de España no presenta oposición. Resto de organismos consultados (Ayuntamiento de Alcobendas, Canal de Isabel II, I-DE) no contestaron en plazo, lo que se entiende como conformidad. Proyecto visado por ingeniero colegiado el 15/10/2024."
         }
       ]
     },
