@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nodalys · Permisos Energéticos</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="%231a1a18"/><text x="16" y="23" font-family="Georgia,serif" font-size="20" font-weight="500" text-anchor="middle" fill="%23f5f4f2">N</text><circle cx="23" cy="21" r="2.2" fill="%23c9a84c"/></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="%231a1a18"/><text x="16" y="23" font-family="Georgia,serif" font-size="20" font-weight="500" text-anchor="middle" fill="%23f5f4f2">N</text><circle cx="23" cy="21" r="2.2" fill="%23c9a84c"/></svg>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -970,7 +972,7 @@ const CONFIG = {
         <span id="updated-txt">Cargando...</span> <span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.3);margin-left:4px" id="ver-badge">v50</span>
       </div>
 
-      <button onclick="exportCSV()" style="padding:5px 14px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↓ CSV</button>
+      
       <button id="dash-reload-btn" onclick="(function(btn){btn.disabled=true;btn.textContent='↻';btn.style.opacity='.5';loadData().then(function(){try{renderDashboard();}catch(e){}}).catch(function(){}).finally(function(){btn.disabled=false;btn.textContent='↺';btn.style.opacity='1';});})(this)" style="padding:5px 11px;border:1px solid rgba(26,26,24,.18);border-radius:20px;background:#fff;font-size:13px;cursor:pointer;font-family:'Inter',sans-serif;color:#1a1a18;transition:border-color .12s,opacity .12s;line-height:1" onmouseover="this.style.borderColor='rgba(26,26,24,.4)'" onmouseout="this.style.borderColor='rgba(26,26,24,.18)'">↺</button>
       <button class="logout-btn" onclick="doLogout()" title="Cerrar sesión" style="display:flex;align-items:center;gap:5px"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>Cerrar sesión</button>
     </div>
