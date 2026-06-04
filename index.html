@@ -7119,19 +7119,36 @@ function exportSrchCSV(){
   var cols=['fecha_primera','fecha_ultima','nombre','promotor','tecnologia','potencia_mw','ultimo_tipo_permiso','estado_actual','subestacion','provincia','municipio','n_publicaciones'];
   var labels=['Fecha primera','Fecha ultima','Nombre proyecto','Promotor','Tecnologia','Potencia MW','Permiso','Estado','Punto de conexion','Provincia','Municipio','Nº publicaciones'];
   var sep=';';
-  var header=labels.map(function(l){return '"'+l+'"';}).join(sep);
-  var rows=data.map(function(p){
-    return cols.map(function(c){
-      var v=p[c]; if(v==null)v='';
+  var lines=[labels.map(function(l){return '"'+l+'"';}).join(sep)];
+  data.forEach(function(p){
+    lines.push(cols.map(function(c){
+      var v=p[c]; if(v==null||v===undefined)v='';
       if(c==='fecha_primera'||c==='fecha_ultima') v=(v+'').replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1');
-      return '"'+(v+'').replace(/"/g,'""')+'"';
-    }).join(sep);
-  }).join('\r\n');
-  var blob=new Blob(['﻿'+header+'\r\n'+rows],{type:'text/csv;charset=utf-8;'});
-  var a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
-  a.click();
+      v=(v+'').replace(/"/g,'""');
+      return '"'+v+'"';
+    }).join(sep));
+  });
+  var csv='\uFEFF'+lines.join('\r\n');
+  try {
+    var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a');
+    a.style.display='none';
+    a.href=url;
+    a.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},200);
+  } catch(e) {
+    // Fallback: data URI para navegadores sin soporte Blob
+    var encoded=encodeURIComponent(csv);
+    var a2=document.createElement('a');
+    a2.href='data:text/csv;charset=utf-8,'+encoded;
+    a2.download='nodalys_busqueda_'+new Date().toISOString().slice(0,10)+'.csv';
+    document.body.appendChild(a2);
+    a2.click();
+    setTimeout(function(){document.body.removeChild(a2);},200);
+  }
 }
 function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
