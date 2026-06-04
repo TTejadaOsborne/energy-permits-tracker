@@ -7175,7 +7175,7 @@ function exportSrchCSV(){
       var _rowCols=baseCols.concat(pubCols);
       lines.push(_rowCols.map(function(v,i){
         var s=(v==null?'':v+'');
-        if(s.indexOf('=HYPERLINK')===0) return s; // formula verbatim
+        if(s.indexOf('=HYPERLINK')===0) return '"'+s+'"'; // formula entre comillas para evitar que ; rompa columnas CSV
         return _csvEsc(v);
       }).join(sep));
     });
