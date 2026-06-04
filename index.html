@@ -7170,9 +7170,14 @@ function exportSrchCSV(){
         pub.es_fallido?'Sí':'No',
         pub.mw_liberados!=null?pub.mw_liberados:'',
         pub.titulo||pub.titulo_original||'',
-        pub.url||pub.url_boletin||''
+        (function(){var u=pub.url||pub.url_boletin||pub.url_pdf||'';return u?'=HYPERLINK("'+u+'","'+(pub.id_boe||'Ver')+'")':"";})() 
       ];
-      lines.push(baseCols.concat(pubCols).map(_csvEsc).join(sep));
+      var _rowCols=baseCols.concat(pubCols);
+      lines.push(_rowCols.map(function(v,i){
+        var s=(v==null?'':v+'');
+        if(s.indexOf('=HYPERLINK')===0) return s; // formula verbatim
+        return _csvEsc(v);
+      }).join(sep));
     });
   });
   var csv='\uFEFF'+lines.join('\r\n');
