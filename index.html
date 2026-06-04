@@ -767,7 +767,7 @@ z-index:1199;
 /* Boletines table */
 .dash-bol-table{width:100%;border-collapse:collapse;font-size:11px}
 .dash-bol-table th{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:rgba(26,26,24,.4);padding:5px 7px;border-bottom:1px solid rgba(26,26,24,.08);text-align:left;white-space:nowrap;background:#fff;position:sticky;top:0;z-index:1}
-.dash-bol-table td{padding:5px 7px;border-bottom:1px solid rgba(26,26,24,.04);color:#1a1a18;vertical-align:middle;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dash-bol-table td{padding:5px 7px;border-bottom:1px solid rgba(26,26,24,.04);color:#1a1a18;vertical-align:middle;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dash-bol-table tr:hover td{background:rgba(26,26,24,.02);cursor:pointer}
 /* ── Búsqueda v2 ──────────────────────────────────────── */
 .busq-layout{display:flex;flex:1;overflow:hidden;min-height:0}
@@ -1548,9 +1548,25 @@ const CONFIG = {
         <div class="dash-card2-title">Últimos boletines</div>
         <div id="dash-boletines-wrap" style="flex:1;overflow-y:auto;min-height:0">
           <table class="dash-bol-table">
+            <colgroup>
+              <col style="width:80px">
+              <col style="width:22%">
+              <col style="width:18%">
+              <col style="width:68px">
+              <col style="width:80px">
+              <col style="width:14%">
+              <col style="width:68px">
+              <col style="width:100px">
+            </colgroup>
             <thead><tr>
-              <th>Fecha</th><th>Nombre proyecto</th><th>Promotor</th><th>MW</th>
-              <th>Tecnología</th><th>Punto de Conexión</th><th>Trámite</th><th>Resolución</th>
+              <th>Fecha</th>
+              <th>Nombre proyecto</th>
+              <th>Promotor</th>
+              <th style="text-align:center">MW</th>
+              <th>Tecnología</th>
+              <th>Punto de Conexión</th>
+              <th>Trámite</th>
+              <th>Resolución</th>
             </tr></thead>
             <tbody id="dash-boletines-tbody"></tbody>
           </table>
@@ -4106,8 +4122,10 @@ function renderDashboard(){
       });
       var _maxV=0;
       _GROUPS.forEach(function(g){ _STATES.forEach(function(s){ _maxV=Math.max(_maxV,_cd[g][s]); }); });
-      var _sc=niceTicks(_maxV,4);
-      var _niceMax=_sc.max||1;
+      // Fixed scale: max 60k, ticks every 20k
+      var _fixedMax=60000;
+      var _sc={max:_fixedMax,ticks:[0,20000,40000,60000]};
+      var _niceMax=_fixedMax;
       var _W=560,_H=300,_ml=50,_mr=10,_mt=26,_mb=54;
       var _pw=_W-_ml-_mr, _ph=_H-_mt-_mb;
       var _gw=_pw/_GROUPS.length;
@@ -4212,7 +4230,8 @@ function renderDashboard(){
     else {
       var vals=periods.map(function(d){return byPeriod[d];});
       var rawMax=Math.max.apply(null,vals)||1;
-      var sc=niceTicks(rawMax,5);
+      // Fixed scale: max 25k, ticks every 5k
+      var sc={max:25000,ticks:[0,5000,10000,15000,20000,25000]};
       var W=900, H=320, LP=54, RP=16, TP=22, BP=40;
       var uw=W-LP-RP, uh=H-TP-BP;
       var n=periods.length;
@@ -4639,10 +4658,19 @@ function renderDashboard(){
       var est=r.estado_permiso||'';
       var col=EC2[est]||'#6b7280', bg=EB2[est]||'#f3f4f6';
       var estLabel=(est||'—').charAt(0).toUpperCase()+(est||'').slice(1);
-      var nombre=(r.nombre_proyecto||'—').slice(0,32); if((r.nombre_proyecto||'').length>32) nombre+='…';
-      var promotor=(r.promotor||'—').slice(0,22); if((r.promotor||'').length>22) promotor+='…';
+      // Cross-reference with PROJECTS_DATA for missing nombre/promotor
+      var _nombre0=r.nombre_proyecto||'';
+      var _prom0=r.promotor||'';
+      if((!_nombre0||!_prom0)&&typeof PROJECTS_DATA!=='undefined'&&PROJECTS_DATA){
+        var _mp=PROJECTS_DATA.find(function(p){
+          return (p.publicaciones||[]).some(function(pub){return pub.id_boe===r.id_boe;});
+        });
+        if(_mp){if(!_nombre0)_nombre0=_mp.nombre||'';if(!_prom0)_prom0=_mp.promotor||'';}
+      }
+      var nombre=(_nombre0||'—').slice(0,55); if((_nombre0||'').length>55) nombre+='…';
+      var promotor=(_prom0||'—').slice(0,35); if((_prom0||'').length>35) promotor+='…';
       var set=(r.subestacion_nombre||r.subestacion||'—').slice(0,22);
-      var mw=r.potencia_mw?parseFloat(r.potencia_mw).toFixed(0)+' MW':'—';
+      var mw=r.potencia_mw?parseFloat(r.potencia_mw).toFixed(1)+' MW':'—';
       var url=r.url_boletin||r.url||'';
       var tech=(r.tecnologia||'—').slice(0,10);
       var tramite=normTipo(r.tipo_permiso)||r.tipo_permiso||'—';
@@ -4650,9 +4678,9 @@ function renderDashboard(){
       var tramBg=tramite in TRAMITE_COLORS?tramCol+'18':'rgba(26,26,24,.06)';
       return '<tr onclick="'+(url?'window.open('+JSON.stringify(url)+',\'_blank\')':'openModal('+JSON.stringify(r)+')')+'" style="cursor:pointer">'
         +'<td style="font-family:IBM Plex Mono,monospace;font-size:10px;color:rgba(26,26,24,.5);white-space:nowrap">'+_esc(r.fecha_publicacion||'—')+'</td>'
-        +'<td style="font-weight:500;max-width:200px">'+_esc(nombre)+'</td>'
-        +'<td style="font-size:10px;color:rgba(26,26,24,.6);max-width:160px">'+_esc(promotor)+'</td>'
-        +'<td style="font-family:IBM Plex Mono,monospace;font-size:10px;text-align:right;white-space:nowrap">'+_esc(mw)+'</td>'
+        +'<td style="font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+_esc(nombre)+'</td>'
+        +'<td style="font-size:10px;color:rgba(26,26,24,.6);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+_esc(promotor)+'</td>'
+        +'<td style="font-family:IBM Plex Mono,monospace;font-size:10px;text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums;width:68px">'+_esc(mw)+'</td>'
         +'<td><span style="padding:2px 6px;border-radius:4px;font-size:9px;font-weight:500;background:rgba(26,26,24,.06);color:rgba(26,26,24,.55);white-space:nowrap">'+_esc(tech)+'</span></td>'
         +'<td style="font-size:10px;color:rgba(26,26,24,.5);max-width:180px">'+_esc(set)+'</td>'
         +'<td><span style="padding:2px 7px;border-radius:4px;font-size:9px;font-weight:600;font-family:IBM Plex Mono,monospace;background:'+tramBg+';color:'+tramCol+';white-space:nowrap">'+_esc(tramite)+'</span></td>'
