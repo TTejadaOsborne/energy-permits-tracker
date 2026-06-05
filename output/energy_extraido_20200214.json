@@ -1,0 +1,180 @@
+{
+  "fecha": "20200214",
+  "total": 4,
+  "energeticos": 4,
+  "descartados": 0,
+  "exitosos": 4,
+  "errores": 0,
+  "tokens": {
+    "input": 25098,
+    "output": 1693
+  },
+  "coste_usd": 0.02685,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-14022020-31",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200214",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico y licencia ambiental para la instalación de una planta solar fotovoltaica en la parcela 245 del polígono 563, La Nava, en Matamorisca, en el término municipal de Aguilar de Campoo (Palencia). Expte.: 88/2020.",
+      "url": "https://bocyl.jcyl.es/html/2020/02/14/html/BOCYL-D-14022020-31.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica La Nava",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "88/2020",
+        "promotor": "Hotel Los Olmos, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.9,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Aguilar de Campoo",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación de 900 kWn - 997,92 kWp. Conectada a red de media tensión (MT) en Matamorisca. Parcela 245 del polígono 563, La Nava. Sometida a información pública por 20 días hábiles desde publicación en BOCyL y Diario Palentino. Tramitada conforme a artículo 307.3 del Reglamento de Urbanismo de Castilla y León y artículo 28.2 de la Ley de Prevención Ambiental de Castilla y León.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6131,
+        "output": 469
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-14022020-35",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200214",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica de conexión a red de 627,12 kwp en la parcela 95 del polígono 13, promovida por «Sejosolar, S.L.U.», en el término municipal de Navalmanzano (Segovia). Expte.: 19/2020.",
+      "url": "https://bocyl.jcyl.es/html/2020/02/14/html/BOCYL-D-14022020-35.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Navalmanzano",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Sejosolar, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.62712,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental municipal",
+          "Licencia urbanística municipal"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Navalmanzano",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación en parcela 95 del polígono 13, calificada como suelo rústico común. Referencia catastral: 40165A13000950000HE. Período de información pública: 20 días desde la publicación. Expediente municipal: 19/2020.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6314,
+        "output": 399
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-14022020-36",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200214",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica de conexión a red de 600,6 kwp en la parcela 45 del polígono 6, promovido por «Agrícola Veganiña, S.L.», en el término municipal de Navalmanzano (Segovia). Expte.: 20/2020.",
+      "url": "https://bocyl.jcyl.es/html/2020/02/14/html/BOCYL-D-14022020-36.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Navalmanzano",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Agrícola Veganiña, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.6006,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental",
+          "Licencia urbanística"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Navalmanzano",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto en fase de información pública. Periodo de alegaciones: 20 días desde la publicación en BOCyL. Referencia catastral: 40165A006000450000HL. Polígono 6, parcela 45, suelo rústico común. Instalación de conexión a red.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6322,
+        "output": 404
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-14022020-37",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200214",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica de conexión a red de 627,12 kwp en la parcela 5094 del polígono 11, promovida por «Torrego Otero Solar2, S.L.U.», en el término municipal de Navalmanzano (Segovia). Expte.: 21/2020.",
+      "url": "https://bocyl.jcyl.es/html/2020/02/14/html/BOCYL-D-14022020-37.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Navalmanzano",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Torrego Otero Solar2, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.62712,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental",
+          "Licencia urbanística"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Navalmanzano",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de 627,12 kWp en suelo rústico común. Expediente municipal: 21/2020. Periodo de información pública: 20 días desde publicación en BOCyL (14/02/2020). Referencia catastral: 40165A01105940000HS. Ubicación: Polígono 11, parcela 5094.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6331,
+        "output": 421
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

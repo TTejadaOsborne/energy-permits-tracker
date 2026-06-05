@@ -1,0 +1,137 @@
+{
+  "fecha": "20210713",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 21846,
+    "output": 1412
+  },
+  "coste_usd": 0.02312,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-11665",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210713",
+      "titulo_original": "Resolución de 2 de julio de 2021, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto «Línea eléctrica aérea a 400 kV, doble circuito, de entrada y salida en la subestación 400 kV Campos desde la línea El Palmar-Rocamora», en el término municipal de Campos del Río (Murcia), y se declara, en concreto, su utilidad pública.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-11665",
+      "datos": {
+        "nombre_proyecto": "Línea Eléctrica 400 kV Campos El Palmar-Rocamora",
+        "numero_expediente_industria": "BOE-A-2021-11665",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Red Eléctrica de España, SAU",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación 400 kV Campos",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Campos del Río",
+        "provincia": "Murcia",
+        "comunidad_autonoma": "Región de Murcia",
+        "fecha_resolucion": "2021-07-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Línea eléctrica aérea de doble circuito a 400 kV. Autorización Administrativa Previa y de Construcción otorgadas conjuntamente. Declaración de Utilidad Pública concedida. Información pública tramitada sin alegaciones. Proyecto recogido en el Plan de Desarrollo de la Red de Transporte de Energía Eléctrica 2015-2020.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7073,
+        "output": 447
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13072021-12",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210713",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una instalación de energía eléctrica con tecnología eólica, en los términos municipales de Brazuelo, Torre del Bierzo y Santa Colomba de Somoza (León). Expte.: PE-02/2020/23493, PE Santa Cruz.",
+      "url": "https://bocyl.jcyl.es/html/2021/07/13/html/BOCYL-D-13072021-12.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Santa Cruz",
+        "numero_expediente_industria": "PE-02/2020/23493",
+        "numero_expediente_medioambiente": "PE-02/2020/23493",
+        "promotor": "PARQUE EÓLICO SANTA CRUZ S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 35,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "MONTEARENAS 400 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "Brazuelo, Torre del Bierzo, Santa Colomba de Somoza",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque eólico de 10 aerogeneradores GE-137 de 3.6-3.8 MW unitarios. Potencia total instalada de 38 MW limitada a 35 MW. Líneas de evacuación en 30 kV hasta subestación colectora a 132 kV. Subestación colectora y línea a SET Montearenas tramitadas por otro promotor (NUDO MONTEARENAS 400 kV SUR). Presupuesto: 30.196.603,95 euros. Plazo para reclamaciones: 30 días desde publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7408,
+        "output": 498
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13072021-13",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210713",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una instalación de energía eléctrica con tecnología eólica, en los términos municipales de Brazuelo, Torre del Bierzo y Santa Colomba de Somoza (León). Expte.: PE-04/2020/23495, PE Veldedo.",
+      "url": "https://bocyl.jcyl.es/html/2021/07/13/html/BOCYL-D-13072021-13.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Veldedo",
+        "numero_expediente_industria": "PE-04/2020/23495",
+        "numero_expediente_medioambiente": null,
+        "promotor": "PARQUE EÓLICO VELDEDO, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 25,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Colectora Eólica 30/132/400 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Brazuelo, Torre del Bierzo, Santa Colomba de Somoza",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque de 7 aerogeneradores GE-137 de 3.6-3.8 MW unitarios. La subestación colectora eólica y línea de evacuación hasta SET Montearenas 400 kV se tramitan por otro promotor (expediente NUDO MONTEARENAS 400 kV SUR). Plazo de información pública: 30 días. Producción media anual: 70.683 MWh/año.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7365,
+        "output": 467
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

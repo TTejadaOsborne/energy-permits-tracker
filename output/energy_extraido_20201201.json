@@ -1,0 +1,93 @@
+{
+  "fecha": "20201201",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 12964,
+    "output": 679
+  },
+  "coste_usd": 0.01309,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-15296",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20201201",
+      "titulo_original": "Orden TED/1126/2020, de 20 de noviembre, por la que se modifica el Anexo del Real Decreto 139/2011, de 4 de febrero, para el desarrollo del Listado de Especies Silvestres en Régimen de Protección Especial y del Catálogo Español de Especies Amenazadas, y el Anexo del Real Decreto 630/2013, de 2 de agosto, por el que se regula el Catálogo Español de Especies Exóticas Invasoras.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-15296",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-11-20",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden normativa de modificación de catálogos de especies amenazadas y especies exóticas invasoras. No es un proyecto energético específico, sino una disposición regulatoria sobre protección de fauna y flora silvestre.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7489,
+        "output": 303
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-20062605",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201201",
+      "titulo_original": "Impacto ambiental.- Resolución de 25 de noviembre de 2020, de la Dirección General de Sostenibilidad, sobre modificación del proyecto \"Planta solar fotovoltaica Hinojosa Solar\", a ejecutar en el término municipal de Hinojosa del Valle (Badajoz), cuyo promotor es Hinojosa Solar, SL. Expte.: IA20/1265",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/2320o/20062605.pdf",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Hinojosa Solar",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "IA20/1265",
+        "promotor": "Hinojosa Solar, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Hinojosa del Valle",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-11-25",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de modificación del proyecto emitida por la Dirección General de Sostenibilidad de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. Se trata de una modificación de un proyecto de planta solar fotovoltaica ya existente.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5475,
+        "output": 376
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

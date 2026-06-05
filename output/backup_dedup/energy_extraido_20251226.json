@@ -1,0 +1,143 @@
+{
+  "fecha": "20251226",
+  "total": 18,
+  "energeticos": 18,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 18,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-26671",
+      "titulo_original": "Orden ITU/1521/2025, de 22 de diciembre, por la que se establecen las bases reguladoras de ayudas de actuación integral para la descarbonización de la industria manufacturera como parte del PERTE de descarbonización industrial en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh25aTnexqkGqkf3gg'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251226-32",
+      "titulo_original": "Resolución de 19 de diciembre de 2025, de la Dirección General de Agricultura, Ganadería y Alimentación, por la que se establecen medidas sanitarias para prevenir la difusión de la influenza aviar en la Comunidad de Madrid",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh2shw5N6uchCgrdke'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251226-34",
+      "titulo_original": "Resolución de 11 de diciembre de 2025, de la Fundación de la Energía de la Comunidad de Madrid de 11 de diciembre de 2025, por la que se da publicidad a la relación de ayudas y subvenciones concedidas en el procedimiento de concesión directa de ayudas para el desarrollo del Plan Renove de Ventanas de la Comunidad de Madrid-Año 2020",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh3jYmM3jgqnQW9R7d'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251226-35",
+      "titulo_original": "Resolución de 22 de diciembre de 2025, de la Fundación de la Energía de la Comunidad de Madrid, por la que se amplía la cuantía del crédito presupuestario consignado la Resolución de la Fundación de la Energía de la Comunidad de Madrid, de 28 de mayo de 2025, por la que se convoca la concesión de ayudas a la movilidad eléctrica del Programa MOVES III-Año 2025",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh4YfcJiUtne3jSeFT'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251226-54",
+      "titulo_original": "Resolución de 10 de diciembre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se hace pública la Resolución de la modificación sustancial de la Autorización Ambiental Integrada otorgada a DAGU, S. A. para su instalación de “Producción, clasificado y envasado de huevos” situada en Paraje El Pedroso, número 1, en el término municipal de Valdeavero promovida por DAGU, S. A. (10-IPPC-00006.7/2025)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh5LYHfbqjXYm5jpj3'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26122025-2",
+      "titulo_original": "ORDEN IEM/1462/2025, de 16 de diciembre, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh68uaHjWFGousfKgs'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26122025-13",
+      "titulo_original": "ORDEN MAV/1473/2025, de 19 de diciembre, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh6w2vYwAXezBUDc2U'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-26122025-25",
+      "titulo_original": "ORDEN IEM/1481/2025, de 18 de diciembre, por la que se modifica la Orden EYH/1410/2018, de 26 de diciembre (modificada por la Orden EEI/1591/2021, de 15 de diciembre, y por la Orden IEM/1483/2023, de 22 de diciembre) por la que se aprueba el Programa Territorial de Fomento para Béjar 2019-2021.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh7jezMspiQG6AuzWa'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1765971864284200093",
+      "titulo_original": "Medio Ambiente. Resolución de 09/12/2025 , de la Dirección General de Calidad Ambiental, por la que se otorga autorización ambiental integrada, para la planta de producción de hidrógeno verde de 50 megavatios, Alcarria H2, en el término municipal de Torija (Guadalajara), titularidad de la empresa Fi",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh8q8q6FwgkqrK1r7Z'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1764062066549500090",
+      "titulo_original": "Expropiación Forzosa. Resolución de 24/11/2025 , de la Delegación Provincial de Desarrollo Sostenible de Toledo, por la que se convoca para el levantamiento de actas previas a la ocupación de determinadas fincas afectadas por la ejecución de la instalación solar fotovoltaica Ébora, infraestructuras ",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNh9nS81YukAJXL7kvn'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1765956836729201001",
+      "titulo_original": "Anuncio de 17/12/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la modificación de la planta de energía solar fotovoltaica denom",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhBPRXB9vsrXqVdFxd'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20251226-0",
+      "titulo_original": "Resolución de 19 de diciembre de 2025, de la Dirección Gerencia de la Agencia Digital de Andalucía, por la que se anuncia convocatoria pública para cubrir puesto de trabajo por el procedimiento de libre designación.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhCEmQprjb2ZkcfuLb'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251226-0",
+      "titulo_original": "RESOLUCIÓN de 25 de noviembre de 2025, de la Dirección General de Energías Renovables y Cambio Climático, por la que se otorgan la autorización administrativa previa y la autorización administrativa de construcción a las instalaciones relativas al proyecto del parque eólico Serra da Fracha, sito en ",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhD67gHG5ajBsZxH7r'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251226-1",
+      "titulo_original": "EXTRACTO de la Resolución de 25 de noviembre de 2025, de la Dirección General de Energías Renovables y Cambio Climático, por la que se otorgan la autorización administrativa previa y la autorización administrativa de construcción a las instalaciones relativas al proyecto del parque eólico Serra da F",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhDtjUWXg8K3JTtJW2'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251226-2",
+      "titulo_original": "ANUNCIO de notificación en el procedimiento infructuoso relativo a la gestión de la biomasa y retirada de especies arbóreas prohibidas.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhEhr9B54H8cnHMEax'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251226021",
+      "titulo_original": "ORDEN PEJ/1822/2025, de 19 de diciembre, por la que se da publicidad al Acuerdo de 10 de diciembre de 2025, del Gobierno de Aragón, por el que se acuerda la redelimitación del ámbito del Plan de Interés General de Aragón, y la modificación del contenido y alcance del Acuerdo de 28 de abril de 2025, del Gobierno de Aragón, por el que se declara como inversión de interés autonómico con interés gener",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhJSLQdU6rhggMWw4j'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251226030",
+      "titulo_original": "ECONOMÍA Y JUSTICIA RESOLUCIÓN de 27 de noviembre de 2025, de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia, por la que se otorga la autorización administrativa previa y autorización de construcción del módulo eólico de la instalación híbrida “Agrupación Zuera Solar I” y de la modificación de la instalación “SET Zuera Solar” en el término municipal de",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhKhEuPWLZuF1hmxYX'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25082073",
+      "titulo_original": "Información pública.- Anuncio de 17 de diciembre de 2025 por el que se somete a información pública la modificación de la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"Magallanes 8\", ubicada en el término municipal de Casar de Cáceres (Cáceres), e inf",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCNhM4axmrW3McfaPrXp'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

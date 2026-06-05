@@ -1,0 +1,131 @@
+{
+  "fecha": "20200929",
+  "total": 3,
+  "energeticos": 1,
+  "descartados": 2,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 21538,
+    "output": 1161
+  },
+  "coste_usd": 0.02187,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-11357",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200929",
+      "titulo_original": "Orden TED/901/2020, de 8 de septiembre, por la que se autoriza un trasvase desde los embalses de Entrepeñas-Buendía, a través del acueducto Tajo-Segura, de 0 hm³ para el mes de septiembre de 2020.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-11357",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-09-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta orden no corresponde a un proyecto de generación renovable ni infraestructura energética. Se trata de una autorización administrativa para trasvasede agua desde los embalses de Entrepeñas-Buendía a través del acueducto Tajo-Segura, un asunto de gestión de recursos hídricos y abastecimiento de agua, no de tramitación energética. Aunque el MITECO es el organismo competente, el objeto de la publicación es hidrológico, no energético.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7481,
+        "output": 394
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2020-11358",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200929",
+      "titulo_original": "Orden TED/902/2020, de 25 de septiembre, por la que se modifica la Orden ITC/1660/2009, de 22 de junio, por la que se establece la metodología de cálculo de la tarifa de último recurso de gas natural, con objeto de su adaptación a la nueva estructura de peajes del sistema gasista.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-11358",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-09-25",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden que modifica la metodología de cálculo de la tarifa de último recurso de gas natural. Se trata de normativa regulatoria sobre precios y peajes del sistema gasista, no de un proyecto de generación, almacenamiento, red eléctrica o infraestructura energética específica.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7379,
+        "output": 324
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-29092020-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200929",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción para una instalación de producción de energía eléctrica con tecnología fotovoltaica para autoconsumo con excedentes, en el término municipal de La Antigua (León). Expte.: 11/2020/23503.",
+      "url": "https://bocyl.jcyl.es/html/2020/09/29/html/BOCYL-D-29092020-19.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Autoconsumo La Antigua",
+        "numero_expediente_industria": "LE-AT-2020/23503",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Jesús Llamas Velado",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.125055,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "La Antigua",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica para autoconsumo con excedentes. Ubicación: parcela catastral 24005A110051510000JZ. Superficie aproximada: 7.609 m². Composición: 397 módulos fotovoltaicos TALESUN TP660M de 315 Wp/ud., 2 inversores SUNGROW SG80KTL de 80 kW nominales. Presupuesto: 128.562,50 euros. Plazo información pública: 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6678,
+        "output": 443
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

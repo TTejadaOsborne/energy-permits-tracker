@@ -1,0 +1,348 @@
+{
+  "fecha": "20250825",
+  "total": 16,
+  "energeticos": 13,
+  "descartados": 3,
+  "exitosos": 4,
+  "errores": 9,
+  "tokens": {
+    "input": 38605,
+    "output": 2816
+  },
+  "coste_usd": 0.04215,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-17146",
+      "titulo_original": "Resolución de 6 de junio de 2025, de la Dirección General de Planificación y Coordinación Energética, por la que se autoriza la modificación de aprobación de tipo de aparato radiactivo de los equipos generadores de rayos X marca Anritsu, para incorporar el modelo KXH7534ASGCD.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTtg4ydJmroan3zTt7i'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-17147",
+      "titulo_original": "Resolución de 13 de agosto de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de determinación de afección ambiental del proyecto «Instalación fotovoltaica PFVH Teso Pardo, de 39 MW de potencia instalada, para su hibridación con el parque eólico existente P.E. Teso Pardo, de 36,3 MW, y su infraestructura de evacuación, en la provincia de Valladolid».",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTuGSwooPu3oimbDWxB'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-17148",
+      "titulo_original": "Resolución de 14 de agosto de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Nueva subestación a 400 KV Zuzones, línea aérea E/S en la L/400 KV Mudarra-Almazán y línea aérea a 400 KV SW Zuzones-ST Zuzones (Burgos y Soria)».",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTur523jX5jUsMta8kH'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-17149",
+      "titulo_original": "Resolución de 21 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se declara, en concreto, la utilidad pública para la planta fotovoltaica «Carbo», de 81,40 MW de potencia instalada, e infraestructura de evacuación a 30 kV, en Fuente Palmera, Guadalcázar y Almodóvar del Río (Córdoba).",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTvRCq1ZobmScfZoPQ4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-17151",
+      "titulo_original": "Orden TED/933/2025, de 18 de agosto, por la que se inhabilita para ejercer la actividad de operador al por mayor de carburantes y combustibles petrolíferos a Olivia Petroleum, SAU.",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTvys73LaF4v1SRdEYf'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250825-37",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "Resolución de 29 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa previa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública para la instalación de la planta fotovoltaica Cobesol y su infraestructura de evacuación situados en el polígono 10 del término municipal de Cobeña, solicitada por Meletea Investments, S. L.",
+      "url": "https://www.bocm.es/bocm-20250825-37",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Cobesol",
+        "numero_expediente_industria": "2023P334",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Meletea Investments, S. L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 3.52,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 20,
+        "gestor_red": "I-DE Redes Eléctricas SAU",
+        "municipio": "Cobeña",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2025-07-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 3,520 MW con 5.236 paneles solares de 730 Wp y 11 inversores de 320 kW. Superficie ocupada: 4,38 ha. Ubicada en polígono 10 del término municipal de Cobeña. Conexión mediante línea soterrada de 20 kV al centro de seccionamiento de I-DE. Presupuesto: 1.758.795,12 euros. Período de información pública: 30 días desde la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6026,
+        "output": 459
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCM-20250825-38",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "Resolución de 8 de agosto de 2025, de la Dirección General de Transición Energética y Economía Circular por la que se somete a información pública la solicitud de autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de la planta fotovoltaica PFV La Rubia y su infraestructura de evacuación situados en polígono 1, parcelas 1222 y 215 (Paraje la Rubia) en el término municipal de Villalbilla, solicitada por RP Energía Dos, S. L.",
+      "url": "https://www.bocm.es/bocm-20250825-38",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica PFV La Rubia",
+        "numero_expediente_industria": "2023P424",
+        "numero_expediente_medioambiente": null,
+        "promotor": "RP Energía Dos, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 4.085,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 15,
+        "gestor_red": "UFD Distribución Electricidad SA",
+        "municipio": "Villalbilla",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2025-08-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto sometido a información pública por un período de un mes a partir del día siguiente a la publicación en el BOCM. Instalación en polígono 1, parcelas 1222 y 215 (Paraje la Rubia). Planta compuesta por 7.903 paneles fotovoltaicos de 580 Wp y 19 inversores de 215 kW. Centro de transformación de 6.300 kVA, 15 kV/800 V. Conexión mediante línea soterrada de 15 kV al centro de protección y medida. Presupuesto total: 2.677.374,72 euros. Superficie ocupada: 9,02 ha.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6058,
+        "output": 488
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-25082025-17",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "ORDEN IEM/952/2025, de 20 de agosto, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/25/html/BOCYL-D-25082025-17.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-08-20",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación sobre resolución de convocatoria pública para cubrir puesto de trabajo de Jefe de Servicio de Prevención de Riesgos Laborales en la Dirección General de Trabajo y Prevención de Riesgos Laborales. No es un proyecto energético.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5279,
+        "output": 328
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-25082025-44",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "RESOLUCIÓN de 12 de agosto de 2025, de la Delegación Territorial de León, por la que se dicta la declaración de impacto ambiental del proyecto de explotación y plan de restauración de la concesión «Mesa de Reis» n.º 15.234, ubicada en el término municipal de Oencia (León), promovido por «Neopiedras, S.L.». Expte.: I.A. 20/2018-24.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/25/html/BOCYL-D-25082025-44.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "I.A. 20/2018-24",
+        "promotor": "Neopiedras, S.L.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Oencia",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-08-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Impacto Ambiental favorable para proyecto de explotación y plan de restauración de concesión minera Mesa de Reis n.º 15.234. Proyecto de industria extractiva (Grupo 2, Anexo I de la Ley 21/2013) incluido en circunstancia 7ª por proximidad a otras explotaciones mineras. Sometido a evaluación ambiental ordinaria.",
+        "confianza": 0.4,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6282,
+        "output": 388
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-25082025-45",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "RESOLUCIÓN de 12 de agosto de 2025, de la Delegación Territorial de León, por la que se dicta la declaración de impacto ambiental del proyecto de apertura de labores de la autorización de explotación para recursos de la sección A), gravas y arenas denominada «El Teso 1» número 778, en el término municipal de Ardón (León), promovido por «Graveras Valencia, S.A.». Expte.: I.A. 05/2025-24.",
+      "url": "https://bocyl.jcyl.es/html/2025/08/25/html/BOCYL-D-25082025-45.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "I.A. 05/2025-24",
+        "promotor": "Graveras Valencia, S.A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Ardón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-08-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Impacto Ambiental favorable para proyecto de apertura de labores de explotación minera a cielo abierto de gravas y arenas (sección A), autorización número 778, denominada 'El Teso 1'. Procedimiento de evaluación ambiental ordinaria conforme a Ley 21/2013. Este es un proyecto de industria extractiva minera, NO de energía renovable.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6285,
+        "output": 386
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOPA-20250825-0",
+      "boletin": "BOPA",
+      "ccaa_boletin": "Asturias",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "planta de almacenamiento BeSS “Galbano Sanmi” (12 MW) y sus infraestructuras de evacuación (Siero)",
+      "url": "",
+      "datos": {
+        "nombre_proyecto": "Planta De Almacenamiento BESS Galbano Sanmi",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOPA-20250825-0",
+        "promotor": null,
+        "tecnologia": "BESS",
+        "potencia_mw": 12,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Siero",
+        "provincia": "Asturias",
+        "comunidad_autonoma": "Asturias",
+        "fecha_resolucion": "2025-08-11",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta de almacenamiento de energía en baterías (BESS) con infraestructuras de evacuación. Resolución de la Consejería de Movilidad, Medio Ambiente y Gestión de Asturias. Fecha de publicación en BOPA: 25 de agosto de 2025.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4317,
+        "output": 376
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOPA-20250825-1",
+      "titulo_original": "planta de almacenamiento BeSS “Galbano Sanguel” (9 MW) y sus infraestructuras de evacuación (Siero)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTyQkNpa2i1vjRKahNJ'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250825-2",
+      "titulo_original": "planta de almacenamiento BeSS “indus Meres” (12 MW) y sus infraestructuras de evacuación (Siero)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTz2rmwiW7gpyGuCiHw'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250825020",
+      "titulo_original": "ANUNCIO por el que se da publicidad a la Resolución de 15 de julio de 2025, de la Directora del Servicio Provincial de Huesca del Departamento de Presidencia, Economía y Justicia, por la que se deniega la autorización administrativa previa y autorización de construcción del parque fotovoltaico de \"FV La Sosa\" en el término municipal de Huesca (Huesca). (Expediente de referencia G-H-2024-007).",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTzbmBiyFHTY6HtDLcm'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250825021",
+      "boletin": "BOA",
+      "ccaa_boletin": "Aragón",
+      "fecha_publicacion": "20250825",
+      "titulo_original": "TERRITORIAL ANUNCIO de la Dirección General de Planificación Estratégica y Logística, por el que se someten a información y participación pública los documentos del Plan de Interés General de Aragón “Proyecto Rhodes” de construcción de un campus data center en el término municipal de Calatorao (Zaragoza), promovido por Calanza Inmuebles, SL objeto de aprobación inicial.",
+      "url": "",
+      "datos": {
+        "nombre_proyecto": "Campus Data Center Calatorao",
+        "numero_expediente_industria": "BOA20250825021",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Calanza Inmuebles, SL",
+        "tecnologia": "Data Center",
+        "potencia_mw": null,
+        "tipo_permiso": "PlanEsp",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Calatorao",
+        "provincia": "Zaragoza",
+        "comunidad_autonoma": "Aragón",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Plan de Interés General de Aragón (PIGA) denominado 'Proyecto Rhodes'. Sometido a información y participación pública en fase de aprobación inicial. Tramitado por Dirección General de Planificación Estratégica y Logística del Departamento de Fomento, Vivienda, Logística y Cohesión de la Comunidad Autónoma de Aragón.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4358,
+        "output": 391
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOLR-20250825-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDU1bcnLzxHjkrwcDhnv'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

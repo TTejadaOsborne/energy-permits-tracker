@@ -1,0 +1,171 @@
+{
+  "fecha": "20211104",
+  "total": 4,
+  "energeticos": 2,
+  "descartados": 2,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 27838,
+    "output": 2044
+  },
+  "coste_usd": 0.03045,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-18018",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211104",
+      "titulo_original": "Resolución de 22 de octubre de 2021, de la Dirección General de Calidad y Evaluación Ambiental por la que se formula informe de impacto ambiental del proyecto \"Centro de Ensayos de Sistemas No Tripulados, CEUS\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-18018",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2021-18018",
+        "promotor": "Instituto Nacional de Técnica Aeroespacial (Ministerio de Defensa)",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Moguer",
+        "provincia": "Huelva",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2021-10-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de infraestructura aeroportuaria (Centro de Ensayos de Sistemas No Tripulados). Ya había recibido DIA en 2014 con prórroga de 2 años concedida en 2019. Se ubica en parcelas de 75 hectáreas (66,04 ha en parcela 73 y 8,96 ha en parcela 60) en el término municipal de Moguer. Declarado de interés estratégico para Andalucía (2014) e interés autonómico (2015). No es un proyecto de generación de energía renovable ni infraestructura de red eléctrica.",
+        "confianza": 0.7,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7026,
+        "output": 810
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-18019",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211104",
+      "titulo_original": "Orden TED/1185/2021, de 25 de octubre, por la que se convoca el concurso para seleccionar la imagen gráfica del Programa \"Campus Rural\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-18019",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden de convocatoria de concurso para seleccionar la imagen gráfica del Programa Campus Rural. No es un proyecto de generación, almacenamiento o infraestructura energética.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6770,
+        "output": 292
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-04112021-15",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211104",
+      "titulo_original": "RESOLUCIÓN de 19 de octubre de 2021, del Servicio Territorial de Industria, Comercio y Economía de Burgos, por la que se otorga autorización administrativa previa al parque eólico «La Muela I-Santiuste» y sus instalaciones eléctricas asociadas, en los términos municipales de Estépar y Mazuela (Burgos), promovido por «Desarrollos Energéticos del Cantábrico, S.L.U.». Expte.: PE/BU/001/2015.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/04/html/BOCYL-D-04112021-15.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico La Muela I-Santiuste",
+        "numero_expediente_industria": "PE/BU/001/2015",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Desarrollos Energéticos del Cantábrico, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "REE",
+        "municipio": "Estépar, Mazuela",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-10-19",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa para parque eólico. Expediente iniciado el 12 de noviembre de 2015. Sometido a información pública en junio de 2020. Red Eléctrica de España otorgó permiso de conexión el 24 de septiembre de 2020. Se recibieron alegaciones de vecinos sobre afecciones a especies protegidas (milano real), y de empresa minera sobre afecciones a derechos de explotación de cantera.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7186,
+        "output": 447
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-04112021-24",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211104",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental para una instalación de energía eléctrica con tecnología fotovoltaica y las infraestructuras de evacuación, en el término municipal de El Burgo Ranero (León). Expte.: FV-100/2019/23306, FV-Otero.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/04/html/BOCYL-D-04112021-24.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica FV Otero",
+        "numero_expediente_industria": "FV-100/2019/23306",
+        "numero_expediente_medioambiente": "FV-100/2019/23306",
+        "promotor": "PROFALMAR LOGISTIA, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 28,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET RANERO 30/132 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": "REE",
+        "municipio": "El Burgo Ranero",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta de 38,98 MWp con potencia nominal limitada a 28 MWn. Evacuación mediante línea subterránea de 898 m a SET RANERO 30/132 kV y posterior línea aérea compartida 132 kV hasta SE Promotores Luengos 132/400 kV, conectando finalmente a SE Luengos de REE mediante línea de 400 kV. Infraestructuras de red en expedientes PFOT 046 y PFOT 213 de competencia AGE. Ocupación aproximada de 86,76 ha.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6856,
+        "output": 495
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

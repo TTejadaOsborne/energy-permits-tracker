@@ -1,0 +1,122 @@
+{
+  "fecha": "20250725",
+  "total": 15,
+  "energeticos": 15,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 15,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-15474",
+      "titulo_original": "Resolución de 10 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Engie Castelnou, SLU, autorización administrativa previa para la planta fotovoltaica Saurus, de 152,25 MW de potencia instalada, y su infraestructura de evacuación, para hibridación con la central térmica de ciclo combinado Castelnou, en Castelnou y Samper de Calanda (Teruel).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-11",
+      "titulo_original": "RESOLUCIÓN de 14 de julio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Palencia, por la que se otorga autorización administrativa previa y autorización administrativa de construcción de la instalación eléctrica denominada «Nuevo CT 30 kV La Quintana y sus LAT subterráneas 30 kV de alimentación (línea Mataporquera-Barruelo1)», en el término municipal de Aguilar de Campoo (Palencia). Exptes.: 34/ATLI/6671 y 34/ATCT/2185.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-13",
+      "titulo_original": "ORDEN MAV/815/2025, de 3 de julio, por la que se dicta la declaración de impacto ambiental del proyecto de adaptación de vivienda, edificaciones existentes y construcción de nueva planta para alojamientos turísticos en la parcela 282 del polígono 36, en el término municipal de Pedro Bernardo (Ávila).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-14",
+      "titulo_original": "ORDEN MAV/816/2025, de 3 de julio, por la que se dicta la declaración de impacto ambiental del proyecto «Modificado planta fotovoltaica Apamate Solar» de 49,94 MWP de potencia instalada y sus infraestructuras de evacuación, en los términos municipales de Paredes de Nava y Becerril de Campos (Palencia), promovido por «Apamate Solar, S.L.».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-16",
+      "titulo_original": "RESOLUCIÓN de 3 de julio de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de ejecución de granja porcina de cebo para 3.600 plazas, en la parcela 291 del polígono 7, en el término municipal de San Vicente de Arévalo (Ávila). Exptes.: EIAO/2023/AV/010 y 051-21-AAAV.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-17",
+      "titulo_original": "RESOLUCIÓN de 3 de julio de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de planta de producción de hidrógeno y amoniaco verde «Deméter», en el término municipal de Baltanás (Palencia), promovido por «Green Capital Development 99, S.L.». Expte.: EIAO/2023/PA/003.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-18",
+      "titulo_original": "RESOLUCIÓN de 3 de julio de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de modificación sustancial de la autorización ambiental de planta de producción biofarmacéutica, en el término municipal de León, promovido por «GH Genhelix, S.A.». Expte.: EIAO/2024/LE/012.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-19",
+      "titulo_original": "RESOLUCIÓN de 3 de julio de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto básico para la solicitud de modificación sustancial de la autorización ambiental integrada de «Curia Spain, S.A.U.» en el parque tecnológico de Boecillo, en el término municipal de Boecillo (Valladolid), promovido por «Curia Spain, S.A.U.». Expte.: EIAO 2024/VA/005.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-24",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Dafne Solar» y su reconocimiento de utilidad pública, en concreto, en los términos municipales de Valladolid y Zaratán. Expte.: FV-2609; ATCE-124.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-25072025-27",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Medio Ambiente de Salamanca, por el que se convoca al levantamiento de las actas de ocupación definitivas de determinados bienes y/o derechos afectados por el «Proyecto de abastecimiento de la Mancomunidad de Cuatro Caminos en Salamanca». Expte.: 21-SA-290/P.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1751870176257700165",
+      "titulo_original": "Anuncio de 04/07/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la modificación de la planta de energía solar fotovoltaica denom",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1751869156990700155",
+      "titulo_original": "Anuncio de 04/07/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la modificación de la planta de energía solar fotovoltaica denom",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250725-0",
+      "titulo_original": "Resolución de 18 de julio de 2025, de la Secretaría General de Industria y Minas, de modificación de la Resolución de 27 de marzo de 2025, por la que se convocan los incentivos de transición justa en la provincia de Córdoba para el proyecto tractor «Desarrollo industrial sostenible en el Valle del G",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250725020",
+      "titulo_original": "ECONOMÍA Y JUSTICIA RESOLUCIÓN de 9 de julio de 2025, del Servicio Provincial de Zaragoza del Departamento de Presidencia, Economía y Justicia, relativo a la autorización administrativa previa y de construcción, del proyecto planta solar fotovoltaica \"Valdeaparicio\" de 1000 kW en el término municipal de Alhama de Aragón. Expediente: G-Z-2023-141.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250725-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

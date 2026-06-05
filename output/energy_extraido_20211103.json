@@ -1,0 +1,251 @@
+{
+  "fecha": "20211103",
+  "total": 6,
+  "energeticos": 3,
+  "descartados": 3,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 39091,
+    "output": 3223
+  },
+  "coste_usd": 0.04416,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-17965",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "Orden TED/1181/2021, de 30 de octubre, por la que se acuerda el reconocimiento de las repercusiones económicas derivadas de la adopción de medidas temporales y extraordinarias para garantizar la seguridad del suministro en La Palma.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17965",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Gobierno de Canarias",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Valle de Aridane, Puerto Naos",
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Paso",
+        "provincia": null,
+        "comunidad_autonoma": "Canarias",
+        "fecha_resolucion": "2021-10-30",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden que reconoce las repercusiones económicas derivadas de medidas extraordinarias para garantizar la seguridad del suministro en La Palma tras erupción volcánica del 19 de septiembre de 2021. Autoriza instalación de grupos de emergencia: 9 MW en subestación Valle de Aridane y 4 MW en zona de Puerto Naos. Vigencia máxima de un año desde entrada en vigor. No es un proyecto de generación energética específico sino una orden administrativa de reconocimiento de costes por medidas de emergencia.",
+        "confianza": 0.25,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6913,
+        "output": 732
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-17966",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "Orden TED/1182/2021, de 2 de noviembre, por la que se regula el procedimiento y requisitos aplicables al concurso público para la concesión de capacidad de acceso de evacuación a la red de transporte de energía eléctrica de instalaciones de generación de procedencia renovable en el Nudo de Transición Justa Mudéjar 400 kV y se procede a su convocatoria.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17966",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Nudo de Transición Justa Mudéjar 400 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": null,
+        "provincia": "Teruel",
+        "comunidad_autonoma": "Aragón",
+        "fecha_resolucion": "2021-11-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de una Orden que regula el procedimiento y requisitos para un concurso público de concesión de capacidad de acceso a la red de transporte para instalaciones de generación renovable en el Nudo Mudéjar 400kV. No se refiere a un proyecto específico de generación renovable, sino al marco regulatorio de un proceso concurrencial para múltiples proyectos potenciales.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7006,
+        "output": 377
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-03112021-9",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental para una instalación de energía eléctrica con tecnología fotovoltaica y las infraestructuras de evacuación, en los términos municipales de Santa María del Monte de Cea, Valdepolo y El Burgo Ranero (León). Expte.: FV-59/2019/23303, Las Majadas.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/03/html/BOCYL-D-03112021-9.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Las Majadas",
+        "numero_expediente_industria": "FV-59/2019/23303",
+        "numero_expediente_medioambiente": null,
+        "promotor": "ONATRIUM SOLAR 1, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 28,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Ranero 30/132 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": "REE",
+        "municipio": "Santa María del Monte de Cea, Valdepolo, El Burgo Ranero",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 34,99 MWp (limitada a 28 MWn) con 77.760 módulos de 450 Wp. Superficie aproximada: 99,51 ha. Presupuesto: 21.087.949,14 euros. Evacuación a través de SET Ranero hacia SE Promotores Luengos 132/400 kV, conectando finalmente a SE Luengos de REE por línea 400 kV. Infraestructuras de evacuación en tramitación bajo expedientes PFOT 046 (PSFV DALIA) y PFOT 213 (PSFV CAELUM IV) de competencia del Estado. Período información pública: 30 días desde publicación (20 de octubre de 2021).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6981,
+        "output": 550
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-03112021-10",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y de evaluación de impacto ambiental de la instalación de producción de energía eléctrica denominada parque eólico «Páramo de Barril», a ubicar en los términos municipales de Baltanás y Valle de Cerrato (Palencia). Expte.: 34/ATCE/9.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/03/html/BOCYL-D-03112021-10.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Páramo de Barril",
+        "numero_expediente_industria": "34/ATCE/9",
+        "numero_expediente_medioambiente": "34/ATCE/9",
+        "promotor": "IBEREN RENOVABLES, S.A.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 50,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Páramo Sardón",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Baltanás, Valle de Cerrato",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "El proyecto incluye 10 aerogeneradores SIEMENS GAMESA SG-155 o similar, de 5 MW unitarios. Incluye red de media tensión subterránea de 30 kV para interconexión con la subestación Páramo Sardón. El plazo para alegaciones es de 30 días hábiles desde la publicación. La consulta de documentación se puede realizar telemáticamente en www.energia.jcyl.es o presencialmente en el Servicio Territorial de Industria, Comercio y Economía de Palencia.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6411,
+        "output": 473
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-03112021-12",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se convoca el levantamiento de actas previas a la ocupación de los bienes y derechos afectados por el proyecto de nuevo tramo de L.A.A.T. a 13,2 kv (3.ª categoría) «01-Aldeamayor» de la S.T.R. «Boecillo» (4733), nuevo tramo de L.S.A.T., C.T. compacto de superficie y L.S.B.T. para nuevo suministro de SS.AA. de la subestación de maniobra y de reparto de 45 kv «Las Cercas», para la planta solar fotovoltaica «El Mazo», en el término municipal de Aldeamayor de San Martín (Valladolid). Expte.: AT-50.912.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/03/html/BOCYL-D-03112021-12.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica El Mazo",
+        "numero_expediente_industria": "AT-50.912",
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-DE REDES ELÉCTRICAS INTELIGENTES, S.A.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Las Cercas",
+        "tension_conexion_kv": 45,
+        "gestor_red": null,
+        "municipio": "Aldeamayor de San Martín",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-07-07",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de convocatoria de levantamiento de actas previas a la ocupación (LAP) para el proyecto de infraestructura de evacuación asociado a la planta solar fotovoltaica 'El Mazo'. La Declaración de Utilidad Pública (DUP) fue resuelta favorablemente en Resolución de 7 de julio de 2021, publicada en BOCyL 10/08/2021. El proyecto incluye nuevo tramo de L.A.A.T. a 13,2 kV, nuevo tramo de L.S.A.T., C.T. compacto de superficie y L.S.B.T. para conexión a subestación de maniobra y reparto de 45 kV 'Las Cercas' (S.T.R. Boecillo, código 4733). La fase de LAP se convocó para el 24 de noviembre de 2021 en el Ayuntamiento de Aldeamayor de San Martín.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6644,
+        "output": 578
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20211103-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211103",
+      "titulo_original": "ANUNCIO de 11 de octubre de 2021 de notificación a titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y de retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211103/AnuncioL437-111021-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20211103-0",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-10-11",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación a titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y de retirada de especies arbóreas. Tramitado por la Consellería del Mar. No constituye un proyecto de generación energética de biomasa ni de ninguna otra tecnología energética renovable.",
+        "confianza": 0.2,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5136,
+        "output": 513
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

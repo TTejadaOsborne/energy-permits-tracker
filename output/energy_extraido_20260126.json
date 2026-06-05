@@ -1,0 +1,55 @@
+{
+  "fecha": "20260126",
+  "total": 1,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 8665,
+    "output": 728
+  },
+  "coste_usd": 0.00984,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOE-25080846",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20260126",
+      "titulo_original": "Información pública.- Anuncio de 14 de mayo de 2025 por el que se somete a información pública la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"PSFV Puebla de Sancho Pérez\", ubicada en el término municipal de Puebla de Sancho Pérez (Badajoz), e infrae",
+      "url": "https://doe.juntaex.es/pdfs/doe/2026/160o/25080846.pdf",
+      "datos": {
+        "nombre_proyecto": "PSFV Puebla de Sancho Pérez",
+        "numero_expediente_industria": "DOE-25080846",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Puebla de Sancho Pérez",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2025-05-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica en fase de información pública para autorización administrativa previa. Anuncio publicado en DOE (Diario Oficial de Extremadura) el 14 de mayo de 2025.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4345,
+        "output": 354
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

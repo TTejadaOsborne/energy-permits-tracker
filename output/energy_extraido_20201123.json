@@ -1,0 +1,93 @@
+{
+  "fecha": "20201123",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 14868,
+    "output": 955
+  },
+  "coste_usd": 0.01571,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-23112020-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20201123",
+      "titulo_original": "ORDEN FYM/1241/2020, de 13 de noviembre, por la que se dicta la declaración de impacto ambiental sobre el proyecto de planta fotovoltaica «Algiedi Solar» de 24,96 MWP, línea subterránea de 45 kv y subestación 45/30 kv, promovido por «Solaria Promoción y Desarrollo Fotovoltaico, S.L.U.», en los términos municipales de Magaz de Pisuerga y Palencia.",
+      "url": "https://bocyl.jcyl.es/html/2020/11/23/html/BOCYL-D-23112020-19.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Algiedi Solar",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Solaria Promoción y Desarrollo Fotovoltaico, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 24.96,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Palencia 220/45 kV",
+        "tension_conexion_kv": 45,
+        "gestor_red": null,
+        "municipio": "Magaz de Pisuerga y Palencia",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-11-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 24,96 MWp con línea subterránea de 45 kV y subestación transformadora 45/30 kV. Superficie total de 80,8 ha con ocupación efectiva de 66,1 ha. Incluye 74.520 módulos fotovoltaicos dispuestos en 828 seguidores solares. Evaluación ambiental ordinaria solicitada por el promotor. Conecta a subestación existente Palencia 220/45 kV.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7499,
+        "output": 461
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-23112020-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20201123",
+      "titulo_original": "ORDEN FYM/1242/2020, de 13 de noviembre, por la que se dicta la declaración de impacto ambiental sobre el proyecto de planta solar fotovoltaica «Sirius Solar» de 49,98 MWP y línea de evacuación de 30 kv, en los términos municipales de Zamora, Roales del Pan y Valcabado (Zamora).",
+      "url": "https://bocyl.jcyl.es/html/2020/11/23/html/BOCYL-D-23112020-20.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Sirius Solar",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Ranti Investments, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.98,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Valcabado Generación",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Zamora, Roales del Pan, Valcabado",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-11-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "La Orden FYM/1242/2020 dicta la Declaración de Impacto Ambiental (DIA) favorable sobre el proyecto. El proyecto incluye una línea de evacuación de 30 kV de 7.440 m (3.435 m aéreo, 4.005 m subterráneo) que conecta con la subestación Valcabado Generación. La planta ocupará 124,28 ha dentro del cerramiento. Se compone de 149.220 paneles solares sobre 1.658 seguidores solares a un eje. Originalmente se preveía una subestación 30/45 kV que fue sustituida por un centro de seccionamiento.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7369,
+        "output": 494
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

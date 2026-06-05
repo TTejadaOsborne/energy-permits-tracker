@@ -1,0 +1,133 @@
+{
+  "fecha": "20201120",
+  "total": 3,
+  "energeticos": 2,
+  "descartados": 1,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 20125,
+    "output": 1831
+  },
+  "coste_usd": 0.02342,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-14629",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20201120",
+      "titulo_original": "Orden TED/1079/2020, de 11 de noviembre, por la que se establecen las bases reguladoras para la concesión de ayudas a la prevención de riesgos y seguridad minera en el ámbito de una minería autóctona y sostenible.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-14629",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden ministerial que establece bases reguladoras para concesión de ayudas a prevención de riesgos y seguridad minera en minería autóctona y sostenible. No se trata de un proyecto energético concreto, sino de una convocatoria de subvenciones para el sector minero.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7264,
+        "output": 322
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-20112020-24",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20201120",
+      "titulo_original": "RESOLUCIÓN de 5 de noviembre de 2020, de la Delegación Territorial de Palencia, por la que se presta conformidad a la modificación (2020) del proyecto de modificación del parque eólico «Páramo de la Mesuca» y su línea de evacuación, en los términos municipales de Soto de Cerrato y Hontoria de Cerrato, (Palencia), promovido por «Iberén Renovables, S.A.». Expte.: EIA- PA-6/2011.",
+      "url": "https://bocyl.jcyl.es/html/2020/11/20/html/BOCYL-D-20112020-24.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Páramo de la Mesuca",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "EIA-PA-6/2011",
+        "promotor": "Iberén Renovables, S.A.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 15.56,
+        "tipo_permiso": "ModAAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Hontoria 30 kV/132 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Soto de Cerrato; Hontoria de Cerrato",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-11-05",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que presta conformidad a la modificación (2020) del proyecto. El proyecto modificado sustituye 8 aerogeneradores originales (2 MW c/u) por 4 aerogeneradores Gamesa SG 145 (5.0 MW nominal, limitados a 4.0 MW en tres posiciones y 3.56 MW en la cuarta). Los parques eólicos 'Valdemarona' y 'Monte Soto' asociados fueron archivados por cancelación de garantías económicas mediante resolución de 14 de octubre de 2020. Línea de evacuación incluye tramo subterráneo 30 kV y línea aérea 132 kV.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7386,
+        "output": 509
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20062453",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201120",
+      "titulo_original": "Impacto ambiental.- Resolución de 11 de noviembre de 2020, de la Dirección General de Sostenibilidad, por la que se formula modificación del proyecto \"Instalación solar fotovoltaica \"Galisteo\" y línea eléctrica de 132 kV\" en los términos municipales de Valdeobispo y Galisteo, cuya promotora es Centr",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/2250o/20062453.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Galisteo",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-20062453",
+        "promotor": "Centr",
+        "tecnologia": "FV+Hidráulica",
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [
+          "LAT/SET"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Valdeobispo, Galisteo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-11-11",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de modificación del proyecto. Instalación solar fotovoltaica con línea eléctrica de 132 kV de evacuación. La clasificación como FV+Hidráulica se basa en la interpretación de 'línea eléctrica' como posible infraestructura de conexión a central hidroeléctrica; sin embargo, esta interpretación tiene baja confianza debido a la ausencia de mención explícita de hidráulica en el título disponible. Se recomienda verificación con el texto completo del expediente.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5475,
+        "output": 1000
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

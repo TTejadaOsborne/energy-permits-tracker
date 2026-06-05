@@ -1,0 +1,95 @@
+{
+  "fecha": "20200918",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 16785,
+    "output": 1118
+  },
+  "coste_usd": 0.0179,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-10906",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200918",
+      "titulo_original": "Resolución de 10 de septiembre de 2020, de ICEX España Exportación e Inversiones, por la que se publican las cuentas anuales del ejercicio 2019 y el informe de auditoría.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10906",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de publicación de cuentas anuales del ICEX España Exportación e Inversiones. No es un proyecto energético sino un acto administrativo de rendición de cuentas financieras.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5699,
+        "output": 295
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-20080867",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200918",
+      "titulo_original": "Información pública.- Anuncio de 3 de septiembre de 2020 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"Ampliación de una posición de línea 132 kV para conectar la nueva línea Plasencia - Vald",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1820o/20080867.pdf",
+      "datos": {
+        "nombre_proyecto": "Ampliación Posición Línea 132 kV Plasencia-Valdeverde",
+        "numero_expediente_industria": "DOE-20080867",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "IP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Plasencia",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para autorización administrativa previa de instalaciones de línea 132 kV. Publicado en DOE el 3 de septiembre de 2020.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 11086,
+        "output": 823
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

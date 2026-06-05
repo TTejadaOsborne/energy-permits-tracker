@@ -1,0 +1,255 @@
+{
+  "fecha": "20210728",
+  "total": 6,
+  "energeticos": 5,
+  "descartados": 1,
+  "exitosos": 5,
+  "errores": 0,
+  "tokens": {
+    "input": 47888,
+    "output": 3093
+  },
+  "coste_usd": 0.05068,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-12610",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "Real Decreto 638/2021, de 27 de julio, por el que se modifica el Real Decreto 773/2014, de 12 de septiembre, por el que se aprueban diversas normas reguladoras del trasvase por el acueducto Tajo-Segura.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-12610",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-07-27",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de modificación del Real Decreto 773/2014 sobre normas reguladoras del trasvase por el acueducto Tajo-Segura. No se trata de un proyecto de generación, almacenamiento o infraestructura energética, sino de una normativa de regulación de recursos hídricos.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7158,
+        "output": 329
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-28072021-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa de construcción y declaración de utilidad pública en concreto, del parque eólico «Delmoro», en los términos municipales de Cardeñadijo, Modúbar de la Emparedada y Carcedo de Burgos (Burgos), promovida por «EDP Renovables España, S.L.». Expte.: PE/BU/003/2016.",
+      "url": "https://bocyl.jcyl.es/html/2021/07/28/html/BOCYL-D-28072021-19.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Delmoro",
+        "numero_expediente_industria": "PE/BU/003/2016",
+        "numero_expediente_medioambiente": null,
+        "promotor": "EDP Renovables España, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 12,
+        "tipo_permiso": "AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Transformadora Carcedo 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": null,
+        "municipio": "Cardeñadijo, Modúbar de la Emparedada, Carcedo de Burgos",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "4 aerogeneradores Siemens Gamesa de 3 MW unitarios (altura 84 m, diámetro rotor 132 m). Red de media tensión subterránea 30 kV. Ampliación de subestación transformadora Carcedo con instalación de tres celdas de media tensión y nuevo edificio de control. Información pública abierta por 30 días desde la publicación. Plazo de presentación de alegaciones sobre errores en la relación de bienes y derechos afectados.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7191,
+        "output": 475
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-28072021-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y reconocimiento de utilidad pública en concreto, del proyecto denominado «Modificación del proyecto de ejecución línea eléctrica 220 kv SET Las Matas - SET Torozos - SET Tordesillas y ampliación de la SET 220 kv Tordesillas Generación», en el término municipal de Tordesillas (Valladolid). Expte.: AT-50515 Modificación Andella.",
+      "url": "https://bocyl.jcyl.es/html/2021/07/28/html/BOCYL-D-28072021-20.do",
+      "datos": {
+        "nombre_proyecto": "Línea Eléctrica 220 kV Set Las Matas - Set Torozos - Set Tordesillas y Ampliación Set Tordesillas Generación",
+        "numero_expediente_industria": "AT-50515 Modificación Andella",
+        "numero_expediente_medioambiente": null,
+        "promotor": "NATURGY RENOVABLES, S.L.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": 550,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Tordesillas",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Tordesillas",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de modificación de línea eléctrica 220 kV para permitir conexión del Parque Eólico Andella. Ampliación de SET Tordesillas Generación con capacidad de transporte aumentada a más de 550 MVA. Incluye reforma de subestación y repotenciación de línea. Presupuesto: 1.585.566,38 €. Plazo de información pública: 30 días desde publicación. Punto de entrega: barras 220 kV de SET Tordesillas (REE).",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7352,
+        "output": 497
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080980",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "Información pública.- Anuncio de 9 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondiente a la instalación fotovoltaica \"CS Badajoz 4\", ubicada en el término municipal de Bad",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1440o/21080980.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica CS Badajoz 4",
+        "numero_expediente_industria": "DOE-21080980",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Badajoz",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de solicitud de autorización administrativa previa y reconocimiento de utilidad pública. El expediente está identificado como DOE-21080980 en el Diario Oficial de Extremadura. El texto completo no estaba disponible en la consulta.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10510,
+        "output": 727
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080979",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "Información pública.- Anuncio de 9 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondiente a la instalación fotovoltaica \"CS Badajoz 5\", ubicada en el término municipal de Bad",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1440o/21080979.pdf",
+      "datos": {
+        "nombre_proyecto": "CS Badajoz 5",
+        "numero_expediente_industria": "DOE-21080979",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Badajoz",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para autorización administrativa previa y reconocimiento de utilidad pública. Texto completo no disponible en la fuente proporcionada.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10510,
+        "output": 690
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080978",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210728",
+      "titulo_original": "Información pública.- Anuncio de 9 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondiente a la instalación fotovoltaica \"CS Badajoz 6\", ubicada en el término municipal de Bad",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1440o/21080978.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica CS Badajoz 6",
+        "numero_expediente_industria": "DOE-21080978",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Badajoz",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de 9 de julio de 2021 para la instalación fotovoltaica CS Badajoz 6. Se somete simultáneamente a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5167,
+        "output": 375
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

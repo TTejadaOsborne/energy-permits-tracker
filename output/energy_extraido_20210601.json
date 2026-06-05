@@ -1,0 +1,134 @@
+{
+  "fecha": "20210601",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 17718,
+    "output": 1189
+  },
+  "coste_usd": 0.01893,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-01062021-16",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210601",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción para un parque eólico y su reconocimiento de utilidad pública en concreto, en los términos municipales de Villán de Tordesillas, Robladillo, Valladolid y Ciguñuela (Valladolid). Expte.: RI-48638.",
+      "url": "https://bocyl.jcyl.es/html/2021/06/01/html/BOCYL-D-01062021-16.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Cantadal",
+        "numero_expediente_industria": "RI-48638",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Renovacyl, S.A.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 9.8,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "IP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Zaratán",
+        "tension_conexion_kv": 45,
+        "gestor_red": "i-DE Redes Eléctricas Inteligentes, SAU",
+        "municipio": "Villán de Tordesillas, Robladillo, Valladolid, Ciguñuela",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque eólico formado por 2 aerogeneradores Siemens Gamesa SG-145 de 5 MW unitarios. Línea de evacuación subterránea 30 kV hacia subestación La Serna, posteriormente elevada a 45 kV hasta SET Zaratán. Presupuesto: 12.400.349,25 €. Plazo de información pública: 30 días a partir de la publicación. Silencio administrativo desestimatorio.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7362,
+        "output": 484
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21061569",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210601",
+      "titulo_original": "Energía solar.- Resolución de 20 de mayo de 2021, de la Dirección General de Sostenibilidad, por la que se formula informe de impacto ambiental del proyecto de instalación solar fotovoltaica \"Tremisol\" de 9,6 MWp, e infraestructura de evacuación, a realizar en el término municipal de Mérida (Badajoz",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1030o/21061569.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Tremisol",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21061569",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 9.6,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Mérida",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-05-20",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de instalación solar fotovoltaica con infraestructura de evacuación. Resolución de Dirección General de Sostenibilidad (Consejería para la Transición Ecológica y Sostenibilidad de Extremadura).",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5184,
+        "output": 355
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080722",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210601",
+      "titulo_original": "Información pública.- Anuncio de 17 de mayo de 2021 por el que se somete a información pública la solicitud de reconocimiento de utilidad pública correspondiente a la instalación fotovoltaica \"Cincinato\", ubicada en el término municipal de Bodonal de la Sierra (Badajoz), e infraestructura de evacuac",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1030o/21080722.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Cincinato",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21080722",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Bodonal de la Sierra",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-05-17",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para reconocimiento de utilidad pública de instalación fotovoltaica con infraestructura de evacuación. Publicado en DOE (Diario Oficial de Extremadura).",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5172,
+        "output": 350
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

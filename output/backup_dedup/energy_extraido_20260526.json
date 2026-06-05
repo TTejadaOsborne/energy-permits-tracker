@@ -1,0 +1,55 @@
+{
+  "fecha": "20260526",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 4321,
+    "output": 362
+  },
+  "coste_usd": 0.0049,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOLR-20260526-0",
+      "boletin": "BOLR",
+      "ccaa_boletin": "La Rioja",
+      "fecha_publicacion": "20260526",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "url": "https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=40473173-1-PDF-577396-X",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Najerilla Solar POT 1 MW",
+        "numero_expediente_industria": "AT/0025704",
+        "numero_expediente_medioambiente": "EIA 07/2026",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 1.0,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Baños de Río Tobía",
+        "provincia": "La Rioja",
+        "comunidad_autonoma": "La Rioja",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Evaluación de Impacto Ambiental Simplificada (EIAS) sometida a información pública. Proyecto POT (Pequeña Operación en Transición) de 1 MW.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4321,
+        "output": 362
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

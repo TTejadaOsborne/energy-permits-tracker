@@ -1,0 +1,95 @@
+{
+  "fecha": "20200122",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 14569,
+    "output": 957
+  },
+  "coste_usd": 0.01548,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-991",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200122",
+      "titulo_original": "Resolución de 10 de enero de 2020, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de ampliación de la subestación de Caparacena, en el término municipal de Atarfe (Granada).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-991",
+      "datos": {
+        "nombre_proyecto": "Ampliación Subestación Caparacena",
+        "numero_expediente_industria": "BOE-A-2020-991",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Red Eléctrica de España, S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Caparacena",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Atarfe",
+        "provincia": "Granada",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2020-01-10",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Ampliación de subestación 400 kV mediante instalación de tres nuevos interruptores en calle 4 (uno central y dos de salida). Proyecto incluido en Plan de Desarrollo de la Red de Transporte 2015-2020. Se otorgan conjuntamente autorización administrativa previa y de construcción sin perjuicio de autorizaciones adicionales en materia ambiental y territorial. La Delegación Territorial de Medio Ambiente de Granada emite informe condicionado. No hubo alegaciones durante información pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6950,
+        "output": 443
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-22012020-12",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200122",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, para la instalación de una planta solar fotovoltaica e instalaciones en alta tensión para evacuación de energía, en la parcela 66 del polígono 45, en el término municipal de Ávila. Exptes.: FR-0948-AV y ATL-51926.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/22/html/BOCYL-D-22012020-12.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Ávila",
+        "numero_expediente_industria": "FR-0948-AV",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Delivery Development, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 20.01,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Ávila",
+        "tension_conexion_kv": 45,
+        "gestor_red": "ID-E Redes Eléctricas Inteligentes, S.A.U.",
+        "municipio": "Ávila",
+        "provincia": "Ávila",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta solar fotovoltaica de 20,01087 MWp con 60.639 módulos solares. Línea aéreo-subterránea a 45 kV de 4.186 m de longitud total (2.351 m aéreo + 1.835 m subterráneo). Subestación transformadora de 20 MVA a 20/45 kV. Se solicita reconocimiento de Utilidad Pública para la línea aérea-subterránea. Presupuesto: 9.703.716,11 euros. Afecta a múltiples parcelas en los polígonos 45, 47 y 48 de Ávila.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7619,
+        "output": 514
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "fecha": "20220824",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 13389,
+    "output": 885
+  },
+  "coste_usd": 0.01425,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-24082022-11",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220824",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa, declaración, en concreto, de utilidad pública y aprobación del modificado del proyecto de ejecución de la subestación «Boedo 30/132 kv» y del proyecto de la línea de alta tensión 132 kv, en los términos municipales de Alar del Rey, Herrera de Pisuerga y Páramo de Boedo (Palencia). Expte.: 34/ATSB/33-34/ATLI/6453.",
+      "url": "https://bocyl.jcyl.es/html/2022/08/24/html/BOCYL-D-24082022-11.do",
+      "datos": {
+        "nombre_proyecto": "Subestación Boedo 30/132 kV y Línea de Evacuación 132 kV",
+        "numero_expediente_industria": "34/ATSB/33-34/ATLI/6453",
+        "numero_expediente_medioambiente": null,
+        "promotor": "BOLERO ENERGY, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Promotores Herrera",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Alar del Rey, Herrera de Pisuerga, Páramo de Boedo",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto integrado por subestación colectora elevadora 132/30 kV denominada 'Boedo 30/132 kV' y línea de evacuación de alta tensión 132 kV de 7.971 m de longitud compartida con otros promotores. Presupuesto total: 8.657.674,33 €. Sometido a información pública por 30 días hábiles. Declaración de Utilidad Pública solicitada. Las instalaciones sirven a plantas fotovoltaicas Boedo 1 y Boedo 2.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7512,
+        "output": 497
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-24082022-12",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220824",
+      "titulo_original": "INFORMACIÓN pública relativa a la ocupación temporal de terrenos de la vía pecuaria «Cañada Real Leonesa Occidental», en el término municipal de San Vicente del Palacio (Valladolid). Expte.: VA-VP-211121-O.",
+      "url": "https://bocyl.jcyl.es/html/2022/08/24/html/BOCYL-D-24082022-12.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "VA-VP-211121-O",
+        "promotor": "Ángel Luis López de la Fuente",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "OcupacionUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "San Vicente del Palacio",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Ocupación temporal de la vía pecuaria 'Cañada Real Leonesa Occidental' para ampliación de paso de acceso a parcela agrícola. Trámite de información pública requerido por artículo 14 de la Ley 3/1995 de Vías Pecuarias. Plazo de alegaciones: un mes desde publicación en BOCyL.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5877,
+        "output": 388
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

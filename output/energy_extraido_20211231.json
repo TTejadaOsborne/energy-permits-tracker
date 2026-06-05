@@ -1,0 +1,213 @@
+{
+  "fecha": "20211231",
+  "total": 5,
+  "energeticos": 5,
+  "descartados": 0,
+  "exitosos": 5,
+  "errores": 0,
+  "tokens": {
+    "input": 32303,
+    "output": 2144
+  },
+  "coste_usd": 0.03442,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-31122021-37",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211231",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental para el proyecto de la planta solar fotovoltaica «FV Circinus Solar» de 49,99 mwp de potencia instalada, así como la autorización administrativa previa, autorización administrativa de construcción, declaración de impacto ambiental y declaración de utilidad pública para las infraestructuras de evacuación: Línea de evacuación subterránea de la planta solar citada de 30 kv y «SE Frades» 132/30 kv, en los términos municipales de Mansilla de las Mulas y Santas Martas (León). Expte.: FV-61/2019, RI-23306.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/31/html/BOCYL-D-31122021-37.do",
+      "datos": {
+        "nombre_proyecto": "FV Circinus Solar",
+        "numero_expediente_industria": "FV-61/2019",
+        "numero_expediente_medioambiente": "RI-23306",
+        "promotor": "Planta FV 128, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.99,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SE Frades 132/30 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": "REE",
+        "municipio": "Mansilla de las Mulas, Santas Martas",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto incluye planta solar fotovoltaica de 49,99 MWp en Mansilla de las Mulas, línea de evacuación subterránea de 30 kV de 9.510 m de longitud, y subestación Frades 132/30 kV en Santas Martas. La subestación interconectará también la planta FV Mensa Solar. Declaración de utilidad pública lleva implícita ocupación de bienes y urgente ocupación para expropiación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7389,
+        "output": 472
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-31122021-38",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211231",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica denominada «Castrillo I», en el término municipal de Castrillo de la Valduerna (León). Expte.: FV-8/2020-23498.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/31/html/BOCYL-D-31122021-38.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Castrillo I",
+        "numero_expediente_industria": "FV-8/2020-23498",
+        "numero_expediente_medioambiente": "FV-8/2020-23498",
+        "promotor": "Planta Fotovoltaica El Conde, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Castrillo de la Valduerna",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de información complementaria al Estudio de Impacto Ambiental aportada por el promotor. Trámite de información pública de 30 días contados desde la publicación del anuncio. Documentación disponible en Portal de Energía y Minería de Castilla y León y en Servicio Territorial de Industria de León.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6173,
+        "output": 428
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-31122021-39",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211231",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de declaración de utilidad pública de una instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica, denominada «Muelas», en el término municipal de Muelas del Pan (Zamora). Expte.: RI: 22496.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/31/html/BOCYL-D-31122021-39.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Muelas",
+        "numero_expediente_industria": "RI: 22496",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Green Stone Renewable IX, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 46,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Muelas del Pan",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Utilidad Pública en fase de información pública. La instalación comprende 142.830 módulos fotovoltaicos de 350 W, con potencia pico de 49,99 MW y potencia nominal de 46 MW. Incluye 17 inversores, 8 centros de transformación de 5,5 MVA y 1 centro de transformación de 2,75 MVA. Conexión subterránea a 30 kV. Presupuesto: 16.517.557,93 €. Plazo de información pública: 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7055,
+        "output": 450
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-31122021-58",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211231",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico común y suelo rústico con protección de infraestructuras, promovida por «Emaldi Project Spain, S.L.», para una subestación colectora 30/220 kv y línea aérea-subterránea 220 kv de evacuación de las plantas fotovoltaicas «Sanabria» y «Ribadelago», en el término municipal de Palacios de Sanabria (Zamora). Expte.: 238/2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/31/html/BOCYL-D-31122021-58.do",
+      "datos": {
+        "nombre_proyecto": "Subestación Colectora Sanabria-Ribadelago",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Emaldi Project Spain, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Colectora 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": null,
+        "municipio": "Palacios de Sanabria",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico común y suelo rústico con protección de infraestructuras para subestación colectora 30/220 kV y línea aérea-subterránea 220 kV de evacuación de plantas fotovoltaicas Sanabria, Ribadelago y Valentina Solar. Expediente municipal: 238/2021. Plazo de información pública: 20 días desde la última publicación.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6136,
+        "output": 432
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1640005181694320214",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20211231",
+      "titulo_original": "Consejería de Desarrollo Sostenible Anuncio de 20/12/2021 , de la Delegación Provincial de Desarrollo Sostenible de Guadalajara, para información pública del proyecto de planta solar fotovoltaica Taracena IV de 1,144 MWp, y sus infraestructuras de evacuación en Guadalajara (Guadalajara), a efectos d",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1640005181694320214",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Taracena IV",
+        "numero_expediente_industria": "2020PROD013",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Rinca Solar Inversión, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 1.144,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Guadalajara",
+        "provincia": "Guadalajara",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto en fase de información pública para la autorización administrativa previa. Ubicación: Polígono 505, parcela 78 del Término Municipal de Guadalajara. Incluye infraestructuras de evacuación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5550,
+        "output": 362
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

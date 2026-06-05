@@ -1,0 +1,173 @@
+{
+  "fecha": "20201221",
+  "total": 4,
+  "energeticos": 4,
+  "descartados": 0,
+  "exitosos": 4,
+  "errores": 0,
+  "tokens": {
+    "input": 23828,
+    "output": 1553
+  },
+  "coste_usd": 0.02527,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-21122020-31",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20201221",
+      "titulo_original": "RESOLUCIÓN de 23 de noviembre de 2020, del Servicio Territorial de Industria, Comercio y Economía de Zamora, por la que se autoriza y se aprueba el proyecto de construcción y se declara, en concreto, utilidad pública de la instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica situado en la parcela 4 del polígono 15 y en las parcelas 1 y 2 del polígono 16, en el término municipal de Zamora y su posterior evacuación en los términos municipales de Zamora, Roales y Valcabado. Expte.: RI: 22477.",
+      "url": "https://bocyl.jcyl.es/html/2020/12/21/html/BOCYL-D-21122020-31.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Sirius Solar",
+        "numero_expediente_industria": "RI-22477",
+        "numero_expediente_medioambiente": null,
+        "promotor": "RANTI INVESTMENTS, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.98,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Zamora",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-11-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que autoriza y aprueba el proyecto de construcción de instalación fotovoltaica de 49,98 MWp con línea eléctrica de evacuación de 30 kV en los términos municipales de Zamora, Roales del Pan y Valcabado. Se declara utilidad pública de la instalación. Tramitación incluye información pública y condicionados técnicos de administraciones afectadas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7417,
+        "output": 424
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20062769",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201221",
+      "titulo_original": "Energía solar.- Resolución de 26 de noviembre de 2020, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad IM2 Energía Solar Proyectos 15, SL, para la instalación fotovoltaica \"PS IM2 Puebla de Sancho Pérez\", ubicada en el térm",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/2440o/20062769.pdf",
+      "datos": {
+        "nombre_proyecto": "PS IM2 Puebla de Sancho Pérez",
+        "numero_expediente_industria": "DOE-20062769",
+        "numero_expediente_medioambiente": null,
+        "promotor": "IM2 Energía Solar Proyectos 15, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Puebla de Sancho Pérez",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-11-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución por la que se otorga autorización administrativa previa para instalación fotovoltaica. Publicado en DOE (Diario Oficial de Extremadura).",
+        "confianza": 0.82,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5479,
+        "output": 358
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20081240",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201221",
+      "titulo_original": "Información pública.- Anuncio de 29 de noviembre de 2020 por el que se somete a información pública el estudio de impacto ambiental del proyecto de subestación eléctrica colectora de 400/220 kV 3X240 MVA \"Carmonita\", ubicada en el término municipal de Mérida e infraestructura de evacuación proyectad",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/2440o/20081240.pdf",
+      "datos": {
+        "nombre_proyecto": "Subestación Eléctrica Colectora Carmonita 400/220 kV",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-20081240",
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": 720,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Carmonita",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "Mérida",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Subestación transformadora 400/220 kV con capacidad de 3×240 MVA. Incluye infraestructura de evacuación. Sometida a información pública el 29 de noviembre de 2020. Expediente del Diario Oficial de Extremadura.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5471,
+        "output": 374
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20081286",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201221",
+      "titulo_original": "Información pública.- Anuncio de 14 de diciembre de 2020 por el que se somete a información pública la petición de autorización administrativa previa y reconocimiento en concreto de la utilidad pública de las instalaciones correspondientes al proyecto de LAT a 13,8 kV \"STR Cañaveral - CT Túnel Santa",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/2440o/20081286.pdf",
+      "datos": {
+        "nombre_proyecto": "LAT 13,8 kV STR Cañaveral - CT Túnel Santa",
+        "numero_expediente_industria": "DOE-20081286",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 13.8,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-12-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para autorización administrativa previa y reconocimiento de utilidad pública de línea de alta tensión. La tecnología se clasifica como LAT/SET dado que es infraestructura de transporte/distribución de energía a 13,8 kV. El procedimiento incluye tanto la tramitación de AAP como de DUP.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5461,
+        "output": 397
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

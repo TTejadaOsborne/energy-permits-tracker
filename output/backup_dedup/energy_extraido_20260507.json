@@ -1,0 +1,55 @@
+{
+  "fecha": "20260507",
+  "total": 1,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 10364,
+    "output": 943
+  },
+  "coste_usd": 0.01206,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BON-2026-88-21",
+      "boletin": "BON",
+      "ccaa_boletin": "Navarra",
+      "fecha_publicacion": "20260507",
+      "titulo_original": "RESOLUCIÓN 223E/2026, de 13 de abril, de la directora general de Medio Ambiente, por la que se formula informe de impacto ambiental del proyecto de Almacenamiento BESS GARCES, promovido por Distopia Energía, SL en Funes.",
+      "url": "https://bon.navarra.es/es/anuncio/-/texto/2026/88/21",
+      "datos": {
+        "nombre_proyecto": "Almacenamiento BESS Garcés",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BON-2026-88-21",
+        "promotor": "Distopia Energía, SL",
+        "tecnologia": "BESS",
+        "potencia_mw": 1.0,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Centro de Seccionamiento",
+        "tension_conexion_kv": 13.2,
+        "gestor_red": "Distribuidora local",
+        "municipio": "Funes",
+        "provincia": "Navarra",
+        "comunidad_autonoma": "Navarra",
+        "fecha_resolucion": "2026-04-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de almacenamiento BESS stand-alone de 1 MW con capacidad de 4,175 MWh. Ubicado en polígono 10, parcela 219, en suelo no urbanizable. Sistema compuesto por 10 racks de baterías, 5 inversores bidireccionales de 1000 kVA total. Evacuación mediante línea subterránea de media tensión de 13,2 kV (215,74 m) hasta centro de seccionamiento. Superficie ocupada: 340 m² de 8.240 m² totales. Evaluación ambiental simplificada según Anexo II, Grupo 4, apartado n) de la Ley 21/2013. Impactos no significativos y compatibles en general. Impacto moderado en fauna en fase de explotación con medidas correctoras. Plan de Vigilancia Ambiental incluido.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6044,
+        "output": 538
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "fecha": "20210803",
+  "total": 3,
+  "energeticos": 0,
+  "descartados": 3,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 20917,
+    "output": 1088
+  },
+  "coste_usd": 0.02109,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-13240",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210803",
+      "titulo_original": "Resolución de 26 de julio de 2021, de ICEX España Exportación e Inversiones, E.P.E., por la que se publica el Convenio con la Federación de Gremios de Editores de España, para la organización de la misión inversa de compradores del sector editorial, Feria LIBER 2021.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-13240",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta publicación del BOE es un Convenio entre ICEX España Exportación e Inversiones, E.P.E. y la Federación de Gremios de Editores de España para la organización de una misión inversa de compradores del sector editorial en el marco de la Feria LIBER 2021. NO ES UN PROYECTO ENERGÉTICO. No trata sobre tramitación de instalaciones de generación renovable, almacenamiento energético, hidrógeno verde, centros de datos, infraestructuras de red eléctrica ni ningún proyecto energético regulado.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6940,
+        "output": 385
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-13241",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210803",
+      "titulo_original": "Resolución de 28 de julio de 2021, de la Secretaría de Estado de Comercio, por la que se publica el Convenio con la Cámara Oficial de Comercio, Industria y Servicios de Madrid, para la realización de un periodo de formación en las Oficinas Económicas y Comerciales.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-13241",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de convenio administrativo entre el Ministerio de Industria, Comercio y Turismo y la Cámara Oficial de Comercio, Industria y Servicios de Madrid para un programa de formación en internacionalización mediante becarios en Oficinas Económicas y Comerciales. Este documento NO constituye un proyecto de generación, almacenamiento o infraestructura energética; es un convenio de cooperación para formación profesional.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6941,
+        "output": 355
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-13242",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210803",
+      "titulo_original": "Resolución de 22 de julio de 2021, de la Dirección General de Industria y de la Pequeña y Mediana Empresa, relativa a los requisitos técnicos exigibles, en lo referente a los dispositivos de protección trasera contra el empotramiento, para la homologación nacional de series cortas y homologación individual nacional de vehículos completados.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-13242",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-07-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta resolución trata sobre requisitos técnicos para homologación de vehículos de motor (dispositivos de protección trasera contra empotramiento). NO es un proyecto de generación energética renovable, almacenamiento, hidrógeno, infraestructura de red eléctrica ni centro de datos. Es normativa técnica sobre seguridad vial y homologación de vehículos completados.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7036,
+        "output": 348
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

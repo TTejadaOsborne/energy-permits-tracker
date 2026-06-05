@@ -1,0 +1,139 @@
+{
+  "fecha": "20210504",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 21908,
+    "output": 1448
+  },
+  "coste_usd": 0.02332,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-04052021-15",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210504",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción de una planta fotovoltaica y su reconocimiento de utilidad pública en concreto, en el término municipal de Ciguñuela (Valladolid). Expte.: RI-48942; FV-2400/19.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/04/html/BOCYL-D-04052021-15.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Talafiza I",
+        "numero_expediente_industria": "RI-48942",
+        "numero_expediente_medioambiente": "FV-2400/19",
+        "promotor": "Talafi Power S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 29.02,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST Zaratán",
+        "tension_conexion_kv": 45,
+        "gestor_red": "i-DE Redes Inteligentes, SAU",
+        "municipio": "Ciguñuela",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica de 29,96 MWp con subestación transformadora 20/45 kV y línea subterránea de evacuación de 3.080 metros. Plazo de información pública: 30 días. Órgano competente: Servicio Territorial de Industria, Comercio y Economía de Valladolid. Presupuesto: 12.265.625,69 €.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7388,
+        "output": 451
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-04052021-16",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210504",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y autorización administrativa de construcción para una instalación de producción de energía eléctrica por tecnología fotovoltaica y su reconocimiento de utilidad pública en concreto, en el término municipal de Ciguñuela (Valladolid). Expte.: R-48959; FV-2402.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/04/html/BOCYL-D-04052021-16.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Zaratán I y II",
+        "numero_expediente_industria": "R-48959; FV-2402",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Zurvan Gestión de Proyectos, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 10.65,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST Zaratán",
+        "tension_conexion_kv": 45,
+        "gestor_red": "i-DE Redes Inteligentes, SAU",
+        "municipio": "Ciguñuela",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción para instalación de 10 MW de potencia nominal (12.322 kWp). Proyecto incluye subestación elevadora interna (10 MVA, 45/30 kV) y línea subterránea de evacuación a 45 kV hasta ST Zaratán de i-DE. Se solicita reconocimiento de utilidad pública y imposición de servidumbres de paso. Plazo de resolución: 1 año con silencio administrativo desestimatorio. Plazo información pública: 30 días desde publicación (14 de abril de 2021).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7139,
+        "output": 515
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-04052021-17",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210504",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de una instalación de producción de energía eléctrica por tecnología fotovoltaica y su reconocimiento de utilidad pública en concreto, en el término municipal de Wamba (Valladolid). Expte.: RI-49200; FV-2460.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/04/html/BOCYL-D-04052021-17.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Dintel Solar Wamba",
+        "numero_expediente_industria": "RI-49200; FV-2460",
+        "numero_expediente_medioambiente": "RI-49200; FV-2460",
+        "promotor": "Dintel Solar, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 38.92,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP",
+          "Servidumbre"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SE Zaratán 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Wamba",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Plazo de información pública: 30 días. Proyecto incluye línea subterránea de 66 kV (8.380 m) hacia SET Ciguñuela. Potencia pico: 50 MWp; potencia nominal: 38,92 MWn. Presupuesto: 21.755.366,53 €. Punto de entrega en nueva posición de SE Zaratán 220 kV (REE). Expediente complementario para infraestructuras: PFot-361 AC.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7381,
+        "output": 482
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

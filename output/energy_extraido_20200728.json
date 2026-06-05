@@ -1,0 +1,93 @@
+{
+  "fecha": "20200728",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 13214,
+    "output": 806
+  },
+  "coste_usd": 0.0138,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-8669",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200728",
+      "titulo_original": "Resolución de 16 de julio de 2020, de la Secretaría de Estado de Comercio, por la que se publican las cuentas anuales del Fondo de Reserva de los Riesgos de la Internacionalización del ejercicio 2019 y el informe de auditoría.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-8669",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de cuentas anuales del Fondo de Reserva de los Riesgos de la Internacionalización (FRRI) correspondientes al ejercicio 2019. No corresponde a tramitación de un proyecto energético concreto.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5879,
+        "output": 308
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-28072020-35",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200728",
+      "titulo_original": "ORDEN FYM/669/2020, de 14 de julio, por la que se inicia el procedimiento de declaración de caducidad de la autorización ambiental concedida por Orden de 29 de noviembre de 2011, de la Consejería de Fomento y Medio Ambiente, para una planta de cogeneración eléctrica mediante combustión de biomasa ubicada en el término municipal de Melgar de Fernamental (Burgos), titularidad de «Ence Energía Castilla y León, S.L.».",
+      "url": "https://bocyl.jcyl.es/html/2020/07/28/html/BOCYL-D-28072020-35.do",
+      "datos": {
+        "nombre_proyecto": "Planta de Cogeneración Melgar de Fernamental",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOCYL-D-28072020-35",
+        "promotor": "Ence Energía Castilla y León, S.L.",
+        "tecnologia": "Cogeneración",
+        "potencia_mw": null,
+        "tipo_permiso": "AAI",
+        "permisos_adicionales": [],
+        "estado_permiso": "caducado",
+        "es_proyecto_fallido": true,
+        "motivo_fallo": "No se han realizado las obras ni se ha iniciado la actividad en el plazo preceptivo de cinco años desde la concesión de la autorización ambiental. Inspección visual de 23 de octubre de 2019 confirmó ausencia de construcciones en las parcelas.",
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Melgar de Fernamental",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-07-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden FYM/669/2020 que inicia procedimiento de declaración de caducidad de la Autorización Ambiental Integrada concedida por Orden de 29 de noviembre de 2011. La autorización original tenía plazo de caducidad de dos años (posteriormente ampliado a cinco años por normativa estatal). Han transcurrido más de cinco años sin ejecución del proyecto ni inicio de actividad. Se concede plazo de 15 días al interesado.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7335,
+        "output": 498
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

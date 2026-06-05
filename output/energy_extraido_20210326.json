@@ -1,0 +1,55 @@
+{
+  "fecha": "20210326",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 5178,
+    "output": 398
+  },
+  "coste_usd": 0.00573,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOE-21060821",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210326",
+      "titulo_original": "Energía solar.- Resolución de 12 de marzo de 2021 de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad De Heus Nutrición Animal, SAU, para la instalación fotovoltaica \"De Heus Nutrición Animal\", ubicada en el término municipal d",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/580o/21060821.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica De Heus Nutrición Animal",
+        "numero_expediente_industria": "DOE-21060821",
+        "numero_expediente_medioambiente": null,
+        "promotor": "De Heus Nutrición Animal, SAU",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-03-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución otorgada por la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El título indica la ubicación en término municipal de Badajoz, pero el texto completo no está disponible para confirmar detalles específicos como capacidad, subestación de conexión o tensión.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5178,
+        "output": 398
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

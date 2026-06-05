@@ -1,0 +1,98 @@
+{
+  "fecha": "20201008",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 12038,
+    "output": 852
+  },
+  "coste_usd": 0.01304,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-08102020-45",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20201008",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica, promovida por «Servicios Integrales Carracillo, S.L.», en las parcelas 28, 29 y 31 del polígono 1, en el término municipal de Nava de la Asunción (Segovia). Expte.: 488/2020.",
+      "url": "https://bocyl.jcyl.es/html/2020/10/08/html/BOCYL-D-08102020-45.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Nava de la Asunción",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "488/2020",
+        "promotor": "Servicios Integrales Carracillo, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental",
+          "Licencia urbanística"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Nava de la Asunción",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto sometido a información pública por 20 días desde la publicación en BOCyL. Parcelas 28, 29 y 31 del polígono 1, clasificadas como suelo rústico común. Referencias catastrales: 40162A001000280000RY, 40162A001000290000RG, 40162A001000310000RY. Tramitación de autorización de uso excepcional de suelo rústico conforme a artículos 307.3 y 432 del Decreto 22/2004 de Castilla y León, y artículo 28 de la Ley de Prevención Ambiental de Castilla y León.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6585,
+        "output": 506
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20080973",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20201008",
+      "titulo_original": "Información pública.- Anuncio de 18 de septiembre de 2020 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"Centro de Transformación \"CT Galinda\" de 400 kVA en Fuentes de León\". Término municipal",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1960o/20080973.pdf",
+      "datos": {
+        "nombre_proyecto": "Centro de Transformación CT Galinda",
+        "numero_expediente_industria": "DOE-20080973",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": 0.4,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "IP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "CT Galinda",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "Fuentes de León",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Centro de Transformación de 400 kVA. Publicado en DOE (Diario Oficial de Extremadura). Anuncio de 18 de septiembre de 2020.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5453,
+        "output": 346
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

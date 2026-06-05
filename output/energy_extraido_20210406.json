@@ -1,0 +1,177 @@
+{
+  "fecha": "20210406",
+  "total": 4,
+  "energeticos": 3,
+  "descartados": 1,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 27418,
+    "output": 2167
+  },
+  "coste_usd": 0.0306,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-5383",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210406",
+      "titulo_original": "Resolución de 2 de marzo de 2021, de la Confederación Hidrográfica del Guadiana, O.A., por la que se publica la Encomienda de gestión con la Comunidad General de Usuarios del Canal de Lobón, para la gestión de infraestructuras hidráulicas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-5383",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Confederación Hidrográfica del Guadiana, O.A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Concesion",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-03-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Encomienda de gestión firmada el 17 de febrero de 2021 entre la Confederación Hidrográfica del Guadiana y la Comunidad General de Usuarios del Canal de Lobón para la explotación y mantenimiento de infraestructuras hidráulicas del Canal de Lobón. Publicada conforme al artículo 11.3.a) de la Ley 40/2015. Los bienes encomendados pertenecen al dominio público del Estado.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7081,
+        "output": 721
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-06042021-27",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210406",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, y su reconocimiento de utilidad pública en concreto, en los términos municipales de Renedo de Esgueva y Valladolid (Valladolid). Expte.: FV-2433 RI-49071.",
+      "url": "https://bocyl.jcyl.es/html/2021/04/06/html/BOCYL-D-06042021-27.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Los Hornillos 1",
+        "numero_expediente_industria": "FV-2433 RI-49071",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Inver Generación 14, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 20.0,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "Servidumbre"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET RENEDO",
+        "tension_conexion_kv": 45,
+        "gestor_red": "i-DE Redes Inteligentes, SAU",
+        "municipio": "Renedo de Esgueva y Valladolid",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto fotovoltaico de 19.998 kWpico (19.630 kWnom) con subestación transformadora 20/45 kV. Línea de evacuación subterránea a 45 kV de 6.563 metros. Plazo de resolución: 1 año con silencio administrativo desestimatorio. Sometido a información pública por 30 días. Inversión presupuestada: 8.544.290,70 €. Requiere imposición de servidumbre de paso y declaración de utilidad pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7281,
+        "output": 505
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-06042021-28",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210406",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración de impacto ambiental de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, y su reconocimiento de utilidad pública en concreto, en el término municipal de Medina del Campo (Valladolid). Expte.: R-49161; FV-2452.",
+      "url": "https://bocyl.jcyl.es/html/2021/04/06/html/BOCYL-D-06042021-28.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Milano Solar",
+        "numero_expediente_industria": "R-49161; FV-2452",
+        "numero_expediente_medioambiente": "R-49161; FV-2452",
+        "promotor": "Milano Solar, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 50.0,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Medina del Campo 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Medina del Campo",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto denominado 'Proyecto técnico administrativo Planta Fotovoltaica FV Milano Solar 50 MWp/43,88 MWn T.M. Medina del Campo'. Potencia pico: 49.996,8 kWpico. Potencia nominal: 50.000 kWnom. 124.992 paneles solares de 400 Wpico. 20 inversores de 2.500 kW. Presupuesto: 24.895.051,00 €. Subestación transformadora SET Irina Generación 220/30 kV común a tres productores. Plazo de información pública: 30 días. Órgano competente: Servicio Territorial de Industria, Comercio y Economía de Valladolid.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7328,
+        "output": 546
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-06042021-37",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210406",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico y licencia ambiental para la legalización de una instalación de placas solares fotovoltaicas para bombeo en las parcelas 98 y 103 del polígono 3, en el término municipal de Alcazarén (Valladolid). Expte.: 38/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/04/06/html/BOCYL-D-06042021-37.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica para Bombeo Alcazarén",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "38/2019",
+        "promotor": "José Antonio García Cano",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Otro"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Alcazarén",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico y licencia ambiental para legalización de instalación fotovoltaica para bombeo. Expediente sometido a información pública por 20 días hábiles desde publicación. Instalación ubicada en parcelas 98 y 103 del polígono 3.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5728,
+        "output": 395
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

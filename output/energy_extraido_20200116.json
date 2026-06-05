@@ -1,0 +1,253 @@
+{
+  "fecha": "20200116",
+  "total": 6,
+  "energeticos": 5,
+  "descartados": 1,
+  "exitosos": 5,
+  "errores": 0,
+  "tokens": {
+    "input": 41808,
+    "output": 2781
+  },
+  "coste_usd": 0.04457,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-612",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "Resolución de 9 de enero de 2020, de la Dirección General de Industria y de la Pequeña y Mediana Empresa, por la que se actualiza el listado de normas de la instrucción técnica complementaria ITC-BT-02 del Reglamento electrotécnico para baja tensión, aprobado por el Real Decreto 842/2002, de 2 de agosto.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-612",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2020-612",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-01-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de actualización de normas técnicas UNE para baja tensión. No es un proyecto de generación o infraestructura energética, sino una modificación de normativa técnica aplicable a instalaciones eléctricas en edificios.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7303,
+        "output": 318
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-16012020-9",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "RESOLUCIÓN de 23 de septiembre de 2019, del Servicio Territorial de Economía de Soria, relativa a la declaración, en concreto, de utilidad pública del parque eólico «La Moratilla», en los términos municipales de Langa de Duero y Miño de San Esteban (Soria), promovido por «Sirocco Moratilla, S.L.».",
+      "url": "https://bocyl.jcyl.es/html/2020/01/16/html/BOCYL-D-16012020-9.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico La Moratilla",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "25/07 EIA",
+        "promotor": "Sirocco Moratilla, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 8.79,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [
+          "AAC"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Langa de Duero, Miño de San Esteban",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2019-09-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de Declaración de Utilidad Pública (DUP) del parque eólico experimental La Moratilla de 8,79 MW. Previamente había sido otorgada la Autorización Administrativa de Construcción (AAC) mediante Resolución de 15 de octubre de 2018. La DIA fue otorgada por Resolución de 5 de agosto de 2008 (Expte. 25/07 EIA) y actualizada por Resolución de 4 de octubre de 2018. El proyecto afecta a parcelas en ambos municipios. Durante la información pública fueron presentadas alegaciones por propietarios de terrenos afectados por expropiación, la Confederación Hidrográfica del Duero y otros interesados, todas ellas desestimadas o consideradas en la resolución final favorable.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7116,
+        "output": 532
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-16012020-10",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "RESOLUCIÓN de 23 de septiembre de 2019, del Servicio Territorial de Economía de Soria, relativa a la declaración, en concreto, de utilidad pública del parque eólico «Valdeabajo» en el término municipal de Langa de Duero (Soria), promovido por «Sirocco Valdeabajo, S.L.». Expte.: 9964.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/16/html/BOCYL-D-16012020-10.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Valdeabajo",
+        "numero_expediente_industria": "9964",
+        "numero_expediente_medioambiente": "24/07 EIA",
+        "promotor": "Sirocco Valdeabajo, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 11,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [
+          "AAP_AAC"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Langa de Duero",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2019-09-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de Declaración de Utilidad Pública (DUP) del parque eólico experimental de 11 MW. Previamente se había otorgado AAP y Autorización de Construcción (aprobación de proyecto) en octubre de 2018. La DIA fue otorgada en agosto de 2008 y actualizada en octubre de 2018. Se sometió a información pública sin recibir alegaciones. La resolución autoriza expropiación forzosa y servidumbres de paso.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7057,
+        "output": 443
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-16012020-11",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "RESOLUCIÓN de 23 de septiembre de 2019, del Servicio Territorial de Economía de Soria, relativa a la autorización de construcción para la adenda al proyecto de febrero de 2019, así como declaración, en concreto, de utilidad pública del parque eólico «Soliedra 21 MW» y sus infraestructuras de evacuación, en los términos municipales de Momblona y Morón de Almazán (Soria), promovido por «Origen Energía y Viento, S.L.U.».",
+      "url": "https://bocyl.jcyl.es/html/2020/01/16/html/BOCYL-D-16012020-11.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Soliedra 21 MW",
+        "numero_expediente_industria": "IE/AT/19-2018",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Origen Energía y Viento, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 21,
+        "tipo_permiso": "AAC",
+        "permisos_adicionales": [
+          "AAP",
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Almazán 400 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Momblona; Morón de Almazán",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2019-09-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de autorización de construcción para adenda al proyecto de febrero de 2019. Proyecto originalmente solicitado con 45 MW y 150 MW en tramitación previa, posteriormente reducido a 21 MW por limitaciones de capacidad en la SET Almazán 400 kV según REE. Incluye infraestructuras de evacuación y subestación Momblona. Proyecto ganador en subasta de energías renovables 2017 (ERI_ERP-000106-2017-E_12). Se realizó información pública tanto de la AAP/AAC/DIA como posteriormente de la DUP.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7139,
+        "output": 505
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-16012020-14",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "RESOLUCIÓN de 20 de diciembre de 2019, de la Delegación Territorial de Segovia, por la que se hace público el informe de impacto ambiental del proyecto de una planta para la generación de biogás renovable a partir de sustratos orgánicos en la parcela 88 del polígono 5, en el término municipal de Roda de Eresma (Segovia), promovido por «Actividades de Gestión de Energías, S.L.». Expte.: EIAS-SG-2019/05.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/16/html/BOCYL-D-16012020-14.do",
+      "datos": {
+        "nombre_proyecto": "Planta de Biogás Renovable Roda de Eresma",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "EIAS-SG-2019/05",
+        "promotor": "Actividades de Gestión de Energías, S.L.",
+        "tecnologia": "Biogás",
+        "potencia_mw": 0.025,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Roda de Eresma",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2019-12-20",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta de generación y aprovechamiento de biogás a partir de residuos orgánicos (industria hortícola y lodos de depuradora). Capacidad de tratamiento: 10.000 toneladas/año. Producción anual de biogás: 22,22 Dm3. Equipamientos: digestor anaerobio de 20m diámetro, cúpula de almacenamiento 594 m3, generador eléctrico 25 kW, caldera 500 kW, aerogenerador 2 kW, placas fotovoltaicas 5 kW. Ubicación: parcela 88, polígono 5, paraje de los Pradejones, Roda de Eresma (Segovia). Acceso por camino de Cantimpalos desde carretera SG-V-3317, pk 8,4.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7242,
+        "output": 543
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-16012020-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200116",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de la instalación del parque eólico denominado «Encina», en los términos municipales de Reinoso del Cerrato, Villaviudas, Hontoria de Cerrato, Baltanás y Valle de Cerrato (Palencia). Expte.: 34/ATCE/7.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/16/html/BOCYL-D-16012020-19.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Encina",
+        "numero_expediente_industria": "34/ATCE/7",
+        "numero_expediente_medioambiente": null,
+        "promotor": "ENERGÍA EÓLICA TIMÓN, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 46.5,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Reinoso del Cerrato, Villaviudas, Hontoria de Cerrato, Baltanás, Valle de Cerrato",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque de 10 aerogeneradores Siemens Gamesa SG 5.0-145 de 5 MW cada uno. Diámetro de rotor 145 m, altura de buje 127,5 m. Plazo de presentación de proyectos en competencia: un mes desde la publicación. Información pública abierta conforme a Decreto 189/1997 de 26 de septiembre.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5951,
+        "output": 440
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

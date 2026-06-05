@@ -1,0 +1,73 @@
+{
+  "fecha": "20250704",
+  "total": 8,
+  "energeticos": 8,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 8,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-13660",
+      "titulo_original": "Real Decreto 534/2025, de 24 de junio, por el que se regula la concesión directa de subvenciones con cargo a los fondos del Plan de Recuperación, Transformación y Resiliencia para la realización de inversiones en la red de transporte de energía eléctrica destinadas a proyectos estratégicos de descarbonización.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13761",
+      "titulo_original": "Resolución de 30 de junio de 2025, de la Dirección General de Biodiversidad, Bosques y Desertificación, por la que se publica la Adenda de prórroga del Convenio con la Agencia Estatal de Seguridad Aérea y AENA, S.M.E., SA, para realizar un estudio del comportamiento de buitres que permita tomar medidas para evitar la confluencia de estas aves con la aviación.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13762",
+      "titulo_original": "Orden TED/690/2025, de 30 de junio, por la que se inhabilita para ejercer la actividad de operador al por mayor de carburantes y combustibles petrolíferos a Atlantic Oil Star, SL.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250704-34",
+      "titulo_original": "Resolución de 21 de mayo de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se hace pública la Resolución de la modificación sustancial de la Autorización Ambiental Integrada otorgada a International Paper Madrid Mill, S. L. U., para su instalación de “Fabricación de papel y cartón” situada en calle del Papel, número 1 (parque industrial “La Cantueña”), en el término municipal de Fuenlabrada, promovida por International Paper Madrid Mill, S. L. U. (10-IPPC-00029.1/2023)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250704-0",
+      "titulo_original": "Resolución de 5 de junio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Cádiz, por la que se concede autorización administrativa previa y autorización administrativa de construcción a instalación eléctrica de alta tensión planta solar ",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250704-1",
+      "titulo_original": "Resolución de 5 de junio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por la que se concede autorización administrativa previa y autorización administrativa de construcción para la implantación de la instalación de generació",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250704-0",
+      "titulo_original": "ANUNCIO de notificación de la comunicación y requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas (expediente 444/2023).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250704-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

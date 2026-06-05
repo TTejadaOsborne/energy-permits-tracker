@@ -1,0 +1,171 @@
+{
+  "fecha": "20250730",
+  "total": 22,
+  "energeticos": 22,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 22,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-15744",
+      "titulo_original": "Real Decreto 681/2025, de 29 de julio, por el que se regula el Fondo de Emprendimiento y de la Pequeña y Mediana Empresa (FEPYME), F.C.P.J.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15748",
+      "titulo_original": "Real Decreto 685/2025, de 29 de julio, por el que se modifica el Real Decreto 675/2014, de 1 de agosto, por el que se establecen las bases reguladoras de ayudas para el impulso económico de las comarcas mineras del carbón, mediante el desarrollo de proyectos de infraestructuras y proyectos de restauración de zonas degradadas a causa de la actividad minera.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15822",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto Parques eólicos «Arlo» de 102 MW, «Argestes» de 96 MW, «Céfiro» de 192 MW y «Paucali» de 114 MW, y sus infraestructuras de evacuación, en las provincias de Teruel, Zaragoza y Tarragona.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15823",
+      "titulo_original": "Resolución de 14 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto Planta híbrida Coria Villetas, de 156,2 MW de potencia instalada fotovoltaica y 13,75 MW de potencia instalada de almacenamiento con baterías, y su infraestructura de evacuación (Cáceres).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15824",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energías Renovables de Angus, SL, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública para el parque eólico Angus de 56 MW de potencia instalada, y sus infraestructuras de evacuación, en las provincias de Zaragoza y Teruel.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15825",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Obenque Solar, SL, la declaración, en concreto, de utilidad pública, para la instalación fotovoltaica Obenque Solar, de 55,36 MW de potencia instalada y su infraestructura de evacuación, en Horche, Yebes, Valdarachas, Guadalajara, Pozo de Guadalajara, Santorcaz y Anchuelo (Guadalajara) y en la Comunidad de Madrid.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15826",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energías Renovables de Brigid, SL, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública para el parque eólico Brigid de 56 MW de potencia instalada, y sus infraestructuras de evacuación, en las provincias de Zaragoza y Teruel.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250730-37",
+      "titulo_original": "Resolución de 3 de julio de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa para la instalación de la planta fotovoltaica PF Prado Bajo y su infraestructura de evacuación ubicadas en el polígono 24, parcela 82, del término municipal de San Sebastián de los Reyes, solicitado por Sociedad de Explotación Fotovoltaica Viena, S. L.–Expediente: 2023P140/14-0141-00140.4/2023",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250730-38",
+      "titulo_original": "Resolución de 4 de julio de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada y Camino de los Labajos, en el término municipal de Guadarrama, para acometida eléctrica en Camino de los Labajos, número 6, actuación promovida por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30072025-18",
+      "titulo_original": "ORDEN MAV/832/2025, de 3 de julio, por la que se dicta la declaración de impacto ambiental del proyecto regional «Parque medioambiental de tratamiento de residuos de San Justo de la Vega (León)», promovido por «Valorización Verde, S.L.». Expte.: EIAO/2023/LE/001.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30072025-20",
+      "titulo_original": "ORDEN MAV/834/2025, de 22 de julio, por la que se modifica la Orden de 29 de octubre de 2007, de la Consejería de Medio Ambiente, por la que se concede autorización ambiental para la fabricación de azúcar en sus instalaciones, ubicadas en el término municipal de Olmedo (Valladolid), titularidad de «Acor, S. Coop.», como consecuencia de la modificación no sustancial 16 (MNS 16). Expte.: 063-25-MNSVA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-30072025-21",
+      "titulo_original": "ORDEN MAV/835/2025, de 22 de julio, relativa a la concesión de autorización ambiental para una planta de producción de gases industriales, hidrógeno y oxígeno electrolítico renovable, en el término municipal de Villadangos del Páramo (León), titularidad de «Industrias del Hidrógeno Mambrino». Expte.: 567-23-AALE.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1751965280072200039",
+      "titulo_original": "Anuncio de 23/06/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa, así como el proyecto y estudio de impacto ambiental de la planta de energía solar fotovoltaica denominada PFV Sa",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1752664108550420049",
+      "titulo_original": "Anuncio de 16/07/2025 , de la Delegación Provincial de Desarrollo Sostenible de Toledo, sobre información pública de solicitud de Draco Power, SL, para autorización administrativa previa de instalación solar fotovoltaica Draco Pradillos, situada en los términos municipales de Yeles e Illescas (Toled",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250730-0",
+      "titulo_original": "Resolución de 9 de junio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por la que se concede modificación de autorización administrativa previa y autorización administrativa de construcción, así como declaración en concreto d",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250730-1",
+      "titulo_original": "Resolución de 24 de julio de 2025, de la Secretaría General de Industria y Minas, por la que se aprueba el modelo de declaración para el registro de instalaciones y equipos de rayos X para diagnóstico médico.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250730-0",
+      "titulo_original": "la inscripción y depósito en el Registro de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad de la Dirección General de empleo y Asuntos laborales, del contenido del acuerdo adoptado entre uGT Asturias y la empresa Tadarsa eólica, s. l., en materia de conflicto colectivo por el procedimiento de mediación seguido en el servicio Asturiano de solución extrajudicial de Conflictos. [Cód. 2025‑06254]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250730-1",
+      "titulo_original": "III. a e dmInIstracIón del stado Delegación del Gobierno en Asturias InfoRmACIón pública de la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto “nueva línea aérea de transporte de energía eléctrica a 400 kv, simple circuito, santa maría de Grado-Cardoso”. expte. 66-G/2025. [Cód. 2025‑06364]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250730-2",
+      "titulo_original": "InfoRmACIón pública de la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto “nueva subestación Cardoso 400 kv”, así como la interconexión de ésta con el parque de 220 kv a través del autotransformador ATP1 400/220 kv mediante un embarrado tendido. expte. 68-G/2025. [Cód. 2025‑06365] [2 págs.]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250730030",
+      "titulo_original": "ECONOMÍA Y JUSTICIA RESOLUCIÓN de 24 de junio de 2025, de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación de las líneas eléctricas \"LAAT 220 KV SET Las Caleras-SET Ancar\" en los términos municipales de Argente, Alfambra, Camañas y Orrios (Teruel) y",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250730031",
+      "titulo_original": "RESOLUCIÓN de 18 de julio de 2025, del Servicio Provincial de Huesca, sobre la autorización administrativa previa y de construcción del proyecto de instalación parque fotovoltaico FV Les Colomines de 741 kWp/500 kW, promovida por Corona Borealis Solar, SL, en el término municipal de Baldellou, provincia de Huesca. Expediente de referencia G-H-2024-022.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250730-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

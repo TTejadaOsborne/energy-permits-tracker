@@ -1,0 +1,257 @@
+{
+  "fecha": "20210525",
+  "total": 6,
+  "energeticos": 5,
+  "descartados": 1,
+  "exitosos": 5,
+  "errores": 0,
+  "tokens": {
+    "input": 42500,
+    "output": 2706
+  },
+  "coste_usd": 0.04482,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-8733",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "Resolución de 17 de mayo de 2021, de ICEX España Exportación e Inversiones, E.P.E., por la que se publica el Convenio con el Instituto de Fomento de la Región de Murcia, para la utilización conjunta de signos distintivos en actividades de internacionalización empresarial.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8733",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de Convenio entre ICEX España Exportación e Inversiones, E.P.E. e Instituto de Fomento de la Región de Murcia para utilización conjunta de signos distintivos en actividades de internacionalización empresarial. No es un proyecto energético, sino un acuerdo administrativo de cooperación institucional.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6946,
+        "output": 329
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-25052021-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental del parque eólico «Terrae», en el término municipal de Ibeas de Juarros, y la línea eléctrica de evacuación en los términos municipales de Ibeas de Juarros, Castrillo del Val y Carcedo de Burgos (Burgos), promovido por «EDP Renovables España, S.L.U.». Expte.: PE/BU/002/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/25/html/BOCYL-D-25052021-19.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Terrae",
+        "numero_expediente_industria": "PE/BU/002/2019",
+        "numero_expediente_medioambiente": null,
+        "promotor": "EDP Renovables España, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 27.5,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Terrae",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Ibeas de Juarros",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque eólico de 5 aerogeneradores GE158 de 5,5 MW cada uno. Línea eléctrica de evacuación de 220 kV de 6,445 km que transcurre por Ibeas de Juarros, Castrillo del Val y Carcedo de Burgos. Subestación transformadora Terrae (220/30 kV) compartida con parque eólico Abrazadilla. Evacuación final a subestación Villimar (REE). El procedimiento incluye tanto autorización administrativa previa como evaluación de impacto ambiental ordinaria según Ley 21/2013.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6853,
+        "output": 481
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-25052021-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental del parque eólico «Ubierna» y la línea eléctrica de evacuación, en el término municipal de Merindad de Río Ubierna (Burgos), promovido por «EDP Renovables España, S.L.U.». Expte.: PE/BU/003/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/25/html/BOCYL-D-25052021-20.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Ubierna",
+        "numero_expediente_industria": "PE/BU/003/2019",
+        "numero_expediente_medioambiente": null,
+        "promotor": "EDP Renovables España, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 45,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Quintanilla",
+        "tension_conexion_kv": 132,
+        "gestor_red": "REE",
+        "municipio": "Merindad de Río Ubierna",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque de 12 aerogeneradores GE137 de 3,75 MW cada uno. Red subterránea de 30 kV compartida con parques Quintanilla y Quintanilla fase II. Línea aérea de evacuación de 132 kV desde Quintanilla a Coculina, con entrega final a SET La Lora 400 kV de REE. Subestación Coculina en tramitación por AGE (expediente PFot-267-AC).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6657,
+        "output": 448
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-25052021-21",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa, declaración en concreto de utilidad pública, aprobación del proyecto de ejecución y evaluación de impacto ambiental de la instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «FV Boedo 1» y su infraestructura de evacuación, en los términos municipales de Alar del Rey y Herrera de Pisuerga (Palencia). Expte.: FV-912.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/25/html/BOCYL-D-25052021-21.do",
+      "datos": {
+        "nombre_proyecto": "FV Boedo 1",
+        "numero_expediente_industria": "FV-912",
+        "numero_expediente_medioambiente": null,
+        "promotor": "BOLERO ENERGY, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 47.67,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Boedo 30/132 kV",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Alar del Rey, Herrera de Pisuerga",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 47,67 MWp formada por 110.835 paneles de 430 Wp. Incluye 8 centros de transformación 0,60/30 kV y línea de evacuación 30 kV subterránea de 2.250 metros hasta SET Boedo. Presupuesto de ejecución: 26.669.945,58 €. Sometida a declaración de impacto ambiental ordinaria. Período de información pública: 30 días hábiles desde la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7244,
+        "output": 473
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-25052021-22",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa, declaración en concreto de utilidad pública, aprobación del proyecto de ejecución y evaluación de impacto ambiental de la instalación de producción de energía eléctrica por tecnología fotovoltaica «FV Boedo 2» y su infraestructura de evacuación, en el término municipal de Alar del Rey (Palencia). Expte.: FV-913.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/25/html/BOCYL-D-25052021-22.do",
+      "datos": {
+        "nombre_proyecto": "FV Boedo 2",
+        "numero_expediente_industria": "FV-913",
+        "numero_expediente_medioambiente": null,
+        "promotor": "VALS ENERGY POWER, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 47.67,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Boedo 30/132 kV",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Alar del Rey",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 47,67 MWp formada por 110.835 paneles fotovoltaicos de 430 Wp. Incluye 24 inversores de 1.689 kVA, 10 centros de transformación 0,60/30 kV, línea de evacuación 30 kV de 2.335 metros soterrada. Presupuesto de ejecución: 26.779.147,25 €. Información pública por 30 días hábiles a partir de la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7238,
+        "output": 463
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-25052021-24",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210525",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública para una instalación de evacuación de las plantas solares fotovoltaicas: FV Ricobayo solar 1-2, FV Zamora solar 3, FV Medallon solar y FV Ricobayo situadas en la provincia de Zamora compuesta por la subestación transformadora colectora Ricobayo 2 y línea aérea de 220 kv para la evacuación a la subestación transformadora colectora Ricobayo 1, ubicadas en el término municipal de Muelas del Pan (Zamora). Expte.: RI: 22638.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/25/html/BOCYL-D-25052021-24.do",
+      "datos": {
+        "nombre_proyecto": "Línea Aérea 220kV Ricobayo Y Subestación Transformadora Colectora Ricobayo 2",
+        "numero_expediente_industria": "RI-22638",
+        "numero_expediente_medioambiente": null,
+        "promotor": "EDP RENOVABLES ESPAÑA, S.L.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Colectora Ricobayo 1",
+        "tension_conexion_kv": 220,
+        "gestor_red": null,
+        "municipio": "Muelas del Pan",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación de evacuación para plantas solares fotovoltaicas (FV Ricobayo solar 1-2, FV Zamora solar 3, FV Medallon solar y FV Ricobayo). Subestación transformadora 220/30 kV con 4 posiciones de transformación (3 transformadores de 24/30 MVA y 1 de 80/100 MVA). Línea aérea de 220 kV, 4.004 metros en primer tramo. Presupuesto: 5.196.741,56 €. Plazo información pública: 30 días desde publicación. EIA incluido en expediente.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7562,
+        "output": 512
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "fecha": "20230103",
+  "total": 8,
+  "energeticos": 7,
+  "descartados": 1,
+  "exitosos": 7,
+  "errores": 0,
+  "tokens": {
+    "input": 54189,
+    "output": 4009
+  },
+  "coste_usd": 0.05939,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2023-56",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "Orden TED/1351/2022, de 29 de diciembre, por la que se crea y regula la Unidad de Medidas Antifraude del Ministerio para la Transición Ecológica y el Reto Demográfico en proyectos financiados con cargo al Mecanismo de Recuperación y Resiliencia (Next Generation UE) en ejecución del Plan de Recuperación, Transformación y Resiliencia.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-56",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2022-12-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden de creación de la Unidad de Medidas Antifraude del Ministerio para la Transición Ecológica y el Reto Demográfico para proyectos financiados con cargo al Mecanismo de Recuperación y Resiliencia (Next Generation UE). No es una tramitación de un proyecto energético concreto, sino una orden de organización administrativa.",
+        "confianza": 0.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7023,
+        "output": 539
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2023-93",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "Resolución de 22 de diciembre de 2022, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, la autorización administrativa previa para la subestación de transporte Beariz 400 kV, la línea aérea de transporte a 400 kV Beariz-Fontefría, la subestación de transporte Fontefría 400/220 kV, la línea aérea de transporte a 400 kV Fontefría-Frontera Portuguesa y la línea aérea de transporte a 400 kV entrada y salida en Beariz de la línea Cartelle-Mesón do Vento, que forman parte del Proyecto de Interconexión Norte con Portugal, en las provincias de Ourense y Pontevedra.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-93",
+      "datos": {
+        "nombre_proyecto": "Interconexión Norte con Portugal",
+        "numero_expediente_industria": "BOE-A-2023-93",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Red Eléctrica de España, SAU",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP",
+          "DIA"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Beariz 400 kV, Fontefría 400/220 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Beariz, O Covelo",
+        "provincia": "Ourense, Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-12-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto declarado de Interés Común por la Comisión Europea (PIC 2.17). Incluye: Subestación Beariz 400 kV, LAT 400 kV Beariz-Fontefría (doble circuito), Subestación Fontefría 400/220 kV, LAT 400 kV Fontefría-Frontera Portuguesa (doble circuito), LAT 400 kV entrada/salida Beariz línea Cartelle-Mesón do Vento. Tramitación iniciada el 18 de abril de 2013. Se recibió una alegación y oposición del Ayuntamiento de Covelo por motivos ambientales y socioeconómicos, que no prosperó.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7160,
+        "output": 534
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2023-94",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "Resolución de 22 de diciembre de 2022, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Plantas solares fotovoltaicas Itel, de 119,916 MWp y Bibey, de 58,794 MWp, y sus infraestructuras de evacuación, en Orihuela (Alicante)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-94",
+      "datos": {
+        "nombre_proyecto": "Plantas Solares Fotovoltaicas Itel y Bibey",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2023-94",
+        "promotor": "Itel Investment, SL y Bibey Desarrollo Empresarial, SLU",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 178.71,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Torremendo Renovables 132/400 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Orihuela",
+        "provincia": "Alicante",
+        "comunidad_autonoma": "Comunidad Valenciana",
+        "fecha_resolucion": "2022-12-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de dos plantas solares fotovoltaicas (Itel de 119,916 MWp y Bibey de 58,794 MWp) con infraestructuras de evacuación compartidas con otros proyectos. SET Itel 30/132 kV con línea aérea-subterránea de 5.135 m hacia SET Torremendo Renovables. Línea aérea 400 kV de 182,3 m hacia nudo de REE en SET Torremendo 400 kV. Se recibieron 14 alegaciones durante información pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7034,
+        "output": 513
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2023-95",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "Resolución de 23 de diciembre de 2022, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Parque solar fotovoltaico Navajo de 99 MWp, y su infraestructura de evacuación, en Galápagos, Fuentelahiguera de Albatages, Guadalajara y Marchamalo (Guadalajara)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-95",
+      "datos": {
+        "nombre_proyecto": "Parque Solar Fotovoltaico Navajo",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2023-95",
+        "promotor": "ES Planta Solar 3, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 99,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [
+          "AAP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Navajo 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Fontanar, Guadalajara",
+        "provincia": "Guadalajara",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2022-12-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Impacto Ambiental favorable. Potencia nominal: 99 MWp (86,4 MWn). Superficie vallada: 231 ha. Infraestructura de evacuación incluye SET 30/220 kV, línea MT 30 kV de 7,17 km y LAT 220 kV de 34 m hacia apoyo 337 de línea Yunquera-Cisneros de REE. Durante tramitación, promotor solicitó modificación del proyecto, resultando afectación final solo a municipios de Fontanar y Guadalajara (inicialmente incluía Galápagos y Fuentelahiguera de Albatages). Órgano sustantivo: MITECO (Dirección General de Política Energética y Minas).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7023,
+        "output": 538
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-03012023-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "RESOLUCIÓN de 21 de diciembre de 2022, del Servicio Territorial de Industria, Comercio y Economía de Palencia, por la que se otorga la autorización administrativa (autorización administrativa previa) y se aprueba el proyecto de ejecución (autorización administrativa de construcción) de la instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «Fv Grijota II», en los términos municipales de Villaumbrales y Husillos, y su infraestructura de evacuación, en los términos municipales de Becerril de Campos, Villaumbrales y Husillos (Palencia), promovida por «Fotovoltaica Fotozar 6, S.L.». Expte.: FV-872.",
+      "url": "https://bocyl.jcyl.es/html/2023/01/03/html/BOCYL-D-03012023-19.do",
+      "datos": {
+        "nombre_proyecto": "Fv Grijota II",
+        "numero_expediente_industria": "FV-872",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Fotovoltaica Fotozar 6, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 47.19,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Grijota 400 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Villaumbrales, Husillos",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-12-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución otorga simultáneamente Autorización Administrativa Previa (AAP) y Autorización Administrativa de Construcción (AAC). Incluye infraestructura de evacuación (subestación elevadora 30/132 kV y línea de alta tensión 132 kV) tramitada por ST Becerril Renovables, S.L. Proyecto parte de nudo Grijota 400 kV con múltiples instalaciones renovables integradas (13 sociedades generadoras). Se sometió a información pública con alegaciones de terceros (Parque Eólico El Umbral).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7255,
+        "output": 492
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-03012023-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "RESOLUCIÓN de 21 de diciembre de 2022, del Servicio Territorial de Industria, Comercio y Economía de Palencia, por la que se otorga la autorización administrativa (autorización administrativa previa), se aprueba el proyecto de ejecución (autorización administrativa de construcción) y se declara la utilidad pública de la instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «Grijota III» y su infraestructura de evacuación, en los términos municipales de Perales y Becerril de Campos (Palencia), promovida por «La Caravia Solar, S.L.». Expte.: FV-874.",
+      "url": "https://bocyl.jcyl.es/html/2023/01/03/html/BOCYL-D-03012023-20.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Grijota III",
+        "numero_expediente_industria": "FV-874",
+        "numero_expediente_medioambiente": null,
+        "promotor": "La Caravia Solar, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 47.19,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "DIA"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Becerril",
+        "tension_conexion_kv": 30,
+        "gestor_red": "I-DE Redes Inteligentes",
+        "municipio": "Perales y Becerril de Campos",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-12-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución del Servicio Territorial de Industria, Comercio y Economía de Palencia que otorga AAP, aprueba proyecto de ejecución (AAC) y declara utilidad pública. Se incluye infraestructura de evacuación a 30 kV. DIA favorable emitida por Orden MAV/1620/2022 de 21 de noviembre de 2022. El proyecto cuenta con expedientes de infraestructura de conexión a red de transporte: 34-ATSB-38, 34-ATLI-6487, 34-ATLI-6486. Se sometió a información pública con anuncios publicados el 21/06/2022 en BOCyL, sin alegaciones recibidas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7143,
+        "output": 530
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-03012023-37",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico común, licencia de obra mayor y licencia ambiental conjunta, para la ejecución del sistema de almacenamiento de energía con baterías en la parcela 724 del polígono 21 (RC. 05041A021007240000QQ), situada en Las Solanas, en el término municipal de Burgohondo (Ávila). Expte.: 49/2022.",
+      "url": "https://bocyl.jcyl.es/html/2023/01/03/html/BOCYL-D-03012023-37.do",
+      "datos": {
+        "nombre_proyecto": "Sistema de Almacenamiento de Energía con Baterías Burgohondo",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "49/2022",
+        "promotor": "IBERENOVA PROMOCIONES, S.A.U",
+        "tecnologia": "BESS Standalone",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "AAU",
+          "Otro"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Burgohondo",
+        "provincia": "Ávila",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Sistema de almacenamiento de energía con baterías ubicado en parcela 724 del polígono 21 (RC. 05041A021007240000QQ), Las Solanas. Tramitación conjunta de licencia urbanística de obra mayor y licencia ambiental. Requiere autorización previa de la Comisión Territorial de Urbanismo de Ávila por tratarse de uso excepcional en suelo rústico común. Plazo de información pública: 20 días hábiles desde la publicación.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6029,
+        "output": 453
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1671452546898850309",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20230103",
+      "titulo_original": "Anuncio de 19/12/2022 , de la Delegación Provincial de Desarrollo Sostenible de Toledo, sobre información pública para autorización administrativa previa de instalación solar fotovoltaica. Referencia: PE-691. [NID 2022/12136] 384 > 129 KB",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1671452546898850309",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Pepino FV 2",
+        "numero_expediente_industria": "2703/01562",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Toledo",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2024-04-03",
+        "capacidad_mw_liberada": null,
+        "observaciones": "El anuncio del 19/12/2022 convoca información pública para AAP de instalación solar fotovoltaica (referencia PE-691). Posteriormente, mediante Resolución de 03/04/2024 de la Dirección General de Transición Energética, se otorga autorización administrativa previa y de construcción (AAP_AAC) para la planta solar fotovoltaica Pepino FV 2 con sus infraestructuras de evacuación.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5522,
+        "output": 410
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

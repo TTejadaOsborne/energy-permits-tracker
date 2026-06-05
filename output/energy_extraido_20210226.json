@@ -1,0 +1,296 @@
+{
+  "fecha": "20210226",
+  "total": 7,
+  "energeticos": 7,
+  "descartados": 0,
+  "exitosos": 7,
+  "errores": 0,
+  "tokens": {
+    "input": 43276,
+    "output": 3155
+  },
+  "coste_usd": 0.04724,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-26022021-27",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción, evaluación de impacto ambiental y declaración de utilidad pública para la instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica denominada «Collado Solar», y sus infraestructuras de evacuación, situadas todas ellas en el término municipal de Pozuelo de Tábara (Zamora). Expte.: RI: 22247.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/26/html/BOCYL-D-26022021-27.do",
+      "datos": {
+        "nombre_proyecto": "Collado Solar",
+        "numero_expediente_industria": "RI: 22247",
+        "numero_expediente_medioambiente": null,
+        "promotor": "COLLADO SOLAR, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 46.88,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET PERAL",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Pozuelo de Tábara",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 111.105 módulos de 450 W con estructura de seguimiento a un eje E-O. Potencia pico: 50 MW. Línea de evacuación de 30 kV con tres circuitos trifásicos directamente enterrados hacia SET PERAL 400/132/30 kV. Evaluación ambiental ordinaria requerida (Anexo I, Grupo 3, apartado j) de Ley 21/2013). Declaración de utilidad pública con necesidad de expropiación de bienes. Plazo de información pública: 30 días desde publicación. Presupuesto: 23.267.487,66 €.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7395,
+        "output": 497
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26022021-28",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental para la instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica denominada «Enebro Solar», en el término municipal de Pozuelo de Tábara (Zamora). Expte.: RI: 22249.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/26/html/BOCYL-D-26022021-28.do",
+      "datos": {
+        "nombre_proyecto": "Enebro Solar",
+        "numero_expediente_industria": "RI: 22249",
+        "numero_expediente_medioambiente": "RI: 22249",
+        "promotor": "ENEBRO SOLAR, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 46.88,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Pozuelo de Tábara",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica con 111.105 módulos de 450 W, estructura con seguimiento a un eje E-O. Potencia pico total: 50 MW. Potencia nominal: 46,88 MW. Compuesta por 21 inversores de 2.500 kVA y 11 transformadores de 5.000 kVA. Ubicada en parcelas del Polígono 1 (parcelas 673, 512, 488, 633, 485, 484, 483, 430, 431, 493, 10453, 453, 497). Presupuesto: 22.428.142,81 €. Sujeto a evaluación de impacto ambiental ordinaria (Anexo I, Grupo 3, apartado j) de la Ley 21/2013). Período de información pública: 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6382,
+        "output": 546
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26022021-29",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto para la instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica denominada «Espliego Solar», y sus infraestructuras de evacuación, situadas todas ellas en el término municipal de Pozuelo de Tábara (Zamora). Expte.: RI: 22250.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/26/html/BOCYL-D-26022021-29.do",
+      "datos": {
+        "nombre_proyecto": "Espliego Solar",
+        "numero_expediente_industria": "RI: 22250",
+        "numero_expediente_medioambiente": null,
+        "promotor": "ESPLIEGO SOLAR, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 46.88,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Pozuelo de Tábara",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 50 MW potencia pico (46,88 MW nominal) con 111.105 módulos de 450 W y seguimiento a un eje E-O. Presupuesto: 22.740.836,42 €. Sujeta a evaluación de impacto ambiental ordinaria (Anexo I, Grupo 3, apartado j de la Ley 21/2013). Plazo información pública: 30 días desde la publicación. Cita previa requerida para consulta presencial.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6468,
+        "output": 450
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26022021-30",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción, evaluación de impacto ambiental y declaración de utilidad pública para la instalación de producción de energía eléctrica mediante tecnología solar fotovoltaica denominada «Caoba Solar», y sus infraestructuras de evacuación, situadas todas ellas en el término municipal de Pozuelo de Tábara (Zamora). Expte.: RI: 22251.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/26/html/BOCYL-D-26022021-30.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Caoba Solar",
+        "numero_expediente_industria": "RI: 22251",
+        "numero_expediente_medioambiente": "RI: 22251",
+        "promotor": "CAOBA SOLAR, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 46.88,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET LOS CERROS",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Pozuelo de Tábara",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica con 111.105 módulos de 450 W, estructura de seguimiento a un eje E-O. Potencia pico de 50 MW. Línea eléctrica de evacuación de 30 kV formada por tres circuitos trifásicos directamente enterrados hacia SET LOS CERROS 132/30 kV. Presupuesto: 22.641.901,98 €. Sujeto a EIA ordinaria por ocupar más de 100 ha. Plazo información pública: 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6928,
+        "output": 479
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-26022021-34",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para la renovación de una línea eléctrica a 132 kv simple circuito, «ST-Villalbilla-ST La Fuente Separata», en el término municipal de Cuevas de San Clemente (Burgos). Expte.: 39/2020.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/26/html/BOCYL-D-26022021-34.do",
+      "datos": {
+        "nombre_proyecto": "Línea Eléctrica 132 kV ST-Villalbilla-ST La Fuente Separata",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-De Redes Eléctricas Inteligentes, S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST-Villalbilla / ST La Fuente Separata",
+        "tension_conexion_kv": 132,
+        "gestor_red": "i-DE",
+        "municipio": "Cuevas de San Clemente",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Renovación de línea eléctrica a 132 kV simple circuito. Longitud afectada: 94 m. Ubicación en Polígono 501 parcela 5037 y finca del proyecto 327. Se trata de un procedimiento de solicitud de autorización de uso excepcional de suelo rústico conforme al artículo 307.3 del Decreto 22/2004 de Castilla y León. Expediente municipal: 39/2020.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5758,
+        "output": 462
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21060513",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "Impacto ambiental.- Resolución de 18 de febrero de 2021, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental del proyecto de instalación solar fotovoltaica \"Talayuela III\" de 20 MW, en el término municipal de Talayuela. Expte.: IA20/0161.",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/390o/21060513.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Talayuela III",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "IA20/0161",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 20,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Talayuela",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-02-18",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Impacto Ambiental favorable para proyecto de instalación solar fotovoltaica de 20 MW. Emitida por la Dirección General de Sostenibilidad de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5180,
+        "output": 366
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080171",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210226",
+      "titulo_original": "Información pública.- Anuncio de 17 de febrero de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondiente a la instalación fotovoltaica \"Hornachos Uno\", ubicada en el término municipal de",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/390o/21080171.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Hornachos Uno",
+        "numero_expediente_industria": "DOE-21080171",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Hornachos",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-02-17",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de solicitud de autorización administrativa previa y reconocimiento de utilidad pública. Expediente del DOE (Diario Oficial de Extremadura).",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5165,
+        "output": 355
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

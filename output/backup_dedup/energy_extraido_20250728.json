@@ -1,0 +1,122 @@
+{
+  "fecha": "20250728",
+  "total": 15,
+  "energeticos": 15,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 15,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-15644",
+      "titulo_original": "Resolución de 11 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Restauración marismas de la Ensenada de Mera, en la ría de Ortigueira, término municipal de Ortigueira (A Coruña)».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250728-36",
+      "titulo_original": "Resolución de 22 de julio de 2025, de la Directora General de Transición Energética y Economía Circular, por la que se somete al trámite de información pública a los interesados el estudio ambiental estratégico y la versión inicial de la Estrategia de Economía Circular de la Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-28072025-13",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de declaración de utilidad pública de la instalación eléctrica denominada «LAT 132 kV SET Las Quemadillas - SET Hontoria», a ubicar en los términos municipales de Ampudia, Santa Cecilia del Alcor, Dueñas, Tariego de Cerrato y Hontoria de Cerrato (Palencia). Expte.: 34/ATLI/6604.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-28072025-16",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se convoca al levantamiento de las actas previas a la ocupación de los bienes y derechos afectados por la subestación eléctrica denominada «SET Carratorres 66/30 kV» perteneciente a las instalaciones de evacuación comunes de varios parques eólicos, ubicada en el término municipal de Valdenebro de los Valles (Valladolid). Expte.: ATSB-36.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-28072025-17",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, denominada «PF Cotano», en el término municipal de Villanubla (Valladolid). Expte.: FV-2695 ATCE-187.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-28072025-18",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Medio Ambiente de Salamanca, por el que se convoca al levantamiento de las actas de ocupación definitivas de determinados bienes y/o derechos afectados por el proyecto de abastecimiento mancomunado a la Sierra de Francia desde Navamuño en Salamanca. Expte.: CS-2022-11.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-28072025-23",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, promovida por «Work Life Balance, S.L.», para la canalización subterránea de la línea de evacuación de una planta solar fotovoltaica ubicada en el término municipal de Quintanapalla hasta la subestación «SET Villímar» en varias parcelas, en el término municipal de Burgos. Expte.: 3/2024 EXC-URB.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1752835691378820058",
+      "titulo_original": "Instalaciones Eléctricas. Resolución de 17/07/2025 , de la Dirección General de Transición Energética, sobre autorización administrativa previa y de construcción de modificación de la subestación, La Paloma 132 kV (referencia: 2401/00053). [NID 2025/5908] 26012 > 201 KB",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250728-0",
+      "titulo_original": "Resolución de 22 de julio de 2025, de la Secretaría General de Industria y Minas, de modificación del extracto de la Resolución de 27 de marzo de 2025, de la Secretaría General de Industria y Minas, por la que se convocan los incentivos de transición justa en la provincia de Cádiz para el proyecto t",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250728-1",
+      "titulo_original": "Resolución de 21 de marzo de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva, por la que se declara la utilidad pública en concreto para el proyecto de ejecución de las instalaciones de evacuación de la planta solar fotovoltaica que",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250728-2",
+      "titulo_original": "Resolución de 9 de junio de 2025, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por la que se concede modificación de autorización administrativa previa y autorización administrativa de construcción, así como declaración en concreto d",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250728-3",
+      "titulo_original": "Resolución de 22 de julio de 2025, de la Agencia Andaluza de la Energía, por la que se convoca la adhesión de las entidades colaboradoras para la gestión del Programa 4 «Hogares Vulnerables» de la Orden de 24 de abril de 2025, por la que se aprueban las bases reguladoras para la concesión de incenti",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250728013",
+      "titulo_original": "ORDEN PEJ/885/2025, de 11 de julio, por la que se reconoce, en concreto, la utilidad pública de la instalación \"Parque Eólico Cástor\", ubicada en el término municipal de Vera de Moncayo (Zaragoza), promovida por la mercantil Habidite Energy, SLU. Expediente: DUP-Z-2022-0009 G-EO-Z-279-2020.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250728020",
+      "titulo_original": "ANUNCIO del Servicio Provincial de Zaragoza, por el que se somete a información pública, la modificación de la autorización administrativa previa y de construcción por modificación del proyecto parque eólico \"PE Sikitita\" de 50 MW de la empresa Renovables del Raso, SL. (Expediente G-Z-2020/299).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250728-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

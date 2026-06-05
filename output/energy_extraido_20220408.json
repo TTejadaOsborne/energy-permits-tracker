@@ -1,0 +1,55 @@
+{
+  "fecha": "20220408",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 7015,
+    "output": 585
+  },
+  "coste_usd": 0.00795,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-08042022-13",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220408",
+      "titulo_original": "RESOLUCIÓN de 31 de marzo de 2022, de la Delegación Territorial de Valladolid, por la que se autoriza la modificación no sustancial del proyecto de parque eólico «Valverde» y su infraestructura de evacuación en 132 kv, en los términos municipales de Valverde de Campos, Castromonte, Villabrágima y La Mudarra (Valladolid), promovido por «Naturgy Renovables, S.L.U.»",
+      "url": "https://bocyl.jcyl.es/html/2022/04/08/html/BOCYL-D-08042022-13.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Valverde",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Naturgy Renovables, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 49.5,
+        "tipo_permiso": "ModAAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Mazuelas",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Valverde de Campos, Castromonte, Villabrágima y La Mudarra",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-03-31",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que autoriza modificación no sustancial del proyecto eólico. Cambios principales: (1) Soterramiento de tramo aéreo entre apoyos 23-34 de línea de evacuación 132 kV; (2) Ajustes de trazado subterráneo para cumplir condicionantes de otros promotores y protección de árboles; (3) Sustitución de modelo de aerogenerador a mayor potencia unitaria, reduciendo número total de aerogeneradores de 15 a 11 manteniendo potencia total de 49,5 MW; (4) Eliminación de accesos a posiciones VA04 y VA12 y tramo final del eje 15. La modificación no se considera que tenga efectos adversos significativos sobre el medio ambiente conforme a art. 7.2.c Ley 21/2013 y art. 49.2 DL 1/2015. DIA original dictada por Orden FYM/1356/2021 de 11 de noviembre de 2021.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7015,
+        "output": 585
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

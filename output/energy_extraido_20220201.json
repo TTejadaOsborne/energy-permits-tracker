@@ -1,0 +1,55 @@
+{
+  "fecha": "20220201",
+  "total": 1,
+  "energeticos": 0,
+  "descartados": 1,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 5854,
+    "output": 831
+  },
+  "coste_usd": 0.00801,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-01022022-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220201",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para la instalación de una planta solar fotovoltaica fija de 40 kw para autoconsumo sin venta de excedentes en una granja de porcino, en la parcela 156 del polígono 2, paraje «La Presa», en Tabladillo, en el término municipal de Santa María la Real de Nieva (Segovia).",
+      "url": "https://bocyl.jcyl.es/html/2022/02/01/html/BOCYL-D-01022022-20.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Tabladillo",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Inversiones Antona, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.04,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Santa María la Real de Nieva",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación de 40 kW para autoconsumo sin venta de excedentes en granja de porcino. Solicitud de licencia urbanística y comunicación ambiental. Información pública por 20 días desde publicación. Ref. catastral: 40217M002001560000IS. Paraje «La Presa», polígono 2, parcela 156.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5854,
+        "output": 831
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

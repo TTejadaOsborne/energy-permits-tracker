@@ -1,0 +1,212 @@
+{
+  "fecha": "20220310",
+  "total": 5,
+  "energeticos": 3,
+  "descartados": 2,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 38128,
+    "output": 2672
+  },
+  "coste_usd": 0.04119,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2022-3717",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20220310",
+      "titulo_original": "Real Decreto 159/2022, de 1 de marzo, sobre conservación de los recursos genéticos forestales y de la flora silvestre y por el que se modifica el Real Decreto 1424/2008, de 14 de agosto, por el que se determinan la composición y las funciones de la Comisión Estatal para el Patrimonio Natural y la Biodiversidad, se dictan las normas que regulan su funcionamiento y se establecen los comités especializados adscritos a la misma, y el Real Decreto 1269/2018, de 11 de octubre, por el que se determinan la composición, las funciones y las normas de funcionamiento del Consejo Forestal Nacional.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-3717",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2022-03-01",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de Real Decreto 159/2022 sobre conservación de recursos genéticos forestales y flora silvestre. NO es un proyecto energético renovable. Se trata de normativa ambiental/forestal sobre conservación de biodiversidad, recursos genéticos forestales y Flora silvestre (Convenio de Naciones Unidas sobre Diversidad Biológica, EUFORGEN). No contiene tramitación de instalaciones de generación renovable, almacenamiento, hidrógeno verde, centros de datos ni infraestructura de red eléctrica.",
+        "confianza": 0.99,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6994,
+        "output": 386
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2022-3783",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20220310",
+      "titulo_original": "Resolución de 7 de marzo de 2022, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica la tercera Adenda de modificación del Convenio con la Entidad Pública Empresarial Augas de Galicia y el Ayuntamiento de Vigo, para la mejora de la garantía del abastecimiento en la zona sur de la provincia de Pontevedra.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-3783",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Vigo",
+        "provincia": "Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-03-07",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de tercera adenda de modificación de convenio entre Confederación Hidrográfica del Miño-Sil, Augas de Galicia y Ayuntamiento de Vigo para mejora de abastecimiento de agua. NO es un proyecto de generación energética ni de infraestructura de red eléctrica.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7136,
+        "output": 344
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-10032022-20",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220310",
+      "titulo_original": "RESOLUCIÓN de 28 de febrero de 2022, de la Delegación Territorial de Soria, por la que se presta conformidad a la modificación del proyecto de Planta de Generación Eléctrica a partir de Biomasa, promovido por «Bioeléctrica de Garray, S.L.U.», en el término municipal de Garray (Soria). Expte.: 24/09 EIA.",
+      "url": "https://bocyl.jcyl.es/html/2022/03/10/html/BOCYL-D-10032022-20.do",
+      "datos": {
+        "nombre_proyecto": "Planta de Generación Eléctrica a partir de Biomasa Garray",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "24/09 EIA",
+        "promotor": "Bioeléctrica de Garray, S.L.U.",
+        "tecnologia": "Biomasa",
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Garray",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-02-28",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que presta conformidad a la modificación del proyecto de Planta de Biomasa. Modificación consiste en la implantación de una explanada de pavimento de hormigón (32 x 80 m, 2560 m²) para almacenamiento de biomasa a la intemperie. Medida compensatoria: plantación de 126 ejemplares de Pinus pinaster en sustitución de los 63 pies talados. La DIA original data de 31 de agosto de 2010, modificada el 30 de mayo de 2013 para aumentar potencia eléctrica bruta.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6954,
+        "output": 462
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-10032022-25",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220310",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental de la renovación de tramo de la línea eléctrica aérea existente de 132 kV, simple circuito, «ST La Fuente» AP.10210 de E/S en la «ST Salas», en los términos municipales de Mambrillas de Lara, Mecerreyes, Hortigüela, Cascajares de la Sierra, Barbadillo del Mercado, La Revilla y Ahedo y Villanueva de Carazo (Burgos).",
+      "url": "https://bocyl.jcyl.es/html/2022/03/10/html/BOCYL-D-10032022-25.do",
+      "datos": {
+        "nombre_proyecto": "Renovación Línea 132 kV ST La Fuente - ST Salas",
+        "numero_expediente_industria": "BOCYL-D-10032022-25",
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-DE REDES ELÉCTRICAS INTELIGENTES, S.A.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST La Fuente",
+        "tension_conexion_kv": 132,
+        "gestor_red": "i-DE",
+        "municipio": "Mambrillas de Lara, Mecerreyes, Hortigüela, Cascajares de la Sierra, Barbadillo del Mercado, La Revilla y Ahedo, Villanueva de Carazo",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Renovación de línea aérea existente de 132 kV, simple circuito, con longitud total de 23.931 m. Origen en ST La Fuente hasta apoyo Ap.10210 de E/S a ST Salas. Incluye sustitución de apoyos de hormigón, conductor, aislamiento, grapas y herrajes. Presupuesto: 1.979.790,09 euros. Plazo de alegaciones: 30 días hábiles. Evaluación de impacto ambiental ordinaria. Órgano competente: Servicio Territorial de Industria, Comercio y Economía de Burgos.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6532,
+        "output": 555
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220310-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220310",
+      "titulo_original": "RESOLUCIÓN de 1 de marzo de 2022, de la Dirección General de Planificación Energética y Recursos Naturales, por la que se someten a información pública la solicitud de autorización administrativa previa, la autorización administrativa de construcción, el estudio de impacto ambiental, el proyecto sec",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220310/AnuncioG0596-020322-0006_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOG-20220310-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA",
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-03-01",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Dirección General de Planificación Energética y Recursos Naturales que somete a información pública solicitud de AAP, AAC, EsIA y proyecto sectorial. Texto completo no disponible en el extracto proporcionado.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10512,
+        "output": 925
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

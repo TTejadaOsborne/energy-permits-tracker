@@ -1,0 +1,93 @@
+{
+  "fecha": "20200221",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 14758,
+    "output": 810
+  },
+  "coste_usd": 0.01505,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-2508",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200221",
+      "titulo_original": "Orden ICT/149/2020, de 7 de febrero, por la que se modifica el anexo del Real Decreto 648/1994, de 15 de abril, por el que se declaran los patrones nacionales de medida de las unidades básicas del Sistema Internacional de Unidades; y la Orden ITC/2581/2006, de 28 de julio, por la que se definen los patrones nacionales de las unidades derivadas, del sistema internacional de unidades, de capacidad eléctrica, concentración de ozono en aire, flujo luminoso, impedancia en alta frecuencia, par de torsión, potencia en alta frecuencia, resistencia eléctrica, ruido electromagnético en alta frecuencia, tensión eléctrica, actividad (de un radionucleido), kerma (rayos X y γ), dosis absorbida, ángulo plano, densidad de sólidos, fuerza, presión, volumen, atenuación en alta frecuencia, humedad e intervalo de medida de alta tensión eléctrica (superior a 1000 V).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-2508",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-02-07",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden de modificación de patrones nacionales de medida del Sistema Internacional de Unidades. No es un proyecto energético concreto sino una norma técnica de metrología que afecta definiciones de unidades derivadas como capacidad eléctrica, potencia en alta frecuencia, resistencia eléctrica, tensión eléctrica, etc.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7442,
+        "output": 335
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2020-2548",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200221",
+      "titulo_original": "Resolución de 14 de febrero de 2020, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Instalación fotovoltaica Oriol de 327,57 MW, e infraestructura de evacuación en la localidad de Ceclavín (Cáceres)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-2548",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Oriol",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2020-2548",
+        "promotor": "Dehesa Solar Sur, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 327.57,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "José María Oriol 220 kV Nuevo Parque",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Ceclavín",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-02-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de Declaración de Impacto Ambiental favorable. Planta solar fotovoltaica de 327,57 MW con infraestructura de evacuación mediante línea a SET José María Oriol 220 kV. Localización en términos municipales de Ceclavín y Alcántara. Producción anual estimada de 650 GWh. Vida útil de 45 años. Superficie ocupada: 774 hectáreas. La DIA analiza estudio de impacto ambiental, información pública y consultas efectuadas, considerando alternativas de ubicación y trazados.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7316,
+        "output": 475
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

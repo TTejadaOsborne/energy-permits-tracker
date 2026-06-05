@@ -1,0 +1,333 @@
+{
+  "fecha": "20240821",
+  "total": 8,
+  "energeticos": 6,
+  "descartados": 2,
+  "exitosos": 6,
+  "errores": 0,
+  "tokens": {
+    "input": 46722,
+    "output": 4396
+  },
+  "coste_usd": 0.05496,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2024-17208",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Resolución de 24 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Green Capital Power, SL, autorización administrativa previa de las modificaciones y autorización administrativa de construcción para la instalación fotovoltaica Cruz, de 64,16 MW de potencia instalada, y su infraestructura de evacuación, en los términos municipales de Parla y Fuenlabrada (Madrid), y se declara, en concreto, su utilidad pública.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17208",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Cruz",
+        "numero_expediente_industria": "BOE-A-2024-17208",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Green Capital Power, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 64.16,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 132,
+        "gestor_red": "REE",
+        "municipio": "Parla y Fuenlabrada",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2024-07-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga AAP de modificaciones y AAC para la instalación fotovoltaica Cruz. El promotor solicitó inicialmente 60 MW, luego 75 MWp en una posterior solicitud de AAC. La resolución de AAP de 18 de abril de 2023 otorgó 64,1 MW. La presente resolución de 24 de julio de 2024 otorga AAP de las modificaciones y AAC para 64,16 MW. Las modificaciones incluyen eliminación de superficies (de 129,66 a 119,51 hectáreas) y modificación de caminos. La infraestructura de evacuación a 132 kV transcurre de forma soterrada. Se declara la utilidad pública de la instalación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6217,
+        "output": 517
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2024-17209",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Resolución de 26 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Global Ottawa, SLU, autorización administrativa previa y autorización administrativa de construcción para el parque eólico Ampliación Tórtoles, de 53,1 MW de potencia instalada, y sus infraestructuras de evacuación, en los términos municipales de Tórtoles de Esgueva (Burgos) y Castrillo de Don Juan, Cevico Navero, Villaconancio y Baltanás (Palencia).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17209",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Ampliación Tórtoles",
+        "numero_expediente_industria": "BOE-A-2024-17209",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Global Ottawa, SLU",
+        "tecnologia": "Eólica",
+        "potencia_mw": 53.1,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "ModAAP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Tórtoles 30/132 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": "Iberdrola",
+        "municipio": "Tórtoles de Esgueva, Castrillo de Don Juan, Cevico Navero, Villaconancio, Baltanás",
+        "provincia": "Burgos, Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2024-07-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se otorga AAP y AAC para el parque eólico de 53,1 MW. El proyecto incluye líneas subterráneas a 30 kV, posición de transformador en subestación Tórtoles 30/132 kV y línea de evacuación a 132 kV soterrizada hasta el Apoyo AP2 de la LAT 132 kV. Modelo de aerogenerador modificado respecto a AAP anterior (54 MW de 2023). Se incluye también AAP de modificaciones para la subestación Tórtoles 30/132 kV. Resolución anterior de AAP de fecha 25 de abril de 2023 y IDAA de 18 de enero de 2023.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6379,
+        "output": 570
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2024-17210",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Resolución de 26 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Nun Sun Power, SL, autorización administrativa previa de las modificaciones y autorización administrativa de construcción para la instalación fotovoltaica \"La Sagra 1\", de 195,024 MW de potencia instalada, y su infraestructura de evacuación, en los términos municipales de Bargas, Camarenilla, Yunclillos y Recas (Toledo).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17210",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica La Sagra 1",
+        "numero_expediente_industria": "PFot-433",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Nun Sun Power, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 195.024,
+        "tipo_permiso": "ModAAP",
+        "permisos_adicionales": [
+          "AAC",
+          "DUP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Berrocales 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Bargas, Camarenilla, Yunclillos, Recas",
+        "provincia": "Toledo",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2024-07-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa previa de modificaciones y autorización administrativa de construcción. Se realizaron modificaciones a la autorización previa inicial de 21 de abril de 2023 (que autorizó 200,1 MWp / 195,024 MW instalados). La modificación responde a condicionantes ambientales, en particular reducción de superficie y respeto al hábitat del águila imperial ibérica. La infraestructura de evacuación es compartida con los proyectos Mantia Solar 2 y Mantia 3. Cumple con condicionantes de DIA favorable de 23 de enero de 2023.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6367,
+        "output": 508
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2024-17211",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Resolución de 26 de julio de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Solaria Promoción y Desarrollo Fotovoltaico, SLU, autorización administrativa previa de las modificaciones y autorización administrativa de construcción para la instalación \"Mantia Solar 2\", de 109,98 MW de potencia instalada, y su infraestructura de evacuación, en los términos municipales de Yunclillos, Cabañas de la Sagra, Villaluenga de la Sagra, Yuncler, Cedillo del Condado, Yuncos, Illescas y Ugena (Toledo) y de Cubas de la Sagra, Casarrubuelos, Torrejón de la Calzada, Torrejón de Velasco y Parla (Madrid).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17211",
+      "datos": {
+        "nombre_proyecto": "Mantia Solar 2",
+        "numero_expediente_industria": "BOE-A-2024-17211",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Solaria Promoción y Desarrollo Fotovoltaico, SLU",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 109.98,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "ModAAP",
+          "DUP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SE Berrocales 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Yunclillos, Cabañas de la Sagra, Villaluenga de la Sagra, Yuncler, Cedillo del Condado, Yuncos, Illescas, Ugena, Cubas de la Sagra, Casarrubuelos, Torrejón de la Calzada, Torrejón de Velasco, Parla",
+        "provincia": "Toledo, Madrid",
+        "comunidad_autonoma": "Castilla-La Mancha, Comunidad de Madrid",
+        "fecha_resolucion": "2024-07-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa previa de modificaciones y autorización administrativa de construcción. Las principales modificaciones respecto a la AAP original de 2023 fueron: (1) eliminación de la implantación sur de la instalación (reducción de 38% de superficie) por afección a avifauna catalogada, (2) soterramiento del primer tramo de línea de evacuación (9 km) en corredor de aves esteparias, (3) cumplimiento de disposiciones sobre patrimonio cultural. La resolución respeta la DIA favorable de 19 de enero de 2023 y la corrección de errores de 31 de mayo de 2023. Línea de evacuación mixta aéreo-subterránea a 220 kV SE Berrocales-SE Parla REE.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6464,
+        "output": 641
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCM-20240821-16",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Convenio de 19 de julio de 2024, entre la Comunidad de Madrid (Consejería de Medio Ambiente, Agricultura e Interior) y la Mancomunidad de Servicios Valle Norte del Lozoya, en virtud del cual se instrumenta la concesión de una subvención nominativa a dicha mancomunidad por importe de 1.220.434,78 euros, para financiar la gestión de residuos domésticos de sus municipios integrantes y de otros municipios durante el año 2024",
+      "url": "https://www.bocm.es/bocm-20240821-16",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Mancomunidad de Servicios Valle Norte del Lozoya",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2024-07-19",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Convenio de subvención nominativa para financiar gestión de residuos domésticos. NO es un proyecto energético. Se trata de un acuerdo de gestión de residuos urbanos, no de infraestructura de generación, almacenamiento o transporte de energía eléctrica.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6448,
+        "output": 565
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-21082024-18",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "INFORMACIÓN pública relativa a la ocupación de terrenos en la vía pecuaria «Cordel de las Merinas», en el término municipal de Aguilar de Campoo (Palencia). Expte.: PA-VP-OC-45/23",
+      "url": "https://bocyl.jcyl.es/html/2024/08/21/html/BOCYL-D-21082024-18.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "PA-VP-OC-45/23",
+        "promotor": "Viesgo Distribución Eléctrica, SL",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "OcupacionUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Mazuelas",
+        "tension_conexion_kv": 12,
+        "gestor_red": "UFD/Naturgy",
+        "municipio": "Aguilar de Campoo",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Ocupación de vía pecuaria «Cordel de las Merinas» (30,09 m²) para línea eléctrica subterránea de 12/20 kV que evacuará energía desde subestación Mazuelas hacia línea Aguilar-Sur. Período de información pública de 1 mes desde publicación en BOCyL.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5139,
+        "output": 856
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOCM-1723536838371900060",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Instalaciones Eléctricas. Resolución de 06/08/2024 , de la Dirección General de Transición Energética, de autorización administrativa previa y autorización administrativa de construcción de las instalaciones contenidas en el proyecto de ampliación de la subestación de Torrijos 220 kV, referencia: 21",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1723536838371900060",
+      "datos": {
+        "nombre_proyecto": "Ampliación Subestación Torrijos 220 kV",
+        "numero_expediente_industria": "2103/00029",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Red Eléctrica de España, S.A.",
+        "tecnologia": "SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Torrijos 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Torrijos",
+        "provincia": "Toledo",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2024-08-06",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de autorización administrativa previa y construcción. Se incluye reconocimiento de utilidad pública de la instalación (referencia E-45240222069). Publicada en DOCM nº 161/2024 con posterior corrección de errores en DOCM nº 174/2024.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4981,
+        "output": 393
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1723099183221010011",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20240821",
+      "titulo_original": "Anuncio de 08/08/2024 , de la Delegación Provincial de Desarrollo Sostenible de Cuenca, sobre información pública de la solicitud de autorización administrativa previa y autorización administrativa de construcción de instalación de central solar fotovoltaica denominada PV Huete I de 800 kW instalado",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1723099183221010011",
+      "datos": {
+        "nombre_proyecto": "PV Huete I",
+        "numero_expediente_industria": "162702-00838",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.8,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Huete",
+        "provincia": "Cuenca",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación solar fotovoltaica de 800 kW con infraestructuras de evacuación. Expediente referenciado como 162702-00838 en la Delegación Provincial de Desarrollo Sostenible de Cuenca.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4727,
+        "output": 346
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

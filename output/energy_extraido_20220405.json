@@ -1,0 +1,134 @@
+{
+  "fecha": "20220405",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 26909,
+    "output": 2137
+  },
+  "coste_usd": 0.03008,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-05042022-35",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220405",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para el proyecto de la planta fotovoltaica «Maragato», en el término municipal de Turcia (León). Expte.: 44/2022.",
+      "url": "https://bocyl.jcyl.es/html/2022/04/05/html/BOCYL-D-05042022-35.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Maragato",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "DIRDAM LUZ, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Turcia",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Superficie ocupada por paneles fotovoltaicos: 66,09 ha. Solicitud de autorización de uso excepcional de suelo rústico según artículo 307.3 del Reglamento de Urbanismo de Castilla y León. Período de información pública: 20 días desde la publicación (29/03/2022). Expediente municipal: 44/2022.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5847,
+        "output": 387
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220405-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220405",
+      "titulo_original": "RESOLUCIÓN de 8 de marzo de 2022, de la Jefatura Territorial de Pontevedra, por la que se somete a información pública el estudio de impacto ambiental y las solicitudes de autorización administrativa previa y de construcción y el proyecto sectorial (proyecto de interés autonómico) de las instalacion",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220405/AnuncioG0596-140322-0015_es.html",
+      "datos": {
+        "nombre_proyecto": "de la Jefatura Territorial de Pontevedra",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20220405-0",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Pontevedra",
+        "provincia": "Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-03-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Jefatura Territorial de Pontevedra que somete a información pública el Estudio de Impacto Ambiental y solicitudes de autorización administrativa previa y de construcción. Proyecto de interés autonómico (proyecto sectorial). El texto completo no está disponible, por lo que no se pueden extraer detalles adicionales sobre nombre del proyecto, tecnología, potencia, municipio específico ni promotor.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10522,
+        "output": 1068
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220405-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220405",
+      "titulo_original": "ANUNCIO de 21 de marzo de 2022, de la Dirección General de Calidad Ambiental, Sostenibilidad y Cambio Climático, por el que se hace pública la declaración ambiental estratégica del proyecto sectorial de incidencia supramunicipal de aprovechamiento hidroeléctrico de Portodiz (expediente 2018AAE2238).",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220405/AnuncioG0532-220322-0008_es.html",
+      "datos": {
+        "nombre_proyecto": "Aprovechamiento Hidroeléctrico Portodiz",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "2018AAE2238",
+        "promotor": null,
+        "tecnologia": "Hidráulica",
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Portodiz",
+        "provincia": "Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-03-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración ambiental estratégica (DAE) de proyecto sectorial de incidencia supramunicipal de aprovechamiento hidroeléctrico. Publicado en DOG (Diario Oficial de Galicia) con expediente 2018AAE2238.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10540,
+        "output": 682
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

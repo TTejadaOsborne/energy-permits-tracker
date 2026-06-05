@@ -1,0 +1,292 @@
+{
+  "fecha": "20211027",
+  "total": 7,
+  "energeticos": 2,
+  "descartados": 5,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 42104,
+    "output": 3414
+  },
+  "coste_usd": 0.04734,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-17462",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "Real Decreto 935/2021, de 26 de octubre, por el que se modifica el Real Decreto 208/2019, de 29 de marzo, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa HISDESAT SERVICIOS ESTRATÉGICOS, S.A. para el desarrollo del programa SPAINSAT-NG de comunicaciones por satélite.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17462",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2021-17462",
+        "numero_expediente_medioambiente": null,
+        "promotor": "HISDESAT SERVICIOS ESTRATÉGICOS, S.A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-10-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de un Real Decreto que modifica las normas reguladoras de concesión directa de préstamo para el programa SPAINSAT-NG de comunicaciones por satélite. No es un proyecto de energía renovable, infraestructura eléctrica o almacenamiento energético. Se trata de un programa espacial de comunicaciones gubernamentales y militares.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7045,
+        "output": 370
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-17496",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "Resolución de 15 de octubre de 2021, de la Subsecretaría, por la que se emplaza a los interesados en el recurso contencioso-administrativo 1699/2021, interpuesto ante el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Tercera.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17496",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta publicación es un emplazamiento judicial en un recurso contencioso-administrativo (1699/2021) interpuesto por el Colegio Oficial de Ingenieros Aeronáuticos de España contra una resolución sobre convocatoria de empleo público. No es un proyecto de generación de energía renovable, infraestructura de red eléctrica ni tramitación de permisos ambientales o energéticos. Es un procedimiento procesal administrativo ajeno a la regulación de instalaciones energéticas.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5798,
+        "output": 371
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-27102021-21",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una instalación de energía eléctrica con tecnología fotovoltaica, en el término municipal de Rioseco de Tapia (León). Expte.: FV-171/2019/23405, Roblasun 1.",
+      "url": "https://bocyl.jcyl.es/html/2021/10/27/html/BOCYL-D-27102021-21.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Roblasun 1",
+        "numero_expediente_industria": "FV-171/2019/23405",
+        "numero_expediente_medioambiente": "FV-171/2019/23405",
+        "promotor": "ROBLASUN 1, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 41.665,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET RIOSECO 30/132 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": "Red Eléctrica Nacional",
+        "municipio": "Rioseco de Tapia",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica con 110.970 módulos de 450 Wp. Potencia pico total 49.936,50 kWp, limitada a 41.665 kVAs. Ocupación aproximada 163,85 ha. Evacuación mediante líneas subterráneas a SET RIOSECO 30/132 kV y línea 132 kV hacia SET LA PRADERA. Líneas de evacuación finales tramitadas en expediente PFot 337 (Ministerio). Presupuesto: 27.506.197,78 euros.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6899,
+        "output": 501
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-27102021-22",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental, para una instalación de energía eléctrica con tecnología fotovoltaica, en el término municipal de Rioseco de Tapia (León). Expte.: FV-172/2019/23406, FV Roblasun 2.",
+      "url": "https://bocyl.jcyl.es/html/2021/10/27/html/BOCYL-D-27102021-22.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Roblasun 2",
+        "numero_expediente_industria": "FV-172/2019/23406",
+        "numero_expediente_medioambiente": "FV-172/2019/23406",
+        "promotor": "ROBLASUN 2, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.94,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET RIOSECO 132/30 kV",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Rioseco de Tapia",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "La energía se evacúa a través de SET RIOSECO 30/132 kV y línea 132 kV SET RIOSECO-SET LA PRADERA. Infraestructuras de evacuación desde SET LA PRADERA hasta SET LA ROBLA de REE en expediente PFot 337 (Ministerio, Naturgy Renovables). Superficie aproximada: 172,58 ha. 110.970 módulos fotovoltaicos de 450 Wp. 19 inversores de 2.500 kVA (limitado a 41.665 kVA). 11 centros de transformación. Tres circuitos subterráneos de evacuación de 30 kV hasta SET RIOSECO.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6911,
+        "output": 529
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20211027-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "ACUERDO de 15 de octubre de 2021, de la Jefatura Territorial de A Coruña, por el que se somete a información pública la solicitud de autorización administrativa previa, la declaración de utilidad pública, en concreto, la necesidad de urgente ocupación, la autorización administrativa de construcción,",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211027/AnuncioG0596-151021-0005_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOG-20211027-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-10-15",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Acuerdo de la Jefatura Territorial de A Coruña que somete a información pública solicitud de AAP, AAC y DUP (urgente ocupación). Texto completo no disponible en la publicación.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5172,
+        "output": 482
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20211027-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "RESOLUCIÓN de 22 de septiembre de 2021, de la Jefatura Territorial de Pontevedra, por la que se somete a información pública el estudio de impacto ambiental y las solicitudes de autorización administrativa previa y de construcción y aprobación del proyecto sectorial de incidencia supramunicipal (pro",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211027/AnuncioG0596-300921-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20211027-1",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Pontevedra",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-09-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Jefatura Territorial de Pontevedra que somete a información pública un Estudio de Impacto Ambiental. El título menciona solicitudes de autorización administrativa previa y de construcción, así como aprobación de proyecto sectorial de incidencia supramunicipal. El texto completo no está disponible para extraer detalles adicionales como nombre del proyecto, tecnología, potencia, promotor, municipio específico o subestación de conexión.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5174,
+        "output": 597
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20211027-2",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211027",
+      "titulo_original": "ANUNCIO de gestión de la biomasa en el lugar de Meleiros, Covas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211027/AnuncioL466-051021-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20211027-2",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Covas",
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de gestión de biomasa en el lugar de Meleiros, Covas. Publicado por el Instituto Gallego de la Vivienda y Suelo. Texto no disponible para extracción completa.",
+        "confianza": 0.15,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5105,
+        "output": 564
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

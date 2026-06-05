@@ -1,0 +1,58 @@
+{
+  "fecha": "20220401",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 10528,
+    "output": 1163
+  },
+  "coste_usd": 0.01307,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOG-20220401-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220401",
+      "titulo_original": "ACUERDO de 4 de marzo de 2022, de la Jefatura Territorial de Lugo, por el que se someten a información pública las solicitudes de autorización administrativa previa y de construcción, la declaración de utilidad pública, en concreto, el estudio de impacto ambiental y el proyecto sectorial de incidenc",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220401/AnuncioG0596-070322-0009_es.html",
+      "datos": {
+        "nombre_proyecto": "ACUERDO de 4 de marzo de 2022",
+        "numero_expediente_industria": "DOG-20220401-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Lugo",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-03-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación en DOG de acuerdo de sometimiento a información pública de solicitudes de AAP y construcción, DUP y EsIA. Texto incompleto en la fuente — solo disponibles título y datos administrativos.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10528,
+        "output": 1163
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

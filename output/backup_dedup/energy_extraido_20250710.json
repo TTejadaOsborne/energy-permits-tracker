@@ -1,0 +1,129 @@
+{
+  "fecha": "20250710",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-14290",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta solar fotovoltaica Coral Solar, de 150 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Valladolid».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-14291",
+      "titulo_original": "Resolución de 14 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Solaben Electricidad Uno, SAU, autorización administrativa previa para el módulo de generación fotovoltaica «Solaben PV1», de 6,01 MW de potencia instalada, para su hibridación con la planta termosolar existente Solaben 1, de 50 MW de potencia instalada, y su infraestructura de evacuación, en Logrosán (Cáceres).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250710-32",
+      "titulo_original": "Extracto de la Orden 2628/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se aprueba la convocatoria para el año 2025, de la ayuda a inversiones en infraestructuras de regadíos con objetivos ambientales, cofinanciadas por el Fondo Europeo Agrícola de Desarrollo Rural (FEADER) y por la Administración General del Estado, en el marco del Plan Estratégico de la Política Agraria Común para el período 2023-2027",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250710-33",
+      "titulo_original": "Extracto de la Orden 2709/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se establece la convocatoria para 2025 de la fase de ejecución de proyectos de las ayudas a la cooperación de grupos operativos de la Asociación Europea para la Innovación (AEI) en materia de productividad y sostenibilidad agrícolas en la Comunidad de Madrid, cofinanciadas por el Fondo Europeo Agrícola de Desarrollo Rural (FEADER) y la Administración General del Estado, en el marco del Plan Estratégico de la Política Agraria Común para el período 2023-2027",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250710-54",
+      "titulo_original": "Convenio de 19 de junio de 2025, entre la Comunidad de Madrid (Consejería de Medio Ambiente, Agricultura e Interior) y el Ayuntamiento de Villanueva de Perales, para la adhesión de información relativa a su patrimonio de suelo disponible al Portal de Suelo de la Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-5",
+      "titulo_original": "EXTRACTO de la Resolución de 7 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones públicas destinadas a la financiación de programas de formación para trabajadores ocupados de Castilla y León, para los años 2025 y 2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-6",
+      "titulo_original": "EXTRACTO de la Resolución de 7 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones públicas destinadas a la financiación de programas de formación para la adquisición y mejora de competencias profesionales relacionadas con los cambios tecnológicos y la transformación digital de la economía para trabajadores ocupados en la Comunidad de Castilla y León, para los años 2025 y 2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-7",
+      "titulo_original": "EXTRACTO de la Resolución de 7 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones públicas destinadas a la financiación de planes de formación dirigidos a la capacitación para el desarrollo de las funciones relacionadas con la formación para el empleo, la negociación colectiva y la participación institucional en la Comunidad de Castilla y León, para los años 2025 y 2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-8",
+      "titulo_original": "RESOLUCIÓN de 20 de junio de 2025, del Servicio Territorial de Industria, Comercio y Economía de Palencia, por la que se modifica la autorización administrativa previa y se modifica la autorización administrativa de construcción de la instalación de producción de energía eléctrica de origen fotovoltaico denominada «Utrera» y sus infraestructuras de evacuación, a ubicar en el término municipal de Ampudia (Palencia), promovida por «Univergy Islas Afortunadas, S.L.». Exptes.: FV-967, 34-ATLI-6412, 34-ATCT-2037.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-11",
+      "titulo_original": "RESOLUCIÓN de 2 de julio de 2025, de la Dirección General de Trabajo y Prevención de Riesgos Laborales, por la que se anuncia el depósito de la modificación de estatutos de la organización denominada «Sindicato de Veterinarios de Castilla y León», en siglas «SIVECAL», depósito número 78000019.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-10072025-12",
+      "titulo_original": "RESOLUCIÓN de 3 de julio de 2025, de la Dirección General de Trabajo y Prevención de Riesgos Laborales, por la que se anuncia el depósito de la modificación de estatutos de la organización denominada «Comisiones Obreras de Castilla y León», en siglas «CCOO de Castilla y León», depósito número 78000117 (antiguo depósito número CYL-140).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1751523239026310010",
+      "titulo_original": "Instalaciones Eléctricas. Resolución de 01/07/2025 , de la Dirección General de Transición Energética, sobre el proyecto de repotenciación del parque eólico Isabela de 48 MW y sus infraestructuras de evacuación, emplazado en los términos municipales de Casas de Lázaro, Peñascosa, Alcadozo y Peñas de",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250710014",
+      "titulo_original": "ECONOMÍA Y JUSTICIA ORDEN PEJ/785/2025, de 27 de junio, por la que se reconoce, en concreto, la utilidad pública de la instalación \"Parque Eólico Canteras IV\", ubicada en los términos municipales de Longares y Tosos (Zaragoza), promovida por la mercantil Desarrollo Eólico Las Majas X, SLU. (Expediente número: DUP-Z-2021-0041 G- Z-2022-209).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250710017",
+      "titulo_original": "ORDEN PEJ/788/2025, de 30 de junio, por la que se reconoce, en concreto, la utilidad pública de la instalación \"Parque Eólico Canteras V\", ubicada en los términos municipales de Cariñena, Longares, Tosos y Villanueva de Huerva en la provincia de Zaragoza, promovida por la mercantil Energías Renovables de Eris SL. (Expediente número: DUP-Z-2021-0042 G-EO-Z-2022/208).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25081054",
+      "titulo_original": "Información pública.- Anuncio de 18 de junio de 2025 por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020.2\", ubicada en el término municipal de Barcarrota (Badajoz), e infraestr",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250710-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

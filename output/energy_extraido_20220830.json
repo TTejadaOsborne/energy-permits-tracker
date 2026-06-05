@@ -1,0 +1,133 @@
+{
+  "fecha": "20220830",
+  "total": 3,
+  "energeticos": 2,
+  "descartados": 1,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 21590,
+    "output": 1960
+  },
+  "coste_usd": 0.02511,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-30082022-24",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220830",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico común, licencia de actividad y obra para una instalación fotovoltaica en cubierta en Golmayo (Soria). Expte.: E2022-252.",
+      "url": "https://bocyl.jcyl.es/html/2022/08/30/html/BOCYL-D-30082022-24.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica en Cubierta Golmayo",
+        "numero_expediente_industria": "E2022-252",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Lázaro Sánchez Serrano",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Otro"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Golmayo",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica en cubierta ubicada en Camino del Alto, 4 de Golmayo (Ref. Catastral 42151A003250130000WM). Requiere autorización de uso excepcional de suelo rústico común además de licencia de actividad y obra. Sometido a información pública por 20 días hábiles desde la publicación en BOCyL.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5840,
+        "output": 416
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220830-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220830",
+      "titulo_original": "RESOLUCIÓN de 8 de agosto de 2022, de la Dirección General de Planificación Energética y Recursos Naturales, por la que se ordena la publicación, en el Diario Oficial de Galicia, del Acuerdo del Consello de la Xunta de Galicia de 4 de agosto de 2022 por el que se otorga la autorización administrativ",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220830/AnuncioV0653-220822-0004_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-08-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Dirección General de Planificación Energética y Recursos Naturales de Galicia que ordena la publicación de un Acuerdo del Consello de la Xunta por el que se otorga autorización administrativa. El texto completo no está disponible, solo se dispone del título y departamento responsable.",
+        "confianza": 0.25,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10556,
+        "output": 1026
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220830-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220830",
+      "titulo_original": "EXTRACTO de la Resolución de 8 de agosto de 2022, de la Dirección General de Planificación Energética y Recursos Naturales, por la que se ordena la publicación, en el Diario Oficial de Galicia, del Acuerdo del Consello de la Xunta de Galicia de 4 de agosto de 2022 por el que se otorga la autorizació",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220830/AnuncioV0653-220822-0005_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOG-20220830-1",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-08-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Dirección General de Planificación Energética y Recursos Naturales de Galicia ordenando la publicación de un Acuerdo del Consello de la Xunta. El texto completo no está disponible, por lo que la extracción es limitada. Se infiere que es una autorización de explotación (AAE) otorgada.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5194,
+        "output": 518
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

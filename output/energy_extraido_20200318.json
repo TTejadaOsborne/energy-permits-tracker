@@ -1,0 +1,131 @@
+{
+  "fecha": "20200318",
+  "total": 3,
+  "energeticos": 0,
+  "descartados": 3,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 22026,
+    "output": 1661
+  },
+  "coste_usd": 0.02426,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-3851",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200318",
+      "titulo_original": "Orden TED/250/2020, de 4 de marzo, por la que se declara la suspensión del permiso de investigación de hidrocarburos \"Leo\", otorgado por el Real Decreto 246/2013, de 5 de abril.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3851",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "1.673",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Oil & Gas Capital, S.L.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Albacete, Murcia",
+        "comunidad_autonoma": "Castilla-La Mancha, Murcia",
+        "fecha_resolucion": "2020-03-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden de suspensión del permiso de investigación de hidrocarburos 'Leo' (RD 246/2013). La suspensión se declara por causas no imputables al titular durante la tramitación ambiental de la campaña de prospección sísmica 2D. Se mantiene hasta la terminación del procedimiento administrativo de autorización del primer trabajo. Resolución ambiental de 17 de enero de 2019 determinó que no era necesario EIA ordinaria.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7198,
+        "output": 695
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2020-3852",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200318",
+      "titulo_original": "Orden TED/251/2020, de 4 de marzo, por la que se extinguen los permisos de investigación de hidrocarburos \"Lubina-1\" y \"Lubina-2\", otorgados por el Real Decreto 184/2002, de 8 de febrero.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3852",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Tarragona",
+        "comunidad_autonoma": "Catalunya",
+        "fecha_resolucion": "2020-03-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de extinción de permisos de investigación de hidrocarburos (Lubina-1 y Lubina-2). No se trata de un proyecto de energía renovable sino de exploración de hidrocarburos. Los permisos fueron declarados extinguidos por caducidad al vencimiento de su plazo de vigencia (31 de marzo de 2011).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7429,
+        "output": 638
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2020-3853",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200318",
+      "titulo_original": "Orden TED/252/2020, de 6 de marzo, por la que se modifican las Instrucciones Técnicas Complementarias 02.0.01 \"Directores Facultativos\" y 02.1.01 \"Documento sobre Seguridad y Salud\", y por la que se deroga la Instrucción Técnica Complementaria 09.0.10 \"personal de montaje, explotación y mantenimiento\", del Reglamento General de Normas Básicas de Seguridad Minera.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3853",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-03-06",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden normativa que modifica instrucciones técnicas complementarias del Reglamento General de Normas Básicas de Seguridad Minera. No se trata de un proyecto energético de generación renovable, infraestructura de red o almacenamiento. Es una norma técnica sobre seguridad minera.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7399,
+        "output": 328
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

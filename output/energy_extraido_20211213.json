@@ -1,0 +1,538 @@
+{
+  "fecha": "20211213",
+  "total": 13,
+  "energeticos": 13,
+  "descartados": 0,
+  "exitosos": 13,
+  "errores": 0,
+  "tokens": {
+    "input": 82622,
+    "output": 5717
+  },
+  "coste_usd": 0.08897,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-13122021-27",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental para el proyecto de la planta solar fotovoltaica «FV Mensa Solar», de 49,99 mwp de potencia instalada, así como para la autorización administrativa previa, autorización administrativa de construcción, declaración de impacto ambiental y declaración de utilidad pública de la línea de evacuación subterránea de la planta solar citada, de 30 kv, en los términos municipales de Villamoratiel de las Matas, El Burgo Ranero y Santas Martas (León). Exptes.: FV-63/2019, RI-23308.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-27.do",
+      "datos": {
+        "nombre_proyecto": "FV Mensa Solar",
+        "numero_expediente_industria": "FV-63/2019",
+        "numero_expediente_medioambiente": "RI-23308",
+        "promotor": "PLANTA FV 129, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 37.5,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Frades 132/30 kV",
+        "tension_conexion_kv": 30,
+        "gestor_red": "REE",
+        "municipio": "Villamoratiel de las Matas",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta fotovoltaica de 49,99 MWp con potencia nominal limitada a 37,5 MW. Línea de evacuación subterránea de 30 kV de 12.627 m de longitud que conecta con SET Frades 132/30 kV en términos municipales de Villamoratiel de las Matas, El Burgo Ranero y Santas Martas. La DUP afecta a la línea de evacuación. Se tramita simultáneamente con expediente FV-63/2019 (planta) y RI-23308 (línea).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7360,
+        "output": 495
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-28",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Hulla», en los términos municipales de Quintana y Congosto y Villagatón (León). Expte.: FV-129/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-28.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Hulla",
+        "numero_expediente_industria": "FV-129/2019",
+        "numero_expediente_medioambiente": "FV-129/2019",
+        "promotor": "Planta Fotovoltaica Hulla, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Quintana y Congosto, Villagatón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Información pública relativa a documentación complementaria aportada al Estudio de Impacto Ambiental. El procedimiento se somete nuevamente a información pública por 30 días a partir de la publicación del anuncio (art. 36-37 Ley 21/2013). El promotor presentó información complementaria relevante al EsIA tras la primera publicación de julio 2021.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6158,
+        "output": 430
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-29",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Antracita», en el término municipal de Villagatón (León). Expte.: FV-130/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-29.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Antracita",
+        "numero_expediente_industria": "FV-130/2019",
+        "numero_expediente_medioambiente": "FV-130/2019",
+        "promotor": "Planta Fotovoltaica Antracita, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Villagatón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de documentación complementaria aportada por el promotor relevante al Estudio de Impacto Ambiental. Información pública abierta por 30 días a partir de la publicación del anuncio. La documentación se encuentra disponible en el Portal de Energía y Minería de Castilla y León y en el Servicio Territorial de Industria, Comercio y Economía en León.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6130,
+        "output": 428
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-30",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Requejo», en el término municipal de Villagatón (León). Expte.: FV-135/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-30.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Requejo",
+        "numero_expediente_industria": "FV-135/2019",
+        "numero_expediente_medioambiente": "FV-135/2019",
+        "promotor": "Planta Fotovoltaica Corus, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Villagatón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de información pública complementaria relativa a documentación aportada por el promotor posterior a la información pública inicial (BOPLe 84/2021 y BOCyL 87/2021). El trámite está sometido a nuevo período de información pública de 30 días conforme a los artículos 36 y 37 de la Ley 21/2013 de Evaluación Ambiental. La documentación está disponible en el Portal de Energía y Minería de Castilla y León y en el Servicio Territorial de Industria, Comercio y Economía en León.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6126,
+        "output": 474
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-31",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Culebros», en el término municipal de Villagatón (León). Expte.: FV-136/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-31.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Culebros",
+        "numero_expediente_industria": "FV-136/2019",
+        "numero_expediente_medioambiente": "FV-136/2019",
+        "promotor": "Planta Fotovoltaica Culebros, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Villagatón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de información complementaria al Estudio de Impacto Ambiental aportada por el promotor. El expediente se sometió a información pública en mayo de 2021 (BOPLe 84 de 5 de mayo y BOCyL 87 de 7 de mayo). Se abre nuevo período de información pública de 30 días para examen de la documentación complementaria.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6130,
+        "output": 425
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-32",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Villameca», en el término municipal de Villagatón (León). Expte.: FV-137/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-32.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Villameca",
+        "numero_expediente_industria": "FV-137/2019",
+        "numero_expediente_medioambiente": "FV-137/2019",
+        "promotor": "Planta Fotovoltaica Villameca, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Villagatón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de información complementaria relevante al Estudio de Impacto Ambiental. Período de consulta pública de 30 días a partir de la publicación. Documentación disponible en el Portal de Energía y Minería de Castilla y León y en el Servicio Territorial de Industria, Comercio y Economía de León.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6130,
+        "output": 414
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-33",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Quintana», en el término municipal de Quintana del Castillo (León). Expte.: FV-255/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-33.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Quintana",
+        "numero_expediente_industria": "FV-255/2019",
+        "numero_expediente_medioambiente": "FV-255/2019",
+        "promotor": "Ciudad Rodrigo Solar, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Quintana del Castillo",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Información pública de documentación complementaria relativa a EsIA. Plazo de 30 días para reclamaciones. El promotor ha aportado información complementaria relevante al Estudio de Impacto Ambiental tras la información pública inicial del 7 de mayo de 2021.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6125,
+        "output": 386
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-34",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «Villarmeriel», en el término municipal de Quintana del Castillo (León). Expte.: FV-256/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-34.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Villarmeriel",
+        "numero_expediente_industria": "FV-256/2019",
+        "numero_expediente_medioambiente": "FV-256/2019",
+        "promotor": "Ciprés Energía, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Quintana del Castillo",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Información pública sobre documentación complementaria aportada al Estudio de Impacto Ambiental. Plazo de 30 días para reclamaciones según ley 21/2013 de Evaluación Ambiental. Documentación disponible en Portal de Energía y Minería de Castilla y León y en Servicio Territorial de Industria, Comercio y Economía de León.",
+        "confianza": 0.9,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6131,
+        "output": 418
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-35",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica, denominada «El Castro», en el término municipal de Quintana del Castillo (León). Expte.: FV-257/2019.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-35.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico El Castro",
+        "numero_expediente_industria": "FV-257/2019",
+        "numero_expediente_medioambiente": "FV-257/2019",
+        "promotor": "Abedul Energía, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Quintana del Castillo",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Información pública relativa a documentación complementaria aportada al Estudio de Impacto Ambiental. Plazo de reclamaciones: 30 días desde la publicación. Documentación disponible en Portal de Energía y Minería de Castilla y León y en Servicio Territorial de Industria, Comercio y Economía en León.",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6124,
+        "output": 409
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-36",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa y autorización administrativa de construcción y evaluación de impacto ambiental de la infraestructura de evacuación de plantas fotovoltaicas, denominada «Nudo Montearenas este 400 kv», en los términos municipales de Quintana del Castillo, Villagatón y Brazuelo (León). Expte.: 286/2020.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-36.do",
+      "datos": {
+        "nombre_proyecto": "Nudo Montearenas Este 400 kV",
+        "numero_expediente_industria": "286/2020",
+        "numero_expediente_medioambiente": "286/2020",
+        "promotor": "Erbienergía Inversiones, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Montearenas Este",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "Quintana del Castillo, Villagatón y Brazuelo",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de una infraestructura de evacuación (nudo de 400 kV) para plantas fotovoltaicas. El proyecto ha presentado documentación complementaria al Estudio de Impacto Ambiental y se encuentra nuevamente en período de información pública por 30 días desde la publicación. La documentación está disponible en el Portal de Energía y Minería de Castilla y León y en las dependencias del Servicio Territorial de Industria, Comercio y Economía en León.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6160,
+        "output": 456
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-37",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental ordinaria de la instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «Callisto Solar», en el término municipal de Aguilar de Campoo (Palencia). Expte.: FV-1002.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-37.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Callisto Solar",
+        "numero_expediente_industria": "FV-1002",
+        "numero_expediente_medioambiente": null,
+        "promotor": "SOLARIA PROMOCIÓN Y DESARROLLO FOTOVOLTAICO, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 19.995,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Cillamayor 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Aguilar de Campoo",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto integrado que incluye planta solar fotovoltaica de 19,995 MWp, centros de transformación 0,6/30 kV, centro de seccionamiento 30 kV y línea de evacuación Cillamayor 30 kV. La conexión final se realiza a la Subestación Cillamayor 220 kV de REE mediante apertura entrada/salida en subestación de promotores 220 kV situada en Barruelo de Santullán. Sometido a información pública por 30 días hábiles a partir de la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6823,
+        "output": 485
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-13122021-38",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental ordinaria de la instalación de producción de energía eléctrica por tecnología fotovoltaica «Europa Solar» y su infraestructura de evacuación, en los términos municipales de Aguilar de Campoo y Barruelo de Santullán (Palencia). Exptes.: FV-1003 y 34-ATLI-6496.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/13/html/BOCYL-D-13122021-38.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Europa Solar",
+        "numero_expediente_industria": "FV-1003",
+        "numero_expediente_medioambiente": "34-ATLI-6496",
+        "promotor": "SOLARIA PROMOCIÓN Y DESARROLLO FOTOVOLTAICO, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 29.974,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Cillamayor 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "Red Eléctrica de España",
+        "municipio": "Aguilar de Campoo, Barruelo de Santullán",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto integrado por planta fotovoltaica de 29,974 MWp (68.124 paneles de 440 Wp), 5 centros de transformación de 7,2 MVA cada uno, línea de evacuación aérea Cillamayor 30 kV de 4.410 metros, y subestación de promotores 220 kV. Potencia de acceso y conexión concedida: 29,934 MW. Presupuesto de ejecución: 11.585.054 €. Período de información pública: 30 días hábiles desde la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6854,
+        "output": 515
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOJA-20211213-0",
+      "boletin": "BOJA",
+      "ccaa_boletin": "Andalucía",
+      "fecha_publicacion": "20211213",
+      "titulo_original": "Anuncio de 24 de noviembre de 2021, de la Delegación del Gobierno de la Junta de Andalucía en Sevilla, por el que se somete a información pública la solicitud de autorización administrativa previa realizada por la mercantil Santillán Solar, S.L., relativa a la instalación de generación de energía el",
+      "url": "https://www.juntadeandalucia.es/boja/2021/237/44",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Salteras",
+        "numero_expediente_industria": "PP. 3579/2021",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Santillán Solar, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "AAU"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Salteras",
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2021-11-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de Autorización Administrativa Previa (AAP) sometida a información pública. Simultáneamente se tramita Autorización Ambiental Unificada (AAU). Instalación de generación de energía eléctrica mediante tecnología solar fotovoltaica.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6371,
+        "output": 382
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "fecha": "20250723",
+  "total": 10,
+  "energeticos": 10,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 10,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-15304",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración ambiental estratégica de la revisión de los Planes Especiales de Sequía de las Demarcaciones Hidrográficas del Cantábrico Oriental, Cantábrico Occidental, Miño-Sil, Duero, Tajo, Guadiana, Guadalquivir, Segura, Júcar y Ebro.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250723-16",
+      "titulo_original": "Acuerdo de 9 de julio de 2025, del Consejo de Gobierno, por el que se aprueba una cuota suplementaria en la tarifa de distribución del municipio de Pezuela de las Torres, con destino a la financiación de obras de infraestructuras hidráulicas",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1750405410168200009",
+      "titulo_original": "Anuncio de 17/06/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la planta de energía solar fotovoltaica denominada FV RED P39.6,",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250723-0",
+      "titulo_original": "ACUERDO de 8 de julio de 2025, del Departamento Territorial de A Coruña, por el que se somete a información pública la solicitud de declaración de utilidad pública (DUP), en concreto, con la necesidad de urgente ocupación que ello implica, de la modificación del proyecto parque eólico Somozas (en ex",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250723-1",
+      "titulo_original": "ANUNCIO de notificación de la comunicación y del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas (expediente 524/2024).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250723-3",
+      "titulo_original": "ANUNCIO de notificación de la comunicación y requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa (expediente 522/2023).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250723-4",
+      "titulo_original": "ANUNCIO de 2 de julio de 2025 de notificación del procedimiento de ejecución subsidiaria relativo a la gestión de la biomasa.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250723017",
+      "titulo_original": "ECONOMÍA Y JUSTICIA ORDEN PEJ/865/2025, de 10 de julio, por la que se da publicidad al Acuerdo de 27 de junio de 2025, del Gobierno de Aragón, por el que se declara como inversión de interés autonómico con interés general de Aragón el proyecto de instalación de un centro de datos en el término municipal de La Puebla de Alfindén (Zaragoza), promovido por \"ACS DC Infra La Puebla, SL\".",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250723018",
+      "titulo_original": "RESOLUCIÓN de 20 de junio de 2025, del Instituto Aragonés de Gestión Ambiental, por la que se adopta la decisión de no someter al procedimiento de evaluación de impacto ambiental ordinaria y se emite el informe relativo al proyecto de módulo hibridación de almacenamiento \"Pedrola\", \"Águila II-III unificado\", y \"El Coscojar II\", en el término municipal de Pedrola (Zaragoza), promovido por Moncayo F",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250723-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

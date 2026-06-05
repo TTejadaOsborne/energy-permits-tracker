@@ -1,0 +1,57 @@
+{
+  "fecha": "20200902",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 7349,
+    "output": 456
+  },
+  "coste_usd": 0.0077,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-10167",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200902",
+      "titulo_original": "Resolución de 21 de agosto de 2020, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de \"Ampliación de la subestación de transporte de energía eléctrica a 400 kV denominada Olmedilla, mediante la instalación de un nuevo transformador 400/220 kV y de sus posiciones asociadas\", en Olmedilla de Alarcón (Cuenca), y se declara, en concreto, su utilidad pública.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10167",
+      "datos": {
+        "nombre_proyecto": "Ampliación Subestación Olmedilla 400 kV",
+        "numero_expediente_industria": "BOE-A-2020-10167",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Red Eléctrica de España, S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Olmedilla",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Olmedilla de Alarcón",
+        "provincia": "Cuenca",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2020-08-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Ampliación mediante instalación de nuevo transformador 400/220 kV y posición ATP3/Interruptor Central/ATP4. Proyecto incluido en Plan de Desarrollo de la Red de Transporte 2015-2020. Información pública realizada sin alegaciones. Adenda presentada el 16 de julio de 2019 respecto a relación de bienes y derechos (vuelo de cables sobre camino público y parque de Iberdrola Distribución).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7349,
+        "output": 456
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

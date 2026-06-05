@@ -1,0 +1,136 @@
+{
+  "fecha": "20210817",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 23066,
+    "output": 1591
+  },
+  "coste_usd": 0.02482,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-17082021-9",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210817",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública para una instalación de evacuación de las plantas solares fotovoltaicas «Ribadelago 1», «Sanabria 1» y «Valentina Solar», situadas en la provincia de Zamora, compuesta por la subestación transformadora denominada «SET Colectora» 30/220 kv, un centro de medida principal de punto frontera y línea de evacuación desde la subestación mencionada hasta la subestación transformadora «Arbillera 400/220 kv», situadas todas ellas en el término municipal de Palacios de Sanabria (Zamora). Expte.: RI:22641.",
+      "url": "https://bocyl.jcyl.es/html/2021/08/17/html/BOCYL-D-17082021-9.do",
+      "datos": {
+        "nombre_proyecto": "Instalación de Evacuación Ribadelago 1, Sanabria 1 y Valentina Solar",
+        "numero_expediente_industria": "RI:22641",
+        "numero_expediente_medioambiente": null,
+        "promotor": "EMALDI PROJECT SPAIN, S.L.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Arbillera 400/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Palacios de Sanabria",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de información pública para solicitud de AAP, AAC, evaluación de impacto ambiental y DUP. Plazo de 30 días para alegaciones. Instalación de evacuación compuesta por SET Colectora 30/220 kV, centro de medida de punto frontera y línea de evacuación aérea-subterránea hasta SET Arbillera 400/220 kV propiedad de REE. Presupuesto: 2.379.810,33 €. Línea de 220 kV con tramos aéreo (497,82 m), subterráneo (335,44 m) y aéreo (195,78 m). Declaración de utilidad pública implica urgente ocupación para expropiación forzosa.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7374,
+        "output": 542
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21081097",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210817",
+      "titulo_original": "Información pública.- Anuncio de 3 de agosto de 2021 por el que se somete a información pública la solicitud de modificación del proyecto de instalación fotovoltaica \"Aldea Moret\", e infraestructura de evacuación de energía eléctrica asociada, ubicada en el término municipal de Cáceres. Expte.: GE-M",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1580o/21081097.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Aldea Moret",
+        "numero_expediente_industria": "GE-M",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Cáceres",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-08-03",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Modificación del proyecto de instalación fotovoltaica con infraestructura de evacuación de energía eléctrica asociada, sometida a información pública.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5178,
+        "output": 334
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21081095",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210817",
+      "titulo_original": "Información pública.- Anuncio de 9 de agosto de 2021 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"De reubicación y reforma del CT \"Polígono Lagunillas\" AT4817, en caseta prefabricada, sustit",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1580o/21081095.pdf",
+      "datos": {
+        "nombre_proyecto": "Reubicación Y Reforma Del CT Polígono Lagunillas AT4817",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21081095",
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [
+          "AAP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "CT Polígono Lagunillas AT4817",
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-08-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de reubicación y reforma de centro de transformación en caseta prefabricada. Sometido a información pública. Expediente del DOE (Diario Oficial de Extremadura). Texto completo no disponible en fuente.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10514,
+        "output": 715
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

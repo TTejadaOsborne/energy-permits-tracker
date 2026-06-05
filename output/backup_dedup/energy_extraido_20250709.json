@@ -1,0 +1,108 @@
+{
+  "fecha": "20250709",
+  "total": 13,
+  "energeticos": 13,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 13,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-14202",
+      "titulo_original": "Resolución de 3 de julio de 2025, de la Secretaría de Estado de Energía, por la que se actualizan los valores de la retribución a la operación correspondientes al tercer trimestre natural del año 2025 de las instalaciones tipo de generación de energía eléctrica cuyos costes de explotación dependan esencialmente del precio del combustible.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250709-35",
+      "titulo_original": "Orden 2712/2025, de 26 de junio, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se concede la autorización para cinco clones de Ulmus minor como materiales de bases para la producción de material forestal de reproducción de la categoría cualificado en la Comunidad de Madrid y se revoca la autorización para dos clones de Ulmus minor",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250709-36",
+      "titulo_original": "Extracto de la Resolución de 1 de julio de 2025, de la Fundación de la Energía de la Comunidad de Madrid, por la que se modifica la Resolución de 28 de mayo de 2025, de la Fundación de la Energía de la Comunidad de Madrid, por la que se convoca la concesión de ayudas a la movilidad eléctrica del Programa MOVES III-Año 2025",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250709-55",
+      "titulo_original": "Resolución de 6 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de “Planta Solar Fotovoltaica Pradonuevo e Infraestructura de Evacuación”, en el término municipal de Valdemoro, promovido por Generación Fotovoltaica El Páramo, S. L. U. (Expediente: 26-EIA-00049.2/2024)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250709-56",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de “Planta de Compostaje de Investigación, Desarrollo y Experimentación de Bioresiduos (por dos años), en calle Parque Ferial, número 10”, en el término municipal de Alcorcón, promovido por la Empresa de Servicios Municipales de Alcorcón, S. A. (Expediente: 26-EIA-00148.4/2024)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250709-57",
+      "titulo_original": "Adenda de 17 de junio de 2025, de modificación y prórroga al convenio de 2 de julio de 2021, entre la Comunidad de Madrid (Consejería de Medio Ambiente, Agricultura e Interior) y la Agrupación Española de Entidades Aseguradoras de Seguros Agrarios Combinados, S. A.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-09072025-7",
+      "titulo_original": "ORDEN IEM/725/2025, de 2 de julio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-09072025-8",
+      "titulo_original": "EXTRACTO de la Resolución de 7 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones del Programa de formación profesional específica con compromiso de contratación (FEMP), para el periodo 2025-2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-09072025-12",
+      "titulo_original": "ORDEN MAV/724/2025, de 30 de junio, por la que se desestima la modificación no sustancial MNS 4 de la autorización ambiental concedida a la planta de digestión anaerobia y generación de biometano, ubicada en el término municipal de Ólvega (Soria), titularidad de «Biolvegas, S.L.». Expte.: 031-25-MNSSO.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250709-0",
+      "titulo_original": "Resolución de 4 de julio de 2025, de la Agencia Andaluza de la Energía, por la que se acuerda la remisión del expediente administrativo y se emplaza a los terceros interesados en el recurso contencioso-administrativo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25081132",
+      "titulo_original": "Información pública.- Anuncio de 21 de junio de 2025 por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa correspondiente a la instalación fotovoltaica \"Jerez 2020\", ubicada en el término municipal de Jerez de los Caballeros (Badajoz), e in",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25081131",
+      "titulo_original": "Información pública.- Anuncio de 1 de julio de 2025 por el que se someten a información pública la solicitud de autorización administrativa previa y el estudio de impacto ambiental correspondientes a la instalación fotovoltaica \"Aleta 28\", ubicada en el término municipal de Cáceres, e infraestructur",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250709-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

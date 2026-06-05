@@ -1,0 +1,136 @@
+{
+  "fecha": "20251225",
+  "total": 3,
+  "energeticos": 2,
+  "descartados": 1,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 21687,
+    "output": 1483
+  },
+  "coste_usd": 0.02328,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-26586",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20251225",
+      "titulo_original": "Resolución de 16 de diciembre de 2025, de la Dirección General de Biodiversidad, Bosques y Desertificación, por la que se modifica la de 27 de octubre de 2025, sobre el establecimiento de cuotas para la introducción desde aguas internacionales e importación de tiburón marrajo dientuso («Isurus oxyrinchus») capturado por la flota española en el año 2025, en el ámbito del Reglamento (CE) 338/97 del Consejo, de 9 de diciembre de 1996, relativo a la protección de especies de fauna y flora silvestres mediante el control de su comercio.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26586",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2025-12-16",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Dirección General de Biodiversidad, Bosques y Desertificación que modifica asignación de cuotas CITES para captura de tiburón marrajo dientuso (Isurus oxyrinchus) por flota española. No es un proyecto energético.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7363,
+        "output": 323
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2025-26587",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20251225",
+      "titulo_original": "Resolución de 14 de diciembre de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Grupotec SPV 19, SL, autorización administrativa previa y autorización administrativa de construcción de las modificaciones de la instalación fotovoltaica FV Herrera Solar 1, de 50,1 MW de potencia instalada y sus infraestructuras de evacuación, en Páramo de Boedo y Herrera de Pisuerga (Palencia), y se declara, en concreto, su utilidad pública.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26587",
+      "datos": {
+        "nombre_proyecto": "FV Herrera Solar 1 - Modificaciones",
+        "numero_expediente_industria": "BOE-A-2025-26587",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Grupotec SPV 19, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 50.1,
+        "tipo_permiso": "ModAAP",
+        "permisos_adicionales": [
+          "ModAAC",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 30,
+        "gestor_red": "Viesgo Distribución Eléctrica",
+        "municipio": "Páramo de Boedo; Herrera de Pisuerga",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-12-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa previa y de construcción para modificaciones de la instalación FV Herrera Solar 1. Las modificaciones incluyen: retranqueo del vallado (reducción de ~0,30 ha), reubicación de líneas de interconexión internas y modificación del trazado de la línea subterránea de evacuación a 30 kV. Se declara la utilidad pública. Autorización administrativa previa otorgada previamente el 17 de abril de 2023 (51 MW pico, 50,1 MW instalada). Autorización administrativa de construcción otorgada el 5 de junio de 2024. ADIF inicialmente indicó incompatibilidad con Línea de Alta Velocidad Palencia-Alar del Rey, pero promotor alcanzó acuerdo; ADIF emite informe sin oposición condicionado. Sometido a información pública en BOE (8 de mayo de 2025), BOP Palencia (7 de mayo de 2025) y prensa local.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7402,
+        "output": 612
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2025-26588",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20251225",
+      "titulo_original": "Resolución de 11 de diciembre de 2025, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 14 de noviembre de 2025, por la que se otorga a Solaria Promoción y Desarrollo Fotovoltaico, SLU, autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de la utilidad pública de la línea eléctrica aéreo-subterránea a 220 kV «SET La Vid 220/30 kV-SET El Carrascal 400/220 kV», y del recinto de medida 400 kV, así como declaración, en concreto, de utilidad pública de la línea eléctrica aérea a 400 kV «SET El Carrascal 400/220 kV-RM Garoña» y de la subestación «SET El Carrascal 400/220 kV», que forman parte de la infraestructura de evacuación de la instalación fotovoltaica «Agrupación Maira Beta», de 140,127 MW de potencia instalada (Burgos).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26588",
+      "datos": {
+        "nombre_proyecto": "Agrupación Maira Beta",
+        "numero_expediente_industria": "BOE-A-2025-26588",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Solaria Promoción y Desarrollo Fotovoltaico, SLU",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 140.127,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET El Carrascal 400/220 kV",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": null,
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2025-12-11",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de corrección de errores de la Resolución de 14 de noviembre de 2025. La instalación fotovoltaica de 140,127 MW cuenta con autorización administrativa previa y de construcción otorgadas. La infraestructura de evacuación incluye línea aéreo-subterránea a 220 kV SET La Vid 220/30 kV-SET El Carrascal 400/220 kV, línea aérea a 400 kV SET El Carrascal 400/220 kV-RM Garoña, subestación SET El Carrascal 400/220 kV y recinto de medida 400 kV. Se otorgó extensión de plazo para autorización de explotación hasta 30 de junio de 2026 mediante Resolución de 9 de mayo de 2024.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6922,
+        "output": 548
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

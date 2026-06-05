@@ -1,0 +1,134 @@
+{
+  "fecha": "20211102",
+  "total": 3,
+  "energeticos": 1,
+  "descartados": 2,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 17983,
+    "output": 1555
+  },
+  "coste_usd": 0.02061,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-17902",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211102",
+      "titulo_original": "Resolución de 19 de octubre de 2021, de la Universidad de Jaén, por la que se publica el plan de estudios de Máster Universitario en Ingeniería de los Sistemas Fotovoltaicos.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17902",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Universidad de Jaén por la que se publica el plan de estudios del Máster Universitario en Ingeniería de los Sistemas Fotovoltaicos. Se trata de una resolución académica/educativa, no de tramitación de un proyecto energético concreto.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6268,
+        "output": 462
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-02112021-29",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211102",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica en la parcela 163 del polígono 2, en el término municipal de Santa Cruz de Pinares (Ávila).",
+      "url": "https://bocyl.jcyl.es/html/2021/11/02/html/BOCYL-D-02112021-29.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Presa de Santa Cruz de Pinares",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Mancomunidad de Aguas «Presa de Santa Cruz de Pinares»",
+        "tecnologia": "FV+BESS",
+        "potencia_mw": 0.0027,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Autorización de uso excepcional de suelo rústico",
+          "Licencia ambiental"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Santa Cruz de Pinares",
+        "provincia": "Ávila",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación solar fotovoltaica aislada de pequeña escala (2.7 kWp) con almacenamiento integrado de 8 baterías de litio de 48V/2400Wh cada una para autoabastecimiento eléctrico de la presa. Parcela 163 del polígono 2, referencia catastral 05222A00200163. Sometida a información pública por 20 días hábiles según artículo 307.3 del Reglamento de Urbanismo de Castilla y León.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5693,
+        "output": 679
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-02112021-38",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211102",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, con carácter provisional, para una planta de captación de energía solar fotovoltaica de 49,53 mwp -«PSFV Mudarra»-, promovida por «Expasión Habit, S.L.», en enclave Navabuena, parcelas 1 y 11 del polígono 28, en el término municipal de Valladolid. Expte.: 162/2021 L.O.",
+      "url": "https://bocyl.jcyl.es/html/2021/11/02/html/BOCYL-D-02112021-38.do",
+      "datos": {
+        "nombre_proyecto": "PSFV Mudarra",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Expasión Habit, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.53,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Valladolid",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-10-25",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Autorización de uso excepcional de suelo rústico, con carácter provisional, para planta fotovoltaica. Expediente municipal 162/2021 L.O. Información pública por plazo de 20 días. Ubicación: Enclave Navabuena, parcelas 1 y 11 del polígono 28. Referencias catastrales: 47900A028000110000YA y 47900A028000010000YJ.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6022,
+        "output": 414
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

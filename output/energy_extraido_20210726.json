@@ -1,0 +1,372 @@
+{
+  "fecha": "20210726",
+  "total": 9,
+  "energeticos": 8,
+  "descartados": 1,
+  "exitosos": 8,
+  "errores": 0,
+  "tokens": {
+    "input": 57290,
+    "output": 4235
+  },
+  "coste_usd": 0.06277,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOG-20210726-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "RESOLUCIÓN de 28 de junio de 2021, de la Dirección General de Planificación Energética y Recursos Naturales, por la que se otorgan las autorizaciones administrativas previa y de construcción del parque eólico Bustelo, sito en los ayuntamientos de Coristanco y Carballo (A Coruña), promovido por Green",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20210726/AnuncioG0596-020721-0003_es.html",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Bustelo",
+        "numero_expediente_industria": "DOG-20210726-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Green",
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Coristanco, Carballo",
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-06-28",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga conjuntamente Autorización Administrativa Previa y de Construcción. El texto completo no está disponible en la publicación.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5185,
+        "output": 334
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20210726-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "EXTRACTO de la Resolución de 28 de junio de 2021, de la Dirección General de Planificación Energética y Recursos Naturales, por la que se otorgan las autorizaciones administrativas previa y de construcción del parque eólico Bustelo, sito en los ayuntamientos de Coristanco y Carballo (A Coruña), prom",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20210726/AnuncioG0596-020721-0004_es.html",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Bustelo",
+        "numero_expediente_industria": "DOG-20210726-1",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Coristanco, Carballo",
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-06-28",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de otorgamiento de autorizaciones administrativas previa y de construcción conjuntamente tramitadas (AAP_AAC). Publicado en DOG (Diario Oficial de Galicia).",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5187,
+        "output": 346
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080976",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 9 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, la solicitud de reconocimiento de utilidad pública y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Carmonita II\", ubicad",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21080976.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Carmonita II",
+        "numero_expediente_industria": "DOE-21080976",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto sometido a información pública simultáneamente para: 1) Autorización Administrativa Previa (AAP), 2) Reconocimiento de Utilidad Pública (DUP), 3) Estudio de Impacto Ambiental (EsIA). El título indica ubicación en Extremadura pero no especifica municipio exacto dentro de la provincia de Badajoz.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10514,
+        "output": 796
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080989",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 13 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Arañuelo A\", ubicada en el término municipal de El Gordo (Cáceres), e i",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21080989.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Arañuelo A",
+        "numero_expediente_industria": "DOE-21080989",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Gordo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa y Estudio de Impacto Ambiental. El texto completo no está disponible para extracción de datos adicionales.",
+        "confianza": 0.7,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5175,
+        "output": 352
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080988",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 13 de julio de 2021  por el que se somete a información pública la solicitud de autorización administrativa previa, y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Arañuelo B\", ubicada en el término municipal de El Gordo (Cáceres) e i",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21080988.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Arañuelo B",
+        "numero_expediente_industria": "DOE-21080988",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Gordo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa y Estudio de Impacto Ambiental para instalación fotovoltaica. El texto completo no está disponible en la fuente proporcionada.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10526,
+        "output": 747
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080987",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 13 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Arañuelo C\", ubicada en el término municipal de El Gordo (Cáceres) e in",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21080987.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Arañuelo C",
+        "numero_expediente_industria": "DOE-21080987",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Gordo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de solicitud de Autorización Administrativa Previa y Estudio de Impacto Ambiental. Publicado en DOE (Diario Oficial de Extremadura). Texto completo no disponible en la solicitud.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5175,
+        "output": 370
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21081025",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 20 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Arañuelo D\", ubicada en el término municipal de El Gordo (Cáceres) e in",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21081025.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Arañuelo D",
+        "numero_expediente_industria": "DOE-21081025",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Gordo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-20",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de AAP y EsIA para instalación fotovoltaica. Publicado en DOE (Diario Oficial de Extremadura) por la Consejería para la Transición Ecológica y Sostenibilidad.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5175,
+        "output": 370
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080990",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Información pública.- Anuncio de 13 de julio de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, y el estudio de impacto ambiental correspondiente a la instalación fotovoltaica \"Arañuelo E\", ubicada en el término municipal de El Gordo (Cáceres) e in",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21080990.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Arañuelo E",
+        "numero_expediente_industria": "DOE-21080990",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "El Gordo",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de información pública para autorización administrativa previa y estudio de impacto ambiental de instalación fotovoltaica. Texto completo no disponible en la fuente proporcionada.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5175,
+        "output": 354
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21081000",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210726",
+      "titulo_original": "Expropiaciones. Citación.- Anuncio de 15 de julio de 2021 por el que se cita a los interesados para el levantamiento de las actas de ocupación por expropiación forzosa y urgente ocupación, de los bienes y derechos afectados por el proyecto de infraestructura de evacuación de la energía generada por ",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1420o/21081000.pdf",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21081000",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "en_tramitacion",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-07-15",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de citación para levantamiento de actas de ocupación por expropiación forzosa y urgente ocupación de bienes y derechos afectados por proyecto de infraestructura de evacuación de energía. Texto completo no disponible en la extracción.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5178,
+        "output": 566
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

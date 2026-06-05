@@ -1,0 +1,93 @@
+{
+  "fecha": "20200810",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 10916,
+    "output": 666
+  },
+  "coste_usd": 0.0114,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOE-20080746",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200810",
+      "titulo_original": "Información pública.- Anuncio de 24 de julio de 2020 por el que se somete a información pública la solicitud de autorización administrativa previa, correspondiente a la instalación fotovoltaica \"Tierra de Badajoz\", ubicada en el término municipal de Badajoz, e infraestructura de evacuación de energí",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1540o/20080746.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Tierra de Badajoz",
+        "numero_expediente_industria": "DOE-20080746",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Badajoz",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-07-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para solicitud de autorización administrativa previa. Incluye infraestructura de evacuación de energía.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5457,
+        "output": 330
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20080760",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200810",
+      "titulo_original": "Información pública.- Anuncio de 5 de agosto de 2020 por el que se somete a información pública la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alcon 1\", ubicada en el término municipal de Alconera (Badajoz), e infraestructura de evacuación de energí",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1540o/20080760.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Alcón 1",
+        "numero_expediente_industria": "DOE-20080760",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Alconera",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-08-05",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de autorización administrativa previa para instalación fotovoltaica con infraestructura de evacuación de energía. El proyecto se encuentra en fase de información pública.",
+        "confianza": 0.72,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5459,
+        "output": 336
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

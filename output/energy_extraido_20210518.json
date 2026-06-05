@@ -1,0 +1,172 @@
+{
+  "fecha": "20210518",
+  "total": 4,
+  "energeticos": 2,
+  "descartados": 2,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 26448,
+    "output": 2064
+  },
+  "coste_usd": 0.02941,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-8254",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210518",
+      "titulo_original": "Resolución de 14 de mayo de 2021, de la Confederación Hidrográfica del Segura, O.A., por la que se publica el Convenio con la Universitat Politècnica de València, para la gestión del riesgo de inundación en la Vega Baja del Segura.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8254",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta publicación es una resolución de la Confederación Hidrográfica del Segura sobre un Convenio con la Universitat Politècnica de València para la gestión del riesgo de inundación en la Vega Baja del Segura. No se trata de la tramitación de un proyecto de generación energética, almacenamiento, hidrógeno, infraestructura de red eléctrica, o centro de datos. Es un acuerdo administrativo de gestión de cuencas hidrográficas y mitigación de riesgos de inundación.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7017,
+        "output": 385
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-8255",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210518",
+      "titulo_original": "Resolución de 28 de abril de 2021, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula la declaración de impacto ambiental del proyecto \"Planta regasificadora de gas natural licuado en el Puerto el Musel, Gijón (Principado de Asturias)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8255",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Enagás Transporte, S.A.U.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Gijón",
+        "provincia": "Asturias",
+        "comunidad_autonoma": "Principado de Asturias",
+        "fecha_resolucion": "2021-04-28",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Declaración de Impacto Ambiental (DIA) favorable para planta regasificadora de gas natural licuado (GNL). El proyecto fue anulado judicialmente en 2013 y posteriormente hibernado. Se presenta nueva solicitud de autorización conforme a RD 335/2018. La evaluación ambiental se realiza prospectivamente sobre las fases de funcionamiento y abandono, excluyendo construcción (finalizada en 2012). Capacidad nominal: 800.000 Nm³/h (ampliable a 1.200.000 Nm³/h). Dos tanques de 150.000 m³ cada uno, con espacio para dos tanques adicionales.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6905,
+        "output": 789
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-18052021-45",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210518",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública en concreto para una instalación de evacuación de las plantas solares fotovoltaicas Caoba Solar, Collado Solar, Enebro Solar, Espliego Solar, Madroño Solar, Malvasía Solar y Pinot Solar, situadas en la provincia de Zamora, compuesta por las subestaciones transformadoras Los Cerros, Pozuelo y Peral y las líneas aéreas de 132 kv, que conecta las mencionadas subestaciones, y de 400 kv para la evacuación definitiva, ubicadas en los términos municipales de Pozuelo de Tábara y Moreruela de Tábara (Zamora). Expte.: RL: 22598.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/18/html/BOCYL-D-18052021-45.do",
+      "datos": {
+        "nombre_proyecto": "Instalación de Evacuación Plantas Solares Zamora",
+        "numero_expediente_industria": "RL: 22598",
+        "numero_expediente_medioambiente": null,
+        "promotor": "ENEBRO SOLAR, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP",
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Los Cerros, Pozuelo, Peral",
+        "tension_conexion_kv": 132,
+        "gestor_red": "Red Eléctrica Nacional",
+        "municipio": "Pozuelo de Tábara, Moreruela de Tábara",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación de evacuación compuesta por tres subestaciones transformadoras (Los Cerros, Pozuelo, Peral) y líneas aéreas de 132 kV (doble circuito, primer tramo subterráneo 261 m) y 400 kV. Los transformadores alcanzan potencias de hasta 320 MVA. Sometimiento voluntario a evaluación de impacto ambiental ordinaria. Presupuesto total aproximado de 12.860.832,70 €. Período de información pública: 30 días.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7338,
+        "output": 491
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21061402",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210518",
+      "titulo_original": "Impacto ambiental.- Resolución de 5 de mayo de 2021, de la Dirección General de Sostenibilidad, por la que se formula declaración de impacto ambiental de la subestación eléctrica colectora de 400/220 kV 3x240 MVA \"Carmonita\", ubicada en el término municipal de Mérida e infraestructura de evacuación ",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/930o/21061402.pdf",
+      "datos": {
+        "nombre_proyecto": "Subestación Eléctrica Carmonita 400/220 kV",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21061402",
+        "promotor": null,
+        "tecnologia": "LAT/SET",
+        "potencia_mw": 720,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Carmonita",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "Mérida",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-05-05",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Subestación colectora de 400/220 kV con transformación de potencia 3x240 MVA. Incluye infraestructura de evacuación. Resolución de Declaración de Impacto Ambiental emitida por la Dirección General de Sostenibilidad de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura.",
+        "confianza": 0.82,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5188,
+        "output": 399
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

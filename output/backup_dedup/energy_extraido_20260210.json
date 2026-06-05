@@ -1,0 +1,55 @@
+{
+  "fecha": "20260210",
+  "total": 1,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 8662,
+    "output": 721
+  },
+  "coste_usd": 0.00981,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOE-26060309",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20260210",
+      "titulo_original": "Energía eléctrica.- Resolución de 26 de enero de 2026, del Servicio de Ordenación Industrial, Energética y Minera, por la que se otorga autorización administrativa previa a Emdecoria, SLU, de las instalaciones correspondientes al proyecto denominado \"Centro de transformación de 400 kVA en nuevo edif",
+      "url": "https://doe.juntaex.es/pdfs/doe/2026/270o/26060309.pdf",
+      "datos": {
+        "nombre_proyecto": "Centro De Transformación 400 kVA",
+        "numero_expediente_industria": "DOE-26060309",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Emdecoria, SLU",
+        "tecnologia": "SET",
+        "potencia_mw": 0.4,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2026-01-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de autorización administrativa previa otorgada. El proyecto se refiere a un centro de transformación de 400 kVA en nuevo edificio. Órgano competente: Servicio de Ordenación Industrial, Energética y Minera de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4342,
+        "output": 376
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "fecha": "20250501",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 9143,
+    "output": 725
+  },
+  "coste_usd": 0.01021,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-8732",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20250501",
+      "titulo_original": "Resolución de 22 de abril de 2025, de la Comisión Nacional de los Mercados y la Competencia, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 4/804/2024, interpuesto ante la Audiencia Nacional contra la resolución por la que se modifican procedimientos de operación eléctricos para la participación de la demanda y el almacenamiento en los servicios de no frecuencia y en la solución de restricciones técnicas e integración de la hibridación de tecnologías en el proceso de programación.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8732",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2025-04-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta resolución es un emplazamiento judicial de la CNMC en el contexto de un recurso contencioso-administrativo interpuesto por Iberdrola Energía Sostenible, SLU ante la Audiencia Nacional (procedimiento ordinario 4/804/2024). No se tramita un proyecto de energía renovable concreto, sino que se trata de una resolución de naturaleza procesal relativa a modificaciones de procedimientos de operación eléctricos para participación de demanda y almacenamiento en servicios de no frecuencia y restricciones técnicas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 4822,
+        "output": 389
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

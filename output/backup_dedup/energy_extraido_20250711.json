@@ -1,0 +1,143 @@
+{
+  "fecha": "20250711",
+  "total": 18,
+  "energeticos": 18,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 18,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-14358",
+      "titulo_original": "Resolución de 17 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se corrigen errores en la de 2 de abril de 2025, por la que se formula informe de impacto ambiental del proyecto «Almacenamiento híbrido de energía \"Las Lomillas\", de 36 MW de potencia, para su hibridación con la planta fotovoltaica híbrida \"Las Lomillas\", de 39 MW de potencia, y con el parque eólico \"Las Lomillas\", de 49,5 MW de potencia, en la provincia de Cuenca».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-14359",
+      "titulo_original": "Orden TED/734/2025, de 3 de julio, por la que se inhabilita para ejercer la actividad de operador al por mayor de carburantes y combustibles petrolíferos a Gran Zufaria, SA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-14360",
+      "titulo_original": "Orden TED/735/2025, de 3 de julio, por la que se inhabilita para ejercer la actividad de operador al por mayor de carburantes y combustibles petrolíferos a la empresa Mena Energy Spain, SL.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250711-38",
+      "titulo_original": "Resolución de 24 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior por la que se acuerda hacer público el Informe de Impacto Ambiental del proyecto de «Instalación solar fotovoltaica “Zarzalejo” e infraestructuras de evacuación», en los términos municipales de Moraleja de Enmedio, Griñón y Humanes de Madrid, promovido por Generación Fotovoltaica La Vereda, S. L. (expediente: 26-EIA-00022.0/2024)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-6",
+      "titulo_original": "ORDEN IEM/731/2025, de 7 de julio, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-7",
+      "titulo_original": "ORDEN IEM/732/2025, de 7 de julio, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, los puestos de trabajo que se citan.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-8",
+      "titulo_original": "ORDEN IEM/733/2025, de 7 de julio, por la que se resuelve convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-14",
+      "titulo_original": "EXTRACTO de la Orden de 9 de julio de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan las subvenciones para el año 2025 destinadas a la consolidación del trabajo autónomo mediante el pago de las cuotas de la Seguridad Social, con especial atención a la reincorporación de la mujer y de sectores con especiales dificultades de acceso al empleo (CONSOLIDACYL Autoempleo).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-15",
+      "titulo_original": "EXTRACTO de la Orden de 9 de julio de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan subvenciones por asistencia técnica en empresas de inserción.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-16",
+      "titulo_original": "EXTRACTO de la Orden de 9 de julio de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan subvenciones a la creación y/o mantenimiento de puestos de trabajo de personas en riesgo o situación de exclusión social en empresas de inserción.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-17",
+      "titulo_original": "EXTRACTO de la Orden de 9 de julio de 2025, de la Consejería de Industria, Comercio y Empleo, por la que se convocan subvenciones destinadas a la inversión fija vinculada a la creación de nuevos puestos de trabajo en empresas de inserción.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-11072025-25",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Burgos, por el que se convoca al levantamiento de las actas previas a la ocupación forzosa de los bienes y derechos afectados por el proyecto del parque eólico «Miravete Ampliación» y sus instalaciones eléctricas asociadas, en el término municipal de Valle de las Navas (Burgos). Expte.: PE/BU/001/2022.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1751609528278610005",
+      "titulo_original": "Medio Ambiente. Resolución de 03/07/2025 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por la que se formula el informe de impacto ambiental del proyecto de instalación de almacenamiento BESS Manztierra I de 15,62 MW e instalaciones de evacuación para hibridación con la plan",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250711-0",
+      "titulo_original": "Resolución de 7 de julio de 2025, de la Agencia Andaluza de la Energía, por la que se aprueban los formularios correspondientes a la convocatoria de los incentivos ligados a la movilidad eléctrica (MOVES III) en Andalucía para el año 2025, efectuada mediante Resolución de 30 de junio de 2025.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250711-0",
+      "titulo_original": "del territorio e infraestructuras, por la que se encomienda al Consorcio de transportes de Asturias la gestión de la estación de Autobuses de Mieres y se prorroga por cuarta vez la encomienda al Consorcio de transportes para la gestión de la estación de Autobuses de Mieres. [Cód. 2025‑05737] [2 págs.]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250711014",
+      "titulo_original": "ECONOMÍA Y JUSTICIA ORDEN PEJ/799/2025, de 23 de junio, por la que se reconoce, en concreto, la utilidad pública de la instalación \"Parque Eólico Fuentes II\", ubicada en los términos municipales de El Burgo de Ebro y Fuentes de Ebro (Zaragoza), promovida por la mercantil Energía Inagotable del proyecto Fuentes del Ebro, SL. (Expediente número DUP-Z-2021-0038 G-Z-2022-204).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250711015",
+      "titulo_original": "ORDEN PEJ/800/2025, de 27 de junio, por la que se reconoce, en concreto, la utilidad pública de la instalación: Línea aérea de alta tensión 220 KV SET Sedeis – SET Fontanales – SET Escatrón Promotores, SET Sedeis y SET Fontanales, en los términos municipales de Andorra, Híjar, Samper de Calanda, Castelnou (Teruel) y Escatrón (Zaragoza), promovida por la mercantil “Energías Renovables de Mimas, SL“",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250711-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

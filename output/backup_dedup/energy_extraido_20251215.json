@@ -1,0 +1,164 @@
+{
+  "fecha": "20251215",
+  "total": 21,
+  "energeticos": 21,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 21,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-25590",
+      "titulo_original": "Resolución de 27 de noviembre de 2025, de la Dirección General de Política Energética y Minas, por la que se fija el poder calorífico inferior de la hulla, fuel oil, diésel oil y gasoil para el año 2024 a efectos del régimen retributivo adicional de los grupos de generación ubicados en los territorios no peninsulares.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpurt4Z3H7XY41PcfG'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25591",
+      "titulo_original": "Resolución de 4 de diciembre de 2025, de la Dirección General de Política Energética y Minas, por la que se publican los nuevos precios de venta, antes de impuestos, de los gases licuados del petróleo por canalización.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpw451VYm5tYJw3zQU'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25673",
+      "titulo_original": "Resolución de 25 de noviembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del «Proyecto constructivo de conexión de la desaladora de Moncófar con la red del Consorcio de Aguas de la Plana».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpxFztQkYQxP3aAmY6'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25674",
+      "titulo_original": "Resolución de 1 de diciembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, de modificación de condiciones de la declaración de impacto ambiental del proyecto «Parque eólico Canales Sur, de 120 MW, así como sus infraestructuras de evacuación asociadas en Antigüedad, Baltanás, Valle de Cerrato y Palenzuela (Palencia)».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpyAZhvkFNQGSBig9e'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25676",
+      "titulo_original": "Resolución de 8 de octubre de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Green Capital Development 161, SL, de autorización administrativa previa del parque eólico «Hinojosa», de 63,08 MW, y su infraestructura de evacuación, en las provincias de Cádiz y Málaga.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpz8rtMg4cmApWock7'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251215-20",
+      "titulo_original": "Resolución de 11 de diciembre de 2025, de la Dirección General de Agricultura, Ganadería y Alimentación, por la que se establecen medidas sanitarias para prevenir la difusión de la influenza aviar en la Comunidad de Madrid",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMpzwUby2p4v84RRLS4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251215-44",
+      "titulo_original": "Resolución de 7 de noviembre de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la instalación de dos líneas de 45kV desde las subestaciones ST Prado Santo Domingo y ST Leganés hasta la calle Sauce, número 20, de Fuenlabrada, en los términos municipales de Fuenlabrada, Leganés y Alcorcón, solicitada por I-De Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq1mb537UDn9chZkoE'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251215-46",
+      "titulo_original": "Resolución de 17 de noviembre, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de la planta fotovoltaica PFV La Rubia y su infraestructura de evacuación situados en polígono 1, parcelas 1222 y 215 (Paraje la Rubia), en el término municipal de Villalbilla, solicitada por RP Energía Dos, S. L. (Expediente: 2023P424/14-0141-00424.4/2023)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq2cgqhHcKYra3t7k4'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251215-47",
+      "titulo_original": "Resolución de 28 de noviembre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe Ambiental Estratégico de la Modificación Puntual para la protección del local derecho del edificio situado en la calle de Santa Cruz de Marcenado, número 9, del término municipal de Madrid, promovido por el Ayuntamiento de Madrid. (Expediente: 26-UB2-00146.8/2025, SIA 25/146)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq3aiycRLjLMcQFq29'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251215-48",
+      "titulo_original": "Resolución de 28 de noviembre de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe Ambiental Estratégico del Plan Especial de Modificación de Redes Públicas en el ámbito AD-1 Sureste Prado del Espino del municipio de Boadilla del Monte, promovido por el Ayuntamiento de Boadilla del Monte. (Expediente: 26-UB2-00176.8/2024, SIA 24/164)",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq4RL4gcaCEEAHBoVv'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15122025-16",
+      "titulo_original": "EXTRACTO de la Resolución de 11 de diciembre de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se modifica la Resolución de 14 de octubre de 2025, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a la financiación del Programa Público Mixto de Empleo - Formación en Castilla y León para el ejercicio 2025-2026, desarrollado a través de la modalidad de programas experienciales de empleo y formación.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq5GBJGbh6yjbfJHQR'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15122025-22",
+      "titulo_original": "ACUERDO 53/2025, de 11 de diciembre, de la Junta de Castilla y León, por el que se prorrogan las medidas previstas en los capítulos III y IV de la Ley 10/2013, de 16 de diciembre, de medidas urgentes en materia de vivienda.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq64JM1qcEZQvPhGks'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15122025-23",
+      "titulo_original": "ORDEN MAV/1409/2025, de 4 de diciembre, por la que se modifica la Orden de 30 de abril de 2008, de la Consejería de Medio Ambiente, por la que se concede autorización ambiental para la fábrica de tintado, ennoblecimiento y acabado de tejidos fabricados con fibras naturales, artificiales, sintéticas y sus mezclas, ubicada en el término municipal de Burgos, titularidad de «Geisa Fabrics, S.L.», como consecuencia de la modificación no sustancial (MNS n.º 7). Expte.: 087-24-MNSBU.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq6qgnWheJfGW7TaCB'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15122025-24",
+      "titulo_original": "ORDEN MAV/1410/2025, de 4 de diciembre, por la que se modifica la Orden de 29 de diciembre de 2008, de la Consejería de Medio Ambiente, por la que se modifica la autorización ambiental a «Eco Bierzo Composite, S.L.» para la planta de tratamiento y revestimiento superficial de metales (aluminio y acero) y fabricación de panel composite, en el término municipal de Toral de los Vados (León), como consecuencia de las modificación no sustancial 1 (MNS 1). Expte.: 057-25-MNSLE.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq7e3uTdc3x7QzJGfF'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20251215-0",
+      "titulo_original": "Resolución de 4 de diciembre de 2025, de la Dirección Gerencia de la Agencia Digital de Andalucía, por la que se anuncia convocatoria pública para cubrir puesto de trabajo, por el procedimiento de libre designación.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq8RSE2fVtPaCgBWM3'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251215-0",
+      "titulo_original": "ACUERDO de 11 de noviembre de 2025, del Departamento Territorial de A Coruña, por el que se somete a información pública la solicitud de otorgamiento de las autorizaciones administrativas previa y de construcción de una instalación de distribución de energía eléctrica mediante baterías, así como de ",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMq9E3rS8DBaRrd1eVH'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251215-1",
+      "titulo_original": "ANUNCIO de procedimiento de ejecución subsidiaria de gestión de la biomasa y retirada de especies arbóreas en el polígono 175, parcela 192 (expediente 697/2025).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMqAM29vfXGqGmMhzJ2'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251215031",
+      "titulo_original": "RESOLUCIÓN de 24 de julio de 2025, de la Directora General de Energía y Minas, por la que se otorga la autorización administrativa previa y autorización de construcción de las infraestructuras de evacuación compartidas: subestación eléctrica “SET Augustos” y línea eléctrica “LAAT 220 Kv E/S SET Augustos-SET Gurrea” en el término municipal de Gurrea de Gállego (Huesca).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMqB7Qu5HgcCHqpCcLR'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251215032",
+      "titulo_original": "RESOLUCIÓN de 31 de octubre de 2025, de la Directora General de Energía y Minas, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación de la planta fotovoltaica “San Miguel E” en el término municipal de Quinto (Zaragoza).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMqBuXtXw4DZtqhQArP'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251215033",
+      "titulo_original": "ANUNCIO del Servicio Provincial de Presidencia, Economía y Justicia de Zaragoza, por el que se somete a información pública la solicitud de otorgar a Redexis, SA, autorización administrativa, aprobación del proyecto de ejecución y reconocimiento en concreto de utilidad pública de las instalaciones recogidas en el Proyecto de gasoducto de transporte secundario para la inyección de biometano en el g",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMqCj9JUqHqwocaVgPf'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251215-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMqDWH1SzA72UJcyfLJ'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

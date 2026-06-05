@@ -1,0 +1,291 @@
+{
+  "fecha": "20220309",
+  "total": 7,
+  "energeticos": 3,
+  "descartados": 4,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 41179,
+    "output": 3227
+  },
+  "coste_usd": 0.04585,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2022-3707",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "Resolución de 7 de marzo de 2022, de la Secretaría de Estado de Energía, por la que se aprueba el procedimiento de operación 3.4 relativo a la programación de trabajos en la red de transporte.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-3707",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2022-03-07",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de la Secretaría de Estado de Energía que aprueba el procedimiento de operación P.O. 3.4 relativo a la programación de trabajos en la red de transporte. Efectos desde el 5 de mayo de 2022. Deja sin efecto procedimientos anteriores aprobados en 2004 y 2006. Esta es normativa técnica de operación de la red, no un proyecto de generación, almacenamiento o infraestructura energética específica.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7004,
+        "output": 374
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-09032022-23",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de León, por el que se somete a información pública la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica denominada «Bierzo», en los términos municipales de Benavides de Órbigo, Villares de Órbigo, Quintana del Castillo, Villamejil y Magaz de la Cepeda (León). Expte.: FV-155/2019.",
+      "url": "https://bocyl.jcyl.es/html/2022/03/09/html/BOCYL-D-09032022-23.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Bierzo",
+        "numero_expediente_industria": "FV-155/2019",
+        "numero_expediente_medioambiente": "FV-155/2019",
+        "promotor": "Camanal Energía, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Benavides de Órbigo, Villares de Órbigo, Quintana del Castillo, Villamejil, Magaz de la Cepeda",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-02-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Documentación complementaria del Estudio de Impacto Ambiental sometida a información pública. Plazo de reclamaciones: 30 días desde la publicación. Expediente originalmente publicado en BOE León 167 (2021-09-02) y BOCYL 179 (2021-09-15).",
+        "confianza": 0.92,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6293,
+        "output": 444
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-09032022-24",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de León, por el que se somete a información pública la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica denominada «Bierzo 2», en los términos municipales de Magaz de Cepeda y Villamejil (León). Expte.: FV-157/2019.",
+      "url": "https://bocyl.jcyl.es/html/2022/03/09/html/BOCYL-D-09032022-24.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Bierzo 2",
+        "numero_expediente_industria": "FV-157/2019",
+        "numero_expediente_medioambiente": "FV-157/2019",
+        "promotor": "Solesol Fotovoltaica, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Magaz de Cepeda y Villamejil",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Documentación complementaria aportada al Estudio de Impacto Ambiental sometida a información pública por 30 días. Plazo de presentación de alegaciones contado a partir del día siguiente a la publicación del anuncio.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6219,
+        "output": 393
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-09032022-25",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de León, por el que se somete a información pública la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y evaluación de impacto ambiental de la instalación de energía eléctrica con tecnología fotovoltaica denominada «Bierzo 3», en los términos municipales de Quintana del Castillo y Villamejil (León). Expte.: FV-158/2019.",
+      "url": "https://bocyl.jcyl.es/html/2022/03/09/html/BOCYL-D-09032022-25.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Bierzo 3",
+        "numero_expediente_industria": "FV-158/2019",
+        "numero_expediente_medioambiente": "FV-158/2019",
+        "promotor": "Alfavat Soluciones Energéticas, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Quintana del Castillo y Villamejil",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se somete a información pública documentación complementaria aportada por el promotor en relación al Estudio de Impacto Ambiental. Plazo de información pública: 30 días desde la publicación del anuncio (21 de febrero de 2022). Documentación disponible en Portal de Energía y Minería de Castilla y León y en el Servicio Territorial de Industria, Comercio y Economía de León.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6217,
+        "output": 445
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220309-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ACUERDO de 24 de febrero de 2022, de la Jefatura Territorial de A Coruña, por el que se someten a información pública la solicitud de autorización administrativa previa, la declaración de utilidad pública, en concreto, la necesidad de urgente ocupación que eso implica, la autorización administrativa",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220309/AnuncioG0596-210222-0006_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOG-20220309-0",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-02-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Expediente sometido a información pública. Incluye solicitud de Autorización Administrativa Previa y Declaración de Utilidad Pública con necesidad de urgente ocupación. Texto completo no disponible en la consulta.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5173,
+        "output": 477
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20220309-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ANUNCIO de 24 de noviembre de 2021 de notificación a los titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220309/AnuncioL346-160222-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-11-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de la Consellería del Mar sobre requerimiento a titulares desconocidos para cumplimiento de obligación de gestión de biomasa vegetal y retirada de especies arbóreas. No constituye tramitación de un proyecto energético específico.",
+        "confianza": 0.1,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5137,
+        "output": 564
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20220309-2",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220309",
+      "titulo_original": "ANUNCIO de 16 de febrero de 2022 de notificación a los titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220309/AnuncioL363-150222-0002_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20220309-2",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2022-02-16",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación a titulares desconocidos para cumplimiento de obligación de gestión de biomasa vegetal y retirada de especies arbóreas. No es un proyecto de generación energética, sino una resolución administrativa de gestión forestal/ambiental de la Consellería do Mar.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5136,
+        "output": 530
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "fecha": "20241105",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 10917,
+    "output": 913
+  },
+  "coste_usd": 0.01239,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-05112024-7",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20241105",
+      "titulo_original": "RESOLUCIÓN de 14 de octubre de 2024, del Servicio Territorial de Industria, Comercio y Economía de Burgos, por la que se otorga autorización administrativa previa y autorización de construcción para la instalación de producción de energía eléctrica, mediante tecnología fotovoltaica, denominada «Palazuelos Muño Solar», y su infraestructura de evacuación, con conexión a la red de distribución, instalada en suelo sobre estructura fija, en el término municipal de Villaverde Mogina (Burgos). Expte.: FV/632.",
+      "url": "https://bocyl.jcyl.es/html/2024/11/05/html/BOCYL-D-05112024-7.do",
+      "datos": {
+        "nombre_proyecto": "Palazuelos Muño Solar",
+        "numero_expediente_industria": "FV/632",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Ramón Claudio Lezcano Muñoz",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 2.0,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [],
+        "estado_permiso": "otorgado",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "Iberdrola",
+        "municipio": "Villaverde Mogina",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2024-10-14",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica sobre estructura fija en suelo rústico con conexión a red de distribución. Resolución otorga conjuntamente Autorización Administrativa Previa y Autorización de Construcción conforme al Decreto 46/2022. El proyecto fue sometido a información pública el 18 de agosto de 2023. Se recibieron alegaciones fuera de plazo del Ayuntamiento y vecinos respecto a cuestiones urbanísticas y proximidad al Palacio de Barahona, pero la resolución resuelve otorgar las autorizaciones. La potencia máxima de 2MW le permite beneficiarse de la excepción establecida en el Decreto Ley 4/2022 respecto a distancias mínimas al núcleo urbano.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6204,
+        "output": 504
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1729508086327300379",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20241105",
+      "titulo_original": "Expropiación Forzosa. Resolución de 18/10/2024 , de la Delegación Provincial de Desarrollo Sostenible de Guadalajara, por la que se inicia el expediente expropiatorio y se convoca al levantamiento de actas previas a la ocupación de determinadas fincas afectadas por la instalación solar fotovoltaica ",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1729508086327300379",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Bolarque 2",
+        "numero_expediente_industria": "2020PROD046",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "en_tramitacion",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Bolarque",
+        "provincia": "Guadalajara",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2024-10-18",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que inicia expediente expropiatorio y convoca levantamiento de actas previas a la ocupación de fincas afectadas. Proyecto integrado por Bolarque 1 (2020PROD045), Bolarque 2 (2020PROD046) y Bolarque 3 (2020PROD047) con infraestructuras de evacuación compartidas. Incluye estudio de impacto ambiental.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 4713,
+        "output": 409
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

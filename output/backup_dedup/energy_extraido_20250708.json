@@ -1,0 +1,115 @@
+{
+  "fecha": "20250708",
+  "total": 14,
+  "energeticos": 14,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 14,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-14075",
+      "titulo_original": "Orden ITU/723/2025, de 1 de julio, por la que se modifica la Orden ITU/885/2024, de 14 de agosto, por la que se establecen las bases reguladoras para la concesión de ayudas a proyectos industriales en el sector agroalimentario dentro del proyecto estratégico para la recuperación y transformación económica agroalimentario, en el marco del Plan de Recuperación, Transformación y Resiliencia, y la convocatoria de estas ayudas del año 2024.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-14077",
+      "titulo_original": "Resolución de 30 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Nueva desaladora de agua de mar a construir en la zona del Valle de Escombreras (Cartagena)».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250708-40",
+      "titulo_original": "Resolución de 16 de junio de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Cañada de la Fuenfría, en el término municipal de Cercedilla, para acometida eléctrica en edificio de viviendas ubicado en la Avenida Francisco Fernández Ochoa, número 22 bajo, actuación promovida por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250708-41",
+      "titulo_original": "Resolución de 23 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe Ambiental Estratégico del Plan Especial de mejora de ordenación pormenorizada para Mercamadrid, en el término municipal de Madrid, promovido por Empresa Mixta de Mercados Centrales de Abastecimiento de Madrid, S. A. (Expediente: 26-UB2-00009.3/2024, SIA 24/009)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250708-44",
+      "titulo_original": "Resolución de 27 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se somete a información pública la documentación de la modificación sustancial de la Autorización Ambiental Integrada otorgada a Derichebourg España, S. A. U., para su instalación de “Valorización de materiales ya clasificados” situada en calle del Duero, número 17, en el término municipal de Mejorada del Campo (expediente: 26-IPPC-00076.5/2024)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-4",
+      "titulo_original": "ORDEN MAV/716/2025, de 30 de junio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, los puestos de trabajo que se citan.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-12",
+      "titulo_original": "EXTRACTO de la Resolución de 1 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones públicas destinadas a la financiación de acciones formativas de emprendimiento digital dirigidas a mujeres residentes en municipios de menos de 30.000 habitantes en la Comunidad de Castilla y León, para las anualidades 2025 y 2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-13",
+      "titulo_original": "EXTRACTO de la Resolución de 2 de julio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones públicas destinadas a la financiación de la oferta formativa del sistema de formación profesional en el ámbito laboral asociada al Catálogo Nacional de Cualificaciones Profesionales para trabajadores desempleados en Castilla y León, para los años 2025 y 2026.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-17",
+      "titulo_original": "ORDEN MAV/717/2025, de 30 de junio, por la que se modifica la Orden de 30 de diciembre de 2008, de la Consejería de Medio Ambiente, por la que se concede autorización ambiental para una planta de producción de aditivos e ingredientes para alimentación, ubicada en el término municipal de León, titularidad de «Vitatene, S.A.U.», como consecuencia de la modificación no sustancial n.º 13 (MNS 13). Expte.: 032-25-MNSLE.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-18",
+      "titulo_original": "ORDEN MAV/718/2025, de 30 de junio, por la que se declara la extinción de la autorización ambiental concedida por Orden de 27 de diciembre de 2007, de la Consejería de Medio Ambiente, para la fabricación de productos cerámicos, en el término municipal de Piña de Campos (Palencia), titularidad de «Cerámica Piña, S.L.». Expte.: 014-19-DEVA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-08072025-19",
+      "titulo_original": "ORDEN MAV/719/2025, de 27 de junio, por la que se modifica la Orden IYJ/689/2010, de 12 de mayo, por la que se determina el horario de los espectáculos públicos y actividades recreativas que se desarrollen en los establecimientos públicos, instalaciones y espacios abiertos de la Comunidad de Castilla y León.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250708-0",
+      "titulo_original": "Anuncio de 2 de julio de 2025, de la Empresa Pública de Verificaciones Industriales de Andalucía, S.A. (VEIASA), del proceso de selección de personal para la cobertura del puesto de técnico con perfil de gestor de proyectos para la Unidad de Sistemas de Información de Verificaciones Industriales de ",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25062637",
+      "titulo_original": "Energía solar.- Resolución de 25 de junio de 2025, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Riexna Solar, SL, para la instalación fotovoltaica \"Parque Solar Coria\", ubicada en el término municipal de Coria (Cáceres),",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250708-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "fecha": "20211214",
+  "total": 4,
+  "energeticos": 4,
+  "descartados": 0,
+  "exitosos": 4,
+  "errores": 0,
+  "tokens": {
+    "input": 27173,
+    "output": 1861
+  },
+  "coste_usd": 0.02918,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-14122021-33",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211214",
+      "titulo_original": "RESOLUCIÓN de 11 de noviembre de 2021, del Servicio Territorial de Industria, Comercio y Economía de Palencia, por la que se otorga autorización administrativa previa y se aprueba el proyecto de ejecución (autorización administrativa de construcción) de las instalaciones de las infraestructuras de evacuación modificadas de la planta solar fotovoltaica denominada «Algiedi Solar», promovida por «Solaria Promoción y Desarrollo Fotovoltaico, S.L.», antes «Ranti Investments, S.L.», en los términos municipales de Magaz de Pisuerga (Palencia). Exptes.: FV-940 y ATLI-6484.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/14/html/BOCYL-D-14122021-33.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Algiedi Solar",
+        "numero_expediente_industria": "FV-940",
+        "numero_expediente_medioambiente": "ATLI-6484",
+        "promotor": "Solaria Promoción y Desarrollo Fotovoltaico, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 24.96,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación 45/30 kV",
+        "tension_conexion_kv": 45,
+        "gestor_red": "I-DE Redes Inteligentes, S.A.U.",
+        "municipio": "Magaz de Pisuerga",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-11-11",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa previa y aprueba el proyecto de ejecución (autorización administrativa de construcción) de las infraestructuras de evacuación modificadas. El proyecto incluye planta solar de 24,96 MWp, línea subterránea de 45 kV y subestación 45/30 kV. Declaración de Impacto Ambiental favorable emitida mediante ORDEN FYM/1241/2020 de 13 de noviembre de 2020. Se solicitó reconocimiento de utilidad pública para la instalación solar y su infraestructura de evacuación. Modificación del trazado de la línea de evacuación de 45 kV por imposibilidad de conexión inicial.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7240,
+        "output": 551
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-14122021-34",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211214",
+      "titulo_original": "RESOLUCIÓN de 2 de noviembre de 2021, del Servicio Territorial de Industria, Comercio y Economía de Soria, de autorización administrativa previa y declaración, en concreto, de utilidad pública de la instalación fotovoltaica «FV Burgo de Osma II» de 2,5 mw e infraestructuras de evacuación, titularidad de «Start Right Now, S.L.», en el término municipal de El Burgo de Osma (Soria). Expte.: IE/FV/13-2020.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/14/html/BOCYL-D-14122021-34.do",
+      "datos": {
+        "nombre_proyecto": "FV Burgo De Osma II",
+        "numero_expediente_industria": "IE/FV/13-2020",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Start Right Now, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 2.5,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 20.0,
+        "gestor_red": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+        "municipio": "El Burgo De Osma",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-11-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga Autorización Administrativa Previa y declara Utilidad Pública para instalación fotovoltaica de 2,5 MW con infraestructuras de evacuación. Evaluación ambiental no obligatoria (superficie <10 ha, potencia <100 MW). Informes favorables del Ayuntamiento, I-DE y Confederación Hidrográfica del Duero. Instalación formada por 6.608 módulos solares de 380 Wp, inversor 2.5 MW, transformador 400/20.000 V, 2.500 kVA.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7203,
+        "output": 494
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOJA-20211214-0",
+      "boletin": "BOJA",
+      "ccaa_boletin": "Andalucía",
+      "fecha_publicacion": "20211214",
+      "titulo_original": "Anuncio de 24 de noviembre de 2021, de la Delegación del Gobierno de la Junta de Andalucía en Sevilla, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción realizada por la mercantil Inversiones Energy Madrid, S.L",
+      "url": "https://www.juntadeandalucia.es/boja/2021/238/39",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Burguillos-Guillena-Alcalá del Río",
+        "numero_expediente_industria": "PP. 3576/2021",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Inversiones Energy Madrid, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "AAU"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Burguillos, Guillena, Alcalá del Río",
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2021-11-24",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto sometido a información pública por solicitud de AAP y AAC. Simultáneamente se tramita solicitud de autorización ambiental unificada (AAU). Anuncio publicado en BOJA con referencia BOJA-20211214-0.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6365,
+        "output": 406
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOJA-20211214-1",
+      "boletin": "BOJA",
+      "ccaa_boletin": "Andalucía",
+      "fecha_publicacion": "20211214",
+      "titulo_original": "Anuncio de 26 de noviembre de 2021, de la Delegación del Gobierno de la Junta de Andalucía en Sevilla, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción realizada por la mercantil Inversiones Energy Madrid, S.L",
+      "url": "https://www.juntadeandalucia.es/boja/2021/238/42",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Burguillos-Guillena-Alcalá del Río",
+        "numero_expediente_industria": "PP. 3578/2021",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Inversiones Energy Madrid, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "AAU"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Burguillos, Guillena, Alcalá del Río",
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de sometimiento a información pública de solicitud de AAP y AAC por la Delegación del Gobierno de la Junta de Andalucía en Sevilla, fechado 26 de noviembre de 2021. El proyecto también solicita autorización ambiental unificada (AAU).",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6365,
+        "output": 410
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

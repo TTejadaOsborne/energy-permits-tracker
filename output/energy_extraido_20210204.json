@@ -1,0 +1,131 @@
+{
+  "fecha": "20210204",
+  "total": 3,
+  "energeticos": 0,
+  "descartados": 3,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 21308,
+    "output": 1495
+  },
+  "coste_usd": 0.02303,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-1648",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210204",
+      "titulo_original": "Resolución de 25 de enero de 2021, de la Dirección General de Política Energética y Minas, por la que se publica la capacidad asignada y disponible en los almacenamientos subterráneos básicos de gas natural para el período comprendido entre el 1 de abril de 2021 y el 31 de marzo de 2022.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-1648",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-01-25",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de publicación de capacidad asignada y disponible en almacenamientos subterráneos básicos de gas natural para el período 1 abril 2021 - 31 marzo 2022. No es un proyecto de generación renovable, almacenamiento de energía eléctrica, hidrógeno verde o infraestructura de red eléctrica. Es una resolución administrativa sobre infraestructura gasista (sector hidrocarburos).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6990,
+        "output": 360
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-1649",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210204",
+      "titulo_original": "Resolución de 15 de enero de 2021, de la Dirección General de Política Energética y Minas, por la que se otorga a Enagás Transporte SAU, autorización administrativa, aprobación del proyecto de ejecución y reconocimiento, en concreto, de utilidad pública para la ampliación de la posición 15.25 con ERM G-250 en el término municipal de Elche.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-1649",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2021-1649",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Enagás Transporte SAU",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Elche",
+        "provincia": "Alicante",
+        "comunidad_autonoma": "Comunidad Valenciana",
+        "fecha_resolucion": "2021-01-15",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que otorga autorización administrativa, aprobación del proyecto de ejecución y reconocimiento de utilidad pública para la ampliación de la posición 15.25 con ERM G-250 en instalaciones de gas natural (gasoducto). Este proyecto no es de energía renovable, almacenamiento energético, hidrógeno verde, data center o infraestructura de red eléctrica, sino de infraestructura de gas natural.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7055,
+        "output": 538
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-1650",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210204",
+      "titulo_original": "Resolución de 4 de agosto de 2020, de la Dirección General de Política Energética y Minas, por la que se certifica una familia de captadores solares, fabricados por Nobel International EAD.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-1650",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Nobel International EAD",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-08-04",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Certificación de familia de captadores solares (modelos Apollon CU 1500, 2000, 2600) fabricados por Nobel International EAD en Bulgaria. Certificación emitida por la Dirección General de Política Energética y Minas conforme a Orden IET/2366/2014. No se trata de un proyecto de instalación de generación eléctrica sino de certificación técnica de componentes/equipos solares térmicos. Los captadores certificados son para aplicaciones de calentamiento de aire con ciclo cerrado. Contraseñas de certificación: NPS-20019, NPS-20119, NPS-20219 con validez de 2 años desde la resolución.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7263,
+        "output": 597
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "fecha": "20220112",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 14758,
+    "output": 860
+  },
+  "coste_usd": 0.01525,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2022-483",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20220112",
+      "titulo_original": "Orden ICT/1527/2021, de 30 de diciembre, por la que se aprueban las bases reguladoras para el Programa de ayudas para la transformación digital y modernización de las entidades locales que forman parte de la Red de Destinos Turísticos Inteligentes, y se procede a su convocatoria correspondiente al ejercicio 2021, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-483",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta publicación es una Orden ministerial que aprueba bases reguladoras para un programa de ayudas para transformación digital de entidades turísticas locales en el marco del Plan de Recuperación, Transformación y Resiliencia. NO es la tramitación de un proyecto energético concreto, sino una convocatoria de subvenciones para modernización de destinos turísticos inteligentes.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7015,
+        "output": 340
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-12012022-21",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220112",
+      "titulo_original": "INFORMACIÓN pública, por iniciativa privada, relativa a la solicitud de autorización de uso excepcional de suelo rústico para el proyecto de renovación de una línea eléctrica a 132 kv, simple circuito ST San Millán-ST Vilecha y desmontaje de L/132 kv existente, en el término municipal de Ardón (León).",
+      "url": "https://bocyl.jcyl.es/html/2022/01/12/html/BOCYL-D-12012022-21.do",
+      "datos": {
+        "nombre_proyecto": "Renovación LAT 132 kV San Millán-Vilecha",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [
+          "LicObras"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST San Millán - ST Vilecha",
+        "tension_conexion_kv": 132,
+        "gestor_red": "i-DE",
+        "municipio": "Ardón",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Tramitación por iniciativa privada de autorización de uso excepcional de suelo rústico para renovación de línea eléctrica de simple circuito y desmontaje de línea existente. Información pública convocada por transcurrir más de un mes sin resolución municipal. Plazo de información pública: 20 días desde última publicación. Promotor: Carlos Herranz Marcos en representación de i-DE (CIF A-95075578). Domicilio: Madrid, calle Tomás Redondo, 1, 3ª planta, CP 28033. Procedimiento urbanístico conforme a Ley 5/1999 de Urbanismo de Castilla y León y Decreto 22/2004 de Reglamento de Urbanismo.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7743,
+        "output": 520
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

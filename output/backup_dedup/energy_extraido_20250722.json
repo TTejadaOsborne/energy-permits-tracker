@@ -1,0 +1,171 @@
+{
+  "fecha": "20250722",
+  "total": 22,
+  "energeticos": 22,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 22,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-15140",
+      "titulo_original": "Orden TED/776/2025, de 8 de julio, por la que se actualiza la Estrategia Nacional de Lucha Contra la Desertificación en los términos previstos en la Ley 43/2003, de 21 de noviembre, de Montes, y se aprueba su Plan de Implementación para el periodo comprendido entre 2025 y 2027.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15211",
+      "titulo_original": "Resolución de 8 de julio de 2025, de la Confederación Hidrográfica del Tajo, O.A., por la que se publica el Convenio de encomienda de gestión al Ayuntamiento de Riolobos, para la conservación, mantenimiento y explotación de un tramo de camino de servicio de la acequia XIII-46-3 para el acceso a la pedanía de Pajares de la Rivera, Riolobos (Cáceres).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15212",
+      "titulo_original": "Resolución de 7 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta de almacenamiento de energía La Farga Bess, de 148,379 MW, y para su infraestructura de evacuación, en la provincia de Girona».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15213",
+      "titulo_original": "Resolución de 7 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta eólica \"Los Sarmientos\", de 86,72 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15214",
+      "titulo_original": "Resolución de 10 de julio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Planta de almacenamiento con baterías Las Regañas, y su infraestructura de evacuación, en la provincia de Barcelona».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15215",
+      "titulo_original": "Resolución de 1 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Harbour Sevilla Manchuela 2, SL, de autorización administrativa previa de las modificaciones y autorización administrativa de construcción del parque fotovoltaico Magerit FV3, de 268,95 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Toledo.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15216",
+      "titulo_original": "Resolución de 1 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Sistemas Energéticos Urano, SLU, de autorización administrativa previa del parque eólico Sasamón, de 112,2 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Burgos y Palencia.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15217",
+      "titulo_original": "Resolución de 2 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía Inagotable de Kappa, SL, de autorización administrativa previa de las modificaciones y autorización administrativa de construcción del parque eólico Kappa, de 42 MW de potencia instalada, y de su infraestructura de evacuación, en diversos términos municipales de las provincias de Huesca y Lérida.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15218",
+      "titulo_original": "Resolución de 3 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía Inagotable de Iota, SL, de autorización administrativa previa de las modificaciones y autorización administrativa de construcción del parque eólico Iota, de 56 MW de potencia instalada, y de su infraestructura de evacuación, en diversos términos municipales de la provincia de Huesca.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-15219",
+      "titulo_original": "Resolución de 3 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía Inagotable de Órbita, SL, de autorización administrativa previa de las modificaciones y autorización administrativa de construcción del parque eólico Órbita, de 42 MW de potencia instalada, y de su infraestructura de evacuación (Huesca).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-9",
+      "titulo_original": "Orden 2867/2025, de 14 de julio, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se modifican los criterios de selección, se deja sin efecto la convocatoria recogida en el Capítulo II de la Orden 1428/2025, de 22 de abril, y se realiza una nueva convocatoria para el año 2025 de la ayuda a inversiones productivas en explotaciones agrarias vinculadas a contribuir a la mitigación-adaptación al cambio climático, uso eficiente de los recursos naturales y bienestar animal (Intervención 6841.1), de la ayuda a inversiones en modernización y/o mejora de explotaciones agrarias (Intervención 6841.2) y de la ayuda a inversiones no productivas en explotaciones agrarias vinculadas a la mitigación-adaptación al cambio climático, uso eficiente de los recursos naturales y biodiversidad (Intervención 6844), cofinanciadas por FEADER (FEADER), la Administración General del Estado y la Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-10",
+      "titulo_original": "Extracto de la Orden 2867/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, que modifica los criterios de selección, deja sin efecto la convocatoria de la Orden 1428/2025, y realiza nueva convocatoria para 2025 de la ayuda a inversiones no productivas en explotaciones agrarias vinculadas a la mitigación-adaptación al cambio climático, uso eficiente de los recursos naturales y biodiversidad (intervención 6844), cofinanciada por el FEADER, AGE y Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-11",
+      "titulo_original": "Extracto de la Orden 2867/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, que modifica los criterios de selección, deja sin efecto la convocatoria de la Orden 1428/2025, y realiza nueva convocatoria para 2025 de la ayuda a inversiones productivas en explotaciones agrarias vinculadas a contribuir a la mitigación-adaptación al cambio climático, uso eficiente de los recursos naturales y bienestar animal (intervención 6841.1), cofinanciada por FEADER, AGE y Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-12",
+      "titulo_original": "Extracto de la Orden 2867/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, que modifican los criterios de selección, deja sin efecto la convocatoria de la Orden 1428/2025, y realiza nueva convocatoria para 2025 de la ayuda a inversiones en modernización y/o mejora de explotaciones agrarias (intervención 6841.2), cofinanciada por FEADER, AGE y Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-29",
+      "titulo_original": "Resolución de 26 de febrero de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa de cierre de una planta de cogeneración, un centro de transformación y un centro de seccionamiento ubicados en la Crta. de Fresnedillas a Zarzalejo (M532), km 0,40, en el término municipal de Zarzalejo, solicitado por Edison Next Spain, S. L. U. Número expediente: 2024P929",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250722-30",
+      "titulo_original": "Acuerdo 53/2025, de 26 de junio, de la Comisión de Urbanismo de Madrid, relativo a la aprobación definitiva del Plan Especial de Infraestructuras del “Ramal de suministro de gas natural MOP5 Bar Collado Villalba-Moralzarzal”, en los términos municipales de Collado Villalba y Moralzarzal, promovido por Madrileña Red de Gas, S. A. U.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-22072025-16",
+      "titulo_original": "ORDEN MAV/787/2025, de 3 de julio, por la que se dicta la declaración de impacto ambiental del proyecto de parque eólico «Berg I» y sus infraestructuras de evacuación, en los términos municipales de Villaescusa La Sombría, Arraya de Oca, Cerratón de Juarros, Valle de Oca, Alcocero de Mola, Barrios de Colina y Arlanzón (Burgos), promovido por «Energía Eólica Berg, S.L.U.».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-22072025-17",
+      "titulo_original": "ORDEN MAV/788/2025, de 14 de julio, por la que se modifica la Orden de 30 de abril de 2008, de la Consejería de Medio Ambiente, por la que se concede autorización ambiental para la planta de fundición de aluminio ubicada en el término municipal de Fuentes de Valdepero (Palencia), titularidad de «Intelesoft, S.A.», como consecuencia de la revisión de la autorización ambiental para su adaptación a la nueva normativa de residuos y a las conclusiones de los documentos sobre mejoras técnicas disponibles (MTD) para la industria de metales no ferrosos. Expte.: 004-24-ROPA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-22072025-21",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública, en concreto, de la instalación de hibridación «Abrazadilla» e instalaciones eléctricas asociadas, en los términos municipales de Los Ausines, Revilla del Campo, Ibeas de Juarros y Carcedo de Burgos (Burgos), promovida por «Enerfín Renovables, S.L.U.». Expte.: PH/BU/001/2023.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25062803",
+      "titulo_original": "Autorización ambiental.- Resolución de 14 de julio de 2025, de la Dirección General de Sostenibilidad, por la que se da publicidad a la resolución por la que se otorga autorización ambiental integrada para el proyecto de planta de aprovechamiento de residuos agropecuarios para producción de abono or",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25081208",
+      "titulo_original": "Información pública.- Anuncio de 16 de julio de 2025 por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alcon 1\", ubicada en el término municipal de Alconera (Badajoz), e infraestructura de e",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250722-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

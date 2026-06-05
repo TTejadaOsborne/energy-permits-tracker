@@ -1,0 +1,171 @@
+{
+  "fecha": "20211209",
+  "total": 4,
+  "energeticos": 2,
+  "descartados": 2,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 23701,
+    "output": 1753
+  },
+  "coste_usd": 0.02597,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-20315",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20211209",
+      "titulo_original": "Orden TED/1374/2021, de 1 de diciembre, por la que se crea la División para el Seguimiento de la Aplicación de la Normativa Medioambiental en la Subsecretaría para la Transición Ecológica y el Reto Demográfico.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-20315",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-12-01",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta publicación es una Orden ministerial que crea la División para el Seguimiento de la Aplicación de la Normativa Medioambiental en la Subsecretaría para la Transición Ecológica y el Reto Demográfico. No se trata de la tramitación de un proyecto energético concreto, sino de una norma organizativa sobre supervisión de conformidad ambiental de políticas públicas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6966,
+        "output": 354
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-09122021-29",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211209",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y evaluación de impacto ambiental del parque eólico «Abrazadilla» y línea eléctrica de media tensión, promovido por «Enerfin Renovables, S.L.U.», en los términos municipales de Ibeas de Juarros y Castrillo del Val (Burgos). Expte.: PE/BU/014/2020.",
+      "url": "https://bocyl.jcyl.es/html/2021/12/09/html/BOCYL-D-09122021-29.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Abrazadilla",
+        "numero_expediente_industria": "PE/BU/014/2020",
+        "numero_expediente_medioambiente": "PE/BU/014/2020",
+        "promotor": "Enerfin Renovables, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 14.4,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Terrae",
+        "tension_conexion_kv": 32,
+        "gestor_red": null,
+        "municipio": "Ibeas de Juarros, Castrillo del Val",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "3 aerogeneradores GE-164 de 4,8 MW unitarios. Red subterránea de 30 kV para recogida de energía. Conexión en circuito a la Subestación Terrae 220/32 kV. La subestación se tramita conjuntamente con el expediente PE/BU/002/2019 del parque eólico Terrae y su línea de evacuación 220 kV SET Terrae–SET Carcedo. Sometido a evaluación de impacto ambiental ordinaria. Plazo de información pública: 30 días hábiles desde la publicación.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6408,
+        "output": 496
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20211209-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211209",
+      "titulo_original": "ANUNCIO de 9 de noviembre de 2021 de notificación a los titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y de retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211209/AnuncioL330-161121-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-11-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación a titulares desconocidos sobre requerimiento para cumplimiento de obligación de gestión de biomasa vegetal y retirada de especies arbóreas. Departamento competente: Consellería del Mar. DOG-20211209-0. No se trata de un expediente de tramitación de proyecto energético sino de un requerimiento administrativo de gestión forestal/ambiental.",
+        "confianza": 0.1,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5138,
+        "output": 537
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-21063727",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20211209",
+      "titulo_original": "Impacto ambiental.- Resolución de 29 de noviembre de 2021, de la Dirección General de Sostenibilidad, sobre modificación del proyecto de instalación solar fotovoltaica \"San Serván 6\" a ejecutar en el término municipal de Solana de los Barros (Badajoz), y cuyo promotor es FRV San Serván 6, SL. Expte.",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/2350o/21063727.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica San Serván 6",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21063727",
+        "promotor": "FRV San Serván 6, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Solana de los Barros",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-11-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución de modificación de proyecto de instalación solar fotovoltaica existente. Publicado en el Diario Oficial de Extremadura (DOE). Promotor: FRV San Serván 6, SL.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5189,
+        "output": 366
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

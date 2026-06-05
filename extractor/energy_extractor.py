@@ -175,8 +175,12 @@ TECNOLOGÍAS — mapeo de términos a clave
   "BESS"         → almacenamiento, baterías, BESS, sistema de almacenamiento energético
   "H2"           → hidrógeno, electrolizador, H2 verde, hidrógeno renovable
   "Data Center"  → centro de datos, CPD, data center, hyperscaler
-  "LAT"          → línea de alta tensión, LAT, LMAT, línea de muy alta tensión, línea de evacuación
-  "SET"          → subestación transformadora sin generación propia asociada
+  "LAT"          → línea de alta tensión. Dos casos:
+    a) REE o distribuidora (refuerzo/nueva infraestructura de red) → tecnologia="LAT", es_proyecto_energetico=true
+    b) Promotor privado evacuando su parque → tecnologia según el parque (Eólica/Fotovoltaica/etc), NO "LAT". Si la publicación solo trata la LAT de evacuación sin mencionar el parque al que sirve, marca es_proyecto_energetico=false y rellena expediente_proyecto_asociado si aparece algún número de expediente del parque
+  "SET"          → subestación transformadora. Dos casos:
+    a) REE o distribuidora (nueva SET o refuerzo de red) → tecnologia="SET", es_proyecto_energetico=true
+    b) Subestación elevadora interna de un parque privado → tecnologia según el parque (Eólica/Fotovoltaica/etc), NO "SET". Si la publicación solo trata la subestación sin mencionar el parque, marca es_proyecto_energetico=false y rellena expediente_proyecto_asociado si hay expediente del parque
   "hidráulica"   → central hidroeléctrica, minicentral, bombeo
   "termosolar"   → central termosolar, CSP, torre solar, cilindro-parabólico
   "biomasa"      → planta de biomasa, biogás, biometano
@@ -240,7 +244,8 @@ REGLAS CRÍTICAS DE EXTRACCIÓN
     ✓ Generación eléctrica renovable (eólica, solar FV, termosolar, hidráulica, biomasa, biogás, biometano)
     ✓ Almacenamiento de energía (BESS, baterías de gran escala)
     ✓ Hidrógeno verde o renovable (electrolizadores, plantas H2)
-    ✓ Infraestructura de red eléctrica de alta tensión (LAT ≥ 66kV, subestaciones de transporte)
+    ✓ Infraestructura de red de REE o distribuidora regulada (REE, Endesa Red, E-Distribución, Iberdrola Distribución, UFD, i-DE, Naturgy, Viesgo): nuevas LAT, refuerzos de red, ampliación de subestaciones, nuevas bahías
+    ✗ LAT o subestación privativa de evacuación de un promotor: si viene junto al parque → tecnologia=Eólica/FV/etc; si viene en publicación separada sin datos del parque → es_proyecto_energetico=false (rellena expediente_proyecto_asociado si hay referencia al expediente del parque)
     ✓ Centros de datos con impacto significativo en red
     ✓ Cogeneración industrial de alto rendimiento
 
@@ -263,7 +268,9 @@ REGLAS CRÍTICAS DE EXTRACCIÓN
     ✗ Centros de tratamiento de residuos no energéticos
     ✗ Insectos, proteínas, biotecnología no energética
 
-11. "nombre_proyecto": NUNCA uses como nombre del proyecto:
+11. "expediente_proyecto_asociado": rellena SOLO cuando la publicación trate una infraestructura de evacuación privada (LAT o subestación de promotor) en publicación separada al parque. Copia aquí el número de expediente del parque principal si aparece en el texto. En todos los demás casos: null
+
+12. "nombre_proyecto": NUNCA uses como nombre del proyecto:
     ✗ Solo una sigla o tecnología: "FV", "H2", "BESS", "Eólica" (sin nombre propio del proyecto)
     ✗ Solo un topónimo: "Madrid", "Sevilla", "Galicia" (sin nombre del proyecto)
     ✗ El nombre de una DG o consejería ("de la Dirección General de...")
@@ -291,6 +298,7 @@ SCHEMA_CAMPOS = """
   "comunidad_autonoma": string | null,
   "fecha_resolucion": string | null,
   "capacidad_mw_liberada": number | null,
+  "expediente_proyecto_asociado": string | null,
   "observaciones": string | null,
   "confianza": number,
   "es_proyecto_energetico": boolean

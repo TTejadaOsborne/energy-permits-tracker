@@ -1,0 +1,129 @@
+{
+  "fecha": "20251216",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-25792",
+      "titulo_original": "Resolución de 13 de noviembre de 2025, de la Dirección General de Planificación y Coordinación Energética, por la que se autoriza la modificación de la aprobación de tipo de aparato radiactivo de los equipos generadores de rayos X de la marca Thermo Fisher Scientific, para incluir el modelo ARL X'TRA Companion.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvEUTJYdnDLEPoVros'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-25793",
+      "titulo_original": "Resolución de 1 de diciembre de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del «Proyecto constructivo de infraestructuras de distribución de agua procedente de la desaladora de Oropesa al Consorcio de Agua del Pla de L'Arc (depósito de Teuleria), Castellón».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvFTFEEv3VqFnCVsaS'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251216-22",
+      "titulo_original": "Acuerdo de 10 de diciembre de 2025, del Consejo de Gobierno, por el que se aprueba el Plan de Emergencia Exterior de la Instalacion Industrial Repsol Technology Lab",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvGJLxS5SyAJJ9kFY3'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251216-23",
+      "titulo_original": "Acuerdo de 10 de diciembre de 2025, del Consejo de Gobierno, por el que se aprueba el Plan de Emergencia Exterior de la instalación industrial Brenntag Química, S. A. U.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvH5y3Vw715CBMRK9z'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20251216-24",
+      "titulo_original": "Orden 4621/2025, de 3 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se modifican las líneas 1 y 2 del Anexo II del Plan Estratégico de Subvenciones de la Consejería para el período 2024-2027, aprobado mediante Orden 396/2024, de 2 de febrero",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvHsqmcMM7TkQ984RN'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-1",
+      "titulo_original": "ORDEN MAV/1418/2025, de 4 de diciembre, por la que se extiende a la anualidad 2026 la línea de garantías «Mi primera vivienda».",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvJgDS9gkt3zNaCc6h'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-17",
+      "titulo_original": "ORDEN MAV/1419/2025, de 5 de diciembre, por la que se conceden los Premios Autonómicos Fuentes Claras para la sostenibilidad en municipios pequeños de Castilla y León, correspondientes al año 2025.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvKUqGKGDvozdG4Z6r'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-20",
+      "titulo_original": "ORDEN MAV/1421/2025, de 9 de diciembre, por la que se formula el informe ambiental estratégico de la 3.ª modificación de las Normas Subsidiarias y Complementarias del Planeamiento Municipal del Ámbito Provincial de Salamanca. Expte.: EAES/2025/081.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvLMRehRn5hFa9PGvV'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-22",
+      "titulo_original": "RESOLUCIÓN de 6 de diciembre de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de una planta de valorización de residuos para la producción de biometano en la parcela 291 del polígono 1, en el término municipal de El Cubo de Tierra del Vino (Zamora), promovido por «Biorig Energy Cubo del Vino-Zamora, S.L.». Expte.: EIAO/2024/ZA/010.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvMCmRNSUNippKEZEy'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-23",
+      "titulo_original": "RESOLUCIÓN de 9 de diciembre de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de acondicionamiento y mejora del depósito de rechazos (fase II) del C.T.R. de Arenas de San Pedro, en el término municipal de Arenas de San Pedro (Ávila), promovido por el Consorcio de Entes Locales Valle del Tiétar. Expte.: EIAO/2024/AV/006.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvN4NGfqokJKJa2uKi'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-16122025-24",
+      "titulo_original": "RESOLUCIÓN de 9 de diciembre de 2025, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de una planta de biometanización en la parcela 20105 del polígono 501, en el término municipal de Cantaracillo (Salamanca), promovido por «SPV Bio Salerno, S.L.U.». Expte.: EIAO/2025/SA/001.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvP2uUh6nMgDbH6tor'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20251216-0",
+      "titulo_original": "Resolución de 5 de diciembre de 2025, de la Dirección Gerencia de la Agencia Digital de Andalucía, por la que se anuncia convocatoria pública para cubrir puesto de trabajo, por el procedimiento de libre designación.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvPsFi2jJUe9W1aY3L'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20251216-0",
+      "titulo_original": "ANUNCIO de notificación a las personas titulares desconocidas, con dirección desconocida o notificación infructuosa para recordar el cumplimiento de la obligación da la gestión de la biomasa vegetal y de retirada de especies arbóreas.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvQetEbVAfRcKV4kkM'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251216027",
+      "titulo_original": "ECONOMÍA Y JUSTICIA RESOLUCIÓN de 12 de noviembre de 2025, de la Directora General de Energía y Minas, por la que se otorga la autorización administrativa previa y autorización de construcción de modificación del parque eólico “Bonastre 4” en los términos municipales de Azaila (Teruel), La Puebla de Híjar (Teruel) y La Zaida (Zaragoza).",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvRuYMfQdWJFcXdxdc'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20251216028",
+      "titulo_original": "RESOLUCIÓN de 1 de diciembre de 2025, del Servicio Provincial de Zaragoza del Departamento de Presidencia, Economía y Justicia, relativo a la autorización administrativa previa y de construcción, del proyecto Planta Solar Fotovoltaica “Mozota 2” de 500 kW en el término municipal de Mozota. Expediente: G- Z-2023-144.",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvSk9UPMjwFg33Sexj'}",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20251216-0",
+      "titulo_original": "Resolución de la Dirección General de Política Energética y Minas por la que se acepta el desistimiento formulado por Energías Alternativas Eólicas Riojanas, SL, de la solicitud de autorización administrativa previa para el proyecto de repotenciación del parque eólico \"Raposeras\"",
+      "datos": null,
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbCMvTYGMyqrvMxMuX4uQ'}",
+      "estado_validacion": "error"
+    }
+  ]
+}

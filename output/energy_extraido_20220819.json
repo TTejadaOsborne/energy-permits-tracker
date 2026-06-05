@@ -1,0 +1,133 @@
+{
+  "fecha": "20220819",
+  "total": 3,
+  "energeticos": 2,
+  "descartados": 1,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 21298,
+    "output": 1706
+  },
+  "coste_usd": 0.02386,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-19082022-23",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220819",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para la instalación solar fotovoltaica «Las Calaveras II» y su línea de evacuación, en las parcelas 10001 del polígono 6 y 5026 del polígono 5, en el término municipal de Geria (Valladolid).",
+      "url": "https://bocyl.jcyl.es/html/2022/08/19/html/BOCYL-D-19082022-23.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Las Calaveras II",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Lean Renovables de Calypso, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Geria",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de una solicitud de autorización de uso excepcional de suelo rústico tramitada por el Ayuntamiento de Geria conforme al artículo 307.3 del Decreto 22/2004. La información pública tiene plazo de veinte días hábiles. El expediente incluye la instalación solar fotovoltaica y su línea de evacuación en parcelas 10001 del polígono 6 y 5026 del polígono 5. No se trata de un procedimiento de autorización energética estatal (AAP/AAC/AAE) ni de DIA/EsIA ambiental.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5661,
+        "output": 455
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20220819-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20220819",
+      "titulo_original": "ANUNCIO de notificación a titulares conocidos y desconocidos para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220819/AnuncioL325-280722-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación sobre cumplimiento de obligación de gestión de biomasa vegetal y retirada de especies arbóreas. No constituye un proyecto de generación energética, almacenamiento o infraestructura de red eléctrica. Es una medida administrativa de gestión forestal.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5125,
+        "output": 502
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-22081365",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20220819",
+      "titulo_original": "Información pública. Expropiaciones.- Anuncio de 10 de agosto de 2022 por el que se someten a información pública la modificación de la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondientes a la instalación fotovoltaica \"Piñuela\", ubic",
+      "url": "https://doe.juntaex.es/pdfs/doe/2022/1600o/22081365.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Piñuela",
+        "numero_expediente_industria": "DOE-22081365",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Extremadura",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2022-08-10",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Modificación de solicitud de AAP y solicitud de reconocimiento de utilidad pública (DUP) sometidas a información pública. El título menciona únicamente que el proyecto se llama 'Piñuela' y corresponde a una instalación fotovoltaica ubicada en Extremadura, pero la localización exacta (municipio) no aparece en el texto disponible.",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10512,
+        "output": 749
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

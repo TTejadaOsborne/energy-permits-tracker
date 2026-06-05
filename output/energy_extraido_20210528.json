@@ -1,0 +1,211 @@
+{
+  "fecha": "20210528",
+  "total": 5,
+  "energeticos": 3,
+  "descartados": 2,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 32516,
+    "output": 2705
+  },
+  "coste_usd": 0.03683,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-8949",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210528",
+      "titulo_original": "Resolución de 26 de mayo de 2021, de la Secretaría de Estado de Energía, por la que se determinan los valores medios nacionales de la intensidad de las emisiones de gases de efecto invernadero durante el ciclo de vida en relación con la electricidad consumida por motocicletas y vehículos eléctricos.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8949",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-05-26",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución normativa que determina valores medios nacionales de intensidad de emisiones de GEI para electricidad consumida por vehículos eléctricos. No es un proyecto energético concreto sino una norma técnica/regulatoria de cálculo de emisiones de carbono (327 gCO2eq/kWh equivalente a 91 gCO2eq/MJ) aplicable a motocicletas y vehículos eléctricos. Se publica conforme a RD 235/2018 de 27 de abril.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6972,
+        "output": 657
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-8950",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210528",
+      "titulo_original": "Resolución de 12 de abril de 2021, de la Dirección General de Política Energética y Minas, por la que se certifican ocho sistemas solares pertenecientes a una misma familia, fabricados por Termicol Energía Solar, SL.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8950",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2021-8950",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Termicol Energía Solar, S.L.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Dos Hermanas",
+        "provincia": "Sevilla",
+        "comunidad_autonoma": "Andalucía",
+        "fecha_resolucion": "2021-04-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Certificación de ocho modelos de sistemas solares térmicos (paneles solares de agua caliente) fabricados por Termicol Energía Solar, S.L. Modelos certificados: S150 (SST-1821), S200X (SST-1921), S200 (SST-2021), S200P (SST-2121), S300 (SST-2221), S300PM (SST-2321), S300M (SST-2421), S200H (SST-2521). Certificación válida dos años desde la fecha de resolución. Esta resolución es de certificación de productos, no de tramitación de un proyecto de generación energética.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7297,
+        "output": 796
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-28052021-10",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210528",
+      "titulo_original": "RESOLUCIÓN de 13 de mayo de 2021, del Servicio Territorial de Industria, Comercio y Economía de León, por la que se concede autorización administrativa previa y autorización administrativa de construcción para una instalación de energía eléctrica con tecnología fotovoltaica, en el término municipal de Garrafe de Torío (León), proyecto de planta solar fotovoltaica de 49,9 mw y su infraestructura de evacuación. Expte.: FV-43/19/23284.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/28/html/BOCYL-D-28052021-10.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Riosequino",
+        "numero_expediente_industria": "FV-43/19/23284",
+        "numero_expediente_medioambiente": null,
+        "promotor": "NAVARRO GENERACIÓN, S.A.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.9,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Garrafe de Torío",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2021-05-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que concede Autorización Administrativa Previa y Autorización Administrativa de Construcción. Se tramitó simultáneamente la Declaración de Impacto Ambiental (DIA) favorable emitida el 7 de abril de 2021 por el Servicio Territorial de Medio Ambiente. El proyecto incluye infraestructura de evacuación. Hubo alegaciones de Ecologistas en Acción durante la información pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7217,
+        "output": 434
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-28052021-38",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210528",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para la ejecución de las obras de una instalación solar fotovoltaica de conexión a la red de 592,86 KWP en la parcela 205 del polígono 1, promovido por «Energías El Cardedal, S.L.U.», en el término municipal de Nieva (Segovia). Expte.: 39/2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/28/html/BOCYL-D-28052021-38.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Nieva",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Energías El Cardedal, S.L.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.593,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Otro"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Nieva",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística. Información pública abierta por 20 días desde la publicación en BOCyL (28 de mayo de 2021). Expediente municipal: 39/2021. Instalación en parcela 205, polígono 1, clasificada como Suelo Rústico Común. Tramitación conforme a artículos 307.3 y 432 del Reglamento de Urbanismo de Castilla y León (Decreto 22/2004).",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5856,
+        "output": 452
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080698",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210528",
+      "titulo_original": "Información pública.- Anuncio de 19 de mayo de 2021 por el que se somete a información pública la solicitud de reconocimiento de utilidad pública correspondiente a la instalación fotovoltaica \"Veracruz\", ubicada en el término municipal de Almendralejo (Badajoz), e infraestructura de evacuación de en",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1010o/21080698.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Veracruz",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-21080698",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Almendralejo",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-05-19",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública para reconocimiento de utilidad pública de instalación fotovoltaica Veracruz e infraestructura de evacuación. Publicado por la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5174,
+        "output": 366
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

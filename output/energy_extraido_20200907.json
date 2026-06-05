@@ -1,0 +1,55 @@
+{
+  "fecha": "20200907",
+  "total": 1,
+  "energeticos": 0,
+  "descartados": 1,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 7177,
+    "output": 318
+  },
+  "coste_usd": 0.00701,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-10319",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200907",
+      "titulo_original": "Orden ICT/820/2020, de 25 de agosto, por la que se establecen las bases reguladoras para la organización, gestión y concesión de los Premios Nacionales Industria Conectada 4.0.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10319",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación no relacionada con tramitación de proyectos energéticos concretos. Se trata de una Orden que establece bases reguladoras para los Premios Nacionales Industria Conectada 4.0, dirigida a reconocer empresas industriales con procesos de transformación digital.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7177,
+        "output": 318
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

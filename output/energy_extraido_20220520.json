@@ -1,0 +1,177 @@
+{
+  "fecha": "20220520",
+  "total": 4,
+  "energeticos": 4,
+  "descartados": 0,
+  "exitosos": 4,
+  "errores": 0,
+  "tokens": {
+    "input": 26301,
+    "output": 1907
+  },
+  "coste_usd": 0.02867,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2022-8299",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20220520",
+      "titulo_original": "Resolución de 8 de mayo de 2022, de la Dirección General de Política Energética y Minas, por la que se otorga a BioCantaber, SL, autorización administrativa previa para el parque eólico El Escudo de 151,2 MW, líneas subterráneas a 30kV, subestación eléctrica 30/220 kV y la línea aérea a 220 kV, en Campoo de Yuso, Luena, San Miguel de Aguayo y Molledo (Cantabria).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-8299",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico El Escudo",
+        "numero_expediente_industria": "BOE-A-2022-8299",
+        "numero_expediente_medioambiente": null,
+        "promotor": "BioCantaber, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 151.2,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación 30/220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Campoo de Yuso, Luena, San Miguel de Aguayo, Molledo",
+        "provincia": "Cantabria",
+        "comunidad_autonoma": "Cantabria",
+        "fecha_resolucion": "2022-05-08",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto incluye líneas subterráneas a 30kV, subestación eléctrica 30/220 kV y línea aérea a 220 kV para evacuación. Tramitado conforme a RD 1955/2000 y Ley 21/2013. Sometido a información pública (BOE 12-11-2019, BOC 15-11-2019). Condicionados técnicos de REE relativos a cruzamiento de línea de evacuación. REE emitió segundo informe sin oposición. Resolución corregida por Resolución de 27 de diciembre de 2022.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6983,
+        "output": 493
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-20052022-14",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220520",
+      "titulo_original": "RESOLUCIÓN de 9 de mayo de 2022, del Servicio Territorial de Industria, Comercio y Economía de Salamanca, relativa a la autorización administrativa previa de la instalación fotovoltaica de producción de energía eléctrica «PFV Villarino» conectada a red de distribución, en los términos municipales de Villarino de los Aires y Trabanca (Salamanca).Expte.: RI-18.183 ATCE-17.",
+      "url": "https://bocyl.jcyl.es/html/2022/05/20/html/BOCYL-D-20052022-14.do",
+      "datos": {
+        "nombre_proyecto": "PFV Villarino",
+        "numero_expediente_industria": "RI-18.183 ATCE-17",
+        "numero_expediente_medioambiente": "RI-18.183",
+        "promotor": "IBERENOVA PROMOCIONES, S.A.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "i-DE",
+        "municipio": "Villarino de los Aires y Trabanca",
+        "provincia": "Salamanca",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2022-05-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Instalación fotovoltaica conectada a red de distribución. Modificaciones principales: redistribución de paneles solares (reubicación de 23 trackers) para evitar zona sensible de arbolado joven; línea eléctrica de evacuación modificada a subterránea discurriendo íntegramente por Villarino de los Aires. Se recibieron 20 alegaciones de particulares y 1 del Ayuntamiento de Pereña de la Ribera durante información pública. Informe favorable de I-DE Redes Eléctricas condicionado a medidas de prevención en cruzamientos con líneas aéreas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7101,
+        "output": 496
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-20052022-22",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220520",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Palencia, por el que se somete a información pública la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, de evaluación de impacto ambiental y de autorización administrativa de construcción de la instalación de producción de energía eléctrica de origen eólico denominada «Monte Becerril», en los términos municipales de Becerril de Campos y Perales (Palencia). Expte.: 34/ATCE/3.",
+      "url": "https://bocyl.jcyl.es/html/2022/05/20/html/BOCYL-D-20052022-22.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Monte Becerril",
+        "numero_expediente_industria": "34/ATCE/3",
+        "numero_expediente_medioambiente": "34/ATCE/3",
+        "promotor": "Parque Eólico Monte Becerril, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA",
+          "AAC"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Becerril de Campos y Perales",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se somete a información pública documentación complementaria (estudio de avifauna y quiropterofauna, resultados del estudio de seguimiento de ciclo anual) aportada por el promotor. Plazo de alegaciones: 30 días hábiles desde la publicación del anuncio (10 de mayo de 2022).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5998,
+        "output": 415
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-20052022-23",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220520",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la documentación complementaria aportada en relación a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental de una instalación de producción de energía eléctrica, por tecnología fotovoltaica, y sus infraestructuras de evacuación, en los términos municipales de Castronuevo de Esgueva, Renedo de Esgueva, Tudela de Duero y Valladolid (Valladolid). Expte.: RI-49208; FV-2462.",
+      "url": "https://bocyl.jcyl.es/html/2022/05/20/html/BOCYL-D-20052022-23.do",
+      "datos": {
+        "nombre_proyecto": "FV Renedo GZ",
+        "numero_expediente_industria": "RI-49208",
+        "numero_expediente_medioambiente": "FV-2462",
+        "promotor": "Fotovoltaica Zarafot 4, S.L. / Renedo Renovables, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Renedo 220 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Castronuevo de Esgueva, Renedo de Esgueva, Tudela de Duero, Valladolid",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto fotovoltaico con infraestructuras de evacuación comunes. Documentación complementaria sometida a información pública relativa a modificación de proyectos de instalaciones de evacuación (Subestación Olmos de Esgueva 66/30 kV, LAAT 66 kV, Subestación Renedo Promotores 66/220 kV, Línea 220 kV y punto de medida). Plazo de información pública: 30 días desde publicación (3 de mayo de 2022).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6219,
+        "output": 503
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

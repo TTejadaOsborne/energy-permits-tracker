@@ -1,0 +1,172 @@
+{
+  "fecha": "20210426",
+  "total": 4,
+  "energeticos": 2,
+  "descartados": 2,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 28232,
+    "output": 2228
+  },
+  "coste_usd": 0.0315,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-6754",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210426",
+      "titulo_original": "Resolución de 19 de abril de 2021, de la Secretaría General de Industria y de la Pequeña y Mediana Empresa, por la que se publica el Convenio con la Fundación Escuela de Organización Industrial, F.S.P., para regular la financiación de las actuaciones ejecutadas en materia de prospectiva y estrategia industrial.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-6754",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Esta resolución publica un Convenio entre el Ministerio de Industria, Comercio y Turismo y la Fundación EOI, F.S.P., para regular la financiación de actuaciones en materia de prospectiva y estrategia industrial. NO es un proyecto de generación de energía renovable ni de infraestructura energética. Es un acto administrativo de cooperación institucional para financiar actividades de formación, investigación y análisis estratégico industrial.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6899,
+        "output": 359
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-6770",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210426",
+      "titulo_original": "Resolución de 12 de abril de 2021, de la Dirección General de Calidad y Evaluación Ambiental, de modificación de condiciones de la Resolución de 29 de noviembre de 2018, de la Dirección General de Biodiversidad y Calidad Ambiental, por la que se formula declaración de impacto ambiental sobre el proyecto \"Repotenciación de la línea aérea de transporte de energía eléctrica a 400 kV Aldeadávila-Arañuelo, Hinojosa-Almaraz y Aldeadávila-Hinojosa (Cáceres y Salamanca)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-6770",
+      "datos": {
+        "nombre_proyecto": "Repotenciación Línea Aérea 400 kV Aldeadávila-Arañuelo, Hinojosa-Almaraz y Aldeadávila-Hinojosa",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2021-6770",
+        "promotor": "Red Eléctrica de España S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "ModAAE",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": null,
+        "provincia": "Cáceres, Salamanca",
+        "comunidad_autonoma": "Castilla y León, Extremadura",
+        "fecha_resolucion": "2021-04-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Modificación de la Declaración de Impacto Ambiental aprobada por Resolución de 29 de noviembre de 2018. Se autoriza cambio de dispositivos salvapájaros de tipo espiral a tipo aspa (cadencia 7/14 metros) y dispositivos de doble cinta (tiras de neopreno) en cruzamientos con carreteras y ferrocarriles (cadencia 10/20 metros). La modificación se justifica por razones de seguridad laboral y mayor efectividad de los nuevos sistemas. Conformidad de la Dirección General de Patrimonio Natural y Política Forestal de Castilla y León y del Servicio Territorial de Medio Ambiente de Salamanca.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7005,
+        "output": 530
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOE-A-2021-6771",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210426",
+      "titulo_original": "Resolución de 12 de abril de 2021, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto \"Desmantelamiento de los grupos 1, 2, 3 y 4 de la central termoeléctrica de As Pontes en el TM de As Pontes de García Rodríguez (A Coruña)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-6771",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2021-6771",
+        "promotor": "Endesa Generación, S.A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "As Pontes de García Rodríguez",
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-04-12",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que formula Informe de Impacto Ambiental (DIA) favorable para el desmantelamiento y demolición de los grupos 1, 2, 3 y 4 de la central termoeléctrica de As Pontes. La central tenía 4 grupos de 350 MWe de potencia unitaria cada uno. El proyecto excluye la gestión del vertedero de cenizas, escorias y yesos, así como la remediación de suelos, que serán objeto de proyectos específicos. La instalación contaba con AAI vigente desde 2005.",
+        "confianza": 0.7,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7019,
+        "output": 803
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-26042021-19",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210426",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental de una planta fotovoltaica y su reconocimiento de utilidad pública, en el término municipal de Medina del Campo (Valladolid). Expte.: RI-49113, FV-2448.",
+      "url": "https://bocyl.jcyl.es/html/2021/04/26/html/BOCYL-D-26042021-19.do",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Aries Solar Medina del Campo",
+        "numero_expediente_industria": "RI-49113, FV-2448",
+        "numero_expediente_medioambiente": "RI-49113, FV-2448",
+        "promotor": "Planta FV111, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 43.11,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación IRINA Generación 220/30 kV",
+        "tension_conexion_kv": 220,
+        "gestor_red": "REE",
+        "municipio": "Medina del Campo",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto fotovoltaico de 41,99 MWp con infraestructura de evacuación a red de transporte. Incluye línea de evacuación de 30 kV, subestación transformadora 30/220 kV (50/60 MVA) y línea subterránea de 220 kV hacia SET Medina del Campo REE. El proyecto forma parte de una infraestructura común con otras dos instalaciones fotovoltaicas (Caléndula y Milano Solar). Sometido a información pública según artículos 55 de Ley 24/2013, 144 RD 1955/2000 y 36 de Ley 21/2013.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7309,
+        "output": 536
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

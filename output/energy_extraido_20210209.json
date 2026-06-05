@@ -1,0 +1,93 @@
+{
+  "fecha": "20210209",
+  "total": 2,
+  "energeticos": 1,
+  "descartados": 1,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 12845,
+    "output": 676
+  },
+  "coste_usd": 0.01298,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-1913",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210209",
+      "titulo_original": "Resolución de 2 de febrero de 2021, de ICEX España Exportación e Inversiones, E.P.E., por la que se publica el Convenio de colaboración con la Federación Española de Industrias de Alimentación y Bebidas, para la gestión de las ayudas relativas a la promoción de la internacionalización de la empresa española.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-1913",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de convenio de colaboración entre ICEX y FIAB para gestión de ayudas de internacionalización de empresa española. No se trata de un proyecto de infraestructura energética, sino de un acuerdo administrativo sobre subsidios.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6993,
+        "output": 306
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-09022021-21",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210209",
+      "titulo_original": "INFORMACIÓN pública a los efectos de competencia de la solicitud de autorización administrativa del parque eólico «Valdelanave Segunda fase», promovida por «Iberenova Promociones, S.A.», en el término municipal Muelas del Pan (Zamora). Expte.: RI 22513.",
+      "url": "https://bocyl.jcyl.es/html/2021/02/09/html/BOCYL-D-09022021-21.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Valdelanave Segunda Fase",
+        "numero_expediente_industria": "RI 22513",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Iberenova Promociones, S.A.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 36,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Muelas del Pan",
+        "provincia": "Zamora",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Información pública para la presentación de proyectos en competencia según artículo 7 del Decreto 189/1997. Plazo de un mes desde la publicación. 6 aerogeneradores. Coordenadas UTMZ29-ETRS89 proporcionadas.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5852,
+        "output": 370
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

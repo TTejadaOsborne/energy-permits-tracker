@@ -1,0 +1,213 @@
+{
+  "fecha": "20210506",
+  "total": 5,
+  "energeticos": 5,
+  "descartados": 0,
+  "exitosos": 5,
+  "errores": 0,
+  "tokens": {
+    "input": 34592,
+    "output": 2347
+  },
+  "coste_usd": 0.03706,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-06052021-30",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210506",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de la autorización administrativa previa y evaluación de impacto ambiental de la instalación de producción de energía eléctrica denominada «Parque Eólico Páramo de Sardón», a ubicar en los términos municipales de Baltanás, Castrillo de Onielo y Villaconancio (Palencia), y de sus infraestructuras de evacuación de alta tensión de 132 kv, a ubicar en los términos municipales de Baltanás, Castrillo de Onielo y Valle de Cerrato (Palencia). Expte.: NIE 5376.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/06/html/BOCYL-D-06052021-30.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Páramo de Sardón",
+        "numero_expediente_industria": "NIE 5376",
+        "numero_expediente_medioambiente": null,
+        "promotor": "IBEREN RENOVABLES, S.A.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 50,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Cerrato Promotores",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Baltanás, Castrillo de Onielo, Villaconancio",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque eólico de 10 aerogeneradores SIEMENS GAMESA SG-145 de 5 MW cada uno. Incluye subestación transformadora 132/30 kV denominada 'Páramo Sardón' ubicada en Baltanás, línea aérea de alta tensión de 132 kV (13.562 m total) hacia SET Cerrato Promotores 400/132 kV en Valle de Cerrato, e infraestructuras comunes para evacuación de múltiples plantas renovables. Presupuesto total aproximado: 33,8 millones de euros.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7356,
+        "output": 485
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-06052021-31",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210506",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Palencia, por el que se convoca al levantamiento de las actas previas a la ocupación forzosa de los bienes y derechos afectados por la instalación de producción de energía eléctrica por tecnología fotovoltaica «Sigma Solar 1» y su infraestructura de evacuación, en los términos municipales de Soto de Cerrato y Reinoso de Cerrato (Palencia), promovida por «Planta FV126, S.L.». Expte.: FV-963.",
+      "url": "https://bocyl.jcyl.es/html/2021/05/06/html/BOCYL-D-06052021-31.do",
+      "datos": {
+        "nombre_proyecto": "Planta Fotovoltaica Sigma Solar 1",
+        "numero_expediente_industria": "FV-963",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Planta FV126, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC",
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Soto de Cerrato",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-10-23",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de convocatoria para levantamiento de Actas Previas a la ocupación forzosa de bienes y derechos. La instalación también afecta el término municipal de Reinoso de Cerrato. Resolución otorga simultáneamente Autorización Administrativa Previa, aprueba Proyecto de Ejecución (Autorización de Construcción) y declara Utilidad Pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6313,
+        "output": 428
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21061292",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210506",
+      "titulo_original": "Energía solar.- Resolución de 15 de diciembre de 2020, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad IM2 Energía Solar Proyecto 9, SL, para la instalación fotovoltaica \"PSF IM2 Valencia de las Torres\", ubicada en el térmi",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/850o/21061292.pdf",
+      "datos": {
+        "nombre_proyecto": "PSF IM2 Valencia de las Torres",
+        "numero_expediente_industria": "DOE-21061292",
+        "numero_expediente_medioambiente": null,
+        "promotor": "IM2 Energía Solar Proyecto 9, SL",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Valencia de las Torres",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-12-15",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución otorgada por la Dirección General de Industria, Energía y Minas de la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura.",
+        "confianza": 0.78,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5184,
+        "output": 353
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21061274",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210506",
+      "titulo_original": "Energía solar.- Resolución de 27 de abril de 2021, de la Dirección General de Industria, Energía y Minas, por la que se declara, en concreto, de utilidad pública, la infraestructura de evacuación de energía eléctrica asociada a la instalación fotovoltaica \"P.S. IM2 Puebla de Sancho Pérez\", ubicada e",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/850o/21061274.pdf",
+      "datos": {
+        "nombre_proyecto": "Planta Solar IM2 Puebla de Sancho Pérez",
+        "numero_expediente_industria": "DOE-21061274",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "DUP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Puebla de Sancho Pérez",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-04-27",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que declara de utilidad pública la infraestructura de evacuación de energía eléctrica asociada a la instalación fotovoltaica. La información disponible es limitada al título de la publicación.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10558,
+        "output": 729
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-21080522",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20210506",
+      "titulo_original": "Información pública.- Anuncio de 21 de abril de 2021 por el que se somete a información pública el estudio de impacto ambiental del proyecto planta de generación fotovoltaica \"OPDE Brovales 3\", ubicada en el término municipal de Fuente de Cantos (Badajoz). Expte: IA 20/1347.",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/850o/21080522.pdf",
+      "datos": {
+        "nombre_proyecto": "Planta de Generación Fotovoltaica OPDE Brovales 3",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "IA 20/1347",
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "EsIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Fuente de Cantos",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-04-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de sometimiento a información pública del Estudio de Impacto Ambiental. Publicado en DOE con número de expediente DOE-21080522.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5181,
+        "output": 352
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

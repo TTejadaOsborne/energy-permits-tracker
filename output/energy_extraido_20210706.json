@@ -1,0 +1,133 @@
+{
+  "fecha": "20210706",
+  "total": 3,
+  "energeticos": 1,
+  "descartados": 2,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 21158,
+    "output": 1428
+  },
+  "coste_usd": 0.02264,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-11212",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210706",
+      "titulo_original": "Orden ICT/713/2021, de 29 de junio, por la que se establecen las bases reguladoras para la concesión de ayudas a proyectos de I+D+i en el ámbito de la industria conectada 4.0. (Activa_Financiación).",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-11212",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2021-11212",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-06-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Orden normativa que establece bases reguladoras para concesión de ayudas a proyectos de I+D+i en industria conectada 4.0. Esta es una convocatoria de subvenciones, no un proyecto energético concreto de tramitación ambiental o administrativa.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6949,
+        "output": 594
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2021-11213",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210706",
+      "titulo_original": "Resolución de 2 de julio de 2021, de la Secretaría General de Industria y de la Pequeña y Mediana Empresa, por la que se publica el Convenio con la Empresa Nacional de Innovación, S.M.E., SA, para el desarrollo de la línea de préstamos participativos establecida en la Ley 6/2000, de 13 de diciembre, por la que se aprueban medidas fiscales urgentes de estímulo al ahorro familiar y a la pequeña y mediana empresa.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-11213",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "BOE-A-2021-11213",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Ministerio de Industria, Comercio y Turismo (MINCOTUR) y Empresa Nacional de Innovación, S.M.E., SA (ENISA)",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Madrid",
+        "provincia": null,
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2021-07-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de Convenio entre MINCOTUR y ENISA para el desarrollo de línea de préstamos participativos destinada a empresas de base tecnológica. No constituye tramitación de un proyecto energético concreto, sino un instrumento de financiación para pymes. El texto está incompleto en la fuente proporcionada.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7193,
+        "output": 389
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-06072021-22",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210706",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de la autorización administrativa previa, la autorización de construcción y la evaluación del impacto ambiental, del parque fotovoltaico «Opde Trévago 2», en los términos municipales de Fuentestrún, Casatilruiz y Matalebreras (Soria), titularidad de «Planta Solar Opde 47, S.L.». Expte.: IE/FV/13-2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/07/06/html/BOCYL-D-06072021-22.do",
+      "datos": {
+        "nombre_proyecto": "Parque Fotovoltaico Opde Trévago 2",
+        "numero_expediente_industria": "IE/FV/13-2021",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Planta Solar Opde 47, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 30,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Trévago Promotores 220/30 kV",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Fuentestrún, Castilruiz, Matalebreras",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Plazo de información pública de 30 días. Potencia instalada de 39 MWp limitada a 30 MW por gestor de red. Evaluación de Impacto Ambiental (EsIA) tramitada conjuntamente con AAP y AAC. Proyecto visado nº VD00744-21A de 11/03/2021.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7016,
+        "output": 445
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

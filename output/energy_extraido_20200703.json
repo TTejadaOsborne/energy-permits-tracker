@@ -1,0 +1,131 @@
+{
+  "fecha": "20200703",
+  "total": 3,
+  "energeticos": 0,
+  "descartados": 3,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 19917,
+    "output": 1455
+  },
+  "coste_usd": 0.02175,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-7235",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200703",
+      "titulo_original": "Resolución de 22 de junio de 2020, de la Presidencia de la Agencia Estatal de Meteorología, por la que se publica el Convenio con la Universidad de A Coruña, para la realización de prácticas externas curriculares y extracurriculares del alumnado de titulaciones oficiales de grado y máster.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7235",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de convenio entre la Universidad de A Coruña y la Agencia Estatal de Meteorología (AEMET) para la realización de prácticas externas de estudiantes. No es un proyecto de generación, almacenamiento o infraestructura energética.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7265,
+        "output": 470
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOE-A-2020-7236",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200703",
+      "titulo_original": "Resolución de 18 de junio de 2020, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto \"Renovación de un quemadero de residuos materiales y embalajes potencialmente contaminados con explosivos en el término municipal de Merindad del Río Ubierna (Burgos)\".",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7236",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "BOE-A-2020-7236",
+        "promotor": "Expal Ordnance, S.A.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Merindad del Río Ubierna",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-06-18",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de renovación/reconstrucción de quemadero de residuos potencialmente contaminados con explosivos en fábrica de defensa (Expal). No es un proyecto de generación de energía renovable. Resolución de DIA favorable sobre evaluación ambiental simplificada.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7185,
+        "output": 365
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-20080561",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200703",
+      "titulo_original": "Información pública.- Anuncio de 18 de junio de 2020 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"Ampliación de potencia de 400 kVA a 630 kVA en CT-069 Juan Bautista, sito en c/ Juan Bautist",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1280o/20080561.pdf",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOE-20080561",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Otro",
+        "potencia_mw": 0.63,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "CT-069 Juan Bautista",
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Extremadura",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-06-18",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de ampliación de potencia de centro de transformación (CT) de 400 kVA a 630 kVA. Se trata de una modificación de instalación existente, no de un proyecto de generación renovable o infraestructura de red de transporte. Información pública en fase de Autorización Administrativa Previa.",
+        "confianza": 0.4,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5467,
+        "output": 620
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

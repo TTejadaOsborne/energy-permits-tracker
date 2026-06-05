@@ -1,0 +1,55 @@
+{
+  "fecha": "20200117",
+  "total": 1,
+  "energeticos": 0,
+  "descartados": 1,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 7157,
+    "output": 354
+  },
+  "coste_usd": 0.00714,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-728",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200117",
+      "titulo_original": "Resolución de 26 de diciembre de 2019, del Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria O.A., M.P., por la que se publica el Convenio con la Universidad Complutense de Madrid y la Universidad Autónoma de Madrid, para la distribución presupuestaria de los fondos concedidos para la realización del programa de actividades de I+D Tecnologías para la mejora de la sostenibilidad de procesos y productos basados en biomasa lignocelulósica, convocatoria de Tecnologías 2018.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-728",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de un convenio de distribución presupuestaria entre Universidad Complutense de Madrid, Universidad Autónoma de Madrid e INIA para la ejecución de un programa de I+D sobre tecnologías de biomasa lignocelulósica (P2018/EMT-4348 SUSTEC-CM). Se trata de un programa de investigación y desarrollo, no de un proyecto de instalación de generación energética o infraestructura de red.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7157,
+        "output": 354
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

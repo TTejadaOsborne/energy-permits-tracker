@@ -1,0 +1,252 @@
+{
+  "fecha": "20211014",
+  "total": 6,
+  "energeticos": 3,
+  "descartados": 3,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 42768,
+    "output": 3681
+  },
+  "coste_usd": 0.04894,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-14102021-32",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico común sin especial protección y licencia de construcción para la subestación denominada «SET Oliva 400/60 kw», junto con la línea de descarga de 400 kv con nombre «Línea de evacuación 400 kv», en el término municipal de La Mudarra (Valladolid). Expte.: 20/2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/10/14/html/BOCYL-D-14102021-32.do",
+      "datos": {
+        "nombre_proyecto": "Subestación Oliva 400/60 kV y Línea de Evacuación 400 kV",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "Andarrios Solar, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Autorización de uso excepcional de suelo rústico"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "SET Oliva",
+        "tension_conexion_kv": 400,
+        "gestor_red": null,
+        "municipio": "La Mudarra",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Subestación transformadora de energía 400/60 kV destinada a diferentes proveedores. Línea de descarga de 400 kV. Ocupa dos parcelas (P. 39 y P. 5222) con ocupación permanente de 281,71 m² y ocupación temporal de 1.126,84 m². Presupuesto: 10.509.651,17 €. Período de información pública de 20 días desde publicación en BOCyL.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6355,
+        "output": 455
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20211014-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "ACUERDO de 5 de octubre de 2021, de la Jefatura Territorial de A Coruña, por el que se somete a información pública la solicitud de autorización administrativa previa, la autorización administrativa de construcción, el estudio de impacto ambiental (EIA) y el proyecto de interés autonómico (PIA) del ",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211014/AnuncioG0596-061021-0006_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": "DOG-20211014-0",
+        "numero_expediente_medioambiente": "DOG-20211014-0",
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "EsIA",
+          "PIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "A Coruña",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-10-05",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Acuerdo de la Jefatura Territorial de A Coruña. Procedimiento que tramita simultáneamente autorización administrativa previa, autorización administrativa de construcción, estudio de impacto ambiental y proyecto de interés autonómico. Texto completo no disponible en la extracción.",
+        "confianza": 0.35,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5179,
+        "output": 564
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20211014-1",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "ANUNCIO de 17 de septiembre de 2021, de la Subdirección General de Gestión del Dominio Público Hidráulico, por el que se notifica la apertura del trámite de audiencia en el expediente de extinción por causa de caducidad del título concesional relativo al aprovechamiento hidroeléctrico de Novefontes,",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211014/AnuncioO143-300921-0001_es.html",
+      "datos": {
+        "nombre_proyecto": "Aprovechamiento Hidroeléctrico Novefontes",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOG-20211014-1",
+        "promotor": null,
+        "tecnologia": "Hidráulica",
+        "potencia_mw": null,
+        "tipo_permiso": "Concesion",
+        "permisos_adicionales": [],
+        "estado_permiso": "caducado",
+        "es_proyecto_fallido": true,
+        "motivo_fallo": "Extinción por causa de caducidad del título concesional",
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": "Galicia",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2021-09-17",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de apertura de trámite de audiencia en expediente de extinción de concesión hidroeléctrica. Se notifica la caducidad del título concesional del aprovechamiento de Novefontes. El texto disponible no contiene datos técnicos adicionales (potencia, ubicación precisa, etc.).",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10506,
+        "output": 731
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20211014-2",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "ANUNCIO de requerimiento de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211014/AnuncioL334-220921-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de requerimiento de gestión de biomasa vegetal y retirada de especies arbóreas emitido por la Consellería del Mar. No se trata de un proyecto de generación de energía renovable ni de infraestructura energética. Es un procedimiento administrativo de gestión ambiental/forestal.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5101,
+        "output": 514
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOG-20211014-3",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "ANUNCIO de notificación a personas titulares desconocidas del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211014/AnuncioL336-230921-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de notificación a personas titulares desconocidas sobre requerimiento de gestión de biomasa vegetal y retirada de especies arbóreas. Dependencia: Consellería del Mar. Expediente DOG-20211014-3. Texto completo no disponible.",
+        "confianza": 0.1,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5125,
+        "output": 493
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "DOE-21081293",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20211014",
+      "titulo_original": "Información pública.- Anuncio de 2 de septiembre de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa y la solicitud de reconocimiento de utilidad pública, correspondiente a la instalación fotovoltaica \"Don Juan\", ubicada en el término municipal de Al",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/1980o/21081293.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Don Juan",
+        "numero_expediente_industria": "DOE-21081293",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Al",
+        "provincia": "Badajoz",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2021-09-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Expediente tramitado por la Consejería para la Transición Ecológica y Sostenibilidad de Extremadura. El título está incompleto (municipio cortado: 'Al'). Se somete simultáneamente a información pública la solicitud de AAP y el reconocimiento de utilidad pública (DUP).",
+        "confianza": 0.65,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 10502,
+        "output": 924
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "fecha": "20240205",
+  "total": 7,
+  "energeticos": 4,
+  "descartados": 3,
+  "exitosos": 4,
+  "errores": 0,
+  "tokens": {
+    "input": 45738,
+    "output": 2834
+  },
+  "coste_usd": 0.04793,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCM-20240205-20",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "Orden 2318/2023, de 29 de diciembre, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se resuelve el reconocimiento de la subvención y el pago de las solicitudes presentadas al amparo del Acuerdo de 29 de noviembre de 2023, del Consejo de Gobierno, por el que se aprueban las normas reguladoras y se establece el procedimiento de concesión directa de las ayudas extraordinarias para compensar el incremento de costes en las explotaciones agrarias afectadas por la sequía en la Comunidad de Madrid en la campaña 2022-2023",
+      "url": "https://www.bocm.es/bocm-20240205-20",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2023-12-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de una Orden de concesión de ayudas extraordinarias para compensar incremento de costes en explotaciones agrarias afectadas por sequía. NO es un proyecto energético de generación, almacenamiento o infraestructura de red. Se trata de un procedimiento administrativo de subvenciones agrarias.",
+        "confianza": 1.0,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7408,
+        "output": 330
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCM-20240205-38",
+      "boletin": "BOCM",
+      "ccaa_boletin": "Madrid",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "Resolución de 13 de diciembre de 2023, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe de Impacto Ambiental, del proyecto del complejo medioambiental de tratamiento de biorresiduos agroindustriales, proyectado en las parcelas 69 y 70 (polígono 41), en el término municipal de Colmenar Viejo, promovido por Prezero Gestión De Residuos, S. A. (antes Cespa Gestión de Residuos, S. A.); Enagás Renovables, S. L. U., y Agbar, S. L. (expediente: 10-IPPC-00011.4/2022)",
+      "url": "https://www.bocm.es/bocm-20240205-38",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "10-IPPC-00011.4/2022",
+        "promotor": "Prezero Gestión de Residuos, S.A. (antes Cespa Gestión de Residuos, S.A.), Enagás Renovables, S.L.U., Agbar, S.L.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Colmenar Viejo",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Madrid",
+        "fecha_resolucion": "2023-12-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que hace público el Informe de Impacto Ambiental de un complejo medioambiental de tratamiento de biorresiduos agroindustriales. El proyecto no es energético en sentido estricto: es un centro de tratamiento de residuos sin generación de energía renovable o infraestructura de red eléctrica como objetivo principal. Aunque uno de los promotores (Enagás Renovables) sugiere posible aprovechamiento energético, el objeto del expediente es la gestión de residuos.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 6667,
+        "output": 461
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-05022024-13",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "RESOLUCIÓN de 29 de enero de 2024, de la Dirección General de Infraestructuras y Sostenibilidad Ambiental, por la que se dicta la declaración de impacto ambiental del proyecto de ampliación de una granja porcina en fase I ubicada en la parcela 5.056 del polígono 5, en el término municipal de Pinarejos (Segovia).",
+      "url": "https://bocyl.jcyl.es/html/2024/02/05/html/BOCYL-D-05022024-13.do",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "074-20MSSG-EIAO",
+        "promotor": "CAMPILLODOS, S.L.",
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [
+          "AAI"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Pinarejos",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2024-01-29",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de ampliación de granja porcina en fase I (explotación ganadera). Sometido a evaluación de impacto ambiental ordinaria bajo la Ley 21/2013 y a autorización ambiental integrada bajo RD Legislativo 1/2016. Declaración de impacto ambiental favorable.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7372,
+        "output": 376
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-05022024-28",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico y licencia ambiental, para la planta solar fotovoltaica «PSF H2 SUN» de 6,57 MWP/6 MWN, en el término municipal de Ciguñuela (Valladolid). Expte.: 81/2023.",
+      "url": "https://bocyl.jcyl.es/html/2024/02/05/html/BOCYL-D-05022024-28.do",
+      "datos": {
+        "nombre_proyecto": "PSF H2 SUN",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "81/2023",
+        "promotor": "Foce Desarrollos, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 6.0,
+        "tipo_permiso": "AUESR",
+        "permisos_adicionales": [
+          "Licencia ambiental"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Ciguñuela",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Planta solar fotovoltaica de 6,57 MWp/6 MWn. Sometida a información pública por 20 días hábiles conforme a Art. 307 del Reglamento de Urbanismo de CyL y Art. 28.1 y 2 de la Ley de Prevención Ambiental de CyL. Afecta a 8 parcelas en polígono 004. Se menciona línea eléctrica asociada. Expediente consultable en sede electrónica del Ayuntamiento.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6245,
+        "output": 449
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1704185139163200034",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "Anuncio de 21/12/2023 , de la Delegación Provincial de Desarrollo Sostenible de Ciudad Real, por el que se somete a información pública la solicitud de autorización administrativa previa y de reconocimiento en concreto de utilidad pública de la planta de energía solar fotovoltaica de 4,50 MWn y 4,89",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1704185139163200034",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Alcoba Siros",
+        "numero_expediente_industria": "13270209259",
+        "numero_expediente_medioambiente": null,
+        "promotor": "FV Biskek, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 4.89,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Motilla del Palancar",
+        "provincia": "Cuenca",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": "2023-12-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Solicitud sometida a información pública de autorización administrativa previa y reconocimiento de utilidad pública. Potencia nominal 4,50 MWn con potencia máxima 4,89 MW.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5829,
+        "output": 376
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOCM-1698404864677320065",
+      "boletin": "DOCM",
+      "ccaa_boletin": "Castilla-La Mancha",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "Anuncio de 26/10/2023 , de la Delegación Provincial de Desarrollo Sostenible de Guadalajara, para información pública del proyecto de planta solar fotovoltaica hibridada con central hidroeléctrica CH Baides de 700 kWn-828 kWp en Matillas (Guadalajara), a efectos de la autorización administrativa pre",
+      "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1698404864677320065",
+      "datos": {
+        "nombre_proyecto": "Planta Solar Fotovoltaica Hibridada con Central Hidroeléctrica CH Baides",
+        "numero_expediente_industria": "2022PROD004",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Salto de la Vila, S.L.",
+        "tecnologia": "FV+Hidráulica",
+        "potencia_mw": 0.828,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [
+          "AAP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Matillas",
+        "provincia": "Guadalajara",
+        "comunidad_autonoma": "Castilla-La Mancha",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto híbrido de planta solar fotovoltaica (828 kWp) combinada con central hidroeléctrica (700 kWn). Anuncio de información pública para trámite de autorización administrativa previa. Publicado en DOCM el 05/02/2024 con fecha de documento 26/10/2023.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5823,
+        "output": 412
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOG-20240205-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20240205",
+      "titulo_original": "ANUNCIO de 23 de enero de 2024, de la Jefatura Territorial de Ourense, por el que se notifica a los interesados la convocatoria para la redacción de actas previas a la ocupación de bienes y derechos afectados por la instalación del parque eólico Serra do Faro (fase I) (expediente IN661A 2011 02/3-AT",
+      "url": "https://www.xunta.gal/dog/Publicados/2024/20240205/AnuncioG0692-240124-0003_es.html",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Serra do Faro Fase I",
+        "numero_expediente_industria": "IN661A 2011 02/3-AT",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "en_tramitacion",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "San Cristovo de Cea, Piñor",
+        "provincia": "Ourense",
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Convocatoria para la redacción de actas previas a la ocupación de bienes y derechos afectados por el parque eólico. Notificación por comparecencia a titulares de fincas afectadas. Plazo de comparecencia: 10 días desde la publicación en el TEU del BOE. Acuerdo de convocatoria de 28 de diciembre de 2023. Acta previas programada para 28.2.2024 en los ayuntamientos afectados.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6394,
+        "output": 430
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

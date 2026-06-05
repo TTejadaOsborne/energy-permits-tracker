@@ -1,0 +1,97 @@
+{
+  "fecha": "20200115",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 13792,
+    "output": 1013
+  },
+  "coste_usd": 0.01509,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-15012020-11",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200115",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y declaración de impacto ambiental del parque eólico «Hazapierna», en los términos municipales de Nepas, Viana de Duero y Coscurita (Soria). Expte.: 10.114.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/15/html/BOCYL-D-15012020-11.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Hazapierna",
+        "numero_expediente_industria": "10.114",
+        "numero_expediente_medioambiente": "10.114",
+        "promotor": "Green Capital Power, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 49.5,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Hazapierna",
+        "tension_conexion_kv": 132,
+        "gestor_red": null,
+        "municipio": "Nepas, Viana de Duero, Coscurita",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque formado por 11 aerogeneradores GE 4.8-158 o similar de 4,5 MW unitarios. Subestación de transformación 30/132 kV con capacidad de 60 MVA. Línea de evacuación tramitada en expediente aparte (IE/AT/64-2019). Plazo de resolución: 3 meses desde recepción de DIA. Silencio administrativo desestimatorio.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6886,
+        "output": 447
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-15012020-12",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200115",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa y declaración de impacto ambiental para la instalación de una línea eléctrica aérea de alta tensión 132 kv para evacuación de la energía eléctrica entre SET «Hazapierna» y SET «Medinaceli II», subestación «Medinaceli II» 400/132 kv de interconexión con la SET «Medinaceli», en los términos municipales de Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón y Medinaceli (Soria). Expte.: IE/AT/64-2019.",
+      "url": "https://bocyl.jcyl.es/html/2020/01/15/html/BOCYL-D-15012020-12.do",
+      "datos": {
+        "nombre_proyecto": "Línea Eléctrica Aérea 132 kV Hazapierna-Medinaceli II",
+        "numero_expediente_industria": "IE/AT/64-2019",
+        "numero_expediente_medioambiente": "IE/AT/64-2019",
+        "promotor": "GREEN CAPITAL POWER, S.L.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": 99,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Medinaceli II",
+        "tension_conexion_kv": 132,
+        "gestor_red": "Red Eléctrica de España",
+        "municipio": "Nepas, Coscurita, Soliedra, Momblona, Morón de Almazán, Almaluez, Taroda, Arcos de Jalón, Medinaceli",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Línea aérea de alta tensión 132 kV de simple circuito con longitud aproximada de 46.081 metros. Origen en SET Hazapierna (conexión de parques eólicos Hazapierna y Praderas Altas) y final en SET Medinaceli II de nueva construcción. Subestación Medinaceli II 400/132/33 kV con transformador de 120 MVA para interconexión con SET Medinaceli (Red Eléctrica de España). Presupuesto total: 8.201.292,23 €. Plazo de resolución: 3 meses desde recepción de DIA.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6906,
+        "output": 566
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

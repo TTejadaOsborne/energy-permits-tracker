@@ -1,0 +1,55 @@
+{
+  "fecha": "20200923",
+  "total": 1,
+  "energeticos": 0,
+  "descartados": 1,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 5458,
+    "output": 545
+  },
+  "coste_usd": 0.00655,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "DOG-20200923-0",
+      "boletin": "DOG",
+      "ccaa_boletin": "Galicia",
+      "fecha_publicacion": "20200923",
+      "titulo_original": "RESOLUCIÓN de 16 de septiembre de 2020 por la que se da publicidad de la resolución por la que se conceden las subvenciones, en régimen de concurrencia no competitiva, a proyectos de energía solar fotovoltaica, dirigidas a particulares, para el cumplimiento de lo dispuesto en el artículo 10 de las b",
+      "url": "https://www.xunta.gal/dog/Publicados/2020/20200923/AnuncioG0474-160920-0001_es.html",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "otro",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Galicia",
+        "fecha_resolucion": "2020-09-16",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicidad de resolución de otorgamiento de subvenciones para proyectos de energía solar fotovoltaica en régimen de concurrencia no competitiva dirigidas a particulares. Esta es una convocatoria/programa de ayudas, NO un proyecto energético concreto sujeto a tramitación ambiental o administrativa de generación.",
+        "confianza": 0.3,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 5458,
+        "output": 545
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

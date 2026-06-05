@@ -1,0 +1,95 @@
+{
+  "fecha": "20200512",
+  "total": 2,
+  "energeticos": 2,
+  "descartados": 0,
+  "exitosos": 2,
+  "errores": 0,
+  "tokens": {
+    "input": 14802,
+    "output": 1071
+  },
+  "coste_usd": 0.01613,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-12052020-10",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200512",
+      "titulo_original": "RESOLUCIÓN de 9 de marzo de 2020, del Servicio Territorial de Industria, Comercio y Economía de Burgos, por la que se otorga la autorización administrativa, se declara la utilidad pública y se autoriza la ejecución de la renovación de la línea eléctrica de 132 kv ST P.I. Salas, ST Gete, en los términos municipales de Salas de los Infantes, Hacinas, Villanueva de Carazo y Pinilla de los Barruecos (Burgos). Expte.: ATLI/28.879.",
+      "url": "https://bocyl.jcyl.es/html/2020/05/12/html/BOCYL-D-12052020-10.do",
+      "datos": {
+        "nombre_proyecto": "Renovación Línea 132kV ST P.I. Salas - ST Gete",
+        "numero_expediente_industria": "ATLI/28.879",
+        "numero_expediente_medioambiente": null,
+        "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+        "tecnologia": "LAT/SET",
+        "potencia_mw": null,
+        "tipo_permiso": "AAE",
+        "permisos_adicionales": [
+          "DUP"
+        ],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "ST P.I. Salas y ST Gete",
+        "tension_conexion_kv": 132,
+        "gestor_red": "Iberdrola Distribución",
+        "municipio": "Salas de los Infantes, Hacinas, Villanueva de Carazo, Pinilla de los Barruecos",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-03-09",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de renovación completa de línea eléctrica de 132 kV entre dos subestaciones. Incluye desmontaje de línea existente y construcción de nueva línea sobre mismo trazado. Información pública publicada en BOCYL de 30 de octubre de 2019 y en BOP y Diario de Burgos de 4 y 12 de noviembre de 2019. Informes favorables de Servicios Territoriales de Fomento y Medio Ambiente, Demarcación de Carreteras, Telefónica y Confederación Hidrográfica del Duero. Sin alegaciones durante período de información pública.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7442,
+        "output": 543
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-12052020-11",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200512",
+      "titulo_original": "RESOLUCIÓN de 21 de abril de 2020, del Servicio Territorial de Industria, Comercio y Economía de Burgos, por la que se modifica la autorización administrativa, autorización administrativa previa, del parque eólico «La Huesa», ubicado en el término municipal de Isar, y de sus instalaciones eléctricas asociadas en los términos municipales de Isar, Las Quintanillas, Rabé de las Calzadas y Estépar (Burgos), promovido por «Peache Energías Renovables, S.A.». Expte.: PE/BU/026/2002.",
+      "url": "https://bocyl.jcyl.es/html/2020/05/12/html/BOCYL-D-12052020-11.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico La Huesa",
+        "numero_expediente_industria": "PE/BU/026/2002",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Peache Energías Renovables, S.A.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 18,
+        "tipo_permiso": "ModAAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": "REE",
+        "municipio": "Isar",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2020-04-21",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que modifica la autorización administrativa previa (AAP) otorgada el 18 de junio de 2007. La modificación reduce la potencia de la original y cambia el modelo de aerogenerador a 4 unidades Siemens Gamesa de 4,5 MW unitarios (107,5 m altura, 145 m diámetro rotor). Tras información pública en junio 2019, se obtiene conformidad de la Delegación Territorial (21 de noviembre de 2019). Red Eléctrica de España emite informe favorable de acceso y conexión para 18 MW (19 de marzo de 2020). El proyecto se localiza en los términos municipales de Isar, Las Quintanillas, Rabé de las Calzadas y Estépar (Burgos). Se requiere autorización de la Comisión Territorial de Patrimonio Cultural.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7360,
+        "output": 528
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

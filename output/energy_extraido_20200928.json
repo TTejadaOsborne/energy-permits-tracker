@@ -1,0 +1,173 @@
+{
+  "fecha": "20200928",
+  "total": 4,
+  "energeticos": 3,
+  "descartados": 1,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 26060,
+    "output": 1592
+  },
+  "coste_usd": 0.02722,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-11274",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200928",
+      "titulo_original": "Resolución de 16 de septiembre de 2020, de la Confederación Hidrográfica del Guadiana, O.A., por la que se establece el procedimiento para el pago por vía electrónica de determinadas tasas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-11274",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-09-16",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución administrativa de carácter general que establece el procedimiento para pago electrónico de tasas gestionadas por la Confederación Hidrográfica del Guadiana. No corresponde a un proyecto energético concreto, sino a normativa de procedimiento administrativo y tributario. Menciona cánones relacionados con aprovechamientos hidroeléctricos (tasa 633) pero en contexto de recaudación, no de tramitación de un proyecto específico.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7362,
+        "output": 364
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-28092020-50",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200928",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Burgos, por el que se convoca al levantamiento de las actas previas a la ocupación forzosa de los bienes y derechos afectados por el parque eólico «La Loma» y sus instalaciones eléctricas asociadas, en el término municipal de Valle de Santibáñez (Burgos), promovido por «Estudios y Proyectos Pradamap, S.L.». Expte.: PE/BU/018/2002.",
+      "url": "https://bocyl.jcyl.es/html/2020/09/28/html/BOCYL-D-28092020-50.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico La Loma",
+        "numero_expediente_industria": "PE/BU/018/2002",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Estudios y Proyectos Pradamap, S.L.",
+        "tecnologia": "Eólica",
+        "potencia_mw": null,
+        "tipo_permiso": "LAP",
+        "permisos_adicionales": [
+          "AAP",
+          "AAC",
+          "DUP"
+        ],
+        "estado_permiso": "en_tramitacion",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Valle de Santibáñez",
+        "provincia": "Burgos",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": "2019-11-05",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Convocatoria al levantamiento de actas previas a la ocupación forzosa de bienes y derechos afectados. Resolución de 5 de noviembre de 2019 (BOCyL 26/11/2019, n.º 228) otorgó autorización administrativa de construcción y declaró la utilidad pública. Acto previsto para 14 de octubre de 2020 en el Ayuntamiento de Valle de Santibáñez. Beneficiario del expediente: Estudios y Proyectos Pradamap, S.L.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7777,
+        "output": 478
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20061834",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200928",
+      "titulo_original": "Impacto ambiental.- Resolución de 22 de septiembre de 2020, de la Dirección General de Sostenibilidad, por la que se formula valoración ambiental de la modificación del proyecto de instalación solar fotovoltaica \"Augusto\" e infraestructura de evacuación asociada, cuya promotora es Enel Green Power E",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1880o/20061834.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Augusto",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "DOE-20061834",
+        "promotor": "Enel Green Power",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "DIA",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-09-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución que formula valoración ambiental de modificación del proyecto de instalación solar fotovoltaica e infraestructura de evacuación asociada. Publicada en el Diario Oficial de Extremadura (DOE).",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5462,
+        "output": 342
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20080893",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200928",
+      "titulo_original": "Información pública.- Anuncio de 13 de agosto de 2020 por el que se somete a información pública la solicitud de autorización administrativa previa, correspondiente a la instalación fotovoltaica \"Villar de Plasencia\", ubicada en el término municipal Villar de Plasencia (Cáceres), e infraestructura d",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1880o/20080893.pdf",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Villar de Plasencia",
+        "numero_expediente_industria": "DOE-20080893",
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Villar de Plasencia",
+        "provincia": "Cáceres",
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-08-13",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Anuncio de información pública de la solicitud de Autorización Administrativa Previa para instalación fotovoltaica ubicada en el término municipal de Villar de Plasencia (Cáceres). Expediente tramitado por la Consejería para la Transición Ecológica y Sostenibilidad. Se menciona infraestructura asociada (posiblemente LAT de evacuación) pero no se especifica en el título disponible.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5459,
+        "output": 408
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

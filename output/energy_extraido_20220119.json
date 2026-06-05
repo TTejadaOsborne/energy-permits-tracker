@@ -1,0 +1,55 @@
+{
+  "fecha": "20220119",
+  "total": 1,
+  "energeticos": 1,
+  "descartados": 0,
+  "exitosos": 1,
+  "errores": 0,
+  "tokens": {
+    "input": 5793,
+    "output": 404
+  },
+  "coste_usd": 0.00625,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-19012022-28",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20220119",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico para la instalación fotovoltaica conectada a red de alta tensión y centro de transformación de 1000 kwa para producción de energía eléctrica de 991,44 kwp con 9 inversores de 1000 kw en la parcela 29 del polígono 805, Villavieja del Cerro, en el término municipal de Tordesillas (Valladolid). Expte.: 1112/2020.",
+      "url": "https://bocyl.jcyl.es/html/2022/01/19/html/BOCYL-D-19012022-28.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Fotovoltaica Villavieja del Cerro",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": "INVERSIONES FERNÁNDEZ HIGUERA, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 0.99144,
+        "tipo_permiso": "Otro",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Tordesillas",
+        "provincia": "Valladolid",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Autorización de uso excepcional en suelo rústico según artículo 307.3 del Reglamento de Urbanismo de Castilla y León. Información pública por 20 días desde publicación en BOCyL. Centro de transformación de 1000 kVA con 9 inversores de 100 kW cada uno. Expediente municipal 1112/2020.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5793,
+        "output": 404
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

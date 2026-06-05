@@ -1,0 +1,80 @@
+{
+  "fecha": "20250715",
+  "total": 9,
+  "energeticos": 9,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 9,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-14685",
+      "titulo_original": "Resolución de 2 de julio de 2025, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 8 de junio de 2025, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación, con tres nuevas posiciones, de la subestación Aguayo 400 kV, en Molledo (Cantabria).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250715-41",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto para la reforma de 1 línea aérea de 15kV en polígono 13, próximo a planta RCD, y Ctra. M-229, km 4, en el término municipal de Arganda del Rey, solicitada por Unión Fenosa Distribución, S. A.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250715-43",
+      "titulo_original": "Acuerdo 56/2025, de 26 de junio, de la Comisión de Urbanismo de Madrid, relativo a la aprobación definitiva del Plan Especial de Infraestructuras del «PEI PFOT-183 tramo en la Comunidad de Madrid de línea de alta tensión 220 kv “ST Hojarasca-ST Henares”», en los términos municipales de Anchuelo y Santorcaz, promovido por Mosquetón Solar, S. L., Obenque Solar, S. L., y Cruceta Solar, S. L.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15072025-7",
+      "titulo_original": "ORDEN MAV/747/2025, de 10 de julio, por la que se resuelve la convocatoria de subvenciones destinadas al alquiler de vivienda.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15072025-10",
+      "titulo_original": "ORDEN MAV/741/2025, de 7 de julio, por la que se modifica la Orden FYM/948/2012, de 22 de octubre, relativa a la solicitud de modificación sustancial n.º 2, formulada por «Cementos Portland Valderrivas, S.A.» para la coincineración de residuos no peligrosos, más de 100 toneladas/día, en las instalaciones, ubicadas en el término municipal de Venta de Baños (Palencia), como consecuencia de la modificación no sustancial 27 (MNS 27). Expte.: 020-25-MNSPA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-15072025-12",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto denominado «LAT 132 kV Perogordo - Valverde del Majano», en los términos municipales de Segovia y Valverde del Majano (Segovia). Expte.: 40-ATLI-14718.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250715-0",
+      "titulo_original": "Resolución de 9 de julio de 2025, de la Dirección Gerencia de la Agencia Andaluza de la Energía, por la que se hace pública la relación de subvenciones concedidas al amparo de la resolución que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250715-0",
+      "titulo_original": "ANUNCIO de notificación en materia de ejecución subsidiaria de gestión de la biomasa.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250715-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "fecha": "20200629",
+  "total": 3,
+  "energeticos": 3,
+  "descartados": 0,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 19598,
+    "output": 1260
+  },
+  "coste_usd": 0.02072,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOCYL-D-29062020-22",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200629",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa del parque eólico denominado «Barrios de Gordón», en los términos municipales de La Pola de Gordón, Carrocera y La Robla (León). Expte.: PE-226/2019/23451.",
+      "url": "https://bocyl.jcyl.es/html/2020/06/29/html/BOCYL-D-29062020-22.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Barrios de Gordón",
+        "numero_expediente_industria": "PE-226/2019/23451",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Naturgy Renovables, S.L.U.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 49.92,
+        "tipo_permiso": "IP",
+        "permisos_adicionales": [],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "La Pola de Gordón, Carrocera, La Robla",
+        "provincia": "León",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "12 aerogeneradores de 4.160 kW de potencia nominal unitaria. Presupuesto total: 47.261.914,14 €. Plazo para presentación de proyectos en competencia: UN MES desde la publicación del anuncio (8 de junio de 2020). Documentación publicada en Portal de Energía y Minería de Castilla y León.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6667,
+        "output": 415
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-29062020-23",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20200629",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración de impacto ambiental y declaración de utilidad pública del parque eólico «Rea Unificado» de 40,8 mw a ubicar en los términos municipales de Valdelagua del Cerro, Trévago, Fuentestrún y Castilruiz (Soria).",
+      "url": "https://bocyl.jcyl.es/html/2020/06/29/html/BOCYL-D-29062020-23.do",
+      "datos": {
+        "nombre_proyecto": "Parque Eólico Rea Unificado",
+        "numero_expediente_industria": "SO-AT-2020/VIZA200011",
+        "numero_expediente_medioambiente": null,
+        "promotor": "DANTA DE ENERGÍAS, S.A.",
+        "tecnologia": "Eólica",
+        "potencia_mw": 40.8,
+        "tipo_permiso": "AAP_AAC",
+        "permisos_adicionales": [
+          "DIA",
+          "DUP"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Subestación Trévago",
+        "tension_conexion_kv": 30,
+        "gestor_red": null,
+        "municipio": "Valdelagua del Cerro, Trévago, Fuentestrún, Castilruiz",
+        "provincia": "Soria",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Parque formado por 9 aerogeneradores NORDEX DELTA 4000 de 4,8 MW unitarios (autolimitados a 4,53 MW). Plazo de alegaciones: 30 días desde la publicación. Plazo de resolución: 3 meses desde recepción de DIA. Silencio administrativo desestimatorio. Presupuesto: 26.130.568,96 euros. Proyecto visado n.º VIZA200011 de 2 de enero de 2020. Entrega a través de 3 líneas subterráneas 30kV a la Subestación Trévago (ya ejecutada).",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7462,
+        "output": 527
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "DOE-20061025",
+      "boletin": "DOE",
+      "ccaa_boletin": "Extremadura",
+      "fecha_publicacion": "20200629",
+      "titulo_original": "Energía solar.- Resolución de 22 de mayo de 2020, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Laura Otero, SA, para la instalación fotovoltaica \"La Gironda Solar 1\", e infraestructura de evacuación de energía eléctrica ",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/1240o/20061025.pdf",
+      "datos": {
+        "nombre_proyecto": "La Gironda Solar 1",
+        "numero_expediente_industria": "DOE-20061025",
+        "numero_expediente_medioambiente": null,
+        "promotor": "Laura Otero, SA",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [],
+        "estado_permiso": "favorable",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": "Extremadura",
+        "fecha_resolucion": "2020-05-22",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Resolución otorga autorización administrativa previa para instalación fotovoltaica con infraestructura de evacuación de energía eléctrica",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 5469,
+        "output": 318
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

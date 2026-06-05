@@ -1,0 +1,213 @@
+{
+  "fecha": "20250707",
+  "total": 28,
+  "energeticos": 28,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 28,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-13966",
+      "titulo_original": "Resolución de 30 de junio de 2025, de la Subsecretaría, por la que publica el Convenio con la Universidad Carlos III de Madrid, para la realización de prácticas externas curriculares y extracurriculares.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13970",
+      "titulo_original": "Resolución de 4 de junio de 2025, de la Secretaría de Estado de Medio Ambiente, por la que se aprueba la revisión y actualización de la evaluación preliminar del riesgo de inundación de las demarcaciones hidrográficas intercomunitarias.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13972",
+      "titulo_original": "Resolución de 23 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de determinación de afección ambiental del proyecto «Instalación de un módulo fotovoltaico PFVH San Blas, de 39 MW de potencia instalada, y de un módulo de almacenamiento (20 MW), para su hibridación con el parque eólico existente P.E. San Blas, de 39,6 MW, en Valladolid».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13973",
+      "titulo_original": "Resolución de 25 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de determinación de afección ambiental del proyecto «Instalación fotovoltaica PFVH Ampliación El Hierro, de 43,2 MW de potencia instalada, para su hibridación con el parque eólico existente P.E. Ampliación El Hierro, de 43,2 MW, y para su infraestructura de evacuación, en la provincia de Zamora».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13974",
+      "titulo_original": "Resolución de 25 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Compactación de la línea aérea de transporte de energía eléctrica a 400 kV Maials-Rubí a su paso por la urbanización Mas d'en Parés (Tramo 182N-172N), en la provincia de Tarragona».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13975",
+      "titulo_original": "Resolución de 25 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Sistema de almacenamiento de energía \"Hibridación La Loma con batería de almacenamiento\", de 36 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico existente \"La Loma\", en la provincia de Teruel».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13976",
+      "titulo_original": "Resolución de 26 de junio de 2025, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Módulo de almacenamiento por baterías \"Hibridación Zafra\", de 24,04 MW de potencia, para su hibridación con la planta fotovoltaica existente, \"Hsf Zafra\", de 49,99 MW de potencia instalada, y para parte de su infraestructura de evacuación (Sevilla)».",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13977",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 29 de mayo de 2025, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Platea, con dos nuevas posiciones de apoyo a la distribución y una nueva posición de reactancia y máquina asociada, en el parque de 400 kV y la nueva línea aérea de transporte de energía eléctrica, simple circuito, a 400 kV, Platea-Amantes, en Teruel y Celadas (Teruel), y se declara, en concreto, la utilidad pública.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250707-26",
+      "titulo_original": "Resolución de 15 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la construcción de 2 líneas aérea de 20kV en calle Calleja Larga, s/n, en el término municipal de El Escorial y San Lorenzo de El Escorial, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250707-27",
+      "titulo_original": "Resolución de 25 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa de cierre de un centro de transformación ubicado en la calle Educación Pública, s/n, en el término municipal de Coslada, solicitado por  UFD Distribución Electricidad, S. A. Número expediente: 2024P1368–14-0141-01368.5/2024",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250707-28",
+      "titulo_original": "Resolución de 2 de junio de 2025, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la instalación de 1 línea aérea de 15 kV en polígono 9, parcela 36, en el término municipal de San Martín de la Vega, solicitada por UFD Distribución Electricidad, S. A.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250707-29",
+      "titulo_original": "Resolución de 9 de junio de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa de cierre de un centro de transformación ubicado en la calle Esteban Mora, número 1, en el término municipal de Madrid, solicitado por UFD Distribución Electricidad, S. A. Número expediente: 2025P266 - 14-0141-00266.2/2025",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250707-30",
+      "titulo_original": "Convenio de 12 de junio de 2025, entre la Comunidad de Madrid (Consejería de Medio Ambiente, Agricultura e Interior) y el Ayuntamiento de Torrelaguna, para la adhesión de información relativa a su patrimonio de suelo disponible al Portal de Suelo de la Comunidad de Madrid",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-22",
+      "titulo_original": "ORDEN MAV/710/2025, de 27 de junio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-23",
+      "titulo_original": "ORDEN MAV/711/2025, de 27 de junio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-24",
+      "titulo_original": "ORDEN MAV/712/2025, de 27 de junio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-29",
+      "titulo_original": "EXTRACTO de la Resolución de 3 de julio de 2025, de la Presidencia de la Comisión Ejecutiva de Anclaje de la Fundación para el Anclaje Empresarial y la Formación para el Empleo en Castilla y León (FAFECYL), por la que se convocan ayudas para el apoyo a los emprendedores, en el ámbito de actuación del Plan Socioeconómico de «La Raya», para el año 2025.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-34",
+      "titulo_original": "RESOLUCIÓN de 30 de junio de 2025, de la Dirección General de Trabajo y Prevención de Riesgos Laborales, por la que se anuncia el depósito de la modificación de estatutos de la organización denominada «Asociación de Empresarios de Supermercados de Castilla y León», en siglas ASUCYL, depósito número 78000165 (antiguo depósito número CYL - 359).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-35",
+      "titulo_original": "RESOLUCIÓN de 1 de julio de 2025, de la Dirección General de Trabajo y Prevención de Riesgos Laborales, por la que se anuncia el depósito de la modificación de estatutos de la organización denominada «Federación de Autoescuelas de Castilla y León», número de depósito 78000071 (antiguo número de depósito CYL - 402).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-43",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Pisuerga», en el término municipal de Tudela de Duero (Valladolid). Expte.: FV-2663 ATCE-153.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-44",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Campo Grande» y su reconocimiento de utilidad pública, en concreto, en los términos municipales de Tudela de Duero, Renedo de Esgueva, La Cistérniga y Valladolid (Valladolid). Expte.: FV-2664 ATCE-158.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-45",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «PF Pisuerga», en el término municipal de Villanubla, Zaratán y Valladolid (Valladolid). Expte.: FV-2688 ATCE-180.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-07072025-46",
+      "titulo_original": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «PF Zaratán», en el término municipal de Villanubla, Zaratán y Valladolid (Valladolid). Expte.: FV-2690 ATCE-182.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1750241090987600100",
+      "titulo_original": "Anuncio de 13/06/2025 , de la Delegación Provincial de Desarrollo Sostenible de Albacete, sobre información pública del proyecto de instalación de energía eléctrica denominado: Repotenciación parque eólico Molar del Molinar 49,5 MW, y sus infraestructuras de evacuación, emplazado en el término munic",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOJA-20250707-0",
+      "titulo_original": "Orden de 27 de junio de 2025, por la que se modifica la Orden de 22 de junio de 2023, por la que se aprueban las bases reguladoras para la concesión de incentivos para la infraestructura básica de proyectos de la industria en Andalucía.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250707-0",
+      "titulo_original": "2/5 7-VII-2025 BOLETÍN OFICIAL DEL PRINCIPADO DE ASTURIAS Núm. 129 Consejería de Movilidad, Medio Ambiente y Gestión de emergencias ANuNCIO público a personas interesadas desconocidas en el procedimiento de evaluación de impacto ambiental simplificada. Planta de almacenamiento BeSS langreo y su infraestructura de evacuación (langreo). expte. iA-iA-0065/2025//Auto/2025/7598. [Cód. 2025‑05521] [1 pág.]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250707029",
+      "titulo_original": "ANUNCIO del Servicio Provincial de Zaragoza, por el que se somete a información pública la solicitud de declaración de utilidad pública, de la instalación de producción de energía eléctrica: línea de alta tensión 400 kV Subestación Alfajarín- Subestación Villamayor Renovables. Expediente: DUP-Z-2023-0073 AT 2023-289.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250707-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

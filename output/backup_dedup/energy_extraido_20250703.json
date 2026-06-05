@@ -1,0 +1,129 @@
+{
+  "fecha": "20250703",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-13625",
+      "titulo_original": "Resolución de 24 de junio de 2025, de la Secretaría de Estado de Industria, por la que se publica el Convenio con la Sociedad Estatal de Promoción Industrial y Desarrollo Empresarial, E.P.E., para la gestión del Fondo de Apoyo a la Inversión Industrial Productiva.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13627",
+      "titulo_original": "Resolución de 16 de junio de 2025, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Maat Servicios Integrales, SL, de la solicitud de autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Río Seco, de 51 MW de potencia instalada, y sus infraestructuras de evacuación, en L'Alcora, Betxí y Onda (Castellón).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13628",
+      "titulo_original": "Resolución de 17 de junio de 2025, de la Dirección General de Política Energética y Minas, por la que se acepta la renuncia parcial de Iberdrola Renovables Andalucía, SAU, a la declaración, en concreto, de utilidad pública, para la instalación solar fotovoltaica «FV Caparacena», de 274,96 MW de potencia instalada, y su infraestructura de evacuación, en Ventas de Huelma, Cacín, Chimeneas, Cijuela, Láchar, Pinos Puente, Valderrubio, Íllora y Atarfe (Granada).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13629",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Parque Eólico Cabezuelas, SLU, la declaración, en concreto, de utilidad pública, para el parque eólico «Cabezuelas», de 60 MW de potencia instalada, y sus infraestructuras de evacuación, en Borjabad, Cañamaque, Cihuela, Escobosa de Almazán, Maján, Nolay, Serón de Nágima, Torlengua y Velilla de los Ajos (Soria) y Bordalba, Embid de Ariza, Bubierca, Castejón de las Armas, Ateca y Terrer (Zaragoza).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOE-A-2025-13630",
+      "titulo_original": "Resolución de 19 de junio de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Parque Eólico Pedrecha, SLU, la declaración, en concreto, de utilidad pública, para el parque eólico «Pedrecha», de 59,4 MW de potencia instalada, y sus infraestructuras de evacuación, en Cañamaque, Maján, Velilla de los Ajos y Serón de Nágima (Soria).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250703-51",
+      "titulo_original": "Resolución de 16 de junio de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa para la instalación de la planta fotovoltaica FV Majuelo y su infraestructura de evacuación, situada en ctra. M-841, km 4,3 (polígono 6, parcela 2) en el término municipal de Valdemoro, solicitada por Generación Fotovoltaica las Vertientes, S. L. U. Expediente: 2022P862/ 14-0141-00862.7/2022",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250703-52",
+      "titulo_original": "Acuerdo 32/2025, de 24 de abril, de la Comisión de Urbanismo de Madrid, relativo a la Aprobación Inicial del Plan Especial de Infraestructuras de las Plantas Fotovoltaicas e Infraestructuras Complementarias “Cruz y La Vega”, en los municipios de Fuenlabrada, Parla, Humanes de Madrid, Griñón y Moraleja de en Medio, promovido por Green Capital Power, S. L.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-03072025-4",
+      "titulo_original": "ORDEN IEM/691/2025, de 25 de junio, por la que se anuncia convocatoria pública para cubrir, mediante el sistema de libre designación, el puesto de trabajo que se cita.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-03072025-10",
+      "titulo_original": "EXTRACTO de la Resolución de 30 de junio de 2025, de la Presidencia del Servicio Público de Empleo de Castilla y León, por la que se modifica la Resolución de 21 de mayo de 2025, por la que se convocan subvenciones para el fomento de la contratación temporal de personas jóvenes desempleadas e inscritas en el Servicio Público de Empleo y en el Sistema Nacional de Garantía Juvenil, por parte de los ayuntamientos de más de 5.000 habitantes y las diputaciones provinciales. JOVEL 2025.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-03072025-14",
+      "titulo_original": "RESOLUCIÓN de 25 de junio de 2025, de la Dirección General de Trabajo y Prevención de Riesgos Laborales, por la que se anuncia el depósito de la modificación de estatutos de la organización denominada «Federación de Sindicatos de Trabajadores y Trabajadoras de la Enseñanza de Castilla y León - Intersindical (STECYL-i)», número de depósito 78000157, anterior número de depósito CYL-150.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-03072025-16",
+      "titulo_original": "RESOLUCIÓN de 24 de junio de 2025, de la Delegación Territorial de Ávila, por la que se dicta informe de impacto ambiental del proyecto de acondicionamiento de una nave para actividad de elaboración, embotellado y venta de cerveza artesanal, en la Avenida Francisco Mateos Rodríguez n.º 20 (referencia catastral 6607105TK8760N0001MU), polígono industrial de El Barco de Ávila, en el término municipal de El Barco de Ávila (Ávila), promovido por «AC Brewing Company». Expte.: E.I.A.S/2024/AV/027.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250703-0",
+      "titulo_original": "RESOLUCIÓN de 5 de junio de 2025, de la Dirección General de Energías Renovables y Cambio Climático, por la que se otorgan la autorización de desmantelamiento de las instalaciones actuales del parque eólico Castelo, la autorización administrativa previa y la autorización administrativa de construcci",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250703-1",
+      "titulo_original": "EXTRACTO de la Resolución de 5 de junio de 2025, de la Dirección General de Energías Renovables y Cambio Climático, por la que se otorgan la autorización de desmantelamiento de las instalaciones actuales del parque eólico Castelo, la autorización administrativa previa y la autorización administrativ",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOG-20250703-2",
+      "titulo_original": "ANUNCIO de notificación en el procedimiento infructuoso relativo a gestión de la biomasa y retirada de especies arbóreas prohibidas.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-25062600",
+      "titulo_original": "Impacto ambiental.- Resolución de 20 de junio de 2025, de la Dirección General de Sostenibilidad, por la que se formula valoración ambiental sobre la modificación del proyecto de planta de generación eléctrica con biomasa, en el término municipal de Mérida. Expte.: IA24/2160.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250703-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}

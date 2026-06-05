@@ -1,0 +1,55 @@
+{
+  "fecha": "20200205",
+  "total": 1,
+  "energeticos": 0,
+  "descartados": 1,
+  "exitosos": 0,
+  "errores": 0,
+  "tokens": {
+    "input": 7283,
+    "output": 372
+  },
+  "coste_usd": 0.00731,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2020-1758",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20200205",
+      "titulo_original": "Resolución de 27 de enero de 2020, del Centro Español de Metrología, por la que se publica el Convenio con la Fundación para el Fomento de la Innovación Industrial.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-1758",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2020-01-27",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación de Convenio entre el Centro Español de Metrología (CEM) y la Fundación para el Fomento de la Innovación Industrial (FFII) para la designación del Laboratorio Central Oficial de Electrotecnia (LCOE) como Laboratorio Asociado al CEM en materia de patrones nacionales de alta tensión eléctrica. NO es una tramitación de proyecto energético específico, sino un acuerdo administrativo de cooperación metrológica.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7283,
+        "output": 372
+      },
+      "estado_validacion": "descartado"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "fecha": "20210317",
+  "total": 4,
+  "energeticos": 3,
+  "descartados": 1,
+  "exitosos": 3,
+  "errores": 0,
+  "tokens": {
+    "input": 26897,
+    "output": 1737
+  },
+  "coste_usd": 0.02847,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2021-4193",
+      "boletin": "BOE",
+      "ccaa_boletin": "Nacional",
+      "fecha_publicacion": "20210317",
+      "titulo_original": "Orden ICT/240/2021, de 2 de marzo, por la que se aprueba la modificación de las primas aplicables a la segunda línea extraordinaria de cobertura de créditos de circulante de la Compañía Española de Seguros de Crédito a la Exportación, SA, en el marco del COVID-19.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4193",
+      "datos": {
+        "nombre_proyecto": null,
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": null,
+        "promotor": null,
+        "tecnologia": null,
+        "potencia_mw": null,
+        "tipo_permiso": null,
+        "permisos_adicionales": [],
+        "estado_permiso": null,
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": null,
+        "provincia": null,
+        "comunidad_autonoma": null,
+        "fecha_resolucion": "2021-03-02",
+        "capacidad_mw_liberada": null,
+        "observaciones": "Publicación sobre modificación de tarifas de seguros de crédito a la exportación en el marco COVID-19. No es un proyecto de generación energética, almacenamiento, infraestructura de red o hidrógeno. Es una orden administrativa sobre ajuste de primas para línea de cobertura de créditos de circulante de la CESCE.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": false
+      },
+      "es_energetico": false,
+      "tokens": {
+        "input": 7190,
+        "output": 338
+      },
+      "estado_validacion": "descartado"
+    },
+    {
+      "id": "BOCYL-D-17032021-16",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210317",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa, declaración en concreto de utilidad pública, aprobación de proyecto de ejecución y evaluación de impacto ambiental de la instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «FV Virgen de Areños III», y su infraestructura de evacuación, en los términos municipales de Villota del Páramo, Pino del Río, Fresno del Río, Villalba de Guardo, Mantinos, Guardo y Velilla del Río Carrión (Palencia). Expte.: FV-953.",
+      "url": "https://bocyl.jcyl.es/html/2021/03/17/html/BOCYL-D-17032021-16.do",
+      "datos": {
+        "nombre_proyecto": "FV Virgen de Areños III",
+        "numero_expediente_industria": "FV-953",
+        "numero_expediente_medioambiente": null,
+        "promotor": "IBERENOVA PROMOCIONES, S.A.U.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": 49.97,
+        "tipo_permiso": "AAP",
+        "permisos_adicionales": [
+          "DUP",
+          "DIA"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": "Velilla 400",
+        "tension_conexion_kv": 400,
+        "gestor_red": "REE",
+        "municipio": "Villota del Páramo, Pino del Río, Fresno del Río, Villalba de Guardo, Mantinos, Guardo, Velilla del Río Carrión",
+        "provincia": "Palencia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto integrado por planta solar fotovoltaica de 49,97 MWp, subestación elevadora 400/30 kV, línea de evacuación 400 kV, y subestación colectora compartida Carrión Renovables 400 kV. Presupuesto: 34.702.523,55 €. Plazo información pública: 30 días hábiles desde la publicación. Sometida a evaluación de impacto ambiental ordinaria.",
+        "confianza": 0.95,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 7219,
+        "output": 489
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-17032021-31",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210317",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica (ampliación) en la parcela 23 del polígono 8, promovido por «Servicios Integrales Carracillo, S.L.», en el término municipal de Nava de la Asunción (Segovia). Expte.: 187/2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/03/17/html/BOCYL-D-17032021-31.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Ampliación Nava de la Asunción",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "187/2021",
+        "promotor": "Servicios Integrales Carracillo, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "AAU",
+          "Otro"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Nava de la Asunción",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Se trata de una ampliación de instalación solar fotovoltaica existente. Expediente sometido a información pública por 20 días. Licencia ambiental por modificación no sustancial. Autorización de uso excepcional en suelo rústico común. Referencia catastral: 40162A008000230000RB. Polígono 8, parcela 23.",
+        "confianza": 0.75,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6244,
+        "output": 430
+      },
+      "estado_validacion": "pendiente"
+    },
+    {
+      "id": "BOCYL-D-17032021-32",
+      "boletin": "BOCyL",
+      "ccaa_boletin": "Castilla y León",
+      "fecha_publicacion": "20210317",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización de uso excepcional de suelo rústico, licencia ambiental y urbanística para una instalación solar fotovoltaica (ampliación) en la parcela 11 del polígono 1, promovido por «Servicios Integrales Carracillo, S.L.», en el término municipal de Nava de la Asunción (Segovia). Expte.: 188/2021.",
+      "url": "https://bocyl.jcyl.es/html/2021/03/17/html/BOCYL-D-17032021-32.do",
+      "datos": {
+        "nombre_proyecto": "Instalación Solar Fotovoltaica Ampliación Nava de la Asunción",
+        "numero_expediente_industria": null,
+        "numero_expediente_medioambiente": "188/2021",
+        "promotor": "Servicios Integrales Carracillo, S.L.",
+        "tecnologia": "Fotovoltaica",
+        "potencia_mw": null,
+        "tipo_permiso": "LicObras",
+        "permisos_adicionales": [
+          "Licencia ambiental (Modificación No Sustancial)",
+          "Autorización de uso excepcional en suelo rústico"
+        ],
+        "estado_permiso": "informacion_publica",
+        "es_proyecto_fallido": false,
+        "motivo_fallo": null,
+        "subestacion_conexion": null,
+        "tension_conexion_kv": null,
+        "gestor_red": null,
+        "municipio": "Nava de la Asunción",
+        "provincia": "Segovia",
+        "comunidad_autonoma": "Castilla y León",
+        "fecha_resolucion": null,
+        "capacidad_mw_liberada": null,
+        "observaciones": "Proyecto de ampliación de instalación solar fotovoltaica existente. Solicitud de Licencia ambiental (Modificación No Sustancial) y autorización de uso excepcional de suelo rústico. Sometido a información pública por 20 días a partir de la publicación en BOCyL. Finca situada en polígono 1, parcela 11 (referencia catastral 40162A001000110000RK), clasificada como suelo rústico común.",
+        "confianza": 0.85,
+        "es_proyecto_energetico": true
+      },
+      "es_energetico": true,
+      "tokens": {
+        "input": 6244,
+        "output": 480
+      },
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "fecha": "20250701",
+  "total": 16,
+  "energeticos": 16,
+  "descartados": 0,
+  "exitosos": 0,
+  "errores": 16,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "coste_usd": 0.0,
+  "alertas_capacidad_liberada": 0,
+  "mw_totales_liberados": 0,
+  "resultados": [
+    {
+      "id": "BOE-A-2025-13402",
+      "titulo_original": "Resolución de 24 de junio de 2025, de la Secretaría de Estado de Industria, por la que se publica el Convenio con la Asociación Española de Fabricantes de Automóviles y Camiones, para la realización del Proyecto España Auto 2030.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250701-31",
+      "titulo_original": "Extracto de la Orden 2140/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se modifican los créditos disponibles de la convocatoria de ayudas para la ejecución de los programas de incentivos para la implantación de instalaciones de energías renovables térmicas en diferentes sectores de la economía de la Comunidad de Madrid, en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea, Next Generation-EU, reguladas en el Real Decreto 1124/2021, de 21 de diciembre, establecidos en la Orden 1893/2024, de 29 de mayo, de la Consejería de Medio Ambiente, Agricultura e Interior",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250701-32",
+      "titulo_original": "Extracto de la Orden 2586/2025, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se modifica la Orden 1696/2024, de 20 de mayo, por la que se establecen las bases reguladoras de las ayudas para incorporación de jóvenes agricultores, cofinanciadas por FEADER y Administración General del Estado y se aprueba la convocatoria para el año 2025 de la ayuda para financiar el establecimiento de personas jóvenes agricultores",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250701-33",
+      "titulo_original": "Orden 2586/2025, de 19 de junio, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se modifica la Orden 1696/2024, de 20 de mayo, de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se establecen las bases reguladoras de las ayudas para incorporación de jóvenes agricultores, cofinanciadas por el Fondo Europeo Agrícola de Desarrollo Rural (FEADER) y por la Administración General del Estado y se aprueba la convocatoria para el año 2024 de la ayuda para financiar el establecimiento de personas jóvenes agricultores y se aprueba la convocatoria para el año 2025 de la ayuda para financiar el establecimiento de personas jóvenes agricultores",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCM-20250701-51",
+      "titulo_original": "Resolución de 3 de junio de 2025, de la Directora General de Transición Energética y Economía Circular de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se acuerda hacer público el Informe Ambiental Estratégico del Plan Parcial de Reforma Interior de la UE-32 de las NNSS del término municipal de Griñón (expediente: 26-UB2-00193.3/2023, SIA 23/191)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-01072025-30",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa, autorización administrativa de construcción de una instalación de producción de energía eléctrica, por tecnología fotovoltaica denominada «FV Orchis Solar», y su reconocimiento de utilidad pública, en concreto, en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2622 ATCE-137.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-01072025-31",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «Fortuna II», en los términos municipales de Zaratán y Valladolid (Valladolid). Expte.: FV-2639.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-01072025-32",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica por tecnología fotovoltaica denominada «Fortuna III», en el término municipal de Zaratán (Valladolid). Expte.: FV-2640.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOCYL-D-01072025-33",
+      "titulo_original": "INFORMACIÓN pública relativa a la solicitud de autorización ambiental y estudio de impacto ambiental del proyecto de una planta de valorización de residuos para la producción de biometano, en el término municipal de Villardondiego (Zamora), promovido por «Biorig Energy Villardondiego - Zamora, S.L.». Expte.: 016-24-AAZA.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1750748964507800025",
+      "titulo_original": "Tarifas. Resolución de 23/06/2025 , de la Consejería de Desarrollo Sostenible, por la que se aprueban las tarifas aplicables a los encargos realizados a la empresa pública Instituto de Sistemas Fotovoltaicos de Concentración, SAU, (Isfoc). [NID 2025/5220] 23118 > 165 KB",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOCM-1750671949692400192",
+      "titulo_original": "Gas. Resolución de 18/06/2025 , de la Dirección General de Transición Energética, de autorización administrativa previa y aprobación de proyecto de ejecución de la red de gas y su adaptación para inyección de biometano en el término municipal de Villaluenga de la Sagra (Toledo). (Referencia: 3305/00",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOPA-20250701-0",
+      "titulo_original": "2/5 1-VII-2025 BOLETÍN OFICIAL DEL PRINCIPADO DE ASTURIAS Núm. 125 Consejería de medio rural y Política Agraria resOlUCIón de 11 de junio de 2025, de la Consejería de medio rural y Política Agraria, por la que se dispone la ejecución de la sentencia dictada por la sala de lo Contencioso-Administrativo del Tribunal superior de Justicia de Asturias en el recurso contencioso-administrativo 813/2023, interpuesto por Parque eólico Capiechamartín, s. l. U. [Cód. 2025‑05260] [1 pág.]",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250701032",
+      "titulo_original": "ANUNCIO del Servicio Provincial de Teruel, del Departamento de Presidencia, Economía y Justicia, por el que se somete a información pública, la solicitud de autorización administrativa previa, del proyecto \"Planta fotovoltaica Mezquita Bensolar\" de 49,544 MW y su estudio de impacto ambiental, titular B02751899 Benbros Solar, SL. Número Expediente: G-T-2024-027.",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOA20250701036",
+      "titulo_original": "ANUNCIO del Instituto Aragonés de Gestión Ambiental, por el que se pone en público conocimiento la tramitación del procedimiento administrativo de evaluación de impacto ambiental simplificada del proyecto de fotovoltaico almacenamiento \"Cartujos 1\", en el término municipal de Zaragoza (Zaragoza). (Número Expediente: INAGA 500306/01/2025/00710).",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "DOE-24082015",
+      "titulo_original": "Información pública.- Anuncio de 28 de noviembre de 2024 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"Adecuación de línea subterránea de alta tensión 66 kV doble circuito Nevero-Santa Marina",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    },
+    {
+      "id": "BOLR-20250701-0",
+      "titulo_original": "MEDIO AMBIENTE: información pública del expediente de evaluación de impacto ambiental simplificada del Proyecto de Parque Fotovoltaico 'Najerilla Solar' POT 1 MW, en Baños de Río Tobía (AT/0025704), (Expediente EIA 07/2026)",
+      "datos": null,
+      "error": "name 're' is not defined",
+      "estado_validacion": "error"
+    }
+  ]
+}
