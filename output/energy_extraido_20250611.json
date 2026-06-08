@@ -40,9 +40,11 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2025-05-14",
         "capacidad_mw_liberada": null,
-        "observaciones": "Autorización de ocupación temporal de la vía pecuaria Cordel de Pavones, tramo 1, para la ejecución de dos líneas subterráneas de alta tensión a 45 kV desde ST Coslada a la nueva ST Andrómeda. Sometido a información pública por un mes según Ley 8/1998 de Vías Pecuarias de la Comunidad de Madrid. [reclasificado: promotor privado sin evacuación explícita: 'Templemore Investments']",
+        "observaciones": "Autorización de ocupación temporal de la vía pecuaria Cordel de Pavones, tramo 1, para la ejecución de dos líneas subterráneas de alta tensión a 45 kV desde ST Coslada a la nueva ST Andrómeda. Sometido a información pública por un mes según Ley 8/1998 de Vías Pecuarias de la Comunidad de Madrid. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Templemore Investments'"
       },
       "es_energetico": false,
       "tokens": {

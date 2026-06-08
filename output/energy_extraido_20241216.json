@@ -735,16 +735,17 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-05-02",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que concede Declaración de Utilidad Pública para una infraestructura de evacuación de energía eléctrica. El texto publicado en BOJA es únicamente el encabezado de la resolución sin detalles específicos del proyecto (nombre, ubicación, promotor, tensión, subestación de conexión). Se requeriría acceso al cuerpo completo de la resolución para extraer datos más detallados. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución que concede Declaración de Utilidad Pública para una infraestructura de evacuación de energía eléctrica. El texto publicado en BOJA es únicamente el encabezado de la resolución sin detalles específicos del proyecto (nombre, ubicación, promotor, tensión, subestación de conexión). Se requeriría acceso al cuerpo completo de la resolución para extraer datos más detallados.",
         "confianza": 0.35,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 11300,
         "output": 872
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "BOJA-20241216-3",

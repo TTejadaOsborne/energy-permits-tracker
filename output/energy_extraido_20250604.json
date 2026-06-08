@@ -388,16 +388,20 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2025-05-05",
         "capacidad_mw_liberada": null,
-        "observaciones": "Subestación transformadora 45/11 kV destinada a la alimentación de un centro de procesamiento de datos. Transformador de potencia de 40 MVA. Línea de 45 kV asociada procedente de la subestación SMR Hilanderas. Presupuesto total: 701.076,69 euros. Ubicada en C/ Fundidores, 40, Getafe. [reclasificado: promotor privado sin evacuación explícita: 'Merlin Properties Socimi, S. A.']",
+        "observaciones": "Subestación transformadora 45/11 kV destinada a la alimentación de un centro de procesamiento de datos. Transformador de potencia de 40 MVA. Línea de 45 kV asociada procedente de la subestación SMR Hilanderas. Presupuesto total: 701.076,69 euros. Ubicada en C/ Fundidores, 40, Getafe. [Descartado manual: SOCIMI inmobiliaria, SET privado]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Merlin Properties Socimi, S. A.'",
+        "es_energetico": false,
+        "estado_validacion": "descartado"
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 5893,
         "output": 406
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "BOCM-20250604-49",

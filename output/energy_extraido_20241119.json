@@ -356,9 +356,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2024-11-06",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de información pública para petición de autorización administrativa previa y reconocimiento de utilidad pública. Texto incompleto: el título indica 'Ejecución de línea' pero no se proporciona el nombre completo del proyecto ni detalles técnicos. Expediente del DOE (Diario Oficial de Extremadura). [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de información pública para petición de autorización administrativa previa y reconocimiento de utilidad pública. Texto incompleto: el título indica 'Ejecución de línea' pero no se proporciona el nombre completo del proyecto ni detalles técnicos. Expediente del DOE (Diario Oficial de Extremadura). [descartado: revisión manual]",
         "confianza": 0.35,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {
@@ -396,9 +398,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2024-11-06",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de información pública para autorización administrativa previa y declaración de utilidad pública. El título menciona 'Ejecución línea elé[ctrica]' pero el texto completo no está disponible. Expediente administrativo: DOE-24081856. Consejería competente: Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de información pública para autorización administrativa previa y declaración de utilidad pública. El título menciona 'Ejecución línea elé[ctrica]' pero el texto completo no está disponible. Expediente administrativo: DOE-24081856. Consejería competente: Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. [descartado: revisión manual]",
         "confianza": 0.45,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

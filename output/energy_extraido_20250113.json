@@ -351,16 +351,17 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2024-12-20",
         "capacidad_mw_liberada": null,
-        "observaciones": "Sometida a información pública la solicitud de Autorización Administrativa Previa y el Estudio de Impacto Ambiental para infraestructuras comunes de evacuación en nudo de transporte de REE. El texto del anuncio está incompleto, por lo que no se han podido extraer municipio, provincia específica, potencia y otros detalles. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Sometida a información pública la solicitud de Autorización Administrativa Previa y el Estudio de Impacto Ambiental para infraestructuras comunes de evacuación en nudo de transporte de REE. El texto del anuncio está incompleto, por lo que no se han podido extraer municipio, provincia específica, potencia y otros detalles.",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 8850,
         "output": 811
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     }
   ]
 }

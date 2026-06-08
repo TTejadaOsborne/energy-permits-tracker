@@ -346,9 +346,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2025-04-10",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de convocatoria de levantamiento de actas previas a la ocupación de fincas afectadas por línea de evacuación y centro de transformación. El texto completo está restringido y requiere acceso mediante solicitud de la persona interesada. Publicado por la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de convocatoria de levantamiento de actas previas a la ocupación de fincas afectadas por línea de evacuación y centro de transformación. El texto completo está restringido y requiere acceso mediante solicitud de la persona interesada. Publicado por la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.55,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

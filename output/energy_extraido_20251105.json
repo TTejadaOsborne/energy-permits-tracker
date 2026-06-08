@@ -726,9 +726,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": "2025-04-25",
         "capacidad_mw_liberada": null,
-        "observaciones": "Línea de Alta Tensión (LAAT) de evacuación compartida de 220 kV que interconecta las subestaciones transformadoras SET Castor y SET Valcardera. Resolución otorga simultáneamente Autorización Administrativa Previa (AAP) y Autorización de Construcción (AAC) para modificación de infraestructura de evacuación existente. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Línea de Alta Tensión (LAAT) de evacuación compartida de 220 kV que interconecta las subestaciones transformadoras SET Castor y SET Valcardera. Resolución otorga simultáneamente Autorización Administrativa Previa (AAP) y Autorización de Construcción (AAC) para modificación de infraestructura de evacuación existente. [descartado: media tensión]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

@@ -1,0 +1,289 @@
+
+============================================================
+[BOJA sede] https://www.juntadeandalucia.es/eboja.html
+============================================================
+  Links de interés BOJA: []
+
+  URL final: https://www.juntadeandalucia.es/eboja.html
+
+  Peticiones de red (117):
+    GET  https://www.juntadeandalucia.es/eboja.html
+    GET  https://www.juntadeandalucia.es/libraries/webcomponents/node_modules/fetch-polyfill/fetch.js?v=1
+    GET  https://www.juntadeandalucia.es/modules/contrib/jquery_once/lib/jquery_3.7.1_jquery.min.js?v=3.7.1
+    GET  https://www.juntadeandalucia.es/modules/contrib/jquery_once/lib/jquery-once-2.2.3/jquery.once.min.js?v=2.2.3
+    GET  https://www.juntadeandalucia.es/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?te9fxe
+    GET  https://www.juntadeandalucia.es/modules/custom/page_recomendador/js/jquery-ui.js?v=1
+    GET  https://www.juntadeandalucia.es/libraries/webcomponents/node_modules/@matter/matter-last-boja/dist/matter-last-boja.js
+    GET  https://www.juntadeandalucia.es/ssdigitales/datasets/contentapi/boja/calendario?fechaDesde=now-365d&fechaHasta=now
+    GET  https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap
+    POST https://region1.google-analytics.com/g/collect?v=2&tid=G-7D3KG4VLFB&gtm=45je6541v894027568z876710234za20gzb76710234zd767
+    POST https://region1.google-analytics.com/g/collect?v=2&tid=G-3YH1FSWTF6&gtm=45je6541v894027568z876710234za20gzb76710234zd767
+    GET  https://www.juntadeandalucia.es/ssdigitales/datasets/contentapi/boja/ultimo/secciones
+
+  Texto página (primeros 1500 chars):
+Pasar al contenido principal
+Navegación secundaria - Portal JDA
+Contacto
+Mapa web
+ 
+@GobAndalucia
+ 
+andaluciajunta
+ 
+andaluciajunta
+ 
+AndaluciaJunta
+ 
+juntainforma
+ 
+junta-de-andalucia
+Junta de Andalucía
+Inicio
+Junta de Andalucía
+Estudiar
+Trabajar
+Tu salud
+Más temas
+Transparencia
+La Junta
+Servicios
+Noticias
+Buscar
+Inicio 
+Boletín Oficial de la Junta de Andalucía - Sede Electrónica del BOJA
+Último BOJA
+Informacion del ultimo boja
+Boletines por fecha
+Buscador de BOJA digital
+Buscar
+ BUSCAR
+
+ Búsqueda avanzada
+
+Último boletín
+Boletines anteriores
+Legislación Consolidada Andaluza
+Sobre BOJA
+¿Qué es el BOJA?
+Información del nuevo BOJA
+Historia
+Normativa
+Verificación de autenticidad
+Aviso jurídico
+Contactar
+Danos tu opinión
+Sugerencias y reclamaciones
+Cómo publicar en BOJA
+Sobre BOJA histórico
+Política de Calidad del Servicio de Publicaciones y BOJA
+Preguntas frecuentes
+Información general
+Localización de boletines
+Buscador de BOJA
+Distribución de RSS
+Información sobre la APP del BOJA
+Buscador avanzado
+Medidas específicas en materia de salud pública relacionadas con el COVID-19
+Temas
+Estudiar
+Trabajar
+Tu salud
+Vivienda y consumo
+Familias e igualdad
+Atención administrativa e impuestos
+Tráfico y transporte
+Medio ambiente
+Asociaciones y voluntariado
+Cultura, ocio y deporte
+Justicia, seguridad y emergencias
+Tecnologías de la Información y Comunicación
+Contratación pública
+Empresas y profesionales
+Sectores de actividad
+La Junta
+Presidente
+Parlamento y otras instituciones
+Transparencia
+C
+
+============================================================
+[BOJA eboja/fecha] https://www.juntadeandalucia.es/eboja/2026/04/29/
+============================================================
+
+  URL final: https://www.juntadeandalucia.es/eboja/2026/04/29/
+
+  Peticiones de red (2):
+    GET  https://www.juntadeandalucia.es/eboja/2026/04/29/
+
+  Texto página (primeros 1500 chars):
+Pasar al contenido principal
+Error 404 - Página no encontrada
+
+La página que has solicitado no está disponible. Puede que haya cambiado de dirección o que ya no exista.
+
+Para encontrar la información que buscas intenta lo siguiente:
+
+Revisa la dirección que aparece en tu navegador y comprueba que no haya errores tipográficos.
+Utiliza nuestro buscador.
+Accede a la página de inicio del portal o al mapa web y trata de navegar hasta el contenido.
+
+Si piensas que la dirección es correcta o el enlace proviene de nuestro portal, avísanos a través de la página de contacto.
+
+Por favor, disculpa las molestias.
+
+============================================================
+[DOGC documento] https://dogc.gencat.cat/ca/document-del-dogc/?documentId=20260429
+============================================================
+
+  URL final: https://dogc.gencat.cat/ca/document-del-dogc/?documentId=20260429
+
+  Peticiones de red (87):
+    GET  https://dogc.gencat.cat/ca/document-del-dogc/?documentId=20260429
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/bootstrap.min.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/styles.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/leaflet.min.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/master.responsive.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/jquery.min.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/jquery-ui.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/master.min.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/entorn_config.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/generic_responsive.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/master.responsive.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/css/fpca_peu_xarxesSocials.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu_contacte/css/fpca_peu_contacte.css
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/fpca_fitxa_dogc/css/f
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu/css/fpca_peu.css
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/common/css/simplebar.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_subcapcalera/css/fpca_subcapcalera.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/js/fpca_peu_xarxesSocials.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu_contacte/js/fpca_peu_contacte.js
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/js/constants.j
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/js/functionsCo
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/js/jquery.mark
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/fpca_fitxa_dogc/js/fp
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu/js/fpca_peu.js
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/common/js/simplebar.min.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/common/js/autoComplete.min.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/common/js/algoliasearch.min.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/common/js/autoComplete.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_subcapcalera/js/fpca_subcapcalera.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/print.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/css/botoFuga.css
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/botoFuga.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_capcalera/img/imatge-huida-r-pida-02.svg
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_capcalera/img/imatge-huida-r-pida-03.svg
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_capcalera/img/imatge-huida-r-pida-04.svg
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/twitter-c.svg
+    GET  https://dogc.gencat.cat/web/shared/continguts_per_compartir/icones/peu_contacte/bustia.svg
+    GET  https://dogc.gencat.cat/web/shared/continguts_per_compartir/icones/peu_contacte/registre.svg
+    GET  https://dogc.gencat.cat/web/shared/continguts_per_compartir/icones/peu_contacte/informacio.svg
+    GET  https://dogc.gencat.cat/system/modules/cat.vass.wcmResponsive.template.common/resources/common/js/accessibility.js
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/img/logo_generalitat_blanc.svg
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_peu/img/chevron-up-w.svg
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/fonts/opensans-regular.woff
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/js/accessibility.js
+    GET  https://c.go-mpulse.net/api/config.json?key=CV3HF-NXPPP-GG9SW-UCTKQ-SQC6Y&d=dogc.gencat.cat&t=5926883&v=1.632.0&sl=0&si=
+    GET  https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.es.ySOLrjSNx1k.O/am=AAAAAQ/d=1/exm=el_conf/ed
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.capcaleraEadop/resources/fpca_capcalera_e
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/img/icona-24-blanc-acceder.svg
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsive/fpca_subcapcalera/img/chevron-right-thin-breadcrum-g.svg
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/img/arrow-down
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/img/arrow-up.p
+    GET  https://dogc.gencat.cat/web/system/modules/cat.gencat.wcmResponsive.formatters.httpFetch/resources/common/img/Icona-Guar
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/fonts/opensans-bold.woff
+    GET  https://dogc.gencat.cat/web/resources/fwkResponsives/common/fonts/opensans-semibold.woff
+    POST https://portaldogc.gencat.cat/eadop-rest/api/dogc/documentDOGC
+    GET  https://translate-pa.googleapis.com/v1/supportedLanguages?client=te&display_language=es&key=AIzaSyBWDj0QJvVIx8XOhRegXX5_
+    GET  https://dogc.gencat.cat/ca/document-del-dogc/?documentId=20260429
+    GET  https://translate.googleapis.com/translate_static/img/loading.gif
+    GET  https://gencat.containers.piwik.pro/eb50131d-1482-4c39-a0fa-835d5e4dacd6/privacy-templates.json
+    GET  https://translate.googleapis.com/translate_static/img/te_bk.gif
+    GET  https://translate.googleapis.com/translate_static/img/te_ctrl3.gif
+
+  Texto página (primeros 1500 chars):
+  ERROR inner_text: 'charmap' codec can't encode character '\u25bd' in position 729: character maps to <undefined>
+
+============================================================
+[BOPA disposiciones] https://miprincipado.asturias.es/bopa/disposiciones
+============================================================
+  Links BOPA: [{'t': 'Saltar al contenido', 'u': 'https://miprincipado.asturias.es/bopa/disposiciones#main-content'}, {'t': "N'Asturianu", 'u': 'https://miprincipado.asturias.es/c/portal/update_language?p_l_id=577&redirect=%2Fbopa%2Fdisposiciones&languageId=ast_ES'}, {'t': 'Último boletín', 'u': 'https://miprincipado.asturias.es/bopa/ultimos-boletines?p_r_p_summaryLastBopa=true'}, {'t': 'Disposiciones', 'u': 'https://miprincipado.asturias.es/bopa/disposiciones'}, {'t': 'Legislación consolidada', 'u': 'https://miprincipado.asturias.es/bopa/legislacion-consolidada'}, {'t': 'miBOPA', 'u': 'https://miprincipado.asturias.es/-/200950860-solicitud-de-mibopa'}, {'t': 'Ir a Boletín Oficial del Principado de Asturias', 'u': 'https://miprincipado.asturias.es/bopa'}, {'t': 'Boletín Oficial del Principado de Asturias', 'u': 'https://miprincipado.asturias.es/bopa'}]
+
+  URL final: https://miprincipado.asturias.es/bopa/disposiciones
+
+  Peticiones de red (80):
+    GET  https://miprincipado.asturias.es/bopa/disposiciones
+    GET  https://miprincipado.asturias.es/combo?browserId=chrome&minifierType=js&languageId=es_ES&t=1778043703389&/o/frontend-js-
+    GET  https://miprincipado.asturias.es/combo?browserId=chrome&minifierType=css&themeId=MiPrincipado_WAR_miprincipadotheme&lang
+    GET  https://miprincipado.asturias.es/combo?browserId=chrome&minifierType=js&themeId=MiPrincipado_WAR_miprincipadotheme&langu
+    GET  https://miprincipado.asturias.es/documents/375504/375965/fnd_bopaSedeHome.jpg/e19b5fe4-6f1f-2ca4-0b65-a4fc9a4f01cf?t=157
+    GET  https://miprincipado.asturias.es/combo?browserId=chrome&minifierType=js&themeId=MiPrincipado_WAR_miprincipadotheme&langu
+    GET  https://miprincipado.asturias.es/o/js_resolve_modules?modules=portal-search-web%406.0.127%2Fjs%2FSearchBar
+    GET  https://miprincipado.asturias.es/documents/375504/375965/fnd_bopaSedeHome.jpg/e19b5fe4-6f1f-2ca4-0b65-a4fc9a4f01cf?t=157
+    GET  https://miprincipado.asturias.es/combo/?browserId=chrome&minifierType=js&languageId=es_ES&t=1774427329258&/o/js/resolved
+    POST https://region1.google-analytics.com/g/collect?v=2&tid=G-0Y4DC3GZBH&gtm=45je6541h1v9221702081za200zd9221702081&_p=177806
+
+  Texto página (primeros 1500 chars):
+Saltar al contenido
+Acepta las cookies y La política de cookies
+
+Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios. Más información
+
+Aceptar Todas
+cookies
+Personalizar Cookies
+Rechazar todas
+cookies
+Estás en miPrincipado, un portal oficial del Gobierno del Principado de Asturias
+(se abre en una pestaña nueva)
+asturias.es 
+(se abre en una pestaña nueva)
+Participación 
+(se abre en una pestaña nueva)
+miasturSalud 
+(se abre en una pestaña nueva)
+ N'Asturianu
+Área personal
+Principado de
+Asturias
+miPrincipado
+Menú
+Buscar en asturias.es
+Inicio
+Boletín Oficial del Principado de Asturias
+Buscar en el BOPA  
+Requerido
+Buscar
+Resultados de la búsqueda
+
+No se ha introducido ningún término de búsqueda:
+
+Puedes realizar una búsqueda desde el buscador que tienes al principio de esta página.Selecciona el término de búsqueda intentando que sea más adecuado. Si lo deseas, puedes consultar la ayuda sobre la búsqueda
+Puedes realizar una búsqueda general de todos los boletines desde el buscador que encontrarás en la página inicial de BOPA y Legislación
+BOPA Boletín Oficial del Principado de Asturias
+Últimos boletines
+Servicios 
+
+============================================================
+[BORM home] https://www.borm.es/#/home
+============================================================
+  ERROR: Timeout 15000ms exceeded.
+=========================== logs ===========================
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+
+
+DIAGNÓSTICO COMPLETADO

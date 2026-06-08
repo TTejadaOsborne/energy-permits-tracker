@@ -154,16 +154,20 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2025-08-29",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución del Servicio de Ordenación Industrial, Energética y Minera de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. El título indica una reforma de centro de transformación en caseta prefabricada. Información incompleta en el documento publicado. [reclasificado: promotor privado sin evacuación explícita: 'Emdecoria, SL']",
+        "observaciones": "Resolución del Servicio de Ordenación Industrial, Energética y Minera de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. El título indica una reforma de centro de transformación en caseta prefabricada. Información incompleta en el documento publicado. [Descartado manual: reforma CT privado media tensión]",
         "confianza": 0.45,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Emdecoria, SL'",
+        "es_energetico": false,
+        "estado_validacion": "descartado"
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 4337,
         "output": 541
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     }
   ]
 }

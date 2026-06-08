@@ -1,0 +1,75 @@
+2026-05-12 16:02:19,843 [INFO] Leyendo Google Sheet...
+2026-05-12 16:02:20,727 [INFO] Total registros: 68
+2026-05-12 16:02:20,728 [INFO] Candidatos sin MW: 26
+2026-05-12 16:02:20,728 [INFO] Limitado a 5 proyectos
+2026-05-12 16:02:20,728 [INFO] 
+[1/5] BOE-A-2026-8933 | Planta Solar Fotovoltaica Para Autoconsumo Balsa Cadimo | Fotovoltaica
+2026-05-12 16:02:26,768 [INFO]   ✓ MW=3.3 | fuente=https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8933
+2026-05-12 16:02:26,768 [INFO]   [DRY-RUN] Escribiría Permisos!H2 = 3.3
+2026-05-12 16:02:29,769 [INFO] 
+[2/5] BOJA-20260423-0 | Parque Fotovoltaico Lubrín-Antas | Fotovoltaica
+2026-05-12 16:02:39,106 [INFO]   ✗ Rechazado: Fuente no primaria: https://www.pv-magazine.es/2025/10/06/boe-8-proyectos-en-la-primera-semana-de-octubre-con-253-mw-de-fotovoltaica-y-299-mw-bess/
+2026-05-12 16:02:42,107 [INFO] 
+[3/5] BOCM-20260427-47 | Centro De Datos Cyrusone Madrid 1 | Data Center
+2026-05-12 16:03:04,191 [INFO]   ✗ Rechazado: Se identificó la fuente primaria BOCM-20260427-47 (27/04/2026) que contiene el expediente exacto 26-IPPC-00078.4/25, pero no se pudo acceder al contenido completo del PDF con la potencia específica. Además, fuentes secundarias muestran valores conflictivos (21 MW vs 18 MW). Requiere verificación directa del documento oficial para confirmar potencia exacta.
+2026-05-12 16:03:07,193 [INFO] 
+[4/5] BOCYL-D-27042026-78-30 | Planta De Valorización De Residuos Orgánicos A Biometano Y F | Biometano
+2026-05-12 16:03:08,115 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:03:11,119 [INFO] 
+[5/5] BOJA-20260427-0 | Proyecto Solar Danae | Fotovoltaica
+2026-05-12 16:03:12,486 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:03:15,490 [INFO] 
+──────────────────────────────
+RESUMEN enrich_mw
+  Procesados : 3
+  Escritos   : 1
+  Rechazados : 2
+  Errores    : 2
+──────────────────────────────
+2026-05-12 16:12:49,993 [INFO] Leyendo Google Sheet...
+2026-05-12 16:12:51,127 [INFO] Total registros: 68
+2026-05-12 16:12:51,128 [INFO] Candidatos sin MW: 26
+2026-05-12 16:12:51,128 [INFO] Limitado a 10 proyectos
+2026-05-12 16:12:51,128 [INFO] 
+[1/10] BOE-A-2026-8933 | Planta Solar Fotovoltaica Para Autoconsumo Balsa Cadimo | Fotovoltaica
+2026-05-12 16:13:00,599 [INFO]   ✗ Rechazado: No se pudo parsear respuesta: .
+
+Sin embargo, para cumplir con las reglas estrictas establecidas, necesito evaluar:
+
+- ✅ **Fuente primaria:** BOE-A-2026-8933 es un boletín oficial válido
+- ✅ **Expediente coincide exactamente:** El
+2026-05-12 16:13:03,600 [INFO] 
+[2/10] BOJA-20260423-0 | Parque Fotovoltaico Lubrín-Antas | Fotovoltaica
+2026-05-12 16:13:13,486 [INFO]   ✗ Rechazado: Fuente no primaria: https://www.pv-magazine.es/2025/11/21/boe-38-proyectos-en-el-mes-de-octubre-con-2-505-mw-de-fotovoltaica-75-mw-de-hibridacion-y-736-mw-bess/
+2026-05-12 16:13:16,488 [INFO] 
+[3/10] BOCM-20260427-47 | Centro De Datos Cyrusone Madrid 1 | Data Center
+2026-05-12 16:13:17,452 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:13:20,455 [INFO] 
+[4/10] BOCYL-D-27042026-78-30 | Planta De Valorización De Residuos Orgánicos A Biometano Y F | Biometano
+2026-05-12 16:13:58,355 [INFO]   ✗ Rechazado: No se ha encontrado la potencia en MW en fuentes primarias. El expediente 188-24-AAVA existe en BOCYL (27/04/2026), promotor Biofertilizantes CH4 SLU, Pedrajas de San Esteban. Se conoce capacidad de 140.000 t/año residuos, pero sin potencia eléctrica en MW confirmada en boletín oficial o promotor.
+2026-05-12 16:14:01,357 [INFO] 
+[5/10] BOJA-20260427-0 | Proyecto Solar Danae | Fotovoltaica
+2026-05-12 16:14:02,255 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:05,259 [INFO] 
+[6/10] BOCM-20260428-52 | AAI Multiple Periodo Noviembre 2025 - Abril 2026 | 
+2026-05-12 16:14:06,256 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:09,259 [INFO] 
+[7/10] DOCM-1769071608278310037 | Instalación Fotovoltaica Casarrubios del Monte | Fotovoltaica
+2026-05-12 16:14:10,527 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:13,531 [INFO] 
+[8/10] DOG-20260428-0 | Planta BESS Barces | BESS
+2026-05-12 16:14:15,607 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:18,611 [INFO] 
+[9/10] BOCM-20260429-26 | de la Resolución del Director General de Agricultura | 
+2026-05-12 16:14:19,809 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:22,813 [INFO] 
+[10/10] BOCM-20260429-27 | de la Resolución del Director General de Agricultura | 
+2026-05-12 16:14:23,799 [WARNING]   Error en llamada a Claude: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+2026-05-12 16:14:26,803 [INFO] 
+──────────────────────────────
+RESUMEN enrich_mw
+  Procesados : 3
+  Escritos   : 0
+  Rechazados : 3
+  Errores    : 7
+──────────────────────────────

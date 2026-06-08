@@ -724,9 +724,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2025-05-16",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que declara la utilidad pública de línea subterránea de alta tensión destinada a evacuar energía desde plantas fotovoltaicas ubicadas en Casares, Málaga. La línea es infraestructura de apoyo a generación fotovoltaica. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución que declara la utilidad pública de línea subterránea de alta tensión destinada a evacuar energía desde plantas fotovoltaicas ubicadas en Casares, Málaga. La línea es infraestructura de apoyo a generación fotovoltaica. [descartado: evacuación sin promotor identificado]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

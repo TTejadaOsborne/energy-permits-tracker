@@ -194,9 +194,11 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2024-10-30",
         "capacidad_mw_liberada": null,
-        "observaciones": "Autorización de ocupación temporal de la vía pecuaria Vereda Carpetana para instalación de línea aéreo/subterránea de 220 kV. Sometida a trámite de información pública por un mes desde la publicación en BOCM. Expediente de referencia: 10/903851.9/23. [reclasificado: promotor privado sin evacuación explícita: 'Quilla Solar, S.L.U.']",
+        "observaciones": "Autorización de ocupación temporal de la vía pecuaria Vereda Carpetana para instalación de línea aéreo/subterránea de 220 kV. Sometida a trámite de información pública por un mes desde la publicación en BOCM. Expediente de referencia: 10/903851.9/23. [descartado: revisión manual]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Quilla Solar, S.L.U.'"
       },
       "es_energetico": false,
       "tokens": {

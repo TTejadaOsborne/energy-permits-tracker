@@ -468,16 +468,17 @@
         "comunidad_autonoma": "Galicia",
         "fecha_resolucion": "2024-12-04",
         "capacidad_mw_liberada": null,
-        "observaciones": "Línea de evacuación eléctrica del parque eólico Picato. Declaración de utilidad pública con necesidad de urgente ocupación. Notificación por comparecencia a personas interesadas cuyos datos figuran en anexo. Plazo de comparecencia: 10 días hábiles desde publicación. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Línea de evacuación eléctrica del parque eólico Picato. Declaración de utilidad pública con necesidad de urgente ocupación. Notificación por comparecencia a personas interesadas cuyos datos figuran en anexo. Plazo de comparecencia: 10 días hábiles desde publicación. [conservado: Notificación de resolución de DUP]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 5306,
         "output": 396
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "DOG-20241219-1",

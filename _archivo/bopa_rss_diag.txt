@@ -1,0 +1,542 @@
+=== Test RSS y alternativas ===
+  404 |  196451B | text/html;charset=UTF-8             | CONTENIDO | https://miprincipado.asturias.es/bopa/rss
+  404 |  197090B | text/html;charset=UTF-8             | CONTENIDO | https://miprincipado.asturias.es/bopa/disposiciones/rss
+  404 |  196694B | text/html;charset=UTF-8             | CONTENIDO | https://miprincipado.asturias.es/bopa/-/rss
+  404 |  196451B | text/html;charset=UTF-8             | CONTENIDO | https://miprincipado.asturias.es/rss/bopa
+  403 |       3B | application/octet-stream            |          | do.asturias.es/o/headless-delivery/v1.0/sites/bopa/structured-contents
+  404 |     664B | text/html;charset=UTF-8             |          | /miprincipado.asturias.es/o/bopa-ws/v1.0/disposiciones/date/2026-04-24
+  404 |     664B | text/html;charset=UTF-8             |          | miprincipado.asturias.es/o/bopa-ws/v1.0/disposiciones?fecha=2026-04-24
+  200 |  186513B | text/html;charset=UTF-8             | CONTENIDO | do.asturias.es/bopa/disposiciones?p_r_p_dispositionDate=24%2F04%2F2026
+  200 |  184747B | text/html;charset=UTF-8             | CONTENIDO | cipado.asturias.es/bopa/disposiciones?p_r_p_dispositionDate=2026-04-24
+  200 |  228168B | text/html;charset=UTF-8             | CONTENIDO | incipado.asturias.es/bopa/ultimos-boletines?p_r_p_summaryLastBopa=true
+
+=== HTML de ultimos-boletines?summaryLastBopa=true ===
+Status: 200 | 228168B
+  [Último boletín] https://miprincipado.asturias.es/bopa/ultimos-boletines?p_r_p_summaryLastBopa=tr
+  [miBOPA] https://miprincipado.asturias.es/-/200950860-solicitud-de-mibopa
+  [Ir a Boletín Oficial del Principado de Asturias] https://miprincipado.asturias.es/bopa
+  [Boletín Oficial del Principado de Asturias] https://miprincipado.asturias.es/bopa
+  [Boletín del día anterior] https://miprincipado.asturias.es/bopa/ultimos-boletines?p_p_id=pa_sede_bopa_web_
+  [Acceder al sumario del boletín] /bopa/2026/05/06/20260506.pdf
+  [Boletín del día anterior] https://miprincipado.asturias.es/bopa/ultimos-boletines?p_p_id=pa_sede_bopa_web_
+  [Acceder al sumario del boletín] /bopa/2026/05/06/20260506.pdf
+  [Boletín Oficial del Principado de Asturias] https://miprincipado.asturias.es/bopa
+
+
+Últimos boletines - miPrincipado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Saltar al contenido
+
+
+
+
+
+
+
+
+
+
+
+
+
+Estás en  miPrincipado, un portal oficial del Gobierno del Principado de Asturias
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Portales
+
+
+
+
+
+                        asturias.es
+                    
+
+
+
+                        Participación
+                    
+
+
+
+                        miasturSalud
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N'Asturianu
+
+
+
+
+
+
+
+
+
+
+
+Área personal
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Principado de Asturias
+
+
+
+
+
+
+
+
+
+
+Principado de Asturias 
+
+
+
+
+
+
+miPrincipado
+
+
+
+
+Menú
+
+
+
+
+
+
+
+Buscar en asturias.es
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Buscador					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Barra de búsqueda
+			
+
+
+
+
+
+Buscar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Lo más buscado
+
+Solicitud genérica
+Ayudas por nacimiento o adopción
+Reconocimiento de la situación de dependencia
+Subvención de mínimis para la cría e inscripción de ejemplares de la raza Asturiana de los Valles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Principado de Asturias 
+
+
+
+
+
+
+
+
+Cerrar menú
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boletín Oficial del Principado de Asturias
+
+
+
+
+
+
+
+Boletín Oficial del Principado de Asturias
+
+
+
+
+
+
+
+
+Último boletín
+
+
+Disposiciones
+
+
+Legislación consolidada
+
+
+miBOPA
+
+
+Convocatoria y concesiones de ayudas y subvenciones
+
+
+Insertar anuncios
+
+
+
+
+
+
+                                        Ir a Boletín Oficial del Principado de Asturias
+                                    
+
+
+
+
+
+
+
+
+Tramita con miPrincipado
+
+
+
+
+
+
+
+Tramita con miPrincipado
+
+
+
+
+
+
+
+                                            
+                                        Ir a Tramita con miPrincipado
+                                    
+
+
+
+
+
+
+
+
+Mis trámites
+
+
+
+
+
+
+
+Mis trámites
+
+
+
+
+
+
+
+
+Consultar otros trámites
+
+
+Documentos reutilizables
+
+
+
+
+
+
+                                        Ir a Mis trámites
+                                    
+
+
+
+
+
+
+
+
+Sobre miPrincipado
+
+
+
+
+
+
+
+Sobre miPrincipado
+
+
+
+
+
+
+
+
+¿Qué es miPrincipado?
+
+
+Descubre miPrincipado
+
+
+Iden
+
+COMPLETADO

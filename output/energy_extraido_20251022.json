@@ -192,9 +192,11 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2025-10-08",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que acuerda hacer público el Informe de Impacto Ambiental (DIA) del proyecto conforme al art. 47.3 de la Ley 21/2013 de Evaluación Ambiental. El proyecto consiste en la reforma de una línea de alta tensión aérea existente para su integración en la red de distribución a 15 kV. [reclasificado: promotor privado sin evacuación explícita: 'Distribución Eléctrica Las Mercedes, S. L.']",
+        "observaciones": "Resolución que acuerda hacer público el Informe de Impacto Ambiental (DIA) del proyecto conforme al art. 47.3 de la Ley 21/2013 de Evaluación Ambiental. El proyecto consiste en la reforma de una línea de alta tensión aérea existente para su integración en la red de distribución a 15 kV. [descartado: media tensión]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Distribución Eléctrica Las Mercedes, S. L.'"
       },
       "es_energetico": false,
       "tokens": {

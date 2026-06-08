@@ -620,9 +620,11 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "09/04/2025",
         "capacidad_mw_liberada": null,
-        "observaciones": "Levantamiento de actas previas a la ocupación de fincas para infraestructura de evacuación conjunta de tres plantas fotovoltaicas (Mimas Solar, Titán Solar y Dione Solar) ubicadas en Mantiel. Afecta también a municipios de Peralveche, Trillo, Pareja, Chillarón del Rey, Durón y Budia. Resolución anterior de iniciación del expediente expropiatorio de 06/11/2024 (DOCM 222/2024). [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Levantamiento de actas previas a la ocupación de fincas para infraestructura de evacuación conjunta de tres plantas fotovoltaicas (Mimas Solar, Titán Solar y Dione Solar) ubicadas en Mantiel. Afecta también a municipios de Peralveche, Trillo, Pareja, Chillarón del Rey, Durón y Budia. Resolución anterior de iniciación del expediente expropiatorio de 06/11/2024 (DOCM 222/2024). [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

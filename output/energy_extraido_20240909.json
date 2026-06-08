@@ -617,9 +617,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-08-02",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de convocatoria para levantamiento de actas previas a la ocupación de determinadas fincas afectadas por la infraestructura de evacuación. Texto completo de acceso restringido desde 2024-09-09 (más de seis meses desde publicación). La información disponible es limitada debido a restricción de acceso al documento original. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de convocatoria para levantamiento de actas previas a la ocupación de determinadas fincas afectadas por la infraestructura de evacuación. Texto completo de acceso restringido desde 2024-09-09 (más de seis meses desde publicación). La información disponible es limitada debido a restricción de acceso al documento original. [descartado: revisión manual]",
         "confianza": 0.5,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

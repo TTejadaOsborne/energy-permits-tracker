@@ -464,9 +464,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2024-08-29",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución otorgando autorización administrativa previa para instalaciones de subestación transformadora de 400 kV. Centro transformador Zurbarán nuevo. [reclasificado: promotor privado sin evacuación explícita: 'Distribuidora Eléctrica Carrión, SL']",
+        "observaciones": "Resolución otorgando autorización administrativa previa para instalaciones de subestación transformadora de 400 kV. Centro transformador Zurbarán nuevo. [descartado: revisión manual]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Distribuidora Eléctrica Carrión, SL'"
       },
       "es_energetico": false,
       "tokens": {

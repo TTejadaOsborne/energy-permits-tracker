@@ -697,9 +697,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": "2025-09-11",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de autorización administrativa previa y autorización de construcción para modificación de instalación de evacuación compartida (línea aérea de alta tensión 220 kV). Se otorga por la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia de Zaragoza. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución de autorización administrativa previa y autorización de construcción para modificación de instalación de evacuación compartida (línea aérea de alta tensión 220 kV). Se otorga por la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia de Zaragoza. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

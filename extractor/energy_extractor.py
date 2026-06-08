@@ -267,6 +267,10 @@ REGLAS CRÍTICAS DE EXTRACCIÓN
     ✗ Concentración parcelaria, transformación en regadío
     ✗ Centros de tratamiento de residuos no energéticos
     ✗ Insectos, proteínas, biotecnología no energética
+    ✗ Publicaciones sobre ocupación temporal o definitiva de dominio público, imposición de servidumbre de paso,
+      levantamiento de actas previas a la ocupación (LAP), citación a propietarios afectados, o expropiación
+      forzosa — aunque estén relacionadas con un proyecto energético. Son trámites de acceso al suelo, no del
+      proyecto en sí: es_proyecto_energetico=false (tipo_permiso="LAP", "Servidumbre" u "OcupacionUP")
 
 11. "expediente_proyecto_asociado": rellena SOLO cuando la publicación trate una infraestructura de evacuación privada (LAT o subestación de promotor) en publicación separada al parque. Copia aquí el número de expediente del parque principal si aparece en el texto. En todos los demás casos: null
 

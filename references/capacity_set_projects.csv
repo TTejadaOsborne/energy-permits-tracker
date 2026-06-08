@@ -1,0 +1,9 @@
+﻿distribuidora,subestacion_hist,tension_kv,n_eventos,avg_delta_mw,event_dates,project_id,subestacion_project,jaccard,estado_actual,tipo_permiso,promotor,potencia_mw
+REE,ARROYO DE LA VEGA,220.0,3,98.7,2024-04-01|2024-06-03|2025-06-02,prj_00767,ST Arroyo de la Vega,1.0,informacion_publica,AAP,"Red Eléctrica de España, S. A. U.",
+REE,FUENTES DE LA ALCARRIA,400.0,3,69.7,2024-07-01|2024-08-01|2025-03-03,prj_00162,Fuentes de la Alcarria,1.0,favorable,DIA,"Naturgy Renovables, SLU",49.8
+REE,FUENTES DE LA ALCARRIA,400.0,3,69.7,2024-07-01|2024-08-01|2025-03-03,prj_00163,Fuentes de la Alcarria 400 kV,1.0,informacion_publica,IPA,"Naturgy Renovables, SLU",36.0
+REE,MEDINA DEL CAMPO,220.0,2,39.5,2024-08-01|2025-04-01,prj_00185,"Medina del Campo, 220 kV",1.0,informacion_publica,AAP,"YOUtaLL CAPITAL, S.L.",22.0
+REE,PUERTO DE LA CRUZ,220.0,6,36.2,2024-12-02|2025-04-01|2025-06-02|2025-12-01|2026-03-02|2026-05-01,prj_00457,Puerto de la Cruz,1.0,favorable,DIA,"Arena Power Ren 29, SLU",66.0
+REE,SANTA ENGRACIA,400.0,2,56.5,2025-10-01|2026-02-20,prj_00236,SE Santa Engracia - SE Serna,0.667,favorable,DIA,"Red Eléctrica de España, SAU",1812.0
+UFD,SAN FERNANDO,45.0,2,50.0,2022-02-27|2024-06-18,prj_00381,ST San Fernando 132 kV / ST Henares,0.667,informacion_publica,IP,"I-DE Redes Eléctricas Inteligentes, S. A. U.",
+iDE,MEDINA  DEL CAMPO T1 45,45.0,2,25.0,2025-10-03|2025-12-01,prj_00185,"Medina del Campo, 220 kV",1.0,informacion_publica,AAP,"YOUtaLL CAPITAL, S.L.",22.0

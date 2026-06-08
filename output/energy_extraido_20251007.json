@@ -310,9 +310,11 @@
         "comunidad_autonoma": "Castilla y León",
         "fecha_resolucion": "2025-09-30",
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de soterramiento de línea aérea de alta tensión a 20 kV (3ª categoría). Afecta a espacio Red Natura 2000 (ZEC 'El Rebollar' ES4150032). Se proyecta desmantelamiento del tramo aéreo entre apoyos n.º 525 y n.º 6527 e instalación de nueva línea subterránea. Nueva celosía metálica C-2000/12 denominada n.º 525N en sustitución del apoyo n.º 525. [reclasificado: promotor privado sin evacuación explícita: 'Anselmo León Distribución, S.L.']",
+        "observaciones": "Proyecto de soterramiento de línea aérea de alta tensión a 20 kV (3ª categoría). Afecta a espacio Red Natura 2000 (ZEC 'El Rebollar' ES4150032). Se proyecta desmantelamiento del tramo aéreo entre apoyos n.º 525 y n.º 6527 e instalación de nueva línea subterránea. Nueva celosía metálica C-2000/12 denominada n.º 525N en sustitución del apoyo n.º 525. [descartado: media tensión]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Anselmo León Distribución, S.L.'"
       },
       "es_energetico": false,
       "tokens": {

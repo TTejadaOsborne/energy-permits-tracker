@@ -1033,9 +1033,11 @@
         "comunidad_autonoma": "Asturias",
         "fecha_resolucion": null,
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de información pública en procedimiento de evaluación de impacto ambiental simplificada. Proyecto incluye subestación transformadora de tres niveles de tensión (220/132/24 kV) y líneas de evacuación de 132 kV y 24 kV en los municipios de Cabrales y Llanes. Expediente de Medio Ambiente: IA-IA-0059/2025 / Auto/2025/6834. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de información pública en procedimiento de evaluación de impacto ambiental simplificada. Proyecto incluye subestación transformadora de tres niveles de tensión (220/132/24 kV) y líneas de evacuación de 132 kV y 24 kV en los municipios de Cabrales y Llanes. Expediente de Medio Ambiente: IA-IA-0059/2025 / Auto/2025/6834. [descartado: evacuación sin promotor identificado]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

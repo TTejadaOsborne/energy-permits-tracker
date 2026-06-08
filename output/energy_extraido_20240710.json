@@ -430,9 +430,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-06-25",
         "capacidad_mw_liberada": null,
-        "observaciones": "Texto de acceso restringido. Solo se dispone del título del anuncio que menciona un proyecto de infraestructura de evacuación (presumiblemente LAT). El contenido completo solo es accesible mediante petición formal a la Junta de Andalucía. Expediente BOJA-20240710-1 publicado el 10/07/2024. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Texto de acceso restringido. Solo se dispone del título del anuncio que menciona un proyecto de infraestructura de evacuación (presumiblemente LAT). El contenido completo solo es accesible mediante petición formal a la Junta de Andalucía. Expediente BOJA-20240710-1 publicado el 10/07/2024. [descartado: revisión manual]",
         "confianza": 0.45,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

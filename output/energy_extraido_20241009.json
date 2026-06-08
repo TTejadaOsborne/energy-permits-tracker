@@ -508,9 +508,11 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "2025-07-21",
         "capacidad_mw_liberada": null,
-        "observaciones": "Ocupación de terrenos en vía pecuaria Colada del Camino de Portillo a Quismondo (VP/165/23) para cruzamiento aéreo de línea eléctrica de alta tensión 220 kV. Resolución aprobatoria de la Dirección General de Medio Natural y Biodiversidad de 21/07/2025. [reclasificado: promotor privado sin evacuación explícita: 'Solaria Promoción y Desarrollo Fotovoltaico, SL']",
+        "observaciones": "Ocupación de terrenos en vía pecuaria Colada del Camino de Portillo a Quismondo (VP/165/23) para cruzamiento aéreo de línea eléctrica de alta tensión 220 kV. Resolución aprobatoria de la Dirección General de Medio Natural y Biodiversidad de 21/07/2025. [descartado: revisión manual]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Solaria Promoción y Desarrollo Fotovoltaico, SL'"
       },
       "es_energetico": false,
       "tokens": {

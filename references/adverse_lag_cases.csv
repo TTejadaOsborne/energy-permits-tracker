@@ -1,0 +1,190 @@
+﻿proyecto_id,proyecto_nombre,promotor,tecnologia,mw_proyecto,subestacion_raw,subestacion_match,match_score,distribuidora,provincia_cap,tension_kv_prj,fecha_adversa,tipo_adverso,estado_adverso,boletin,capacidad_base_mw,lag_dias,delta_mw,fecha_afloracion,confirmacion_fuente
+prj_02449,Lorca Solar PV,"X-Elio Andaltia Murcia, SL",Fotovoltaica,339.1,Subestación 132/400 kV Lorca Solar,SMR LORCA,0.5,iDE,NAVARRA,132.0,20200609,DIA,archivado,BOE,,0,287.6,2020-06-09,boe_texto
+prj_04421,Parque Eólico Cerro Del Águila,"NdO Proyectos Industriales 2007, S.L.N.E.",Eólica,2.5,,,,,Valladolid,,20210810,AAP,denegado,BOCyL,,0,2.5,2021-08-10,boe_texto
+prj_02488,Parque Eólico El Moral,"ESTUDIOS Y PROYECTOS PRADAMAP, S.L.U.",Eólica,48.0,BUNIEL 400 kV,BUNIEL,1.0,REE,,132.0,20230110,AAP,denegado,BOCyL,,0,48.0,2023-01-10,boe_texto
+prj_02852,PFV Añover de Tajo,"Circle Energy Columba, SL",Fotovoltaica,30.0,,,,,Toledo,,20230321,AAP,desistido,DOCM,,0,30.0,2023-03-21,boe_texto
+prj_03328,Instalación Fotovoltaica Cabriana IV,"Leader Attitude, S.L.",Fotovoltaica,44.5,,,,,La Rioja,,20230526,AAP_AAC,denegado,BOLR,,0,44.5,2023-05-26,boe_texto
+prj_03458,Parque Solar Fotovoltaico Santo Toribio,"Renantis España 1, SLU (antes Falck Renewables Power 1, SL)",Fotovoltaica,88.635,Campos de Levante 30/220 kV,CAMPOS,0.5,REE,,220.0,20230821,AAP,denegado,BOE,,0,88.6,2023-08-21,boe_texto
+prj_02572,Planta Solar Fotovoltaica Castrillo III,"Planta Fotovoltaica La Cepeda, S.L.",Fotovoltaica,50.0,Montearenas 400 kV,MONTEARENAS,1.0,REE,,400.0,20230828,AAP,denegado,BOCyL,,0,50.0,2023-08-28,boe_texto
+prj_03527,Parque Solar Fotovoltaico Aldehuela,"Desarrollos Renovables Madroño, SL",Fotovoltaica,129.984,La Torrecilla 220 kV (REE),LA TORRECILLA,1.0,REE,,220.0,20230925,AAP,denegado,BOE,,311,138.0,2024-08-01,historial_dso
+prj_03528,Parque Solar Fotovoltaico Albares,"Green Capital Power, SLU",Fotovoltaica,80.0,La Vega,ARROYO DE LA VEGA,0.5,REE,,132.0,20230925,AAP,denegado,BOE,,0,80.0,2023-09-25,boe_texto
+prj_03556,Parque Solar Fotovoltaico Martiánez Solar,"Martiánez Solar, SLU",Fotovoltaica,50.99,,,,,Madrid,30.0,20230929,AAP,denegado,BOE,,0,51.0,2023-09-29,boe_texto
+prj_03565,Parques Solares Fotovoltaicos Alya y Atik,,Fotovoltaica,60.5,,,,,,,20231003,DIA,desfavorable,BOE,,0,60.5,2023-10-03,boe_texto
+prj_03574,Parque Eólico Los Corrales,"Green Capital Power, SL",Eólica,58.6,Olite 220 kV,OLITE,1.0,REE,,220.0,20231004,AAP,denegado,BOE,,0,58.6,2023-10-04,boe_texto
+prj_03580,Parque Solar Fotovoltaico Formentor Solar,"Nortada Solar, SLU",Fotovoltaica,52.0,Alcalá II 220 kV,ALCALA 132,1.0,iDE,MADRID,220.0,20231005,AAP,denegado,BOE,,0,52.0,2023-10-05,boe_texto
+prj_03598,Parque Solar Fotovoltaico Gran Fregacedos,"Fotones del Atlántico, SL",Fotovoltaica,111.8,Camino Fregacedos,CAMINO FREGACEDOS,1.0,REE,,220.0,20231009,AAP,denegado,BOE,,0,111.8,2023-10-09,boe_texto
+prj_03694,Parque Solar Fotovoltaico Noguera,"Noguera Solar, SLU",Fotovoltaica,50.01,,,,,Madrid,30.0,20231103,AAP,denegado,BOE,,0,50.0,2023-11-03,boe_texto
+prj_03695,Parque Fotovoltaico Borealis,"Parque FV Borealis, SL",Fotovoltaica,160.0,Nudo Algete,ALGETE,0.5,REE,,,20231103,AAP,denegado,BOE,,0,160.0,2023-11-03,boe_texto
+prj_03696,Parque Fotovoltaico Polaris FV,"Parque FV Polaris, S.L.",Fotovoltaica,35.0,Nudo Algete (30/220 kV) y SE Algete (220 kV),ALGETE,0.5,REE,,220.0,20231103,AAP_AAC,denegado,BOE,,0,35.0,2023-11-03,boe_texto
+prj_03706,Planta Solar Fotovoltaica Valduerna I,"Parque Eólico Casa Vieja, S.L.",Fotovoltaica,50.0,SET FV1 - Destriana,,,,León,132.0,20231106,AAP,denegado,BOCyL,,0,50.0,2023-11-06,boe_texto
+prj_03701,Planta Fotovoltaica Foque Solar,"Foque Solar, SL",Fotovoltaica,112.5,San Fernando 400 kV,SAN FERNANDO,1.0,UFD,MADRID,400.0,20231106,AAP,denegado,BOE,-37.0,22,14.9,2023-11-28,historial_dso
+prj_03703,Parque Eólico El Acebo,"Green Capital Power, SL",Eólica,81.9,SE Aguayo 220,AGUAYO,1.0,REE,,220.0,20231106,AAP,denegado,BOE,,0,81.9,2023-11-06,boe_texto
+prj_03702,Instalación Fotovoltaica Alcal I,"Isis Sun Power, S.L.",Fotovoltaica,57.0,Subestación Algete 220 kV (REE),ALGETE,1.0,REE,,220.0,20231106,AAP_AAC,denegado,BOE,,0,57.0,2023-11-06,boe_texto
+prj_03749,Parque Solar Fotovoltaico Marciaga Solar,"Marciaga Solar, SLU",Fotovoltaica,62.5,Cártama 400 kV,CARTAMA,1.0,REE,,400.0,20231115,AAP,denegado,BOE,,0,62.5,2023-11-15,boe_texto
+prj_03799,Parque Eólico Abano,"Green Capital Development I, SL",Eólica,76.5,Robla 400 kV,CT LA ROBLA,1.0,UFD,LEON,400.0,20231127,AAP,denegado,BOE,0.0,0,76.5,2023-11-27,boe_texto
+prj_03928,Planta Solar Fotovoltaica Valduerna II,"Parque Eólico Los Pedrejones, S.L.",Fotovoltaica,50.0,SET FV1 - Destriana,,,,León,132.0,20231218,AAP,denegado,BOCyL,,0,50.0,2023-12-18,boe_texto
+prj_04146,Planta Fotovoltaica Alarilla II,"Energías Renovables Pergamino, SL",Fotovoltaica,3.465,,,,,Guadalajara,,20240311,AAP,desistido,DOCM,,0,3.5,2024-03-11,boe_texto
+prj_04134,Parque Eólico Carola,"Green Capital Development XII, SL",Eólica,80.0,Salas 400 kV,PI SALAS T1 45,1.0,iDE,BURGOS,400.0,20240311,AAP,denegado,BOE,,0,80.0,2024-03-11,boe_texto
+prj_04147,Parque Eólico Rebordechao,"Desarrollos Renovables Iberia Beta, SL",Eólica,154.0,PE Sil 220 kV,DO SIL,1.0,REE,,220.0,20240312,AAP,denegado,BOE,0.0,0,154.0,2024-03-12,boe_texto
+prj_04165,Parque Eólico Barjas,"Desarrollos Renovables Iberia Delta, SLU",Eólica,121.0,Subestación Trives 220 kV,TRIVES,1.0,REE,,220.0,20240315,AAP,denegado,BOE,0.0,0,121.0,2024-03-15,boe_texto
+prj_04166,Parque Eólico Prada,"Desarrollos Renovables Iberia Gamma, SL",Eólica,168.0,Subestación Trives 220 kV,TRIVES,1.0,REE,,220.0,20240315,AAP,denegado,BOE,0.0,0,168.0,2024-03-15,boe_texto
+prj_04198,Parque Eólico Segarra Sur 1,"Sistemas Energéticos Ábrego, SLU",Eólica,68.2,Les Comes 400/220 kV,,0.333,,"Lleida, Tarragona",220.0,20240321,AAP,denegado,BOE,,0,68.2,2024-03-21,boe_texto
+prj_04233,Parque Solar Fotovoltaico Lanuza Solar I,"Lanuza Solar, SLU",Fotovoltaica,62.5,Esparragal,,,,Cádiz,400.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04234,Parque Solar Fotovoltaico Nuza Solar II,"Nuza Solar, SLU",Fotovoltaica,62.5,,,,,Cádiz,30.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04235,Parque Solar Fotovoltaico Anclote Solar,"Anclote Solar, SLU",Fotovoltaica,62.5,Perejil,,,,Málaga,132.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04236,Parque Solar Fotovoltaico Atolón Solar,"Atolón Solar, SLU",Fotovoltaica,62.5,Subestación Transformadora Perejil 132/30 kV,,,,Cádiz; Málaga,30.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04237,Parque Solar Fotovoltaico Lanuza Solar II,"Lanuza Solar, SLU",Fotovoltaica,62.5,Subestación Transformadora Perejil 132/30 kV,,,,Málaga,132.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04238,Parque Solar Fotovoltaico Nuza Solar I,"Nuza Solar, SLU",Fotovoltaica,62.5,Subestación Transformadora Perejil 132/30 kV,,,,Cádiz,30.0,20240326,AAP,denegado,BOE,,0,62.5,2024-03-26,boe_texto
+prj_04239,Parque Eólico Sete Fontes,"Green Capital Development 118, SL",Eólica,54.0,Mesón Do Vento,MESON DO VENTO,1.0,UFD,LA CORUÑA,400.0,20240326,AAP,denegado,BOE,0.0,0,54.0,2024-03-26,boe_texto
+prj_04254,Parque Solar Fotovoltaico Archidona Solar,"Wezen Solar, SL",Fotovoltaica,103.8,Archidona 400 kV,ARCHIDONA,1.0,REE,,400.0,20240402,AAP,denegado,BOE,0.0,0,103.8,2024-04-02,boe_texto
+prj_04298,Parque Solar Fotovoltaico La Dehesilla,"EDP Renovables España, SLU",Fotovoltaica,100.0,Cabra 400 kV,CABRA,1.0,REE,,400.0,20240410,AAP_AAC,denegado,BOE,-148.0,0,100.0,2024-04-10,boe_texto
+prj_04325,Planta Solar Fotovoltaica Cordovilla,"ES Planta Solar 7, SL",Fotovoltaica,129.6,Subestación Cordovilla 220 kV (REE),CORDOVILLA,1.0,REE,,220.0,20240412,AAP_AAC,denegado,BOE,0.0,0,129.6,2024-04-12,boe_texto
+prj_04368,Parque Eólico Gargalois,"Green Capital Development 76, SLU",Eólica,55.0,El Palo,EL PALO,1.0,Viesgo,ASTURIAS,400.0,20240422,AAP,denegado,BOE,53.3,13,112.1,2024-05-05,historial_dso
+prj_04381,Parque Eólico Diana,"Green Capital Power, SLU",Eólica,88.2,Tudela 220 kV,TUDELA,1.0,REE,,220.0,20240425,AAP,denegado,BOE,-55.0,0,88.2,2024-04-25,boe_texto
+prj_04382,Parque Eólico Vientos del Sur,"Green Capital Power, SLU",Eólica,63.0,Tudela 220 kV,TUDELA,1.0,REE,,220.0,20240425,AAP,denegado,BOE,-55.0,0,63.0,2024-04-25,boe_texto
+prj_04383,Parque Eólico Brisa,"Greenalia Wind Power Brisa, SL",Eólica,61.6,SET SILLEDA 400 kV,SILLEDA,1.0,REE,,400.0,20240425,AAP,denegado,BOE,0.0,0,61.6,2024-04-25,boe_texto
+prj_04384,Parque Eólico Céfiro,"Greenalia Wind Power Céfiro, SL",Eólica,56.0,SET SILLEDA 400 kV,SILLEDA,1.0,REE,,400.0,20240425,AAP,denegado,BOE,0.0,0,56.0,2024-04-25,boe_texto
+prj_04385,Parque Eólico Galerna,"Greenalia Wind Power Galerna, SL",Eólica,56.0,SET SILLEDA 400 kV,SILLEDA,1.0,REE,,400.0,20240425,AAP,denegado,BOE,0.0,0,56.0,2024-04-25,boe_texto
+prj_04394,Parque Solar Fotovoltaico Navajo,"ES Planta Solar 3, SL",Fotovoltaica,86.4,Yunquera / Cisneros (REE),CISNEROS,0.5,REE,,220.0,20240426,AAP,denegado,BOE,0.0,0,86.4,2024-04-26,boe_texto
+prj_04392,Parque Solar Fotovoltaico Cisne I,"Energías Fotovoltaicas Soluz, SL",Fotovoltaica,40.5,,,,,Guadalajara,30.0,20240426,AAP,denegado,BOE,,0,40.5,2024-04-26,boe_texto
+prj_04393,Parque Solar Fotovoltaico Cisne II,"Energías Fotovoltaicas Soluz, SL",Fotovoltaica,49.95,Taracena II 30/220 kV,,,,Guadalajara,220.0,20240426,AAP,denegado,BOE,,0,50.0,2024-04-26,boe_texto
+prj_04416,Parque Fotovoltaico IFV Mezquita,"Proyecto Fotovoltaico Santiponce, SL",Fotovoltaica,105.0,SET Fargue 220 kV,FARGUE,1.0,Endesa,Granada,220.0,20240503,AAP,denegado,BOE,-95.0,0,105.0,2024-05-03,boe_texto
+prj_04417,Instalación Fotovoltaica Campos del Turia,"Renantis España 2, SL",Fotovoltaica,90.46,Subestación Bernat 220 kV (REE),BERNAT,1.0,REE,,220.0,20240503,AAP,denegado,BOE,0.0,0,90.5,2024-05-03,boe_texto
+prj_04476,Parque Solar Fotovoltaico Amura Solar,"Amura Solar, SLU",Fotovoltaica,62.5,Jordana 400 kV,JORDANA,1.0,REE,,400.0,20240604,AAP,denegado,BOE,0.0,0,62.5,2024-06-04,boe_texto
+prj_04477,Parque Solar Fotovoltaico Trofeo Solar II,"Trofeo Solar, SLU",Fotovoltaica,51.0,Jordana 400 kV,JORDANA,1.0,REE,,400.0,20240604,AAP,denegado,BOE,0.0,0,51.0,2024-06-04,boe_texto
+prj_04491,Parque Eólico El Pelado,"Energías Renovables de Ormonde 59, SL",Eólica,38.5,SET Moneva,,,,Teruel,132.0,20240606,AAP,denegado,BOE,,0,38.5,2024-06-06,boe_texto
+prj_04494,Parque Solar Fotovoltaico Campos Salados,"Renantis España 2, SL",Fotovoltaica,80.0,Bernat 220 kV,BERNAT,1.0,REE,,220.0,20240606,AAP,denegado,BOE,0.0,0,80.0,2024-06-06,boe_texto
+prj_04559,Parque Eólico Eco,"Green Capital Development 130, SLU",Eólica,72.0,Compostilla 400 kV,COMPOSTILLA,1.0,REE,,400.0,20240618,AAP,denegado,BOE,0.0,0,72.0,2024-06-18,boe_texto
+prj_04560,Parque Eólico Ralea,"Green Capital Development 133, SLU",Eólica,138.0,Compostella 400 kV,,,,"León, Lugo",400.0,20240618,AAP,denegado,BOE,,0,138.0,2024-06-18,boe_texto
+prj_04561,Parque Eólico Umbrío,"Green Capital Development 134, SLU",Eólica,114.0,Compostilla 400 kV,COMPOSTILLA,1.0,REE,,400.0,20240618,AAP,denegado,BOE,0.0,0,114.0,2024-06-18,boe_texto
+prj_04932,Parque Eólico Sangorrín,"Planta Solar OPDE 36, SL",Eólica,100.0,SET La Serna 220 kV,LA SERNA 66,1.0,iDE,NAVARRA,220.0,20240902,AAP,denegado,BOE,0.0,0,100.0,2024-09-02,boe_texto
+prj_04933,Parque Eólico Miramón,Planta Solar OPDE 37 SL,Eólica,72.0,SET La Serna 220 kV,LA SERNA 66,1.0,iDE,NAVARRA,220.0,20240902,AAP,denegado,BOE,0.0,0,72.0,2024-09-02,boe_texto
+prj_04934,Parque Eólico Salto del Lobo,"Planta Solar OPDE 39, SL",Eólica,100.0,SET La Serna 400 kV,LA SERNA 66,1.0,iDE,NAVARRA,400.0,20240902,AAP,denegado,BOE,0.0,0,100.0,2024-09-02,boe_texto
+prj_04935,Parque Eólico Valentuña,"Planta Solar OPDE 40, SL",Eólica,100.0,SET La Serna 400 kV,LA SERNA 66,1.0,iDE,NAVARRA,400.0,20240902,AAP,denegado,BOE,0.0,0,100.0,2024-09-02,boe_texto
+prj_04936,Parque Eólico Lorbes,Planta Solar OPDE 41 SL,Eólica,50.0,La Serna 400 kV,LA SERNA 66,1.0,iDE,NAVARRA,400.0,20240902,AAP,denegado,BOE,0.0,0,50.0,2024-09-02,boe_texto
+prj_05008,Parque Solar Fotovoltaico Oropesa,"Kalianda Promociones, SL",Fotovoltaica,250.0,Boadilla 220 kV,BOADILLA,1.0,REE,,220.0,20240920,AAP,denegado,BOE,-50.0,0,250.0,2024-09-20,boe_texto
+prj_05018,Parque Eólico El Cid V,"Energías Renovables de Gladiateur 3, SL",Eólica,33.0,Morella 400 kV,MORELLA,1.0,REE,,400.0,20240923,AAP,denegado,BOE,0.0,0,33.0,2024-09-23,boe_texto
+prj_05019,Parque Eólico El Cabecero I,"Energías Renovables de Gladiateur 4, SL",Eólica,38.5,Morella 400 kV,MORELLA,1.0,REE,,400.0,20240923,AAP,denegado,BOE,0.0,0,38.5,2024-09-23,boe_texto
+prj_05020,Parque Eólico Jalón 2050,"Jorge Energy X, SL",Eólica,100.0,Rueda de Jalón 400 kV,RUEDA DE JALON,1.0,REE,,400.0,20240923,AAP,denegado,BOE,0.0,0,100.0,2024-09-23,boe_texto
+prj_05021,Parque Eólico Naos,"Energía Inagotable de Naos, SL",Eólica,49.5,Pierola 400 kV,PIEROLA,1.0,Endesa,Barcelona,400.0,20240924,AAP,denegado,BOE,0.0,0,49.5,2024-09-24,boe_texto
+prj_05038,Parque Eólico Ogma,"Energía Inagotable de Ogma, SL",Eólica,49.5,Pierola 400 kV,PIEROLA,1.0,Endesa,Barcelona,400.0,20240926,AAP,denegado,BOE,0.0,0,49.5,2024-09-26,boe_texto
+prj_05037,Parque Eólico Miram,"Energía Inagotable de Miram, SL",Eólica,49.5,Pierola 400 kV,PIEROLA,1.0,Endesa,Barcelona,400.0,20240926,AAP,denegado,BOE,0.0,0,49.5,2024-09-26,boe_texto
+prj_05081,Parque Eólico Rula,"Green Capital Development 112, SL",Eólica,55.0,Tomeza 220 kV,TOMEZA,1.0,REE,,220.0,20241007,AAP,denegado,BOE,-280.0,0,55.0,2024-10-07,boe_texto
+prj_05082,Parque Eólico Fonte Barreiros,"Green Capital Development 100, SL",Eólica,96.0,Xove 400 kV,XOVE,1.0,REE,,400.0,20241007,AAP,denegado,BOE,0.0,0,96.0,2024-10-07,boe_texto
+prj_05112,Parque Eólico Securita,"Energía Inagotable de Securita, SL",Eólica,48.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241011,AAP,denegado,BOE,-10.0,0,48.0,2024-10-11,boe_texto
+prj_05129,Parque Fotovoltaico Vulturno,"Energía Inagotable de Vulturno, SL",Fotovoltaica,39.29,Santa Engracia 220 kV,SANTA ENGRACIA,1.0,REE,,220.0,20241016,AAP,denegado,BOE,0.0,0,44.2,2024-10-16,boe_texto
+prj_05127,Parque Eólico Secretariat,"Energía Inagotable de Secretariat, SL",Eólica,42.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241016,AAP,denegado,BOE,-10.0,0,42.0,2024-10-16,boe_texto
+prj_05130,Parque Fotovoltaico Zetes,"Energía Inagotable de Zetes, SL",Fotovoltaica,44.2,Santa Engracia 220 kV,SANTA ENGRACIA,1.0,REE,,220.0,20241016,AAP,denegado,BOE,0.0,0,44.2,2024-10-16,boe_texto
+prj_05137,Parque Eólico Rumina,"Energía Inagotable de Rumina, SL",Eólica,48.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,48.0,2024-10-18,boe_texto
+prj_05138,Parque Eólico Runcia,"Energía Inagotable de Runcia, SL",Eólica,24.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,24.0,2024-10-18,boe_texto
+prj_05139,Parque Eólico Rusor,"Energía Inagotable de Rusor, SL",Eólica,30.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,30.0,2024-10-18,boe_texto
+prj_05140,Parque Eólico Salacia,"Energía Inagotable de Salacia, SL",Eólica,42.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,42.0,2024-10-18,boe_texto
+prj_05141,Parque Eólico Salus,"Energía Inagotable de Salus, SL",Eólica,42.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,42.0,2024-10-18,boe_texto
+prj_05142,Parque Eólico Sancus,"Energía Inagotable de Sancus, SL",Eólica,48.0,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,48.0,2024-10-18,boe_texto
+prj_05143,Parque Eólico Saritor,"Energía Inagotable de Saritor, SL",Eólica,18.25,Vitoria 400 kV,VITORIA,1.0,REE,,400.0,20241018,AAP,denegado,BOE,-10.0,0,18.2,2024-10-18,boe_texto
+prj_05148,Parque Eólico Son,"Energía Inagotable de Son, SL",Eólica,49.5,Jundiz,JUNDIZ,1.0,REE,,220.0,20241021,AAP,denegado,BOE,0.0,0,49.5,2024-10-21,boe_texto
+prj_05149,Parque Eólico Suki,"Energía Inagotable de Suki, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241021,AAP,denegado,BOE,0.0,0,49.5,2024-10-21,boe_texto
+prj_05150,Parque Eólico Suzaku,"Energía Inagotable de Suzaku, SL",Eólica,42.2,Jundiz,JUNDIZ,1.0,REE,,220.0,20241021,AAP,denegado,BOE,0.0,0,42.2,2024-10-21,boe_texto
+prj_05153,Parque Eólico Saya,"Energía Inagotable de Saya, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241022,AAP,denegado,BOE,0.0,0,49.5,2024-10-22,boe_texto
+prj_05154,Parque Eólico Sirio,"Energía Inagotable de Sirio, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241022,AAP,denegado,BOE,0.0,0,49.5,2024-10-22,boe_texto
+prj_05163,Parque Eólico Ryu,"Energía Inagotable de Ryu, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241023,AAP,denegado,BOE,0.0,0,49.5,2024-10-23,boe_texto
+prj_05164,Parque Eólico Sabik,"Energía Inagotable de Sabik, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241023,AAP,denegado,BOE,0.0,0,49.5,2024-10-23,boe_texto
+prj_05165,Parque Eólico Sakura,"Energía Inagotable de Sakura, SL",Eólica,49.5,Jundiz 220 kV,JUNDIZ,1.0,REE,,220.0,20241023,AAP,denegado,BOE,0.0,0,49.5,2024-10-23,boe_texto
+prj_05166,Parque Eólico Keneo,"Energía Inagotable de Keneo, SL",Eólica,49.5,Castejón,CASTEJON,1.0,REE,,400.0,20241023,AAP,denegado,BOE,-93.0,0,49.5,2024-10-23,boe_texto
+prj_05167,Parque Eólico Kirin,"Energía Inagotable de Kirin, SL",Eólica,27.33,Castejón 400 kV,CASTEJON,1.0,REE,,400.0,20241023,AAP,denegado,BOE,-93.0,0,27.3,2024-10-23,boe_texto
+prj_05173,Planta Solar Fotovoltaica El Monte,"Granado Desarrollos Fotovoltaicos España, SL",Fotovoltaica,150.0,SET El Monte 30/220 kV; conexión a Subestación Colectora Méntrida 220 kV,,0.143,,Toledo,220.0,20241024,AAP,denegado,BOE,,0,150.0,2024-10-24,boe_texto
+prj_05172,Parque Solar Fotovoltaico El Valle,"Aulaga Desarrollos España, SL",Fotovoltaica,125.0,"Subestación Villaviciosa 220 kV (Red Eléctrica de España, SA)",,0.25,,Toledo y Madrid,220.0,20241024,AAP,denegado,BOE,,0,125.0,2024-10-24,boe_texto
+prj_05174,Parque Fotovoltaico La Cima,"Progresión Dinámica, SL",Fotovoltaica,150.0,Méntrida 220 kV,,,,Toledo,220.0,20241024,AAP,denegado,BOE,,0,150.0,2024-10-24,boe_texto
+prj_05196,Parque Eólico Cabeza Gorda,"Sistemas Energéticos Balazote, SA",Eólica,124.0,Ciudad Rodrigo 400 kV,CIUDAD RODRIGO,1.0,REE,,400.0,20241030,AAP,denegado,BOE,0.0,0,124.0,2024-10-30,boe_texto
+prj_05234,Parque Eólico Avoceta Wind,"Avoceta Solar, S.L.",Eólica,,Velle 220 kV,VELLE,1.0,UFD,ORENSE,220.0,20241107,AAP_AAC,denegado,DOG,0.0,40,9.4,2024-12-17,historial_dso
+prj_05245,Parque Eólico Gomeisa,"Energía Inagotable de Gomeisa, SL",Eólica,49.5,Rubí 400 kV,RUBI,1.0,Endesa,Barcelona,400.0,20241111,AAP,denegado,BOE,-492.0,324,8.9,2025-10-01,historial_dso
+prj_05246,Parque Eólico Vela,"Energía Inagotable de Vela, SL",Eólica,49.5,Rubí 400 kV,RUBI,1.0,Endesa,Barcelona,400.0,20241111,AAP,denegado,BOE,-492.0,324,8.9,2025-10-01,historial_dso
+prj_05333,Parque Eólico Sierra de la Parada,"Enel Green Power España, SL",Eólica,55.0,Aparecida 400 kV,APARECIDA,1.0,REE,,400.0,20241128,AAP,denegado,BOE,0.0,0,55.0,2024-11-28,boe_texto
+prj_05334,Parque Eólico Taranis,"Energías Renovables de Taranis, SL",Eólica,49.5,Begues 400 kV,BEGUES,1.0,Endesa,Barcelona,400.0,20241128,AAP,denegado,BOE,0.0,4,581.0,2024-12-02,historial_dso
+prj_05335,Instalación Híbrida Araña,"Nicewind Partners, SL",Eólica+BESS,72.95,Vallejera 220 kV,VALLEJERA,1.0,REE,,220.0,20241128,AAP,denegado,BOE,-1603.0,0,73.0,2024-11-28,boe_texto
+prj_05358,Parque Solar Fotovoltaico La Vega,"Desarrollos Renovables Biznaga, SL",Fotovoltaica,107.5,La Torrecilla,LA TORRECILLA,1.0,REE,,220.0,20241204,AAP,denegado,BOE,-508.0,0,107.5,2024-12-04,boe_texto
+prj_05359,Parque Fotovoltaico GR Avutarda,"GR Avutarda Renovables, SL",Fotovoltaica,99.99,SET Usanos 30/66 kV - SET El Cubillo 30/66/132 kV,CUBILLO,0.5,Endesa,Cádiz,66.0,20241204,AAP,denegado,BOE,0.0,0,100.0,2024-12-04,boe_texto
+prj_05360,Parque Fotovoltaico GR Sisón,"GR Sisón Renovables, SL",Fotovoltaica,99.99,Tres Cantos 132/220 kV,TRES CANTOS,1.0,REE,,132.0,20241204,AAP,denegado,BOE,-99.0,0,100.0,2024-12-04,boe_texto
+prj_05361,Parque Solar Fotovoltaico Peñalara Solar,"Peñalara Solar, SL",Fotovoltaica,100.0,SET Viso de San Juan,ARENAS DE SAN JUAN,0.5,REE,,220.0,20241204,AAP,denegado,BOE,-1098.0,0,100.0,2024-12-04,boe_texto
+prj_05362,Parque Solar Fotovoltaico Prado Gris,"PFV Prado Gris, SL",Fotovoltaica,134.7,Boadilla,BOADILLA,1.0,REE,,220.0,20241204,AAP,denegado,BOE,-50.0,0,134.7,2024-12-04,boe_texto
+prj_05379,Parque Eólico Pico De La Iglesia,"Alfanar Energía España, SL",Eólica,84.0,SET Pico De La Iglesia,,0.333,,Burgos,,20241210,AAP,denegado,BOE,,0,84.0,2024-12-10,boe_texto
+prj_05380,Parque Eólico Loma de la Cuesta Quemada,"Alfanar Energía España, SL",Eólica,64.5,Garoña 220 kV,GAROA,1.0,REE,,220.0,20241210,AAP,denegado,BOE,0.0,0,64.5,2024-12-10,boe_texto
+prj_05392,Parque Solar Fotovoltaico Colibrí,"FV Lirio Energy, SLU",Fotovoltaica,58.59,SET Villamejil,,,,León,132.0,20241211,AAP,denegado,BOE,,0,58.6,2024-12-11,boe_texto
+prj_05391,Parque Fotovoltaico Formosa,"Formosa Energy, SLU",Fotovoltaica,58.59,SET Villamejil 132/30 kV,,,,León,132.0,20241211,AAP,denegado,BOE,,0,58.6,2024-12-11,boe_texto
+prj_05435,Cerredo Solar,"Cerredo Solar, SL",Fotovoltaica,100.0,Torrejón de Velasco 220 kV,TORREJON DE VELASCO,1.0,REE,,220.0,20241219,AAP,denegado,BOE,-47.0,0,100.0,2024-12-19,boe_texto
+prj_05453,Parque Solar Fotovoltaico Carmina Solar 2,"Solaria Promoción y Desarrollo Fotovoltaico, SLU",Fotovoltaica,92.799,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20241220,AAP,denegado,BOE,-215.0,0,92.8,2024-12-20,boe_texto
+prj_05447,Instalación Fotovoltaica Gasset,"Green Capital Development 80, SLU",Fotovoltaica,200.0,Prado Santo Domingo,PRADO SANTO DOMINGO,1.0,REE,,220.0,20241220,AAP,denegado,BOE,0.0,0,200.0,2024-12-20,boe_texto
+prj_05448,Parque Fotovoltaico Carolina Solar PV,"Shell Desarrollo 1, SLU",Fotovoltaica,251.74,Vallecas 220 kV,VALLECAS,1.0,REE,,220.0,20241220,AAP_AAC,denegado,BOE,0.0,0,251.7,2024-12-20,boe_texto
+prj_05449,Instalación Fotovoltaica SPK Borneo,"Solarpack Promo2007 Ochenta y Dos, SL",Fotovoltaica,400.0,SE San Sebastián de los Reyes (REE),,0.2,,Guadalajara y Madrid,220.0,20241220,AAP,denegado,BOE,,0,400.0,2024-12-20,boe_texto
+prj_05487,Parque Solar Fotovoltaico Maragato Solar 1,"Maragato Solar Uno, SL",Fotovoltaica,153.4,SET Valderrey 220 kV,VALDERREY T1 13,1.0,iDE,ZAMORA,220.0,20241230,AAP_AAC,desistido,BOE,,426,7.6,2026-03-01,historial_dso
+prj_05479,Parque Solar Fotovoltaico Trigo,"38 Instalación Solar Mazarrón, SL",Fotovoltaica,40.4,La Cereal 400 kV,LA CEREAL,1.0,REE,,400.0,20241230,AAP,denegado,BOE,0.0,0,40.4,2024-12-30,boe_texto
+prj_05480,FV Daganzo Altair I,"Altair Ecosolar, SL",Fotovoltaica,51.0,Daganzo 220 kV,DAGANZO,1.0,REE,,220.0,20241230,AAP,denegado,BOE,0.0,0,51.0,2024-12-30,boe_texto
+prj_05481,FV Daganzo Altair II,"Altair Ecosolar, SL",Fotovoltaica,51.0,Daganzo,DAGANZO,1.0,REE,,220.0,20241230,AAP,denegado,BOE,0.0,0,51.0,2024-12-30,boe_texto
+prj_05482,Parque Solar Fotovoltaico Valdemoro V,"Cefeo Siglo XXI, SL",Fotovoltaica,47.81,Alameda Solar 30/220 kV,,,,Toledo,220.0,20241230,AAP,denegado,BOE,,0,47.8,2024-12-30,boe_texto
+prj_05483,Parque Fotovoltaico Centeno,"Comercial Seimeira III, SL",Fotovoltaica,49.6,La Cereal,LA CEREAL,1.0,REE,,400.0,20241230,AAP,denegado,BOE,0.0,0,49.6,2024-12-30,boe_texto
+prj_05484,Parque Solar Fotovoltaico Valdemoro VI,"Fornax One Sun, SL",Fotovoltaica,47.81,Valdemoro 220 kV,VALDEMORO,1.0,UFD,MADRID,220.0,20241230,AAP,denegado,BOE,0.0,0,47.8,2024-12-30,boe_texto
+prj_05485,Instalación Fotovoltaica Avena,"Nevell Sells Spain, SL",Fotovoltaica,49.6,La Cereal,LA CEREAL,1.0,REE,,400.0,20241230,AAP,denegado,BOE,0.0,0,49.6,2024-12-30,boe_texto
+prj_05488,Parque Solar Fotovoltaico Torrejón de Velasco II,"Caelum Inversiones en Energías, SL",Fotovoltaica,49.82,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20241230,AAP,denegado,BOE,-215.0,0,49.8,2024-12-30,boe_texto
+prj_05489,Parque Solar Fotovoltaico Torrejón de Velasco III,"Caelum Inversiones en Energías, SL",Fotovoltaica,49.82,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20241230,AAP,denegado,BOE,-215.0,0,49.8,2024-12-30,boe_texto
+prj_05490,Parque Solar Fotovoltaico Torrejón de Velasco IV,"Cefeo Siglo XXI, SL",Fotovoltaica,49.82,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20241230,AAP,denegado,BOE,-215.0,0,49.8,2024-12-30,boe_texto
+prj_05491,Parque Solar Fotovoltaico Torrejón de Velasco I,"Fornax One Sun, SL",Fotovoltaica,49.82,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20241230,AAP,denegado,BOE,-215.0,0,49.8,2024-12-30,boe_texto
+prj_05585,Parque Solar Fotovoltaico Cubillos FV,"Jerte Renovables, SL",Fotovoltaica,56.1,Zamora 220 kV,ZAMORA,1.0,REE,,220.0,20250124,AAP,denegado,BOE,-175.0,0,56.1,2025-01-24,boe_texto
+prj_05612,Parque Eólico Monte de Portochán,"Green Capital Development 110, SL",Eólica,66.0,SET Mesón do Vento 400 kV (REE),MESON DO VENTO,1.0,UFD,LA CORUÑA,400.0,20250131,AAP,denegado,BOE,0.0,0,66.0,2025-01-31,boe_texto
+prj_05611,Parque Eólico As Castiñeiras,"Green Capital Development 109, SL",Eólica,54.0,Mesón Do Vento 400 kV,MESON DO VENTO,1.0,UFD,LA CORUÑA,400.0,20250131,AAP,denegado,BOE,0.0,0,54.0,2025-01-31,boe_texto
+prj_05646,Parque Eólico San Vicente,"Energía Inagotable del Proyecto San Vicente, SLU",Eólica,49.0,SET Cucalón 30/220 kV,,,,Teruel,30.0,20250210,AAP_AAC,denegado,BOE,,0,49.0,2025-02-10,boe_texto
+prj_05644,Parque Solar Fotovoltaico Jaime I,"Energía Inagotable del Proyecto Jaime I, SLU",Fotovoltaica,38.2,Begues 400 kV,BEGUES,1.0,Endesa,Barcelona,400.0,20250210,AAP_AAC,denegado,BOE,200.0,21,150.0,2025-03-03,historial_dso
+prj_05645,Parque Eólico Lera,"Energía Inagotable del Proyecto Lera, SLU",Eólica,42.0,SET Moneva 30/132/220/400 kV,,,,Teruel,132.0,20250210,AAP_AAC,denegado,BOE,,0,42.0,2025-02-10,boe_texto
+prj_05647,Parque Eólico Honos,"Energías Renovables de Honos, SLU",Eólica,49.5,SET La Hoz 30/132 kV,,,,Teruel,132.0,20250210,AAP_AAC,denegado,BOE,,0,49.5,2025-02-10,boe_texto
+prj_05663,Planta Solar Fotovoltaica Orquidea,"Orquídea Energy, S.L.U.",Fotovoltaica,10.285,Medinaceli 400 kV,MEDINACELI,1.0,REE,,400.0,20250214,AAP_AAC,desfavorable,BOCyL,0.0,0,10.3,2025-02-14,boe_texto
+prj_05712,Parque Eólico Lamas de Feás,"Greenalia Wind Power Lamas, S.L.U.",Eólica,33.0,,,,,Ourense,,20250227,AAP_AAC,denegado,DOG,,0,33.0,2025-02-27,boe_texto
+prj_05727,Parque Eólico Cerevil,"Green Capital Power, SLU",Eólica,153.0,Villimar,VILLIMAR,1.0,REE,,220.0,20250303,AAP,denegado,BOE,-1132.0,0,153.0,2025-03-03,boe_texto
+prj_05802,Parque Eólico Virtus 1,"Generadora Eléctrica Verde VII, SL",Eólica,50.1,,,,,Burgos,,20250319,AAP,denegado,BOE,,0,50.1,2025-03-19,boe_texto
+prj_05809,Parque Eólico Barreiros IV,"WPD-Tecnorenova, SLU",Eólica,49.5,SE Sanzo 132 kV,SANZO,1.0,Viesgo,ASTURIAS,132.0,20250320,AAP,denegado,BOE,0.0,226,62.7,2025-11-01,historial_dso
+prj_05821,Parque Eólico Virtus 2,"Generadora Eléctrica Verde X, SL",Eólica,50.1,,,,,"Burgos, Cantabria",,20250321,AAP,desistido,BOE,,0,50.1,2025-03-21,boe_texto
+prj_05856,Parque Eólico Maya,"Green Capital Power, SL",Eólica,51.975,SET Abanto 132 kV,ABANTO,1.0,REE,,132.0,20250327,AAP,denegado,BOE,0.0,0,52.0,2025-03-27,boe_texto
+prj_05854,Parque Solar Fotovoltaico Prado Nuevo,"Benbros Solar 3, SL",Fotovoltaica,76.568,Santiz 220 kV,SANTIZ,1.0,REE,,220.0,20250327,AAP,desistido,BOE,0.0,0,65.0,2025-03-27,boe_texto
+prj_05865,Parque Eólico Alnitak,"Energía Inagotable Alnitak, SL",Eólica,49.5,Rubí 400 kV,RUBI,1.0,Endesa,Barcelona,400.0,20250328,AAP,denegado,BOE,-315.0,187,8.9,2025-10-01,historial_dso
+prj_05866,Parque Eólico Cordelia,"Energía Inagotable Cordelia, SL",Eólica,49.5,Rubí,RUBI,1.0,Endesa,Barcelona,400.0,20250328,AAP,denegado,BOE,-315.0,187,8.9,2025-10-01,historial_dso
+prj_05867,Parque Eólico Mintaka,"Energía Inagotable Mintaka, SL",Eólica,49.5,Rubí 400 kV,RUBI,1.0,Endesa,Barcelona,400.0,20250328,AAP,denegado,BOE,-315.0,187,8.9,2025-10-01,historial_dso
+prj_05868,Parque Eólico Terebellum,"Energía Inagotable Terebellum, SL",Eólica,49.5,SET Bujaraloz 30/400 kV,,,,Zaragoza,400.0,20250328,AAP,denegado,BOE,,0,49.5,2025-03-28,boe_texto
+prj_05869,Parque Eólico Volans,"Energía Inagotable Volans, SL",Eólica,49.5,Rubí 400 kV,RUBI,1.0,Endesa,Barcelona,400.0,20250328,AAP,denegado,BOE,-315.0,187,8.9,2025-10-01,historial_dso
+prj_06229,Instalación Fotovoltaica Casa del Blanco,"Alexma, S.A.",Fotovoltaica,338.0,,,,,Albacete,15.0,20250528,AAP_AAC,desistido,DOCM,,0,0.3,2025-05-28,boe_texto
+prj_06236,Instalación Solar Fotovoltaica Villanueva De La Torre II,"Dunas Desarrollos Fotovoltaicos 3, S.L.",Fotovoltaica,6.0,,,,,Guadalajara,,20250529,AAP,desistido,DOCM,,0,6.0,2025-05-29,boe_texto
+prj_06285,Planta Solar Fotovoltaica La Encina II,"Monoceros Solar, SL",Fotovoltaica,26.98,SET Benejama Colectora 220/30 kV,BENEJAMA,0.5,REE,,30.0,20250605,AAP,desistido,BOE,0.0,0,27.0,2025-06-05,boe_texto
+prj_06290,Planta Solar Fotovoltaica La Encina I,"Lipe Solar, SL",Fotovoltaica,28.71,SET Benejama Colectora 220/30 kV,BENEJAMA,0.5,REE,,30.0,20250606,AAP,desistido,BOE,0.0,0,28.7,2025-06-06,boe_texto
+prj_06294,Planta Solar Fotovoltaica PSF Venus,"Wedge Directorship, SL",Fotovoltaica,105.0,SET Valcabado II 30/66/220 kV,,,,Zamora,220.0,20250609,AAP,denegado,BOE,,0,105.0,2025-06-09,boe_texto
+prj_06341,Planta Termosolar Híbrida Solgest-1,"Proasego Energías Alternativas, SL",Termosolar,138.98,Carmona 220 kV,CARMONA,1.0,Endesa,Sevilla,220.0,20250616,AAP,denegado,BOE,0.0,0,139.0,2025-06-16,boe_texto
+prj_06342,Parque Eólico Perseus,"Energía Inagotable de Perseus, SL",Eólica,7.0,SET Tardienta 30/220 kV,TARDIENTA,1.0,Endesa,Huesca,220.0,20250616,AAP,denegado,BOE,0.0,0,7.0,2025-06-16,boe_texto
+prj_06382,Instalación Fotovoltaica Andrómeda,"ISC Greenfield 19, SL",Fotovoltaica,74.0,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20250623,AAP,denegado,BOE,-124.0,0,74.0,2025-06-23,boe_texto
+prj_06386,Parque Fotovoltaico Hércules FV,"Parque FV Hércules, SL",Fotovoltaica,93.61,Fuenlabrada 220 kV,FUENLABRADA,1.0,REE,,220.0,20250625,AAP_AAC,desistido,BOE,-124.0,0,93.6,2025-06-25,boe_texto
+prj_06387,Parque Fotovoltaico Orión FV,"Parque FV Orión, SL",Fotovoltaica,50.6,Subestación Colectora Promotores Nudo Fuenlabrada 30/66/220 kV,,0.25,,Toledo,66.0,20250625,AAP_AAC,desistido,BOE,,0,50.6,2025-06-25,boe_texto
+prj_06431,Parque Eólico Alto Bierzo-Sil,"Cefiro Holdco 2, SL",Eólica,126.0,SET Ondinas 220 kV,ONDINAS,1.0,REE,,220.0,20250806,AAP,denegado,BOE,-589.0,0,126.0,2025-08-06,boe_texto
+prj_06455,Planta Solar Fotovoltaica Barcina Garoña Vega II,"Vega Lyra Promociones Fotovoltaicas, SL",Fotovoltaica,63.57,SET Colectora Vega / SET Garoña REE,,0.25,,Burgos,400.0,20250811,AAP_AAC,denegado,BOE,,0,63.6,2025-08-11,boe_texto
+prj_06460,Parque Solar Fotovoltaico Maragato,"Dirdam Luz, SL",Fotovoltaica,125.115,SET Maragato 220/30 kV,,,,León,220.0,20250811,AAP_AAC,denegado,BOE,,0,125.1,2025-08-11,boe_texto
+prj_06503,Parque Eólico Híbrido Serrezuela,"Parque Eólico Serrezuela, S.L.U.",Eólica+BESS,48.8,SE Trévago 220 kV,TREVAGO,1.0,REE,,220.0,20250826,AAP,denegado,BOCyL,-125.0,0,48.8,2025-08-26,boe_texto
+prj_06546,Parque Eólico Electra,"Energías Renovables de Belenus, SL",Eólica,56.0,,,,,Zaragoza,,20250909,AAP_AAC,denegado,BOE,,0,56.0,2025-09-09,boe_texto
+prj_06544,Parque Eólico Epona,"Energías Renovables de Epona, SL",Eólica,49.0,,,,,Zaragoza,,20250909,AAP_AAC,denegado,BOE,,0,49.0,2025-09-09,boe_texto
+prj_06587,Parque Solar Fotovoltaico PSF Leima,"Global Solar Energy Veintiséis, SL",Fotovoltaica,50.1,SET Bonalba 30/220 kV,,,,Alicante,220.0,20250918,AAP_AAC,denegado,BOE,,0,50.1,2025-09-18,boe_texto
+prj_06658,Planta Fotovoltaica PFV Valle 2,"ISC Greenfield 10, SL",Fotovoltaica,108.9,SE Colectora Renedo 220 kV / SE Colectora Arroyadas Centro Secc,,0.2,,Valladolid,220.0,20251006,AAP_AAC,denegado,BOE,,0,108.9,2025-10-06,boe_texto
+prj_06657,Parque Eólico Campanario V Híbrido Con FV Campanario V,"Elawan Fotovoltaica Campanario 5, SL",Eólica+BESS,15.0,Elawan Campanario 30/132 kV,CAMPANARIO,0.5,REE,,30.0,20251006,AAP_AAC,denegado,BOE,0.0,0,15.0,2025-10-06,boe_texto
+prj_06656,Parque Eólico Campanario IV Híbrido,"Elawan Fotovoltaica Campanario 4, SL",Eólica+BESS,15.0,SET Elawan Campanario 30/132 kV,CAMPANARIO,0.5,REE,,30.0,20251006,AAP_AAC,desfavorable,BOE,0.0,0,15.0,2025-10-06,boe_texto
+prj_06694,Parque Eólico Oencia,"Cefiro Holdco 3, SLU",Eólica,217.0,Cornatel 220 kV,CORNATEL,1.0,REE,,220.0,20251009,AAP,denegado,BOE,-167.0,0,217.0,2025-10-09,boe_texto
+prj_06695,Planta Derramador Híbrida,"Elawan Eólica Derramador, SL",FV+BESS,47.3,Subestación Transformadora Derramador 30/132 kV,,,,Albacete,132.0,20251009,AAP_AAC,denegado,BOE,,0,47.3,2025-10-09,boe_texto
+prj_06696,Planta Fotovoltaica Fuente-Álamo Híbrida,"Elawan Eólica Fuente Álamo, SL",FV+BESS,67.25,Subestación Transformadora Derramador 30/132 kV,,,,Albacete,132.0,20251009,AAP_AAC,denegado,BOE,,0,67.2,2025-10-09,boe_texto
+prj_06738,Instalación Fotovoltaica Ersa,"Energía Inagotable de Ersa, SLU",Fotovoltaica,49.46,SET Laluenga I2 30/400 kV,,,,Huesca,30.0,20251016,AAP,denegado,BOE,,0,49.5,2025-10-16,boe_texto
+prj_06783,Proyecto Ríos FV,"ISC Greenfield 9, SL",FV+Eólica,66.5,Los Leones 220 kV,LOS LEONES,1.0,REE,,220.0,20251023,AAP,desistido,BOE,-108.0,0,66.5,2025-10-23,boe_texto
+prj_06804,Parque Fotovoltaico Los Predios,"PFV Los Predios, SLU",Fotovoltaica,77.1,SET Turís 30/220 kV,,,,Valencia,220.0,20251027,AAP,denegado,BOE,,0,77.1,2025-10-27,boe_texto
+prj_06805,Parque Fotovoltaico Los Hierros,"PFV Los Hierros, SLU",Fotovoltaica,77.1,Red de Transporte (nudo no especificado),,0.2,,Valencia,30.0,20251027,AAP_AAC,denegado,BOE,,0,77.1,2025-10-27,boe_texto
+prj_06848,Instalación Fotovoltaica Sagra II,"Mitra Gamma, SLU",Fotovoltaica,111.0,Pinto Ayuden 220 kV,PINTO AYUDEN,1.0,REE,,220.0,20251103,AAP,denegado,BOE,-10.0,0,111.0,2025-11-03,boe_texto
+prj_06847,Parque Fotovoltaico Tendetes,"Proyecto Fotovoltaico Tendetes, SLU",Fotovoltaica,165.0,SET El Cantalar (REE),CANTALAR T1,1.0,iDE,ALICANTE,220.0,20251103,AAP,desistido,BOE,0.0,118,4.4,2026-03-01,historial_dso
+prj_06859,Instalación Fotovoltaica Sagra I,"Mitra Gamma, SLU",Fotovoltaica,111.0,SET Sagra I 30/220 kV,LA SAGRA,1.0,REE,,220.0,20251104,AAP_AAC,denegado,BOE,0.0,0,111.0,2025-11-04,boe_texto
+prj_06881,Instalación Fotovoltaica Sagra IV,"Mitra Gamma, SLU",Fotovoltaica,94.0,SET Sagra IV 30/220 kV,LA SAGRA,1.0,REE,,220.0,20251106,AAP,denegado,BOE,0.0,0,94.0,2025-11-06,boe_texto
+prj_06880,Instalación Fotovoltaica Almansa 1,"SPV Figsel Trade, SL",Fotovoltaica,75.6,SET Montesa 400 kV (REE),MONTESA,1.0,REE,,400.0,20251106,AAP_AAC,desistido,BOE,0.0,0,75.6,2025-11-06,boe_texto
+prj_06938,Instalación Fotovoltaica Sagra III,"Mitra Gamma, SLU",Fotovoltaica,94.0,Pinto Ayuden 220 kV,PINTO AYUDEN,1.0,REE,,220.0,20251113,AAP,denegado,BOE,-10.0,0,94.0,2025-11-13,boe_texto
+prj_06935,Instalación Fotovoltaica Pagos De Sierra,"Gantry Investments, SL",Fotovoltaica,170.0,Puebla de Guzmán,PUEBLA DE GUZMAN,1.0,REE,,220.0,20251113,AAP,denegado,BOE,4.0,0,170.0,2025-11-13,boe_texto
+prj_06934,Crucero Solar,"Crucero Solar, SLU",Fotovoltaica,56.5,Guillena 400 kV,GUILLENA,1.0,Endesa,Sevilla,400.0,20251113,AAP,denegado,BOE,0.0,0,56.5,2025-11-13,boe_texto
+prj_06939,Instalación Fotovoltaica El Campillo,"Audax Solar SPV XXIV, SL",Fotovoltaica,78.0,,,,,Ávila,,20251113,AAP,desistido,BOE,,0,78.0,2025-11-13,boe_texto
+prj_06940,Parque Fotovoltaico Los Rebollos,"Audax Solar SPV XXV, SL",Fotovoltaica,52.0,,,,,Ávila,,20251113,AAP,desistido,BOE,,0,52.0,2025-11-13,boe_texto
+prj_06953,Instalación Fotovoltaica Heze,"Energía Inagotable de Heze, SLU",Fotovoltaica,42.48,SET Laluenga I2,,,,Huesca,400.0,20251117,AAP,denegado,BOE,,0,42.5,2025-11-17,boe_texto
+prj_07178,Parque Eólico Batifol,"SPK Ansar, SL",Eólica,54.4,Ludrio 400 kV (REE),LUDRIO,1.0,Viesgo,LUGO,400.0,20260318,AAP,desistido,BOE,-828.0,0,54.4,2026-03-18,boe_texto
+prj_07219,FV Zambrana Club,"Cubillas PH, S.L.",Fotovoltaica,4.995,,,,,Valladolid,,20260424,AAP,desistido,BOCyL,,0,5.0,2026-04-24,boe_texto

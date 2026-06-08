@@ -347,9 +347,11 @@
         "comunidad_autonoma": "Asturias",
         "fecha_resolucion": "2025-09-05",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de Autorización Administrativa de Explotación para subestación y línea de evacuación. Texto completo no disponible en la publicación, solo se proporciona referencia a resolución de 5 de septiembre de 2025. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución de Autorización Administrativa de Explotación para subestación y línea de evacuación. Texto completo no disponible en la publicación, solo se proporciona referencia a resolución de 5 de septiembre de 2025. [descartado: evacuación sin promotor identificado]",
         "confianza": 0.35,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

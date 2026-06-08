@@ -1,0 +1,53 @@
+============================================================
+DOGC SSL fix test
+============================================================
+  20260424: 500 | 63B
+  20260423: 500 | 63B
+  20260422: 500 | 63B
+  20260421: 500 | 63B
+
+============================================================
+BOJA formulario real
+============================================================
+URL final: https://www.juntadeandalucia.es/eboja.html
+
+Elementos de formulario visibles:
+  <INPUT> type=text name=q id=q placeholder=Buscar text=
+  <BUTTON> type=submit name= id= placeholder= text=BUSCAR
+
+Links del BOJA:
+  [Pasar al contenido principal] https://www.juntadeandalucia.es/eboja.html#main-content
+  [BOJA] https://www.juntadeandalucia.es/eboja.html
+  [Boletines anteriores] https://www.juntadeandalucia.es/eboja/index.html
+  [Legislación Consolidada Andaluza] https://ws040.juntadeandalucia.es/sedeboja/web/textos-consolidados/inicio
+  [Sobre BOJA] https://www.juntadeandalucia.es/eboja/sobre-boja.html
+  [Preguntas frecuentes] https://www.juntadeandalucia.es/eboja/preguntas-frecuentes.html
+  [Ver más] https://www.juntadeandalucia.es/eboja.html
+  [Buscador de noticias] https://www.juntadeandalucia.es/presidencia/portavoz/buscador
+  [Búsqueda avanzada] https://www.juntadeandalucia.es/eboja/buscador/
+  [Boletines anteriores] https://www.juntadeandalucia.es/eboja/index.html
+  [Legislación Consolidada Andaluza] https://ws040.juntadeandalucia.es/sedeboja/web/textos-consolidados/inicio
+  [Sobre BOJA] https://www.juntadeandalucia.es/eboja/sobre-boja.html
+  [¿Qué es el BOJA?] https://www.juntadeandalucia.es/eboja/sobre-boja/informacion-general.html
+  [Información del nuevo BOJA] https://www.juntadeandalucia.es/eboja/sobre-boja/nuevo-boja.html
+  [Historia] https://www.juntadeandalucia.es/eboja/sobre-boja/historia.html
+
+Peticiones API capturadas durante carga:
+
+============================================================
+BOJA: probar contentapi con varios formatos de fecha
+============================================================
+  2026-04-24: 400 | 34B | {"numResultados":0,"resultado":[]}
+  24-04-2026: 200 | 348B | {"numResultados":1,"resultado":[{"bojaDate":"24/04/2026","enlace":"/eboja/20260424.html","boja":[{"b
+  24/04/2026: 404 | 0B | 
+  20260424: 400 | 34B | {"numResultados":0,"resultado":[]}
+  2026/04/24: 404 | 0B | 
+  04-24-2026: 503 | 32721B | <!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <!-- Google Tag Manager -->
+   <script>
+      (function(
+
+DIAGNOSTICO COMPLETADO

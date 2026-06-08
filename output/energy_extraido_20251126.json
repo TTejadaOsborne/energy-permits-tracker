@@ -196,9 +196,11 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2025-11-12",
         "capacidad_mw_liberada": null,
-        "observaciones": "Subestación transformadora 66/20 kV con dos transformadores de 52/65 MVA (ONAN/ONAF) para alimentar Centro de Procesamiento de Datos. Dos líneas subterráneas de 66 kV desde S.T.R. Los Ardales. Período de información pública de 15 días. Presupuesto total: 6.634.443 euros. Tramitación preferente y urgente aplicada. [reclasificado: promotor privado sin evacuación explícita: 'DATA 4 Castilla, S. L. U.']",
+        "observaciones": "Subestación transformadora 66/20 kV con dos transformadores de 52/65 MVA (ONAN/ONAF) para alimentar Centro de Procesamiento de Datos. Dos líneas subterráneas de 66 kV desde S.T.R. Los Ardales. Período de información pública de 15 días. Presupuesto total: 6.634.443 euros. Tramitación preferente y urgente aplicada. [descartado: media tensión]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'DATA 4 Castilla, S. L. U.'"
       },
       "es_energetico": false,
       "tokens": {

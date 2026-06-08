@@ -611,9 +611,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": "2025-03-21",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución otorgando Autorización Administrativa Previa y Autorización de Construcción simultáneamente para modificación de infraestructura de evacuación compartida de 220 kV. Texto completo no disponible en el avance publicado. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución otorgando Autorización Administrativa Previa y Autorización de Construcción simultáneamente para modificación de infraestructura de evacuación compartida de 220 kV. Texto completo no disponible en el avance publicado. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {
@@ -649,9 +651,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": "2025-05-27",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia de Aragón. Modificación de instalaciones de evacuación compartida incluyendo SET Camporromanos 220/30 kV y LAAT 220 kV SET Camporromanos – SET Cuevas. Se otorgan simultáneamente autorización administrativa previa y autorización de construcción. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución de la Directora General de Energía y Minas del Departamento de Presidencia, Economía y Justicia de Aragón. Modificación de instalaciones de evacuación compartida incluyendo SET Camporromanos 220/30 kV y LAAT 220 kV SET Camporromanos – SET Cuevas. Se otorgan simultáneamente autorización administrativa previa y autorización de construcción. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

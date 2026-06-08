@@ -268,10 +268,12 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "2025-08-22",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que convoca al levantamiento de actas previas a la ocupación de fincas afectadas por infraestructura de evacuación conjunta de tres plantas fotovoltaicas (Mimas Solar, Titán Solar y Dione Solar) ubicadas en Trillo. Referencia: 19270200527. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución que convoca al levantamiento de actas previas a la ocupación de fincas afectadas por infraestructura de evacuación conjunta de tres plantas fotovoltaicas (Mimas Solar, Titán Solar y Dione Solar) ubicadas en Trillo. Referencia: 19270200527. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.75,
         "es_proyecto_energetico": true,
-        "_nombre_original": "Infraestructura De Evacuación Conjunta Isla Peralveche"
+        "_nombre_original": "Infraestructura De Evacuación Conjunta Isla Peralveche",
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

@@ -540,9 +540,11 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "2024-07-05",
         "capacidad_mw_liberada": null,
-        "observaciones": "Línea subterránea de alta tensión que conecta la subestación de transformación de Cabanillas del Campo con el centro de reparto CR1 del sector residencial IV, urbanización La Nava en Valdeaveruelo. Se formula informe de impacto ambiental conforme a la Ley 2/2020, de 7 de febrero, de Evaluación Ambiental de Castilla-La Mancha. [reclasificado: promotor privado sin evacuación explícita: 'Covinsa Estructuras SLU']",
+        "observaciones": "Línea subterránea de alta tensión que conecta la subestación de transformación de Cabanillas del Campo con el centro de reparto CR1 del sector residencial IV, urbanización La Nava en Valdeaveruelo. Se formula informe de impacto ambiental conforme a la Ley 2/2020, de 7 de febrero, de Evaluación Ambiental de Castilla-La Mancha. [descartado: revisión manual]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Covinsa Estructuras SLU'"
       },
       "es_energetico": false,
       "tokens": {

@@ -653,9 +653,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2025-03-25",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de levantamiento de actas previas a la ocupación (LAP) de fincas afectadas por línea de evacuación a la red eléctrica. El texto completo tiene acceso restringido tras transcurrir más de seis meses desde su publicación (15/04/2025). Emitido por la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de levantamiento de actas previas a la ocupación (LAP) de fincas afectadas por línea de evacuación a la red eléctrica. El texto completo tiene acceso restringido tras transcurrir más de seis meses desde su publicación (15/04/2025). Emitido por la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.55,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

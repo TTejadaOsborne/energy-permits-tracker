@@ -467,9 +467,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": "2025-10-03",
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de infraestructura de evacuación compartida para instalaciones fotovoltaicas Cinca 1, Cinca 2 y Cinca 3. Incluye dos Centros de Seccionamiento y medida (CS Cinca 1 y CS Cinca 2) y línea aéreo-subterránea de 25 kV. Resolución de Declaración de Impacto Ambiental formulada por el Instituto Aragonés de Gestión Ambiental. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Proyecto de infraestructura de evacuación compartida para instalaciones fotovoltaicas Cinca 1, Cinca 2 y Cinca 3. Incluye dos Centros de Seccionamiento y medida (CS Cinca 1 y CS Cinca 2) y línea aéreo-subterránea de 25 kV. Resolución de Declaración de Impacto Ambiental formulada por el Instituto Aragonés de Gestión Ambiental. [descartado: evacuación sin promotor identificado]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

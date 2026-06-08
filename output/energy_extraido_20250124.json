@@ -622,16 +622,17 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2025-01-17",
         "capacidad_mw_liberada": null,
-        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica 'Vegas Grandes'. Sometida a información pública. Texto completo no disponible en el anuncio del DOE. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica 'Vegas Grandes'. Sometida a información pública. Texto completo no disponible en el anuncio del DOE.",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 8842,
         "output": 796
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "DOE-25080081",
@@ -660,16 +661,17 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2025-01-17",
         "capacidad_mw_liberada": null,
-        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica. Sometida a información pública. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica. Sometida a información pública.",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 8844,
         "output": 672
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "DOE-25080083",
@@ -698,16 +700,17 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": null,
         "capacidad_mw_liberada": null,
-        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica 'El Navío'. Anuncio de información pública publicado el 17 de enero de 2025 por la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Modificación de solicitud de autorización administrativa previa para infraestructura de evacuación de energía eléctrica asociada a instalación fotovoltaica 'El Navío'. Anuncio de información pública publicado el 17 de enero de 2025 por la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura.",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 8846,
         "output": 708
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     }
   ]
 }

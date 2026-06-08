@@ -40,9 +40,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2026-01-26",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de autorización administrativa previa otorgada. El proyecto se refiere a un centro de transformación de 400 kVA en nuevo edificio. Órgano competente: Servicio de Ordenación Industrial, Energética y Minera de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. [reclasificado: promotor privado sin evacuación explícita: 'Emdecoria, SLU']",
+        "observaciones": "Resolución de autorización administrativa previa otorgada. El proyecto se refiere a un centro de transformación de 400 kVA en nuevo edificio. Órgano competente: Servicio de Ordenación Industrial, Energética y Minera de la Consejería de Agricultura, Ganadería y Desarrollo Sostenible de Extremadura. [descartado: media tensión]",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Emdecoria, SLU'"
       },
       "es_energetico": false,
       "tokens": {

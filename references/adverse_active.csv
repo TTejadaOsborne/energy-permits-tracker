@@ -1,0 +1,13 @@
+﻿proyecto_id,proyecto_nombre,promotor,tecnologia,mw_proyecto,subestacion_raw,subestacion_match,match_score,distribuidora,provincia_cap,tension_kv_prj,fecha_adversa,tipo_adverso,estado_adverso,boletin,capacidad_base_mw
+prj_02953,Planta Solar Fotovoltaica La Carrasquilla,"Global Solar Energy Dieciocho, S.L.",Fotovoltaica,49.89,La Lora III-IV,LA LORA,0.5,REE,,132.0,20230509,AAP_AAC,desistido,BOCyL,
+prj_04340,Parque Eólico Acevedo,"Instalaciones Eléctricas de Sanxenxo, S.L.U.",Eólica,8.0,Subestación de Ribadeo 132/20 kV,RIBADEO,1.0,Viesgo,LUGO,20.0,20240415,AAP_AAC,archivado,DOG,0.0
+prj_05071,Parque Eólico Barreiros I,"WPD Tecnorenova, S.L.U.",Eólica,49.5,Xove 400 kV,XOVE,1.0,REE,,400.0,20241002,AAP_AAC,archivado,DOG,0.0
+prj_05070,Parque Eólico Alvite,"Green Capital Power, S.L.",Eólica,41.4,Lousame 220 kV,LOUSAME,1.0,REE,,220.0,20241002,AAP_AAC,denegado,DOG,-619.0
+prj_05324,PSFV Improving,"Improving Energys, S.L.",Fotovoltaica,45.0,Tabernas 400 kV,TABERNAS,1.0,REE,,400.0,20241125,AAP_AAC,denegado,BOJA,-27.0
+prj_05325,PSFV Turia,"Desarrollos Energéticos del Turia, S.L.",Fotovoltaica,49.97,Tabernas 400 kV,TABERNAS,1.0,REE,,400.0,20241125,AAP_AAC,denegado,BOJA,-27.0
+prj_05346,Parque Eólico Muruás,"Adelanta Corporación, S.A.",Eólica,22.4,Xove 400 kV,XOVE,1.0,REE,,400.0,20241202,AAP_AAC,denegado,DOG,0.0
+prj_05370,PSFV Salvatierra,"Salvatierra Equilibrio Medioambiental, S.L.",Fotovoltaica,45.0,Tabernas 400 kV,TABERNAS,1.0,REE,,400.0,20241204,AAP_AAC,denegado,BOJA,-27.0
+prj_05596,Parque Eólico Acevedal,"Greenalia Wind Power, S.L.U.",Eólica,21.0,Xove 400 kV,XOVE,1.0,REE,,400.0,20250127,AAP_AAC,denegado,DOG,-27.0
+prj_05633,Parque Eólico Ampliación Alto da Croa II,"Wind Premier O Pedregal, S.L.U.",Eólica,4.5,Regoelle 220 kV,REGOELLE,1.0,REE,,220.0,20250205,AAP_AAC,denegado,DOG,-24.0
+prj_06860,Planta Solar Fotovoltaica Fortuna II,"Calvitero Solar 13, S.L.",Fotovoltaica,6.28,ST Valladolid,VALLADOLID NUEVO,0.5,REE,,13.2,20251104,AAP,desistido,BOCyL,0.0
+prj_07050,Parque Eólico Barreiros III,"WPD-Tecnorenova, S.L.U.",Eólica,,Xove 400 kV,XOVE,1.0,REE,,400.0,20251201,AAP_AAC,denegado,DOG,0.0

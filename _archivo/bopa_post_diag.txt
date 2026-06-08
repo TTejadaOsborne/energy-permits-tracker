@@ -1,0 +1,65 @@
+=== Test 1: parámetro del portlet Liferay ===
+  24/04/2026: 200 | 187403B | contenido=NO | error=NO
+  2026-04-24: 200 | 187217B | contenido=NO | error=NO
+  20260424: 200 | 187177B | contenido=NO | error=NO
+  24-04-2026: 200 | 187217B | contenido=NO | error=NO
+  04/24/2026: 200 | 185903B | contenido=NO | error=NO
+
+=== Test 2: Playwright con cookies y POST ===
+Inputs encontrados:
+  id=_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_formDate name=_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_formDate type=hidden placeholder=
+  id=_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate name=_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate type=hidden placeholder=
+  id=p_r_p_dispositionText name=p_r_p_dispositionText type=text placeholder=
+Error: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate").first
+    - locator resolved to <input value="" type="hidden" class="field form-control" id="_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate" name="_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate"/>
+    - fill("24/04/2026")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    59 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+
+URL final: https://miprincipado.asturias.es/bopa/disposiciones
+APIs capturadas: 0
+
+=== BORM: Playwright con timeout extendido ===
+URL: https://validate.perfdrive.com/?ssa=6d4ddb67-72a4-4e99-828f-05b4dc90cdc1&ssb=58657259132&ssc=https%3A%2F%2Fwww.borm.es%2F&ssi=160f4bc4-di4q-4e83-bb14-658245b34ae5&ssk=botmanager_support@radware.com&ssm=18488351490653762102071683835615&ssn=8b492cbbaebc700497f9bdb939b038af965ab49ebf9d-93f3-4b60-9d1b58&sso=c7b2896d-9d25d45c588ab61d3755fd3fe0c9a4af2c1260dad2b0c61a&ssp=32044341011778064443177803860208009&ssq=29318658520575042121285205318693044718524&ssr=ODEuNDQuODUuMTM=&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2Y5MDAwOTA1YzEyMDctNzBmYS00MzNkLTlmMDgtYTY2Njc1ZDJhMmI4MS0xNzc4MDg1MjA1MDc3MC0yMjZkNjg2YjAxNTA0ZmM4MTAiLCJfX3V6bWYiOiI3ZjkwMDBiNDllYmY5ZC05M2YzLTRiNjAtOTk2ZC05ZDI1ZDQ1YzU4OGExLTE3NzgwODUyMDUwNzcwLTAwMjYxNDgyOTMwOGE2NGRjZWExMCIsInJkIjoiYm9ybS5lcyJ9#/home
+Requests capturadas: 0
+
+Texto BORM (2000 chars):
+We apologize for the inconvenience...
+
+...but your activity and behavior on this site made us think that you are a bot.
+
+Note: A number of things could be going on here.
+
+If you are attempting to access this site using an anonymous Private/Proxy network, please disable that and try accessing site again.
+Due to previously detected malicious behavior which originated from the network you're using, please request unblock to site.
+Incident ID: 160f4bc4-di4q-4e83-bb14-658245b34ae5
+
+
+
+Please solve this CAPTCHA to request unblock to the website
+
+
+
+
+
+
+
+
+
+You reached this page when trying to access https://www.borm.es/ from 81.44.85.13 on May 06 2026, 16:33:25 UTC
+
+COMPLETADO

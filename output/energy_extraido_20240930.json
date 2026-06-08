@@ -268,9 +268,11 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2024-09-05",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que anuncia la exposición pública para autorización de ocupación temporal de la vía pecuaria Colada de Valdelospozos para instalación de línea de 220 kV. Período de información pública de un mes desde la publicación en BOCM. [reclasificado: promotor privado sin evacuación explícita: 'Mastil Solar, S. L. U.']",
+        "observaciones": "Resolución que anuncia la exposición pública para autorización de ocupación temporal de la vía pecuaria Colada de Valdelospozos para instalación de línea de 220 kV. Período de información pública de un mes desde la publicación en BOCM. [descartado: revisión manual]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Mastil Solar, S. L. U.'"
       },
       "es_energetico": false,
       "tokens": {
@@ -808,9 +810,11 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "2024-09-18",
         "capacidad_mw_liberada": null,
-        "observaciones": "Notificación de consignación de depósito previo en Hacienda para fincas afectadas por la LAT. Se publica en DOCM para información de varios de los afectados. La línea es aérea de alta tensión de 132 kV en corriente continua. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Notificación de consignación de depósito previo en Hacienda para fincas afectadas por la LAT. Se publica en DOCM para información de varios de los afectados. La línea es aérea de alta tensión de 132 kV en corriente continua. [descartado: revisión manual]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

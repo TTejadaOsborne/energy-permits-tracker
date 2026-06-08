@@ -810,9 +810,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2026-05-06",
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de reforma de línea subterránea de media tensión (LSMT SFA 0156_5) denominada Charca_2_ a 20 kV procedente de la subestación S_Montij. Sometida a información pública conforme a normativa de autorización administrativa previa de instalaciones eléctricas. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Proyecto de reforma de línea subterránea de media tensión (LSMT SFA 0156_5) denominada Charca_2_ a 20 kV procedente de la subestación S_Montij. Sometida a información pública conforme a normativa de autorización administrativa previa de instalaciones eléctricas. [descartado: media tensión]",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {
@@ -848,9 +850,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2026-05-07",
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de nueva línea de muy alta tensión (LSMT) 'Cortegana' entre centros de distribución CD 46778 'Solana_2' y CD 46779 'Solana_3', con reforma asociada de los centros de distribución mencionados. Sometido a información pública para autorización administrativa previa. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Proyecto de nueva línea de muy alta tensión (LSMT) 'Cortegana' entre centros de distribución CD 46778 'Solana_2' y CD 46779 'Solana_3', con reforma asociada de los centros de distribución mencionados. Sometido a información pública para autorización administrativa previa. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {
@@ -886,9 +890,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2026-05-08",
         "capacidad_mw_liberada": null,
-        "observaciones": "Línea de Media Tensión (LSMT) a 15 kV procedente de subestación Mér. Proyecto de reforma/modernización de infraestructura existente (SFA0162_1_2). Información pública anunciada por la Consejería de Industria, Energía, Ciencia y Territorio de Extremadura. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Línea de Media Tensión (LSMT) a 15 kV procedente de subestación Mér. Proyecto de reforma/modernización de infraestructura existente (SFA0162_1_2). Información pública anunciada por la Consejería de Industria, Energía, Ciencia y Territorio de Extremadura. [descartado: media tensión]",
         "confianza": 0.65,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

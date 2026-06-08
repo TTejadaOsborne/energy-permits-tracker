@@ -42,16 +42,20 @@
         "comunidad_autonoma": "Comunidad de Madrid",
         "fecha_resolucion": "2025-01-28",
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de ejecución para instalación de línea aérea+subterránea de 45 kV y 1 subestación eléctrica denominada 'Set Los Cantiles' en carretera Valdemingómez, Parque Tecnológico de Valdemingómez. Se tramitó información pública (Resolución de 26 de noviembre de 2024). Se declaró la no necesidad de Evaluación de Impacto Ambiental (EIA) mediante Resolución de 4 de noviembre de 2024 (SEA 9.146/24). Se realizó consulta a administraciones afectadas (Ayuntamiento de Madrid y Canal de Isabel II) sin respuesta en plazo. [reclasificado: promotor privado sin evacuación explícita: 'FCC Medio Ambiente, S.A.U., CESPA Compañía Español']",
+        "observaciones": "Proyecto de ejecución para instalación de línea aérea+subterránea de 45 kV y 1 subestación eléctrica denominada 'Set Los Cantiles' en carretera Valdemingómez, Parque Tecnológico de Valdemingómez. Se tramitó información pública (Resolución de 26 de noviembre de 2024). Se declaró la no necesidad de Evaluación de Impacto Ambiental (EIA) mediante Resolución de 4 de noviembre de 2024 (SEA 9.146/24). Se realizó consulta a administraciones afectadas (Ayuntamiento de Madrid y Canal de Isabel II) sin respuesta en plazo. [Descartado manual: UTE gestión residuos, SET industrial privado]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'FCC Medio Ambiente, S.A.U., CESPA Compañía Español'",
+        "es_energetico": false,
+        "estado_validacion": "descartado"
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 6538,
         "output": 558
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "BOCM-20250220-37",

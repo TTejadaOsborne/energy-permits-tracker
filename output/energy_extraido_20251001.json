@@ -139,7 +139,7 @@
         "numero_expediente_industria": "34/ATLI/6604",
         "numero_expediente_medioambiente": null,
         "promotor": "Eólica Las Quemadillas, S.L.U.",
-        "tecnologia": "LAT",
+        "tecnologia": "Eólica",
         "potencia_mw": null,
         "tipo_permiso": "ModAAP",
         "permisos_adicionales": [],
@@ -154,16 +154,18 @@
         "comunidad_autonoma": "Castilla y León",
         "fecha_resolucion": "2025-09-16",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que modifica la autorización administrativa previa de la LAT 132 kV. El proyecto incluye soterramiento de la línea eléctrica conforme a DIA de 25 de enero de 2023. Segregación del expediente NIE-4298 para tramitación independiente de la línea de evacuación del parque eólico Las Quemadillas. Sometido a información pública en cumplimiento de Ley 24/2013 y RD 1955/2000. [reclasificado: promotor privado sin evacuación explícita: 'Eólica Las Quemadillas, S.L.U.']",
+        "observaciones": "Resolución que modifica la autorización administrativa previa de la LAT 132 kV. El proyecto incluye soterramiento de la línea eléctrica conforme a DIA de 25 de enero de 2023. Segregación del expediente NIE-4298 para tramitación independiente de la línea de evacuación del parque eólico Las Quemadillas. Sometido a información pública en cumplimiento de Ley 24/2013 y RD 1955/2000. [Reclasificado de LAT a Eólica: LAT evacuación promotor eólico privado]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Eólica Las Quemadillas, S.L.U.'"
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 6319,
         "output": 487
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "BOCYL-D-01102025-10",

@@ -1,0 +1,297 @@
+Status: 200 | 186103B
+
+=== Clases CSS con contenido relevante ===
+  <div class='info-wrapper d-flex align-items-center justify-content-center py-1'> Estás enmiPrincipado, un portal oficial delGobierno del Principado de Asturias
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> Portalesasturias.esParticipaciónmiasturSalud
+  <section class='portlet'> Portalesasturias.esParticipaciónmiasturSalud
+  <div class='portlet-content'> Portalesasturias.esParticipaciónmiasturSalud
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Portalesasturias.esParticipaciónmiasturSalud
+  <div class='portlet-body'> Portalesasturias.esParticipaciónmiasturSalud
+  <div class='journal-content-article'> Portalesasturias.esParticipaciónmiasturSalud
+  <div class='portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_ portlet-static portlet-static-end portlet-decorate portlet-language'> N'Asturianu
+  <section class='portlet'> N'Asturianu
+  <div class='portlet-content'> N'Asturianu
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> N'Asturianu
+  <div class='portlet-body'> N'Asturianu
+  <div class='flex align-items-center gap-xs'> Área personal
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> Principado de Asturias
+  <section class='portlet'> Principado de Asturias
+  <div class='portlet-content'> Principado de Asturias
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Principado de Asturias
+  <div class='portlet-body'> Principado de Asturias
+  <div class='journal-content-article'> Principado de Asturias
+  <div class='portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_ portlet-static portlet-static-end portlet-decorate portlet-search-bar'> Barra de búsquedaBuscar
+  <section class='portlet'> Barra de búsquedaBuscar
+  <div class='portlet-content'> Barra de búsquedaBuscar
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Barra de búsquedaBuscar
+  <div class='portlet-body'> Barra de búsquedaBuscar
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <section class='portlet'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <div class='portlet-content'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <div class='portlet-body'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <div class='journal-content-article'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adopciónReconocimiento d
+  <div class='portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_ portlet-static portlet-static-end portlet-decorate portlet-navigation'> Principado deAsturiasCerrar menúBoletín Oficial del Principado de AsturiasBoletí
+  <section class='portlet'> Principado deAsturiasCerrar menúBoletín Oficial del Principado de AsturiasBoletí
+  <div class='portlet-content'> Principado deAsturiasCerrar menúBoletín Oficial del Principado de AsturiasBoletí
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Principado deAsturiasCerrar menúBoletín Oficial del Principado de AsturiasBoletí
+  <div class='portlet-body'> Principado deAsturiasCerrar menúBoletín Oficial del Principado de AsturiasBoletí
+  <div class='portlet-boundary portlet-boundary_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_ portlet-static portlet-static-end portlet-decorate portlet-breadcrumb'> InicioBoletín Oficial del Principado de Asturias
+  <section class='portlet'> InicioBoletín Oficial del Principado de Asturias
+  <div class='portlet-content'> InicioBoletín Oficial del Principado de Asturias
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> InicioBoletín Oficial del Principado de Asturias
+  <div class='portlet-body'> InicioBoletín Oficial del Principado de Asturias
+  <div class='portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_ portlet-static portlet-static-end portlet-decorate portlet-asset-publisher'> 
+  <section class='portlet'> 
+  <div class='portlet-content'> 
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> 
+  <div class='portlet-body'> 
+  <div class='layout-content portlet-layout'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='lfr-layout-structure-item-miprincipado-estilos-gpa lfr-layout-structure-item-b2d7eca5-ae03-6313-39b8-39b7a9862a88'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='lfr-layout-structure-item-miprincipado-estilos-gpa-prose lfr-layout-structure-item-5721a2ce-a40c-900e-a1c0-bf97cb6ac4fe'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='lfr-layout-structure-item-5748976b-e1ab-9423-2174-34aa44f543d0 lfr-layout-structure-item-container'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='lfr-layout-structure-item-pa-sede-bopa-web-portlet-sedebopadispositionweb lfr-layout-structure-item-9a47fcc4-d6ca-ae4b-ccb7-077cd9d9d60b'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='portlet-boundary portlet-boundary_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_ portlet-static portlet-static-end portlet-decorate'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <section class='portlet'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='portlet-content'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='portlet-body'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='portlet-body-content'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo se ha introducido ni
+  <div class='mod-busca estrecho clearfix disposicion'> Buscar en el BOPARequeridoBuscar
+  <form class='form form d-flex align-items-end'> Buscar en el BOPARequeridoBuscar
+  <input class='field bopa-input-text-search form-control'> 
+  <button class='btn bopa-input-button-search btn-primary'> Buscar
+  <div class='container-fluid-1280 row results'> Resultados de la búsquedaNo se ha introducido ningún término de búsqueda:Puedes 
+  <div class='sede-bopa-search generic-box results noResults'> Resultados de la búsquedaNo se ha introducido ningún término de búsqueda:Puedes 
+  <div class='bopatips'> No se ha introducido ningún término de búsqueda:Puedes realizaruna búsquedadesde
+  <div class='journal-content-article'> BOPA Boletín Oficial del Principado de AsturiasÚltimos boletinesServicios del BO
+  <div class='lfr-layout-structure-item-basic-component-spacer lfr-layout-structure-item-3deab18d-b87e-d27a-80d4-f9a4491415f3'> 
+  <div class='portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_ portlet-static portlet-static-end portlet-decorate portlet-navigation'> TemasTramita con miPrincipadoBoletín Oficial del Principado de AsturiasSobre miP
+  <section class='portlet'> TemasTramita con miPrincipadoBoletín Oficial del Principado de AsturiasSobre miP
+  <div class='portlet-content'> TemasTramita con miPrincipadoBoletín Oficial del Principado de AsturiasSobre miP
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> TemasTramita con miPrincipadoBoletín Oficial del Principado de AsturiasSobre miP
+  <div class='portlet-body'> TemasTramita con miPrincipadoBoletín Oficial del Principado de AsturiasSobre miP
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <section class='portlet'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <div class='portlet-content'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <div class='portlet-body'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <div class='journal-content-article'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través del formularioVen a
+  <span class='flex items-baseline'> Llámanos al 985 27 91 00 o al 012
+  <span class='flex items-center'> Escríbenos a través del formulario
+  <span class='flex items-center'> Ven a vernos a nuestras oficinas
+  <div class='flex flex-col md:flex-row lg:justify-between lg:items-center'> Principado deAsturiasAccesibilidadAviso legal y política de privacidadLicencias 
+  <div class='portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_ portlet-static portlet-static-end portlet-decorate portlet-navigation'> AccesibilidadAviso legal y política de privacidadLicencias y términos de usoMapa
+  <section class='portlet'> AccesibilidadAviso legal y política de privacidadLicencias y términos de usoMapa
+  <div class='portlet-content'> AccesibilidadAviso legal y política de privacidadLicencias y términos de usoMapa
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> AccesibilidadAviso legal y política de privacidadLicencias y términos de usoMapa
+  <div class='portlet-body'> AccesibilidadAviso legal y política de privacidadLicencias y términos de usoMapa
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> 
+  <section class='portlet'> 
+  <div class='portlet-content'> 
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> 
+  <div class='portlet-body'> 
+  <div class='journal-content-article'> 
+  <div class='flex flex-col gap-l sm:flex-row md:justify-between md:items-center'> 
+  <div class='col-12 flex flex-col md:flex-row md:justify-between md:items-center gap-l'> © 2025. Gobierno del Principado de AsturiasVisítanos enFacebookEquisYoutubeInsta
+  <div class='portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_ portlet-static portlet-static-end portlet-decorate portlet-journal-content'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <section class='portlet'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <div class='portlet-content'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <div class='portlet-body'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <div class='journal-content-article'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <div class='portlet-boundary portlet-boundary_miprincipadocookiesportlet_ portlet-static portlet-static-end portlet-decorate'> 
+  <section class='portlet'> 
+  <div class='portlet-content'> 
+  <div class='autofit-float autofit-row portlet-header'> 
+  <div class='portlet-content-container'> 
+  <div class='portlet-body'> 
+
+=== IDs relevantes ===
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadPortales_'> Portalesasturias.esParticipaciónmiasturSalud
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadPortales'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadPortales'> Portalesasturias.esParticipaciónmiasturSalud
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_Logotipo_'> Principado de Asturias
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_Logotipo'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_Logotipo'> Principado de Asturias
+  <div id='Content'> Buscar
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MasBuscados_'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adop
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MasBuscados'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_MasBuscados'> Lo más buscadoSolicitud genéricaAyudas por nacimiento o adop
+  <section id='content'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo 
+  <div id='main-content'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo 
+  <div id='p_p_id_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo 
+  <span id='p_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb'> 
+  <section id='portlet_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb'> Buscar en el BOPARequeridoBuscarResultados de la búsquedaNo 
+  <form id='_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_bopasearch-form'> Buscar en el BOPARequeridoBuscar
+  <input id='_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_formDate'> 
+  <input id='_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_p_r_p_dispositionDate'> 
+  <button id='_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_submit'> Buscar
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterContacto_'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterContacto'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterContacto'> ContactoLlámanos al 985 27 91 00 o al 012Escríbenos a través
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterLogos_'> 
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterLogos'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_FooterLogos'> 
+  <div id='p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadSocial_'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+  <span id='p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadSocial'> 
+  <section id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_HeadSocial'> Visítanos enFacebookEquisYoutubeInstagramTiktok
+
+=== Párrafos con texto de disposición ===
+
+=== Texto completo (3000 chars desde main/article) ===
+Selector '#content':
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   
+ Buscar en el BOPA 
+
+
+ Requerido  
+    Buscar  
+
+ 
+
+
+
+
+
+
+Resultados de la búsqueda 
+
+
+
+
+
+
+No se ha introducido ningún término de búsqueda:
+
+Puedes realizar una búsqueda desde el buscador que tienes al principio de esta página.Selecciona el término de búsqueda intentando que sea más adecuado. Si lo deseas, puedes consultar la ayuda sobre la búsqueda
+Puedes realizar una búsqueda general de todos los boletines desde el buscador que encontrarás en la página inicial de  BOPA y Legislación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BOPA Boletín Oficial del Principado de Asturias
+
+Últimos boletines
+Servicios del BOPA
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oculto
+
+
+=== BORM: buscar API sin JavaScript ===
+  404 |   2216B | https://www.borm.es/borm/rest/sumario?fecha=20260424
+  404 |   2220B | https://www.borm.es/borm/rest/sumario/20260424
+  404 |   2220B | https://www.borm.es/borm/api/sumario?fecha=2026-04-24
+  404 |   2220B | https://www.borm.es/services/borm/sumario/20260424
+  404 |   2220B | https://www.borm.es/borm/documento.json?fecha=28/04/2026
+
+COMPLETADO

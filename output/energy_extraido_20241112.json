@@ -578,16 +578,17 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-10-28",
         "capacidad_mw_liberada": null,
-        "observaciones": "Línea de evacuación a 30 kV de planta solar fotovoltaica. Resolución otorga simultáneamente AAP y AAC (AAP_AAC). [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Línea de evacuación a 30 kV de planta solar fotovoltaica. Resolución otorga simultáneamente AAP y AAC (AAP_AAC). [conservado: Resolución AAP y AAC LSAT (Asociado a proyecto PSFV Puerto)]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 5561,
         "output": 351
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     }
   ]
 }

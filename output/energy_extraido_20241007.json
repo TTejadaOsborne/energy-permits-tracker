@@ -817,9 +817,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-09-20",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de denegación de autorización administrativa previa para infraestructura de evacuación de energía eléctrica. El texto completo disponible no contiene detalles adicionales sobre el proyecto (nombre, promotor, ubicación, potencia, subestación de conexión). Se requeriría acceder al expediente administrativo completo para obtener estos datos. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución de denegación de autorización administrativa previa para infraestructura de evacuación de energía eléctrica. El texto completo disponible no contiene detalles adicionales sobre el proyecto (nombre, promotor, ubicación, potencia, subestación de conexión). Se requeriría acceder al expediente administrativo completo para obtener estos datos. [descartado: revisión manual]",
         "confianza": 0.45,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

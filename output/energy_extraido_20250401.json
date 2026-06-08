@@ -1337,9 +1337,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": null,
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto de infraestructuras de evacuación compartidas que incluye una subestación transformadora 220/20 kV y una línea de alta tensión a 220 kV conectando dos subestaciones. Sometido a información pública junto con su estudio de impacto ambiental. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Proyecto de infraestructuras de evacuación compartidas que incluye una subestación transformadora 220/20 kV y una línea de alta tensión a 220 kV conectando dos subestaciones. Sometido a información pública junto con su estudio de impacto ambiental. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

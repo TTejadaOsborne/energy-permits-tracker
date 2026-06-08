@@ -536,9 +536,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2025-07-28",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución de Declaración de Utilidad Pública en concreto para la línea de evacuación de 15 kV de la planta fotovoltaica Villalba. Referencia interna PP. 1859/2025. La línea es infraestructura de conexión asociada a una instalación de generación fotovoltaica. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución de Declaración de Utilidad Pública en concreto para la línea de evacuación de 15 kV de la planta fotovoltaica Villalba. Referencia interna PP. 1859/2025. La línea es infraestructura de conexión asociada a una instalación de generación fotovoltaica. [descartado: media tensión]",
         "confianza": 0.92,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

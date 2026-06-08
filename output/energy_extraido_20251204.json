@@ -385,9 +385,11 @@
         "comunidad_autonoma": "Castilla-La Mancha",
         "fecha_resolucion": "2026-05-07",
         "capacidad_mw_liberada": null,
-        "observaciones": "Ocupación de terrenos en vía pecuaria Cordel de Merinas (VP/54/25) para línea eléctrica subterránea de media tensión. Resolución de aprobación publicada en DOCM 93, 19/05/2026, página 17692. El anuncio inicial de 06/11/2025 se refería a alta tensión, pero la resolución posterior clarifica que es media tensión. [reclasificado: promotor privado sin evacuación explícita: 'Arrigonper, SL']",
+        "observaciones": "Ocupación de terrenos en vía pecuaria Cordel de Merinas (VP/54/25) para línea eléctrica subterránea de media tensión. Resolución de aprobación publicada en DOCM 93, 19/05/2026, página 17692. El anuncio inicial de 06/11/2025 se refería a alta tensión, pero la resolución posterior clarifica que es media tensión. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Arrigonper, SL'"
       },
       "es_energetico": false,
       "tokens": {

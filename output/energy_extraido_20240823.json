@@ -519,9 +519,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-06-20",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de apertura de período de información pública sobre declaración de utilidad pública para proyecto de infraestructura de evacuación. El texto completo está restringido y no está disponible para consulta. Se abre proceso de información pública por Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de apertura de período de información pública sobre declaración de utilidad pública para proyecto de infraestructura de evacuación. El texto completo está restringido y no está disponible para consulta. Se abre proceso de información pública por Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Huelva. [descartado: revisión manual]",
         "confianza": 0.35,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

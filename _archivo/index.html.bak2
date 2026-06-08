@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nodalys · Permisos Energéticos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Inter',sans-serif;background:#f5f0e8;color:#1a1a18;font-size:13px;display:flex}
+
+/* ── SIDEBAR ── */
+.sidebar{
+  width:240px;min-width:240px;
+  background:#111110;
+  color:#e8e4dc;
+  display:flex;flex-direction:column;
+  height:100vh;
+  overflow-y:auto;
+  flex-shrink:0;
+}
+.brand{padding:24px 20px 20px;border-bottom:1px solid rgba(255,255,255,.08)}
+.brand-name{
+  font-family:'Playfair Display',serif;
+  font-size:18px;line-height:1.15;
+  color:#f5f0e8;
+  letter-spacing:-.01em;
+}
+.brand-name span{color:#c9a84c}
+.brand-sub{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;color:rgba(255,255,255,.3);
+  letter-spacing:.14em;text-transform:uppercase;
+  margin-top:6px;
+}
+.nav-section{padding:20px 0 8px}
+.nav-label{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;color:rgba(255,255,255,.25);
+  letter-spacing:.14em;text-transform:uppercase;
+  padding:0 20px;margin-bottom:4px;
+}
+.nav-item{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:8px 20px;cursor:pointer;
+  transition:background .1s;
+  border-left:2px solid transparent;
+  color:rgba(255,255,255,.55);
+  font-size:12px;
+}
+.nav-item:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.8)}
+.nav-item.active{
+  border-left-color:#c9a84c;
+  background:rgba(201,168,76,.06);
+  color:#f5f0e8;
+}
+.nav-item .nav-icon{width:14px;margin-right:8px;opacity:.6;font-size:11px;flex-shrink:0}
+.nav-item.active .nav-icon{opacity:1}
+.nav-count{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;
+  background:rgba(255,255,255,.08);
+  color:rgba(255,255,255,.4);
+  padding:1px 7px;border-radius:10px;
+}
+.nav-item.active .nav-count{background:rgba(201,168,76,.2);color:#c9a84c}
+.nav-count.danger{background:rgba(220,38,38,.15);color:#f87171}
+.sidebar-footer{
+  margin-top:auto;
+  padding:16px 20px;
+  border-top:1px solid rgba(255,255,255,.07);
+}
+.status-dot{
+  display:inline-block;width:6px;height:6px;
+  border-radius:50%;background:#4ade80;
+  margin-right:6px;animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.status-text{font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(255,255,255,.3)}
+
+/* ── MAIN ── */
+.main{flex:1;display:flex;flex-direction:column;height:100vh;overflow:hidden}
+
+/* ── TOP BAR ── */
+.topbar{
+  padding:0 28px;height:52px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid rgba(26,26,24,.1);
+  background:#f5f0e8;
+  flex-shrink:0;
+}
+.page-title{
+  font-family:'Playfair Display',serif;
+  font-size:19px;font-weight:400;
+  color:#1a1a18;letter-spacing:-.01em;
+}
+.topbar-right{display:flex;align-items:center;gap:12px}
+.updated-badge{
+  display:flex;align-items:center;gap:6px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;color:#555;
+  border:1px solid rgba(26,26,24,.12);
+  border-radius:20px;padding:4px 12px;
+  background:#fff;
+}
+.updated-dot{width:6px;height:6px;border-radius:50%;background:#4ade80;flex-shrink:0}
+.mw-badge{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;font-weight:500;
+  border:1px solid rgba(26,26,24,.12);
+  border-radius:20px;padding:4px 14px;
+  background:#fff;color:#1a1a18;
+}
+.mw-badge.alerta{background:#fff7ed;border-color:#f97316;color:#c2410c}
+
+/* ── CONTENT ── */
+.content{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ── SEARCH + FILTERS ── */
+.search-area{
+  padding:16px 28px 0;
+  flex-shrink:0;
+}
+.search-wrap{
+  position:relative;margin-bottom:12px;
+}
+.search-icon{
+  position:absolute;left:14px;top:50%;transform:translateY(-50%);
+  color:rgba(26,26,24,.3);font-size:12px;
+}
+.search-input{
+  width:100%;
+  padding:10px 14px 10px 36px;
+  border:1px solid rgba(26,26,24,.12);
+  border-radius:6px;
+  background:#fff;
+  font-family:'Inter',sans-serif;
+  font-size:12px;color:#1a1a18;
+  outline:none;
+  transition:border-color .15s;
+}
+.search-input:focus{border-color:rgba(26,26,24,.35)}
+.search-input::placeholder{color:rgba(26,26,24,.3)}
+
+.filters-row{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  margin-bottom:12px;
+}
+.filter-btn{
+  position:relative;
+  display:flex;align-items:center;gap:6px;
+  padding:7px 14px;
+  border:1px solid rgba(26,26,24,.15);
+  border-radius:6px;background:#fff;
+  font-family:'Inter',sans-serif;font-size:12px;
+  color:#1a1a18;cursor:pointer;
+  transition:all .12s;white-space:nowrap;
+  user-select:none;
+}
+.filter-btn:hover{border-color:rgba(26,26,24,.3);background:#faf7f2}
+.filter-btn.active{border-color:#c9a84c;background:#fdf8ec;color:#7a5c1a;font-weight:500}
+.filter-label{pointer-events:none;font-size:12px}
+.chevron{font-size:9px;opacity:.5;pointer-events:none;transition:transform .15s}
+.filter-btn.open .chevron{transform:rotate(180deg)}
+/* Dropdown multiselección */
+.filter-dropdown{
+  display:none;position:absolute;top:calc(100% + 4px);left:0;
+  min-width:200px;max-height:280px;overflow-y:auto;
+  background:#fff;border:1px solid rgba(26,26,24,.15);
+  border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.1);
+  z-index:1000;padding:6px 0;
+}
+.filter-btn.open .filter-dropdown{display:block}
+.filter-dropdown-item{
+  display:flex;align-items:center;gap:8px;
+  padding:7px 14px;cursor:pointer;font-size:12px;
+  color:#1a1a18;transition:background .1s;
+  white-space:nowrap;
+}
+.filter-dropdown-item:hover{background:#f5f0e8}
+.filter-dropdown-item input[type=checkbox]{
+  width:13px;height:13px;accent-color:#c9a84c;
+  flex-shrink:0;cursor:pointer;
+}
+.filter-dropdown-item.selected{color:#7a5c1a;font-weight:500}
+.filter-dropdown-divider{height:1px;background:rgba(26,26,24,.08);margin:4px 0}
+.filter-clear-btn{
+  padding:5px 14px;font-size:11px;color:#c9a84c;
+  cursor:pointer;border-top:1px solid rgba(26,26,24,.08);
+  margin-top:4px;
+}
+.filter-clear-btn:hover{background:#fdf8ec}
+/* Nav item activo */
+.nav-item.filter-active{
+  border-left-color:#c9a84c !important;
+  background:rgba(201,168,76,.08) !important;
+  color:#f5f0e8 !important;
+}
+.nav-item.filter-active .nav-count{
+  background:rgba(201,168,76,.25) !important;
+  color:#c9a84c !important;
+}
+.count-right{
+  margin-left:auto;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;color:rgba(26,26,24,.4);
+  white-space:nowrap;
+}
+
+/* ── TABLE ── */
+.table-wrap{
+  flex:1;overflow-y:auto;
+  padding:0 28px 24px;
+}
+table{width:100%;border-collapse:collapse;min-width:900px}
+thead th{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(26,26,24,.4);
+  padding:8px 10px;
+  border-bottom:1px solid rgba(26,26,24,.1);
+  text-align:left;white-space:nowrap;
+  position:sticky;top:0;
+  background:#f5f0e8;z-index:1;
+}
+thead th .sort-icon{margin-left:4px;opacity:.4;font-size:8px}
+tbody td{
+  padding:9px 10px;
+  border-bottom:1px solid rgba(26,26,24,.06);
+  vertical-align:middle;
+  font-size:11px;color:#1a1a18;
+}
+tbody tr{cursor:pointer;transition:background .08s}
+tbody tr:hover td{background:rgba(201,168,76,.05)}
+tbody tr.fallido td{background:rgba(220,38,38,.03)}
+tbody tr.fallido:hover td{background:rgba(220,38,38,.07)}
+
+/* Celda tecnología */
+.tech-pill{
+  display:inline-flex;align-items:center;gap:5px;
+  padding:3px 9px;border-radius:4px;
+  font-size:10px;font-weight:500;
+  background:rgba(26,26,24,.07);color:#333;
+  white-space:nowrap;
+}
+/* Celda resultado/estado */
+.result-pill{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:3px 9px;border-radius:4px;
+  font-size:10px;font-weight:500;white-space:nowrap;
+}
+/* Celda trámite */
+.tramite-pill{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;letter-spacing:.05em;
+  padding:3px 8px;border-radius:3px;
+  background:rgba(26,26,24,.06);color:#555;
+  white-space:nowrap;
+}
+/* Celda MW */
+.mw-cell{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;font-weight:500;
+  text-align:right;white-space:nowrap;
+}
+/* Celda punto conexión */
+.cnx-cell{font-size:10px;color:#555;max-width:160px}
+.cnx-cell strong{color:#1a1a18;font-weight:500}
+/* Celda enlace */
+.link-cell{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;color:#1a6bc4;
+  white-space:nowrap;
+  font-weight:500;
+}
+.link-cell:hover{text-decoration:underline}
+/* Celda lib */
+.lib-cell{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;font-weight:500;
+  color:#c2410c;white-space:nowrap;
+}
+.dash{color:rgba(26,26,24,.25)}
+
+/* ── LOADING / ERROR ── */
+.centered{
+  flex:1;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:12px;
+  color:rgba(26,26,24,.4);
+}
+.spinner{
+  width:22px;height:22px;
+  border:1.5px solid rgba(26,26,24,.15);
+  border-top-color:#c9a84c;
+  border-radius:50%;
+  animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── MODAL ── */
+.modal-bg{
+  display:none;position:fixed;inset:0;
+  background:rgba(10,10,8,.6);
+  z-index:300;align-items:center;justify-content:center;padding:20px;
+}
+.modal-bg.open{display:flex}
+.modal{
+  background:#f5f0e8;
+  border:1px solid rgba(26,26,24,.12);
+  border-radius:8px;
+  width:100%;max-width:640px;
+  max-height:88vh;overflow-y:auto;
+  box-shadow:0 20px 60px rgba(10,10,8,.25);
+}
+.modal-hdr{
+  padding:20px 24px 16px;
+  border-bottom:1px solid rgba(26,26,24,.1);
+  display:flex;justify-content:space-between;align-items:flex-start;gap:12px;
+}
+.modal-proj{
+  font-family:'Playfair Display',serif;
+  font-size:17px;font-weight:400;color:#1a1a18;
+  line-height:1.3;max-width:520px;
+}
+.modal-close{
+  background:none;border:none;cursor:pointer;
+  font-size:18px;color:rgba(26,26,24,.4);
+  padding:0;line-height:1;flex-shrink:0;
+  transition:color .1s;
+}
+.modal-close:hover{color:#1a1a18}
+.modal-body{padding:20px 24px}
+.modal-pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.fallo-box{
+  background:#fff1f0;border:1px solid rgba(220,38,38,.2);
+  border-radius:5px;padding:10px 14px;margin-bottom:14px;
+}
+.fallo-lbl{font-size:9px;color:#dc2626;text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
+.fallo-txt{font-size:12px;color:#b91c1c}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.field .lbl{font-size:9px;color:rgba(26,26,24,.4);text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
+.field .val{font-size:11px;color:#1a1a18;font-family:'IBM Plex Mono',monospace}
+.field .val.null{color:rgba(26,26,24,.3);font-style:italic;font-family:'Inter',sans-serif}
+.field .val.gold{color:#92620a;font-weight:500}
+.obs{
+  background:rgba(26,26,24,.04);border-radius:4px;
+  padding:10px 12px;font-size:11px;color:#555;
+  line-height:1.6;margin-top:10px;
+}
+.modal-link{
+  display:inline-flex;align-items:center;gap:5px;
+  font-size:11px;color:#1a6bc4;margin-top:12px;
+  text-decoration:none;
+}
+.modal-link:hover{text-decoration:underline}
+.modal-id{font-size:9px;color:rgba(26,26,24,.25);font-family:'IBM Plex Mono',monospace;margin-top:8px}
+
+/* ── SUBESTACIONES VIEW ── */
+.set-view{padding:20px 28px;overflow-y:auto;flex:1}
+.set-view h2{font-family:'Playfair Display',serif;font-size:16px;font-weight:400;margin-bottom:16px;color:#1a1a18}
+.set-card{
+  background:#fff;border:1px solid rgba(26,26,24,.1);
+  border-radius:6px;padding:14px 18px;margin-bottom:10px;
+}
+.set-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.set-card-name{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500}
+.set-card-mw{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:500;color:#c2410c}
+.set-track{height:4px;background:rgba(26,26,24,.08);border-radius:2px;overflow:hidden;margin-bottom:6px}
+.set-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#c2410c,#f97316)}
+.set-sub{font-size:10px;color:rgba(26,26,24,.4)}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-thumb{background:rgba(26,26,24,.15);border-radius:2px}
+</style>
+</head>
+<body>
+
+<!-- ── CONFIG (EDITAR AQUÍ) ── -->
+<script>
+const CONFIG = {
+  SPREADSHEET_ID: "1jqhG2ub287WHrBa1myP8wKygqPTiXDHq-x-9GEcmblE",
+  API_KEY:        "AIzaSyBIngjt4mrov2d1AKrqOOpF90cMAgoYSIg",
+  SHEET_NAME:     "Permisos",
+  REFRESH_MINS:   30,
+};
+</script>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-name">Nodalys<span>.</span></div>
+    <div class="brand-sub">Permisos Energéticos</div>
+  </div>
+
+  <nav>
+    <div class="nav-section">
+      <div class="nav-label">Análisis</div>
+      <div class="nav-item active" onclick="setView('busqueda')">
+        <span class="nav-icon">◎</span> Búsqueda
+        <span class="nav-count" id="cnt-total">—</span>
+      </div>
+      <div class="nav-item" onclick="setView('subestaciones')">
+        <span class="nav-icon">⚡</span> Subestaciones
+        <span class="nav-count" id="cnt-sets">—</span>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-label" style="display:flex;align-items:center;justify-content:space-between;padding-right:12px">
+        Estado
+        <span onclick="clearFilters()" style="font-size:9px;color:rgba(255,255,255,.25);cursor:pointer;letter-spacing:.08em;padding:1px 6px;border:1px solid rgba(255,255,255,.1);border-radius:3px;transition:color .1s" onmouseover="this.style.color='rgba(255,255,255,.5)'" onmouseout="this.style.color='rgba(255,255,255,.25)'">Todos</span>
+      </div>
+      <div class="nav-item" onclick="filterEstado('favorable,otorgado')" data-filter="favorable,otorgado" data-type="estado">
+        <span class="nav-icon">✓</span> Aprobados
+        <span class="nav-count" id="cnt-aprobados">—</span>
+      </div>
+      <div class="nav-item" onclick="filterEstado('desfavorable,denegado,desistido,caducado,archivado,revocado,inadmitido')" data-filter="desfavorable,denegado,desistido,caducado,archivado,revocado,inadmitido" data-type="estado">
+        <span class="nav-icon">✕</span> Denegados / Fallidos
+        <span class="nav-count danger" id="cnt-denegados">—</span>
+      </div>
+      <div class="nav-item" onclick="filterEstado('informacion_publica,en_tramitacion')" data-filter="informacion_publica,en_tramitacion" data-type="estado">
+        <span class="nav-icon">▷</span> En Tramitación
+        <span class="nav-count" id="cnt-tramitacion">—</span>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-label">Tecnología</div>
+      <div class="nav-item" onclick="filterTech('eólica,Eólica')" data-filter="eólica,Eólica" data-type="tech"><span class="nav-icon">🌬</span> Eólica <span class="nav-count" id="cnt-eolica">—</span></div>
+      <div class="nav-item" onclick="filterTech('fotovoltaica,Fotovoltaica')" data-filter="fotovoltaica,Fotovoltaica" data-type="tech"><span class="nav-icon">☀</span> Fotovoltaica <span class="nav-count" id="cnt-fv">—</span></div>
+      <div class="nav-item" onclick="filterTech('BESS,FV+BESS,eólica+BESS,Eólica+BESS')" data-filter="BESS,FV+BESS,eólica+BESS,Eólica+BESS" data-type="tech"><span class="nav-icon">🔋</span> BESS / Hibridación <span class="nav-count" id="cnt-bess">—</span></div>
+      <div class="nav-item" onclick="filterTech('H2')" data-filter="H2" data-type="tech"><span class="nav-icon">⚗</span> Hidrógeno <span class="nav-count" id="cnt-h2">—</span></div>
+      <div class="nav-item" onclick="filterTech('Data Center')" data-filter="Data Center" data-type="tech"><span class="nav-icon">🖥</span> Data Centers <span class="nav-count" id="cnt-dc">—</span></div>
+      <div class="nav-item" onclick="filterTech('LAT,SET')" data-filter="LAT,SET" data-type="tech"><span class="nav-icon">⚡</span> Evacuación / Red <span class="nav-count" id="cnt-red">—</span></div>
+    </div>
+  </nav>
+
+  <div class="sidebar-footer">
+    <div><span class="status-dot"></span><span class="status-text" id="status-txt">Conectando...</span></div>
+    <div style="margin-top:4px"><span class="status-text" id="version-txt">Nodalys v1.0 · BOE Pipeline</span></div>
+    <div style="margin-top:4px"><span class="status-text" id="last-load-txt"></span></div>
+  </div>
+</aside>
+
+<!-- ── MAIN ── -->
+<main class="main">
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="page-title" id="page-title">Búsqueda de proyectos</div>
+    <div class="topbar-right">
+      <div class="updated-badge">
+        <div class="updated-dot" id="updated-dot"></div>
+        <span id="updated-txt">Cargando...</span>
+      </div>
+      <div class="mw-badge" id="mw-badge">— MW</div>
+      <button onclick="exportCSV()" style="padding:5px 12px;border:1px solid rgba(26,26,24,.15);border-radius:5px;background:#fff;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif">↓ CSV</button>
+      <button onclick="loadData()" style="padding:5px 12px;border:1px solid rgba(26,26,24,.15);border-radius:5px;background:#fff;font-size:11px;cursor:pointer;font-family:'Inter',sans-serif">↺</button>
+    </div>
+  </div>
+
+  <!-- BÚSQUEDA VIEW -->
+  <div id="view-busqueda" class="content">
+    <div class="search-area">
+      <div class="search-wrap">
+        <span class="search-icon">◎</span>
+        <input class="search-input" id="search" type="text" placeholder="Buscar por nombre, promotor o ID BOE..." oninput="render()">
+      </div>
+      <div class="filters-row">
+        <div class="filter-btn" id="btn-tech" onclick="toggleDropdown(event,'tech')">
+          <span class="filter-label" id="lbl-tech">Tecnología</span>
+          <span class="chevron">▾</span>
+          <div class="filter-dropdown" id="dd-tech" onclick="event.stopPropagation()"></div>
+        </div>
+        <div class="filter-btn" id="btn-estado" onclick="toggleDropdown(event,'estado')">
+          <span class="filter-label" id="lbl-estado">Resultado</span>
+          <span class="chevron">▾</span>
+          <div class="filter-dropdown" id="dd-estado" onclick="event.stopPropagation()"></div>
+        </div>
+        <div class="filter-btn" id="btn-tipo" onclick="toggleDropdown(event,'tipo')">
+          <span class="filter-label" id="lbl-tipo">Trámite</span>
+          <span class="chevron">▾</span>
+          <div class="filter-dropdown" id="dd-tipo" onclick="event.stopPropagation()"></div>
+        </div>
+        <div class="filter-btn" id="btn-provincia" onclick="toggleDropdown(event,'provincia')">
+          <span class="filter-label" id="lbl-provincia">Provincia</span>
+          <span class="chevron">▾</span>
+          <div class="filter-dropdown" id="dd-provincia" onclick="event.stopPropagation()"></div>
+        </div>
+        <div class="filter-btn" id="btn-boletin" onclick="toggleDropdown(event,'boletin')">
+          <span class="filter-label" id="lbl-boletin">Boletín</span>
+          <span class="chevron">▾</span>
+          <div class="filter-dropdown" id="dd-boletin" onclick="event.stopPropagation()"></div>
+        </div>
+        <button onclick="clearFilters()" style="padding:7px 12px;border:1px solid rgba(26,26,24,.12);border-radius:6px;background:transparent;font-size:11px;cursor:pointer;color:rgba(26,26,24,.5);transition:all .12s" onmouseover="this.style.background='#f5f0e8'" onmouseout="this.style.background='transparent'">Limpiar</button>
+        <div class="count-right" id="count-right">— proyectos · — MW</div>
+      </div>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="centered">
+      <div class="spinner"></div>
+      <div style="font-size:12px">Cargando datos desde Google Sheets...</div>
+    </div>
+    <div id="error-box" class="centered" style="display:none">
+      <div style="font-size:24px;margin-bottom:4px">⚠</div>
+      <div id="error-msg" style="font-size:12px;font-weight:500"></div>
+      <div id="error-detail" style="font-size:11px;color:rgba(26,26,24,.4);margin-top:4px;text-align:center;max-width:400px"></div>
+      <button onclick="loadData()" style="margin-top:12px;padding:7px 16px;border:1px solid rgba(26,26,24,.2);border-radius:5px;background:#fff;font-size:11px;cursor:pointer">Reintentar</button>
+    </div>
+
+    <!-- Tabla -->
+    <div id="table-wrap" class="table-wrap" style="display:none">
+      <table>
+        <thead>
+          <tr id="thead-row">
+            <th onclick="sortBy('fecha_publicacion')" style="cursor:pointer;user-select:none">Fecha <span class="sort-icon" id="si-fecha">⇅</span></th>
+            <th onclick="sortBy('id_boe')" style="cursor:pointer;user-select:none">ID BOE <span class="sort-icon" id="si-id">⇅</span></th>
+            <th onclick="sortBy('nombre_proyecto')" style="cursor:pointer;user-select:none">Nombre proyecto <span class="sort-icon" id="si-nombre">⇅</span></th>
+            <th onclick="sortBy('tecnologia')" style="cursor:pointer;user-select:none">Tecnología <span class="sort-icon" id="si-tech">⇅</span></th>
+            <th style="text-align:right;cursor:pointer;user-select:none" onclick="sortBy('potencia_mw')">MW <span class="sort-icon" id="si-mw">⇅</span></th>
+            <th onclick="sortBy('promotor')" style="cursor:pointer;user-select:none">Promotor <span class="sort-icon" id="si-promotor">⇅</span></th>
+            <th onclick="sortBy('provincia')" style="cursor:pointer;user-select:none">Provincia <span class="sort-icon" id="si-prov">⇅</span></th>
+            <th onclick="sortBy('municipio')" style="cursor:pointer;user-select:none">Municipio <span class="sort-icon" id="si-mun">⇅</span></th>
+            <th onclick="sortBy('subestacion_conexion')" style="cursor:pointer;user-select:none">Punto conexión <span class="sort-icon" id="si-set">⇅</span></th>
+            <th onclick="sortBy('tipo_permiso')" style="cursor:pointer;user-select:none">Trámite <span class="sort-icon" id="si-tramite">⇅</span></th>
+            <th onclick="sortBy('estado_permiso')" style="cursor:pointer;user-select:none">Resultado <span class="sort-icon" id="si-estado">⇅</span></th>
+            <th>Enlace</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div id="no-rows" style="padding:40px;text-align:center;color:rgba(26,26,24,.3);font-size:12px;display:none">Sin resultados</div>
+    </div>
+  </div>
+
+  <!-- SUBESTACIONES VIEW -->
+  <div id="view-subestaciones" class="content" style="display:none">
+    <div class="set-view">
+      <h2 style="font-size:18px;font-weight:700;margin-bottom:4px">Afloramientos de capacidad</h2><p style="font-size:12px;opacity:.5;margin-bottom:16px">SETs con proyectos caídos — oportunidades de entrada</p>
+      <div id="set-cards"></div>
+      <div id="set-empty" style="color:rgba(26,26,24,.4);font-size:12px;display:none">No hay proyectos fallidos con subestación identificada.</div>
+    </div>
+  </div>
+
+</main>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-hdr">
+      <div>
+        <div id="modal-pills" class="modal-pills"></div>
+        <div class="modal-proj" id="modal-proj"></div>
+      </div>
+      <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open')">✕</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+// ── TAXONOMÍAS ──────────────────────────────────────────────────────────────
+const ESTADOS = {
+  favorable:           {label:"Favorable",     color:"#166534",bg:"#dcfce7"},
+  otorgado:            {label:"Otorgado",       color:"#166534",bg:"#dcfce7"},
+  no_necesario:        {label:"No necesario",   color:"#166534",bg:"#dcfce7"},
+  informacion_publica: {label:"Inf. pública",   color:"#075985",bg:"#e0f2fe"},
+  en_tramitacion:      {label:"En tramitación", color:"#075985",bg:"#e0f2fe"},
+  suspendido:          {label:"Suspendido",     color:"#92400e",bg:"#fef3c7"},
+  desfavorable:        {label:"Desfavorable",   color:"#991b1b",bg:"#fee2e2", fallido:true},
+  denegado:            {label:"Denegado",       color:"#991b1b",bg:"#fee2e2", fallido:true},
+  desistido:           {label:"Desistido",      color:"#c2410c",bg:"#fff7ed", fallido:true},
+  caducado:            {label:"Caducado",       color:"#92400e",bg:"#fef3c7", fallido:true},
+  archivado:           {label:"Archivado",      color:"#92400e",bg:"#fef3c7", fallido:true},
+  revocado:            {label:"Revocado",       color:"#7c3aed",bg:"#ede9fe", fallido:true},
+  inadmitido:          {label:"Inadmitido",     color:"#7c3aed",bg:"#ede9fe", fallido:true},
+  otro:                {label:"Otro",           color:"#374151",bg:"#f3f4f6"},
+};
+const TIPOS = {
+  // Evaluación ambiental
+  EsIA:     "EsIA",        // Evaluación ambiental simplificada
+  DIA:      "DIA",         // Declaración impacto ambiental
+  AAI:      "AAI",         // Autorización ambiental integrada
+  IPA:      "IPA",         // Informe previo Ayuntamiento
+  IP:       "IP",
+  // Autorizaciones administrativas
+  AAP:      "AAP",         // Autorización administrativa previa
+  AAC:      "AAC",         // Autorización administrativa de construcción
+  AAE:      "AAE",
+  "AAP+AAC":"AAP+AAC",
+  ModAAP:   "Mod.AAP",
+  ModAAC:   "Mod.AAC",
+  ModAAE:   "Mod.AAE",
+  // Ocupación y servidumbre
+  DUP:      "DUP",         // Declaración utilidad pública
+  LAP:      "LAP",         // Levantamiento actas previas
+  Servidumbre:"Serv.",
+  OcupacionUP:"Ocup.UP",
+  "Ocup. UP":"Ocup.UP",
+  // Conexión
+  PtoConexion:"PtoCnx",
+  ModConexion:"ModCnx",
+  // Registro
+  InscReg:  "InscReg",
+  BajReg:   "BajReg",
+  // Otros
+  PlanEsp:  "PlanEsp",
+  LicObras: "LicObras",
+  LicObras2:"LicObras",
+  Concesion:"Conc.",
+  Otro:     "Otro",
+};
+const TECH_ICONS = {
+  // SVG inline compacto por tecnología
+  "eólica":        "🌬",   // eólica
+  "Eólica":        "🌬",
+  "fotovoltaica":  "☀",   // solar
+  "Fotovoltaica":  "☀",
+  "BESS":          "🔋",   // batería/almacenamiento
+  "FV+BESS":       "☀🔋",
+  "Eólica+BESS":   "🌬🔋",
+  "eólica+BESS":   "🌬🔋",
+  "H2":            "⚗",   // H2 electrolizador
+  "Data Center":   "🖥",   // servidor
+  "LAT":           "⚡",   // rayo
+  "SET":           "🔌",   // enchufe/subestación
+  "hidráulica":    "💧",
+  "Hidráulica":    "💧",
+  "termosolar":    "🌡",
+  "Termosolar":    "🌡",
+  "biomasa":       "🌿",
+  "Biomasa":       "🌿",
+  "cogeneración":  "⚙",
+  "Cogeneración":  "⚙",
+  "otro":          "◻",
+  "Otro":          "◻",
+};
+const TECH_COLORS = {
+  "eólica":"#e0f2fe","Eólica":"#e0f2fe",
+  "fotovoltaica":"#fef9c3","Fotovoltaica":"#fef9c3",
+  "FV+BESS":"#fef9c3","Eólica+BESS":"#e0f2fe",
+  "BESS":"#ede9fe","H2":"#dcfce7",
+  "Data Center":"#f3f4f6","LAT":"#fff7ed","SET":"#fff7ed",
+  "Biomasa":"#f0fdf4","Biomasa":"#f0fdf4",
+  "Hidráulica":"#eff6ff","Termosolar":"#fff7ed",
+};
+const COLS = ["id_boe","fecha_publicacion","boletin","ccaa","nombre_proyecto","promotor","tecnologia","potencia_mw","tipo_permiso","permisos_adicionales","estado_permiso","es_proyecto_fallido","motivo_fallo","subestacion_conexion","tension_conexion_kv","gestor_red","municipio","provincia","comunidad_autonoma","numero_expediente_industria","numero_expediente_medioambiente","capacidad_mw_liberada","fecha_resolucion","confianza","url","titulo_original","fecha_carga"];
+
+// ── ESTADO ──────────────────────────────────────────────────────────────────
+let ALL=[], FILTERED=[], VIEW="busqueda";
+let ACTIVE_ESTADO_FILTER="", ACTIVE_TECH_FILTER="";
+
+// ── CARGA ────────────────────────────────────────────────────────────────────
+// ── Lookup de capacidad de subestaciones ──────────────────────────────────────
+// Formato índice: "D:VALLADOLID T11 13" o "R:JALON 220" →
+//   [set_kv, nombre_set, provincia, municipio/ccaa, tension, cap_gen, cap_gen_prev, cap_ocup, acept, acept_prev]
+let SETS_CAPACITY = null;
+async function loadSetsCapacity(){
+  try {
+    const r = await fetch('sets_capacity.json');
+    if(r.ok) SETS_CAPACITY = await r.json();
+  } catch(e) {}
+}
+
+function normSetName(s){
+  if(!s) return "";
+  s = s.toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  const prefixes = ['SUBESTACION','SUBESTACIO','CENTRO DE SECCIONAMIENTO',
+                    'CENTRO SECCIONAMIENTO','STR ','STS ','CSEC ','C\.T\.','S\.E\.','S/E ',
+                    'PROMOTORES','PROMOTORE','NUEVO ','NEW ','NUDO '];
+  prefixes.forEach(p => { s = s.replace(new RegExp('\\b'+p+'\\b','g'),''); });
+  s = s.replace(/\d+[.,\/]\d+\s*KV?/g,'').replace(/\b\d+\s*KV?\b/g,'');
+  s = s.replace(/\([^)]+\)/g,'').replace(/[^A-Z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+  return s;
+}
+
+function extractKV(s){
+  const m = s.toUpperCase().match(/(\d+(?:[.,]\d+)?)\s*KV?/g)||[];
+  return m.map(x=>parseFloat(x.replace(/KV?/,'').replace(',','.'))).filter(v=>!isNaN(v)).sort((a,b)=>b-a);
+}
+
+function findCapacity(set_name){
+  if(!SETS_CAPACITY || !set_name || set_name==='—') return null;
+  const norm = normSetName(set_name);
+  const words = norm.split(' ').filter(w=>w.length>=4);
+  const kvs = extractKV(set_name);
+  const kvMax = kvs.length ? kvs[0] : null;
+  if(!words.length) return null;
+
+  // Contar votos por candidato — claves sin prefijo
+  const votos = {};
+  Object.keys(SETS_CAPACITY).forEach(key=>{
+    words.forEach(w=>{
+      if(key.includes(w)){
+        votos[key] = (votos[key]||0)+1;
+      }
+    });
+  });
+
+  if(!Object.keys(votos).length) return null;
+
+  const maxV = Math.max(...Object.values(votos));
+  let candidatos = Object.keys(votos).filter(k=>votos[k]===maxV);
+
+  // Desempate 1: preferir REE (titular=REE) si tensión >= 132kV
+  if(kvMax && kvMax>=132){
+    const reeCands = candidatos.filter(k=>{
+      const d = SETS_CAPACITY[k];
+      return d.length>10 && d[10]==='REE';
+    });
+    if(reeCands.length) candidatos = reeCands;
+  }
+
+  // Desempate 2: tensión más cercana
+  if(kvMax && candidatos.length>1){
+    candidatos.sort((a,b)=>{
+      const ta = SETS_CAPACITY[a][4]||0;
+      const tb = SETS_CAPACITY[b][4]||0;
+      return Math.abs(ta-kvMax) - Math.abs(tb-kvMax);
+    });
+  }
+
+  const best = candidatos[0];
+  const d = SETS_CAPACITY[best];
+  // d = [nombre, nombre_corto, prov, mun/ccaa, tension, cap_gen, cap_gen_prev, cap_ocup, acept, acept_prev, titular, red, ?hijas]
+  const titular = d.length>10 ? d[10] : '—';
+  const red     = d.length>11 ? d[11] : '—';
+  const fuente  = titular==='REE' ? 'REE' : 'DSO';
+  return {
+    fuente, titular, red,
+    set_kv:d[0], nombre:d[1], prov:d[2], loc:d[3],
+    tension:d[4], cap:d[5], cap_prev:d[6], ocup:d[7], acept:d[8], acept_prev:d[9],
+    hijas: d.length>12 && Array.isArray(d[12]) ? d[12] : null,
+    confianza: Math.round(maxV/words.length*100)/100,
+  };
+}
+
+async function loadData(){
+  show("loading"); hide("table-wrap"); hide("error-box");
+  document.getElementById("status-txt").textContent = "Conectando...";
+
+  const {SPREADSHEET_ID,API_KEY,SHEET_NAME} = CONFIG;
+  if(SPREADSHEET_ID==="TU_SPREADSHEET_ID_AQUI"){
+    showError("Sin configurar","Edita el index.html: rellena SPREADSHEET_ID y API_KEY en CONFIG");
+    return;
+  }
+  const url=`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${encodeURIComponent(SHEET_NAME)}?key=${API_KEY}`;
+  try{
+    const ctrl=new AbortController(); setTimeout(()=>ctrl.abort(),12000);
+    let r; try{ r=await fetch(url,{signal:ctrl.signal}); }catch(fe){ throw new Error(fe.name==="AbortError"?"Timeout (12s) — comprueba que el Sheet es publico (Compartir → Cualquier persona con enlace → Lector) y que la API key es valida":fe.message); }
+    if(!r.ok) throw new Error(`HTTP ${r.status} — ${r.statusText}`);
+    const data=await r.json();
+    const rows=data.values||[];
+    if(rows.length<2){showError("Sin datos","El Google Sheet está vacío. Ejecuta el pipeline primero.");return;}
+    ALL=rows.slice(1).map(row=>{
+      const o={};
+      COLS.forEach((c,i)=>{o[c]=(row[i]||"").trim();});
+      return o;
+    }).filter(r=>r.id_boe);
+
+    // Última actualización
+    const fechas=ALL.map(r=>r.fecha_carga).filter(Boolean).sort();
+    const ultima=fechas[fechas.length-1]||"";
+    const hoy=new Date().toLocaleDateString("es-ES");
+    document.getElementById("updated-txt").textContent = ultima ? "Actualizado "+ultima.slice(0,10) : "Sin fecha";
+    document.getElementById("last-load-txt").textContent = new Date().toLocaleTimeString("es-ES");
+    document.getElementById("status-txt").textContent = "API conectada";
+    document.getElementById("version-txt").textContent = `Nodalys v1.0 · ${ALL.length} registros`;
+
+    hide("loading"); show("table-wrap");
+    populateFilters();
+    updateSidebar();
+    render();
+
+    // Auto-refresh
+    if(CONFIG.REFRESH_MINS>0){
+      setTimeout(loadData, CONFIG.REFRESH_MINS*60*1000);
+    }
+  }catch(e){
+    showError("Error de conexión",e.message);
+    document.getElementById("status-txt").textContent="Error de conexión";
+  }
+}
+
+function showError(msg,detail){
+  hide("loading");hide("table-wrap");show("error-box");
+  document.getElementById("error-msg").textContent=msg;
+  document.getElementById("error-detail").textContent=detail;
+  document.getElementById("updated-dot").style.background="#f87171";
+}
+
+// ── FILTROS ──────────────────────────────────────────────────────────────────
+function updateFilterLabel(selId, lblId, defaultLbl){
+  const s = document.getElementById(selId);
+  const lbl = document.getElementById(lblId);
+  const btn = s.closest(".filter-btn");
+  if(s.value){
+    lbl.textContent = s.options[s.selectedIndex].text;
+    if(btn) btn.classList.add("active");
+  } else {
+    lbl.textContent = defaultLbl;
+    if(btn) btn.classList.remove("active");
+  }
+}
+
+// Estado de ordenación
+let SORT_KEY = "fecha_publicacion";
+let SORT_ASC = false;
+
+function sortBy(key){
+  if(SORT_KEY === key){
+    SORT_ASC = !SORT_ASC;
+  } else {
+    SORT_KEY = key;
+    SORT_ASC = true;
+  }
+  // Actualizar iconos
+  document.querySelectorAll(".sort-icon").forEach(el => el.textContent = "⇅");
+  const idMap = {
+    fecha_publicacion:"si-fecha", id_boe:"si-id", nombre_proyecto:"si-nombre",
+    tecnologia:"si-tech", potencia_mw:"si-mw", promotor:"si-promotor",
+    provincia:"si-prov", municipio:"si-mun", subestacion_conexion:"si-set",
+    tipo_permiso:"si-tramite", estado_permiso:"si-estado"
+  };
+  if(idMap[key]){
+    const el = document.getElementById(idMap[key]);
+    if(el) el.textContent = SORT_ASC ? "↑" : "↓";
+  }
+  render();
+}
+
+// Estado de multiselección por filtro
+const FILTROS = {tech:new Set(), estado:new Set(), tipo:new Set(), provincia:new Set(), boletin:new Set()};
+
+function toggleDropdown(evt, key){
+  evt.stopPropagation();
+  const btn = document.getElementById("btn-" + key);
+  const isOpen = btn.classList.contains("open");
+  // Cerrar todos los dropdowns
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("open"));
+  if(!isOpen) btn.classList.add("open");
+}
+
+// Cerrar dropdowns al hacer click fuera
+document.addEventListener("click", () => {
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("open"));
+});
+
+function buildDropdown(key, vals, defaultLbl){
+  const dd = document.getElementById("dd-" + key);
+  const lbl = document.getElementById("lbl-" + key);
+  const btn = document.getElementById("btn-" + key);
+  const sel = FILTROS[key];
+
+  dd.innerHTML = "";
+
+  // Opción "Todos"
+  const allItem = document.createElement("div");
+  allItem.className = "filter-dropdown-item";
+  allItem.innerHTML = `<input type="checkbox" ${sel.size===0 ? "checked" : ""}> <span>Todos</span>`;
+  allItem.querySelector("input").addEventListener("change", () => {
+    sel.clear();
+    buildDropdown(key, vals, defaultLbl);
+    render();
+  });
+  dd.appendChild(allItem);
+
+  const div = document.createElement("div");
+  div.className = "filter-dropdown-divider";
+  dd.appendChild(div);
+
+  [...new Set(vals.filter(Boolean))].sort().forEach(v => {
+    const item = document.createElement("div");
+    item.className = "filter-dropdown-item" + (sel.has(v) ? " selected" : "");
+    item.innerHTML = `<input type="checkbox" ${sel.has(v) ? "checked" : ""}> <span>${v}</span>`;
+    item.querySelector("input").addEventListener("change", (e) => {
+      if(e.target.checked) sel.add(v); else sel.delete(v);
+      // Si el dropdown de tech tiene selecciones, limpiar el sidebar
+      if(key === "tech") {
+        ACTIVE_TECH_FILTER = "";
+        document.querySelectorAll(".nav-item").forEach(el => el.classList.remove("filter-active"));
+      }
+      if(key === "estado") {
+        ACTIVE_ESTADO_FILTER = "";
+        document.querySelectorAll(".nav-item").forEach(el => el.classList.remove("filter-active"));
+      }
+      buildDropdown(key, vals, defaultLbl);
+      render();
+    });
+    dd.appendChild(item);
+  });
+
+  // Actualizar label
+  if(sel.size === 0){
+    lbl.textContent = defaultLbl;
+    btn.classList.remove("active");
+  } else if(sel.size === 1){
+    lbl.textContent = [...sel][0];
+    btn.classList.add("active");
+  } else {
+    lbl.textContent = `${defaultLbl} (${sel.size})`;
+    btn.classList.add("active");
+  }
+}
+
+function populateFilters(){
+  buildDropdown("tech",     ALL.map(r=>r.tecnologia),    "Tecnología");
+  buildDropdown("estado",   ALL.map(r=>r.estado_permiso), "Resultado");
+  buildDropdown("tipo",     ALL.map(r=>r.tipo_permiso),   "Trámite");
+  buildDropdown("provincia",ALL.map(r=>r.provincia),      "Provincia");
+  buildDropdown("boletin",  ALL.map(r=>r.boletin),        "Boletín");
+}
+
+function clearFilters(){
+  Object.keys(FILTROS).forEach(k => FILTROS[k].clear());
+  populateFilters();
+  document.getElementById("search").value = "";
+  ACTIVE_ESTADO_FILTER = ""; ACTIVE_TECH_FILTER = "";
+  document.querySelectorAll(".nav-item").forEach(el => el.classList.remove("active","filter-active"));
+  document.querySelector(".nav-item").classList.add("active");
+  render();
+}
+
+function filterEstado(val){
+  // Si ya estaba activo, desactivar (toggle)
+  if(ACTIVE_ESTADO_FILTER===val){ ACTIVE_ESTADO_FILTER=""; }
+  else { ACTIVE_ESTADO_FILTER=val; }
+  ACTIVE_TECH_FILTER="";
+  document.getElementById("f-estado").value="";
+  document.getElementById("f-tech").value="";
+  // Siempre ir a búsqueda
+  setView("busqueda");
+  render();
+  updateActiveNav();
+}
+
+function filterTech(val){
+  // Si ya estaba activo, desactivar (toggle)
+  if(ACTIVE_TECH_FILTER===val){ ACTIVE_TECH_FILTER=""; }
+  else { ACTIVE_TECH_FILTER=val; }
+  ACTIVE_ESTADO_FILTER="";
+  document.getElementById("f-tech").value="";
+  document.getElementById("f-estado").value="";
+  // Siempre ir a búsqueda
+  setView("busqueda");
+  render();
+  updateActiveNav();
+}
+
+function updateActiveNav(){
+  document.querySelectorAll(".nav-item").forEach(el=>el.classList.remove("active"));
+}
+
+// ── RENDER ───────────────────────────────────────────────────────────────────
+function render(){
+  const q = document.getElementById("search").value.toLowerCase();
+
+  // Aplicar sort
+  const cmp=(a,b)=>{
+    let va=a[SORT_KEY]||"", vb=b[SORT_KEY]||"";
+    if(SORT_KEY==="potencia_mw"){va=parseFloat(va)||0;vb=parseFloat(vb)||0;return SORT_ASC?va-vb:vb-va;}
+    return SORT_ASC?va.localeCompare(vb):vb.localeCompare(va);
+  };
+  FILTERED=ALL.filter(r=>{
+    // Filtros multiselección (nuevos)
+    if(FILTROS.tech.size>0    && !FILTROS.tech.has(r.tecnologia))return false;
+    if(FILTROS.estado.size>0  && !FILTROS.estado.has(r.estado_permiso))return false;
+    if(FILTROS.tipo.size>0    && !FILTROS.tipo.has(r.tipo_permiso))return false;
+    if(FILTROS.provincia.size>0 && !FILTROS.provincia.has(r.provincia))return false;
+    if(FILTROS.boletin.size>0 && !FILTROS.boletin.has(r.boletin))return false;
+    // Filtros del sidebar
+    if(ACTIVE_ESTADO_FILTER){
+      const vals=ACTIVE_ESTADO_FILTER.split(",");
+      if(!vals.includes(r.estado_permiso))return false;
+    }
+    if(ACTIVE_TECH_FILTER){
+      const vals=ACTIVE_TECH_FILTER.split(",").map(v=>v.trim());
+      if(!vals.includes(r.tecnologia))return false;
+    }
+    if(q){
+      const hay=[r.nombre_proyecto,r.promotor,r.id_boe,r.subestacion_conexion,r.provincia,r.numero_expediente_industria].join(" ").toLowerCase();
+      if(!hay.includes(q))return false;
+    }
+    return true;
+  });
+
+  const mwTot=FILTERED.reduce((a,r)=>a+(parseFloat(r.potencia_mw)||0),0);
+  const mwLib=FILTERED.reduce((a,r)=>a+(parseFloat(r.capacidad_mw_liberada)||0),0);
+  document.getElementById("count-right").textContent=`${FILTERED.length} proyectos · ${mwTot?mwTot.toLocaleString()+" MW":"0 MW"}`;
+  const mwBadge=document.getElementById("mw-badge");
+  mwBadge.textContent=mwLib?`⚡ ${mwLib} MW lib.`:(mwTot?`${mwTot} MW`:"0 MW");
+  mwBadge.className="mw-badge"+(mwLib?" alerta":"");
+
+  FILTERED.sort((a,b)=>{
+    let va=a[SORT_KEY]||"", vb=b[SORT_KEY]||"";
+    if(SORT_KEY==="potencia_mw"){va=parseFloat(va)||0;vb=parseFloat(vb)||0;return SORT_ASC?va-vb:vb-va;}
+    if(va<vb) return SORT_ASC?-1:1;
+    if(va>vb) return SORT_ASC?1:-1;
+    return 0;
+  });
+  renderTable();
+  highlightActiveNav();
+}
+
+function highlightActiveNav(){
+  document.querySelectorAll(".nav-item[data-filter]").forEach(el=>{
+    const filter = el.dataset.filter;
+    const type = el.dataset.type;
+    const isActive = (type==="estado" && ACTIVE_ESTADO_FILTER===filter) ||
+                     (type==="tech" && ACTIVE_TECH_FILTER===filter);
+    el.classList.toggle("filter-active", isActive);
+  });
+}
+
+function renderTable(){
+  const tbody=document.getElementById("tbody");
+  const noRows=document.getElementById("no-rows");
+
+  // Excluir entradas que son claramente falsos positivos o sin valor informativo
+  const EXCLUIR_REGEX = [
+    // ── Distribución eléctrica local (no proyectos de generación) ──
+    /^reglamentaci[oó]n (lmta|lmt)\b/i,
+    /^lmt[a]?,?\s*(ct,?\s*)?(rbt|sac|pal|lug)\b/i,
+    /^l[íi]nea de distribuci[oó]n lmta/i,
+    /lmts?,\s*rbts?\b/i,
+    /^lmts\s+cambio/i,
+    /^lmta\s+(pal|sac|lug)\d/i,
+    /\brbts?\s+y\s+\d+\s+(ct|centros)/i,
+    /^lmts?\s+(sdm|bol|sac|cha|mar|vbo)\d/i,
+    /sustituci[oó]n de apoyos (lal|b1x|btx|lmt)/i,
+    /sustituc[ií][oó]n apoyos/i,
+    /adecuaci[oó]n ct [a-z]+\d/i,  // CT locales tipo "Adecuación CT Albarellos GC-32AK00"
+    /^instalaci[oó]n de distribuci[oó]n el[eé]ctrica lmt/i,
+    /^instalaci[oó]n el[eé]ctrica lmt/i,
+    /^nueva l[íi]nea doble circuito mt/i,
+    /^reforma l[íi]nea a[eé]rea media tensi[oó]n/i,
+    /^soterramiento l[íi]nea media tensi[oó]n/i,
+    /^modificaci[oó]n lat \d+kv/i,
+    /^ampliaci[oó]n de potencia ct/i,
+    /^paso subterr[aá]neo laat/i,
+    // ── ERM locales ──
+    /\binstalaciones para sustituci[oó]n de erm\b/i,
+    /^sustituci[oó]n\s+(de\s+)?erm\b/i,
+    // ── Canteras y minería ──
+    /cantera (campo|verdinal|redondo)/i,
+    /^concesi[oó]n de explotaci[oó]n (segundo|primer|tercer)/i,
+    /explotaci[oó]n de (zahorras|piedra|áridos)/i,
+    /^pr[oó]rroga concesi[oó]n explotaci[oó]n/i,
+    // ── Sondeos de agua ──
+    /sondeo de captaci[oó]n de agua/i,
+    /sondeo para riego/i,
+    // ── Ganadería y agricultura ──
+    /explotaci[oó]n porcina/i,
+    /explotaci[oó]n de vacuno/i,
+    /transformaci[oó]n en reg[aá]d[íi]o/i,
+    // ── Reciclaje (no almacenamiento energético) ──
+    /reciclado (de )?bater[íi]as/i,
+    /planta reciclado bater[íi]as/i,
+    // ── Almacenamiento de residuos (no BESS) ──
+    /almacenamiento.{0,30}(residuos|valoriz)/i,
+    /centro.{0,20}(almacenamiento|valoriz).{0,30}residuos/i,
+    // ── Carreteras, caminos, turismo ──
+    /^camino (fisterra|jacobeo|de santiago)/i,
+    /mejora de carretera/i,
+    /variante de .{3,30}carretera/i,
+    // ── Urbanismo no energético ──
+    /plan especial.{0,30}(vivienda|residencial|urbano|palomares|palomar)/i,
+    /plan b[aá]sico municipal/i,
+    /^calificaci[oó]n urban[íi]stica/i,
+    /^licencia urban[íi]stica/i,
+    /^modificaci[oó]n normas urban[íi]sticas/i,
+    /^modificaci[oó]n sector (sur|nor|est|oes)/i,
+    /ordenaci[oó]n forestal/i,
+    /^fuencaliente$/i, /^sah[aá]g[uú]n$/i, /^redondela$/i, /^moa[ñn]a$/i,
+    /^torrecilla de la orden$/i, /^valdescorriel$/i, /^polo$/i,
+    /^medina del campo$/i, /^villag[aá]t[oó]n$/i,
+    // ── Instalaciones industriales menores no energéticas ──
+    /fábrica.{0,20}(l[aá]cteos|piensos|muebles)/i,
+    /hormig[oó]n/i,
+    /^instalaci[oó]n el[eé]ctrica cazalegas/i,
+    /instalaci[oó]n el[eé]ctrica.{0,20}(carpinter[íi]a|taller|nave|edificio comercial)/i,
+    /instalaci[oó]n de generaci[oó]n de energ[íi]a el[eé]ctrica a partir de gas natural/i,
+    /instalaci[oó]n valoriz.{0,20}materiales/i,
+    /adaptaci[oó]n infraestructura distribuci[oó]n gas/i,
+    // ── Gas de distribución sin biometano/H2 ──
+    /transformaci[oó]n.{0,20}instalaciones.{0,20}glp/i,
+    /cierre de red.{0,20}glp/i,
+    // ── Centro seccionamiento ADIF/ferroviario ──
+    /centro de seccionamiento.{0,20}(adif|ferr)/i,
+    /canaliz.{0,15}lmts.{0,15}(adif|ferr)/i,
+    // ── Agua y residuos ──
+    /sondeo aqua/i, /agua mineral/i,
+    /gesti[oó]n de (residuos no|biomasa vegetal)/i,
+    /valoriz.{0,15}residuos/i,
+    /concesiones de aguas/i,
+    /extinci[oó]n de concesiones/i,
+    /comunidad de regantes/i,
+    // ── Textos truncados o solo lugar ──
+    /^de \d{2}\/\d{2}\//i,
+    /^de «/i,
+    /^de la comunidad de/i,
+    /^información pública\. resoluci[oó]n de/i,
+  ];
+  const datos=FILTERED.filter(r=>{
+    const nombre = r.nombre_proyecto || "";
+    // Regex de exclusión
+    if(EXCLUIR_REGEX.some(rx => rx.test(nombre))) return false;
+    const sinNombre = !nombre || nombre==="Sin nombre" || nombre==="Proyecto sin nombre";
+    const soloLugar = /^[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?$/.test(nombre);
+    const sinInfo = !r.tecnologia && !r.promotor && !r.potencia_mw;
+    if((sinNombre || soloLugar) && sinInfo) return false;
+    if(/^(de la|del|de los|de las|de \d)\s/i.test(nombre) && sinInfo) return false;
+    return true;
+  });
+
+  if(!datos.length){tbody.innerHTML="";noRows.style.display="block";return;}
+  noRows.style.display="none";
+
+  tbody.innerHTML=datos.map((r,i)=>{
+    const es=ESTADOS[r.estado_permiso]||ESTADOS.otro;
+    const fall=r.es_proyecto_fallido==="SÍ";
+    const tech=r.tecnologia||"";
+    const techNorm=tech?tech.charAt(0).toUpperCase()+tech.slice(1):tech;
+    const techBg=TECH_COLORS[tech]||"rgba(26,26,24,.06)";
+    const tipo=TIPOS[r.tipo_permiso]||r.tipo_permiso||"—";
+    return `<tr class="${fall?"fallido":""}" onclick="openModal('${r.id_boe}')">
+      <td style="color:rgba(26,26,24,.5);white-space:nowrap;font-family:'IBM Plex Mono',monospace;font-size:10px">${fmtF(r.fecha_publicacion)}</td>
+      <td style="font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap;color:#555">${r.id_boe||'<span class="dash">—</span>'}</td>
+      <td style="max-width:200px">
+        <div style="font-size:12px;font-weight:500;color:#1a1a18;line-height:1.3">${r.nombre_proyecto||'<span style="color:rgba(26,26,24,.3);font-style:italic;font-weight:400;font-size:11px">Sin nombre</span>'}</div>
+      </td>
+      <td>${tech?`<span class="tech-pill" style="background:${techBg}">${TECH_ICONS[tech]||""} ${techNorm}</span>`:'<span class="dash">—</span>'}</td>
+      <td class="mw-cell">${r.potencia_mw?r.potencia_mw+' <span style="font-size:9px;opacity:.5">MW</span>':'<span class="dash">—</span>'}</td>
+      <td style="font-size:11px;color:#555;max-width:140px">${r.promotor||'<span class="dash">—</span>'}</td>
+      <td style="font-size:11px;color:#555;white-space:nowrap">${r.provincia||'<span class="dash">—</span>'}</td>
+      <td style="font-size:11px;color:#555">${r.municipio||'<span class="dash">—</span>'}</td>
+      <td class="cnx-cell">${r.subestacion_conexion?`<strong>${r.subestacion_conexion}</strong>${r.tension_conexion_kv?' <span style="opacity:.5">'+r.tension_conexion_kv+'kV</span>':''}`:'<span class="dash">—</span>'}</td>
+      <td>${tipo?`<span class="tramite-pill">${tipo}</span>`:'<span class="dash">—</span>'}</td>
+      <td><span class="result-pill" style="color:${es.color};background:${es.bg}">${es.label}</span></td>
+      <td>${r.url?`<a class="link-cell" href="${r.url}" target="_blank" onclick="event.stopPropagation()">${r.boletin||'BOE'} ↗</a>`:'<span class="dash">—</span>'}</td>
+    </tr>`;
+  }).join("");
+}
+
+// ── SIDEBAR COUNTERS ──────────────────────────────────────────────────────────
+function updateSidebar(){
+  const n=t=>ALL.filter(t).length;
+  const FALLIDOS=new Set(["desfavorable","denegado","desistido","caducado","archivado","revocado","inadmitido"]);
+  // Actualizar contador total con filtered si hay filtro activo
+  const totalMostrado = FILTERED.length || ALL.length;
+  document.getElementById("cnt-total").textContent=ALL.length;
+  const sets=new Set(ALL.filter(r=>r.subestacion_conexion&&r.capacidad_mw_liberada).map(r=>r.subestacion_conexion));
+  document.getElementById("cnt-sets").textContent=sets.size||0;
+  document.getElementById("cnt-aprobados").textContent=n(r=>["favorable","otorgado","no_necesario"].includes(r.estado_permiso));
+  document.getElementById("cnt-denegados").textContent=n(r=>FALLIDOS.has(r.estado_permiso));
+  document.getElementById("cnt-tramitacion").textContent=n(r=>["informacion_publica","en_tramitacion"].includes(r.estado_permiso));
+  document.getElementById("cnt-eolica").textContent=n(r=>r.tecnologia==="eólica");
+  document.getElementById("cnt-fv").textContent=n(r=>r.tecnologia==="fotovoltaica");
+  document.getElementById("cnt-bess").textContent=n(r=>["BESS","FV+BESS","eólica+BESS"].includes(r.tecnologia));
+  document.getElementById("cnt-h2").textContent=n(r=>r.tecnologia==="H2");
+  document.getElementById("cnt-dc").textContent=n(r=>r.tecnologia==="Data Center");
+  document.getElementById("cnt-red").textContent=n(r=>["LAT","SET"].includes(r.tecnologia));
+}
+
+// ── VISTAS ───────────────────────────────────────────────────────────────────
+function setView(v){
+  VIEW=v;
+  document.getElementById("view-busqueda").style.display=v==="busqueda"?"flex":"none";
+  document.getElementById("view-subestaciones").style.display=v==="subestaciones"?"flex":"none";
+  // Actualizar nav activo
+  document.querySelectorAll(".nav-item").forEach(el=>el.classList.remove("active"));
+  if(v==="busqueda"){
+    document.getElementById("page-title").textContent="Búsqueda de proyectos";
+    document.querySelectorAll(".nav-item")[0].classList.add("active");
+  } else {
+    // Al ir a subestaciones, limpiar filtros de sidebar para evitar confusión
+    ACTIVE_ESTADO_FILTER="";
+    ACTIVE_TECH_FILTER="";
+    document.getElementById("page-title").textContent="Afloramientos de capacidad por subestación";
+    document.querySelectorAll(".nav-item")[1].classList.add("active");
+    renderSets();
+  }
+}
+
+function renderSets(){
+  if(!SETS_CAPACITY){
+    document.getElementById("set-cards").innerHTML="<p style='color:#999;font-size:12px'>Cargando datos de subestaciones...</p>";
+    return;
+  }
+
+  // Agrupar TODOS los proyectos con subestación por SET vinculada
+  const sets={};
+  ALL.forEach(r=>{
+    if(!r.subestacion_conexion) return;
+    const ci = findCapacity(r.subestacion_conexion);
+    if(!ci || ci.confianza < 0.4) return;
+    const key = ci.set_kv;
+    if(!sets[key]) sets[key]={ ci, fallidos:[], otros:[], mwFallidos:0 };
+    const esFallido = r.es_proyecto_fallido==="SÍ";
+    const mw = parseFloat(r.potencia_mw)||0;
+    if(esFallido){
+      sets[key].fallidos.push(r);
+      sets[key].mwFallidos += mw;
+    } else {
+      sets[key].otros.push(r);
+    }
+  });
+
+  // Filtrar: solo SETs con al menos un proyecto fallido
+  const entries = Object.entries(sets)
+    .filter(([,d]) => d.fallidos.length > 0)
+    .sort((a,b) => {
+      // Primero: aceptables REE, luego por MW fallidos desc
+      const aA = a[1].ci.acept > 0 ? 1 : 0;
+      const aB = b[1].ci.acept > 0 ? 1 : 0;
+      if(aA !== aB) return aB - aA;
+      return b[1].mwFallidos - a[1].mwFallidos;
+    });
+
+  const container = document.getElementById("set-cards");
+  const empty = document.getElementById("set-empty");
+
+  if(!entries.length){
+    container.innerHTML="";
+    empty.style.display="block";
+    return;
+  }
+  empty.style.display="none";
+
+  const maxMW = Math.max(...entries.map(([,d])=>d.mwFallidos), 1);
+
+  container.innerHTML = entries.map(([key,{ci,fallidos,otros,mwFallidos}])=>{
+    const aceptable = ci.acept > 0;
+    const enLimite  = ci.acept === 0;
+    const aceptColor = aceptable ? "#166534" : enLimite ? "#92400e" : "#991b1b";
+    const aceptBg   = aceptable ? "#dcfce7"  : enLimite ? "#fef9c3"  : "#fef2f2";
+    const aceptLabel = aceptable ? "✓ Aceptable REE" : enLimite ? "⚠ En límite" : "✗ No aceptable";
+    const delta = ci.cap - ci.cap_prev;
+    const deltaStr = !isNaN(delta) ? (delta>0 ? `<span style="color:#166534">+${delta.toFixed(1)} MW</span>` : delta<0 ? `<span style="color:#991b1b">${delta.toFixed(1)} MW</span>` : "sin cambio") : "";
+    const fillPct = Math.round((mwFallidos/maxMW)*100);
+
+    const proyRows = fallidos.slice(0,5).map(r=>
+      `<div style="display:flex;align-items:center;gap:6px;padding:4px 0;border-top:1px solid rgba(0,0,0,.05);font-size:11px">
+        <span style="opacity:.4;min-width:68px">${(r.fecha_publicacion||"").slice(0,10)}</span>
+        <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${r.nombre_proyecto||""}">${r.nombre_proyecto||r.id_boe}</span>
+        <span style="font-weight:600;min-width:50px;text-align:right">${r.potencia_mw ? r.potencia_mw+" MW" : "—"}</span>
+        <span style="background:#fef2f2;color:#991b1b;padding:1px 5px;border-radius:3px;font-size:10px">${r.estado_permiso||""}</span>
+      </div>`).join("");
+
+    const oportunidad = aceptable || (ci.acept > -50 && mwFallidos > 0);
+
+    return `<div class="set-card" style="border-left:4px solid ${aceptColor};margin-bottom:10px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <div>
+          ${oportunidad ? '<span style="background:#fef9c3;color:#92400e;font-size:9px;padding:1px 6px;border-radius:10px;font-weight:600;margin-bottom:4px;display:inline-block">⭐ OPORTUNIDAD</span><br>' : ''}
+          <span style="font-size:14px;font-weight:700">${key}</span>
+          <span style="font-size:10px;opacity:.5;margin-left:6px">${ci.titular||ci.fuente} · ${ci.red||""} · ${ci.prov||ci.loc||""}</span>
+        </div>
+        <span style="background:${aceptBg};color:${aceptColor};font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px">${aceptLabel}</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px;background:#f9f9f7;border-radius:6px;margin-bottom:10px;font-size:11px">
+        <div style="text-align:center">
+          <div style="opacity:.5;margin-bottom:2px">Cap. disponible</div>
+          <div style="font-weight:700;font-size:14px">${ci.cap!=null?ci.cap.toFixed(1)+" MW":"—"}</div>
+          <div style="font-size:10px;opacity:.5">${deltaStr}</div>
+        </div>
+        <div style="text-align:center">
+          <div style="opacity:.5;margin-bottom:2px">Cap. ocupada</div>
+          <div style="font-weight:700;font-size:14px">${ci.ocup!=null?ci.ocup.toFixed(1)+" MW":"—"}</div>
+        </div>
+        <div style="text-align:center">
+          <div style="opacity:.5;margin-bottom:2px">MW caídos</div>
+          <div style="font-weight:700;font-size:14px;color:#2563eb">${mwFallidos.toFixed(1)} MW</div>
+        </div>
+        <div style="text-align:center">
+          <div style="opacity:.5;margin-bottom:2px">Acept. neta</div>
+          <div style="font-weight:700;font-size:14px;color:${aceptColor}">${ci.acept!=null?ci.acept.toFixed(0):"—"}</div>
+        </div>
+      </div>
+      <div style="margin-bottom:6px">
+        <div style="height:4px;background:#eee;border-radius:2px">
+          <div style="height:4px;background:${aceptColor};border-radius:2px;width:${fillPct}%"></div>
+        </div>
+      </div>
+      <div style="font-size:10px;font-weight:600;opacity:.4;margin-bottom:2px">PROYECTOS CAÍDOS EN ESTA SET</div>
+      ${proyRows}
+      ${fallidos.length>5?`<div style="font-size:10px;opacity:.4;padding-top:4px">+${fallidos.length-5} más</div>`:""}
+      ${otros.length ? `<div style="font-size:10px;opacity:.4;margin-top:6px">${otros.length} proyecto(s) activo(s) en esta SET</div>` : ""}
+    </div>`;
+  }).join("");
+}
+
+// ── MODAL ────────────────────────────────────────────────────────────────────
+function openModal(id_boe){
+  const r=FILTERED.find(x=>x.id_boe===id_boe) || ALL.find(x=>x.id_boe===id_boe);
+  if(!r) return;
+  const es=ESTADOS[r.estado_permiso]||ESTADOS.otro;
+  const fall=r.es_proyecto_fallido==="SÍ";
+
+  document.getElementById("modal-proj").textContent=r.nombre_proyecto||r.titulo_original||"Sin nombre";
+  // Lookup capacidad subestación
+  const capInfo = findCapacity(r.subestacion_conexion);
+  const capEl = document.getElementById("modal-cap-set");
+  if(capEl){
+    if(capInfo){
+      const capMW = capInfo.cap !== undefined ? capInfo.cap : null;
+      const acept = capInfo.acept !== undefined ? capInfo.acept : null;
+      capEl.innerHTML = capMW !== null ?
+        `<b>${capMW} MW disp.</b> ${acept!==null?(acept>=0?'✓ Aceptable':'⚠ No aceptable REE'):''} <span style="opacity:.5;font-size:10px">(${capInfo.titular||capInfo.fuente} · ${capInfo.red||''}: ${capInfo.nombre})</span>` :
+        `—`;
+    } else {
+      capEl.innerHTML = r.subestacion_conexion ? "No en base de datos" : "—";
+    }
+  }
+  document.getElementById("modal-pills").innerHTML=`
+    <span class="tramite-pill">${r.boletin}</span>
+    ${r.tipo_permiso?`<span class="tramite-pill">${TIPOS[r.tipo_permiso]||r.tipo_permiso}</span>`:""}
+    <span class="result-pill" style="color:${es.color};background:${es.bg}">${es.label}</span>
+    ${fall?'<span class="result-pill" style="color:#c2410c;background:#fff7ed">⚡ Proyecto fallido</span>':""}
+    ${r.capacidad_mw_liberada?`<span class="result-pill" style="color:#c2410c;background:#fff7ed">⚡ ${r.capacidad_mw_liberada} MW liberados</span>`:""}
+  `;
+
+  const f=(l,v,cls="")=>`<div class="field"><div class="lbl">${l}</div><div class="val ${v?cls:"null"}">${v||"—"}</div></div>`;
+
+  document.getElementById("modal-body").innerHTML=`
+    ${r.motivo_fallo?`<div class="fallo-box"><div class="fallo-lbl">Motivo del fallo</div><div class="fallo-txt">${r.motivo_fallo}</div></div>`:""}
+    <div class="fields">
+      ${f("Promotor",r.promotor)}
+      ${f("Tecnología",(TECH_ICONS[r.tecnologia]||"")+" "+(r.tecnologia||""))}
+      ${f("Potencia",r.potencia_mw?r.potencia_mw+" MW":"")}
+      ${f("Cap. liberada",r.capacidad_mw_liberada?`⚡ ${r.capacidad_mw_liberada} MW`:"","gold")}
+      ${f("Exp. Industria",r.numero_expediente_industria)}
+      ${f("Exp. M. Ambiente",r.numero_expediente_medioambiente)}
+      ${f("Subestación",r.subestacion_conexion)}
+      ${(()=>{
+  const ci = findCapacity(r.subestacion_conexion);
+  if(!ci) return r.subestacion_conexion ? f("Capacidad SET","No vinculada al Excel") : "";
+  const cap = ci.cap != null ? ci.cap : null;
+  const capPrev = ci.cap_prev != null ? ci.cap_prev : null;
+  const acept = ci.acept != null ? ci.acept : null;
+  const aceptPrev = ci.acept_prev != null ? ci.acept_prev : null;
+  const delta = (cap != null && capPrev != null) ? cap - capPrev : null;
+  const deltaStr = delta != null ? (delta > 0 ? `<span style="color:#166534">+${delta.toFixed(1)}</span>` : delta < 0 ? `<span style="color:#991b1b">${delta.toFixed(1)}</span>` : "sin cambio") : "";
+  const aceptColor = acept != null ? (acept > 0 ? "#166534" : acept === 0 ? "#92400e" : "#991b1b") : "";
+  const aceptLabel = acept != null ? (acept > 0 ? "✓ Aceptable REE" : acept === 0 ? "⚠ Límite REE" : "✗ No aceptable REE") : "—";
+  const hijasHtml = ci.hijas ? `<div style="margin-top:6px;font-size:10px;opacity:.5">Posiciones: ${ci.hijas.join(', ')}</div>` : '';
+  return `<div class="field" style="grid-column:1/-1;border-left:3px solid ${aceptColor||"#ddd"};padding-left:8px">
+    <div class="lbl">Subestación vinculada
+      <span style="margin-left:6px;background:rgba(26,26,24,.07);padding:1px 7px;border-radius:10px;font-size:9px;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em">${ci.titular} · ${ci.red}</span>
+      <span style="opacity:.4;font-size:9px;margin-left:6px">conf. ${ci.confianza}</span>
+    </div>
+    <div class="val" style="font-weight:600;margin-bottom:6px">${ci.set_kv}</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:11px">
+      <div><span style="opacity:.6">Cap. gen. disponible</span><br><b>${cap != null ? cap.toFixed(1)+" MW" : "—"}</b> ${deltaStr ? `<span style="font-size:10px">(${deltaStr} vs prev.)</span>` : ""}</div>
+      <div><span style="opacity:.6">Cap. ocupada</span><br><b>${ci.ocup != null ? ci.ocup.toFixed(1)+" MW" : "—"}</b></div>
+      <div><span style="opacity:.6">Aceptabilidad REE</span><br><b style="color:${aceptColor}">${aceptLabel}</b></div>
+      <div><span style="opacity:.6">Acept. anterior</span><br><b>${aceptPrev != null ? aceptPrev.toFixed(0) : "—"}</b></div>
+    </div>
+    ${hijasHtml}
+  </div>`;
+})()}
+      ${f("Tensión",r.tension_conexion_kv?r.tension_conexion_kv+" kV":"")}
+      ${f("Gestor de red",r.gestor_red)}
+      ${f("Municipio",r.municipio)}
+      ${f("Provincia",r.provincia)}
+      ${f("CCAA",r.comunidad_autonoma)}
+      ${f("Fecha resolución",r.fecha_resolucion)}
+      ${f("Confianza IA",r.confianza?Math.round(parseFloat(r.confianza)*100)+"%":"")}
+    </div>
+    ${r.url?`<a class="modal-link" href="${r.url}" target="_blank">→ Ver en boletín oficial</a>`:""}
+    <div class="modal-id">${r.id_boe}</div>
+  `;
+  document.getElementById("modal").classList.add("open");
+}
+
+function closeModal(e){if(e.target.id==="modal")document.getElementById("modal").classList.remove("open")}
+
+// ── EXPORT ───────────────────────────────────────────────────────────────────
+function exportCSV(){
+  if(!FILTERED.length)return;
+  const h=COLS.join(";");
+  const rows=FILTERED.map(r=>COLS.map(c=>`"${(r[c]||"").replace(/"/g,'""')}"`).join(";")).join("\n");
+  const blob=new Blob(["\uFEFF"+h+"\n"+rows],{type:"text/csv;charset=utf-8;"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download=`nodalys_permisos_${new Date().toISOString().slice(0,10)}.csv`;a.click();
+}
+
+// ── UTILS ────────────────────────────────────────────────────────────────────
+function fmtF(f){if(!f||f.length<8)return f||"—";return`${f.slice(6,8)}/${f.slice(4,6)}/${f.slice(0,4)}`;}
+function show(id){const el=document.getElementById(id);if(el)el.style.display="flex";}
+function hide(id){const el=document.getElementById(id);if(el)el.style.display="none";}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+document.getElementById("view-busqueda").style.display="flex";
+document.getElementById("view-subestaciones").style.display="none";
+loadData();
+loadSetsCapacity();
+</script>
+</body>
+</html>

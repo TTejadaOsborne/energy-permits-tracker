@@ -154,16 +154,20 @@
         "comunidad_autonoma": "Madrid",
         "fecha_resolucion": "2025-09-08",
         "capacidad_mw_liberada": null,
-        "observaciones": "Subestación transformadora 45/11 kV con línea asociada de 45 kV. Ubicada en C/ Fundidores, número 40. Tramitada conforme a Decreto 70/2010 de la Comunidad de Madrid. Se cumplió información pública y se recibieron alegaciones del Canal de Isabel II que fueron respondidas satisfactoriamente. Proyectista: Jaime Antonio Galindo Salvador (colegiado 8336 del Colegio Oficial de Ingenieros Técnicos Industriales de Aragón). Proyecto de ejecución aprobado con anexo presentado en abril de 2025. [reclasificado: promotor privado sin evacuación explícita: 'Merlín Properties Socimi, S. A.']",
+        "observaciones": "Subestación transformadora 45/11 kV con línea asociada de 45 kV. Ubicada en C/ Fundidores, número 40. Tramitada conforme a Decreto 70/2010 de la Comunidad de Madrid. Se cumplió información pública y se recibieron alegaciones del Canal de Isabel II que fueron respondidas satisfactoriamente. Proyectista: Jaime Antonio Galindo Salvador (colegiado 8336 del Colegio Oficial de Ingenieros Técnicos Industriales de Aragón). Proyecto de ejecución aprobado con anexo presentado en abril de 2025. [Descartado manual: SOCIMI inmobiliaria, SET privado]",
         "confianza": 0.95,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Merlín Properties Socimi, S. A.'",
+        "es_energetico": false,
+        "estado_validacion": "descartado"
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 6317,
         "output": 482
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     },
     {
       "id": "BOCYL-D-26092025-14",

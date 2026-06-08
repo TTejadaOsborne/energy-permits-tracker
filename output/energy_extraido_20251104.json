@@ -470,9 +470,11 @@
         "comunidad_autonoma": "Aragón",
         "fecha_resolucion": null,
         "capacidad_mw_liberada": null,
-        "observaciones": "Proyecto modificado que incluye SET Casablanca 220/30 kV, CS Promotores Los Leones 220 kV y Línea aérea subterránea SET Casablanca 220/30 kV - SET Los Leones. Se tramita simultáneamente Autorización Administrativa Previa y de Construcción con modificación del Estudio de Impacto Ambiental. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Proyecto modificado que incluye SET Casablanca 220/30 kV, CS Promotores Los Leones 220 kV y Línea aérea subterránea SET Casablanca 220/30 kV - SET Los Leones. Se tramita simultáneamente Autorización Administrativa Previa y de Construcción con modificación del Estudio de Impacto Ambiental. [descartado: media tensión]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {

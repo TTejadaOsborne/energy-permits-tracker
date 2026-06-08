@@ -463,9 +463,11 @@
         "comunidad_autonoma": "Andalucía",
         "fecha_resolucion": "2024-10-07",
         "capacidad_mw_liberada": null,
-        "observaciones": "Resolución que declara la utilidad pública de la línea de evacuación común de plantas solares. El texto completo no es accesible públicamente (acceso restringido tras 6 meses de publicación según art. 32 del Decreto 188/2018). Publicado en BOJA con expediente BOJA-20241107-0. Delegación Territorial en Málaga. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Resolución que declara la utilidad pública de la línea de evacuación común de plantas solares. El texto completo no es accesible públicamente (acceso restringido tras 6 meses de publicación según art. 32 del Decreto 188/2018). Publicado en BOJA con expediente BOJA-20241107-0. Delegación Territorial en Málaga. [descartado: revisión manual]",
         "confianza": 0.55,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "evacuación privada: promotor=''"
       },
       "es_energetico": false,
       "tokens": {
@@ -617,16 +619,17 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2024-10-25",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de citación para levantamiento de actas de ocupación por expropiación forzosa relacionado con proyecto de infraestructura de evacuación de energía generada. Texto completo no disponible en el título; se trata de una fase de expropiación (LAP) en procedimiento administrativo. [reclasificado: evacuación privada: promotor='']",
+        "observaciones": "Anuncio de citación para levantamiento de actas de ocupación por expropiación forzosa relacionado con proyecto de infraestructura de evacuación de energía generada. Texto completo no disponible en el título; se trata de una fase de expropiación (LAP) en procedimiento administrativo. [conservado: Citación levantamiento de actas de ocupación]",
         "confianza": 0.35,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false
       },
-      "es_energetico": false,
+      "es_energetico": true,
       "tokens": {
         "input": 8864,
         "output": 1211
       },
-      "estado_validacion": "descartado"
+      "estado_validacion": "pendiente"
     }
   ]
 }

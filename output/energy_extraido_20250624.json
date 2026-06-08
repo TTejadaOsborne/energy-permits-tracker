@@ -194,9 +194,11 @@
         "comunidad_autonoma": "Castilla y León",
         "fecha_resolucion": null,
         "capacidad_mw_liberada": null,
-        "observaciones": "Ocupación temporal de terrenos de la vía pecuaria «Colada de Rodamarzo» para acceso a la nueva subestación de reparto y maniobra de 45 kV. Trámite de información pública de un mes de duración conforme a artículo 14 de la Ley 3/1995 de Vías Pecuarias. Plazo comienza desde el día siguiente a la publicación en BOCyL. Publicado 24 de junio de 2025. [reclasificado: promotor privado sin evacuación explícita: 'Pomarico Inversiones, S.L.']",
+        "observaciones": "Ocupación temporal de terrenos de la vía pecuaria «Colada de Rodamarzo» para acceso a la nueva subestación de reparto y maniobra de 45 kV. Trámite de información pública de un mes de duración conforme a artículo 14 de la Ley 3/1995 de Vías Pecuarias. Plazo comienza desde el día siguiente a la publicación en BOCyL. Publicado 24 de junio de 2025. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.85,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'Pomarico Inversiones, S.L.'"
       },
       "es_energetico": false,
       "tokens": {

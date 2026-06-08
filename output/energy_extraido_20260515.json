@@ -40,9 +40,11 @@
         "comunidad_autonoma": "Extremadura",
         "fecha_resolucion": "2026-05-05",
         "capacidad_mw_liberada": null,
-        "observaciones": "Anuncio de levantamiento de actas previas a la ocupación (LAP) para extensión de línea de media tensión 13,2 kV. Ubicación: paraje Las Habazas, término municipal de Malpartida. [reclasificado: promotor privado sin evacuación explícita: 'STR Plasencia Ind.']",
+        "observaciones": "Anuncio de levantamiento de actas previas a la ocupación (LAP) para extensión de línea de media tensión 13,2 kV. Ubicación: paraje Las Habazas, término municipal de Malpartida. [descartado: ocupación/expropiación dominio público]",
         "confianza": 0.75,
-        "es_proyecto_energetico": true
+        "es_proyecto_energetico": true,
+        "pendiente_revision": false,
+        "motivo_revision": "promotor privado sin evacuación explícita: 'STR Plasencia Ind.'"
       },
       "es_energetico": false,
       "tokens": {
