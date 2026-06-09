@@ -1,0 +1,30 @@
+{
+  "fecha": "20200131",
+  "total": 2,
+  "items": [
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-19081477",
+      "fecha": "20200131",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Información pública.- Anuncio de 5 de diciembre de 2019 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto denominado \"Ampliación de una posición de línea 132 kV para conectar la nueva línea \"Valdeobispo-parq",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/210o/19081477.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2020/210o/19081477.pdf",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-20080024",
+      "fecha": "20200131",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Información pública. Expropiaciones.- Anuncio de 16 de diciembre de 2019 por el que se someten a información pública la petición de autorización administrativa previa y reconocimiento, en concreto, de la utilidad pública de las instalaciones correspondientes al proyecto denominado \"Adecuación de la ",
+      "url": "https://doe.juntaex.es/pdfs/doe/2020/210o/20080024.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2020/210o/20080024.pdf",
+      "url_xml": "",
+      "texto": ""
+    }
+  ]
+}

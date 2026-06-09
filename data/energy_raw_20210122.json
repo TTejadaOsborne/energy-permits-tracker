@@ -1,0 +1,54 @@
+{
+  "fecha": "20210122",
+  "total": 4,
+  "items": [
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-21060166",
+      "fecha": "20210122",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Energía solar.- Resolución de 18 de noviembre de 2020, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Iberenova Promociones, SA, para la instalación fotovoltaica \"Majada Alta\" e infraestructura de evacuación de energía elé",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/140o/21060166.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2021/140o/21060166.pdf",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-21060152",
+      "fecha": "20210122",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Energía solar.- Resolución de 21 de diciembre de 2020, de la Dirección General de Industria, Energía y Minas, por la que se otorga autorización administrativa previa a la sociedad Navalvillar Solar, SL, para la instalación fotovoltaica \"Puerta Palmas\", ubicada en el término municipal de Mérida (Bada",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/140o/21060152.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2021/140o/21060152.pdf",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-21080026",
+      "fecha": "20210122",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Información pública.- Anuncio de 21 de diciembre de 2020 por el que se somete a información pública la solicitud de autorización administrativa previa correspondiente a la instalación fotovoltaica \"Alconchel 2020\", ubicada en el término municipal de Alconchel (Badajoz), e infraestructura de evacuaci",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/140o/21080026.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2021/140o/21080026.pdf",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-21080025",
+      "fecha": "20210122",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Información pública.- Anuncio de 12 de enero de 2021 por el que se somete a información pública la solicitud de autorización administrativa previa, correspondiente a la instalación fotovoltaica \"Puebla 13 MW\", ubicada en el término municipal de Puebla de Sancho Pérez (Badajoz), e infraestructura de ",
+      "url": "https://doe.juntaex.es/pdfs/doe/2021/140o/21080025.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2021/140o/21080025.pdf",
+      "url_xml": "",
+      "texto": ""
+    }
+  ]
+}

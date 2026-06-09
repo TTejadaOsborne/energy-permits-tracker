@@ -1,13 +1,55 @@
+# ── Python ────────────────────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# ── Credenciales y secretos ───────────────────────────────────
 .env
-data/energy_raw_*.json
-data/enriched_*.json
-logs/
-*.xlsx
-sets_capacity.json
-projects.json
-projects_data.js
 credentials.json
 token.json
+*.key
+
+# ── Datos locales (no van a GitHub Pages) ────────────────────
+output/
+references/
+logs/
+*.log
+
+# ── Scripts Python (solo sirven localmente) ───────────────────
+*.py
+extractor/
+scrapers/
+scripts/
+workflows/
+_archivo/
+
+# ── Archivos Excel y temporales ───────────────────────────────
+*.xlsx
+*.xls
+*.csv
+*.bak
+*.bak2
+*.tmp
+
+# ── Archivos de configuración local ──────────────────────────
+*.bat
+*.xml
+requirements.txt
+GUIA_OPERACION.md
+README.md
+
+# ── Lo que SÍ se incluye (excluir explícitamente del ignore) ─
+!index.html
+!projects.json
+!projects_data.js
+!logo.png
+!.nojekyll
+!.github/
+!.github/workflows/
+!.github/workflows/deploy.yml
+!adverse_forecast_data.js
+!forecast_data.js

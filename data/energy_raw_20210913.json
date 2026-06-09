@@ -1,0 +1,30 @@
+{
+  "fecha": "20210913",
+  "total": 2,
+  "items": [
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20210913-0",
+      "fecha": "20210913",
+      "departamento": "Consellería del Medio Rural",
+      "titulo": "ANUNCIO de notificación a titulares ilocalizables para recordarles el cumplimiento de la obligación de gestión de la biomasa vegetal y retirada de especies arbóreas en San Pedro de Visma.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20210913/AnuncioL130-230821-0002_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20210913-1",
+      "fecha": "20210913",
+      "departamento": "Consellería del Medio Rural",
+      "titulo": "ANUNCIO de 20 de agosto de 2021 de notificación de procedimiento de ejecución subsidiaria relativo a la gestión de la biomasa (expediente 1324/2020).",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20210913/AnuncioL243-230821-0001_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    }
+  ]
+}

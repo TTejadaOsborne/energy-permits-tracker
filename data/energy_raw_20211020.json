@@ -1,0 +1,30 @@
+{
+  "fecha": "20211020",
+  "total": 2,
+  "items": [
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20211020-0",
+      "fecha": "20211020",
+      "departamento": "Consellería del Mar",
+      "titulo": "ANUNCIO de 8 de septiembre de 2021, de notificación a titulares desconocidos del requerimiento para recordar el cumplimiento de la obligación de gestión de la biomasa vegetal y de retirada de especies arbóreas.",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211020/AnuncioL140-300921-0001_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20211020-1",
+      "fecha": "20211020",
+      "departamento": "Consellería del Mar",
+      "titulo": "ANUNCIO de exposición pública del expediente de la orden de ejecución para la gestión de la biomasa vegetal de parcelas de propietarios desconocidos o de propietarios a los que no se ha podido practicar la notificación (expediente 1084/2021).",
+      "url": "https://www.xunta.gal/dog/Publicados/2021/20211020/AnuncioL230-290921-0001_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    }
+  ]
+}

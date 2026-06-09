@@ -1,0 +1,42 @@
+{
+  "fecha": "20220111",
+  "total": 3,
+  "items": [
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20220111-0",
+      "fecha": "20220111",
+      "departamento": "Consellería del Mar",
+      "titulo": "ANUNCIO de requerimiento de gestión de la biomasa (expediente UME/2021/595).",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220111/AnuncioL131-211221-0002_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOG",
+      "ccaa": "Galicia",
+      "id": "DOG-20220111-1",
+      "fecha": "20220111",
+      "departamento": "Consellería del Mar",
+      "titulo": "ANUNCIO de requerimiento de gestión de la biomasa (expediente UME/2021/473).",
+      "url": "https://www.xunta.gal/dog/Publicados/2022/20220111/AnuncioL131-211221-0001_es.html",
+      "url_pdf": "",
+      "url_xml": "",
+      "texto": ""
+    },
+    {
+      "boletin": "DOE",
+      "ccaa": "Extremadura",
+      "id": "DOE-21064098",
+      "fecha": "20220111",
+      "departamento": "CONSEJERÍA PARA LA TRANSICIÓN ECOLÓGICA Y SOSTENIBILIDAD",
+      "titulo": "Energía solar.- Resolución de 23 de diciembre de 2021, de la Dirección General de Industria, Energía y Minas, por la que se modifica la Resolución de 8 de marzo de 2018, por la que se otorga autorización administrativa previa a la sociedad a Viproes Energética, SA, para la instalación fotovoltaica \"",
+      "url": "https://doe.juntaex.es/pdfs/doe/2022/60o/21064098.pdf",
+      "url_pdf": "https://doe.juntaex.es/pdfs/doe/2022/60o/21064098.pdf",
+      "url_xml": "",
+      "texto": ""
+    }
+  ]
+}
