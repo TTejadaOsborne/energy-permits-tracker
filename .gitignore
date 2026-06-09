@@ -15,7 +15,10 @@ token.json
 
 # ── Datos locales (no van a GitHub Pages) ────────────────────
 output/
+data/
 references/
+sets_capacity.json
+sets_history.json
 logs/
 *.log
 
