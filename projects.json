@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generado": "2026-06-08",
-  "total": 5504,
+  "generado": "2026-06-09",
+  "total": 5542,
   "proyectos": [
     {
       "id": "prj_07577",
@@ -32513,6 +32513,93 @@
       ]
     },
     {
+      "id": "prj_06559",
+      "nombre": "Instalación Solar Fotovoltaica Las Majas VII D",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XI, SLU",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 10.89,
+      "provincia": "Zaragoza",
+      "municipio": "Herrera de los Navarros",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "SET Las Majas VII 30/220 kV",
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2024-22418",
+        "BOE-A-2025-4497",
+        "BOE-A-2025-4499",
+        "BOE-A-2025-4500"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241030",
+      "fecha_ultima": "20250306",
+      "n_publicaciones": 4,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2024-22418",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22418",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII B, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con parque eólico Las Majas VII B existente (49,40 MW) para capacidad total de 60,29 MW. Infraestructura de evacuación mediante línea subterránea de media tensión 30 kV de 5.686 m compartida con otras tres plantas fotovoltaicas (Las Majas VII A, C y E). Conexión final a nudo Muniesa 400 kV ya existente. Superficie total 20,83 ha, ocupación de módulos 5,71 ha. Se sometió a información pública el 4 de septiembre de 2023 (BOE) y 7 de septiembre de 2023 (BOP Zaragoza)."
+        },
+        {
+          "id_boe": "BOE-A-2025-4497",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4497",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XII, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII C, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros y Villar de los Na",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto sometido a evaluación de impacto ambiental ordinaria con DIA favorable emitida el 18 de octubre de 2024. Se tramitó conforme al RD 1955/2000 y Ley 21/2013. Se recibió alegación de Enel Green Power España, SL respecto a falta de separata del proyecto. Incoado el 6 de noviembre de 2022, subsanado el 2 de febrero de 2023. Información pública publicada el 4 de septiembre de 2023 en BOE y 7 de septiembre de 2023 en BOPZ."
+        },
+        {
+          "id_boe": "BOE-A-2025-4499",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4499",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa V, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII D, de 24,25 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y sus infraestructuras de evacuación, en Moyuela y Azuara (Zaragoza).",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación de instalación solar fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW). La resolución otorga simultáneamente Autorización Administrativa Previa y Autorización Administrativa de Construcción. Se ha emitido Declaración de Impacto Ambiental favorable mediante Resolución de 18 de octubre de 2024. Durante la información pública se recibió alegación de Enel Green Power España, SL respecto a afecciones a su parque eólico Tico existente."
+        },
+        {
+          "id_boe": "BOE-A-2025-4500",
+          "fecha": "20250306",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4500",
+          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XI, SLU, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII B, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros (Zaragoza).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII B de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto tramitado conforme a RD 1955/2000 y Ley 21/2013. Se emitió Declaración de Impacto Ambiental favorable en Resolución de 18 de octubre de 2024. La información pública se realizó en BOE el 4 de septiembre de 2023 y en BOPZ el 7 de septiembre de 2023."
+        }
+      ]
+    },
+    {
       "id": "prj_08114",
       "nombre": "Instalación Solar Fotovoltaica Terrapower Global",
       "promotor": "Terrapower Global Energy, S.L",
@@ -47230,74 +47317,6 @@
       ]
     },
     {
-      "id": "prj_06518",
-      "nombre": "Planta Solar Fotovoltaica Envatios XXIV-Fase III",
-      "promotor": "Envatios Promoción XXIV, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 70.8,
-      "provincia": "Madrid",
-      "municipio": "Torres de la Alameda",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "SET Envatios XXIV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2023-15449",
-        "BOE-A-2025-1119"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "OcupacionUP",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230703",
-      "fecha_ultima": "20250226",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-15449",
-          "fecha": "20230703",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15449",
-          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa. La instalación fotovoltaica tiene una potencia de 70,80 MW (proyecto actualizado de 78 MWp inicial). Se tramitó conjuntamente con otros proyectos del complejo Envatios XXIV, posteriormente desacumulados. Se recibió oposición de la Subdirección General de Energía y Minas de Madrid por afección a cuadrícula minera Testudo I Fracción I Sección C número 2926-011. El promotor argumentó la prevalencia de utilidad pública de sus instalaciones. Se recibió oposición del Ayuntamiento de Mejorada del Campo (información incompleta en el texto suministrado)."
-        },
-        {
-          "id_boe": "BOE-A-2025-1119",
-          "fecha": "20250122",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1119",
-          "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga conjuntamente autorización administrativa previa (modificación), autorización administrativa de construcción y tramitación de declaración de utilidad pública. El proyecto requirió soterramiento de líneas de evacuación de 30kV para eliminar afecciones medioambientales. Planta solar fotovoltaica con infraestructura de evacuación asociada. La potencia inicial solicitada fue de 78 MWp, reducida finalmente a 70,80 MW."
-        },
-        {
-          "id_boe": "BOCM-20250226-45",
-          "fecha": "20250226",
-          "boletin": "BOCM",
-          "tipo_permiso": "OcupacionUP",
-          "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20250226-45",
-          "titulo": "Resolución de 7 de febrero de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana, en el término municipal de Torres de la Alameda, para la instalación del proyecto planta solar fotovoltaica Envatios XXIV-fase III de 70,8 MW de potencia instalada, y su infraestructura de evacuación, actuación promovida por Envatios Promoción XXIV, S. L.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana. El proyecto incluye la planta solar fotovoltaica de 70,8 MW y su infraestructura de evacuación. Se abre período de información pública de un mes desde la publicación en BOCM."
-        }
-      ]
-    },
-    {
       "id": "prj_05415",
       "nombre": "Parque Fotovoltaico Villaquirán",
       "promotor": "Kolsan Diseño Creativo, S.L.",
@@ -53358,74 +53377,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Ampliación de subestación existente mediante adición de una nueva posición. Autorización conjunta de AAP y AAC otorgada por la Dirección General de Política Energética y Minas."
-        }
-      ]
-    },
-    {
-      "id": "prj_06440",
-      "nombre": "Ampliación Subestación ST Cisneros 132/20 kV Fase II",
-      "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
-      "tecnologia": "SET",
-      "potencia_mw": null,
-      "provincia": "Madrid",
-      "municipio": "Alcalá de Henares",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "ST Cisneros",
-      "tension_kv": 132,
-      "expedientes": [
-        "2021P279 - 14-0141-00279.1/2021",
-        "2023P680 - 14-0141-00680.0/2023",
-        "2023P680-ISE275"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCM",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241112",
-      "fecha_ultima": "20250613",
-      "n_publicaciones": 3,
-      "publicaciones": [
-        {
-          "id_boe": "BOCM-20241112-56",
-          "fecha": "20241112",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://www.bocm.es/bocm-20241112-56",
-          "titulo": "Resolución de 21 de octubre de 2024, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST Cisneros 132/20 kV (Fase II) en avenida Punto Com, número 23, en el término municipal de Alcalá De Henares, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Ampliación de subestación transformadora 132/20 kV. Incluye nuevo autotransformador 220/132 kV de 225 MVA y transformador 220/20 kV de 50 MVA. Subestación ubicada en avenida Punto Com, número 23, Alcalá de Henares. Presupuesto total: 4.368.079,04 euros. Período de información pública de un mes a partir del día siguiente a la publicación en BOCM."
-        },
-        {
-          "id_boe": "BOCM-20250205-52",
-          "fecha": "20250205",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://www.bocm.es/bocm-20250205-52",
-          "titulo": "Resolución de 20 de diciembre de 2024, de la Dirección General de Transición Energética y Economía Circular sobre autorización administrativa y aprobación del proyecto para la instalación de la subestación ST Cisneros 132/20 kV ubicada en Avda. Punto Com, número 23 en el término municipal de Alcalá de Henares, solicitado por I-DE Redes Eléctricas Inteligentes, S. A. U. Número expediente: 2021P279 - 14-0141-00279.1/2021",
-          "permisos_adicionales": [
-            "IP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Subestación de distribución 132/20 kV ubicada en Avda. Punto Com, número 23. Resolución de autorización administrativa y aprobación del proyecto. El proyecto queda supeditado a la autorización definitiva del Plan Especial de Infraestructuras según informe del Ayuntamiento de Alcalá de Henares. No fue necesaria la tramitación de evaluación de impacto ambiental según resolución de 13 de julio de 2022."
-        },
-        {
-          "id_boe": "BOCM-20250613-44",
-          "fecha": "20250613",
-          "boletin": "BOCM",
-          "tipo_permiso": "AAP",
-          "estado": "otorgado",
-          "url": "https://www.bocm.es/bocm-20250613-44",
-          "titulo": "Resolución de 29 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST Cisneros 132/20 kV (Fase II) ubicada en avenida Punto Com, número 23, en el término municipal de Alcalá de Henares, solicitado por I-DE Redes Eléctricas Inteligentes, S. A. U. (Número expediente: 2023P680 - 14-0141-00680.0/2023)",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de ampliación de subestación de transformación 132/20 kV (Fase II). Ubicado en avenida Punto Com, número 23. Sujeto a aprobación del Plan Especial de Infraestructuras de Alcalá de Henares, aprobado definitivamente el 10 de enero de 2025. Sometido a información pública mediante Resolución de 21 de octubre de 2024. Proyecto de ejecución firmado por Javier García Villar (COII-CV 7598)."
         }
       ]
     },
@@ -81046,6 +80997,112 @@
       ]
     },
     {
+      "id": "prj_05877",
+      "nombre": "Instalación Fotovoltaica Envatios XXIV-Fase II",
+      "promotor": "Envatios Promoción XXIV, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 82.6,
+      "provincia": "Madrid",
+      "municipio": "Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches, Velilla de San Antonio",
+      "comunidad_autonoma": "Comunidad de Madrid",
+      "subestacion": "SET Envatios XXIV",
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2023-15448",
+        "BOE-A-2024-19793"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230703",
+      "fecha_ultima": "20241001",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2023-15448",
+          "fecha": "20230703",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15448",
+          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real y Arganda del Rey y Loeches (Madrid).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa por la Dirección General de Política Energética y Minas. Proyecto incluye infraestructura de evacuación: líneas subterráneas 30 kV, subestación 30/220 kV y línea aérea 220 kV. Tramitación bajo RD 1955/2000 y Ley 21/2013. Proyecto afecta a cuadrículas mineras (Morata II). Se han recibido condicionantes de varios organismos (confederación hidrográfica, ayuntamientos, ADIF, etc.) que han sido aceptados por el promotor."
+        },
+        {
+          "id_boe": "BOE-A-2024-19793",
+          "fecha": "20241001",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19793",
+          "titulo": "Resolución de 19 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches y Velilla de San Antonio (Comunidad de Madrid) y se declara, en concreto,",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga AAP y AAC para la instalación fotovoltaica Envatios XXIV-Fase II. El proyecto fue modificado respecto a la AAP anterior (Resolución de 21 de junio de 2023): se redujo potencia de 91 MWp a 82,6 MW, se modificaron municipios afectados (se agregó Velilla de San Antonio), se restringió la ubicación de paneles en Valdilecha (solo zonas 1 y 2), y se soterró la línea de evacuación de 30kV en Valdilecha hacia la SET Envatios XXIV. Se cuenta con DIA favorable de 21 de marzo de 2023. El proyecto cumple condicionantes de Red Eléctrica, distribuidoras, Adif, AESA, Canal de Isabel II, Defensa y Telefónica. Se requiere gestión adicional respecto a derechos mineros 'Cancún FR:I' titularidad de TICO SA."
+        }
+      ]
+    },
+    {
+      "id": "prj_06518",
+      "nombre": "Planta Solar Fotovoltaica Envatios XXIV-Fase III",
+      "promotor": "Envatios Promoción XXIV, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 70.8,
+      "provincia": "Madrid",
+      "municipio": "Torres de la Alameda",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "Envatios XXIV Fase II 30/220 kV",
+      "tension_kv": 220,
+      "expedientes": [
+        "BOE-A-2023-15449"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "OcupacionUP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20230703",
+      "fecha_ultima": "20250226",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2023-15449",
+          "fecha": "20230703",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15449",
+          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa. La instalación fotovoltaica tiene una potencia de 70,80 MW (proyecto actualizado de 78 MWp inicial). Se tramitó conjuntamente con otros proyectos del complejo Envatios XXIV, posteriormente desacumulados. Se recibió oposición de la Subdirección General de Energía y Minas de Madrid por afección a cuadrícula minera Testudo I Fracción I Sección C número 2926-011. El promotor argumentó la prevalencia de utilidad pública de sus instalaciones. Se recibió oposición del Ayuntamiento de Mejorada del Campo (información incompleta en el texto suministrado)."
+        },
+        {
+          "id_boe": "BOCM-20250226-45",
+          "fecha": "20250226",
+          "boletin": "BOCM",
+          "tipo_permiso": "OcupacionUP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20250226-45",
+          "titulo": "Resolución de 7 de febrero de 2025, del Director General de Agricultura, Ganadería y Alimentación, por la que se anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana, en el término municipal de Torres de la Alameda, para la instalación del proyecto planta solar fotovoltaica Envatios XXIV-fase III de 70,8 MW de potencia instalada, y su infraestructura de evacuación, actuación promovida por Envatios Promoción XXIV, S. L.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana. El proyecto incluye la planta solar fotovoltaica de 70,8 MW y su infraestructura de evacuación. Se abre período de información pública de un mes desde la publicación en BOCM."
+        }
+      ]
+    },
+    {
       "id": "prj_06176",
       "nombre": "Parque Solar Fotovoltaico La Vega",
       "promotor": "Desarrollos Renovables Biznaga, SL",
@@ -89013,58 +89070,6 @@
       ]
     },
     {
-      "id": "prj_05651",
-      "nombre": "Parque Fotovoltaico Hinojosa de Duero I y II",
-      "promotor": "Inverhinojosa, S.L. y Abadengo Fotovoltaica, S.L.",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 5.041,
-      "provincia": "Salamanca",
-      "municipio": "Lumbrales",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "SMR (Nueva Subestación de Maniobra)",
-      "tension_kv": 45,
-      "expedientes": [
-        "EIAS/2024/SA/018",
-        "RI-19.381 / RI-19.833"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "DIA",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20240327",
-      "fecha_ultima": "20240812",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-27032024-31",
-          "fecha": "20240327",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2024/03/27/html/BOCYL-D-27032024-31.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de las instalaciones fotovoltaicas de producción de energía eléctrica denominadas «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», ambas en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 y RI-19.833.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Se tramitan simultáneamente dos instalaciones fotovoltaicas: FV Hinojosa de Duero (3 MW, expediente RI-19.381 ATCE 45) y FV Hinojosa de Duero II (2.041 MW, expediente RI-19.833 ATCE 46), ambas conectadas a nueva SMR en línea Saucelle-Enusa 45 kV desde apoyo nº89. Ambas con estructura fija, líneas subterráneas de evacuación. Plazo para resolver: 6 meses. Silencio administrativo desestimatorio."
-        },
-        {
-          "id_boe": "BOCYL-D-12082024-20",
-          "fecha": "20240812",
-          "boletin": "BOCyL",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://bocyl.jcyl.es/html/2024/08/12/html/BOCYL-D-12082024-20.do",
-          "titulo": "RESOLUCIÓN de 5 de agosto de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de instalación solar fotovoltaica conectada a red «FV Hinojosa de Duero I» y «FV Hinojosa de Duero II», e instalaciones de evacuación, promovida por «Inverhinojosa, S.L.» y «Abadengo Fotovoltaica, S.L.», en el término municipal de Lumbrales (Salamanca). Expte.: EIAS/2024/SA/018.",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto compuesto por dos instalaciones fotovoltaicas: FV Hinojosa I (3 MW, 7,33 ha) y FV Hinojosa II (2,041 MW, 6,23 ha). Incluye instalaciones de evacuación y conexión a red. Se dicta Informe de Impacto Ambiental sin efectos adversos significativos sobre el medio ambiente."
-        }
-      ]
-    },
-    {
       "id": "prj_05135",
       "nombre": "Línea de Evacuación Planta Solar Fotovoltaica Huelva",
       "promotor": null,
@@ -95199,61 +95204,6 @@
       ]
     },
     {
-      "id": "prj_06559",
-      "nombre": "Instalación Solar Fotovoltaica Las Majas VII B",
-      "promotor": "Fuerzas Energéticas del Sur de Europa XI, SLU",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 10.89,
-      "provincia": "Zaragoza",
-      "municipio": "Herrera de los Navarros",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII 30/220 kV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-22418",
-        "BOE-A-2025-4500"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20250306",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22418",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22418",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII B, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con parque eólico Las Majas VII B existente (49,40 MW) para capacidad total de 60,29 MW. Infraestructura de evacuación mediante línea subterránea de media tensión 30 kV de 5.686 m compartida con otras tres plantas fotovoltaicas (Las Majas VII A, C y E). Conexión final a nudo Muniesa 400 kV ya existente. Superficie total 20,83 ha, ocupación de módulos 5,71 ha. Se sometió a información pública el 4 de septiembre de 2023 (BOE) y 7 de septiembre de 2023 (BOP Zaragoza)."
-        },
-        {
-          "id_boe": "BOE-A-2025-4500",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4500",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XI, SLU, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII B, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII B, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros (Zaragoza).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII B de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto tramitado conforme a RD 1955/2000 y Ley 21/2013. Se emitió Declaración de Impacto Ambiental favorable en Resolución de 18 de octubre de 2024. La información pública se realizó en BOE el 4 de septiembre de 2023 y en BOPZ el 7 de septiembre de 2023."
-        }
-      ]
-    },
-    {
       "id": "prj_06557",
       "nombre": "Instalación Solar Fotovoltaica Las Majas VII A",
       "promotor": "Desarrollo Eólico Las Majas VII, SL",
@@ -95307,120 +95257,6 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación solar fotovoltaica hibridada con parque eólico existente Las Majas VII A de 49,40 MW. Resolución otorga AAP y AAC simultáneamente. Se sometió a DIA ordinaria con Resolución de 18 de octubre de 2024. Se recibió alegación de Enel Green Power España, SL relativa al parque eólico Tico afectado. Se tramitó conforme a RD 1955/2000 y Ley 21/2013. Documentación aportada incluye EsIA y sometimiento a información pública."
-        }
-      ]
-    },
-    {
-      "id": "prj_06556",
-      "nombre": "Planta Fotovoltaica Las Majas VII C",
-      "promotor": "Fuerzas Energéticas del Sur de Europa XII, SL",
-      "tecnologia": "FV+BESS",
-      "potencia_mw": 10.89,
-      "provincia": "Zaragoza",
-      "municipio": "Herrera de los Navarros, Villar de los Navarros",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII 30/220 kV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-22420",
-        "BOE-A-2025-4497"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20250306",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22420",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22420",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII C, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Planta fotovoltaica de 10,89 MWn / 12,15 MWp. Capacidad híbrida total: 60,29 MW. Infraestructura de evacuación mediante línea subterránea 30 kV de 6.360 m compartida con otras plantas fotovoltaicas próximas (Las Majas VII A, VII B y VII E). Conexión final a nudo Muniesa 400 kV de REE. Superficie total: 22,23 ha (5,71 ha ocupadas por módulos). 24.300 módulos monocristalinos de 500 Wp. Procedimiento incluye información pública y consultas a administraciones."
-        },
-        {
-          "id_boe": "BOE-A-2025-4497",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4497",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa XII, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII C, de 10,89 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y sus infraestructuras de evacuación, en Herrera de los Navarros y Villar de los Na",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación solar fotovoltaica de 10,89 MW para hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Incluye infraestructuras de evacuación. Proyecto sometido a evaluación de impacto ambiental ordinaria con DIA favorable emitida el 18 de octubre de 2024. Se tramitó conforme al RD 1955/2000 y Ley 21/2013. Se recibió alegación de Enel Green Power España, SL respecto a falta de separata del proyecto. Incoado el 6 de noviembre de 2022, subsanado el 2 de febrero de 2023. Información pública publicada el 4 de septiembre de 2023 en BOE y 7 de septiembre de 2023 en BOPZ."
-        }
-      ]
-    },
-    {
-      "id": "prj_06558",
-      "nombre": "Instalación Solar Fotovoltaica Las Majas VII D",
-      "promotor": "Fuerzas Energéticas del Sur de Europa V, SL",
-      "tecnologia": "FV+BESS",
-      "potencia_mw": 24.25,
-      "provincia": "Zaragoza",
-      "municipio": "Moyuela y Azuara",
-      "comunidad_autonoma": "Aragón",
-      "subestacion": "SET Las Majas VII D 30/220 kV",
-      "tension_kv": 220,
-      "expedientes": [
-        "BOE-A-2024-22421",
-        "BOE-A-2025-4499"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241030",
-      "fecha_ultima": "20250306",
-      "n_publicaciones": 2,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-22421",
-          "fecha": "20241030",
-          "boletin": "BOE",
-          "tipo_permiso": "DIA",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22421",
-          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII D, de 24,25 MW, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
-          "permisos_adicionales": [
-            "AAP",
-            "AAC"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación de planta fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW), sumando 73,65 MW. Incluye ampliación y modificación de la subestación colectora SET Las Majas VII D 30/220 kV. Superficie total: 46,64 ha. La resolución es una Declaración de Impacto Ambiental favorable emitida por la Dirección General de Calidad y Evaluación Ambiental."
-        },
-        {
-          "id_boe": "BOE-A-2025-4499",
-          "fecha": "20250306",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4499",
-          "titulo": "Resolución de 19 de febrero de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Fuerzas Energéticas del Sur de Europa V, SL, autorización administrativa previa y autorización administrativa de construcción, para la instalación solar fotovoltaica Las Majas VII D, de 24,25 MW de potencia instalada, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y sus infraestructuras de evacuación, en Moyuela y Azuara (Zaragoza).",
-          "permisos_adicionales": [
-            "DIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Proyecto de hibridación de instalación solar fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW). La resolución otorga simultáneamente Autorización Administrativa Previa y Autorización Administrativa de Construcción. Se ha emitido Declaración de Impacto Ambiental favorable mediante Resolución de 18 de octubre de 2024. Durante la información pública se recibió alegación de Enel Green Power España, SL respecto a afecciones a su parque eólico Tico existente."
         }
       ]
     },
@@ -95745,6 +95581,58 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Proyecto de ejecución de subestación transformadora ubicada en Plan Parcial El Juncal, parcela D1. Se tramitó información pública mediante Resolución de 23 de septiembre de 2024. Informe ambiental favorable de no necesidad de evaluación ambiental (SEA 9.16/24). Informe favorable de la Dirección General de Política Energética y Minas conforme a artículos 35.2 de la Ley 24/2013, 114 del RD 1955/2000 y 16.1.a) de Circular 5/2019. Condicionantes de Madrileña Red de Gas aceptados por Red Eléctrica de España."
+        }
+      ]
+    },
+    {
+      "id": "prj_07134",
+      "nombre": "Ampliación Subestación ST Cisneros 132/20 kV Fase II",
+      "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+      "tecnologia": "SET",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Alcalá de Henares",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST Cisneros",
+      "tension_kv": 132,
+      "expedientes": [
+        "2023P680 - 14-0141-00680.0/2023",
+        "2023P680-ISE275"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241112",
+      "fecha_ultima": "20250613",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20241112-56",
+          "fecha": "20241112",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20241112-56",
+          "titulo": "Resolución de 21 de octubre de 2024, de la Dirección General de Transición Energética y Economía Circular, por la que se somete a información pública la petición de autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST Cisneros 132/20 kV (Fase II) en avenida Punto Com, número 23, en el término municipal de Alcalá De Henares, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Ampliación de subestación transformadora 132/20 kV. Incluye nuevo autotransformador 220/132 kV de 225 MVA y transformador 220/20 kV de 50 MVA. Subestación ubicada en avenida Punto Com, número 23, Alcalá de Henares. Presupuesto total: 4.368.079,04 euros. Período de información pública de un mes a partir del día siguiente a la publicación en BOCM."
+        },
+        {
+          "id_boe": "BOCM-20250613-44",
+          "fecha": "20250613",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://www.bocm.es/bocm-20250613-44",
+          "titulo": "Resolución de 29 de abril de 2025, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa y aprobación del proyecto para la ampliación de la subestación ST Cisneros 132/20 kV (Fase II) ubicada en avenida Punto Com, número 23, en el término municipal de Alcalá de Henares, solicitado por I-DE Redes Eléctricas Inteligentes, S. A. U. (Número expediente: 2023P680 - 14-0141-00680.0/2023)",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de ampliación de subestación de transformación 132/20 kV (Fase II). Ubicado en avenida Punto Com, número 23. Sujeto a aprobación del Plan Especial de Infraestructuras de Alcalá de Henares, aprobado definitivamente el 10 de enero de 2025. Sometido a información pública mediante Resolución de 21 de octubre de 2024. Proyecto de ejecución firmado por Javier García Villar (COII-CV 7598)."
         }
       ]
     },
@@ -102879,6 +102767,60 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Declaración de Impacto Ambiental favorable publicada por la Dirección General de Calidad Ambiental y Sostenibilidad. Disponible en https://cmatv.xunta.gal/resolucions-da-avaliacion-ambiental-de-proxectos"
+        }
+      ]
+    },
+    {
+      "id": "prj_08481",
+      "nombre": "FV Pendón",
+      "promotor": "Utusol Epsilon, S.L.U.",
+      "tecnologia": "FV+BESS",
+      "potencia_mw": 4.39,
+      "provincia": "Valladolid",
+      "municipio": "Valladolid y Zaratán",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "Subestación Valladolid",
+      "tension_kv": 13.2,
+      "expedientes": [
+        "FV-2678-ALM ATCE-183"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20251229",
+      "fecha_ultima": "20260605",
+      "n_publicaciones": 2,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-29122025-34",
+          "fecha": "20251229",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2025/12/29/html/BOCYL-D-29122025-34.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica con hibridación para almacenamiento por baterías denominada «FV Pendon» conectada a la red de distribución, en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2678-ALM ATCE-183.",
+          "permisos_adicionales": [
+            "AAC",
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Instalación fotovoltaica de 6,26 MWp / 4 MW con almacenamiento en baterías de ion-litio (capacidad 16 MWh). Incluye línea subterránea de evacuación de 13,2 kV. Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Información pública por 20 días hábiles desde publicación. Requiere evaluación de impacto ambiental simplificada."
+        },
+        {
+          "id_boe": "BOCYL-D-05062026-107-18",
+          "fecha": "20260605",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2026/06/05/html/BOCYL-D-05062026-107-18.do",
+          "titulo": "RESOLUCIÓN de 10 de abril de 2026, del Servicio Territorial de Industria, Comercio y Economía de Valladolid, relativa a la autorización administrativa previa de las instalaciones de producción de energía eléctrica, mediante tecnología fotovoltaica e hibridada con almacenamiento en baterías denominada «FV Pendon», en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2678-ALM ATCE-183.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución de autorización administrativa previa e implícitamente de construcción. Proyecto inicialmente denominado 'FV Valdecarros' (expediente FV-2678 ATCE-183 de 31/10/2023), modificado posteriormente a 'FV Pendon' con cambio de titular y ubicación (26/04/2024). Ampliación de 29/10/2025 incluye solicitud de almacenamiento mediante baterías (hibridación). Sometido a información pública el 29/12/2025 por 20 días hábiles. Informe de viabilidad ambiental emitido el 14/10/2025. Evaluación de impacto ambiental simplificada tramitada; competencia asumida por Delegación Territorial de Valladolid mediante Orden de 9/12/2025. Consejo de Medio Ambiente, Urbanismo y Ordenación del Territorio de Castilla y León formulará propuesta de Informe de Impacto Ambiental."
         }
       ]
     },
@@ -160442,44 +160384,6 @@
       ]
     },
     {
-      "id": "prj_03597",
-      "nombre": "Instalación Fotovoltaica Envatios XXIV-Fase II",
-      "promotor": "Envatios Promoción XXIV, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 82.6,
-      "provincia": "Madrid",
-      "municipio": "Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches",
-      "comunidad_autonoma": "Madrid",
-      "subestacion": "SET Envatios XXIV",
-      "tension_kv": 220,
-      "expedientes": [
-        "BOE-A-2023-15448"
-      ],
-      "estado_actual": "favorable",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20230703",
-      "fecha_ultima": "20230703",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2023-15448",
-          "fecha": "20230703",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP",
-          "estado": "favorable",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15448",
-          "titulo": "Resolución de 21 de junio de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real y Arganda del Rey y Loeches (Madrid).",
-          "permisos_adicionales": [],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución de otorgamiento de Autorización Administrativa Previa por la Dirección General de Política Energética y Minas. Proyecto incluye infraestructura de evacuación: líneas subterráneas 30 kV, subestación 30/220 kV y línea aérea 220 kV. Tramitación bajo RD 1955/2000 y Ley 21/2013. Proyecto afecta a cuadrículas mineras (Morata II). Se han recibido condicionantes de varios organismos (confederación hidrográfica, ayuntamientos, ADIF, etc.) que han sido aceptados por el promotor."
-        }
-      ]
-    },
-    {
       "id": "prj_03600",
       "nombre": "Infraestructuras de Evacuación FV Villameca Solar y FV Aquari Site",
       "promotor": "Planta FV 127, S.L.",
@@ -183696,6 +183600,44 @@
       ]
     },
     {
+      "id": "prj_04975",
+      "nombre": "FV Hinojosa de Duero I y II",
+      "promotor": "Inverhinojosa S.L. / Abadengo Fotovoltaica S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 5.041,
+      "provincia": "Salamanca",
+      "municipio": "Lumbrales",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": "SMR (Nueva Subestación de Maniobra)",
+      "tension_kv": 45,
+      "expedientes": [
+        "RI-19.381 / RI-19.833"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240327",
+      "fecha_ultima": "20240327",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-27032024-31",
+          "fecha": "20240327",
+          "boletin": "BOCyL",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://bocyl.jcyl.es/html/2024/03/27/html/BOCYL-D-27032024-31.do",
+          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de las instalaciones fotovoltaicas de producción de energía eléctrica denominadas «FV Hinojosa de Duero» y «FV Hinojosa de Duero II», ambas en el término municipal de Lumbrales (Salamanca). Exptes.: RI-19.381 y RI-19.833.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Se tramitan simultáneamente dos instalaciones fotovoltaicas: FV Hinojosa de Duero (3 MW, expediente RI-19.381 ATCE 45) y FV Hinojosa de Duero II (2.041 MW, expediente RI-19.833 ATCE 46), ambas conectadas a nueva SMR en línea Saucelle-Enusa 45 kV desde apoyo nº89. Ambas con estructura fija, líneas subterráneas de evacuación. Plazo para resolver: 6 meses. Silencio administrativo desestimatorio."
+        }
+      ]
+    },
+    {
       "id": "prj_04979",
       "nombre": "Parque Eólico Valdescorriel",
       "promotor": "Fuentes del Cea, S.L.",
@@ -194590,6 +194532,44 @@
       ]
     },
     {
+      "id": "prj_05651",
+      "nombre": "Parque Fotovoltaico Hinojosa de Duero I y II",
+      "promotor": "Inverhinojosa, S.L. y Abadengo Fotovoltaica, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 5.041,
+      "provincia": "Salamanca",
+      "municipio": "Lumbrales",
+      "comunidad_autonoma": "Castilla y León",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "EIAS/2024/SA/018"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOCyL",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20240812",
+      "fecha_ultima": "20240812",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCYL-D-12082024-20",
+          "fecha": "20240812",
+          "boletin": "BOCyL",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://bocyl.jcyl.es/html/2024/08/12/html/BOCYL-D-12082024-20.do",
+          "titulo": "RESOLUCIÓN de 5 de agosto de 2024, de la Delegación Territorial de Salamanca, por la que se dicta el informe de impacto ambiental del proyecto de instalación solar fotovoltaica conectada a red «FV Hinojosa de Duero I» y «FV Hinojosa de Duero II», e instalaciones de evacuación, promovida por «Inverhinojosa, S.L.» y «Abadengo Fotovoltaica, S.L.», en el término municipal de Lumbrales (Salamanca). Expte.: EIAS/2024/SA/018.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto compuesto por dos instalaciones fotovoltaicas: FV Hinojosa I (3 MW, 7,33 ha) y FV Hinojosa II (2,041 MW, 6,23 ha). Incluye instalaciones de evacuación y conexión a red. Se dicta Informe de Impacto Ambiental sin efectos adversos significativos sobre el medio ambiente."
+        }
+      ]
+    },
+    {
       "id": "prj_05652",
       "nombre": "Línea Subterránea Media Tensión Milagros - Planta Biometano",
       "promotor": "Iberdrola Clientes, S.A.U.",
@@ -198655,47 +198635,6 @@
       ]
     },
     {
-      "id": "prj_05877",
-      "nombre": "Envatios XXIV-Fase II",
-      "promotor": "Envatios Promoción XXIV, SL",
-      "tecnologia": "Fotovoltaica",
-      "potencia_mw": 82.6,
-      "provincia": "Madrid",
-      "municipio": "Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches, Velilla de San Antonio",
-      "comunidad_autonoma": "Comunidad de Madrid",
-      "subestacion": "SET Envatios XXIV",
-      "tension_kv": 30,
-      "expedientes": [
-        "BOE-A-2024-19793"
-      ],
-      "estado_actual": "otorgado",
-      "ultimo_tipo_permiso": "AAP_AAC",
-      "ultimo_boletin": "BOE",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20241001",
-      "fecha_ultima": "20241001",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOE-A-2024-19793",
-          "fecha": "20241001",
-          "boletin": "BOE",
-          "tipo_permiso": "AAP_AAC",
-          "estado": "otorgado",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19793",
-          "titulo": "Resolución de 19 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase II, de 82,6 MW de potencia instalada, y su infraestructura de evacuación, en Valdilecha, Mejorada del Campo, Campo Real, Arganda del Rey, Loeches y Velilla de San Antonio (Comunidad de Madrid) y se declara, en concreto,",
-          "permisos_adicionales": [
-            "DUP",
-            "ModAAP"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Resolución que otorga AAP y AAC para la instalación fotovoltaica Envatios XXIV-Fase II. El proyecto fue modificado respecto a la AAP anterior (Resolución de 21 de junio de 2023): se redujo potencia de 91 MWp a 82,6 MW, se modificaron municipios afectados (se agregó Velilla de San Antonio), se restringió la ubicación de paneles en Valdilecha (solo zonas 1 y 2), y se soterró la línea de evacuación de 30kV en Valdilecha hacia la SET Envatios XXIV. Se cuenta con DIA favorable de 21 de marzo de 2023. El proyecto cumple condicionantes de Red Eléctrica, distribuidoras, Adif, AESA, Canal de Isabel II, Defensa y Telefónica. Se requiere gestión adicional respecto a derechos mineros 'Cancún FR:I' titularidad de TICO SA."
-        }
-      ]
-    },
-    {
       "id": "prj_05880",
       "nombre": "Instalación Solar Fotovoltaica con Almacenamiento Mora",
       "promotor": null,
@@ -200884,6 +200823,88 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Parque eólico de 16 aerogeneradores de 6 MW cada uno. Infraestructura de evacuación compartida parcialmente con el parque eólico Tórtoles. La línea de evacuación comprende 71.205 m de longitud con tramos aéreos y soterrados de 30 kV y 132 kV, elevando a 220 kV para conexión a la red de REE. Centro de medida ubicado a 500 m de la subestación Villímar de Red Eléctrica de España."
+        }
+      ]
+    },
+    {
+      "id": "prj_06005",
+      "nombre": "Planta Fotovoltaica Las Majas VII C",
+      "promotor": "Fuerzas Energéticas del Sur de Europa XII, SL (grupo REPSOL)",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 10.89,
+      "provincia": "Zaragoza",
+      "municipio": "Herrera de los Navarros, Villar de los Navarros",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "SET Las Majas VII 30/220 kV",
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2024-22420"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241030",
+      "fecha_ultima": "20241030",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2024-22420",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22420",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII C, de 10,89 MW, para su hibridación con el parque eólico existente Las Majas VII C, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación con parque eólico existente Las Majas VII C de 49,40 MW. Planta fotovoltaica de 10,89 MWn / 12,15 MWp. Capacidad híbrida total: 60,29 MW. Infraestructura de evacuación mediante línea subterránea 30 kV de 6.360 m compartida con otras plantas fotovoltaicas próximas (Las Majas VII A, VII B y VII E). Conexión final a nudo Muniesa 400 kV de REE. Superficie total: 22,23 ha (5,71 ha ocupadas por módulos). 24.300 módulos monocristalinos de 500 Wp. Procedimiento incluye información pública y consultas a administraciones."
+        }
+      ]
+    },
+    {
+      "id": "prj_06006",
+      "nombre": "Planta Fotovoltaica Las Majas VII D",
+      "promotor": "Fuerzas Energéticas del Sur de Europa V, SL (grupo REPSOL)",
+      "tecnologia": "FV+BESS",
+      "potencia_mw": 24.25,
+      "provincia": "Zaragoza",
+      "municipio": "Moyuela, Azuara",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "SET Las Majas VII D 30/220 kV",
+      "tension_kv": 220,
+      "expedientes": [
+        "BOE-A-2024-22421"
+      ],
+      "estado_actual": "favorable",
+      "ultimo_tipo_permiso": "DIA",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20241030",
+      "fecha_ultima": "20241030",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2024-22421",
+          "fecha": "20241030",
+          "boletin": "BOE",
+          "tipo_permiso": "DIA",
+          "estado": "favorable",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22421",
+          "titulo": "Resolución de 18 de octubre de 2024, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Planta fotovoltaica Las Majas VII D, de 24,25 MW, para su hibridación con el parque eólico existente Las Majas VII D, de 49,40 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de hibridación de planta fotovoltaica (24,25 MW) con parque eólico existente Las Majas VII D (49,40 MW), sumando 73,65 MW. Incluye ampliación y modificación de la subestación colectora SET Las Majas VII D 30/220 kV. Superficie total: 46,64 ha. La resolución es una Declaración de Impacto Ambiental favorable emitida por la Dirección General de Calidad y Evaluación Ambiental."
         }
       ]
     },
@@ -208497,6 +208518,47 @@
       ]
     },
     {
+      "id": "prj_06380",
+      "nombre": "Envatios XXIV-Fase III",
+      "promotor": "Envatios Promoción XXIV, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 70.8,
+      "provincia": "Madrid",
+      "municipio": "Torres de la Alameda, San Fernando de Henares, Loeches, Mejorada del Campo",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "SET Envatios XXIV",
+      "tension_kv": 30,
+      "expedientes": [
+        "BOE-A-2025-1119"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250122",
+      "fecha_ultima": "20250122",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2025-1119",
+          "fecha": "20250122",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1119",
+          "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Política Energética y Minas, por la que se otorga a Envatios Promoción XXIV, SL, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica Envatios XXIV-Fase III, de 70,80 MW de potencia instalada, y su infraestructura de evacuación, en Torres de la Alameda, San Fernando de Henares, Loeches y Mejorada del Campo (Madrid).",
+          "permisos_adicionales": [
+            "DUP",
+            "ModAAP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga conjuntamente autorización administrativa previa (modificación), autorización administrativa de construcción y tramitación de declaración de utilidad pública. El proyecto requirió soterramiento de líneas de evacuación de 30kV para eliminar afecciones medioambientales. Planta solar fotovoltaica con infraestructura de evacuación asociada. La potencia inicial solicitada fue de 78 MWp, reducida finalmente a 70,80 MW."
+        }
+      ]
+    },
+    {
       "id": "prj_06383",
       "nombre": "LAT Subterránea AENA-Hortaleza/Hortaleza-San Sebastián de los Reyes",
       "promotor": "Red Eléctrica de España, S.A.U.",
@@ -209502,6 +209564,46 @@
           "es_fallido": false,
           "mw_liberados": null,
           "observaciones": "Instalación solar fotovoltaica con infraestructuras auxiliares y de evacuación. La solicitud fue sometida a información pública en DOCM 100 de 25/05/2023. Resolución de autorización administrativa previa otorgada por la Dirección General de Transición Energética de Castilla-La Mancha."
+        }
+      ]
+    },
+    {
+      "id": "prj_06440",
+      "nombre": "Subestación Cisneros 132/20 kV",
+      "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+      "tecnologia": "SET",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Alcalá de Henares",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": "ST Cisneros",
+      "tension_kv": 132,
+      "expedientes": [
+        "2021P279 - 14-0141-00279.1/2021"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20250205",
+      "fecha_ultima": "20250205",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20250205-52",
+          "fecha": "20250205",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://www.bocm.es/bocm-20250205-52",
+          "titulo": "Resolución de 20 de diciembre de 2024, de la Dirección General de Transición Energética y Economía Circular sobre autorización administrativa y aprobación del proyecto para la instalación de la subestación ST Cisneros 132/20 kV ubicada en Avda. Punto Com, número 23 en el término municipal de Alcalá de Henares, solicitado por I-DE Redes Eléctricas Inteligentes, S. A. U. Número expediente: 2021P279 - 14-0141-00279.1/2021",
+          "permisos_adicionales": [
+            "IP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Subestación de distribución 132/20 kV ubicada en Avda. Punto Com, número 23. Resolución de autorización administrativa y aprobación del proyecto. El proyecto queda supeditado a la autorización definitiva del Plan Especial de Infraestructuras según informe del Ayuntamiento de Alcalá de Henares. No fue necesaria la tramitación de evaluación de impacto ambiental según resolución de 13 de julio de 2022."
         }
       ]
     },
@@ -249783,47 +249885,6 @@
       ]
     },
     {
-      "id": "prj_08242",
-      "nombre": "FV Pendón",
-      "promotor": "Utusol Epsilon, S.L.U.",
-      "tecnologia": "FV+BESS",
-      "potencia_mw": 4.39,
-      "provincia": "Valladolid",
-      "municipio": "Valladolid, Zaratán",
-      "comunidad_autonoma": "Castilla y León",
-      "subestacion": "Subestación Valladolid",
-      "tension_kv": 13.2,
-      "expedientes": [
-        "FV-2678-ALM ATCE-183"
-      ],
-      "estado_actual": "informacion_publica",
-      "ultimo_tipo_permiso": "AAP",
-      "ultimo_boletin": "BOCyL",
-      "es_fallido": false,
-      "mw_liberados": null,
-      "fecha_primera": "20251229",
-      "fecha_ultima": "20251229",
-      "n_publicaciones": 1,
-      "publicaciones": [
-        {
-          "id_boe": "BOCYL-D-29122025-34",
-          "fecha": "20251229",
-          "boletin": "BOCyL",
-          "tipo_permiso": "AAP",
-          "estado": "informacion_publica",
-          "url": "https://bocyl.jcyl.es/html/2025/12/29/html/BOCYL-D-29122025-34.do",
-          "titulo": "ANUNCIO del Servicio Territorial de Industria, Comercio y Economía de Valladolid, por el que se somete a información pública la solicitud de autorización administrativa previa de una instalación de producción de energía eléctrica, por tecnología fotovoltaica con hibridación para almacenamiento por baterías denominada «FV Pendon» conectada a la red de distribución, en los términos municipales de Valladolid y Zaratán (Valladolid). Expte.: FV-2678-ALM ATCE-183.",
-          "permisos_adicionales": [
-            "AAC",
-            "EsIA"
-          ],
-          "es_fallido": false,
-          "mw_liberados": null,
-          "observaciones": "Instalación fotovoltaica de 6,26 MWp / 4 MW con almacenamiento en baterías de ion-litio (capacidad 16 MWh). Incluye línea subterránea de evacuación de 13,2 kV. Plazo de resolución: 6 meses con silencio administrativo desestimatorio. Información pública por 20 días hábiles desde publicación. Requiere evaluación de impacto ambiental simplificada."
-        }
-      ]
-    },
-    {
       "id": "prj_08243",
       "nombre": "FV Estandarte",
       "promotor": "Utusol Delta, S.L.U.",
@@ -255078,6 +255139,1350 @@
           "es_fallido": true,
           "mw_liberados": 1.0,
           "observaciones": "Resolución 88/2026 del Director General de Fomento Empresarial e Infraestructuras. La denegación se formaliza tras desistimiento del promotor comunicado el 22 de abril de 2026 en el marco de la Resolución 108E/2026 que autorizaba actividades en suelo no urbanizable con condicionantes. Se dispone la devolución de la garantía económica del procedimiento de acceso y conexión."
+        }
+      ]
+    },
+    {
+      "id": "prj_08480",
+      "nombre": "ST Cerrillo",
+      "promotor": "Rolwind Málaga 1, SL",
+      "tecnologia": "BESS",
+      "potencia_mw": 77.6,
+      "provincia": "Málaga",
+      "municipio": "Álora",
+      "comunidad_autonoma": "Andalucía",
+      "subestacion": "SET Tajo de la Encantada",
+      "tension_kv": 220,
+      "expedientes": [
+        "BOE-A-2026-12163"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260605",
+      "fecha_ultima": "20260605",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-A-2026-12163",
+          "fecha": "20260605",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "otorgado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12163",
+          "titulo": "Resolución de 12 de mayo de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Rolwind Málaga 1, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento energético stand alone «ST Cerrillo», de 77,6 MW de potencia instalada, y su infraestructura de evacuación, en Álora (Málaga).",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de almacenamiento energético stand alone con infraestructura de evacuación consistente en líneas subterráneas de 30 kV, SET transformadora Tajo Promotores 220/30/15 kV y LAT aéreo-subterránea de 220 kV hasta SET Tajo de la Encantada de REE. Inicialmente REE indicó no conformidad por distancia a servidumbre de LAT 400 kV, que fue subsanada por promotor mediante documentación justificativa. Ayuntamiento de Álora presentó reparos iniciales que fueron resueltos con documentación adicional (estudio geotécnico), alcanzando conformidad final."
+        }
+      ]
+    },
+    {
+      "id": "prj_08482",
+      "nombre": "Parque Eólico La Plana III",
+      "promotor": "Sistemas Energéticos La Muela, SA",
+      "tecnologia": "Eólica",
+      "potencia_mw": 21.5,
+      "provincia": "Zaragoza",
+      "municipio": null,
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "SET La Plana",
+      "tension_kv": null,
+      "expedientes": [
+        "BOA20260605023"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260605",
+      "fecha_ultima": "20260605",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOA20260605023",
+          "fecha": "20260605",
+          "boletin": "BOA",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "",
+          "titulo": "ECONOMÍA Y JUSTICIA ANUNCIO del Servicio Provincial de Zaragoza, por el que se somete a información pública, la solicitud de autorización administrativa previa y de construcción, de los proyectos de desmantelamiento y repotenciación del “Parque Eólico La Plana III” de 21,5 MW y de “SET La Plana modificación”, y su estudio de impacto ambiental de la sociedad Sistemas Energéticos La Muela, SA. Exped",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de desmantelamiento y repotenciación de parque eólico existente. Incluye modificación de subestación transformadora asociada (SET La Plana modificación). Sometido a información pública conjuntamente con EsIA."
+        }
+      ]
+    },
+    {
+      "id": "prj_08483",
+      "nombre": "Parque Eólico La Plana II",
+      "promotor": "Sistemas Energéticos Mas Garullo, SA",
+      "tecnologia": "Eólica",
+      "potencia_mw": 18.5,
+      "provincia": "Zaragoza",
+      "municipio": null,
+      "comunidad_autonoma": "Aragón",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "G-Z-2026/008"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260605",
+      "fecha_ultima": "20260605",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOA20260605024",
+          "fecha": "20260605",
+          "boletin": "BOA",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "",
+          "titulo": "ANUNCIO del Servicio Provincial de Zaragoza, por el que se somete a información pública, la solicitud de autorización administrativa previa y de construcción, del proyecto de desmantelamiento y repotenciación del “Parque Eólico La Plana II” de 18,5 MW y su estudio de impacto ambiental de la empresa Sistemas Energéticos Mas Garullo, SA. Expediente G-Z-2026/008.",
+          "permisos_adicionales": [
+            "EsIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de desmantelamiento y repotenciación de parque eólico existente. Sometido a información pública según Vicepresidencia del Gobierno y Departamento de Presidencia de Aragón."
+        }
+      ]
+    },
+    {
+      "id": "prj_08484",
+      "nombre": "Parque Fotovoltaico El Coscojar II",
+      "promotor": "Eólicas el Coscojar SL",
+      "tecnologia": "FV+Eólica",
+      "potencia_mw": 23.7,
+      "provincia": "Zaragoza",
+      "municipio": "Plasencia de Jalón; Pedrola",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": "Jalón 220 kV",
+      "tension_kv": 220,
+      "expedientes": [
+        "PEol-FV-321"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "EsIA",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-B-2026-19389",
+          "fecha": "20260609",
+          "boletin": "BOE",
+          "tipo_permiso": "EsIA",
+          "estado": "informacion_publica",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-19389",
+          "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Zaragoza por el que se somete a información pública la solicitud de Declaración de Impacto Ambiental, Autorización Administrativa Previa y Autorización Administrativa de Construcción del proyecto PEol-FV-321 módulo de generación fotovoltaica FV El Coscojar II, de 23,7 MW de potencia instalada, para su hibridación con el parque eólico existente El Coscojar II, de 49,7 MW, y su infraestructura de evacuación, en los término",
+          "permisos_adicionales": [
+            "AAP",
+            "AAC"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Módulo fotovoltaico de hibridación con parque eólico existente El Coscojar II (49,7 MW). Infraestructura de evacuación formada por ampliación de subestación PE El Coscojar II 220/30 kV. Conexión a red de transporte REE mediante SET Jalón 220 kV. Presupuesto FV: 9.454.412,23 €. Presupuesto infraestructura evacuación: 94.934,50 €. Tramitación conjunta de AAP + EsIA + AAC. Plazo información pública: 30 días hábiles."
+        }
+      ]
+    },
+    {
+      "id": "prj_08485",
+      "nombre": "Almacenamiento Castor",
+      "promotor": "PLANTA FV 115, S.L.U.",
+      "tecnologia": "FV+BESS",
+      "potencia_mw": 19.993,
+      "provincia": "Toledo",
+      "municipio": "Huecas",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": "Carola Generación 220/30 kV",
+      "tension_kv": 30,
+      "expedientes": [
+        "PFot-ALM-218"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOE-B-2026-19390",
+          "fecha": "20260609",
+          "boletin": "BOE",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-19390",
+          "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha por el que se somete a información pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción de la instalación módulo de baterías Almacenamiento CASTOR de 19,993 MW de potencia instalada, para su hibridación con la Planta Fotovoltaica CASTOR SOLAR de 49,99 MW de potencia instalada, ubicadas en el término municipal de Huecas, provincia de Toledo y su infraestr",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Sistema de almacenamiento en baterías de 19,993 MW hibridado con la Planta Fotovoltaica Castor Solar de 49,99 MW existente. Capacidad de almacenamiento: 80 MWh útiles. Línea de evacuación soterrada de MT a 30 kV. Modificación del centro de seccionamiento para evacuación conjunta. Exento de evaluación de impacto ambiental simplificada conforme a RD 997/2025."
+        }
+      ]
+    },
+    {
+      "id": "prj_08486",
+      "nombre": "Planta Fotovoltaica PF Sotillo",
+      "promotor": "Magale Investments, S. L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Moraleja de Enmedio",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "2023P840/14-0141-00840.7/2023"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20260609-36",
+          "fecha": "20260609",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://www.bocm.es/bocm-20260609-36",
+          "titulo": "Resolución de 19 de mayo de 2026, de la Dirección General de Transición Energética y Economía Circular, sobre autorización administrativa previa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública para la instalación de la planta fotovoltaica PF Sotillo y su infraestructura de evacuación en el polígono 9, parcela 240, del término municipal de Moraleja de Enmedio, solicitado por Magale Investments, S. L. Expediente: 2023P840/14-0141-00840.7/2023",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución otorga simultáneamente Autorización Administrativa Previa, aprobación del proyecto de ejecución y Declaración de Utilidad Pública. El proyecto incluye infraestructura de evacuación. Tramitación conjunta de AAP y DUP conforme a Decreto 70/2010. Se tramitó información pública combinada. La Dirección General de Transición Energética y Economía Circular resolvió la no necesidad de evaluación de impacto ambiental (EIA) conforme a Ley 21/2013. Ubicación en polígono 9, parcela 240 del término municipal de Moraleja de Enmedio."
+        }
+      ]
+    },
+    {
+      "id": "prj_08487",
+      "nombre": "Línea 20kV Calle Delicias Galapagar",
+      "promotor": "I-DE Redes Eléctricas Inteligentes, S.A.U.",
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Madrid",
+      "municipio": "Galapagar",
+      "comunidad_autonoma": "Madrid",
+      "subestacion": null,
+      "tension_kv": 20,
+      "expedientes": [
+        "2019P159"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOCM",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOCM-20260609-41",
+          "fecha": "20260609",
+          "boletin": "BOCM",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://www.bocm.es/bocm-20260609-41",
+          "titulo": "Anuncio de 20 de febrero de 2026, de la Dirección General de Transición Energética y Economía Circular, por el que se somete a información pública la solicitud de autorización administrativa previa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública para la construcción de una línea aéreo-subterránea de 20kV en C/ Delicias, s/n en el término municipal de Galapagar, solicitada por I-DE Redes Eléctricas Inteligentes, S. A. U.",
+          "permisos_adicionales": [
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Línea aéreo-subterránea de 20kV con 1.245 m totales (687 m aéreos y 558 m subterráneos). Presupuesto: 146.501,52 euros. Ubicada en C/ Delicias, s/n. Período de información pública de 30 días. La DUP conlleva urgente ocupación a efectos de expropiación forzosa."
+        }
+      ]
+    },
+    {
+      "id": "prj_08488",
+      "nombre": "Instalación Solar Fotovoltaica Botavara 12",
+      "promotor": "Enigma Green Power 34, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780300745862130267",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780300745862130267",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Botavara 12, presentada por la sociedad Enigma Green Power 34, SL. Referencia: 2703-01693-1. ",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. Promotor: Enigma Green Power 34, SL (NIF: B16750051). Publicado en DOCM número 107/2026 de 09/06/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08489",
+      "nombre": "Instalación Solar Fotovoltaica Azafea 8",
+      "promotor": "Enigma Green Power 4, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780300842572130270",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780300842572130270",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Azafea 8, presentada por la sociedad Enigma Green Power 4, SL. Referencia: 2703-01693-2. [NID",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. Publicada en DOCM número 107/2026, de 09/06/2026. NIF del promotor: B02936730."
+        }
+      ]
+    },
+    {
+      "id": "prj_08490",
+      "nombre": "Instalación Solar Fotovoltaica Bitácora 8",
+      "promotor": "Enigma Green Power 6, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780300898811130273",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780300898811130273",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Bitácora 8, presentada por la sociedad Enigma Green Power 6, SL. Referencia: 2703-01693-3. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. Tramitación según Decreto 80/2007 de Castilla-La Mancha. El promotor presenta desistimiento voluntario de la solicitud."
+        }
+      ]
+    },
+    {
+      "id": "prj_08491",
+      "nombre": "Instalación Solar Fotovoltaica Astrolabio 8",
+      "promotor": "Enigma Green Power 2, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780300998105130276",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780300998105130276",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Astrolabio 8, presentada por la sociedad Enigma Green Power 2, SL. Referencia: 2703-01693-4. ",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución sobre desistimiento de solicitud para la construcción de la instalación solar fotovoltaica Astrolabio 8. Referencia de procedimiento: DP 162702-00854. NIF promotor: B02936748."
+        }
+      ]
+    },
+    {
+      "id": "prj_08492",
+      "nombre": "Cabo De Buena Esperanza 8",
+      "promotor": "Enigma Green Power 8, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301116834130278",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301116834130278",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Cabo de Buena Esperanza 8, presentada por la sociedad Enigma Green Power 8, SL. Referencia: 2",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para construcción de instalación solar fotovoltaica. Publicada en DOCM número 107/2026, página 22521. Referencia DOCM: DOCM-1780301116834130278. Órgano competente: Dirección General de Transición Energética de la Consejería de Desarrollo Sostenible."
+        }
+      ]
+    },
+    {
+      "id": "prj_08493",
+      "nombre": "Planta Solar Fotovoltaica Cabo de Hornos 8",
+      "promotor": "Enigma Green Power 10, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301185736130280",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301185736130280",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Cabo de Hornos 8, presentada por la sociedad Enigma Green Power 10, SL. Referencia: 2703-0169",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento publicada en DOCM número 107/2026 de fecha 09/06/2026. Referencia administrativa: 2703-01693-6 (DP: 162702-00856). Base legal: Decreto 80/2007, de 19/06/2007."
+        }
+      ]
+    },
+    {
+      "id": "prj_08494",
+      "nombre": "Instalación Solar Fotovoltaica Cabo de Buena Esperanza 11",
+      "promotor": "Enigma Green Power 22, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301252629130282",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301252629130282",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Cabo de Buena Esperanza 11, presentada por la sociedad Enigma Green Power 22, SL. Referencia:",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para la construcción de la instalación solar fotovoltaica Cabo de Buena Esperanza 11. Referencia de diario: DOCM 107/2026, página 22525, NID: 2026/4228. Publicada el 09/06/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08495",
+      "nombre": "Instalación Solar Fotovoltaica Cabo De Leeuwin 11",
+      "promotor": "Enigma Green Power 26, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301451279130284",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301451279130284",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Cabo de Leeuwin 11, presentada por la sociedad Enigma Green Power 26, SL. Referencia: 2703-01",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para la construcción de instalación solar fotovoltaica. Referencia adicional: DOCM-1780301451279130284. Publicado en DOCM número 107/2026 de 09/06/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08496",
+      "nombre": "Instalación Solar Fotovoltaica Crujía 12",
+      "promotor": "Enigma Green Power 35, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301575288130286",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301575288130286",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Crujía 12, presentada por la sociedad Enigma Green Power 35, SL. Referencia: 2703-01693-9. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de Autorización Administrativa Previa para la construcción de instalación solar fotovoltaica. Publicada en DOCM número 107/2026 del 09/06/2026. Referencia administrativa: 2703-01693-9 (DP: 162702-00859). NIF promotor: B16750044."
+        }
+      ]
+    },
+    {
+      "id": "prj_08497",
+      "nombre": "Instalación Solar Fotovoltaica Baluma 12",
+      "promotor": "Enigma Green Power 33, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301631179130288",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301631179130288",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Baluma 12, presentada por la sociedad Enigma Green Power 33, SL. Referencia: 2703-01693-10. [",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. Publicado en DOCM número 107/2026 de fecha 09/06/2026. Referencia anterior: DP 162702-00860."
+        }
+      ]
+    },
+    {
+      "id": "prj_08498",
+      "nombre": "Instalación Solar Fotovoltaica Nao 11",
+      "promotor": "Enigma Green Power 28, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301713808130290",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301713808130290",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Nao 11, presentada por la sociedad Enigma Green Power 28, SL. Referencia: 2703-01693-11. [NID",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para construcción de instalación solar fotovoltaica. NIF promotor: B16739088. Referencia adicional: DP 162702-00861. Publicado en DOCM número 107/2026 de 09/06/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08499",
+      "nombre": "Instalación Solar Fotovoltaica Sextante 11",
+      "promotor": "Enigma Green Power 30, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301922259130293",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301922259130293",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Sextante 11, presentada por la sociedad Enigma Green Power 30, SL. Referencia: 2703-01693-12.",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución que declara el desistimiento de la solicitud de autorización administrativa previa para la construcción de instalación solar fotovoltaica. Proyecto fallido que libera capacidad en la red eléctrica."
+        }
+      ]
+    },
+    {
+      "id": "prj_08500",
+      "nombre": "Instalación Solar Fotovoltaica Cabo De Hornos 11",
+      "promotor": "Enigma Green Power 24, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780301965110130296",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780301965110130296",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Cabo de Hornos 11, presentada por la sociedad Enigma Green Power 24, SL. Referencia: 2703-016",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para construcción de instalación solar fotovoltaica. El promotor Enigma Green Power 24, SL (NIF: B16738700) ha presentado desistimiento de su solicitud de Autorización Administrativa Previa para esta instalación ubicada en Minglanilla, provincia de Cuenca."
+        }
+      ]
+    },
+    {
+      "id": "prj_08501",
+      "nombre": "Instalación Solar Fotovoltaica Aleta 12",
+      "promotor": "Enigma Green Power 31, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302094301130299",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302094301130299",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Aleta 12, presentada por la sociedad Enigma Green Power 31, SL. Referencia: 2703-01693-14. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de autorización para instalación solar fotovoltaica. Referencia administrativa: 2703-01693-14 (DP: 162702-00864). Publicado en DOCM número 107/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08502",
+      "nombre": "Instalación Solar Fotovoltaica Amura 12",
+      "promotor": "Enigma Green Power 32, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302188705130301",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302188705130301",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Amura 12, presentada por la sociedad Enigma Green Power 32, SL. Referencia: 2703-01693-15. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. La potencia no aparece especificada en el texto publicado. NIF del promotor: B16750077."
+        }
+      ]
+    },
+    {
+      "id": "prj_08503",
+      "nombre": "Instalación Solar Fotovoltaica Makaira",
+      "promotor": "Savanna Power Solar 19, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302251772130307",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302251772130307",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Makaira, presentada por la sociedad Savanna Power Solar 19, SL. Referencia: 2703-01693-16. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución que autoriza el desistimiento de la solicitud de construcción de la instalación solar fotovoltaica denominada Makaira. N.I.F. del promotor: B02993608. Referencia adicional: DP 162702-00884. Procedimiento regulado por Decreto 80/2007 de 19/06/2007."
+        }
+      ]
+    },
+    {
+      "id": "prj_08504",
+      "nombre": "Instalación Solar Fotovoltaica Prionace",
+      "promotor": "Savanna Power Solar 22, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302471764130310",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302471764130310",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Prionace, presentada por la sociedad Savanna Power Solar 22, SL. Referencia: 2703-01693-17. [",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de Autorización Administrativa Previa para la construcción de la instalación solar fotovoltaica Prionace. Referencia de expediente: 2703-01693-17 (DP: 162702-00885). Publicado en DOCM número 107/2026 el 09/06/2026."
+        }
+      ]
+    },
+    {
+      "id": "prj_08505",
+      "nombre": "Instalación Solar Fotovoltaica Sardina",
+      "promotor": "Arena Power Solar 10, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302516405130312",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302516405130312",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Sardina, presentada por la sociedad Arena Power Solar 10, SL. Referencia: 2703-01693-18. [NID",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución del desistimiento de solicitud para la construcción de la instalación solar fotovoltaica Sardina. Referencia de expediente: 2703-01693-18 (DP: 162702-00886). Publicado en DOCM número 107/2026 de 09/06/2026, página 22547."
+        }
+      ]
+    },
+    {
+      "id": "prj_08506",
+      "nombre": "Instalación Solar Fotovoltaica Scomber",
+      "promotor": "Arena Power Solar 22, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302632471130314",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302632471130314",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Scomber, presentada por la sociedad Arena Power Solar 22, SL. Referencia: 2703-01693-19. [NID",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de autorización administrativa previa para construcción de instalación solar fotovoltaica. Referencia DP: 162702-00887. NIF promotor: B90437864."
+        }
+      ]
+    },
+    {
+      "id": "prj_08507",
+      "nombre": "Instalación Solar Fotovoltaica Thunnus",
+      "promotor": "Arena Power Solar 9, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302701747130316",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302701747130316",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Thunnus, presentada por la sociedad Arena Power Solar 9, SL. Referencia: 2703-01693-20. [NID ",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud para construcción de instalación solar fotovoltaica. Referencia de expediente: 2703-01693-20. Peticionario: Arena Power Solar 9, S.L. (NIF: B90437294). Publicado en DOCM número 107/2026, página 22551."
+        }
+      ]
+    },
+    {
+      "id": "prj_08508",
+      "nombre": "Instalación Solar Fotovoltaica Tretrapturus",
+      "promotor": "Savanna Power Solar 21, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302749159130318",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302749159130318",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Tretrapturus, presentada por la sociedad Savanna Power Solar 21, SL. Referencia: 2703-01693-2",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de construcción de instalación solar fotovoltaica. La sociedad Savanna Power Solar 21, S.L. ha presentado desistimiento de la solicitud de autorización administrativa previa para la construcción de la planta fotovoltaica Tretrapturus en Minglanilla, Cuenca."
+        }
+      ]
+    },
+    {
+      "id": "prj_08509",
+      "nombre": "Instalación Solar Fotovoltaica Xhipias",
+      "promotor": "Savanna Power Solar 14, SL",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": null,
+      "provincia": "Cuenca",
+      "municipio": "Minglanilla",
+      "comunidad_autonoma": "Castilla-La Mancha",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "desistido",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOCM",
+      "es_fallido": true,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOCM-1780302819154130320",
+          "fecha": "20260609",
+          "boletin": "DOCM",
+          "tipo_permiso": "AAP",
+          "estado": "desistido",
+          "url": "https://docm.jccm.es/docm/detalleDocumento.do?idDisposicion=1780302819154130320",
+          "titulo": "Instalaciones Eléctricas. Resolución de 26/05/2026 , de la Dirección General de Transición Energética, sobre desistimiento de solicitudes para la construcción de la instalación solar fotovoltaica denominada Xhipias, presentada por la sociedad Savanna Power Solar 14, SL. Referencia: 2703-01693-22. [N",
+          "permisos_adicionales": [],
+          "es_fallido": true,
+          "mw_liberados": null,
+          "observaciones": "Resolución de desistimiento de solicitud de Autorización Administrativa Previa para construcción de instalación solar fotovoltaica. Publicado en DOCM 107/2026, página 22555. Referencia DP: 162702-00890."
+        }
+      ]
+    },
+    {
+      "id": "prj_08510",
+      "nombre": "Línea de Evacuación Parque Eólico Fabara",
+      "promotor": null,
+      "tecnologia": "Eólica",
+      "potencia_mw": 6.6,
+      "provincia": "Zaragoza",
+      "municipio": "Fabara",
+      "comunidad_autonoma": "Aragón",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "G-Z-2021/056"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOA",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOA20260609044",
+          "fecha": "20260609",
+          "boletin": "BOA",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "",
+          "titulo": "ANUNCIO del Servicio Provincial de Zaragoza, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción de la modificación del proyecto de la línea de evacuación del Parque Eólico Fabara, de 6,6 MW. Expediente G-Z-2021/056.",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Modificación del proyecto de la línea de evacuación del Parque Eólico Fabara. Sometido a información pública por el Servicio Provincial de Zaragoza."
+        }
+      ]
+    },
+    {
+      "id": "prj_08511",
+      "nombre": "Piparra Solar",
+      "promotor": "Ventaja Solar 13, S.L.",
+      "tecnologia": "Fotovoltaica",
+      "potencia_mw": 4.945,
+      "provincia": "Álava",
+      "municipio": "Vitoria-Gasteiz, Arratzua-Ubarrundia",
+      "comunidad_autonoma": "País Vasco",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "01 GE Y 202400056"
+      ],
+      "estado_actual": "otorgado",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "BOPV",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOPV-2602489a",
+          "fecha": "20260609",
+          "boletin": "BOPV",
+          "tipo_permiso": "AAP",
+          "estado": "otorgado",
+          "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/06/2602489a.shtml",
+          "titulo": "RESOLUCIÓN de 22 de mayo de 2026, del delegado territorial de Industria, Transición Energética y Sostenibilidad de Álava, por la que se otorga autorización administrativa previa al proyecto de planta solar fotovoltaica «Piparra Solar», en los términos municipales de Vitoria-Gasteiz y Arratzua-Ubarru",
+          "permisos_adicionales": [
+            "DUP",
+            "PlanEsp",
+            "LicObras"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Resolución que otorga Autorización Administrativa Previa para planta solar fotovoltaica de 4,945 MW (5,427 MWp inicial). El proyecto fue sometido a evaluación ambiental simplificada con informe favorable. Se recibió alegación de Fotovoltaica de Aldeamayor 2, S.L. sobre derechos de superficie en tres parcelas. El ayuntamiento de Arratzua-Ubarrundia requiere Plan Especial, declaración de utilidad pública, líneas de evacuación soterradas y autorizaciones adicionales. Permiso de acceso y conexión otorgado por i-DE el 25 de abril de 2024 (referencia 9043141944)."
+        }
+      ]
+    },
+    {
+      "id": "prj_08512",
+      "nombre": "BESS Arpide",
+      "promotor": "Martiturri, S.L.",
+      "tecnologia": "BESS",
+      "potencia_mw": null,
+      "provincia": "Bizkaia",
+      "municipio": "Galdakao",
+      "comunidad_autonoma": "País Vasco",
+      "subestacion": null,
+      "tension_kv": null,
+      "expedientes": [
+        "48-GE-Y-2025-00002"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP_AAC",
+      "ultimo_boletin": "BOPV",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOPV-2602498a",
+          "fecha": "20260609",
+          "boletin": "BOPV",
+          "tipo_permiso": "AAP_AAC",
+          "estado": "informacion_publica",
+          "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/06/2602498a.shtml",
+          "titulo": "ANUNCIO de 25 de mayo de 2026, de la delegada territorial de Industria, Transición Energética y Sostenibilidad de Bizkaia, por el que se somete a información pública el proyecto denominado «BESS Arpide»; en este se propone la construcción de una instalación de almacenamiento de energía mediante bate",
+          "permisos_adicionales": [
+            "DIA"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de almacenamiento de energía con baterías en Galdakao. Se solicita conjuntamente autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental. Plazo de información pública: 30 días hábiles a partir del siguiente al de la publicación (9 de junio de 2026). Presupuesto total: 682.193,14 euros. Documentación disponible en delegación territorial de Industria de Bizkaia y en url de información pública."
+        }
+      ]
+    },
+    {
+      "id": "prj_08513",
+      "nombre": "Parque Eólico Ferosca I",
+      "promotor": "Ferosca Wind, S.L.",
+      "tecnologia": "Eólica",
+      "potencia_mw": 21,
+      "provincia": "Álava",
+      "municipio": "Llodio, Ayala",
+      "comunidad_autonoma": "País Vasco",
+      "subestacion": "ST Aiala 30 kV",
+      "tension_kv": 30,
+      "expedientes": [
+        "01-GE-Y-2026-00008"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "ModAAP",
+      "ultimo_boletin": "BOPV",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "BOPV-2602499a",
+          "fecha": "20260609",
+          "boletin": "BOPV",
+          "tipo_permiso": "ModAAP",
+          "estado": "informacion_publica",
+          "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/06/2602499a.shtml",
+          "titulo": "ANUNCIO de 27 de mayo de 2026, del delegado territorial de Industria, Transición Energética y Sostenibilidad, por el que se somete a información pública la solicitud de modificación de la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad públic",
+          "permisos_adicionales": [
+            "ModAAC",
+            "DUP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto modificado con supresión de tres posiciones de aerogeneradores (FI-4, FI-5, FI-6) descartadas en la DIA. Aumento de potencia unitaria de 4,5 MW a 7 MW en los tres aerogeneradores restantes (FI-1, FI-2, FI-3), sin modificación de características geométricas. Modificaciones no sujetas a evaluación de impacto ambiental. AAP otorgada el 26 de enero de 2026 (Resolución BOPV n.º 36, de 23 de febrero de 2026). Infraestructuras de evacuación: línea subterránea de 30 kV con longitud total de 8.730 metros, centro de seccionamiento en Ayala, conexión a SET Aiala 30 kV de i-DE."
+        }
+      ]
+    },
+    {
+      "id": "prj_08514",
+      "nombre": "Aumento de Potencia Transformador CT-19 Cáceres",
+      "promotor": null,
+      "tecnologia": "SET",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Cáceres",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": "CT-19",
+      "tension_kv": null,
+      "expedientes": [],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26080866",
+          "fecha": "20260609",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/1090o/26080866.pdf",
+          "titulo": "Información pública.- Anuncio de 20 de mayo de 2026 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto de aumento de potencia transformador n.º 1 del CT-19, de Cáceres. Término municipal: Cáceres. Expte.: AT-",
+          "permisos_adicionales": [
+            "IP"
+          ],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Proyecto de ampliación/refuerzo de subestación transformadora. El expediente completo no está disponible en el fragmento proporcionado. Se somete a información pública la solicitud de AAP."
+        }
+      ]
+    },
+    {
+      "id": "prj_08515",
+      "nombre": "Traslado CT-9 Coria y Nueva Línea Subterránea Media Tensión",
+      "promotor": null,
+      "tecnologia": "LAT",
+      "potencia_mw": null,
+      "provincia": "Cáceres",
+      "municipio": "Coria",
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": "CT-9",
+      "tension_kv": null,
+      "expedientes": [
+        "DOE-26080901"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26080901",
+          "fecha": "20260609",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/1090o/26080901.pdf",
+          "titulo": "Información pública.- Anuncio de 26 de mayo de 2026 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto de traslado del CT-9 de Coria y nueva línea subterránea de media tensión de alimentación. Término municip",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Información pública de autorización administrativa previa para traslado de centro de transformación (CT-9) y construcción de nueva línea subterránea de media tensión de alimentación. Publicación en DOE (Diario Oficial de Extremadura)."
+        }
+      ]
+    },
+    {
+      "id": "prj_08516",
+      "nombre": "Reforma Centro de Distribución CD 80300 Diego Sánchez",
+      "promotor": null,
+      "tecnologia": "SET",
+      "potencia_mw": null,
+      "provincia": "Extremadura",
+      "municipio": null,
+      "comunidad_autonoma": "Extremadura",
+      "subestacion": "CD 80300 Diego Sánchez",
+      "tension_kv": 15,
+      "expedientes": [
+        "DOE-26080905"
+      ],
+      "estado_actual": "informacion_publica",
+      "ultimo_tipo_permiso": "AAP",
+      "ultimo_boletin": "DOE",
+      "es_fallido": false,
+      "mw_liberados": null,
+      "fecha_primera": "20260609",
+      "fecha_ultima": "20260609",
+      "n_publicaciones": 1,
+      "publicaciones": [
+        {
+          "id_boe": "DOE-26080905",
+          "fecha": "20260609",
+          "boletin": "DOE",
+          "tipo_permiso": "AAP",
+          "estado": "informacion_publica",
+          "url": "https://doe.juntaex.es/pdfs/doe/2026/1090o/26080905.pdf",
+          "titulo": "Información pública.- Anuncio de 27 de mayo de 2026 por el que se somete a información pública la petición de autorización administrativa previa de las instalaciones correspondientes al proyecto de ejecución de reforma del centro de distribución CD 80300 \"Diego. Sánchez\" a 15 kV y de la línea subter",
+          "permisos_adicionales": [],
+          "es_fallido": false,
+          "mw_liberados": null,
+          "observaciones": "Publicación de 27 de mayo de 2026. Reforma de centro de distribución a 15 kV con línea subterránea asociada. Texto incompleto en la publicación."
         }
       ]
     }
