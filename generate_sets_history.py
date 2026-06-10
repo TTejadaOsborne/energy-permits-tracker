@@ -53,12 +53,35 @@ def label(y, m): return f"{y:04d}-{m:02d}"
 def extract_dso(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
+    
+    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" en header (fila 5)
+    rdd_col_idx = None
+    acept_col_idx = None
+    header_row = list(ws.iter_rows(min_row=5, max_row=5, values_only=True))[0] if ws.max_row >= 5 else None
+    if header_row:
+        for i, cell in enumerate(header_row):
+            if cell and isinstance(cell, str):
+                if "Capacidad de acceso disponible para MPE RdD" in cell:
+                    rdd_col_idx = i
+                if "MPE RdD" in cell and "MGES" not in cell and acept_col_idx is None:
+                    acept_col_idx = i
+    
     for row in ws.iter_rows(min_row=6, values_only=True):
         if not row or len(row) < 27: continue
         key = row[10]
         if not key or not str(key).strip(): continue
         key = str(key).strip()
         _cg = to_float(row[21]); _cd = to_float(row[11])
+        # cap_gen_RdD: usar índice encontrado en header
+        _cap_gen_RdD = None
+        if rdd_col_idx and len(row) > rdd_col_idx:
+            _cap_gen_RdD = to_float(row[rdd_col_idx])
+        
+        # acept: usar índice encontrado (columna K en Monitorización) o None
+        _acept = None
+        if acept_col_idx and len(row) > acept_col_idx:
+            _acept = to_float(row[acept_col_idx])
+        
         entries[key] = {
             "date":         lbl,
             "cap_gen":      _cg,
@@ -71,8 +94,8 @@ def extract_dso(ws, year, mes):
             "cap_gen_neta": _cg,
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
-            "acept":        None,
-            "cap_gen_RdD":  None,
+            "acept":        _acept,
+            "cap_gen_RdD":  _cap_gen_RdD,
         }
     return entries
 
