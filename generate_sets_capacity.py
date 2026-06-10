@@ -335,7 +335,7 @@ def merge_and_resolve_collisions(dso_entries, ree_entries):
             value[0] = new_key
             result[new_key] = value
             collisions += 1
-            print(f"  Colisión: '{key}' → REE como '{new_key}'")
+            print(f"  Colision: '{key}' → REE como '{new_key}'")
         else:
             result[key] = value
 
