@@ -2128,6 +2128,10 @@ async function loadSetsCapacity(){
       if(typeof renderDashboard==='function') try{ renderDashboard(); }catch(e){}
       // Re-render Proyectos so SET name links appear (they need SETS_CAPACITY loaded)
       if(typeof renderProyectos==='function' && PROJECTS_DATA) renderProyectos();
+      // Re-render SETs view if it's currently active (data may have arrived after first render)
+      if(VIEW==="subestaciones" && typeof setSetsMainView==='function'){
+        try{ setSetsMainView(SETS_MAIN_VIEW||'capacidades'); }catch(e){}
+      }
     }
   } catch(e) {}
 }
@@ -2754,7 +2758,7 @@ function populateFilters(){
 function clearFilters(){
   Object.keys(FILTROS).forEach(k => FILTROS[k].clear());
   populateFilters();
-  document.getElementById("search").value = "";
+  var _searchEl0=document.getElementById("search"); if(_searchEl0) _searchEl0.value = "";
   ACTIVE_ESTADO_FILTER = ""; ACTIVE_TECH_FILTER = "";
   document.querySelectorAll(".nav-item").forEach(el => el.classList.remove("active","filter-active"));
   document.querySelector(".nav-item").classList.add("active");
@@ -2784,7 +2788,8 @@ function updateActiveNav(){
 
 // ── RENDER ───────────────────────────────────────────────────────────────────
 function render(){
-  const q = document.getElementById("search").value.toLowerCase();
+  var _searchEl1=document.getElementById("search");
+  const q = _searchEl1 ? _searchEl1.value.toLowerCase() : "";
 
   // Aplicar sort
   const cmp=(a,b)=>{
@@ -7724,8 +7729,4 @@ function renderDetMiniMap(prov, muni){
       <button class="oport-modal-close" onclick="document.getElementById('oport-modal-bg').classList.remove('open')">✕</button>
     </div>
     <div class="oport-modal-body" id="oport-modal-body"></div>
-  </div>
-</div>
-
-</body>
-</html>
+  </
