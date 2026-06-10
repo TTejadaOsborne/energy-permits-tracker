@@ -87,7 +87,7 @@ def extract_ree(ws, year, mes):
         _gen_disp = to_float(row[44]) if len(row) > 44 else None
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
-        _cap_gen_RdD = to_float(row[29]) if len(row) > 29 else None
+        _cap_gen_RdD = to_float(row[33]) if len(row) > 33 else None
         if _cap_gen_RdD is None and len(row) > 67:
             _cap_gen_RdD = to_float(row[67])
         entries[key] = {
