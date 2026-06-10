@@ -5302,11 +5302,11 @@ function renderHistoryChart(key){
     // Per-slot grey background (same width as bar)
     parts.push('<rect x="'+x.toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+barW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(26,26,24,.05)" rx="'+barR.toFixed(1)+'"/>');
     var segs=[
-      {v:ocup||0,color:'#3b82f6',lbl:'Ocupada'},
-      {v:tram||0,color:'#f59e0b',lbl:'En trámite'},
-      {v:disp||0,color:'#22c55e',lbl:'Disponible'}
+      {v:ocup,color:'#3b82f6',lbl:'Ocupada'},
+      {v:tram,color:'#f59e0b',lbl:'En trámite'},
+      {v:disp,color:'#22c55e',lbl:'Disponible'}
     ];
-    var visSegs=segs.filter(function(s){return s.v>0;});
+    var visSegs=segs.filter(function(s){return s.v!=null && s.v>0;});
     var curY=baseY;
     var nSegs=visSegs.length;
     visSegs.forEach(function(seg,idx){
