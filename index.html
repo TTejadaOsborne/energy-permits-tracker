@@ -5187,7 +5187,38 @@ function renderHistoryChart(key){
   var snaps = SETS_HISTORY[key];
   var isBoth = (_sdpMode === 'both');
   var isGen  = (_sdpMode === 'gen');
-  var n = snaps.length;
+
+  var monthNames=['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  var monthNamesFull=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+  // Generar array completo de meses (incluyendo gaps)
+  var allDates = snaps.map(function(s){ return Array.isArray(s)?s[0]:s.date; });
+  var minDate = allDates[0], maxDate = allDates[allDates.length-1];
+  var snapsByDate = {};
+  snaps.forEach(function(s){
+    var d = Array.isArray(s)?s[0]:s.date;
+    snapsByDate[d] = s;
+  });
+
+  // Generar todas las fechas YYYY-MM entre min y max
+  function dateRangeMonthly(startStr, endStr){
+    var [sy,sm] = startStr.split('-').map(Number);
+    var [ey,em] = endStr.split('-').map(Number);
+    var dates = [];
+    var y = sy, m = sm;
+    while(y < ey || (y === ey && m <= em)){
+      dates.push(y+'-'+String(m).padStart(2,'0'));
+      m++;
+      if(m > 12){ m=1; y++; }
+    }
+    return dates;
+  }
+  var allMonths = dateRangeMonthly(minDate, maxDate);
+
+  // Rebuild snaps para incluir gaps (valores null)
+  var snaps_full = allMonths.map(function(d){ return snapsByDate[d] || null; });
+  var n = snaps_full.length;
+
   var W=900, H=200, padL=62, padR=14, padT=14, padB=34;
   var chartW = W-padL-padR, chartH = H-padT-padB;
 
@@ -5196,7 +5227,8 @@ function renderHistoryChart(key){
   var _s = function(e,nm,i){ return Array.isArray(e)?e[i]:e[nm]; };
   // Solo sumar segmentos positivos (los negativos no se dibujan, ver drawBar/visSegs)
   var _pos = function(v){ return (v>0) ? v : 0; };
-  snaps.forEach(function(s){
+  snaps_full.forEach(function(s){
+    if(!s) return;
     var tg=_pos(_s(s,'cap_gen',1))+_pos(_s(s,'cap_gen_ocup',2))+_pos(_s(s,'cap_gen_tram',3));
     var td=_pos(_s(s,'cap_dem',4))+_pos(_s(s,'cap_dem_ocup',5))+_pos(_s(s,'cap_dem_tram',6));
     if(tg>maxTotal) maxTotal=tg; if(td>maxTotal) maxTotal=td;
@@ -5236,8 +5268,7 @@ function renderHistoryChart(key){
     parts.push('<text x="'+(padL-4)+'" y="'+(yy+3).toFixed(1)+'" text-anchor="end" font-size="7.5" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+lbl+' MW</text>');
   }
 
-  var monthNames=['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-  var monthNamesFull=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
 
   // Path helpers for rounded bar corners
   function topRound(x,y,w,h,r){
@@ -5314,7 +5345,32 @@ function renderHistoryChart(key){
   }
 
   var _histMonthData=[];
-  snaps.forEach(function(s,i){
+  snaps_full.forEach(function(s,i){
+    if(!s){
+      // Mes sin datos: solo reservar espacio
+      _histMonthData.push(null);
+      var cx=padL+(i+0.5)*slotW;
+      var _sdate=allMonths[i];
+      var dp=_sdate.split('-');
+      var mNum=parseInt(dp[1],10);
+      var _mFull=monthNamesFull[mNum]||dp[1];
+      _mFull=_mFull.charAt(0).toUpperCase()+_mFull.slice(1);
+      var yr=dp[0].slice(2);
+      var dateLbl=(monthNames[mNum]||dp[1])+' '+yr;
+      // X-axis labels: same as non-empty months
+      var _showQ = (mNum===1||mNum===4||mNum===7||mNum===10);
+      var _prevYr = i>0 ? allMonths[i-1].split('-')[0] : null;
+      var _isYearStart = (mNum===1) || (_prevYr!==null && _prevYr!==dp[0]);
+      if(_isYearStart){
+        var _cx1=cx.toFixed(1);
+        parts.push('<line x1="'+_cx1+'" y1="'+(padT+chartH+4)+'" x2="'+_cx1+'" y2="'+(padT+chartH+10)+'" stroke="rgba(26,26,24,.3)" stroke-width="1"/>');
+        parts.push('<text x="'+_cx1+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="9" font-weight="700" fill="rgba(26,26,24,.3)" font-family="IBM Plex Mono,monospace">'+dp[0]+'</text>');
+        parts.push('<text x="'+_cx1+'" y="'+(padT+chartH+31)+'" text-anchor="middle" font-size="6.5" fill="rgba(26,26,24,.2)" font-family="IBM Plex Mono,monospace">'+(monthNames[mNum]||dp[1])+'</text>');
+      } else if(_showQ || n<=8){
+        parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="7" fill="rgba(26,26,24,.25)" font-family="IBM Plex Mono,monospace">'+dateLbl+'</text>');
+      }
+      return;
+    }
     var cx=padL+(i+0.5)*slotW;
     var _sdate=Array.isArray(s)?s[0]:s.date;
     var dp=_sdate.split('-');
