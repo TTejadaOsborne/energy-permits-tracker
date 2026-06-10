@@ -79,6 +79,16 @@ def extract_dso(ws, year, mes):
 def extract_ree(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
+    
+    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" en header (fila 8)
+    rdd_col_idx = None
+    header_row = list(ws.iter_rows(min_row=8, max_row=8, values_only=True))[0] if ws.max_row >= 8 else None
+    if header_row:
+        for i, cell in enumerate(header_row):
+            if cell and isinstance(cell, str) and "Capacidad de acceso disponible para MPE RdD" in cell:
+                rdd_col_idx = i
+                break
+    
     for row in ws.iter_rows(min_row=9, values_only=True):
         if not row or len(row) < 102: continue
         key = row[1]
@@ -87,9 +97,12 @@ def extract_ree(ws, year, mes):
         _gen_disp = to_float(row[44]) if len(row) > 44 else None
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
-        _cap_gen_RdD = to_float(row[33]) if len(row) > 33 else None
+        # Usar índice encontrado en header, fallback a columna BP (67) si no se encuentra
+        _cap_gen_RdD = None
+        if rdd_col_idx and len(row) > rdd_col_idx:
+            _cap_gen_RdD = to_float(row[rdd_col_idx])
         if _cap_gen_RdD is None and len(row) > 67:
-            _cap_gen_RdD = to_float(row[67])
+            _cap_gen_RdD = to_float(row[67])  # Fallback a BP para Monitorización
         entries[key] = {
             "date":         lbl,
             "cap_gen":      to_float(row[4]),
