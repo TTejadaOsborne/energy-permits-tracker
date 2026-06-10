@@ -333,7 +333,7 @@ def main():
     else:
         print(f"WARN: Monitor no encontrado en {excel_path}")
 
-    mapas_path = Path("Mapas_Capacidad_AyC-REE.xlsx")
+    mapas_path = Path("references") / "Mapas_Capacidad_AyC-REE.xlsx"
     if mapas_path.exists():
         print(f"Leyendo históricos REE: {mapas_path} ...")
         wb_mapas = openpyxl.load_workbook(mapas_path, read_only=False, data_only=True)
@@ -408,5 +408,4 @@ def main():
             json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
     print(f"\n✓ {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main_
