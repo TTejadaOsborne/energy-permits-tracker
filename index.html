@@ -5376,12 +5376,6 @@ function renderHistoryChart(key){
     for(var _ci=0;_ci<n;_ci++){
       parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
     }
-    for(var _ci=0;_ci<n;_ci++){
-      var _cx0=(padL+_ci*slotW).toFixed(1);
-      if(_ci!==_selIdx && _selIdx!==null){
-        parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,.55)"/>');
-      }
-    }
     // rects clickeables
     for(var _ci=0;_ci<n;_ci++){
       parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
