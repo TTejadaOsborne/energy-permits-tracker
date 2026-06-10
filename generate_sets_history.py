@@ -361,4 +361,4 @@ def main():
                                     # Merge: actualizar solo campos null
                                     for f in ("cap_gen_tram","acept","cap_gen_RdD"):
                                         if raw[key][snap["date"]][f] is None and snap[f] is not None:
-                                            raw[key][snap["date"]][f] =
+                                            raw[key][snap["date"]][f] = snap[f]
