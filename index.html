@@ -4838,6 +4838,9 @@ function setSdpMode(mode){
 function openSetDetail(key){
   if(!SETS_CAPACITY || !SETS_CAPACITY[key]) return;
   _sdpKey = key;
+  window._histSelMonthIdx = null;  // reset selector mensual al abrir un SET nuevo
+  var resetBtn0=document.getElementById('sdp-cap-reset');
+  if(resetBtn0) resetBtn0.style.display='none';
   var d = SETS_CAPACITY[key];
   var panel   = document.getElementById('set-detail-panel');
   var overlay = document.getElementById('set-detail-overlay');
