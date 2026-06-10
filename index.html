@@ -5372,9 +5372,7 @@ function renderHistoryChart(key){
     // rects clickeables
     for(var _ci=0;_ci<n;_ci++){
       parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
-    } else {
-      parts.push('');
-    }
+
   }
   for(var _ci=0;_ci<n;_ci++){
     parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
