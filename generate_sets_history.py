@@ -408,4 +408,5 @@ def main():
             json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
     print(f"\n✓ {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
 
-if __name__ == "__main_
+if __name__ == "__main__":
+    main()
