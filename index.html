@@ -5054,43 +5054,11 @@ function _renderSdpCapacity(key){
   // Fallback: dem ocupada from capacity JSON
   if(!isGen && !isAlm && ocup==null && d[7]!=null) ocup=d[7];
 
-  // Cap Total = disponible + ocupada (trámite aparte)
-  // Barras: proporcionales al total incluyendo trámite
-  var grandTotal = (disp||0) + (ocup||0) + (tram||0);
-  var total = (disp||0) + (ocup||0);  // para Cap Total y Utilización
-  var fmt   = fmtMW;
-  var wpct  = function(v){ return grandTotal > 0 && v!=null ? Math.min(100, (v/grandTotal)*100).toFixed(1)+'%' : '0%'; };
+  // Pintar barras del Panel de Capacidad (compartido con selector mensual)
+  window._paintCapBars(disp, ocup, tram, neta);
 
-  var dispEl = document.getElementById('sdp-bar-disp-mw');
-  var ocupEl = document.getElementById('sdp-bar-ocup-mw');
-  var tramEl = document.getElementById('sdp-bar-tram-mw');
-  var netaEl = document.getElementById('sdp-bar-neta-mw');
-  var dispFl = document.getElementById('sdp-bar-disp-fill');
-  var ocupFl = document.getElementById('sdp-bar-ocup-fill');
-  var tramFl = document.getElementById('sdp-bar-tram-fill');
-  var netaFl = document.getElementById('sdp-bar-neta-fill');
-  var totEl  = document.getElementById('sdp-sum-total');
-  var pctEl  = document.getElementById('sdp-sum-pct');
-  var acEl   = document.getElementById('sdp-sum-acept');
-
-  if(dispEl) dispEl.textContent = fmt(disp);
-  if(ocupEl) ocupEl.textContent = fmt(ocup);
-  if(tramEl) tramEl.textContent = fmt(tram);
-  if(netaEl) netaEl.textContent = fmt(neta);
-  if(dispFl) dispFl.style.width = wpct(disp);
-  if(ocupFl) ocupFl.style.width = wpct(ocup);
-  if(tramFl) tramFl.style.width = wpct(tram);
-  if(netaFl) netaFl.style.width = neta!=null ? wpct(Math.abs(neta)) : '0%';
-  if(netaFl) netaFl.style.background = (neta==null) ? '#9ca3af' : (neta<0 ? '#ef4444' : (neta<15 ? '#f59e0b' : '#22c55e'));
-  if(totEl)  totEl.textContent  = total > 0 ? total.toFixed(1)+' MW' : '— MW';  // disp+ocup
-
-  // Utilization = (ocup+tram) / total
-  // Utilización = ocupada / (disponible + ocupada)
-  var utilPct = total > 0 ? Math.round(((ocup||0)/total)*100) : 0;
-  var utilColor = utilPct > 80 ? '#ef4444' : utilPct > 50 ? '#f59e0b' : '#22c55e';
-  if(pctEl){ pctEl.textContent = total > 0 ? utilPct+'%' : '—%'; pctEl.style.color = utilColor; }
-
-  // Aceptabilidad
+  // Aceptabilidad (no varia por mes seleccionado, viene de SETS_CAPACITY)
+  var acEl = document.getElementById('sdp-sum-acept');
   var acept = d[8];
   if(acEl){
     acEl.textContent = acept!=null ? acept.toFixed(1)+' MW' : '—';
