@@ -53,7 +53,7 @@ def label(y, m): return f"{y:04d}-{m:02d}"
 def extract_dso(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
-    
+
     # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" y "MPE RdD" en headers (filas 4-5)
     rdd_col_idx = None
     acept_col_idx = None
@@ -68,7 +68,7 @@ def extract_dso(ws, year, mes):
                         acept_col_idx = i
             if rdd_col_idx or acept_col_idx:
                 break
-    
+
     for row in ws.iter_rows(min_row=6, values_only=True):
         if not row or len(row) < 27: continue
         key = row[10]
@@ -79,12 +79,12 @@ def extract_dso(ws, year, mes):
         _cap_gen_RdD = None
         if rdd_col_idx and len(row) > rdd_col_idx:
             _cap_gen_RdD = to_float(row[rdd_col_idx])
-        
+
         # acept: usar índice encontrado (columna K en Monitorización) o None
         _acept = None
         if acept_col_idx and len(row) > acept_col_idx:
             _acept = to_float(row[acept_col_idx])
-        
+
         entries[key] = {
             "date":         lbl,
             "cap_gen":      _cg,
@@ -332,25 +332,18 @@ def main():
         wb.close()
     else:
         print(f"WARN: Monitor no encontrado en {excel_path}")
-    
+
     mapas_path = Path("Mapas_Capacidad_AyC-REE.xlsx")
     if mapas_path.exists():
         print(f"Leyendo históricos REE: {mapas_path} ...")
         wb_mapas = openpyxl.load_workbook(mapas_path, read_only=False, data_only=True)
         for sheet_name in wb_mapas.sheetnames:
-            # Detectar si es una hoja histórica (ej: "1 septiembre 2023")
-            # Extraer fecha del nombre de la hoja
-            import datetime
             try:
-                # Intentar parsear nombre como fecha
-                date_obj = None
                 sheet_lower = sheet_name.lower().strip()
-                # Búsqueda simple: buscar mes en nombre
                 meses = {"enero":1,"febrero":2,"marzo":3,"abril":4,"mayo":5,"junio":6,
                         "julio":7,"agosto":8,"septiembre":9,"octubre":10,"noviembre":11,"diciembre":12}
                 for mes_name, mes_num in meses.items():
                     if mes_name in sheet_lower:
-                        # Extraer año (buscar número de 4 dígitos)
                         year_match = re.search(r'(202[0-9]|201[0-9])', sheet_name)
                         if year_match:
                             year = int(year_match.group(1))
@@ -361,4 +354,59 @@ def main():
                                     # Merge: actualizar solo campos null
                                     for f in ("cap_gen_tram","acept","cap_gen_RdD"):
                                         if raw[key][snap["date"]][f] is None and snap[f] is not None:
-                                            raw[key][snap["date"]][f] =
+                                            raw[key][snap["date"]][f] = snap[f]
+                                else:
+                                    raw[key][snap["date"]] = snap
+                        break
+            except:
+                pass
+        wb_mapas.close()
+    else:
+        print(f"WARN: Mapas_Capacidad_AyC-REE.xlsx no encontrado")
+
+    # 2) CSVs individuales DSO (solo generación, dem=null, 2021-2025)
+    if not args.no_csvs and refs_dir.exists():
+        print(f"\nLeyendo CSVs históricos en {refs_dir} ...")
+        build_from_csvs(refs_dir, raw)
+
+    if not raw:
+        print("ERROR: sin datos."); sys.exit(1)
+
+    history_objs = {k: sorted(v.values(), key=lambda s: s["date"]) for k, v in raw.items()}
+
+    # Stats
+    print(f"\n--- RESUMEN ---")
+    print(f"SETs únicos      : {len(history_objs):,}")
+    total_snaps = sum(len(v) for v in history_objs.values())
+    print(f"Snapshots totales: {total_snaps:,}")
+    all_dates = sorted({s["date"] for v in history_objs.values() for s in v})
+    print(f"Rango fechas     : {all_dates[0]} → {all_dates[-1]}")
+    has_dem = sum(1 for v in history_objs.values() if any(s["cap_dem"] is not None for s in v))
+    has_gen = sum(1 for v in history_objs.values() if any(s["cap_gen"] is not None for s in v))
+    print(f"SETs con cap_dem : {has_dem:,}")
+    print(f"SETs con cap_gen : {has_gen:,}")
+
+    # Formato compacto: arrays en vez de objetos
+    # [0]=date [1]=cap_gen [2]=cap_gen_ocup [3]=cap_gen_tram
+    # [4]=cap_dem [5]=cap_dem_ocup [6]=cap_dem_tram [7]=acept
+    # [8]=cap_gen_disp [9]=cap_gen_neta [10]=cap_dem_disp [11]=cap_dem_neta
+    # [12]=cap_gen_RdD
+    _FIELDS = ("date","cap_gen","cap_gen_ocup","cap_gen_tram",
+               "cap_dem","cap_dem_ocup","cap_dem_tram","acept",
+               "cap_gen_disp","cap_gen_neta","cap_dem_disp","cap_dem_neta","cap_gen_RdD")
+    history = {"_v": 2}
+    for k, snaps in history_objs.items():
+        history[k] = [[s[f] for f in _FIELDS] for s in snaps]
+
+    out = Path(args.out)
+    try:
+        import orjson
+        with open(out, "wb") as f:
+            f.write(orjson.dumps(history))
+    except ImportError:
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"\n✓ {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
+
+if __name__ == "__main__":
+    main()
