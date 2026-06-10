@@ -80,14 +80,16 @@ def extract_ree(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
     
-    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" en header (fila 8)
+    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" en header (fila 7)
     rdd_col_idx = None
-    header_row = list(ws.iter_rows(min_row=8, max_row=8, values_only=True))[0] if ws.max_row >= 8 else None
+    header_row = list(ws.iter_rows(min_row=7, max_row=7, values_only=True))[0] if ws.max_row >= 7 else None
     if header_row:
         for i, cell in enumerate(header_row):
-            if cell and isinstance(cell, str) and "Capacidad de acceso disponible para MPE RdD" in cell:
-                rdd_col_idx = i
-                break
+            if cell and isinstance(cell, str):
+                # Buscar exacto o parcial "MPE RdD" en el header
+                if "Capacidad de acceso disponible para MPE RdD" in cell or ("MPE RdD" in cell and "MGES" not in cell):
+                    rdd_col_idx = i
+                    break
     
     for row in ws.iter_rows(min_row=9, values_only=True):
         if not row or len(row) < 102: continue
