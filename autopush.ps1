@@ -19,9 +19,15 @@ $watchFiles = @(
     "parse_ree.py",
     "generate_sets_history.py",
     "generate_sets_capacity.py",
-    "references\ree_capacidad.csv"
+    "Monitor_Capacidad_Red_INTEGRADO_v4.xlsx",
+    "references\ree_capacidad.csv",
+    "references\Mapas_Capacidad_AyC-REE.xlsx",
+    "references\endesa_capacidad.csv",
+    "references\eredes_capacidad.csv",
+    "references\ide_capacidad.csv",
+    "references\ufd_capacidad.csv",
+    "references\viesgo_capacidad.csv"
 )
-
 Write-Host "Nodalys AutoPush activo" -ForegroundColor Green
 Write-Host "Vigilando $($watchFiles.Count) archivos en: $folder" -ForegroundColor Gray
 Write-Host "Pulsa Ctrl+C para detener`n" -ForegroundColor Gray
