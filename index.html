@@ -5361,12 +5361,17 @@ function renderHistoryChart(key){
     }
   });
 
-  // Capa de seleccion: atenua (degradado gris) los meses no seleccionados, resalta el activo
-  var _selIdx = (window._histSelMonthIdx!=null && window._histSelMonthIdx<n) ? window._histSelMonthIdx : (n-1);
-  for(var _ci=0;_ci<n;_ci++){
-    var _cx0=(padL+_ci*slotW).toFixed(1);
-    if(_ci!==_selIdx){
-      parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,.55)"/>');
+  // Capa de seleccion: dim todos excepto el seleccionado
+    var _selIdx = (window._histSelMonthIdx!=null && window._histSelMonthIdx<n) ? window._histSelMonthIdx : null;
+    for(var _ci=0;_ci<n;_ci++){
+      var _cx0=(padL+_ci*slotW).toFixed(1);
+      if(_ci!==_selIdx && _selIdx!==null){
+        parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,.55)"/>');
+      }
+    }
+    // rects clickeables
+    for(var _ci=0;_ci<n;_ci++){
+      parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
     } else {
       parts.push('');
     }
@@ -5417,6 +5422,14 @@ window._histSelectMonth=function(idx, _skipRerender){
 
   // Panel de Capacidad: pintar datos del mes seleccionado
   window._paintCapBars(src.disp, src.ocup, src.tram, src.neta);
+    // Actualizar Aceptabilidad: disponible - en trámite
+    var acEl = document.getElementById('sdp-sum-acept');
+    if(acEl && m){
+      var acept_val = src.disp != null && src.tram != null ? (src.disp - src.tram) : null;
+      acEl.textContent = acept_val != null ? acept_val.toFixed(1)+' MW' : '—';
+      acEl.style.color = acept_val != null && acept_val > 0 ? '#166534' : '#991b1b';
+    }
+    
   if(fechaEl) fechaEl.textContent = '· '+m.label;
 
   // Mostrar boton "volver al ultimo mes" si no es el ultimo
