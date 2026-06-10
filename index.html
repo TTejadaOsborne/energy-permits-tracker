@@ -5323,9 +5323,16 @@ function renderHistoryChart(key){
     }
   });
 
-  // Capa de seleccion (resaltado del mes activo) + zonas clicables
+  // Capa de seleccion: atenua (degradado gris) los meses no seleccionados, resalta el activo
   var _selIdx = (window._histSelMonthIdx!=null && window._histSelMonthIdx<n) ? window._histSelMonthIdx : (n-1);
-  parts.push('<rect id="sdp-hist-selrect" x="'+(padL+_selIdx*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(168,85,247,.06)" stroke="rgba(168,85,247,.25)" stroke-width="1"/>');
+  for(var _ci=0;_ci<n;_ci++){
+    var _cx0=(padL+_ci*slotW).toFixed(1);
+    if(_ci!==_selIdx){
+      parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,.55)"/>');
+    } else {
+      parts.push('<rect id="sdp-hist-selrect" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="none" stroke="rgba(26,26,24,.3)" stroke-width="1"/>');
+    }
+  }
   for(var _ci=0;_ci<n;_ci++){
     parts.push('<rect x="'+(padL+_ci*slotW).toFixed(1)+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="transparent" style="cursor:pointer" onclick="window._histSelectMonth('+_ci+')"/>');
   }
