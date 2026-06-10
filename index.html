@@ -1365,7 +1365,7 @@ const CONFIG = {
               <div class="sdp-cap-title">Panel de Capacidad <span id="sdp-cap-subtitle" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif">(Generación)</span></div>
               <div style="font-size:11px;color:rgba(26,26,24,.4);margin-top:3px;font-family:'Inter',sans-serif">Asignación y estado de la capacidad <span id="sdp-cap-fecha" style="color:rgba(26,26,24,.55);font-weight:500"></span></div>
             </div>
-            <button id="sdp-cap-reset" onclick="window._histSelectMonth(null)" style="display:none;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.55);background:rgba(26,26,24,.05);border:1px solid rgba(26,26,24,.1);border-radius:5px;padding:3px 9px;cursor:pointer;white-space:nowrap">Ver último mes ✕</button>
+            
           </div>
           <div style="display:flex;gap:20px;align-items:flex-start">
             <div style="flex:1;min-width:0">
@@ -5401,6 +5401,52 @@ function renderHistoryChart(key){
 }
 
 window._histSelectMonth=function(idx, _skipRerender){
+    var data=window._histMonthData;
+    var resetBtn=document.getElementById('sdp-cap-reset');
+    var fechaEl=document.getElementById('sdp-cap-fecha');
+    var n = data ? data.length : 0;
+    
+    // Toggle: si hace click en el mismo mes, deseleccionar
+    if(idx === window._histSelMonthIdx){
+      window._histSelMonthIdx = null;
+      if(resetBtn) resetBtn.style.display='none';
+      if(_sdpKey) _renderSdpCapacity(_sdpKey);
+      if(!_skipRerender) renderHistoryChart(_sdpKey);
+      return;
+    }
+    
+    if(idx===null || idx===undefined){
+      window._histSelMonthIdx=null;
+      if(resetBtn) resetBtn.style.display='none';
+      if(_sdpKey) _renderSdpCapacity(_sdpKey);
+      if(!_skipRerender) renderHistoryChart(_sdpKey);
+      return;
+    }
+    if(!data||!data[idx]) return;
+    window._histSelMonthIdx=idx;
+    var m=data[idx];
+    var src = window._histIsBoth
+      ? { disp:Math.min(m.gen.disp||0, m.dem.disp||0), ocup:Math.min(m.gen.ocup||0, m.dem.ocup||0), tram:Math.min(m.gen.tram||0, m.dem.tram||0), neta:m.gen.neta }
+      : (_sdpMode==='dem' ? m.dem : m.gen);
+    window._paintCapBars(src.disp, src.ocup, src.tram, src.neta);
+    // Actualizar Aceptabilidad: disponible - en trámite
+    var acEl = document.getElementById('sdp-sum-acept');
+    if(acEl && m){
+      var acept_val = src.disp != null && src.tram != null ? (src.disp - src.tram) : null;
+      acEl.textContent = acept_val != null ? acept_val.toFixed(1)+' MW' : '—';
+      acEl.style.color = acept_val != null && acept_val > 0 ? '#166534' : '#991b1b';
+    }
+    if(fechaEl) fechaEl.textContent = '· '+m.label;
+    if(resetBtn) resetBtn.style.display = 'none';
+    if(!_skipRerender){
+      var svg=document.getElementById('sdp-hist-svg');
+      if(svg){
+        svg.querySelectorAll('.sdp-hist-dim').forEach(function(el){
+          var di=parseInt(el.getAttribute('data-idx'),10);
+          el.setAttribute('display', di===idx ? 'none' : '');
+        });
+      }
+    }
   var data=window._histMonthData;
   var resetBtn=document.getElementById('sdp-cap-reset');
   var fechaEl=document.getElementById('sdp-cap-fecha');
