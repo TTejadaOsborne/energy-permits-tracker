@@ -130,6 +130,67 @@ def extract_ree(ws, year, mes):
         }
     return entries
 
+def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num):
+    """Extrae cap_gen_RdD y acept del archivo Mapas_Capacidad_AyC-REE.xlsx
+    usando los índices de columna específicos por mes/año."""
+
+    # Mapeo mes-año → sheet_name, rdd_col, tram_col
+    col_mapping = {
+        "2023-09": {"sheet": "1 septiembre 2023", "rdd_col": 33, "tram_col": 23},
+        "2023-03": {"sheet": "1 marzo 2023", "rdd_col": 29, "tram_col": 20},
+        "2022-10": {"sheet": "3 octubre 2022", "rdd_col": 29, "tram_col": 20},
+        "2024-05": {"sheet": "16 mayo 2024", "rdd_col": 34, "tram_col": 25},
+        "2025-02": {"sheet": "3 febrero 2025", "rdd_col": 56, "tram_col": 33}
+    }
+
+    date_key = f"{year:04d}-{mes_num:02d}"
+    entries = {}
+
+    # Si esta fecha está en el mapeo, usar esos índices
+    if date_key in col_mapping:
+        mapping = col_mapping[date_key]
+        if mapping["sheet"] not in wb_mapas.sheetnames:
+            return entries
+
+        ws = wb_mapas[mapping["sheet"]]
+        rdd_col = mapping["rdd_col"]
+        tram_col = mapping["tram_col"]
+
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row or len(row) < max(rdd_col, tram_col) + 1:
+                continue
+
+            # Primera columna = nombre de SET/subestación
+            key = row[0] if row[0] else None
+            if not key or not str(key).strip():
+                continue
+            key = str(key).strip()
+
+            cap_gen_rdd = to_float(row[rdd_col])
+            cap_gen_tram = to_float(row[tram_col])
+
+            # acept = cap_gen_RdD - cap_gen_tram (en trámite)
+            acept = None
+            if cap_gen_rdd is not None and cap_gen_tram is not None:
+                acept = round(cap_gen_rdd - cap_gen_tram, 4)
+
+            entries[key] = {
+                "date":         date_key,
+                "cap_gen":      None,
+                "cap_dem":      None,
+                "cap_gen_ocup": None,
+                "cap_gen_tram": cap_gen_tram,
+                "cap_dem_ocup": None,
+                "cap_dem_tram": None,
+                "cap_gen_disp": None,
+                "cap_gen_neta": None,
+                "cap_dem_disp": None,
+                "cap_dem_neta": None,
+                "acept":        acept,
+                "cap_gen_RdD":  cap_gen_rdd,
+            }
+
+    return entries
 
 def parse_special_sheet(wb, name):
     """Hojas 'REE Actual'/'REE Anterior'/'DSO Actual'/'DSO Anterior': el mes/año
@@ -300,59 +361,4 @@ def main():
                                     # Merge: actualizar solo campos null
                                     for f in ("cap_gen_tram","acept","cap_gen_RdD"):
                                         if raw[key][snap["date"]][f] is None and snap[f] is not None:
-                                            raw[key][snap["date"]][f] = snap[f]
-                                else:
-                                    raw[key][snap["date"]] = snap
-                        break
-            except:
-                pass
-        wb_mapas.close()
-    else:
-        print(f"WARN: Mapas_Capacidad_AyC-REE.xlsx no encontrado")
-
-    # 2) CSVs individuales DSO (solo generación, dem=null, 2021-2025)
-    if not args.no_csvs and refs_dir.exists():
-        print(f"\nLeyendo CSVs históricos en {refs_dir} ...")
-        build_from_csvs(refs_dir, raw)
-
-    if not raw:
-        print("ERROR: sin datos."); sys.exit(1)
-
-    history_objs = {k: sorted(v.values(), key=lambda s: s["date"]) for k, v in raw.items()}
-
-    # Stats
-    print(f"\n--- RESUMEN ---")
-    print(f"SETs únicos      : {len(history_objs):,}")
-    total_snaps = sum(len(v) for v in history_objs.values())
-    print(f"Snapshots totales: {total_snaps:,}")
-    all_dates = sorted({s["date"] for v in history_objs.values() for s in v})
-    print(f"Rango fechas     : {all_dates[0]} → {all_dates[-1]}")
-    has_dem = sum(1 for v in history_objs.values() if any(s["cap_dem"] is not None for s in v))
-    has_gen = sum(1 for v in history_objs.values() if any(s["cap_gen"] is not None for s in v))
-    print(f"SETs con cap_dem : {has_dem:,}")
-    print(f"SETs con cap_gen : {has_gen:,}")
-
-    # Formato compacto: arrays en vez de objetos
-    # [0]=date [1]=cap_gen [2]=cap_gen_ocup [3]=cap_gen_tram
-    # [4]=cap_dem [5]=cap_dem_ocup [6]=cap_dem_tram [7]=acept
-    # [8]=cap_gen_disp [9]=cap_gen_neta [10]=cap_dem_disp [11]=cap_dem_neta
-    # [12]=cap_gen_RdD
-    _FIELDS = ("date","cap_gen","cap_gen_ocup","cap_gen_tram",
-               "cap_dem","cap_dem_ocup","cap_dem_tram","acept",
-               "cap_gen_disp","cap_gen_neta","cap_dem_disp","cap_dem_neta","cap_gen_RdD")
-    history = {"_v": 2}
-    for k, snaps in history_objs.items():
-        history[k] = [[s[f] for f in _FIELDS] for s in snaps]
-
-    out = Path(args.out)
-    try:
-        import orjson
-        with open(out, "wb") as f:
-            f.write(orjson.dumps(history))
-    except ImportError:
-        with open(out, "w", encoding="utf-8") as f:
-            json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"\n✓ {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
-
-if __name__ == "__main__":
-    main()
+                                            raw[key][snap["date"]][f] =
