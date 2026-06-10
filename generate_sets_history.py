@@ -91,9 +91,7 @@ def extract_ree(ws, year, mes):
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
         # Usar índice encontrado en header, fallback a columna BP (67) si no se encuentra
-        _cap_gen_RdD = None
-        if rdd_col_idx and len(row) > rdd_col_idx:
-            _cap_gen_RdD = to_float(row[rdd_col_idx])
+        _cap_gen_RdD = None            _cap_gen_RdD = to_float(row[rdd_col_idx])
         if _cap_gen_RdD is None and len(row) > 67:
             _cap_gen_RdD = to_float(row[67])  # Fallback a BP para Monitorización
         entries[key] = {
