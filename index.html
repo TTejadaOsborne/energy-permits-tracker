@@ -5446,20 +5446,7 @@ window._histSelectMonth=function(idx, _skipRerender){
     if(fechaEl) fechaEl.textContent = '· '+m.label;
     if(resetBtn) resetBtn.style.display = 'none';
     if(!_skipRerender){
-      var svg=document.getElementById('sdp-hist-svg');
-      if(svg){
-        svg.querySelectorAll('.sdp-hist-dim').forEach(function(el){
-          var di=parseInt(el.getAttribute('data-idx'),10);
-          if(di === idx){
-            el.setAttribute('display', 'none');
-          } else {
-            // Aplicar degradado de opacidad
-            var opacity = 0.15 + (di / n) * 0.4;
-            el.setAttribute('fill', 'rgba(255,255,255,'+opacity.toFixed(2)+')');
-            el.setAttribute('display', '');
-          }
-        });
-      }
+      renderHistoryChart(_sdpKey);
     }
   var data=window._histMonthData;
   var resetBtn=document.getElementById('sdp-cap-reset');
