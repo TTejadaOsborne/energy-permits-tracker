@@ -5427,7 +5427,7 @@ window._histSelectMonth=function(idx, _skipRerender){
     window._histSelMonthIdx=idx;
     var m=data[idx];
     var src = window._histIsBoth
-      ? { disp:Math.min(m.gen.disp||0, m.dem.disp||0), ocup:Math.min(m.gen.ocup||0, m.dem.ocup||0), tram:Math.min(m.gen.tram||0, m.dem.tram||0), neta:m.gen.neta, disp_bruta:m.gen.disp_bruta }
+      ? { disp:Math.min(m.gen.disp||0, m.dem.disp||0), ocup:Math.min(m.gen.ocup||0, m.dem.ocup||0), tram:Math.min(m.gen.tram||0, m.dem.tram||0), neta:m.gen.neta, cap_gen_RdD:m.gen.cap_gen_RdD }
       : (_sdpMode==='dem' ? m.dem : m.gen);
     window._paintCapBars(src.disp, src.ocup, src.tram, src.neta);
     // Actualizar Aceptabilidad: disponible - en trámite
