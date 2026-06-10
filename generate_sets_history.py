@@ -91,10 +91,8 @@ def extract_ree(ws, year, mes):
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
         # Usar índice encontrado en header, fallback a columna BP (67) si no se encuentra
-        _cap_gen_RdD = None            _cap_gen_RdD = to_float(row[rdd_col_idx])
-        if _cap_gen_RdD is None and len(row) > 67:
-            _cap_gen_RdD = to_float(row[67])  # Fallback a BP para Monitorización
-        entries[key] = {
+        _cap_gen_RdD = None
+        # cap_gen_RdD will be populated from DSO sheets
             "date":         lbl,
             "cap_gen":      to_float(row[4]),
             "cap_dem":      _cd,
