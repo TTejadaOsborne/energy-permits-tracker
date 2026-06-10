@@ -5361,14 +5361,13 @@ function renderHistoryChart(key){
     }
   });
 
-    // Capa de seleccion: degradado en no-seleccionados, sin resalte especial para último mes
+    // Capa de seleccion: color uniforme claro para no-seleccionados
     var _selIdx = (window._histSelMonthIdx!=null && window._histSelMonthIdx<n) ? window._histSelMonthIdx : null;
     if(_selIdx !== null){
       for(var _ci=0;_ci<n;_ci++){
         var _cx0=(padL+_ci*slotW).toFixed(1);
         if(_ci !== _selIdx){
-          var opacity = 0.15 + (_ci / n) * 0.4;  // degradado progresivo
-          parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,'+opacity.toFixed(2)+')"/>');
+          parts.push('<rect class="sdp-hist-dim" data-idx="'+_ci+'" x="'+_cx0+'" y="'+padT.toFixed(1)+'" width="'+slotW.toFixed(1)+'" height="'+chartH.toFixed(1)+'" fill="rgba(255,255,255,.55)"/>');
         }
       }
     }
