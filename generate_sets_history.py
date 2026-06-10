@@ -102,11 +102,31 @@ def extract_ree(ws, year, mes):
         }
     return entries
 
+def parse_special_sheet(wb, name):
+    """Hojas 'REE Actual'/'REE Anterior'/'DSO Actual'/'DSO Anterior': el mes/año
+    se leen de la celda B3 (datetime)."""
+    if name not in ("REE Actual","REE Anterior","DSO Actual","DSO Anterior"):
+        return None
+    tipo = "REE" if name.startswith("REE") else "DSO"
+    b3 = wb[name]["B3"].value
+    if b3 is None: return None
+    try:
+        year, mes = b3.year, b3.month
+    except AttributeError:
+        return None
+    return (tipo, year, mes)
+
 def build_from_monitor(wb, raw):
     """Lee hojas DSO Xxx / REE Xxx del Monitor y puebla raw."""
     hist = [(y,m,t,n) for n in wb.sheetnames
             for res in [parse_sheet(n)] if res
             for t,y,m in [res]]
+    # Hojas "Actual"/"Anterior": mes/año vienen de B3
+    for n in wb.sheetnames:
+        res = parse_special_sheet(wb, n)
+        if res:
+            t,y,m = res
+            hist.append((y,m,t,n))
     if not hist:
         print("  Sin hojas históricas en el Monitor."); return
     hist.sort(key=lambda x:(x[0],x[1]))
