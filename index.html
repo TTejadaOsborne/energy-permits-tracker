@@ -4980,6 +4980,47 @@ function openSetDetail(key){
   overlay.classList.add('open');
 }
 
+// Pinta las 4 barras del Panel de Capacidad (Disponible/Ocupada/En tramite/Neta)
+// y los resumenes Cap.Total / Utilizacion. Reutilizado por _renderSdpCapacity (ultimo
+// mes) y por _histSelectMonth (mes elegido en el grafico de Evolucion Historica).
+window._paintCapBars=function(disp, ocup, tram, neta){
+  var grandTotal = (disp||0) + (ocup||0) + (tram||0);
+  var total = (disp||0) + (ocup||0);  // para Cap Total y Utilizacion
+  var fmt   = fmtMW;
+  var wpct  = function(v){ return grandTotal > 0 && v!=null ? Math.min(100, (v/grandTotal)*100).toFixed(1)+'%' : '0%'; };
+
+  var dispEl = document.getElementById('sdp-bar-disp-mw');
+  var ocupEl = document.getElementById('sdp-bar-ocup-mw');
+  var tramEl = document.getElementById('sdp-bar-tram-mw');
+  var netaEl = document.getElementById('sdp-bar-neta-mw');
+  var dispFl = document.getElementById('sdp-bar-disp-fill');
+  var ocupFl = document.getElementById('sdp-bar-ocup-fill');
+  var tramFl = document.getElementById('sdp-bar-tram-fill');
+  var netaFl = document.getElementById('sdp-bar-neta-fill');
+  var totEl  = document.getElementById('sdp-sum-total');
+  var pctEl  = document.getElementById('sdp-sum-pct');
+
+  if(dispEl) dispEl.textContent = fmt(disp);
+  if(ocupEl) ocupEl.textContent = fmt(ocup);
+  if(tramEl) tramEl.textContent = fmt(tram);
+  if(netaEl){
+    netaEl.textContent = fmt(neta);
+    netaEl.style.color = (neta==null) ? '' : (neta<0 ? '#ef4444' : (neta<15 ? '#f59e0b' : '#16a34a'));
+  }
+  if(dispFl) dispFl.style.width = wpct(disp);
+  if(ocupFl) ocupFl.style.width = wpct(ocup);
+  if(tramFl) tramFl.style.width = wpct(tram);
+  if(netaFl) netaFl.style.width = neta!=null ? wpct(Math.abs(neta)) : '0%';
+  // Colores "claros" para Neta, distintos de Disponible/En tramite
+  if(netaFl) netaFl.style.background = (neta==null) ? '#d1d5db' : (neta<0 ? '#fca5a5' : (neta<15 ? '#fde68a' : '#bbf7d0'));
+  if(totEl)  totEl.textContent  = total > 0 ? total.toFixed(1)+' MW' : '— MW';  // disp+ocup
+
+  // Utilizacion = ocupada / (disponible + ocupada)
+  var utilPct = total > 0 ? Math.round(((ocup||0)/total)*100) : 0;
+  var utilColor = utilPct > 80 ? '#ef4444' : utilPct > 50 ? '#f59e0b' : '#22c55e';
+  if(pctEl){ pctEl.textContent = total > 0 ? utilPct+'%' : '—%'; pctEl.style.color = utilColor; }
+};
+
 function _renderSdpCapacity(key){
   if(!SETS_CAPACITY || !SETS_CAPACITY[key]) return;
   var d = SETS_CAPACITY[key];
