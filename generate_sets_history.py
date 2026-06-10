@@ -87,7 +87,9 @@ def extract_ree(ws, year, mes):
         _gen_disp = to_float(row[44]) if len(row) > 44 else None
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
-        _gen_RdD = to_float(row[67]) if len(row) > 67 else None  # columna BP (índice 67)
+        _cap_gen_RdD = to_float(row[29]) if len(row) > 29 else None
+        if _cap_gen_RdD is None and len(row) > 67:
+            _cap_gen_RdD = to_float(row[67])
         entries[key] = {
             "date":         lbl,
             "cap_gen":      to_float(row[4]),
@@ -101,7 +103,7 @@ def extract_ree(ws, year, mes):
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
             "acept":        to_float(row[10]),
-            "cap_gen_RdD":  _gen_RdD,
+            "cap_gen_RdD":  _cap_gen_RdD,
         }
     return entries
 
