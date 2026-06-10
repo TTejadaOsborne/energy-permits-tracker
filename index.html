@@ -5017,7 +5017,11 @@ window._paintCapBars=function(disp, ocup, tram, neta){
   if(tramFl) tramFl.style.width = wpct(tram);
   if(netaFl) netaFl.style.width = neta!=null ? wpct(Math.abs(neta)) : '0%';
   // Colores "claros" para Neta, distintos de Disponible/En tramite
-  if(netaFl) netaFl.style.background = (neta==null) ? '#d1d5db' : (neta<0 ? '#fca5a5' : (neta<15 ? '#fde68a' : '#bbf7d0'));
+  if(netaFl){
+       var netaColor = (neta==null) ? '#d1d5db' : (neta<0 ? '#dc2626' : (neta<15 ? '#ea580c' : '#16a34a'));
+       netaFl.style.background = netaColor;
+       netaFl.style.boxShadow = neta!=null ? '0 0 8px '+netaColor+'40' : 'none';
+     }
   if(totEl)  totEl.textContent  = total > 0 ? total.toFixed(1)+' MW' : '— MW';  // disp+ocup
 
   // Utilizacion = ocupada / (disponible + ocupada)
