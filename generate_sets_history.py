@@ -222,6 +222,8 @@ def build_from_csvs(refs_dir, raw):
             cap_gen_ocup = to_float(r["cap_gen_ocup"]) if has_ocup else None
             cap_gen_tram = to_float(r["cap_gen_tram"]) if has_tram else None
             cap_gen_disp = to_float(r["disponible_bruta"]) if has_disp else None
+            _cap_gen_RdD = cap_gen  # En CSVs, disponible_neta es cap_gen_RdD
+            _acept = (cap_gen - cap_gen_tram) if (cap_gen is not None and cap_gen_tram is not None) else None
             snap = {
                 "date":         lbl,
                 "cap_gen":      cap_gen,
@@ -234,8 +236,8 @@ def build_from_csvs(refs_dir, raw):
                 "cap_gen_neta": cap_gen,
                 "cap_dem_disp": None,
                 "cap_dem_neta": None,
-                "acept":        None,
-                "cap_gen_RdD":  None,
+                "acept":        _acept,
+                "cap_gen_RdD":  _cap_gen_RdD,
             }
             if key not in raw: raw[key] = {}
             raw[key][lbl] = snap
