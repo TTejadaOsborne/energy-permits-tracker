@@ -5122,23 +5122,27 @@ function renderHistoryChart(key){
   // Unified y-axis from gen+dem
   var maxTotal = 0;
   var _s = function(e,nm,i){ return Array.isArray(e)?e[i]:e[nm]; };
+  // Solo sumar segmentos positivos (los negativos no se dibujan, ver drawBar/visSegs)
+  var _pos = function(v){ return (v>0) ? v : 0; };
   snaps.forEach(function(s){
-    var tg=(_s(s,'cap_gen',1)||0)+(_s(s,'cap_gen_ocup',2)||0)+(_s(s,'cap_gen_tram',3)||0);
-    var td=(_s(s,'cap_dem',4)||0)+(_s(s,'cap_dem_ocup',5)||0)+(_s(s,'cap_dem_tram',6)||0);
+    var tg=_pos(_s(s,'cap_gen',1))+_pos(_s(s,'cap_gen_ocup',2))+_pos(_s(s,'cap_gen_tram',3));
+    var td=_pos(_s(s,'cap_dem',4))+_pos(_s(s,'cap_dem_ocup',5))+_pos(_s(s,'cap_dem_tram',6));
     if(tg>maxTotal) maxTotal=tg; if(td>maxTotal) maxTotal=td;
   });
   if(maxTotal===0) maxTotal=1;
 
-  // Nice rounded y-axis
-  function niceMax(v){
+  // Eje Y con margen y pasos redondos (10/20/25/50/100/200/250/500...)
+  var nSteps = 5;
+  function niceStep(v){
     if(!v||v<=0) return 10;
-    v*=1.12;
-    var mag=Math.pow(10,Math.floor(Math.log10(v)));
-    var norm=v/mag;
-    var nice=norm<=1.5?1.5:norm<=2?2:norm<=2.5?2.5:norm<=3?3:norm<=4?4:norm<=5?5:norm<=7?7:10;
+    var target = (v*1.12)/nSteps;
+    var mag = Math.pow(10, Math.floor(Math.log10(target)));
+    var norm = target/mag;
+    var nice = norm<=1?1:norm<=2?2:norm<=2.5?2.5:norm<=5?5:10;
     return nice*mag;
   }
-  var yMax = niceMax(maxTotal);
+  var yStep = niceStep(maxTotal);
+  var yMax  = yStep*nSteps;
 
   // Thin stylized bars
   var slotW = chartW/n;
@@ -5151,11 +5155,10 @@ function renderHistoryChart(key){
   // Chart background: white (no shading)
 
   // Grid + y-labels (5 steps, rounded values)
-  var nSteps = 5;
   for(var yi=0;yi<=nSteps;yi++){
     var frac=yi/nSteps;
     var yy=padT+chartH-frac*chartH;
-    var val=Math.round(frac*yMax);
+    var val=Math.round(yi*yStep);
     var lbl=val>=10000?(val/1000).toFixed(0)+'k':val>=1000?(val/1000).toFixed(1)+'k':val.toString();
     parts.push('<line x1="'+padL+'" y1="'+yy.toFixed(1)+'" x2="'+(padL+chartW)+'" y2="'+yy.toFixed(1)+'" stroke="rgba(26,26,24,.07)" stroke-width="0.8"/>');
     parts.push('<text x="'+(padL-4)+'" y="'+(yy+3).toFixed(1)+'" text-anchor="end" font-size="7.5" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+lbl+' MW</text>');
