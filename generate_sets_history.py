@@ -79,9 +79,6 @@ def extract_dso(ws, year, mes):
 def extract_ree(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
-    
-    # TODO: cap_gen_RdD se buscará en hojas DSO, no REE
-    
     for row in ws.iter_rows(min_row=9, values_only=True):
         if not row or len(row) < 102: continue
         key = row[1]
@@ -90,9 +87,7 @@ def extract_ree(ws, year, mes):
         _gen_disp = to_float(row[44]) if len(row) > 44 else None
         _gen_tram = to_float(row[40])
         _cd = to_float(row[7])
-        # Usar índice encontrado en header, fallback a columna BP (67) si no se encuentra
-        _cap_gen_RdD = None
-        # cap_gen_RdD will be populated from DSO sheets
+        entries[key] = {
             "date":         lbl,
             "cap_gen":      to_float(row[4]),
             "cap_dem":      _cd,
@@ -105,9 +100,10 @@ def extract_ree(ws, year, mes):
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
             "acept":        to_float(row[10]),
-            "cap_gen_RdD":  _cap_gen_RdD,
+            "cap_gen_RdD":  None,
         }
     return entries
+
 
 def parse_special_sheet(wb, name):
     """Hojas 'REE Actual'/'REE Anterior'/'DSO Actual'/'DSO Anterior': el mes/año
