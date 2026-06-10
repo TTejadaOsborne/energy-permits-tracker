@@ -249,59 +249,6 @@ def build_from_csvs(refs_dir, raw):
     print(f"  Total desde CSVs individuales: +{total_added} snapshots")
 
 
-def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes):
-    """Lee datos del archivo Mapas_Capacidad_AyC-REE.xlsx buscando columnas por header."""
-    entries = {}
-    lbl = label(year, mes)
-    
-    if sheet_name not in wb_mapas.sheetnames:
-        return entries
-    
-    ws = wb_mapas[sheet_name]
-    
-    # Buscar índices de columnas por header (fila 5)
-    rdd_col_idx = None
-    tram_col_idx = None
-    header_row = list(ws.iter_rows(min_row=5, max_row=5, values_only=True))[0] if ws.max_row >= 5 else None
-    
-    if header_row:
-        for i, cell in enumerate(header_row):
-            if cell and isinstance(cell, str):
-                if "Capacidad de acceso disponible para MPE RdD" in cell and rdd_col_idx is None:
-                    rdd_col_idx = i
-                if "Capacidad de acceso solicitada en curso y pendiente resolver MPE" in cell and tram_col_idx is None:
-                    tram_col_idx = i
-    
-    # Leer datos (filas comienzan en 6 típicamente)
-    for row in ws.iter_rows(min_row=6, values_only=True):
-        if not row or len(row) < 2: continue
-        # Asumir que columna B (índice 1) es la subestación
-        key = row[1] if len(row) > 1 else None
-        if not key or not str(key).strip(): continue
-        key = str(key).strip()
-        
-        _cap_gen_RdD = to_float(row[rdd_col_idx]) if rdd_col_idx and len(row) > rdd_col_idx else None
-        _tram = to_float(row[tram_col_idx]) if tram_col_idx and len(row) > tram_col_idx else None
-        _acept = (_cap_gen_RdD - _tram) if (_cap_gen_RdD is not None and _tram is not None) else None
-        
-        entries[key] = {
-            "date":         lbl,
-            "cap_gen":      None,
-            "cap_dem":      None,
-            "cap_gen_ocup": None,
-            "cap_gen_tram": _tram,
-            "cap_dem_ocup": None,
-            "cap_dem_tram": None,
-            "cap_gen_disp": None,
-            "cap_gen_neta": None,
-            "cap_dem_disp": None,
-            "cap_dem_neta": None,
-            "acept":        _acept,
-            "cap_gen_RdD":  _cap_gen_RdD,
-        }
-    
-    return entries
-
 
 def main():
     parser = argparse.ArgumentParser()
@@ -325,7 +272,6 @@ def main():
     else:
         print(f"WARN: Monitor no encontrado en {excel_path}")
     
-    # 1b) Mapas_Capacidad_AyC-REE.xlsx (históricos REE con Aceptabilidad)
     mapas_path = Path("Mapas_Capacidad_AyC-REE.xlsx")
     if mapas_path.exists():
         print(f"Leyendo históricos REE: {mapas_path} ...")
