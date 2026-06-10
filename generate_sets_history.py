@@ -72,6 +72,7 @@ def extract_dso(ws, year, mes):
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
             "acept":        None,
+            "cap_gen_RdD":  None,
         }
     return entries
 
@@ -99,6 +100,7 @@ def extract_ree(ws, year, mes):
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
             "acept":        to_float(row[10]),
+            "cap_gen_RdD":  None,
         }
     return entries
 
@@ -206,6 +208,7 @@ def build_from_csvs(refs_dir, raw):
                 "cap_dem_disp": None,
                 "cap_dem_neta": None,
                 "acept":        None,
+                "cap_gen_RdD":  None,
             }
             if key not in raw: raw[key] = {}
             raw[key][lbl] = snap
@@ -264,9 +267,10 @@ def main():
     # [0]=date [1]=cap_gen [2]=cap_gen_ocup [3]=cap_gen_tram
     # [4]=cap_dem [5]=cap_dem_ocup [6]=cap_dem_tram [7]=acept
     # [8]=cap_gen_disp [9]=cap_gen_neta [10]=cap_dem_disp [11]=cap_dem_neta
+    # [12]=cap_gen_RdD
     _FIELDS = ("date","cap_gen","cap_gen_ocup","cap_gen_tram",
                "cap_dem","cap_dem_ocup","cap_dem_tram","acept",
-               "cap_gen_disp","cap_gen_neta","cap_dem_disp","cap_dem_neta")
+               "cap_gen_disp","cap_gen_neta","cap_dem_disp","cap_dem_neta","cap_gen_RdD")
     history = {"_v": 2}
     for k, snaps in history_objs.items():
         history[k] = [[s[f] for f in _FIELDS] for s in snaps]
