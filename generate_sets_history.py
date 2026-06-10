@@ -324,6 +324,45 @@ def main():
         wb.close()
     else:
         print(f"WARN: Monitor no encontrado en {excel_path}")
+    
+    # 1b) Mapas_Capacidad_AyC-REE.xlsx (históricos REE con Aceptabilidad)
+    mapas_path = Path("Mapas_Capacidad_AyC-REE.xlsx")
+    if mapas_path.exists():
+        print(f"Leyendo históricos REE: {mapas_path} ...")
+        wb_mapas = openpyxl.load_workbook(mapas_path, read_only=False, data_only=True)
+        for sheet_name in wb_mapas.sheetnames:
+            # Detectar si es una hoja histórica (ej: "1 septiembre 2023")
+            # Extraer fecha del nombre de la hoja
+            import datetime
+            try:
+                # Intentar parsear nombre como fecha
+                date_obj = None
+                sheet_lower = sheet_name.lower().strip()
+                # Búsqueda simple: buscar mes en nombre
+                meses = {"enero":1,"febrero":2,"marzo":3,"abril":4,"mayo":5,"junio":6,
+                        "julio":7,"agosto":8,"septiembre":9,"octubre":10,"noviembre":11,"diciembre":12}
+                for mes_name, mes_num in meses.items():
+                    if mes_name in sheet_lower:
+                        # Extraer año (buscar número de 4 dígitos)
+                        year_match = re.search(r'(202[0-9]|201[0-9])', sheet_name)
+                        if year_match:
+                            year = int(year_match.group(1))
+                            entries = extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num)
+                            for key, snap in entries.items():
+                                if key not in raw: raw[key] = {}
+                                if snap["date"] in raw[key]:
+                                    # Merge: actualizar solo campos null
+                                    for f in ("cap_gen_tram","acept","cap_gen_RdD"):
+                                        if raw[key][snap["date"]][f] is None and snap[f] is not None:
+                                            raw[key][snap["date"]][f] = snap[f]
+                                else:
+                                    raw[key][snap["date"]] = snap
+                        break
+            except:
+                pass
+        wb_mapas.close()
+    else:
+        print(f"WARN: Mapas_Capacidad_AyC-REE.xlsx no encontrado")
 
     # 2) CSVs individuales DSO (solo generación, dem=null, 2021-2025)
     if not args.no_csvs and refs_dir.exists():
