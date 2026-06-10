@@ -54,17 +54,20 @@ def extract_dso(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
     
-    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" en header (fila 5)
+    # Buscar índice de columna "Capacidad de acceso disponible para MPE RdD" y "MPE RdD" en headers (filas 4-5)
     rdd_col_idx = None
     acept_col_idx = None
-    header_row = list(ws.iter_rows(min_row=5, max_row=5, values_only=True))[0] if ws.max_row >= 5 else None
-    if header_row:
-        for i, cell in enumerate(header_row):
-            if cell and isinstance(cell, str):
-                if "Capacidad de acceso disponible para MPE RdD" in cell:
-                    rdd_col_idx = i
-                if "MPE RdD" in cell and "MGES" not in cell and acept_col_idx is None:
-                    acept_col_idx = i
+    for header_row_num in [5, 4]:  # Buscar en fila 5 primero, luego fila 4
+        header_row = list(ws.iter_rows(min_row=header_row_num, max_row=header_row_num, values_only=True))[0] if ws.max_row >= header_row_num else None
+        if header_row:
+            for i, cell in enumerate(header_row):
+                if cell and isinstance(cell, str):
+                    if "Capacidad de acceso disponible para MPE RdD" in cell and rdd_col_idx is None:
+                        rdd_col_idx = i
+                    if "MPE RdD" in cell and "MGES" not in cell and acept_col_idx is None:
+                        acept_col_idx = i
+            if rdd_col_idx or acept_col_idx:
+                break
     
     for row in ws.iter_rows(min_row=6, values_only=True):
         if not row or len(row) < 27: continue
