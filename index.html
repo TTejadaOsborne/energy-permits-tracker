@@ -4833,6 +4833,8 @@ function setSdpMode(mode){
   document.getElementById('sdp-btn-both').classList.toggle('active', mode==='both');
   if(_sdpKey) _renderSdpCapacity(_sdpKey);
   if(_sdpKey) renderHistoryChart(_sdpKey);
+  // Si habia un mes seleccionado, recalcular sus valores con el nuevo modo (Gen/Dem/Alm)
+  if(_sdpKey && window._histSelMonthIdx!=null) window._histSelectMonth(window._histSelMonthIdx, true);
 }
 
 function openSetDetail(key){
