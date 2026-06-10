@@ -5371,8 +5371,8 @@ window._histSelectMonth=function(idx, _skipRerender){
   if(idx===null || idx===undefined){
     window._histSelMonthIdx=null;
     if(resetBtn) resetBtn.style.display='none';
-    if(window._sdpKey) _renderSdpCapacity(window._sdpKey);
-    if(!_skipRerender) renderHistoryChart(window._sdpKey);
+    if(_sdpKey) _renderSdpCapacity(_sdpKey);
+    if(!_skipRerender) renderHistoryChart(_sdpKey);
     return;
   }
 
