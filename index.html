@@ -1363,8 +1363,9 @@ const CONFIG = {
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px">
             <div>
               <div class="sdp-cap-title">Panel de Capacidad <span id="sdp-cap-subtitle" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif">(Generación)</span></div>
-              <div style="font-size:11px;color:rgba(26,26,24,.4);margin-top:3px;font-family:'Inter',sans-serif">Asignación y estado actual de la capacidad <span id="sdp-cap-fecha" style="color:rgba(26,26,24,.55);font-weight:500"></span></div>
+              <div style="font-size:11px;color:rgba(26,26,24,.4);margin-top:3px;font-family:'Inter',sans-serif">Asignación y estado de la capacidad <span id="sdp-cap-fecha" style="color:rgba(26,26,24,.55);font-weight:500"></span></div>
             </div>
+            <button id="sdp-cap-reset" onclick="window._histSelectMonth(null)" style="display:none;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.55);background:rgba(26,26,24,.05);border:1px solid rgba(26,26,24,.1);border-radius:5px;padding:3px 9px;cursor:pointer;white-space:nowrap">Ver último mes ✕</button>
           </div>
           <div style="display:flex;gap:20px;align-items:flex-start">
             <div style="flex:1;min-width:0">
@@ -1420,13 +1421,6 @@ const CONFIG = {
           <div>
             <div class="sdp-hist-title2">Evolución Histórica <span id="sdp-hist-mode-lbl" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif"></span></div>
             <div class="sdp-hist-sub" id="sdp-hist-period">—</div>
-          </div>
-          <div id="sdp-hist-month-panel" style="display:flex;gap:14px;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(26,26,24,.5);flex-wrap:wrap">
-            <span id="sdp-hmp-date" style="font-weight:700;color:#1a1a18;font-size:11px">—</span>
-            <span><span style="display:inline-block;width:7px;height:7px;border-radius:1.5px;background:#22c55e;margin-right:3px"></span>Disp: <b id="sdp-hmp-disp">—</b></span>
-            <span><span style="display:inline-block;width:7px;height:7px;border-radius:1.5px;background:#3b82f6;margin-right:3px"></span>Ocup: <b id="sdp-hmp-ocup">—</b></span>
-            <span><span style="display:inline-block;width:7px;height:7px;border-radius:1.5px;background:#f59e0b;margin-right:3px"></span>Trám: <b id="sdp-hmp-tram">—</b></span>
-            <span><span style="display:inline-block;width:7px;height:7px;border-radius:1.5px;background:#9ca3af;margin-right:3px"></span>Neta: <b id="sdp-hmp-neta">—</b></span>
           </div>
         </div>
         <div style="position:relative">
