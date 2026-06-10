@@ -1363,7 +1363,7 @@ const CONFIG = {
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px">
             <div>
               <div class="sdp-cap-title">Panel de Capacidad <span id="sdp-cap-subtitle" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif">(Generación)</span></div>
-              <div style="font-size:11px;color:rgba(26,26,24,.4);margin-top:3px;font-family:'Inter',sans-serif">Asignación y estado actual de la capacidad</div>
+              <div style="font-size:11px;color:rgba(26,26,24,.4);margin-top:3px;font-family:'Inter',sans-serif">Asignación y estado actual de la capacidad <span id="sdp-cap-fecha" style="color:rgba(26,26,24,.55);font-weight:500"></span></div>
             </div>
           </div>
           <div style="display:flex;gap:20px;align-items:flex-start">
@@ -1388,6 +1388,13 @@ const CONFIG = {
                   <div class="sdp-cap-bar-mw" id="sdp-bar-tram-mw">— MW</div>
                 </div>
                 <div class="sdp-cap-bar-track"><div class="sdp-cap-bar-fill" id="sdp-bar-tram-fill" style="background:#f59e0b;width:0%"></div></div>
+              </div>
+              <div class="sdp-cap-bar-wrap">
+                <div class="sdp-cap-bar-lbl">
+                  <div class="sdp-cap-bar-name"><div class="sdp-cap-bar-dot" style="background:#a855f7"></div>Neta</div>
+                  <div class="sdp-cap-bar-mw" id="sdp-bar-neta-mw">— MW</div>
+                </div>
+                <div class="sdp-cap-bar-track"><div class="sdp-cap-bar-fill" id="sdp-bar-neta-fill" style="background:#a855f7;width:0%"></div></div>
               </div>
             </div>
             <div style="min-width:130px;flex-shrink:0;border-left:1px solid rgba(26,26,24,.07);padding-left:16px;padding-top:2px">
@@ -1423,6 +1430,7 @@ const CONFIG = {
           <div class="sdp-hist-leg2"><div class="sdp-hist-leg2-dot" style="background:#22c55e"></div>Disponible (MW)</div>
           <div class="sdp-hist-leg2"><div class="sdp-hist-leg2-dot" style="background:#3b82f6"></div>Ocupada (MW)</div>
           <div class="sdp-hist-leg2"><div class="sdp-hist-leg2-dot" style="background:#f59e0b"></div>En trámite (MW)</div>
+          <div class="sdp-hist-leg2"><div class="sdp-hist-leg2-dot" style="background:#a855f7"></div>Neta (MW)</div>
         </div>
       </div>
 
@@ -4984,7 +4992,7 @@ function _renderSdpCapacity(key){
   if(subtitleEl) subtitleEl.textContent = isAlm?'(Almacenamiento)':isGen?'(Generación)':'(Demanda)';
   if(modeLblEl)  modeLblEl.textContent  = isAlm?'de Almacenamiento':isGen?'de Generación':'de Demanda';
 
-  var disp=null, ocup=null, tram=null;
+  var disp=null, ocup=null, tram=null, neta=null;
 
   // Get base disponible from capacity JSON
   var genDisp = d.length>15 ? d[15] : null;
@@ -4997,29 +5005,48 @@ function _renderSdpCapacity(key){
     disp = isGen ? genDisp : demDisp;
   }
 
-  // Get ocupada/tramite from latest history snapshot
+  // Mes/fecha de los datos mostrados (último snapshot histórico disponible)
+  var fechaEl = document.getElementById('sdp-cap-fecha');
+  var monthNamesFull=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+  // Get ocupada/tramite/neta/disp from latest history snapshot
   if(SETS_HISTORY && SETS_HISTORY[key] && SETS_HISTORY[key].length){
     var snaps = SETS_HISTORY[key];
     var latest = snaps[snaps.length-1];
     var _sh=function(e,nm,i){return Array.isArray(e)?e[i]:e[nm];};
+    if(fechaEl){
+      var _ldate=_sh(latest,'date',0);
+      if(_ldate){
+        var _dp=_ldate.split('-');
+        var _mn=parseInt(_dp[1],10);
+        fechaEl.textContent = '· '+(monthNamesFull[_mn]||_dp[1])+' '+_dp[0];
+      }
+    }
     if(isAlm){
       var gOcup=_sh(latest,'cap_gen_ocup',2), dOcup=_sh(latest,'cap_dem_ocup',5);
       var gTram=_sh(latest,'cap_gen_tram',3), dTram=_sh(latest,'cap_dem_tram',6);
+      var gDisp=_sh(latest,'cap_gen_disp',8), dDisp=_sh(latest,'cap_dem_disp',10);
+      var gNeta=_sh(latest,'cap_gen_neta',9), dNeta=_sh(latest,'cap_dem_neta',11);
       ocup=(gOcup!=null&&dOcup!=null)?Math.min(gOcup,dOcup):(gOcup??dOcup);
       tram=(gTram!=null&&dTram!=null)?Math.min(gTram,dTram):(gTram??dTram);
-      var _lg=_sh(latest,'cap_gen',1), _ld=_sh(latest,'cap_dem',4);
-      if(_lg!=null&&_ld!=null) disp=Math.min(_lg,_ld);
+      neta=(gNeta!=null&&dNeta!=null)?Math.min(gNeta,dNeta):(gNeta??dNeta);
+      if(gDisp!=null&&dDisp!=null) disp=Math.min(gDisp,dDisp);
+      else if(gDisp!=null||dDisp!=null) disp=gDisp??dDisp;
     } else if(isGen){
-      var _lg=_sh(latest,'cap_gen',1);
-      if(_lg!=null) disp=_lg;
+      var _gd=_sh(latest,'cap_gen_disp',8);
+      if(_gd!=null) disp=_gd;
       ocup=_sh(latest,'cap_gen_ocup',2);
       tram=_sh(latest,'cap_gen_tram',3);
+      neta=_sh(latest,'cap_gen_neta',9);
     } else {
-      var _ld=_sh(latest,'cap_dem',4);
-      if(_ld!=null) disp=_ld;
+      var _dd=_sh(latest,'cap_dem_disp',10);
+      if(_dd!=null) disp=_dd;
       ocup=_sh(latest,'cap_dem_ocup',5);
       tram=_sh(latest,'cap_dem_tram',6);
+      neta=_sh(latest,'cap_dem_neta',11);
     }
+  } else if(fechaEl){
+    fechaEl.textContent = '';
   }
 
   // Fallback: dem ocupada from capacity JSON
@@ -5035,9 +5062,11 @@ function _renderSdpCapacity(key){
   var dispEl = document.getElementById('sdp-bar-disp-mw');
   var ocupEl = document.getElementById('sdp-bar-ocup-mw');
   var tramEl = document.getElementById('sdp-bar-tram-mw');
+  var netaEl = document.getElementById('sdp-bar-neta-mw');
   var dispFl = document.getElementById('sdp-bar-disp-fill');
   var ocupFl = document.getElementById('sdp-bar-ocup-fill');
   var tramFl = document.getElementById('sdp-bar-tram-fill');
+  var netaFl = document.getElementById('sdp-bar-neta-fill');
   var totEl  = document.getElementById('sdp-sum-total');
   var pctEl  = document.getElementById('sdp-sum-pct');
   var acEl   = document.getElementById('sdp-sum-acept');
@@ -5045,9 +5074,12 @@ function _renderSdpCapacity(key){
   if(dispEl) dispEl.textContent = fmt(disp);
   if(ocupEl) ocupEl.textContent = fmt(ocup);
   if(tramEl) tramEl.textContent = fmt(tram);
+  if(netaEl) netaEl.textContent = fmt(neta);
   if(dispFl) dispFl.style.width = wpct(disp);
   if(ocupFl) ocupFl.style.width = wpct(ocup);
   if(tramFl) tramFl.style.width = wpct(tram);
+  if(netaFl) netaFl.style.width = neta!=null ? wpct(Math.abs(neta)) : '0%';
+  if(netaFl) netaFl.style.background = (neta!=null && neta<0) ? '#ef4444' : '#a855f7';
   if(totEl)  totEl.textContent  = total > 0 ? total.toFixed(1)+' MW' : '— MW';  // disp+ocup
 
   // Utilization = (ocup+tram) / total
@@ -5240,6 +5272,7 @@ function renderHistoryChart(key){
     });
   }
 
+  var _netaPts=[];
   snaps.forEach(function(s,i){
     var cx=padL+(i+0.5)*slotW;
     var _sdate=Array.isArray(s)?s[0]:s.date;
@@ -5250,15 +5283,27 @@ function renderHistoryChart(key){
 
     if(isBoth){
       var offset=barW/2+barGap/2;
-      drawBar(cx,-offset,_s(s,'cap_gen',1)||0,_s(s,'cap_gen_ocup',2)||0,_s(s,'cap_gen_tram',3)||0,dateLbl,i+'g');
-      drawBar(cx, offset,_s(s,'cap_dem',4)||0,_s(s,'cap_dem_ocup',5)||0,_s(s,'cap_dem_tram',6)||0,dateLbl,i+'d');
+      drawBar(cx,-offset,_s(s,'cap_gen_disp',8)||0,_s(s,'cap_gen_ocup',2)||0,_s(s,'cap_gen_tram',3)||0,dateLbl,i+'g');
+      drawBar(cx, offset,_s(s,'cap_dem_disp',10)||0,_s(s,'cap_dem_ocup',5)||0,_s(s,'cap_dem_tram',6)||0,dateLbl,i+'d');
       parts.push('<text x="'+(cx-offset).toFixed(1)+'" y="'+(padT+chartH+13)+'" text-anchor="middle" font-size="8.5" font-weight="600" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">G</text>');
       parts.push('<text x="'+(cx+offset).toFixed(1)+'" y="'+(padT+chartH+13)+'" text-anchor="middle" font-size="8.5" font-weight="600" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">D</text>');
     } else {
-      var disp2=isGen?(_s(s,'cap_gen',1)||0):(_s(s,'cap_dem',4)||0);
+      var disp2=isGen?(_s(s,'cap_gen_disp',8)||0):(_s(s,'cap_dem_disp',10)||0);
       var ocup2=isGen?(_s(s,'cap_gen_ocup',2)||0):(_s(s,'cap_dem_ocup',5)||0);
       var tram2=isGen?(_s(s,'cap_gen_tram',3)||0):(_s(s,'cap_dem_tram',6)||0);
       drawBar(cx,0,disp2,ocup2,tram2,dateLbl,String(i));
+    }
+    // Punto "Neta" (puede ser negativo): Disponible - En trámite
+    var netaVal=isBoth
+      ? Math.min(_s(s,'cap_gen_neta',9)!=null?_s(s,'cap_gen_neta',9):Infinity, _s(s,'cap_dem_neta',11)!=null?_s(s,'cap_dem_neta',11):Infinity)
+      : (isGen?_s(s,'cap_gen_neta',9):_s(s,'cap_dem_neta',11));
+    if(netaVal===Infinity) netaVal=null;
+    if(netaVal!=null){
+      var netaY=padT+chartH-(netaVal/yMax)*chartH;
+      netaY=Math.max(padT,Math.min(padT+chartH,netaY));
+      _netaPts.push([cx,netaY]);
+    } else {
+      _netaPts.push(null);
     }
     // X-axis labels: year markers at boundaries + quarterly marks, no overlap
     var _prevDate = i>0 ? (Array.isArray(snaps[i-1])?snaps[i-1][0]:snaps[i-1].date) : '';
@@ -5283,6 +5328,25 @@ function renderHistoryChart(key){
     } else if(n<=8){
       parts.push('<text x="'+cx.toFixed(1)+'" y="'+(padT+chartH+22)+'" text-anchor="middle" font-size="7.5" fill="rgba(26,26,24,.45)" font-family="IBM Plex Mono,monospace">'+dateLbl+'</text>');
     }
+  });
+
+  // Linea "Neta" (Disponible - En tramite), puede ser negativa
+  var _netaSeg=[];
+  _netaPts.forEach(function(pt,idx){
+    if(pt===null){
+      if(_netaSeg.length>1){
+        parts.push('<polyline points="'+_netaSeg.map(function(p){return p[0].toFixed(1)+','+p[1].toFixed(1);}).join(' ')+'" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="3,2" opacity=".85"/>');
+      }
+      _netaSeg=[];
+      return;
+    }
+    _netaSeg.push(pt);
+  });
+  if(_netaSeg.length>1){
+    parts.push('<polyline points="'+_netaSeg.map(function(p){return p[0].toFixed(1)+','+p[1].toFixed(1);}).join(' ')+'" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="3,2" opacity=".85"/>');
+  }
+  _netaPts.forEach(function(pt){
+    if(pt) parts.push('<circle cx="'+pt[0].toFixed(1)+'" cy="'+pt[1].toFixed(1)+'" r="2" fill="#a855f7" opacity=".9"/>');
   });
 
   svg.setAttribute('viewBox','0 0 '+W+' '+H);
