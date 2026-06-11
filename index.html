@@ -5005,11 +5005,24 @@ function openSetDetail(key){
     });
   }
   var _p2p = window._pubToProjIdx||{};
+  // Nucleo de nombre normalizado (cliente): une 'PSFV X', 'FV X', 'Planta Solar Fotovoltaica X', 'X'
+  var _ROM = {' I':' 1',' II':' 2',' III':' 3',' IV':' 4',' V':' 5',' VI':' 6',' VII':' 7',' VIII':' 8',' IX':' 9',' X':' 10'};
+  function _coreNm(s){
+    if(!s) return '';
+    var c = s.toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+    c = c.replace(/[^A-Z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+    var pfx = /^(?:PSFV|PFV|PSF|ISF|FV|PE|PLANTAS?|PARQUES?|INSTALACIONE?S?|SOLAR|FOTOVOLTAICAS?|FOTOVOLTAICOS?|EOLIC[OA]S?|HIBRIDA)\s+/;
+    for(var i=0;i<4 && pfx.test(c);i++) c = c.replace(pfx,'');
+    for(var k in _ROM){ if(c.endsWith(k)){ c = c.slice(0,-k.length)+_ROM[k]; break; } }
+    c = c.replace(/([A-Z])(\d+)$/,'$1 $2').replace(/\s+/g,' ').trim();
+    return c;
+  }
   var _groups = {}, _gOrder = [];
   linked.forEach(function(r){
     var proj = r.id_boe ? _p2p[r.id_boe] : null;
-    var gid = proj ? proj.id : 'rec_'+(r.id_boe||r.nombre_proyecto||Math.random());
-    if(!_groups[gid]){ _groups[gid] = {proj:proj, recs:[]}; _gOrder.push(gid); }
+    var core = _coreNm(r.nombre_proyecto||'');
+    var gid = core ? 'c_'+core : 'rec_'+(r.id_boe||Math.random());
+    if(!_groups[gid]){ _groups[gid] = {proj:null, recs:[]}; _gOrder.push(gid); }
     _groups[gid].recs.push(r);
     if(proj && !_groups[gid].proj) _groups[gid].proj = proj;
   });
