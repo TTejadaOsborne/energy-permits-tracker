@@ -1196,14 +1196,6 @@ const CONFIG = {
 
   <!-- SUBESTACIONES VIEW -->
   <div id="view-subestaciones" class="content" style="display:none;flex-direction:column">
-    <!-- Main tabs — 2 views: Capacidades / Afloramiento -->
-    <div style="display:flex;align-items:center;gap:8px;padding:10px 24px 0;background:#fff;flex-shrink:0;border-bottom:2px solid rgba(26,26,24,.08)">
-      <button id="sets-main-tab-cap" onclick="setSetsMainView('capacidades')"
-        style="padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all .15s;background:#1a1a18;color:#fff;border-bottom:2px solid #1a1a18;margin-bottom:-2px">
-        📊 Capacidades
-      </button>
-
-    </div>
 
     <!-- ── CAPACIDADES VIEW ─────────────────────────────────────────── -->
     <div id="sets-view-capacidades" style="display:flex;flex-direction:column;flex:1;overflow:hidden">
@@ -1764,30 +1756,32 @@ const CONFIG = {
 
 <!-- ── VISTA OPORTUNIDADES ── -->
 <div id="view-oportunidades" class="content" style="display:none">
-  <div class="oport-kpis" id="op-kpis-row">
-    <div class="oport-kpi-card">
-      <div class="oport-kpi-val" id="op-kpi-total">—</div>
-      <div class="oport-kpi-lbl">Casos monitorizados</div>
-      <div class="oport-kpi-sub" id="op-kpi-total-sub">proyectos con permiso adverso</div>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;padding:16px 24px 4px;flex-shrink:0">
+    <div style="flex:1;min-width:150px;background:linear-gradient(135deg,#05233D,#0a3a5c);border-radius:12px;padding:14px 16px;color:#fff">
+      <div style="font-family:'Playfair Display',serif;font-size:26px;line-height:1" id="op-kpi-mwvent">—</div>
+      <div style="font-size:10px;opacity:.75;margin-top:4px;letter-spacing:.04em">MW EN VENTANA (0–6 MESES)</div>
     </div>
-    <div class="oport-kpi-card amber">
-      <div class="oport-kpi-val amber" id="op-kpi-enc">—</div>
-      <div class="oport-kpi-lbl">Pendiente de confirmar</div>
-      <div class="oport-kpi-sub" id="op-kpi-enc-sub">han superado el plazo estimado</div>
+    <div style="flex:1;min-width:130px;background:#fff;border:1px solid rgba(26,26,24,.09);border-radius:12px;padding:14px 16px">
+      <div style="font-family:'Playfair Display',serif;font-size:26px;line-height:1;color:#399439" id="op-kpi-90d">—</div>
+      <div style="font-size:10px;color:rgba(26,26,24,.5);margin-top:4px">CONFIRMADOS</div>
+      <div style="font-size:9.5px;color:rgba(26,26,24,.35)" id="op-kpi-90d-sub"></div>
     </div>
-    <div class="oport-kpi-card green">
-      <div class="oport-kpi-val green" id="op-kpi-90d">—</div>
-      <div class="oport-kpi-lbl">Confirmados</div>
-      <div class="oport-kpi-sub" id="op-kpi-90d-sub">afloración verificada en datos DSO/REE</div>
+    <div style="flex:1;min-width:130px;background:#fff;border:1px solid rgba(26,26,24,.09);border-radius:12px;padding:14px 16px">
+      <div style="font-family:'Playfair Display',serif;font-size:26px;line-height:1;color:#b45309" id="op-kpi-enc">—</div>
+      <div style="font-size:10px;color:rgba(26,26,24,.5);margin-top:4px">FUERA DE PLAZO</div>
+      <div style="font-size:9.5px;color:rgba(26,26,24,.35)" id="op-kpi-enc-sub"></div>
     </div>
-    <div class="oport-kpi-card" style="flex:2;min-width:260px;justify-content:center">
-      <div class="oport-kpi-lbl" style="margin-bottom:6px;font-size:10.5px">Metodología · base empírica</div>
-      <div style="font-size:11px;color:rgba(26,26,24,.55);line-height:1.5" id="op-kpi-metodologia">
-        Cuando un proyecto recibe un permiso adverso decisivo, la capacidad de acceso reservada suele aflorar en los mapas del distribuidor — definido como capacidad disponible neta &gt; 0 MW — entre <span id="op-kpi-p25">44</span> y <span id="op-kpi-p75">134</span> días después (mediana <span id="op-kpi-med">117</span>d · <span id="op-kpi-n">5</span> casos confirmados).
-      </div>
+    <div style="flex:1;min-width:130px;background:#fff;border:1px solid rgba(26,26,24,.09);border-radius:12px;padding:14px 16px">
+      <div style="font-family:'Playfair Display',serif;font-size:26px;line-height:1;color:#05233D" id="op-kpi-total">—</div>
+      <div style="font-size:10px;color:rgba(26,26,24,.5);margin-top:4px">MONITORIZADOS</div>
+      <div style="font-size:9.5px;color:rgba(26,26,24,.35)" id="op-kpi-total-sub"></div>
     </div>
-    <div style="align-self:flex-start;padding-top:4px">
-      <button onclick="exportOportCSV()" style="border:1px solid rgba(26,26,24,.15);border-radius:7px;padding:6px 14px;font-size:11px;background:#fafaf8;color:#1a1a18;cursor:pointer;font-family:'Inter',sans-serif">↓ CSV</button>
+    <div style="flex:1.6;min-width:230px;background:#f5f9f5;border:1px solid rgba(57,148,57,.25);border-radius:12px;padding:12px 16px;display:flex;flex-direction:column;justify-content:center">
+      <div style="font-size:10px;font-weight:700;color:#399439;letter-spacing:.05em;margin-bottom:4px">VENTANA EMPÍRICA DE AFLORAMIENTO</div>
+      <div style="font-size:11px;color:rgba(26,26,24,.6);line-height:1.45">Tras un permiso adverso decisivo, la capacidad suele aflorar entre <b><span id="op-kpi-p25">30</span></b> y <b><span id="op-kpi-p75">180</span></b> días (mediana <span id="op-kpi-med">90</span>d · <span id="op-kpi-n">19</span> casos verificados en mapas).</div>
+    </div>
+    <div style="align-self:center">
+      <button onclick="exportOportCSV()" style="border:1px solid rgba(26,26,24,.15);border-radius:8px;padding:8px 14px;font-size:11px;background:#fff;color:#05233D;cursor:pointer;font-family:'Inter',sans-serif;font-weight:600">↓ CSV</button>
     </div>
   </div>
   <div class="prj-toolbar">
@@ -1813,23 +1807,9 @@ const CONFIG = {
     </select>
     <div class="prj-stats" id="op-stats">—</div>
   </div>
-  <div class="prj-table-wrap">
-    <table class="prj-table" id="op-table">
-      <thead><tr>
-        <th onclick="sortOport('distribuidora')">Gestor red <span class="oport-sort" id="osh-distribuidora"></span></th>
-        <th onclick="sortOport('subestacion')">Subestación <span class="oport-sort" id="osh-subestacion"></span></th>
-        <th onclick="sortOport('proyecto_nombre')">Proyecto adverso <span class="oport-sort" id="osh-proyecto_nombre"></span></th>
-        <th onclick="sortOport('tipo_adverso')">Trámite <span class="oport-sort" id="osh-tipo_adverso"></span></th>
-        <th onclick="sortOport('fecha_adversa')">Decisión <span class="oport-sort" id="osh-fecha_adversa"></span></th>
-        <th onclick="sortOport('fecha_adversa')" title="Días transcurridos desde la decisión adversa">Días <span class="oport-sort" id="osh-dias_elapsed"></span></th>
-        <th onclick="sortOport('estado_ventana')">Estado <span class="oport-sort" id="osh-estado_ventana"></span></th>
-        <th onclick="sortOport('prob_afloramiento')" title="Probabilidad de afloramiento: 100%=Confirmado por historial DSO · 75%=Confirmado BOE o Sobreplazo (buena evidencia) · 50%=En ventana estimada · 25%=Fuera de ventana o match bajo">Prob. <span class="oport-sort" id="osh-prob_afloramiento"></span></th>
-        <th onclick="sortOport('mw_proyecto')" style="text-align:right">MW <span class="oport-sort" id="osh-mw_proyecto"></span></th>
-        <th style="width:28px"></th>
-      </tr></thead>
-      <tbody id="op-tbody"></tbody>
-    </table>
-    <div id="op-empty" style="display:none;padding:48px;text-align:center;color:rgba(26,26,24,.3);font-size:13px">Sin resultados para los filtros seleccionados</div>
+  <div id="op-cards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;padding:14px 24px 24px;overflow-y:auto;flex:1;align-content:start">
+  </div>
+  <div id="op-empty" style="display:none;padding:48px;text-align:center;color:rgba(26,26,24,.3);font-size:13px">Sin resultados para los filtros seleccionados</div>
   </div>
 </div>
 </main>
@@ -6436,100 +6416,92 @@ function renderOportunidades(){
     return true;
   });
 
+  // Orden de decision: En ventana (MW desc) -> Fuera de plazo -> Confirmados
+  var ord = {EN_VENTANA:0, SOBREPLAZO:1, CONFIRMADO:2};
   rows.sort(function(a,b){
-    var av=a[_oport_sort_key], bv=b[_oport_sort_key];
-    if(av==null) av=_oport_sort_asc?' ':'';
-    if(bv==null) bv=_oport_sort_asc?' ':'';
-    if(typeof av==='number'&&typeof bv==='number') return _oport_sort_asc?av-bv:bv-av;
-    av=String(av).toLowerCase(); bv=String(bv).toLowerCase();
-    return _oport_sort_asc?av.localeCompare(bv,'es'):bv.localeCompare(av,'es');
+    var d = (ord[a.estado_ventana]??3) - (ord[b.estado_ventana]??3);
+    if(d!==0) return d;
+    return (b.mw_proyecto||0) - (a.mw_proyecto||0);
   });
-
   _oport_filtered = rows;
 
-  document.querySelectorAll('[id^="osh-"]').forEach(function(el){
-    var k=el.id.replace('osh-','');
-    el.textContent = k===_oport_sort_key?(_oport_sort_asc?'▲':'▼'):'';
-  });
-
   var statsEl=document.getElementById('op-stats');
-  if(statsEl) statsEl.textContent=rows.length+' subestación'+(rows.length!==1?'es':'');
+  if(statsEl) statsEl.textContent=rows.length+' oportunidad'+(rows.length!==1?'es':'');
 
-  var tbody=document.getElementById('op-tbody');
+  // KPI: MW en ventana
+  var mwVent = ADVERSE_FORECAST_DATA.filter(function(r){return r.estado_ventana==='EN_VENTANA';})
+    .reduce(function(s,r){return s+(parseFloat(r.mw_proyecto)||0);},0);
+  var mwEl=document.getElementById('op-kpi-mwvent');
+  if(mwEl) mwEl.textContent = mwVent>0 ? Math.round(mwVent).toLocaleString('es-ES')+' MW' : '0 MW';
+
+  var cont=document.getElementById('op-cards');
   var empty=document.getElementById('op-empty');
-  if(!tbody) return;
+  if(!cont) return;
   if(!rows.length){
-    tbody.innerHTML='';
+    cont.innerHTML='';
     if(empty) empty.style.display='block';
     return;
   }
   if(empty) empty.style.display='none';
 
-  var html='';
-  rows.forEach(function(r){
-    var es  = ESTADO_ADVERSE_LABEL[r.estado_ventana]||{label:r.estado_ventana||'—',color:'#555',bg:'#f3f4f6'};
-    var boeTag=(r.estado_ventana==='CONFIRMADO'&&r.confirmacion_fuente==='boe_texto')?'<span title="Confirmado por resolución BOE" style="font-size:8px;padding:1px 4px;border-radius:2px;background:#fef9c3;color:#854d0e;margin-left:4px;vertical-align:middle">BOE texto</span>':'';
-    var badge='<span style="display:inline-block;padding:2px 8px;border-radius:3px;font-size:9.5px;font-weight:600;font-family:IBM Plex Mono,monospace;background:'+(es.bg||'#f3f4f6')+';color:'+(es.color||'#555')+'">'+es.label+'</span>'+boeTag;
+  var stats=typeof ADVERSE_LAG_STATS!=='undefined'?ADVERSE_LAG_STATS:{p25:30,mediana:90,p75:180};
+  var HORIZ = 540; // 18 meses de horizonte visual
+  var TECHI = {'Eólica':'🌀','Fotovoltaica':'☀️','BESS':'🔋','Eólica+BESS':'🌀','FV+BESS':'☀️','FV+Eólica':'☀️','Termosolar':'🌡️','Hidráulica':'💧'};
 
-    // Días transcurridos desde decisión adversa
-    var diasFmt='—';
-    if(r.fecha_adversa){
-      var dAdv=new Date(r.fecha_adversa), dHoy=new Date();
-      var dias=Math.round((dHoy-dAdv)/86400000);
-      var stats2=typeof ADVERSE_LAG_STATS!=='undefined'?ADVERSE_LAG_STATS:{p25:44,mediana:117,p75:134};
-      var dColor=r.estado_ventana==='CONFIRMADO'?'#16a34a':dias>stats2.p75?'#991b1b':'#1d4ed8';
-      if(r.estado_ventana==='CONFIRMADO' && r.lag_real_dias && !isNaN(r.lag_real_dias)){
-        diasFmt='<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:#16a34a">'+Math.round(r.lag_real_dias)+'d</span>';
-      } else {
-        diasFmt='<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:'+dColor+'">'+dias+'d</span>'
-          +(dias>stats2.p75?'<span title="Superó el plazo estimado (P75='+stats2.p75+'d)" style="font-size:9px;color:#b45309;margin-left:3px">↑</span>':'');
-      }
-    }
+  cont.innerHTML = rows.map(function(r){
+    var es = ESTADO_ADVERSE_LABEL[r.estado_ventana]||{label:r.estado_ventana||'—',color:'#555',bg:'#f3f4f6'};
+    var conf = r.estado_ventana==='CONFIRMADO';
+    var dias = null;
+    if(r.fecha_adversa){ dias = Math.round((new Date() - new Date(r.fecha_adversa))/86400000); }
+    var lagReal = (conf && r.lag_real_dias!=null && !isNaN(r.lag_real_dias)) ? Math.round(r.lag_real_dias) : null;
 
-    // Fecha adversa
-    var fadv = r.fecha_adversa ? r.fecha_adversa.slice(0,10) : '—';
+    // Linea temporal: zona ventana 0-P75 en verde suave, marcador hoy / lag real
+    var posHoy = dias!=null ? Math.min(100, dias/HORIZ*100) : null;
+    var posVent = Math.min(100, stats.p75/HORIZ*100);
+    var posMark = lagReal!=null ? Math.min(100, lagReal/HORIZ*100) : posHoy;
+    var markColor = conf ? '#399439' : (dias!=null && dias>stats.p75 ? '#b45309' : '#05233D');
+    var timeline = '<div style="position:relative;height:10px;border-radius:5px;background:#f0ede6;margin:10px 0 2px;overflow:visible">'
+      + '<div style="position:absolute;left:0;top:0;bottom:0;width:'+posVent.toFixed(1)+'%;background:rgba(57,148,57,.22);border-radius:5px 0 0 5px"></div>'
+      + (posMark!=null ? '<div style="position:absolute;left:'+posMark.toFixed(1)+'%;top:-3px;bottom:-3px;width:3px;border-radius:2px;background:'+markColor+';transform:translateX(-50%)" title="'+(lagReal!=null?('Afloró a los '+lagReal+' días'):('Hoy: '+dias+' días desde la decisión'))+'"></div>' : '')
+      + '</div>'
+      + '<div style="display:flex;justify-content:space-between;font-size:8.5px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.35)">'
+      + '<span>decisión</span><span style="color:#399439">ventana '+Math.round(stats.p75/30)+'m</span><span>18m</span></div>';
 
-    // Tipo badge
-    var tipoBg = r.tipo_adverso==='DIA'?'#fef3c7':'rgba(26,26,24,.07)';
-    var tipoCol= r.tipo_adverso==='DIA'?'#92400e':'rgba(26,26,24,.6)';
-    var tipoBadge='<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:'+tipoBg+';color:'+tipoCol+';font-family:\'IBM Plex Mono\',monospace">'+_esc(r.tipo_adverso||'')+'</span>';
+    var fadv = r.fecha_adversa ? r.fecha_adversa.slice(0,10).split('-').reverse().join('/') : '—';
+    var mwTxt = r.mw_proyecto!=null && !isNaN(r.mw_proyecto) ? (Math.round(r.mw_proyecto*10)/10).toLocaleString('es-ES') : '—';
+    var setKey = r.sets_capacity_key||'';
+    var estadoAdv = (r.estado_adverso||'').charAt(0).toUpperCase()+(r.estado_adverso||'').slice(1);
+    var diasTxt = lagReal!=null ? 'afloró a los '+lagReal+'d' : (dias!=null ? dias+' días transcurridos' : '');
 
-    var isExp=OPORT_EXPANDED.has(r.proyecto_id);
-    // Probabilidad de afloramiento: barra visual + número
-    var prob = r.prob_afloramiento!=null ? Math.round(r.prob_afloramiento) : null;
-    var probCell = '—';
-    if(prob!=null){
-      var pColor = prob>=100?'#16a34a':prob>=75?'#2563eb':prob>=50?'#d97706':'#dc2626';
-      var pBg    = prob>=100?'#dcfce7':prob>=75?'#dbeafe':prob>=50?'#fef3c7':'#fee2e2';
-      probCell = '<div style="display:flex;align-items:center;gap:5px;white-space:nowrap">'
-        +'<div style="width:36px;height:5px;border-radius:3px;background:#f0ece4;flex-shrink:0">'
-          +'<div style="width:'+prob+'%;height:100%;border-radius:3px;background:'+pColor+'"></div>'
-        +'</div>'
-        +'<span style="font-size:10px;font-family:IBM Plex Mono,monospace;font-weight:600;color:'+pColor+'">'+prob+'%</span>'
-        +'</div>';
-    }
-
-    // kV badge para la SET
-    var kvTag = r.tension_kv ? '<span style="font-size:8.5px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.4);margin-left:4px">'+Math.round(r.tension_kv)+' kV</span>' : '';
-
-    html+='<tr class="prj-row'+(isExp?' expanded':'')+' oport-tr" data-pid="'+r.proyecto_id+'" onclick="toggleOportDetail(this.dataset.pid)" title="Click para ver detalle">'
-      +'<td style="font-size:10px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.5);white-space:nowrap">'+_esc(r.distribuidora||'—')+'</td>'
-      +'<td style="font-weight:600;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+_esc(r.subestacion||'—')+kvTag+(r.provincia?'<div style="font-size:9.5px;font-weight:400;color:rgba(26,26,24,.45)">'+_esc(r.provincia)+'</div>':'')+'</td>'
-      +'<td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px">'+_esc(r.proyecto_nombre||'—')+(r.n_proyectos_set>1? '<div style="font-size:9px;color:rgba(26,26,24,.4);margin-top:1px">'+r.n_proyectos_set+' proyectos en esta SET</div>': '')+'</td>'
-      +'<td>'+tipoBadge+'</td>'
-      +'<td style="font-family:IBM Plex Mono,monospace;font-size:11px;white-space:nowrap;color:rgba(26,26,24,.5)">'+fadv+'</td>'
-      +'<td>'+diasFmt+'</td>'
-      +'<td>'+badge+'</td>'
-      +'<td>'+probCell+'</td>'
-      +'<td style="text-align:right;font-family:IBM Plex Mono,monospace;font-size:11px">' + (r.mw_proyecto!=null? r.mw_proyecto+' MW'+(r.n_proyectos_set>1?' <span style="font-size:9px;opacity:.5">(total)</span>':''): '—') +'</td>'
-      +'<td style="text-align:center;font-size:11px"><span class="prj-expand-icon">▶</span></td>'
-      +'</tr>';
-    if(isExp) html+=buildOportDetail(r);
-  });
-  tbody.innerHTML=html;
+    return '<div onclick="openOportModal(\''+r.proyecto_id+'\')" style="background:#fff;border:1px solid rgba(26,26,24,.09);border-left:4px solid '+es.color+';border-radius:12px;padding:14px 16px;cursor:pointer;transition:box-shadow .15s" onmouseenter="this.style.boxShadow=\'0 4px 16px rgba(0,0,0,.08)\'" onmouseleave="this.style.boxShadow=\'none\'">'
+      // cabecera: SET + estado
+      + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">'
+      +   '<div style="min-width:0">'
+      +     '<div style="font-size:14px;font-weight:700;color:#05233D;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+_esc(r.subestacion||setKey||'—')
+      +       (r.tension_kv?' <span style="font-size:9.5px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.4);font-weight:400">'+Math.round(r.tension_kv)+' kV</span>':'')+'</div>'
+      +     '<div style="font-size:10px;color:rgba(26,26,24,.45)">'+_esc(r.distribuidora||'—')+(r.provincia?' · '+_esc(r.provincia):'')+'</div>'
+      +   '</div>'
+      +   '<span style="flex-shrink:0;padding:3px 9px;border-radius:10px;font-size:9.5px;font-weight:700;background:'+(es.bg||'#f3f4f6')+';color:'+es.color+'">'+es.label+'</span>'
+      + '</div>'
+      // MW liberables
+      + '<div style="display:flex;align-items:baseline;gap:7px;margin-top:8px">'
+      +   '<span style="font-family:\'Playfair Display\',serif;font-size:25px;color:#1a1a18;line-height:1">'+mwTxt+'</span>'
+      +   '<span style="font-size:11px;color:rgba(26,26,24,.5)">MW liberables</span>'
+      + '</div>'
+      // justificacion
+      + '<div style="margin-top:7px;padding:7px 9px;background:#fafaf8;border-radius:8px;font-size:10.5px;line-height:1.45;color:rgba(26,26,24,.65)">'
+      +   (TECHI[r.tecnologia]||'⚡')+' <b style="color:#1a1a18">'+_esc(r.proyecto_nombre||'—')+'</b><br>'
+      +   _esc(r.tipo_adverso||'')+' '+_esc(estadoAdv)+' · '+fadv+(diasTxt?' · <span style="color:'+markColor+';font-weight:600">'+diasTxt+'</span>':'')
+      + '</div>'
+      + timeline
+      // pie
+      + '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:9px">'
+      +   '<span style="font-size:9.5px;color:rgba(26,26,24,.4)">'+(r.n_proyectos_set>1?r.n_proyectos_set+' proyectos en esta SET':'')+'</span>'
+      +   (setKey?'<button onclick="event.stopPropagation();setTimeout(function(){try{jumpToSet(null,null,\''+_esc(setKey)+'\');}catch(e){}},10)" style="border:1px solid rgba(5,35,61,.25);background:#fff;color:#05233D;border-radius:7px;padding:4px 10px;font-size:10px;font-weight:600;cursor:pointer">Ver SET →</button>':'')
+      + '</div>'
+      + '</div>';
+  }).join('');
 }
-
-
 function buildOportDetail(rec){
   if(!rec) return '';
   var stats = typeof ADVERSE_LAG_STATS!=='undefined' ? ADVERSE_LAG_STATS : {n:5,p25:44,mediana:117,p75:134,min:18,max:190};
