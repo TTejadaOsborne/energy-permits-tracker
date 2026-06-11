@@ -1655,6 +1655,8 @@ const CONFIG = {
       style="display:none;font-size:11px">✕ Limpiar filtros</button>
     <button class="busq-filter-btn" id="busq-toggle-fp" onclick="toggleBusqPanel()"
       title="Mostrar/ocultar filtros">⚙ Filtros <span id="busq-fp-badge" style="display:none;background:#c9a84c;color:#fff;border-radius:10px;padding:0 5px;font-size:9px;margin-left:2px">0</span></button>
+    <button class="busq-filter-btn" onclick="exportCSVProyectos()"
+      title="Descargar CSV: una línea por publicación, agrupadas bajo el mismo proyecto">⬇ CSV</button>
   </div>
   <!-- Layout: table + filter panel -->
   <div class="busq-layout">
@@ -3381,6 +3383,38 @@ function openModal(id_boe){
 function closeModal(e){if(e.target.id==="modal")document.getElementById("modal").classList.remove("open")}
 
 // ── EXPORT ───────────────────────────────────────────────────────────────────
+function exportCSVProyectos(){
+  var lista = (typeof PRJ_LIST_FILTERED!=='undefined' && PRJ_LIST_FILTERED && PRJ_LIST_FILTERED.length)
+    ? PRJ_LIST_FILTERED
+    : (PROJECTS_DATA||[]);
+  if(!lista.length) return;
+  var H = ['proyecto','tecnologia','potencia_mw','promotor','provincia','municipio','ccaa',
+           'subestacion','set_vinculada','estado_actual','tipo_registro','infraestructura',
+           'fecha_publicacion','id_boletin','boletin','tipo_permiso','estado_publicacion','url'];
+  var esc = function(v){ return '"'+String(v==null?'':v).replace(/"/g,'""')+'"'; };
+  var rows = [];
+  lista.forEach(function(p){
+    var base = [p.nombre, p.tecnologia, p.potencia_mw, p.promotor, p.provincia, p.municipio,
+                p.comunidad_autonoma, p.subestacion, p.set_vinculada, p.estado_actual];
+    var pubs = (p.publicaciones||[]).map(function(pub){ return {pub:pub, tipo:'publicacion', infra:''}; })
+      .concat((p.publicaciones_infra||[]).map(function(pub){ return {pub:pub, tipo:'infraestructura', infra:pub.infraestructura||''}; }));
+    pubs.sort(function(a,b){ return (a.pub.fecha||'').localeCompare(b.pub.fecha||''); });
+    if(!pubs.length){
+      rows.push(base.concat(['','','','','','','','']).map(esc).join(';'));
+    } else {
+      pubs.forEach(function(x){
+        rows.push(base.concat([x.tipo, x.infra, x.pub.fecha, x.pub.id_boe, x.pub.boletin,
+                               x.pub.tipo_permiso, x.pub.estado, x.pub.url]).map(esc).join(';'));
+      });
+    }
+  });
+  var blob = new Blob(['\uFEFF'+H.join(';')+'\n'+rows.join('\n')], {type:'text/csv;charset=utf-8;'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'nodalys_proyectos_publicaciones_'+new Date().toISOString().slice(0,10)+'.csv';
+  a.click();
+}
+
 function exportCSV(){
   if(!FILTERED.length)return;
   const h=COLS.join(";");
