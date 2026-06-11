@@ -131,7 +131,15 @@ def extract_ree(ws, year, mes):
     return entries
 
 def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num):
-    """Busca automaticamente columnas RDD y Tram por header."""
+    """Busca automaticamente columnas RdD y Tram por header.
+
+    Soporta los 3 formatos historicos del archivo Mapas:
+    - 2022 temprano: headers en fila 5, sin desglose RdT/RdD
+      (fallback: "Capacidad de acceso disponible para MPE")
+    - oct 2022 - 2024: headers en fila 4, col "...disponible para MPE RdD"
+    - 2025+: headers en fila 4, "MPE RdD" duplicada en grupos
+      Generacion/Almacenamiento (se toma la primera = Generacion)
+    """
     date_key = f"{year:04d}-{mes_num:02d}"
     entries = {}
 
@@ -140,31 +148,50 @@ def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num):
 
     ws = wb_mapas[sheet_name]
 
-    # Buscar headers en fila 1
-    headers = [str(cell.value or "").lower() for cell in ws[1]]
+    # 1) Localizar fila de headers: la que contiene "Nombre y tension del nudo"
+    header_row_idx = None
+    headers = None
+    for ri, row in enumerate(ws.iter_rows(min_row=1, max_row=8, values_only=True), 1):
+        vals = [" ".join(str(v or "").lower().split()) for v in row]
+        if any("nombre y tensi" in v for v in vals):
+            header_row_idx = ri
+            headers = vals
+            break
+    if headers is None:
+        return entries
 
-    # Buscar columna RDD: "capacidad de acceso disponible para mpe rdd"
+    name_col = next(i for i, h in enumerate(headers) if "nombre y tensi" in h)
+
+    # 2) Columna RdD: preferir "mpe rdd" exclusivo de generacion
+    #    (la primera ocurrencia pertenece al grupo Generacion en formato 2025)
     rdd_col = None
     for i, h in enumerate(headers):
-        if "capacidad de acceso disponible" in h and "rdd" in h:
+        if "mpe rdd" in h and "mges" not in h and "no conectado" not in h:
             rdd_col = i
             break
+    if rdd_col is None:
+        # Fallback formato 2022 temprano: sin desglose RdT/RdD
+        for i, h in enumerate(headers):
+            if "capacidad de acceso disponible para mpe" in h and "rdt" not in h:
+                rdd_col = i
+                break
 
-    # Buscar columna Tram: "capacidad de acceso solicitada en curso"
+    # 3) Columna Tram: "...solicitada en curso y pendiente resolver MPE" (exacta)
     tram_col = None
     for i, h in enumerate(headers):
-        if "capacidad de acceso solicitada" in h and "curso" in h:
+        hh = h.replace("[mw]", "").strip()
+        if "capacidad de acceso solicitada" in hh and hh.endswith("resolver mpe"):
             tram_col = i
             break
 
     if rdd_col is None or tram_col is None:
         return entries
 
-    for row in ws.iter_rows(min_row=2, values_only=True):
-        if not row or len(row) < max(rdd_col, tram_col) + 1:
+    for row in ws.iter_rows(min_row=header_row_idx + 1, values_only=True):
+        if not row or len(row) < max(rdd_col, tram_col, name_col) + 1:
             continue
 
-        key = row[0] if row[0] else None
+        key = row[name_col] if row[name_col] else None
         if not key or not str(key).strip():
             continue
         key = str(key).strip()
