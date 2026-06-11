@@ -243,7 +243,7 @@ def build_from_monitor(wb, raw):
 def build_from_csvs(refs_dir, raw):
     """
     Lee CSVs individuales de cada DSO (solo generación).
-    Columna clave: 'subestacion' + 'tension_kv'  → key = "NOMBRE kV"
+    Columna clave: 'subestacion' + 'tension_kv'  -> key = "NOMBRE kV"
     Solo añade snapshots que no existen ya en raw (el Monitor tiene prioridad).
     Demanda siempre null (estos archivos no la contienen).
     """
@@ -324,7 +324,7 @@ def main():
     excel_path = Path(args.excel)
     refs_dir   = Path(args.refs)
 
-    raw = {}  # key → {date_label: snap}
+    raw = {}  # key -> {date_label: snap}
 
     # 1) Monitor Excel (generación + demanda, Oct-2025 en adelante)
     if excel_path.exists():
@@ -382,7 +382,7 @@ def main():
     total_snaps = sum(len(v) for v in history_objs.values())
     print(f"Snapshots totales: {total_snaps:,}")
     all_dates = sorted({s["date"] for v in history_objs.values() for s in v})
-    print(f"Rango fechas     : {all_dates[0]} → {all_dates[-1]}")
+    print(f"Rango fechas     : {all_dates[0]} -> {all_dates[-1]}")
     has_dem = sum(1 for v in history_objs.values() if any(s["cap_dem"] is not None for s in v))
     has_gen = sum(1 for v in history_objs.values() if any(s["cap_gen"] is not None for s in v))
     print(f"SETs con cap_dem : {has_dem:,}")
@@ -399,5 +399,15 @@ def main():
     history = {"_v": 2}
     for k, snaps in history_objs.items():
         history[k] = [[s[f] for f in _FIELDS] for s in snaps]
+    out = Path(args.out)
+    try:
+        import orjson
+        with open(out, "wb") as f:
+            f.write(orjson.dumps(history))
+    except ImportError:
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"\nOK {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
 
-    out = Path
+if __name__ == "__main__":
+    main()
