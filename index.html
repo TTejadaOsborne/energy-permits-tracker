@@ -1756,6 +1756,12 @@ const CONFIG = {
 
 <!-- ── VISTA OPORTUNIDADES ── -->
 <div id="view-oportunidades" class="content" style="display:none">
+  <div style="display:flex;gap:6px;padding:14px 24px 0;flex-shrink:0">
+    <button id="op-tab-radar" onclick="setOportTab('radar')" style="padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:#05233D;color:#fff;font-family:'Inter',sans-serif">📡 Radar de posicionamiento</button>
+    <button id="op-tab-vent" onclick="setOportTab('ventanas')" style="padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:rgba(26,26,24,.06);color:rgba(26,26,24,.55);font-family:'Inter',sans-serif">Ventanas de afloramiento</button>
+  </div>
+  <div id="op-radar-wrap" style="display:none;flex:1;overflow-y:auto;padding:14px 24px 24px"></div>
+  <div id="op-vent-wrap" style="display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden">
   <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;padding:16px 24px 4px;flex-shrink:0">
     <div style="flex:1;min-width:150px;background:linear-gradient(135deg,#05233D,#0a3a5c);border-radius:12px;padding:14px 16px;color:#fff">
       <div style="font-family:'Playfair Display',serif;font-size:26px;line-height:1" id="op-kpi-mwvent">—</div>
@@ -1860,6 +1866,7 @@ const CONFIG = {
 
 <script src="forecast_data.js"></script>
 <script src="adverse_forecast_data.js"></script>
+<script src="radar_data.js"></script>
 <script>
 // ── AUTH (isolated script – runs before main block) ─────────────────────
 // ── AUTH ──────────────────────────────────────────────────────────────────────
@@ -3178,7 +3185,7 @@ function setView(v, _noPush){
       while(_inner.firstChild) _ov.appendChild(_inner.firstChild);
     }
     _ov.style.display='flex'; _ov.style.flexDirection='column'; _ov.style.overflowY='auto';
-    setTimeout(function(){ try{ initOportunidades(); _buildOportKpis(); renderOportunidades(); }catch(e){console.warn(e);} }, 10);
+    setTimeout(function(){ try{ initOportunidades(); _buildOportKpis(); renderOportunidades(); setOportTab(window._opTab||'radar'); }catch(e){console.warn(e);} }, 10);
   }
 }
 
@@ -6396,6 +6403,64 @@ function _buildOportKpis(){
   sv('op-kpi-p75', stats.p75);
   sv('op-kpi-med', stats.mediana);
   sv('op-kpi-n',   stats.n);
+}
+
+window._opTab = 'radar';
+function setOportTab(t){
+  window._opTab = t;
+  var radar = document.getElementById('op-radar-wrap');
+  var vent  = document.getElementById('op-vent-wrap');
+  var bR = document.getElementById('op-tab-radar');
+  var bV = document.getElementById('op-tab-vent');
+  var on  = 'padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:#05233D;color:#fff;font-family:Inter,sans-serif';
+  var off = 'padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:rgba(26,26,24,.06);color:rgba(26,26,24,.55);font-family:Inter,sans-serif';
+  if(radar) radar.style.display = t==='radar' ? 'block' : 'none';
+  if(vent)  vent.style.display  = t==='radar' ? 'none' : 'flex';
+  if(bR) bR.style.cssText = t==='radar' ? on : off;
+  if(bV) bV.style.cssText = t==='radar' ? off : on;
+  if(t==='radar') renderRadar();
+}
+
+function renderRadar(){
+  var w = document.getElementById('op-radar-wrap');
+  if(!w) return;
+  if(typeof RADAR_DATA==='undefined' || !window.RADAR_DATA || !RADAR_DATA.sets || !RADAR_DATA.sets.length){
+    w.innerHTML = '<div style="padding:40px;text-align:center;color:rgba(26,26,24,.35);font-size:12px">Sin datos de radar — ejecuta generate_radar.py</div>';
+    return;
+  }
+  var fmt = function(v){ return v ? Math.round(v).toLocaleString('es-ES') : '—'; };
+  var tip = function(arr, f){ return (arr||[]).map(f).join('&#10;'); };
+  var html = '<div style="font-size:11px;color:rgba(26,26,24,.5);margin-bottom:10px;line-height:1.5">'
+    + 'Clasificación de subestaciones por probabilidad de capacidad próxima, combinando 4 pilares: '
+    + '<b>Ventana</b> (MW fallidos en ventana 0–6m) · <b>Señal trámite</b> (caída de capacidad en trámite últimos 3m — indicador adelantado) · '
+    + '<b>Zombis</b> (MW en tramitación sin publicaciones &gt;24m) · <b>Hitos RDL</b> (MW con hito 23/2020 venciendo en ≤6m). '
+    + 'Generado: '+(RADAR_DATA.generado||'')+'</div>';
+  html += '<table style="width:100%;border-collapse:collapse;font-size:12px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05)">';
+  html += '<thead><tr style="background:#05233D;color:#fff">';
+  ['#','Subestación','Score','Ventana 0-6m','Señal trámite 3m','Zombis','Hitos ≤6m'].forEach(function(h,i){
+    html += '<th style="padding:9px 12px;text-align:'+(i>=2?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em">'+h+'</th>';
+  });
+  html += '</tr></thead><tbody>';
+  RADAR_DATA.sets.slice(0,100).forEach(function(r,i){
+    var sc = r.score||0;
+    var scColor = sc>=50?'#399439':sc>=30?'#b45309':'rgba(26,26,24,.45)';
+    var tF = tip(r.fallidos, function(x){return x.p+' ('+x.mw+' MW, hace '+x.dias+'d)';});
+    var tZ = tip(r.zombis,   function(x){return x.p+' ('+x.mw+' MW, '+x.meses_sin_pub+'m sin publicar)';});
+    var tH = tip(r.hitos,    function(x){return x.p+' ('+x.mw+' MW, '+x.hito+' vence '+x.vence+', conf. '+x.confianza+')';});
+    html += '<tr onclick="jumpToSet(null,null,\''+_esc(r.set)+'\')" style="cursor:pointer;border-bottom:1px solid rgba(26,26,24,.05)" onmouseenter="this.style.background=\'#fafaf8\'" onmouseleave="this.style.background=\'\'" title="Ver subestación">'
+      + '<td style="padding:8px 12px;color:rgba(26,26,24,.35);font-family:IBM Plex Mono,monospace;font-size:10px">'+(i+1)+'</td>'
+      + '<td style="padding:8px 12px;font-weight:700;color:#05233D">'+_esc(r.set)+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;white-space:nowrap">'
+      +   '<div style="display:inline-flex;align-items:center;gap:7px"><div style="width:60px;height:6px;border-radius:3px;background:#efece5"><div style="width:'+Math.min(100,sc)+'%;height:100%;border-radius:3px;background:'+scColor+'"></div></div>'
+      +   '<span style="font-family:IBM Plex Mono,monospace;font-weight:700;color:'+scColor+'">'+sc+'</span></div></td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tF+'">'+(r.mw_ventana?fmt(r.mw_ventana)+' MW':'—')+(r.n_fallidos?' <span style="font-size:9px;color:rgba(26,26,24,.4)">('+r.n_fallidos+')</span>':'')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;color:'+(r.tram_drop_3m?'#399439':'rgba(26,26,24,.3)')+'">'+(r.tram_drop_3m?'▼ '+fmt(r.tram_drop_3m)+' MW':'—')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tZ+'">'+(r.mw_zombi?fmt(r.mw_zombi)+' MW':'—')+(r.n_zombis?' <span style="font-size:9px;color:rgba(26,26,24,.4)">('+r.n_zombis+')</span>':'')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tH+'">'+(r.mw_hitos_6m?fmt(r.mw_hitos_6m)+' MW':'—')+'</td>'
+      + '</tr>';
+  });
+  html += '</tbody></table>';
+  w.innerHTML = html;
 }
 
 function renderOportunidades(){
