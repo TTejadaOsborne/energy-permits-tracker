@@ -778,8 +778,8 @@ z-index:1199;
 .dash-row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 12px;min-height:0;overflow:hidden}
 .dash-row2.full{grid-template-columns:1fr 2fr}
 .dash-row-full{padding:0 12px;min-height:0}
-.dash-card2{background:#fff;border:1px solid rgba(26,26,24,.1);border-radius:10px;padding:8px 12px;display:flex;flex-direction:column;gap:3px;min-height:0;overflow:hidden}
-.dash-card2-title{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(26,26,24,.68);font-weight:600;flex-shrink:0;line-height:1.2;padding-bottom:2px}
+.dash-card2{background:#fff;border:1px solid rgba(26,26,24,.07);border-radius:14px;padding:12px 16px;display:flex;flex-direction:column;gap:4px;min-height:0;overflow:hidden;box-shadow:0 2px 10px rgba(5,35,61,.05)}
+.dash-card2-title{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#05233D;font-weight:700;flex-shrink:0;line-height:1.2;padding-bottom:4px;border-bottom:2px solid rgba(57,148,57,.35);margin-bottom:4px;align-self:flex-start}
 /* Boletines table */
 .dash-bol-table{width:100%;border-collapse:collapse;font-size:11px}
 .dash-bol-table th{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:rgba(26,26,24,.4);padding:5px 7px;border-bottom:1px solid rgba(26,26,24,.08);text-align:left;white-space:nowrap;background:#fff;position:sticky;top:0;z-index:1}
@@ -1520,9 +1520,9 @@ const CONFIG = {
       <!-- 4 compact KPI cards -->
       <div class="dash-kpis-grid">
         <div class="dash-kpi-c">
-          <div class="dash-kpic-lbl">Total Proyectos</div>
+          <div class="dash-kpic-lbl">Proyectos · Publicaciones</div>
           <div class="dash-kpic-val" id="dash-kpi-total">—</div>
-          <div class="dash-kpic-sub">registros oficiales</div>
+          <div class="dash-kpic-sub" id="dash-kpi-total-sub2">registros oficiales</div>
           <div class="dash-kpic-delta" id="dash-kpic-delta-total"></div>
         </div>
         <div class="dash-kpi-c">
@@ -4256,6 +4256,10 @@ function renderDashboard(){
   function setKpi(id,val){ var el=document.getElementById(id); if(el) el.textContent=val; }
 
   setKpi('dash-kpi-total',    fmtN(totalParques));
+  try{
+    var _totPubs = prjFiltered.reduce(function(s,p){return s+(p.n_publicaciones||((p.publicaciones||[]).length)||0);},0);
+    setKpi('dash-kpi-total-sub2', _totPubs ? fmtN(_totPubs)+' publicaciones oficiales' : 'registros oficiales');
+  }catch(e){}
   setKpi('dash-kpi-tramit',   fmtMW(tramitMW));
   setKpi('dash-kpi-aprobado', fmtMW(aprobMW));
   setKpi('dash-kpi-den',      fmtMW(denMW));
@@ -4371,25 +4375,27 @@ function renderDashboard(){
       });
       var _maxV=0;
       _GROUPS.forEach(function(g){ _STATES.forEach(function(s){ _maxV=Math.max(_maxV,_cd[g][s]); }); });
-      // Fixed scale: max 60k, ticks every 20k
-      var _fixedMax=60000;
-      var _sc={max:_fixedMax,ticks:[0,20000,40000,60000]};
-      var _niceMax=_fixedMax;
+      // Escala dinamica con pasos redondos
+      var _step=Math.pow(10,Math.floor(Math.log10(Math.max(1,_maxV*1.1)/4)));
+      var _n=(_maxV*1.1)/4/_step; _step*= _n<=1?1:_n<=2?2:_n<=2.5?2.5:_n<=5?5:10;
+      var _niceMax=Math.ceil(_maxV*1.1/_step)*_step;
+      var _tk=[]; for(var _t=0;_t<=_niceMax+1;_t+=_step) _tk.push(_t);
+      var _sc={max:_niceMax,ticks:_tk};
       var _W=560,_H=300,_ml=50,_mr=10,_mt=26,_mb=54;
       var _pw=_W-_ml-_mr, _ph=_H-_mt-_mb;
       var _gw=_pw/_GROUPS.length;
-      var _bw=14,_bg=4;
+      var _bw=20,_bg=6;
       var _groupBarW=3*_bw+2*_bg;
       var _groupPadL=(_gw-_groupBarW)/2;
       var _svg=['<svg viewBox="0 0 '+_W+' '+_H+'" width="100%" height="100%" style="display:block">'];
       var _ticks=_sc.ticks;
       // Unidad MW sobre el eje Y — con fondo para visibilidad
-      _svg.push('<text x="5" y="13" text-anchor="start" font-size="8" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.4)" font-weight="500" letter-spacing=".05em">MW</text>');
+      _svg.push('<text x="5" y="13" text-anchor="start" font-size="10" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.5)" font-weight="600" letter-spacing=".05em">MW</text>');
       _ticks.forEach(function(t){
         var _y=_mt+_ph-(t/_niceMax)*_ph;
         _svg.push('<line x1="'+_ml+'" y1="'+_y.toFixed(1)+'" x2="'+(_W-_mr)+'" y2="'+_y.toFixed(1)+'" stroke="rgba(26,26,24,.07)" stroke-width="1"/>');
         var _tl=t>=1000?(t/1000).toFixed(0)+'k':t+'';
-        _svg.push('<text x="'+(_ml-5)+'" y="'+(_y+3).toFixed(1)+'" text-anchor="end" font-size="8" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.4)">'+_tl+'</text>');
+        _svg.push('<text x="'+(_ml-5)+'" y="'+(_y+3).toFixed(1)+'" text-anchor="end" font-size="10" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.5)">'+_tl+'</text>');
       });
       _GROUPS.forEach(function(g,gi){
         var _gx=_ml+gi*_gw+_groupPadL;
@@ -4406,11 +4412,11 @@ function renderDashboard(){
           if(_mw>0){
             var _vl=_mw>=1000?(_mw/1000).toFixed(1)+'k':Math.round(_mw)+'';
             var _ly=Math.max(_mt+6, _mt+_ph-_bh-3);
-            var _fill=_bh>10?'rgba(26,26,24,.55)':'rgba(26,26,24,.38)';
-            _svg.push('<text x="'+(_gx+si*(_bw+_bg)+_bw/2).toFixed(1)+'" y="'+_ly.toFixed(1)+'" text-anchor="middle" font-size="7" font-family="IBM Plex Mono,monospace" fill="'+_fill+'">'+_vl+'</text>');
+            var _fill=_bh>10?'rgba(26,26,24,.75)':'rgba(26,26,24,.5)';
+            _svg.push('<text x="'+(_gx+si*(_bw+_bg)+_bw/2).toFixed(1)+'" y="'+_ly.toFixed(1)+'" text-anchor="middle" font-size="9.5" font-weight="700" font-family="IBM Plex Mono,monospace" fill="'+_fill+'">'+_vl+'</text>');
           }
         });
-        _svg.push('<text x="'+(_ml+gi*_gw+_gw/2).toFixed(1)+'" y="'+(_mt+_ph+13)+'" text-anchor="middle" font-size="9" font-family="IBM Plex Mono,monospace" fill="rgba(26,26,24,.7)" font-weight="600">'+g+'</text>');
+        _svg.push('<text x="'+(_ml+gi*_gw+_gw/2).toFixed(1)+'" y="'+(_mt+_ph+13)+'" text-anchor="middle" font-size="11" font-family="IBM Plex Mono,monospace" fill="#05233D" font-weight="700">'+g+'</text>');
       });
       // Centered legend
       var _legItems=[{l:'Aprobada',c:'#22c55e'},{l:'Pendiente',c:'#60a5fa'},{l:'Denegada',c:'#ef4444'}];
@@ -4430,7 +4436,7 @@ function renderDashboard(){
   // ── MW TRAMITADOS – monthly aggregation, smooth bezier curve ────────────────
   var tlEl = document.getElementById('dash-timeline-chart');
   if(tlEl && (!ALL || !ALL.length)){
-    tlEl.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(26,26,24,.25);font-size:10px;font-family:Inter,sans-serif">⏳ Cargando datos de histórico…</div>';
+    tlEl.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(26,26,24,.25);font-size:11.5px;font-family:Inter,sans-serif">⏳ Cargando datos de histórico…</div>';
   } else if(tlEl) {
   if(tlEl){
     // Use weekly if single year selected, otherwise monthly
@@ -4514,10 +4520,10 @@ function renderDashboard(){
       var areaPath='M '+pts[0].x.toFixed(1)+','+(TP+uh)+' '+linePath.slice(1)+' L '+pts[n-1].x.toFixed(1)+','+(TP+uh)+' Z';
       // Y-axis
       // MW label arriba del eje Y — igual que POTENCIA POR ESTADO
-      var _tlMWlabel='<text x="5" y="14" text-anchor="start" font-size="8" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace" font-weight="500" letter-spacing=".05em">MW</text>';
+      var _tlMWlabel='<text x="5" y="14" text-anchor="start" font-size="10.5" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace" font-weight="500" letter-spacing=".05em">MW</text>';
       var yLabels=sc.ticks.map(function(v){
         var y2=TP+uh-(v/sc.max*uh);
-        return '<text x="'+(LP-4)+'" y="'+(y2+3)+'" text-anchor="end" font-size="8" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+fmtTick(v)+'</text>'
+        return '<text x="'+(LP-4)+'" y="'+(y2+3)+'" text-anchor="end" font-size="10.5" fill="rgba(26,26,24,.4)" font-family="IBM Plex Mono,monospace">'+fmtTick(v)+'</text>'
           +'<line x1="'+LP+'" y1="'+y2+'" x2="'+(LP+uw)+'" y2="'+y2+'" stroke="rgba(26,26,24,.05)" stroke-width="1"/>';
       }).join('');
       // X-axis: años distribuidos uniformemente en el tiempo
