@@ -7960,6 +7960,43 @@ function renderProjDetail(p){
     });
     rgt+='</tbody></table></div>';
   }
+
+  // ── Infraestructura de evacuación asociada (publicaciones en apartado separado) ──
+  var ipubs=(p.publicaciones_infra||[]).slice().sort(function(a,b){return(b.fecha||'').localeCompare(a.fecha||'');});
+  if(ipubs.length){
+    var RESC2={otorgado:'#16a34a',favorable:'#2563eb',informacion_publica:'#9333ea',en_tramitacion:'#d97706',denegado:'#dc2626',desistido:'#6b7280',desfavorable:'#dc2626',archivado:'#6b7280',suspendido:'#f59e0b'};
+    var RESL2={otorgado:'Otorgado',favorable:'Favorable',informacion_publica:'Inf. Pública',en_tramitacion:'En Trámite',denegado:'Denegado',desistido:'Desistido',desfavorable:'Desfavorable',archivado:'Archivado',suspendido:'Suspendido'};
+    rgt+='<div style="display:flex;align-items:center;justify-content:space-between;margin:22px 0 6px">';
+    rgt+='<div style="font-size:13px;font-weight:700;color:#1a1a18">🔗 Infraestructura de evacuación asociada</div>';
+    rgt+='<span style="font-size:11px;color:rgba(26,26,24,.4)">'+ipubs.length+' publicación'+(ipubs.length===1?'':'es')+'</span></div>';
+    if(p.infra_asociada&&p.infra_asociada.length){
+      rgt+='<div style="font-size:11px;color:rgba(26,26,24,.5);margin-bottom:10px">'+p.infra_asociada.map(escHtml).join(' · ')+'</div>';
+    }
+    rgt+='<div style="background:#fbfaf7;border:1px dashed rgba(26,26,24,.15);border-radius:10px;overflow:hidden">';
+    rgt+='<table style="width:100%;border-collapse:collapse;font-size:12px">';
+    rgt+='<thead><tr style="background:#f5f5f0">';
+    ['ID Boletín','Fecha','Infraestructura','Tipo Trámite','Tipo Resolución'].forEach(function(h){
+      rgt+='<th style="padding:8px 12px;text-align:left;font-weight:600;font-size:11px;color:rgba(26,26,24,.5);border-bottom:1px solid rgba(26,26,24,.08)">'+h+'</th>';
+    });
+    rgt+='</tr></thead><tbody>';
+    ipubs.forEach(function(pub){
+      var tram=pub.tipo_permiso||'—';
+      var tc2=SRCH_TRAM_COLORS[tram]||'#6b7280';
+      var res=pub.estado||'';
+      var rc=RESC2[res]||'#6b7280';
+      var rl=RESL2[res]||res||'';
+      var fecha=pub.fecha?pub.fecha.replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1'):'—';
+      var lnk=pub.url?'<a href="'+escHtml(pub.url)+'" target="_blank" class="srch-boe-lnk" title="Ver boletín">↗</a>':'';
+      rgt+='<tr class="srch-hist-row">';
+      rgt+='<td style="padding:8px 12px;font-size:11px;color:rgba(26,26,24,.55);font-family:monospace;white-space:nowrap">'+escHtml(pub.id_boe||'—')+lnk+'</td>';
+      rgt+='<td style="padding:8px 12px;white-space:nowrap;color:rgba(26,26,24,.7)">'+fecha+'</td>';
+      rgt+='<td style="padding:8px 12px;font-size:11px;color:rgba(26,26,24,.65)">'+escHtml((pub.infraestructura||'—').slice(0,60))+'</td>';
+      rgt+='<td style="padding:8px 12px"><span style="background:'+tc2+'18;color:'+tc2+';padding:2px 7px;border-radius:10px;font-size:11px;font-weight:500">'+escHtml(tram)+'</span></td>';
+      rgt+='<td style="padding:8px 12px">'+(rl?'<span style="background:'+rc+'18;color:'+rc+';padding:2px 7px;border-radius:10px;font-size:11px;font-weight:500">'+escHtml(rl)+'</span>':'—')+'</td>';
+      rgt+='</tr>';
+    });
+    rgt+='</tbody></table></div>';
+  }
   document.getElementById('srch-det-right').innerHTML=rgt;
 }
 
