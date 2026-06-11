@@ -3111,9 +3111,9 @@
           "observaciones": "Resolución que modifica la autorización administrativa previa, otorga la autorización administrativa de construcción y declara la utilidad pública. Se convoca al levantamiento de actas previas a la ocupación de bienes y derechos afectados por expropiación forzosa. Infraestructuras de evacuación incluidas."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CERRATO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06394",
@@ -16311,9 +16311,9 @@
           "observaciones": "Convocatoria de levantamiento de actas previas a la ocupación forzosa de bienes y derechos afectados. Resolución de 17 de abril de 2023 otorgó AAP, AAC y declaró utilidad pública. La ocupación se declara urgente conforme a Ley de Expropiación Forzosa de 1954. Se incluye infraestructura de evacuación asociada al parque fotovoltaico."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GRIJOTA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03875",
@@ -16993,9 +16993,9 @@
       "infra_asociada": [
         "Línea Subterránea 220kV Evacuación Plantas FV Aries-Milano-Caléndula"
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MEDINA DEL CAMPO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05406",
@@ -19879,9 +19879,9 @@
       "infra_asociada": [
         "Línea Evacuación 30 kV Zamora-Roales del Pan-Valcabado"
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00529",
@@ -22002,9 +22002,9 @@
           "observaciones": "Resolución que autoriza la modificación de las autorizaciones administrativas previa y de construcción. Las modificaciones de las características del proyecto son consecuencia de los condicionados estimados en la evaluación ambiental de 2022 (16,99 MW inicial) y permitían mejor protección ambiental al afectar a menor superficie. Se dispone de acuerdos previos con todos los afectados, incluyendo servidumbres de paso constituidas a favor del peticionario."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MUDARRA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00545",
@@ -22502,9 +22502,9 @@
           "observaciones": "Modificación de autorización administrativa previa y autorización administrativa de construcción. El proyecto no supone nuevos efectos adversos significativos sobre el medio ambiente. Condicionado a la Declaración de Impacto Ambiental dictada por Orden MAV/1429/2022. La modificación se debe al incumplimiento de la condición de no alterar la ubicación de elementos más de 100 metros. La planta consta de 46.452 módulos de 595W + 46.452 módulos de 600W. Línea subterránea de evacuación de 30 kV formada por cuatro circuitos trifásicos directamente enterrados hacia SET Toro Renovables 400/30 kV. Periodo de información pública: 20 días."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02588",
@@ -23515,9 +23515,9 @@
           "observaciones": "Resolución que aprueba la modificación de la autorización administrativa previa (ModAAP) y otorga simultáneamente la autorización administrativa de construcción (AAC). La potencia máxima de módulos es 49,8 MWp y la capacidad de acceso/inyección a red es 44,2 MW. Las modificaciones fueron consecuencia de condiciones establecidas en la Declaración de Impacto Ambiental (Orden MAV/23/2023, de 13 de enero). Se dispone de acuerdos previos con afectados y no precisó nueva información pública conforme artículo 9.3 del Decreto 46/2022. Informe ambiental favorable de 21 de noviembre de 2023 concluyó que no era necesario realizar nueva DIA."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01941",
@@ -26527,9 +26527,9 @@
           "observaciones": "Resolución que concede AAP y AAC de proyectos modificados para cumplir condicionados de DIA. La DIA fue publicada por Orden MAV/558/2023 de 26 de abril de 2023. Se modificó el proyecto original para adaptarse a los condicionados ambientales. Las infraestructuras de evacuación (expediente PFot 337 'FV La Pradera' tramitado en AGE) obtuvieron AAC publicada en BOE de 30 de abril de 2024. El trazado de evacuación subterránea es compartido parcialmente con el proyecto 'La Pradera' (Naturgy Renovables, S.L.U.)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ROBLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01915",
@@ -27848,9 +27848,9 @@
           "observaciones": "Levantamiento de actas previas a la ocupación convocado para los días 11, 12 y 13 de noviembre de 2025. Proyecto modificado de planta solar fotovoltaica con línea de evacuación de 30 kV. Declaración de Utilidad Pública otorgada por Resolución de 11 de agosto de 2025, publicada en BOCYL nº 161 de 22 de agosto de 2025. Implica Urgente Ocupación conforme a Ley 24/2013 de Sector Eléctrico y Ley de Expropiación Forzosa de 1954. Afecta a múltiples propiedades en Muelas del Pan con servidumbre de paso, ocupación temporal y pleno dominio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "RICOBAYO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05301",
@@ -29451,9 +29451,9 @@
           "observaciones": "Resolución que anuncia la exposición pública relativa a la autorización de ocupación temporal de la vía pecuaria Colada Galiana. El proyecto incluye la planta solar fotovoltaica de 70,8 MW y su infraestructura de evacuación. Se abre período de información pública de un mes desde la publicación en BOCM."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "FUENCARRAL 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08114",
@@ -33824,9 +33824,9 @@
           "observaciones": "Resolución previa de 8 de abril de 2022 otorgó AAP, AAC y DIA. Potencia instalada de 38.986 MWp limitada a 30 MW por gestor de red. Infraestructura de evacuación con 2 líneas subterráneas de 30 kV interconectadas a SET PROMOTORES. Información pública para declaración de utilidad pública con período de alegaciones de 30 días."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "HERRERA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01646",
@@ -34948,9 +34948,9 @@
           "observaciones": "Expediente rechazado tras procedimiento de información pública y evaluación de impacto ambiental. Potencia activa máxima inyectable a la red (capacidad de acceso): 44,20 MW. Depósito de garantía económica de 2.000.000 € efectuado el 3 de diciembre de 2019. Se recibieron numerosas alegaciones durante la información pública, incluyendo de asociaciones ambientalistas y plataformas locales de oposición."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04389",
@@ -35037,9 +35037,9 @@
           "observaciones": "Proyecto solar fotovoltaico de 50 MW de potencia instalada y 44,20 MW de potencia activa máxima inyectable a la red. Se deniega la autorización administrativa previa y se pone fin al procedimiento. La garantía económica depositada fue de 2.000.000 €. El proyecto fue sometido a información pública e Evaluación de Impacto Ambiental. Se realizaron consultas a múltiples administraciones públicas y organismos. Se presentaron alegaciones de varios interesados incluyendo ASAJA, Ayuntamiento de Luyego, asociaciones deportivas y plataformas de defensa ambiental."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05502",
@@ -38653,9 +38653,9 @@
           "observaciones": "Resolución otorgando Autorización Administrativa Previa (AAP) de la instalación fotovoltaica Las Manzaneras de 37,496115 MWp e infraestructura de evacuación. El proyecto fue sometido a evaluación de impacto ambiental ordinaria. Solicitud presentada el 30 de noviembre de 2020. Información pública tramitada con publicaciones en BOCyL, BOP y prensa. Se recibieron alegaciones de vecinos y asociaciones ecologistas que fueron respondidas por el promotor. Vida útil estimada en 35 años."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VELILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06472",
@@ -39452,9 +39452,9 @@
           "observaciones": "Se trata de solicitud de autorización de uso excepcional de suelo rústico conforme al Decreto 45/2009 de 9 de julio que modifica el Decreto 22/2004 (Reglamento de Urbanismo de Castilla y León). El proyecto incluye la planta fotovoltaica ubicada en Polígono 7 Parcela 218 e infraestructura de evacuación hasta Centro de Seccionamiento «Violeta Solar» en el mismo polígono y parcela. Período de información pública: 20 días desde la publicación del último anuncio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAFRA 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04591",
@@ -49961,9 +49961,9 @@
           "observaciones": "Resolución otorga simultáneamente Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración de Utilidad Pública. La instalación fotovoltaica tiene potencia pico de 29,99 MWp y potencia nominal de 25 MW. Incluye línea de evacuación de 30 kV. Declaración de Impacto Ambiental favorable publicada mediante ORDEN FYM/759/2021 en BOCyL de 24/06/2021. El expediente fue sometido a información pública sin alegaciones presentadas."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05393",
@@ -53138,9 +53138,9 @@
           "observaciones": "Proyecto de evaluación de impacto ambiental ordinaria según solicitud del promotor. Potencia pico instalada de 49,869 MWp. Infraestructura de evacuación formada por línea eléctrica subterránea de 30 kV hasta subestación colectora común a otros promotores."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02639",
@@ -53211,9 +53211,9 @@
           "observaciones": "Proyecto de evaluación de impacto ambiental ordinaria. Infraestructura de evacuación formada por línea eléctrica subterránea de 30 kV hasta subestación colectora común a otros promotores. Potencia pico instalada: 49,869 MWp; potencia nominal: 44,199 MW."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02671",
@@ -53284,9 +53284,9 @@
           "observaciones": "Declaración de Impacto Ambiental favorable. La planta evacuará energía junto con otras 7 plantas fotovoltaicas a través de la misma subestación transformadora 30/132 kV. Potencia pico: 49,869 MW. El proyecto fue sometido a evaluación ambiental ordinaria por solicitud del promotor. Instalará 9 bloques de potencia con sistemas de seguimiento solar Este-Oeste."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02271",
@@ -53427,9 +53427,9 @@
           "observaciones": "Resolución que convoca levantamiento de actas previas a la ocupación de fincas tras la Declaración de Utilidad Pública (DUP) del parque eólico, publicada en BOP de Soria de 4 de junio de 2021. Proyecto afecta a municipios de Ausejo de la Sierra, Los Villares de Soria, Fuentelsaz de Soria, Garray y Fuentecantos. Las actas previas se levantarían el 27 de abril de 2022 en los respectivos ayuntamientos."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CUELLAR 45",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01910",
@@ -55644,9 +55644,9 @@
           "observaciones": "Resolución que concede AAP. Proyecto incluye ampliación de potencia de acceso y conexión de 42,6 MWp a 50 MWp (41,665 MWn finales). DIA favorable publicada el 5 de enero de 2023. Evacuación a través de SET Rioseco 30/132 kV y línea 132 kV SET Rioseco-SET La Pradera (en tramitación en expediente FV-173-2019-23407 de Roblasun 3). Infraestructuras de evacuación desde SET La Pradera a SET La Robla tramitadas por Naturgy Renovables en expediente PFot 337 del Ministerio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ROBLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02371",
@@ -63671,9 +63671,9 @@
           "observaciones": "Declaración de utilidad pública otorgada para instalación fotovoltaica de 55,36 MW con infraestructura de evacuación. Autorización administrativa previa otorgada el 20 de abril de 2023 (BOE núm. 115, 15 mayo 2023). Autorización administrativa de construcción otorgada el 13 de junio de 2024 (BOE núm. 155, 27 junio 2024). Se han recibido informes técnicos condicionados de múltiples organismos (Adif-AV, DG Carreteras, UFD Distribución, Canal de Isabel II, Infraestructuras del Agua Castilla-La Mancha, Defensa/Exolum). Promotor se compromete a cumplir todos los condicionantes técnicos antes de iniciar construcción."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ANCHUELO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06397",
@@ -65670,9 +65670,9 @@
           "observaciones": "Proyecto de reordenación del circuito MT 15 KV RVS703 e instalación de nuevo centro de transformación subterráneo. Incluye seis líneas (una aérea de 62m y cinco subterráneas) y desmontaje de centros existentes. Presupuesto: 196.888,09 euros. Período de información pública de 30 días."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CANILLEJAS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07805",
@@ -67389,9 +67389,9 @@
           "observaciones": "Resolución que otorga Autorización Administrativa Previa y Autorización Administrativa de Construcción. Fianza ambiental de 279.961 euros (167.977 euros fase obras, 111.984 euros desmantelamiento). Requiere inscripción en Registro Autonómico, informes favorables de Patrimonio Natural e Instituto de Estudios del Territorio previos al inicio de obras, Plan de vigilancia ambiental, y certificado de final de obra. Declaración de Impacto Ambiental favorable de 7 de noviembre de 2023."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "XOVE 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05396",
@@ -68959,9 +68959,9 @@
           "observaciones": "Instalación solar fotovoltaica de 35,40 MWp (26,98 MWac nominales) en superficie de 66,26 ha. Infraestructura de evacuación mediante línea eléctrica subterránea a 30 kV de 16,20 km atravesando ríos Duero y Valderaduey, y canal de Toro-Zamora. DIA favorable dictada conforme a Ley 21/2013 de evaluación ambiental. Distancias a núcleos de población: Entrala 2,60 km, Tardobispo 2,10 km, Morales del Vino 3,0 km, Zamora 3,9 km. Colindancia con espacios protegidos: ZEC Cañones del Duero (4,9 km), ZEC Riberas del Río Duero (3,5 km), ZEPA Cañones del Duero (5,0 km)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06233",
@@ -69462,9 +69462,9 @@
           "observaciones": "Proyecto de hibridación que combina parque eólico y planta solar fotovoltaica. Resolución otorga simultáneamente AAP, AAC y DUP. Se incluyen modificaciones del parque eólico (Resolución 29 de mayo de 2025) y de la planta solar fotovoltaica (Resolución 27 de junio de 2025). Requirió prospección arqueológica intensiva según informe de Cultura de 17 de marzo de 2025. Permisos de acceso de 27 de marzo de 2019 y permiso de conexión de 14 de noviembre de 2022 ya otorgados previamente. Incluye infraestructuras de evacuación y afecta a bienes y derechos que requieren expropiación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VILLIMAR 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06512",
@@ -73274,9 +73274,9 @@
           "observaciones": "Proyecto tramitado de forma acumulada bajo expediente PFot-714AC junto con parques solares Atenea, Formosa y Colibrí. Incluía infraestructuras de evacuación: SET Villamejil 132/30 kV, LAT 132 kV SET Villamejil-SET PE Pichí, SET PE Pichí 30/132 kV, LAT 132 kV SET Pichí-SET PE Abecé, y SET Abecé 30/132/400 kV. Solicitado con EIA conforme a Ley 21/2013."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MONTEARENAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07377",
@@ -75059,9 +75059,9 @@
           "observaciones": "Resolución que otorga Autorización Administrativa Previa y aprueba proyecto de ejecución. La planta se ubicará en polígono 18, parcelas 30, 31, 36 y 155. Se ha realizado Informe de Impacto Ambiental (no ordinario necesario) con conclusión favorable condicionada al cumplimiento de medidas preventivas y correctoras. Se tramitó información pública con alegaciones de Rimansan, S.A. Incluye también declaración en concreto de utilidad pública (DUP). Infraestructura de evacuación incluida en la autorización."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CENTRO 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08150",
@@ -76496,9 +76496,9 @@
           "observaciones": "Resolución de recurso administrativo contra la negativa del registrador de la propiedad de Mula. Escritura pública otorgada el 10/07/2025. Finca registral número 9.055 del Registro de la Propiedad de Mula con cabida inscrita de 457.262 m². Superficie arrendada: 240.392 m² distribuidos en parcelas catastrales del polígono 75 (parcela 23: 41.272 m²) y polígono 80 (parcela 6: 66.413 m², parcela 19: 132.707 m²). La resolución de la Dirección General de Seguridad Jurídica y Fe Pública es de 18 de diciembre de 2025, publicada en BOE de 24 de marzo de 2026."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "EL PALMAR 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00080",
@@ -79249,9 +79249,9 @@
           "observaciones": "Resolución de modificación de autorización administrativa previa del parque eólico experimental «Las Brañas» con aprobación del proyecto de ejecución. La modificación reduce la potencia de la instalación original a 4,5 MW con 3 aerogeneradores de 1,5 MW unitarios debido a quiebra del fabricante original. Trámite de información pública realizado sin alegaciones. Condicionados técnicos de AESA y Ayuntamiento de Santiz (licencia de obras) requeridos."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "SANTIZ 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01179",
@@ -81989,9 +81989,9 @@
           "observaciones": "Proyecto integrado por subestación colectora elevadora 132/30 kV denominada 'Boedo 30/132 kV' y línea de evacuación de alta tensión 132 kV de 7.971 m de longitud compartida con otros promotores. Presupuesto total: 8.657.674,33 €. Sometido a información pública por 30 días hábiles. Declaración de Utilidad Pública solicitada. Las instalaciones sirven a plantas fotovoltaicas Boedo 1 y Boedo 2."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "HERRERA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01559",
@@ -88823,9 +88823,9 @@
           "observaciones": "Resolución correctiva de errores materiales en la DIA formulada el 22 de diciembre de 2022. Se corrige el croquis de ubicación del proyecto (Sección III, página 193175). El proyecto se denomina 'híbrida' en el título pero la tecnología principal es fotovoltaica con 43,5 MWn. Se publica corrección en BOE el 12 de abril de 2023."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PUEBLA 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05315",
@@ -94349,9 +94349,9 @@
           "observaciones": "Resolución que otorga AAP y AAC conjuntamente. Anteriormente se había otorgado AAP en Resolución de 20 de abril de 2023. Esta resolución de 18 de enero de 2024 otorga AAP de modificaciones (cambios en ubicación de parcelas, reducción de módulos de 108.836 a 92.716, aumento de potencia unitaria de 460 a 540 Wp, cambio de trazado de infraestructura de evacuación a 30 kV) y AAC. La infraestructura de evacuación es a 30 kV."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "TORDESILLAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04661",
@@ -95109,9 +95109,9 @@
           "observaciones": "Resolución que otorga autorización administrativa previa de modificaciones y autorización administrativa de construcción. El proyecto fue inicialmente autorizado el 20 de abril de 2023 (AAP de 50 MW). Esta resolución de 26 de julio de 2024 otorga ModAAP para las modificaciones requeridas por la DIA de 13 de enero de 2023, incluyendo ajustes en la ocupación del corredor ecológico de La Sagra (máximo 15 Ha) y modificaciones en la afección de parcelas. Se declara utilidad pública. Red Eléctrica de España (REE) no opone objeción. UFD Distribución requiere cumplimiento de condicionados técnicos, asumidos por el promotor."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MORATA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04375",
@@ -98763,9 +98763,9 @@
           "observaciones": "Declaración de Impacto Ambiental publicada el 22 de diciembre de 2023 conforme al artículo 41.3 de la Ley 21/2013 de evaluación ambiental. Disponible para consulta en https://cmatv.xunta.gal/resolucions-da-avaliacion-ambiental-de-proxectos"
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "XOVE 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07831",
@@ -99840,9 +99840,9 @@
           "observaciones": "La solicitud original de AAP fue otorgada el 30 de septiembre de 2023 (63,57 MW de potencia instalada). Posteriormente, el promotor solicitó el 24 de febrero de 2024 modificación de AAP y autorización de construcción, con subsanaciones presentadas hasta noviembre de 2024. La resolución de desestimación se publica el 11 de agosto de 2025. El proyecto incluye infraestructura de evacuación con líneas soterradas a 30 kV, centro de seccionamiento y línea a 400 kV hasta SET Garoña REE. Requería informe preceptivo del Consejo de Seguridad Nuclear por proximidad a central nuclear."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BARCINA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04670",
@@ -103304,9 +103304,9 @@
           "observaciones": "Subestación de 66 kV en interior con doble barra partida y sistema de celdas blindadas tipo GIS con aislamiento SF6. Consta de 3 posiciones de línea, 1 posición de medida y 1 posición de enlace de barras transversal. Ubicación en calle La Pedriza, número 12, Alcobendas. Coordenadas UTM huso 30: X 443.894, Y 4.487.362. Se resolvió la no necesidad de tramitación de evaluación de impacto ambiental conforme a artículo 7 de la Ley 21/2013."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "FUENTE HITO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07426",
@@ -104301,9 +104301,9 @@
           "observaciones": "Planta fotovoltaica con potencia pico de 16.506 MWp limitada a potencia nominal de evacuación de 15 MW. Producción anual estimada de 32.091 MWh/año. Infraestructura de evacuación mediante línea aérea a 132 kV hacia SET Esteras. Presupuesto: 9.016.598,02 €. Sometida a trámite de información pública simultáneamente para AAP, AAC, DIA y DUP."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MEDINACELI 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04964",
@@ -104356,9 +104356,9 @@
           "observaciones": "Resolución de informe de determinación de afección ambiental. El proyecto consiste en una planta solar fotovoltaica distribuida en dos islas (islas 5 y 6) con una superficie de 42,1 ha. La infraestructura de evacuación incluye tres centros de transformación de 0,69/30 kV y una línea de evacuación subterránea a 30 kV con 6.118 metros de longitud. El proyecto se acoge a la tramitación prevista en el artículo 22 del Real Decreto-ley 20/2022. Duración de obras estimada en 12 meses. Vida útil estimada de 25 años."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VILLAVICIOSA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06203",
@@ -105896,9 +105896,9 @@
           "observaciones": "Solicitud presentada el 12 de diciembre de 2020. Inicialmente acumulada con Cisne I, III y IV bajo expediente PFot-782 AC por acuerdo de 20 de octubre de 2021. Desacumulada el 14 de septiembre de 2023 para tramitación separada. La DIA fue favorable para Cisne II (18 de enero de 2023, BOE-A-2023-2592), pero la infraestructura de evacuación común fue objeto de DIA desfavorable (expediente PFot-330 AC, 18 de enero de 2023, BOE-A-2023-2904) para otros proyectos, lo que impide la evacuación de energía."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CISNEROS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06095",
@@ -106339,9 +106339,9 @@
           "observaciones": "Resolución de 17 de noviembre de 2025 que otorga AAP. El proyecto fue inicialmente de 100 MW pero la resolución otorga autorización para 59,52 MW. La instalación incluye líneas subterráneas de 30 kV, subestación elevadora SET La Puebla 1 y 2 (30/220 kV) y línea de evacuación subterránea de 220 kV hacia la ampliación de la subestación Sierra del Andévalo. Se sometió a procedimiento de evaluación ambiental ordinario conforme a la Ley 21/2013."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PUEBLA DE GUZMAN 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05845",
@@ -107907,9 +107907,9 @@
           "observaciones": "Proyecto híbrido integrado por planta fotovoltaica de 49,95 MWp de autoconsumo y planta de electrolisis PEM para producción de hidrógeno verde con capacidad de 720 kg/h. Almacenamiento de 39,6 t de hidrógeno a 40 bar. Sometido a información pública conjunta para AAP, AAI y EsIA. Proyecto sometido a normativa SEVESO (RD 840/2015) por producción de hidrógeno."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MORERUELA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05837",
@@ -108785,9 +108785,9 @@
           "observaciones": "Subestación de distribución 132/15 kV ubicada en Urbanización Desarrollo del Este - Valdecarros, Distrito de Vallecas. Se resolvió la no necesidad de tramitación de evaluación de impacto ambiental conforme a la Ley 21/2013. Se sometió a información pública mediante Resolución de 26 de julio de 2024. El Ayuntamiento de Madrid aportó condicionantes y medidas correctoras que fueron aceptadas por UFD Distribución el 20 de septiembre de 2024."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CANILLEJAS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06785",
@@ -110978,9 +110978,9 @@
           "observaciones": "Proyecto Regional aprobado mediante Orden MAV/1125/2024, de 28 de octubre (BOCyL 31 de octubre de 2024). El proyecto genera electricidad renovable y calor mediante biomasa agrícola, y produce e-metanol mediante captura de CO2 e hidrógeno renovable. Se ha declarado utilidad pública e interés social con necesidad de urgente ocupación. Levantamiento de actas previas a la ocupación convocado para 28, 29 y 30 de abril de 2025 en el Ayuntamiento de La Robla."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "DEHESA 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06977",
@@ -114680,9 +114680,9 @@
           "observaciones": "Subestación transformadora 45/15 kV ubicada en camino de Polvoranca, número 45. Resolución de autorización administrativa previa y aprobación del proyecto de ejecución para modificación de la instalación. Informe ambiental de no necesidad de evaluación de impacto ambiental emitido el 12/09/2020. Tramitación de información pública cumplida mediante Resolución de 19/02/2025. Plazo de ejecución original de 18 meses había caducado, por lo que se presentó nueva solicitud en 27/08/2024."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LEGANES 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07620",
@@ -117055,9 +117055,9 @@
           "observaciones": "Resolución de autorización administrativa previa (AAP) concedida. El proyecto incluye también solicitud de Evaluación de Impacto Ambiental (EsIA simplificada), Autorización Administrativa de Construcción (AAC) y Declaración de Utilidad Pública (DUP). Cambio de titularidad el 28/05/2025 de Katriel Investmets, S.L. a Calvitero Solar 13, S.L. (grupo Reden Solar). Sometido a información pública el 07/07/2025 por 20 días hábiles. Se han recibido informes condicionados de la Confederación Hidrográfica del Duero (18/09/2025) y conformidad de i-DE Redes Eléctricas Inteligentes (14/07/2025)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALLADOLID T11 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07995",
@@ -118289,9 +118289,9 @@
           "observaciones": "Resolución de corrección de errores de la de 16 de abril de 2026. El proyecto es hibridación de módulo solar fotovoltaico de 49,11 MW con parque eólico existente San Lorenzo A de 48,75 MW. Corrección: referencia a 'informe de determinación de afección ambiental' en lugar de 'declaración de impacto ambiental'. Incluye parte de infraestructuras de evacuación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MUDARRA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08446",
@@ -120721,9 +120721,9 @@
           "observaciones": "Solicitud de licencia ambiental y urbanística para 9 aerogeneradores en suelo rústico común según artículo 28.1 del texto refundido de la Ley de Prevención Ambiental de Castilla y León. Período de información pública de 10 días desde la publicación en BOCyL. Promotor: D. Pedro García Merayo en representación de Parque Eólico Tierra de Campos, S.L."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BECERRIL T1 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00149",
@@ -123878,9 +123878,9 @@
           "observaciones": "Se convoca al levantamiento de actas previas a la ocupación forzosa de bienes y derechos afectados. El proyecto incluye parque eólico con instalaciones eléctricas asociadas: LSAT de 30 kV, SET 30/220 kV y tramo aéreo-subterráneo de 220 kV. Resolución de 26 de noviembre de 2019 otorgó AAP, aprobó Proyecto de Ejecución (AAC) y declaró Utilidad Pública."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BECERRIL T1 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00397",
@@ -125319,9 +125319,9 @@
       "infra_asociada": [
         "Línea de Evacuación 45kV Parque Solar PV Santo Tomás Loma"
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "AVILA       132.00 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00483",
@@ -125560,9 +125560,9 @@
           "observaciones": "Parque solar fotovoltaico de 4,8 MWn ubicado en parcelas 41, 42, 50 y 51 del polígono 70. Expedientes disponibles para consulta en el Servicio Jurídico de Urbanismo del Ayuntamiento de Zamora. Plazo de información pública de 20 días a partir de la última publicación requerida."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00505",
@@ -126641,9 +126641,9 @@
           "observaciones": "Resolución que autoriza la instalación de evacuación (subestación transformadora 'Valcabado Generación' y línea subterránea de 220 kV) para cuatro plantas solares fotovoltaicas. Se tramitó información pública conforme al artículo 144 RD 1955/2000 y se declaró utilidad pública conforme a la Ley 16/1954 sobre expropiación forzosa. El promotor aceptó todos los condicionados técnicos emitidos por los organismos afectados."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00612",
@@ -127141,9 +127141,9 @@
           "observaciones": "Resolución que autoriza simultáneamente la Autorización Administrativa Previa (AAP), la Autorización Administrativa de Construcción (AAC) y declara la Utilidad Pública (DUP) de la instalación de evacuación común (subestación transformadora Toro Renovables y línea aérea 400 kV) para 13 plantas solares fotovoltaicas: Cabernet Solar, Delphinus Solar, Draco Solar, Elawan Valdecarretas, Chaquinote Solar 1, Valdecarretas, Garnacha Solar, Hércules Solar, Ibérica I2, La Guardia, Valdelapiedra, Valdenogal y Zamora Solar 1. La instalación está ubicada en parcela 4682 del polígono 1 de Toro (Zamora) y se conecta a la Subestación Valdecarretas 400 kV de REE. Se ha realizado información pública previa con publicación en BOCyL del 1 de octubre de 2020 y BOP de Zamora del 14 de octubre de 2020."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00680",
@@ -128050,9 +128050,9 @@
           "observaciones": "Proyecto de modernización de central hidroeléctrica existente. Turbina Francis de 4,35 MW y generador síncrono de 4,70 MWA. Sistema de transporte en 6,6 kV con subestación transformadora en intemperie de 4,70 MVA. Presupuesto total: 2.607.687 €. Plazo de información pública: un mes desde publicación del anuncio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MUDARRA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00809",
@@ -129208,9 +129208,9 @@
           "observaciones": "Subestación transformadora Majuelo con 3 transformadores (dos autotransformadores 66/30kV 45/50MVA y uno 66/30kV 18/22MVA). Línea eléctrica subterránea de 66kV doble circuito con 7,3km de longitud en primer tramo. Presupuesto: 3.453.199,58€. Promotor solicitó voluntariamente sometimiento a EIA ordinaria. Información pública por 30 días desde publicación. Declaración de utilidad pública con necesidad de expropiación de bienes y adquisición de derechos."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_00951",
@@ -130688,9 +130688,9 @@
           "observaciones": "Subestación elevadora 400/132/30 kV con capacidad 150 MVA y línea de alta tensión 400 kV asociada. Sometida a información pública mediante anuncio de 5 de agosto de 2021."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "COLECTORA P.E. SIERRA DEL ROMERAL 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01122",
@@ -130809,9 +130809,9 @@
           "observaciones": "Línea aérea/subterránea de evacuación 400 kV. Expediente de tramitación en fase de información pública."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "COLECTORA P.E. SIERRA DEL ROMERAL 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01148",
@@ -132352,9 +132352,9 @@
           "observaciones": "Instalación solar fotovoltaica de 5.919,480 kWp de potencia pico y 4.800 kW de potencia nominal. Compuesta por 13.608 paneles solares de 435 Wp sobre estructura fija, 3 inversores de 1.600 kVA, 3 centros de transformación (CT-A, CT-B, CT-C) con relación 0,615/30 kV y 1.600 kVA cada uno. Línea subterránea de MT de 1.270 m de longitud. Ubicación en parcelas 41, 42, 50 y 51 del polígono 70 del término municipal de Zamora. Se presentaron alegaciones sobre servidumbre de paso y línea soterrada de 400 V que fueron atendidas en el expediente."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_01307",
@@ -141964,9 +141964,9 @@
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico común. Expediente municipal 237/2021. Período de información pública de 20 días. Parcelas localizadas en polígonos 21, 22, 34 y 35 del término municipal de Palacios de Sanabria."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ARBILLERA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02183",
@@ -144020,9 +144020,9 @@
           "observaciones": "Resolución que otorga autorización administrativa, aprobación de proyecto de ejecución y declaración de utilidad pública para la instalación de evacuación (subestación transformadora Majuelo 30/66 kV y línea subterránea 66 kV) de tres plantas solares fotovoltaicas. La DIA favorable se dictó por Orden MAV/1037/2022 de 10 de agosto de 2022. El nuevo trazado de la línea fue modificado por exigencias ambientales para discurrir principalmente por caminos públicos. El promotor presentó conformidad con todos los condicionados técnicos el 31 de octubre de 2022."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02334",
@@ -144145,9 +144145,9 @@
           "observaciones": "Resolución que publica el informe de determinación de afección ambiental. El proyecto cuenta con 3 aerogeneradores GE 1.5s de 1.500 kW unitarios. Se determina que debe someterse a Evaluación de Impacto Ambiental Ordinaria conforme a la Ley 21/2013, al apreciarse efectos adversos significativos en el medio ambiente. Infraestructura eléctrica con líneas de media tensión 20 kV interiores y línea de evacuación subterránea que interconecta con la Fase I del parque. Viales de acceso de 59 m y plataformas de montaje de 35x50 m."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "SANTIZ 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02345",
@@ -144597,9 +144597,9 @@
           "observaciones": "Autorización administrativa previa para subestación transformadora y línea aérea/subterránea de evacuación 400 kV. El título menciona que es para energía solar, pero la resolución cubre infraestructura de red (SET+LAT), no la generación en sí."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "COLECTORA P.E. SIERRA DEL ROMERAL 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02387",
@@ -145785,9 +145785,9 @@
           "observaciones": "Ampliación con 3 aerogeneradores GE1.5s de 1,5 MW unitarios. Línea subterránea de evacuación a 20 kV de 1.895 metros. Proyecto sujeto a evaluación de impacto ambiental ordinaria. Plazo de alegaciones: 30 días desde publicación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "SANTIZ 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02486",
@@ -146983,9 +146983,9 @@
           "observaciones": "Planta solar fotovoltaica de 34,99 MWp con línea de evacuación subterránea de 30 kV hasta SET Ranero 30/132 kV. Superficie ocupada: 74,52 ha. La evaluación se realizó mediante procedimiento de impacto ambiental ordinaria, solicitado por el promotor (aunque la normativa establecía procedimiento simplificado). Resolución favorable sin condicionantes aparentes."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LUENGOS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02601",
@@ -147024,9 +147024,9 @@
           "observaciones": "Proyecto sometido a evaluación de impacto ambiental ordinaria a solicitud del promotor. La planta ocupa 86,76 hectáreas en las parcelas 5001 y 5005 del polígono 105 del término municipal de El Burgo Ranero. Incluye 77.952 módulos solares fotovoltaicos monocristalino de 450 Wp cada uno y 10 inversores de potencia nominal variable. La línea de evacuación es subterránea de 30 kV con conexión a SET colectora Ranero 30/132 kV ubicada en Valdepolo. DIA declarada favorable con condiciones incluidas en el anexo (no especificadas en el resumen)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LUENGOS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02605",
@@ -148462,9 +148462,9 @@
           "observaciones": "Subestación transformadora 132/30 kV denominada 'Valdecarretas Norte' ubicada en término municipal de Toro. Línea aéreo-subterránea de 132 kV con longitud de aproximadamente 21 km (19,47 km aéreos con 79 apoyos + tramo subterráneo), conectando con subestación Toro Renovables. Infraestructura común de evacuación para plantas solares fotovoltaicas 'Ibérica I', 'Elawan Valdecarretas I', 'Valdelapiedra', 'Valdenogal' y 'Zamora Solar 1'. Evaluación de impacto ambiental ordinaria a solicitud del promotor. Subestación ocupa 0,70 ha (0,54 ha construidas) en paraje Monte la Reina."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02722",
@@ -149089,9 +149089,9 @@
           "observaciones": "Proyecto de 9 aerogeneradores de 5,5-5,6 MW unitarios. Línea de evacuación mixta aéreo-subterránea de 132 kV con 21,60 km de longitud (14,55 km subterráneo y 7,05 km aéreo). Acogido a procedimiento de determinación de afección ambiental según RD-ley 6/2022. Adenda presentada el 15 de noviembre de 2022 que reconfigura la evacuación eliminando conexión a SES Páramo Sardón."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BUNIEL 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02762",
@@ -150454,9 +150454,9 @@
           "observaciones": "Se trata de una subestación transformadora 220/30 kV con recinto de medida y línea subterránea de alta tensión de 200 kV. Sometida a información pública durante 20 días hábiles. Se solicita autorización de uso excepcional de suelo rústico y autorización de uso provisional de suelo urbanizable. El expediente municipal es 2022/3240F."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MEDINA DEL CAMPO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_02825",
@@ -152985,9 +152985,9 @@
           "observaciones": "Resolución que convoca al levantamiento de actas previas a la ocupación de fincas. DUP declarada por Resolución del 1 de diciembre de 2022 (publicada en BOP nº 37 de 23 febrero 2023 y BOCyL nº 26 de 8 febrero 2023). El acto de levantamiento de actas previas está programado para el 23 de mayo de 2023 en el Ayuntamiento de Villarino de los Aires. Implica ocupación urgente conforme a la Ley de Expropiación Forzosa de 1954."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VILLARINO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03031",
@@ -153684,9 +153684,9 @@
           "observaciones": "Infraestructura de evacuación compuesta por línea aérea/subterránea a 400 kV y subestación transformadora. Sometida a información pública para reconocimiento de utilidad pública (DUP) conforme a expropiaciones. Publicado en Diario Oficial de Extremadura (DOE)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "COLECTORA P.E. SIERRA DEL ROMERAL 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03096",
@@ -154174,9 +154174,9 @@
           "observaciones": "Planta solar fotovoltaica de 82,5 MW con infraestructura de evacuación en 30 kV. Expediente tramitado de conformidad con RD 1955/2000 y Ley 21/2013. Se incluyó también DIA en la tramitación. La línea de evacuación 132 kV se encuentra a aproximadamente 2 km de la explotación minera, sin afectar a la misma. Se recibieron informes conformes de ADIF, Ayuntamiento de Montoro (con condicionado sobre distancia de subestación), Ayuntamiento de Lopera, y varias administraciones autonómicas. El promotor mostró conformidad con todos los condicionados técnicos establecidos."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MUDARRA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03188",
@@ -158937,9 +158937,9 @@
           "observaciones": "Nueva subestación de 132/15 kV con 6 posiciones nuevas en 132 kV y 22 posiciones nuevas en 15 kV. Potencia de transformación principal: 90 MVA (3 transformadores de 30 MVA cada uno). Potencia de transformación servicios propios: 320 kVA. Ubicación: Avda. de la Tierra, número 3, Rivas-Vaciamadrid. Coordenadas UTM ETRS89 X = 454.692; Y = 4.471.086. Presupuesto: 381.000 euros. Período de información pública: 1 mes desde publicación en BOCM."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CRISTO DE RIVAS 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03608",
@@ -159330,9 +159330,9 @@
           "observaciones": "Instalación fotovoltaica de 93 MW de potencia pico y 82,488 MW de potencia instalada. Infraestructuras de evacuación: línea subterránea de 30 kV, subestación Anguita 30/132/400 kV y línea eléctrica a 400 kV SET Anguita-SET Medinaceli REE. Se otorga autorización administrativa previa. También se solicitó autorización administrativa de construcción tramitada conjuntamente."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MEDINACELI 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03647",
@@ -160013,9 +160013,9 @@
           "observaciones": "Resolución por desestimación de solicitud de autorización administrativa previa. La Dirección General de Calidad y Evaluación Ambiental emitió Declaración de Impacto Ambiental desfavorable el 11 de mayo de 2023. El proyecto fue acumulado inicialmente con el parque eólico Fuerga (102 MW) pero posteriormente desacumulado para resolución separada."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GAROÑA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03700",
@@ -160551,9 +160551,9 @@
           "observaciones": "Proyecto híbrido que hibridiza módulo solar fotovoltaico Capiruza I (49,4 MWac) con Parque Eólico Capiruza I preexistente (50 MWac). Potencia conjunta 99,4 MW. Se tramita junto con PSF Capiruza II (41,8 MWac) de forma independiente. El módulo FV ocupa 71,87 ha. Línea soterrada de media tensión de 20 kV (4.500 m). Resolución de determinación de afección ambiental conforme a RD-ley 6/2022. La documentación fue completada tras requerimiento de 31 de marzo de 2023. El proyecto se localiza fuera de Red Natura 2000 y espacios naturales protegidos, aunque la línea de evacuación cruza hábitats de interés comunitario (9340, 4090, 5210, 6220*) en tramo soterrado de ~1,76 km en paralelo a caminos existentes."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LA PINILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03737",
@@ -160592,9 +160592,9 @@
           "observaciones": "Proyecto híbrido que combina un módulo solar fotovoltaico Capiruza II de 41,8 MWac con un parque eólico preexistente Capiruza II de 42 MWac. El módulo FV ocupa 75,26 ha. Informe de determinación de afección ambiental (InfDAE) que resuelve la aplicabilidad de evaluación ambiental según RD-ley 6/2022. El parque eólico existente cuenta con DIA positiva desde 2003 y está operativo desde 2004. Se tramita junto con proyecto PSF Capiruza I de manera independiente, compartiendo punto de acceso a red."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LA PINILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03738",
@@ -160756,9 +160756,9 @@
           "observaciones": "Modificación del parque eólico existente Aldehuelas (autorizado 2004) mediante repotenciación: sustitución de 59 aerogeneradores AE-56 de 800 kW por 10 aerogeneradores SG155 de 4.72 MW limitados. Hibridación con sistema de almacenamiento de 2.8 MW / 5.6 MWh. Potencia instalada total 50 MW. SET Aldehuelas 220/20 kV y línea 220 kV SET Aldehuelas-SET Oncala sin modificación. Proyecto visado VD00054-23R (2 febrero 2023). Plazo resolución: 3 meses desde recepción de DIA. Silencio administrativo desestimatorio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ONCALA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03752",
@@ -162273,9 +162273,9 @@
           "observaciones": "Resolución de desestimación de la solicitud de AAP y AAC por Declaración de Impacto Ambiental desfavorable emitida el 16 de enero de 2023. El expediente fue tramitado conjuntamente con CSF Torremendo I (PFot-129 AC) y posteriormente desacumulado. La línea de evacuación a 132 kV entre SE Torremendo II y SE Colectora Torremendo Renovables también fue rechazada como consecuencia de la DIA desfavorable."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "TORREMENDO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_03894",
@@ -164521,9 +164521,9 @@
           "observaciones": "Resolución de repotenciación de parque eólico existente (autorizado originalmente en 2012). Se otorga Autorización Administrativa Previa y Autorización Administrativa de Construcción conjuntamente. El proyecto fue sometido a información pública sin alegaciones. Se ha obtenido conformidad ambiental del Servicio Territorial de Medio Ambiente mediante verificación de no efectos adversos significativos conforme a Ley 21/2013. Ubicación en parcelas 111, 113 (polígono 502) y 121 (polígono 503) de Santiz. Instalación conectada a red de transporte (REE)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "SANTIZ 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04005",
@@ -167368,9 +167368,9 @@
           "observaciones": "Proyecto híbrido que combina módulo fotovoltaico (32,99 MW pico, 29,10 MW nominal) con parque eólico San Cebrián (46,53 MW) existente. Infraestructura de evacuación mediante línea subterránea a 30 kV de 4,89 km hasta SET San Cebrián. Superficie de afección de 68 ha repartida en cinco recintos. La resolución emite informe de determinación de afección ambiental bajo el procedimiento simplificado del Real Decreto-ley 20/2022. Se identifica afección a espacios protegidos (ZEC Montes Torozos y ZEC Riberas del río Pisuerga) y hábitats de interés comunitario, así como presencia de especies catalogadas como vulnerables o en peligro de extinción."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "SAN CIPRIAN 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04201",
@@ -169101,9 +169101,9 @@
           "observaciones": "Resolución que otorga simultáneamente la Autorización Administrativa Previa y Autorización Administrativa de Construcción para la hibridación de una minicentral hidroeléctrica existente con instalación solar fotovoltaica de 1.100 kW. Se ha completado el trámite de información pública sin alegaciones. Se han recibido condicionados técnicos de Ayuntamiento de Pollos, i-DE y Servicio Territorial de Medio Ambiente. La instalación eléctrica de MT afectada es 'Alaejos Torrecilla–13 kW'. Se requiere autorización de uso privativo del Monte de Utilidad Pública nº 104 Riberas de Pollos según Ley 3/2009."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "TORDESILLAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04381",
@@ -169714,9 +169714,9 @@
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico para instalación de subestación eléctrica 132/400 kV. Expediente municipal 297/2023. Sometido a información pública durante 20 días hábiles desde el 28 de diciembre de 2023."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LUENGOS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04438",
@@ -170829,9 +170829,9 @@
           "observaciones": "Proyecto de dos plantas fotovoltaicas (Daganzo Altair I: 51 MWp/47 MWn; Daganzo Altair II: 51 MWp/47 MWn) con infraestructura de evacuación mediante LASAT 220 kV de 9,4 km conectada a SET Usanos. Superficie total: 173 ha. Perímetro de vallado: 17,2 km. Tecnología de seguidores horizontales monofila con seguimiento a un eje. La resolución formula Declaración de Impacto Ambiental favorable tras evaluación ordinaria. Se incluyó proceso de participación pública y consultas. Modificaciones del proyecto durante tramitación relacionadas con criterios de ocupación máxima en torno a nidos de águila imperial ibérica y no ocupación del corredor ecológico del río Torote."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "DAGANZO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04559",
@@ -173229,9 +173229,9 @@
           "observaciones": "Hibridación de instalación solar fotovoltaica (26,19 MWp potencia pico, 22,918 MW potencia nominal) con parque eólico existente Reventones de 34 MW. Evaluación ambiental ordinaria conforme a Ley 21/2013. Evacuación a través de línea subterránea de media tensión a 20 kV de 4.600 m hacia SET existente. Incluye otras dos plantas solares colindantes (Almendros I y II) no evaluadas en esta resolución. Desmantelamiento será objeto de evaluación ambiental simplificada posterior."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PEÑARRUBIA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04729",
@@ -174011,9 +174011,9 @@
           "observaciones": "Instalación híbrida renovable con infraestructura de evacuación. Se formula declaración de impacto ambiental favorable. El proyecto fue sometido a información pública (anuncio de 27/07/2022). La resolución incluye además autorizaciones administrativas previa y de construcción."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LA PINILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04772",
@@ -175623,9 +175623,9 @@
           "observaciones": "Información pública de 20 días hábiles a partir del 15 de marzo de 2024. Proyecto técnico firmado por Ingeniero Colegiado nº 15.038 del Colegio Oficial de Ingenieros Industriales de Madrid. Ubicación: parcelas 74 y 75 del polígono 5."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "RENEDO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_04898",
@@ -177037,9 +177037,9 @@
           "observaciones": "Resolución que modifica las condiciones de la DIA original de 20 de enero de 2023. Modificación del condicionado relativo a medidas preventivas y compensatorias para fauna (cernícalo primilla). El promotor solicita eliminar las áreas de exclusión de 500 m alrededor de colonias reproductoras, argumentando nuevas y mejores técnicas disponibles basadas en informe de la Estación Biológica de Doñana. Proyecto compuesto por cuatro plantas solares fotovoltaicas: Rey I (120 MWp), Rey II (120 MWp), Rey III (120 MWp), Rey IV (120 MWp) más infraestructura de evacuación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CARMONA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05004",
@@ -177445,9 +177445,9 @@
           "observaciones": "Proyecto formado por 2 aerogeneradores SG170 de 5,0 MW cada uno. Línea de evacuación subterránea de media tensión hasta SET Páramo de Sardón. La subestación será objeto de otro proyecto diferente. Plazo de información pública: 30 días a partir del día siguiente a la publicación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CERRATO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05031",
@@ -177732,9 +177732,9 @@
           "observaciones": "Proyecto de hibridación: instalación fotovoltaica de 29,42 MW integrada con parque eólico Escepar de 36 MW ya existente. Incluye línea de evacuación subterránea de 30 kV. Se otorgan simultáneamente AAP, AAC y DUP. Se recibieron alegaciones en información pública que fueron contestadas por el promotor. Diversos organismos consultados emitieron condicionados técnicos (CHT, DG Carreteras). La DG de Carreteras no cursó objeciones tras aclaración del promotor."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BOLARQUE 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05060",
@@ -177773,9 +177773,9 @@
           "observaciones": "Ocupación de terrenos en vía pecuaria Vereda de la Calzadilla (VP/143/23) para apertura de zanja de cableado eléctrico subterráneo e infraestructuras de evacuación de la instalación solar fotovoltaica. Resolución de aprobación publicada en DOCM 61 de 28/03/2025."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MORATA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05066",
@@ -177857,9 +177857,9 @@
           "observaciones": "Proyecto de ampliación y compactación de sistema de 132 kV en subestación transformadora de 220/132 kV. Sometido a información pública. Texto completo no disponible en la consulta."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MUDARRA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05068",
@@ -179740,9 +179740,9 @@
           "observaciones": "Resolución que presta conformidad a la modificación del proyecto de la subestación SET 132/30 kV. La modificación incluye: adaptación de la subestación a la salida de la línea de evacuación en 132 kV en subterráneo, incorporación de nuevos parques eólicos a evacuar, e incorporación de sistemas de hibridación. La plataforma aumenta de 4.356 m² a 5.382,40 m² (incremento del 23,56%). El proyecto forma parte de las infraestructuras de evacuación del Parque Eólico Páramo de Sardón de 50 MW."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CERRATO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05240",
@@ -180486,9 +180486,9 @@
           "observaciones": "Proyecto de hibridación del módulo fotovoltaico Tallisca (39,975 MW) con el parque eólico existente Tallisca (40 MW). Líneas de evacuación subterráneas de 20 kV. Se sometió a información pública. Se han recibido informes condicionados de Red Eléctrica de España, Dirección General de Patrimonio Histórico, y Dirección General de Planificación y Recursos Hídricos. El promotor expresó conformidad con todos los condicionados técnicos establecidos."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "RETUERTA DEL BULLAQUE 45",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05300",
@@ -180529,9 +180529,9 @@
           "observaciones": "Módulo fotovoltaico para hibridación con parque eólico existente Majal Alto (50 MW). Líneas de evacuación subterráneas de 20 kV. Se tramitó según RD 1955/2000 y Ley 21/2013. DIA favorable resuelto. Información pública publicada en BOE (4 de octubre de 2021) y en Boletín Oficial de la Provincia de Huelva (18 de octubre de 2021). Sin alegaciones recibidas."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PUEBLA 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05303",
@@ -180570,9 +180570,9 @@
           "observaciones": "Subestación transformadora con 1 transformador de potencia, relación 15/11 kV y 8 MVA, tipo seco, instalación interior, grupo Dyn11. Plazo de ejecución: 24 meses desde la notificación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GETAFE 15",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05307",
@@ -180980,9 +180980,9 @@
           "observaciones": "Proyecto híbrido de módulo solar fotovoltaico integrado con parque eólico Cerro Vicente I existente (39,1 MW). Potencia pico de 46,792 MWp con potencia instalada en inversores de 39,00 MWac. Superficie útil de 59,10 ha. Línea subterránea de media tensión de 20 kV de 5.126,62 metros de longitud hasta SET Cerro Vicente. SET será reacondicionada para la hibridación. Evacuación desde SET Cerro Vicente hacia SET Pinilla 400/132 kV (REE), línea ya ejecutada y no incluida en este procedimiento."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LA PINILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05348",
@@ -181685,9 +181685,9 @@
           "observaciones": "Modificación de solicitud de autorización administrativa previa para subestación colectora e infraestructuras de evacuación de energía eléctrica asociadas. Publicado en Diario Oficial de Extremadura (DOE)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "COLECTORA P.E. SIERRA DEL ROMERAL 132",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05416",
@@ -181808,9 +181808,9 @@
           "observaciones": "Declaración Ambiental Estratégica (DAE) del Plan Especial de Infraestructuras (PEIPFOT-180). Proyecto comprende tres plantas fotovoltaicas (Collarada Solar, Maladeta Solar, Popa Solar), dos subestaciones eléctricas (Valdepozuelo y Henares) y líneas eléctricas asociadas. SIA 23/189."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ANCHUELO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05427",
@@ -185055,9 +185055,9 @@
           "observaciones": "Modificación de AAP de 24 de abril de 2023 (potencia original 42,3 MW). Cambios: desplazamiento de un aerogenerador y cambio de tipología de aerogenerador de 5,5 MW a 6,1 MW. Incluye infraestructuras de evacuación. Declaración de utilidad pública otorgada. Información pública realizada en mayo de 2023."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MORELLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05698",
@@ -187060,9 +187060,9 @@
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico para dos instalaciones fotovoltaicas (T1 y T2) en parcela 162, polígono 501. Referencia catastral: 37248A501001630000YP. Periodo de información pública: 20 días desde publicación en BOCyL. Basado en artículo 307.3 del Reglamento de Urbanismo de Castilla y León."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PEÑARANDA STR T1 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05853",
@@ -187144,9 +187144,9 @@
           "observaciones": "Resolución de Declaración de Impacto Ambiental favorable. Proyecto modificado tras información pública: reducción de superficie de PSFV de 306,10 a 293,31 hectáreas (eliminación de parcelas al norte del camino de las Morgas por avifauna esteparia); soterramiento total de LAT de evacuación (15.921 m, salvo 90 m aéreos para franqueo del río Valderaduey). Potencia instalada: 105 MWn (160,01 MWp). Incluye SET Venus 220/30 kV y LAT SET Venus-SET Valcabado 220 kV. La Subestación Valcabado II 220/66/30 kV no está incluida en el alcance de esta resolución."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZAMORA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_05857",
@@ -189848,9 +189848,9 @@
           "observaciones": "Planta de almacenamiento energético Stand-Alone mediante baterías electroquímicas de ion-litio con cátodo LFP. Capacidad de almacenamiento de 885,3 MWh (bruta: 1.040,256 MWh). Duración de descarga de 4 horas. Vida útil estimada de 20 años. Compuesta por 63 islas energéticas de 16.512 kWh cada una. Evacuación mediante línea subterránea de 220 kV de 170 m hacia SET Promotores Puerto de la Cruz 220/220 kV (no incluida en tramitación). Resolución de evaluación ambiental simplificada. Se realizaron consultas a administraciones públicas (11 de marzo de 2024). Se requirió documentación adicional sobre impactos en avifauna y ordenación territorial (18 de junio de 2024), subsanada por el promotor el 16 de julio de 2024."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PUERTO DE LA CRUZ 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06052",
@@ -191265,9 +191265,9 @@
           "observaciones": "Proyecto de modificación de infraestructura eléctrica subterránea a 45 kV en el Área de Planeamiento Específico APE 16.11 'Ciudad Aeroportuaria-Parque de Valdebebas', motivado por la construcción de la nueva calle 51. Presupuesto total: 391.589,73 euros. Período de información pública de un mes. Consulta de expediente previa cita en instalaciones_electricas@madrid.org"
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CANILLEJAS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06139",
@@ -192925,9 +192925,9 @@
           "observaciones": "Planta de almacenamiento de energía stand-alone con capacidad de 340 MWh. Infraestructura de evacuación incluye línea subterránea de 30 kV, línea subterránea de 220 kV y subestación transformadora SET 30/220 kV. Resolución ambiental favorable sujeta a prescripciones adicionales incluyendo prospección arqueológica preventiva según modificación del trazado de línea aportada por el promotor el 29 de noviembre de 2023."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "TAJO ENCANTADA 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06259",
@@ -194303,9 +194303,9 @@
           "observaciones": "Información pública para ocupación temporal de terrenos en la vía pecuaria 'Cañada Real Soriana o Merinera'. Trámite preceptivo según artículo 14 de la Ley 3/1995 de Vías Pecuarias. Plazo de información pública de un mes a partir de la publicación en BOCyL."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALLADOLID T11 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06319",
@@ -194508,9 +194508,9 @@
           "observaciones": "Expediente 2105/2024. Autorización de uso excepcional de suelo rústico tramitada por el Ayuntamiento de Peñaranda de Bracamonte conforme a artículo 307.3 del Reglamento de Urbanismo de Castilla y León. Sometido a información pública por 20 días desde la publicación en BOCyL (BOCYL-D-07012025-30). Referencia catastral: 37248A501001630000YP. Parcela 163 del polígono 501. Instalaciones: Peñaranda T1, Peñaranda T2 y centro de transformación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PEÑARANDA STR T1 13 13.2",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06330",
@@ -196512,9 +196512,9 @@
           "observaciones": "Instalación solar fotovoltaica hibridada con parque eólico existente Dehesilla I (46,875 MW). Potencia pico: 55,765 MW. Tramitación bajo procedimiento simplificado conforme a RD-ley 6/2022. IDAA favorable emitido el 17 de enero de 2023. Información pública sin alegaciones. Incluye autorización militar por servidumbres aeronáuticas de Defensa. Condicionados técnicos de Red Eléctrica de España, Junta de Castilla y León y Diputación Provincial de Palencia."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GRIJOTA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06488",
@@ -196555,9 +196555,9 @@
           "observaciones": "Instalación solar fotovoltaica de 47,473 MW hibridada con el parque eólico existente Dehesilla II de 46,875 MW. Potencia pico de 55,765 MWp. Se tramitó mediante procedimiento simplificado conforme al artículo 7 del RD-ley 6/2022. Autorización militar en materia de servidumbres aeronáuticas otorgada por la Dirección General de Infraestructura del Ministerio de Defensa. La instalación incluye infraestructuras de evacuación en los términos municipales de Trigueros del Valle (Valladolid) y Ampudia (Palencia). Se sometió a información pública con publicaciones en BOE y boletines provinciales. Se recibieron conformidades de organismos consultados; Red Eléctrica de España se consideró conforme por falta de respuesta en plazo."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GRIJOTA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06491",
@@ -204161,9 +204161,9 @@
           "observaciones": "Resolución que otorga autorización administrativa previa y autorización administrativa de construcción de la instalación solar fotovoltaica con infraestructuras auxiliares y de evacuación. Procedimiento iniciado con anuncio de información pública del 22 de agosto de 2022 para DIA, AAP y AAC. Referencia de expediente complementaria: 2701/133/PE-SP."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LA PINILLA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_06949",
@@ -206327,9 +206327,9 @@
           "observaciones": "Subestación transformadora 45/11 kV destinada a la alimentación de un centro de procesamiento de datos. Transformador de potencia de 40 MVA. Línea de 45 kV asociada procedente de la subestación SMR Hilanderas. Presupuesto total: 701.076,69 euros. Ubicada en C/ Fundidores, 40, Getafe. [Descartado manual: SOCIMI inmobiliaria, SET privado]"
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GETAFE 15",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07079",
@@ -206538,9 +206538,9 @@
           "observaciones": "Proyecto de hibridación con parque eólico existente Morón de Almazán de 50 MW. La solicitud inicial fue de 49,5 MW, resuelta como 51,315 MW. Sometido a información pública sin alegaciones recibidas. Se obtuvo informe de determinación de afección ambiental (IDAA) favorable mediante Resolución de 13 de enero de 2023. Se han recibido condicionados técnicos de E-Distribución Redes Digitales, Confederación Hidrográfica del Duero, Diputación Provincial de Soria y Telefónica de España, con conformidad del promotor."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "MORON 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07088",
@@ -206622,9 +206622,9 @@
           "observaciones": "Proyecto de hibridación con parque eólico existente «Peña Nebina» de 20 MW con el que compartirá acceso a red. Superficie de afección de 51,84 ha. Línea eléctrica subterránea de evacuación de 9,6 km de longitud a 30 kV. Sometido a evaluación de impacto ambiental ordinaria a solicitud del promotor."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "RICOBAYO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07090",
@@ -206909,9 +206909,9 @@
           "observaciones": "Proyecto en hibridación con parque eólico 'Sierra Sesnández' en explotación. Potencia pico de 17,6 MWp. Evacuación mediante línea subterránea de 30 kV de 4.251 m hasta SET Peña Nebina. Superficie a ocupar: 42 ha. Solicitud de procedimiento simplificado inadmitida el 14 de abril de 2025, procediéndose a EIA conforme Ley 21/2013. Plazo información pública: 30 días."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "RICOBAYO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07109",
@@ -208679,9 +208679,9 @@
           "observaciones": "Resolución que declara utilidad pública para las líneas eléctricas de 30 kV y parte de la línea aérea de 132 kV que forman parte de la infraestructura de evacuación. AAP otorgada el 20 de abril de 2023 (112,9 MW). AAC otorgada el 16 de julio de 2024. Solicitud de DUP presentada el 19 de agosto de 2024. Información pública realizada. Una alegación recibida y contestada por el promotor."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "EL PALMAR 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07192",
@@ -210921,9 +210921,9 @@
           "observaciones": "Proyecto de infraestructura de red con línea aérea de alta tensión (LAAT) a 400 kV conectando CS Guijo 400/30 kV con CS Pozuelo. Sometido a información pública el 9 de julio de 2025."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ZARZON 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07303",
@@ -213603,9 +213603,9 @@
           "observaciones": "Resolución sobre modificación del proyecto de instalación solar fotovoltaica y sus instalaciones de evacuación. Publicada en el Diario Oficial de Extremadura (DOE)."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "TRUJILLO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07435",
@@ -215716,9 +215716,9 @@
           "observaciones": "Resolución de autorización administrativa previa y aprobación del proyecto de ejecución para la instalación de nueva subestación transformadora ST Los Cerros 45/15 kV ubicada en Pl. Los Cerros, s/n. Se ha cumplido el trámite de información pública mediante Resolución de 27 de mayo de 2025. Conformidad recibida del Ayuntamiento de Madrid (SG Conservación de Vías Públicas) y de Canal Isabel II."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CANILLEJAS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07538",
@@ -215799,9 +215799,9 @@
           "observaciones": "Sistema de almacenamiento energético en baterías (BESS) de 11 MW nominales / 22 MWh de capacidad (dimensionado para 14 MW / 28 MWh) hibridado con la planta solar fotovoltaica existente 'Hércules Solar'. Instalación conjunta con BESS Delphinus. Baterías de ion-litio en 14 contenedores de 2 MWh. Evacuación a SET El Pisón 66/30 kV mediante línea subterránea de 30 kV. Evaluación de impacto ambiental simplificada conforme a Ley 21/2013 (anexo II, grupo 4, apartado n). El informe ha sido dictado como documento ambiental favorable sin necesidad de EsIA ordinaria."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07551",
@@ -217120,9 +217120,9 @@
           "observaciones": "Sistema de almacenamiento de baterías Ion-Litio LiFePO4 con refrigeración líquida, capacidad de 123,863 MWh, hibridado con la planta fotovoltaica FV San Antonio existente. Evacuación mediante línea soterrada de media tensión 30 kV. Superficie de implantación: 2.498,426 m². Evaluación ambiental simplificada resuelta favorablemente."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CEDILLO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07604",
@@ -217991,9 +217991,9 @@
           "observaciones": "Subestación transformadora 45/11 kV con línea asociada de 45 kV. Ubicada en C/ Fundidores, número 40. Tramitada conforme a Decreto 70/2010 de la Comunidad de Madrid. Se cumplió información pública y se recibieron alegaciones del Canal de Isabel II que fueron respondidas satisfactoriamente. Proyectista: Jaime Antonio Galindo Salvador (colegiado 8336 del Colegio Oficial de Ingenieros Técnicos Industriales de Aragón). Proyecto de ejecución aprobado con anexo presentado en abril de 2025. [Descartado manual: SOCIMI inmobiliaria, SET privado]"
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "GETAFE 15",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07650",
@@ -218073,9 +218073,9 @@
           "observaciones": "Parque solar fotovoltaico FV Arenas III de 114 MWp/95 MWn. Forma parte de un expediente acumulado (FV Arenas I, II y III) que fue desacumulado el 2 de abril de 2025 para tramitación separada. La resolución otorga AAP con condicionados técnicos de múltiples administraciones (REE, i-DE, Telefónica, Enagás, ADIF, Diputación Provincial de Ciudad Real, etc.). Infraestructura de evacuación ubicada en términos municipales de Campo de Criptana, Alcázar de San Juan, Herencia, Villarta de San Juan, Puerto Lápice y Arenas de San Juan."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ARENAS DE SAN JUAN 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07655",
@@ -218158,9 +218158,9 @@
           "observaciones": "Instalación de almacenamiento por baterías de ion-litio de 70 MWh hibridada con instalación fotovoltaica existente (Expte. FV-2388). Sistema formado por 14 módulos BESS de 5365 kWh cada uno, 4 inversores de 4375 kW y 2 transformadores de 8780 kVA (20/0,69 kV). Punto de entrega en línea L-70-Medina 1 de STR Tordesillas. Plazo de información pública: 20 días hábiles desde publicación. Silencio administrativo desestimatorio."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "BARCINA 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07660",
@@ -220225,9 +220225,9 @@
           "observaciones": "Proyecto híbrido que combina planta fotovoltaica (22,633 MWn) con parque eólico existente Valiente II (88,4 MW). La infraestructura de evacuación es compartida. Línea subterránea de 30 kV (4,16 km) hasta la subestación, y línea aéreo-subterránea 220 kV hasta ST Esquedas. Tramitado según artículo 22 del Real Decreto-ley 20/2022. Afecta a HIC 1430 de forma limitada."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "ESQUEDAS 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07764",
@@ -220307,9 +220307,9 @@
           "observaciones": "Sistema de almacenamiento en hibridación con instalación existente PSFV Hércules Solar. Capacidad de almacenamiento: 44 MWh de baterías de litio-ferrofosfato (LFP). Ocupación de 2.425 m² en parcelas 1533 y 1526 del polígono 1 de Toro. Plazo de información pública: 20 días desde la publicación en BOCyL."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VALDECARRETAS 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07767",
@@ -221237,9 +221237,9 @@
       "infra_asociada": [
         "Línea Eléctrica 132 kV Doble Circuito E-S ST Centenar Cofrentes-Almansa"
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "PUEBLA 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07810",
@@ -221323,9 +221323,9 @@
           "observaciones": "Proyecto de modificación de infraestructura eléctrica consistente en la sustitución del transformador de potencia T-1 de 12 MVA por uno nuevo de 12,5 MVA con relación de transformación 45/15 kV. Presupuesto total: 461.906,02 euros. Ubicación: calle Roncal, número 1, Leganés. Período de información pública de un mes a partir de la publicación en BOCM."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "LEGANES 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07813",
@@ -223917,9 +223917,9 @@
         "LAT 400kV Doble Circuito Subestación La Sagra",
         "LAT 220kV Doble Circuito La Sagra Aceca-Pradillos Añover-Pinto"
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CENTRO 66",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_07940",
@@ -231608,9 +231608,9 @@
           "observaciones": "Solicitud de autorización de uso excepcional de suelo rústico para instalación fotovoltaica con instalación eléctrica de BT y AT para evacuación de energía. Ubicada en parcelas 30, 31, 32 y 10030 del polígono 106. Expediente municipal 274/2025. Sometido a información pública por 20 días conforme a la Ley 5/1999 de Urbanismo de Castilla y León."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "VILLADANGOS 15",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08330",
@@ -233684,9 +233684,9 @@
           "observaciones": "Soterramiento de tramos de líneas aéreas 20kV (3227L59 y 3227L44). Desmontaje de 1.124 m de conductor LA-110 y 12 apoyos metálicos. Presupuesto: 144.347,45 euros. Período de información pública: 30 días desde publicación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "FUENTE HITO 220",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08455",
@@ -233768,9 +233768,9 @@
           "observaciones": "Hibridación de parque eólico existente (Los Pedrejones, 49,90 MW) con instalación fotovoltaica de 32,64 MW y almacenamiento de baterías de 31,25 MW (125 MWh). Todas las instalaciones comparten el transformador ya autorizado del parque eólico. Líneas de evacuación subterráneas a SET El Conde. Presupuesto: 33.750.327,38 €. Plazo de alegaciones: 30 días hábiles desde publicación."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CERRATO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08458",
@@ -233811,9 +233811,9 @@
           "observaciones": "Proyecto de hibridación que añade 35,52 MW de generación fotovoltaica y 34,375 MW de almacenamiento en baterías (137,5 MWh) a un parque eólico ya autorizado (Casa Vieja 49,90 MW). Comparten transformador e infraestructuras de evacuación. Plazo de alegaciones: 30 días hábiles desde la publicación. Presupuesto de ejecución: 37.187.314,16 €."
         }
       ],
-      "set_vinculada": null,
-      "set_match": null,
-      "set_fuente": null
+      "set_vinculada": "CERRATO 400",
+      "set_match": "heredado",
+      "set_fuente": "hermano"
     },
     {
       "id": "prj_08459",
