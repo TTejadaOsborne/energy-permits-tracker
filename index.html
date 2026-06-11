@@ -5038,6 +5038,8 @@ function openSetDetail(key){
       fecha: g.proj && g.proj.fecha_ultima ? g.proj.fecha_ultima : rep.fecha_publicacion,
       nPubs: g.proj && g.proj.n_publicaciones ? g.proj.n_publicaciones : g.recs.length,
       rep: rep,
+      proj: g.proj,
+      recs: g.recs,
       libMW: Math.max.apply(null, g.recs.map(function(r){ return parseFloat(r.capacidad_mw_liberada)||0; }))
     };
   });
