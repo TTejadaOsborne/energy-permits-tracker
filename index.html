@@ -1582,6 +1582,7 @@ const CONFIG = {
     </div>
     <!-- Active filter chips (geo/estado from chart clicks) -->
     <div id="dash-filter-chips" class="dash-filter-chips" style="display:none;flex-shrink:0"></div>
+    <div id="dash-oport-strip" style="display:none;padding:2px 12px 0;flex-shrink:0"></div>
     <!-- Charts row 1: Estado (left) + Timeline (right) -->
     <div class="dash-row2" style="padding:0 12px;height:clamp(300px,36vh,460px);overflow:hidden;flex-shrink:0;grid-template-columns:1fr 1.8fr">
       <div class="dash-card2" style="overflow:hidden;height:100%">
@@ -1590,7 +1591,6 @@ const CONFIG = {
       </div>
       <div class="dash-card2" style="overflow:hidden;height:100%">
         <div class="dash-card2-title">MW Tramitados</div>
-        <div id="dash-oport-strip" style="display:none;margin:0 12px;flex-shrink:0"></div>
     <div id="dash-timeline-chart" style="flex:1;overflow:hidden;min-height:0;position:relative"></div>
       </div>
     </div>
@@ -6417,7 +6417,7 @@ function _renderDashOportStrip(){
   var h = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">'
     + '<div style="font-size:12px;font-weight:800;color:#05233D;letter-spacing:.02em">🎯 OPORTUNIDADES DESTACADAS</div>'
     + '<span onclick="setView(&quot;oportunidades&quot;)" style="font-size:11px;color:#399439;font-weight:700;cursor:pointer">Ver radar completo →</span></div>';
-  h += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px">';
+  h += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">';
   top.forEach(function(r){
     var razones = [];
     if(r.tram_drop_3m) razones.push('▼'+fmt(r.tram_drop_3m)+' MW trámite');
