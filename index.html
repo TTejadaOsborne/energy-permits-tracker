@@ -6540,7 +6540,7 @@ function _renderDashOportStrip(){
     if(r.tram_drop_3m) razones.push('▼'+fmt(r.tram_drop_3m)+' MW trámite');
     if(r.mw_ventana) razones.push(fmt(r.mw_ventana)+' MW en ventana');
     if(r.mw_estancado) razones.push(fmt(r.mw_estancado)+' MW estancados');
-    if(r.mw_hitos_6m) razones.push(fmt(r.mw_hitos_6m)+' MW hitos ≤6m');
+    if(r.mw_hitos_6m) razones.push(fmt(r.mw_hitos_6m)+' MW con hitos venciendo ≤6 meses');
     h += '<div onclick="jumpToSet(&quot;'+_esc(r.set)+'&quot;,null,&quot;'+_esc(r.set)+'&quot;)" style="background:#fff;border:1px solid rgba(26,26,24,.09);border-left:4px solid #399439;border-radius:11px;padding:11px 13px;cursor:pointer;transition:box-shadow .15s" onmouseenter="this.style.boxShadow=&quot;0 4px 14px rgba(0,0,0,.08)&quot;" onmouseleave="this.style.boxShadow=&quot;none&quot;">'
       + '<div style="display:flex;justify-content:space-between;align-items:center">'
       +   '<span style="font-size:12.5px;font-weight:800;color:#05233D;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+_esc(r.set)+'</span>'
@@ -6583,8 +6583,8 @@ function renderRadar(){
     var parts = [];
     if(r.tram_drop_3m) parts.push({v:r.tram_drop_3m*1.2, t:'▼ '+fmt(r.tram_drop_3m)+' MW de trámite liberándose ahora'});
     if(r.mw_ventana)   parts.push({v:r.mw_ventana*1.4,   t:fmt(r.mw_ventana)+' MW caídos en ventana de afloramiento'});
-    if(r.mw_estancado)     parts.push({v:r.mw_estancado*0.7,     t:fmt(r.mw_estancado)+' MW estancados ('+r.n_estancados+' proy. sin avances >24m)'});
-    if(r.mw_hitos_6m)  parts.push({v:r.mw_hitos_6m*0.9,  t:fmt(r.mw_hitos_6m)+' MW con hito RDL venciendo en ≤6m'});
+    if(r.mw_estancado)     parts.push({v:r.mw_estancado*0.7,     t:fmt(r.mw_estancado)+' MW estancados ('+r.n_estancados+' proy. sin avances >24 meses)'});
+    if(r.mw_hitos_6m)  parts.push({v:r.mw_hitos_6m*0.9,  t:fmt(r.mw_hitos_6m)+' MW con hito RDL venciendo en ≤6 meses'});
     parts.sort(function(a,b){return b.v-a.v;});
     return parts.slice(0,2).map(function(p){return p.t;});
   }
@@ -6598,7 +6598,8 @@ function renderRadar(){
       return s + '</div>';
     }
     h += bloque('⏳ FALLIDOS EN VENTANA', '#05233D', r.fallidos, function(x){
-      return '<b>'+_esc(x.p)+'</b> · '+x.mw+' MW · adverso hace '+x.dias+' días'; });
+      var af = x.afecta==='dem' ? '💡 libera demanda' : x.afecta==='ambos' ? '🔋 libera gen+dem' : '⚡ libera generación';
+      return '<b>'+_esc(x.p)+'</b>'+(x.tec?' ('+_esc(x.tec)+')':'')+' · '+x.mw+' MW · adverso hace '+x.dias+' días · <span style="color:#05233D;font-weight:600">'+af+'</span>'; });
     h += bloque('💤 TRAMITACIÓN ESTANCADA (sin publicaciones >24m)', '#7c3aed', r.estancados, function(x){
       return '<b>'+_esc(x.p)+'</b> · '+x.mw+' MW · '+x.meses_sin_pub+' meses sin publicar'; });
     h += bloque('📅 HITOS RD-L 23/2020 PRÓXIMOS', '#b45309', r.hitos, function(x){
@@ -6629,11 +6630,12 @@ function renderRadar(){
   html += '<table style="width:100%;border-collapse:collapse;font-size:12px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05)">';
   html += '<thead><tr style="background:#05233D;color:#fff">';
   [['#',''],['Subestación',''],['Score',''],['Por qué es oportunidad',''],
-   ['Disp. hoy','MW disponibles AHORA en el Monitor — si >0, se puede solicitar ya'],
-   ['Ventana','MW de proyectos caídos en ventana de afloramiento (0-6m)'],
-   ['Trámite 3m','MW de capacidad en trámite liberándose (últimos 3 meses)'],
-   ['Estancados','MW en tramitación sin avances >24m'],
-   ['Hitos ≤6m','MW con hito RD-L 23/2020 venciendo en 6 meses']].forEach(function(hh,i2){
+   ['Disp. hoy Gen','MW de generación disponibles AHORA en el Monitor — si >0, se puede solicitar ya'],
+   ['Disp. hoy Dem','MW de demanda disponibles AHORA en el Monitor'],
+   ['Ventana','MW de proyectos caídos en ventana de afloramiento (0-6 meses). G = libera generación · D = libera demanda'],
+   ['Trámite 3 meses','MW de capacidad en trámite liberándose (últimos 3 meses)'],
+   ['Estancados','MW en tramitación sin avances >24 meses'],
+   ['Vencimiento hitos ≤6 meses','MW con hito RD-L 23/2020 venciendo en los próximos 6 meses']].forEach(function(hh,i2){
     html += '<th title="'+hh[1]+'" style="padding:9px 12px;text-align:'+(i2>=4?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em;white-space:nowrap">'+hh[0]+(i2>=4?' <span style="opacity:.55;font-weight:400">MW</span>':'')+'</th>';
   });
   html += '</tr></thead><tbody>';
@@ -6649,17 +6651,28 @@ function renderRadar(){
       +   '<span style="font-family:IBM Plex Mono,monospace;font-weight:700;color:'+scColor+'">'+sc+'</span></div></td>'
       + '<td style="padding:8px 12px;font-size:11px;color:rgba(26,26,24,.65);max-width:340px">'+rz.join(' · ')+'</td>'
       + (function(){
-          var dHoy = null;
-          try{ var sc = (typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY)?SETS_CAPACITY[r.set]:null; if(sc && sc[5]!=null) dHoy = sc[5]; }catch(e){}
-          var col = dHoy==null?'rgba(26,26,24,.3)':dHoy>5?'#16a34a':dHoy>0?'#d97706':'#dc2626';
-          return '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;font-weight:700;color:'+col+'" title="Capacidad gen disponible actual en el Monitor">'+(dHoy!=null?fmt(dHoy):'—')+'</td>';
+          var dG=null, dD=null;
+          try{ var sc = (typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY)?SETS_CAPACITY[r.set]:null;
+               if(sc){ if(sc[5]!=null) dG=sc[5]; if(sc.length>15&&sc[15]!=null) dD=sc[15]; } }catch(e){}
+          var cell = function(v,t){
+            var col = v==null?'rgba(26,26,24,.3)':v>5?'#16a34a':v>0?'#d97706':'#dc2626';
+            return '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;font-weight:700;color:'+col+'" title="'+t+'">'+(v!=null?fmt(v):'—')+'</td>';
+          };
+          return cell(dG,'Generación disponible hoy') + cell(dD,'Demanda disponible hoy');
         })()
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_ventana?fmt(r.mw_ventana):'—')+'</td>'
+      + (function(){
+          if(!r.mw_ventana) return '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">—</td>';
+          var parts=[];
+          if(r.mw_ventana_gen) parts.push(fmt(r.mw_ventana_gen)+' <span style="font-size:9px;color:rgba(26,26,24,.45)">G</span>');
+          if(r.mw_ventana_dem) parts.push(fmt(r.mw_ventana_dem)+' <span style="font-size:9px;color:rgba(26,26,24,.45)">D</span>');
+          if(!parts.length) parts.push(fmt(r.mw_ventana));
+          return '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;white-space:nowrap" title="G = libera generación · D = libera demanda">'+parts.join(' · ')+'</td>';
+        })()
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;color:'+(r.tram_drop_3m?'#399439':'rgba(26,26,24,.3)')+'">'+(r.tram_drop_3m?'▼ '+fmt(r.tram_drop_3m):'—')+'</td>'
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_estancado?fmt(r.mw_estancado):'—')+'</td>'
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_hitos_6m?fmt(r.mw_hitos_6m):'—')+'</td>'
       + '</tr>'
-      + '<tr id="rd-det-'+i+'" style="display:none"><td colspan="9" style="background:#fbfaf7;padding:12px 18px 12px 34px;border-bottom:1px solid rgba(26,26,24,.07)">'+detalleHtml(r)+'</td></tr>';
+      + '<tr id="rd-det-'+i+'" style="display:none"><td colspan="10" style="background:#fbfaf7;padding:12px 18px 12px 34px;border-bottom:1px solid rgba(26,26,24,.07)">'+detalleHtml(r)+'</td></tr>';
   });
   html += '</tbody></table>';
   w.innerHTML = html;
