@@ -80,10 +80,11 @@ def extract_dso(ws, year, mes):
         if rdd_col_idx and len(row) > rdd_col_idx:
             _cap_gen_RdD = to_float(row[rdd_col_idx])
 
-        # acept: usar índice encontrado (columna K en Monitorización) o None
+        # acept = Cap. acceso disponible MPE RdD - Cap. solicitada en curso MPE
+        _tram = to_float(row[26])
         _acept = None
-        if acept_col_idx and len(row) > acept_col_idx:
-            _acept = to_float(row[acept_col_idx])
+        if _cap_gen_RdD is not None and _tram is not None:
+            _acept = round(_cap_gen_RdD - _tram, 4)
 
         entries[key] = {
             "date":         lbl,
@@ -105,6 +106,18 @@ def extract_dso(ws, year, mes):
 def extract_ree(ws, year, mes):
     entries = {}
     lbl = label(year, mes)
+
+    # Buscar col "MPE RdD" (grupo Generacion = primera ocurrencia) en filas 1-8
+    rdd_col = None
+    for hrow in ws.iter_rows(min_row=1, max_row=8, values_only=True):
+        for i, h in enumerate(hrow):
+            hh = " ".join(str(h or "").lower().split())
+            if "mpe rdd" in hh and "mges" not in hh and "no conectado" not in hh:
+                rdd_col = i
+                break
+        if rdd_col is not None:
+            break
+
     for row in ws.iter_rows(min_row=9, values_only=True):
         if not row or len(row) < 102: continue
         key = row[1]
@@ -112,6 +125,7 @@ def extract_ree(ws, year, mes):
         key = str(key).strip()
         _gen_disp = to_float(row[44]) if len(row) > 44 else None
         _gen_tram = to_float(row[40])
+        _rdd = to_float(row[rdd_col]) if (rdd_col is not None and len(row) > rdd_col) else None
         _cd = to_float(row[7])
         entries[key] = {
             "date":         lbl,
@@ -125,8 +139,10 @@ def extract_ree(ws, year, mes):
             "cap_gen_neta": (round(_gen_disp - (_gen_tram or 0.0), 4) if _gen_disp is not None else None),
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
-            "acept":        to_float(row[10]),
-            "cap_gen_RdD":  None,
+            # acept = Cap. acceso disponible MPE RdD - Cap. solicitada en curso MPE
+            "acept":        (round(_rdd - _gen_tram, 4)
+                             if (_rdd is not None and _gen_tram is not None) else None),
+            "cap_gen_RdD":  _rdd,
         }
     return entries
 
