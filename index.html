@@ -2154,7 +2154,7 @@ function loadSetsHistory(){
   _setsHistPromise = (async function(){
     try {
       // Intentar cargar versión comprimida primero (677KB vs 16MB)
-      let r = await fetch('sets_history.json.gz');
+      let r = await fetch('sets_history.json.gz', {cache:'no-cache'});
       let raw;
       if(r.ok){
         const ab = await r.arrayBuffer();
@@ -2165,17 +2165,17 @@ function loadSetsHistory(){
             raw = JSON.parse(str);
           } catch(e){
             console.warn('gzip decompression failed, trying uncompressed:', e);
-            r = await fetch('sets_history.json');
+            r = await fetch('sets_history.json', {cache:'no-cache'});
             if(r.ok) raw = await r.json();
           }
         } else {
           console.warn('pako not available, falling back to uncompressed');
-          r = await fetch('sets_history.json');
+          r = await fetch('sets_history.json', {cache:'no-cache'});
           if(r.ok) raw = await r.json();
         }
       } else {
         // Fallback a versión sin comprimir
-        r = await fetch('sets_history.json');
+        r = await fetch('sets_history.json', {cache:'no-cache'});
         if(r.ok) raw = await r.json();
       }
       
@@ -7861,101 +7861,4 @@ function renderProjDetail(p){
       rgt+='<tr class="srch-hist-row">';
       rgt+='<td style="padding:9px 12px;font-size:11px;color:rgba(26,26,24,.55);font-family:monospace;white-space:nowrap">'+escHtml(pub.id_boe||'—')+lnk+'</td>';
       rgt+='<td style="padding:9px 12px;white-space:nowrap;color:rgba(26,26,24,.7)">'+fecha+'</td>';
-      rgt+='<td style="padding:9px 12px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums">'+mw+'</td>';
-      rgt+='<td style="padding:9px 12px"><span style="background:'+tc2+'18;color:'+tc2+';padding:2px 7px;border-radius:10px;font-size:11px;font-weight:500">'+escHtml(tram)+'</span></td>';
-      rgt+='<td style="padding:9px 12px">'+(rl?'<span style="background:'+rc+'18;color:'+rc+';padding:2px 7px;border-radius:10px;font-size:11px;font-weight:500">'+escHtml(rl)+'</span>':'—')+'</td>';
-      rgt+='</tr>';
-    });
-    rgt+='</tbody></table></div>';
-  }
-  document.getElementById('srch-det-right').innerHTML=rgt;
-}
-
-function renderDetMiniMap(prov, muni){
-  var el=document.getElementById('det-mini-map');if(!el)return;
-  // Leaflet real map with Nominatim geocoding
-  el.style.height='170px';
-  el.style.padding='0';
-  el.style.background='#e8e8e4';
-  // Destroy previous map instance
-  if(window._detLeafMap){ try{window._detLeafMap.remove();}catch(e){} window._detLeafMap=null; }
-  el.innerHTML='<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(26,26,24,.4)">Cargando mapa…</div>';
-  // Build query: prefer municipality, fallback to province
-  var query=(muni&&muni.split(',')[0].trim()||prov)+', España';
-  var zoom=muni?10:7;
-  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(query)+'&limit=1&countrycodes=es',
-    {headers:{'Accept-Language':'es'}})
-    .then(function(r){return r.json();})
-    .then(function(res){
-      if(!res||!res.length) throw new Error('no results');
-      var lat=parseFloat(res[0].lat), lon=parseFloat(res[0].lon);
-      el.innerHTML='';
-      var map=L.map(el,{zoomControl:true,attributionControl:false,scrollWheelZoom:false}).setView([lat,lon],zoom);
-      window._detLeafMap=map;
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18}).addTo(map);
-      var icon=L.divIcon({className:'',html:'<div style="width:12px;height:12px;background:#1a1a18;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>',iconSize:[12,12],iconAnchor:[6,6]});
-      L.marker([lat,lon],{icon:icon}).addTo(map);
-    })
-    .catch(function(){
-      // Fallback: CCAA SVG from dashboard or simple label
-      el.style.padding='8px';
-      var ccaaId=_PROV_TO_CCAA[prov]||null;
-      if(ccaaId){ el.innerHTML=_buildCCAAFallbackSVG(ccaaId); }
-      else { el.innerHTML='<div style="font-size:11px;color:rgba(26,26,24,.35);text-align:center;padding:20px">'+escHtml(prov||'—')+'</div>'; }
-    });
-}
-
-// ── FULL APP INIT (all fns now defined — loadData, setView, showApp, etc.) ────
-(function(){
-  // Pre-load project data from inline bundle
-  if(window.PROJECTS_INLINE && window.PROJECTS_INLINE.proyectos){
-    if(!PROJECTS_DATA || !PROJECTS_DATA.length) PROJECTS_DATA = window.PROJECTS_INLINE.proyectos;
-  }
-  // Determine initial view from URL hash or default
-  var initView = (location.hash && location.hash.slice(1)) || 'inicio';
-  setView(initView, /*noPush=*/true);
-  // Renderizar dashboard inmediatamente con datos estáticos (no espera Sheets)
-  setTimeout(function(){ try{ renderDashboard(); }catch(e){} }, 0);
-  // Fallback: si búsqueda sigue vacía tras 200ms, forzar initBusqueda
-  setTimeout(function(){
-    if(!SRCH_INIT_DONE && PROJECTS_DATA && PROJECTS_DATA.length){ try{ initBusqueda(); }catch(e){} }
-    else if(SRCH_INIT_DONE){ try{ renderBusqueda(); }catch(e){} }
-  }, 200);
-  // Start the app: verify session then call loadData()
-  if(!CONFIG.AUTH.enabled || localStorage.getItem(CONFIG.AUTH.session_key)){
-    showApp();
-  }
-  // Failsafe: si tras 4s el timeline sigue con "Cargando" pero ALL ya tiene datos, forzar render
-  setTimeout(function(){
-    var tl=document.getElementById('dash-timeline-chart');
-    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && ALL && ALL.length){
-      try{ renderDashboard(); }catch(e){}
-    }
-  }, 4000);
-  // Si tras 8s ALL sigue vacío, mostrar botón de reintento en el timeline
-  setTimeout(function(){
-    var tl=document.getElementById('dash-timeline-chart');
-    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && (!ALL || !ALL.length)){
-      tl.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:6px">'
-        +'<span style="font-size:10px;color:rgba(26,26,24,.45);font-family:Inter,sans-serif">No se pudieron cargar datos históricos</span>'
-        +'<button onclick="loadData().then(function(){try{renderDashboard();}catch(e){}}).catch(function(){})" style="padding:4px 12px;border:1px solid rgba(26,26,24,.2);border-radius:12px;background:#fff;font-size:10px;cursor:pointer;font-family:Inter,sans-serif">&#8635; Reintentar</button>'
-        +'</div>';
-    }
-  }, 8000);
-})();
-
-
-</script>
-
-<!-- OPORT DETAIL MODAL -->
-<div class="oport-modal-bg" id="oport-modal-bg" onclick="if(event.target===this)this.classList.remove('open')">
-  <div class="oport-modal">
-    <div class="oport-modal-hdr">
-      <div>
-        <div class="oport-modal-title" id="oport-modal-title">—</div>
-        <div class="oport-modal-sub" id="oport-modal-sub">—</div>
-      </div>
-      <button class="oport-modal-close" onclick="document.getElementById('oport-modal-bg').classList.remove('open')">✕</button>
-    </div>
-    <div class="oport-modal-body" id="oport-modal-body"></div>
-  </
+      rgt+='<td style="padding:9px 12px;tex
