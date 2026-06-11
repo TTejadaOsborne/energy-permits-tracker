@@ -148,46 +148,60 @@ def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num):
 
     ws = wb_mapas[sheet_name]
 
-    # 1) Localizar fila de headers: la que contiene "Nombre y tension del nudo"
-    header_row_idx = None
-    headers = None
+    # 1) Escanear filas 1-8: headers pueden estar repartidos en varias filas
+    #    (ej. '20 junio 2022': nombre en fila 2, columnas RdD/Tram en fila 3)
+    scanned = []
     for ri, row in enumerate(ws.iter_rows(min_row=1, max_row=8, values_only=True), 1):
-        vals = [" ".join(str(v or "").lower().split()) for v in row]
-        if any("nombre y tensi" in v for v in vals):
-            header_row_idx = ri
-            headers = vals
-            break
-    if headers is None:
-        return entries
+        scanned.append((ri, [" ".join(str(v or "").lower().split()) for v in row]))
 
-    name_col = next(i for i, h in enumerate(headers) if "nombre y tensi" in h)
+    name_col = None
+    name_row = None
+    for ri, vals in scanned:
+        for i_, h in enumerate(vals):
+            if "nombre y tensi" in h:
+                name_col, name_row = i_, ri
+                break
+        if name_col is not None:
+            break
+    if name_col is None:
+        return entries
 
     # 2) Columna RdD: preferir "mpe rdd" exclusivo de generacion
     #    (la primera ocurrencia pertenece al grupo Generacion en formato 2025)
-    rdd_col = None
-    for i, h in enumerate(headers):
-        if "mpe rdd" in h and "mges" not in h and "no conectado" not in h:
-            rdd_col = i
+    rdd_col = rdd_row = None
+    for ri, vals in scanned:
+        for i_, h in enumerate(vals):
+            if "mpe rdd" in h and "mges" not in h and "no conectado" not in h:
+                rdd_col, rdd_row = i_, ri
+                break
+        if rdd_col is not None:
             break
     if rdd_col is None:
         # Fallback formato 2022 temprano: sin desglose RdT/RdD
-        for i, h in enumerate(headers):
-            if "capacidad de acceso disponible para mpe" in h and "rdt" not in h:
-                rdd_col = i
+        for ri, vals in scanned:
+            for i_, h in enumerate(vals):
+                if "capacidad de acceso disponible para mpe" in h and "rdt" not in h:
+                    rdd_col, rdd_row = i_, ri
+                    break
+            if rdd_col is not None:
                 break
 
     # 3) Columna Tram: "...solicitada en curso y pendiente resolver MPE" (exacta)
-    tram_col = None
-    for i, h in enumerate(headers):
-        hh = h.replace("[mw]", "").strip()
-        if "capacidad de acceso solicitada" in hh and hh.endswith("resolver mpe"):
-            tram_col = i
+    tram_col = tram_row = None
+    for ri, vals in scanned:
+        for i_, h in enumerate(vals):
+            hh = h.replace("[mw]", "").strip()
+            if "capacidad de acceso solicitada" in hh and hh.endswith("resolver mpe"):
+                tram_col, tram_row = i_, ri
+                break
+        if tram_col is not None:
             break
 
     if rdd_col is None or tram_col is None:
         return entries
 
-    for row in ws.iter_rows(min_row=header_row_idx + 1, values_only=True):
+    data_start = max(name_row, rdd_row, tram_row) + 1
+    for row in ws.iter_rows(min_row=data_start, values_only=True):
         if not row or len(row) < max(rdd_col, tram_col, name_col) + 1:
             continue
 
