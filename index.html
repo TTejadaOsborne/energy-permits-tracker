@@ -5306,9 +5306,11 @@ function renderHistoryChart(key){
   var _s = function(e,nm,i){ return Array.isArray(e)?e[i]:e[nm]; };
   // Solo sumar segmentos positivos (los negativos no se dibujan, ver drawBar/visSegs)
   var _pos = function(v){ return (v>0) ? v : 0; };
+  // Mismos campos que dibujan las barras (disp+ocup+tram), unificado gen+dem
+  // para que el eje sea identico en los 3 modos (Gen/Dem/Alm) y la comparativa sea directa
   snaps.forEach(function(s){
-    var tg=_pos(_s(s,'cap_gen',1))+_pos(_s(s,'cap_gen_ocup',2))+_pos(_s(s,'cap_gen_tram',3));
-    var td=_pos(_s(s,'cap_dem',4))+_pos(_s(s,'cap_dem_ocup',5))+_pos(_s(s,'cap_dem_tram',6));
+    var tg=_pos(_s(s,'cap_gen_disp',8))+_pos(_s(s,'cap_gen_ocup',2))+_pos(_s(s,'cap_gen_tram',3));
+    var td=_pos(_s(s,'cap_dem_disp',10))+_pos(_s(s,'cap_dem_ocup',5))+_pos(_s(s,'cap_dem_tram',6));
     if(tg>maxTotal) maxTotal=tg; if(td>maxTotal) maxTotal=td;
   });
   if(maxTotal===0) maxTotal=1;
