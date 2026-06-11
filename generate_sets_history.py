@@ -131,64 +131,66 @@ def extract_ree(ws, year, mes):
     return entries
 
 def extract_from_mapas_ree(wb_mapas, sheet_name, year, mes_num):
-    """Extrae cap_gen_RdD y acept del archivo Mapas_Capacidad_AyC-REE.xlsx
-    usando los índices de columna específicos por mes/año."""
-
-    # Mapeo mes-año → sheet_name, rdd_col, tram_col
-    col_mapping = {
-        "2023-09": {"sheet": "1 septiembre 2023", "rdd_col": 33, "tram_col": 23},
-        "2023-03": {"sheet": "1 marzo 2023", "rdd_col": 29, "tram_col": 20},
-        "2022-10": {"sheet": "3 octubre 2022", "rdd_col": 29, "tram_col": 20},
-        "2024-05": {"sheet": "16 mayo 2024", "rdd_col": 34, "tram_col": 25},
-        "2025-02": {"sheet": "3 febrero 2025", "rdd_col": 56, "tram_col": 33}
-    }
-
+    """Busca automaticamente columnas RDD y Tram por header."""
     date_key = f"{year:04d}-{mes_num:02d}"
     entries = {}
 
-    # Si esta fecha está en el mapeo, usar esos índices
-    if date_key in col_mapping:
-        mapping = col_mapping[date_key]
-        if mapping["sheet"] not in wb_mapas.sheetnames:
-            return entries
+    if sheet_name not in wb_mapas.sheetnames:
+        return entries
 
-        ws = wb_mapas[mapping["sheet"]]
-        rdd_col = mapping["rdd_col"]
-        tram_col = mapping["tram_col"]
+    ws = wb_mapas[sheet_name]
 
-        for row in ws.iter_rows(min_row=2, values_only=True):
-            if not row or len(row) < max(rdd_col, tram_col) + 1:
-                continue
+    # Buscar headers en fila 1
+    headers = [str(cell.value or "").lower() for cell in ws[1]]
 
-            # Primera columna = nombre de SET/subestación
-            key = row[0] if row[0] else None
-            if not key or not str(key).strip():
-                continue
-            key = str(key).strip()
+    # Buscar columna RDD: "capacidad de acceso disponible para mpe rdd"
+    rdd_col = None
+    for i, h in enumerate(headers):
+        if "capacidad de acceso disponible" in h and "rdd" in h:
+            rdd_col = i
+            break
 
-            cap_gen_rdd = to_float(row[rdd_col])
-            cap_gen_tram = to_float(row[tram_col])
+    # Buscar columna Tram: "capacidad de acceso solicitada en curso"
+    tram_col = None
+    for i, h in enumerate(headers):
+        if "capacidad de acceso solicitada" in h and "curso" in h:
+            tram_col = i
+            break
 
-            # acept = cap_gen_RdD - cap_gen_tram (en trámite)
-            acept = None
-            if cap_gen_rdd is not None and cap_gen_tram is not None:
-                acept = round(cap_gen_rdd - cap_gen_tram, 4)
+    if rdd_col is None or tram_col is None:
+        return entries
 
-            entries[key] = {
-                "date":         date_key,
-                "cap_gen":      None,
-                "cap_dem":      None,
-                "cap_gen_ocup": None,
-                "cap_gen_tram": cap_gen_tram,
-                "cap_dem_ocup": None,
-                "cap_dem_tram": None,
-                "cap_gen_disp": None,
-                "cap_gen_neta": None,
-                "cap_dem_disp": None,
-                "cap_dem_neta": None,
-                "acept":        acept,
-                "cap_gen_RdD":  cap_gen_rdd,
-            }
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        if not row or len(row) < max(rdd_col, tram_col) + 1:
+            continue
+
+        key = row[0] if row[0] else None
+        if not key or not str(key).strip():
+            continue
+        key = str(key).strip()
+
+        cap_gen_rdd = to_float(row[rdd_col])
+        cap_gen_tram = to_float(row[tram_col])
+
+        acept = None
+        if cap_gen_rdd is not None and cap_gen_tram is not None:
+            acept = round(cap_gen_rdd - cap_gen_tram, 4)
+
+        entries[key] = {
+            "date": date_key,
+            "cap_gen": None,
+            "cap_dem": None,
+            "cap_gen_ocup": None,
+            "cap_gen_tram": cap_gen_tram,
+            "cap_dem_ocup": None,
+            "cap_dem_tram": None,
+            "cap_gen_disp": None,
+            "cap_gen_neta": None,
+            "cap_dem_disp": None,
+            "cap_dem_neta": None,
+            "acept": acept,
+            "cap_gen_RdD": cap_gen_rdd,
+        }
 
     return entries
 
@@ -398,15 +400,4 @@ def main():
     for k, snaps in history_objs.items():
         history[k] = [[s[f] for f in _FIELDS] for s in snaps]
 
-    out = Path(args.out)
-    try:
-        import orjson
-        with open(out, "wb") as f:
-            f.write(orjson.dumps(history))
-    except ImportError:
-        with open(out, "w", encoding="utf-8") as f:
-            json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"\n✓ {out}  ({out.stat().st_size/1024:.0f} KB, {len(history_objs)} SETs)")
-
-if __name__ == "__main__":
-    main()
+    out = Path
