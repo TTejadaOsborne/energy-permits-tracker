@@ -3501,13 +3501,17 @@ function buildSetsFiltered(){
       if(tension==='baja'  && kv>=30)  return false;
       if(!isNaN(Number(tension)) && kv!==Number(tension)) return false;
     }
-    // Afloramiento toggle: positivo según modo Gen/Dem
+    // Afloramiento toggle: incremento positivo Y capacidad actual > 0 MW, según modo Gen/Dem
     if(SETS_AFLOR){
       const ag = d[12]!=null ? d[12] : null;
       const ad = d.length>16 && d[16]!=null ? d[16] : null;
-      if(SETS_GENDEM==='gen'  && (ag==null||ag<=0)) return false;
-      if(SETS_GENDEM==='dem'  && (ad==null||ad<=0)) return false;
-      if(SETS_GENDEM==='both' && !((ag!=null&&ag>0)&&(ad!=null&&ad>0))) return false;
+      const cgA = d[5]!=null ? d[5] : null;
+      const cdA = d.length>15 && d[15]!=null ? d[15] : null;
+      const okG = ag!=null && ag>0 && cgA!=null && cgA>0;
+      const okD = ad!=null && ad>0 && cdA!=null && cdA>0;
+      if(SETS_GENDEM==='gen'  && !okG) return false;
+      if(SETS_GENDEM==='dem'  && !okD) return false;
+      if(SETS_GENDEM==='both' && !(okG&&okD)) return false;
     }
     // Cap mín: gen Y dem deben cumplir (AND) en modo both; individual en los otros
     if(capmin>0){
