@@ -1882,14 +1882,27 @@ async function checkLogin(){
   const msgBuf = new TextEncoder().encode(pwd);
   const hashBuf = await crypto.subtle.digest('SHA-256', msgBuf);
   const hashHex = Array.from(new Uint8Array(hashBuf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+  // Lockout progresivo: 5 fallos -> 30s de espera (en memoria)
+  window._authFails = window._authFails||0;
+  if(window._authLockUntil && Date.now() < window._authLockUntil){
+    const errEl = document.getElementById('login-error');
+    errEl.textContent = 'Demasiados intentos. Espera ' + Math.ceil((window._authLockUntil-Date.now())/1000) + 's';
+    errEl.classList.add('visible');
+    return;
+  }
   const user = CONFIG.AUTH.users.find(u => u.user === userInput && u.hash === hashHex);
   if(user){
-    localStorage.setItem(CONFIG.AUTH.session_key, JSON.stringify({name:user.name, role:user.role}));
+    window._authFails = 0;
+    // Sesion SOLO en memoria: cada refresco/reinicio exige volver a logearse
+    window._NODALYS_SESSION = {name:user.name, role:user.role, t:Date.now()};
+    try{ localStorage.removeItem(CONFIG.AUTH.session_key); localStorage.removeItem('nodalys_auth'); }catch(e){}
     document.getElementById('login-error').classList.remove('visible');
     document.getElementById('login-overlay').classList.add('hidden');
     setTimeout(()=>{ document.getElementById('login-overlay').style.display='none'; }, 300);
     showApp(user.role);
   } else {
+    window._authFails = (window._authFails||0) + 1;
+    if(window._authFails >= 5){ window._authLockUntil = Date.now() + 30000; window._authFails = 0; }
     const errEl = document.getElementById('login-error');
     errEl.classList.add('visible');
     document.getElementById('login-pwd').value = '';
@@ -1897,8 +1910,32 @@ async function checkLogin(){
   }
 }
 
+// ── Autologout por inactividad (20 min) ──
+(function(){
+  var IDLE_MS = 20*60*1000, _t = null;
+  function reset(){
+    if(_t) clearTimeout(_t);
+    if(window._NODALYS_SESSION){
+      _t = setTimeout(function(){
+        try{ doLogout(); }catch(e){}
+        var errEl = document.getElementById('login-error');
+        if(errEl){ errEl.textContent = 'Sesión cerrada por inactividad'; errEl.classList.add('visible'); }
+      }, IDLE_MS);
+    }
+  }
+  ['click','keydown','mousemove','scroll','touchstart'].forEach(function(ev){
+    var last = 0;
+    document.addEventListener(ev, function(){
+      var now = Date.now();
+      if(now - last > 5000){ last = now; reset(); }
+    }, {passive:true});
+  });
+  window._resetIdleTimer = reset;
+})();
+
 function doLogout(){
-  localStorage.removeItem(CONFIG.AUTH.session_key);
+  window._NODALYS_SESSION = null;
+  try{ localStorage.removeItem(CONFIG.AUTH.session_key); localStorage.removeItem('nodalys_auth'); }catch(e){}
   document.getElementById('login-overlay').style.display='flex';
   document.getElementById('login-overlay').classList.remove('hidden');
   document.getElementById('login-user').value = '';
@@ -1922,11 +1959,9 @@ function _dashProvClick(el){
 function showApp(role){
   // Si no se pasa role (recarga desde localStorage), leerlo
   if(!role){
-    try {
-      const s = localStorage.getItem(CONFIG.AUTH.session_key);
-      role = s ? JSON.parse(s).role : 'viewer';
-    } catch(e){ role='viewer'; }
+    role = (window._NODALYS_SESSION && window._NODALYS_SESSION.role) || 'viewer';
   }
+  if(window._resetIdleTimer) window._resetIdleTimer();
   window.NODALYS_ROLE = role;
   loadData();
   // Aplicar restricciones de UI según rol
@@ -8154,7 +8189,9 @@ function renderDetMiniMap(prov, muni){
     else if(SRCH_INIT_DONE){ try{ renderBusqueda(); }catch(e){} }
   }, 200);
   // Start the app: verify session then call loadData()
-  if(!CONFIG.AUTH.enabled || localStorage.getItem(CONFIG.AUTH.session_key)){
+  // Refresco/reinicio: sesion en memoria desaparece -> login obligatorio
+  try{ localStorage.removeItem(CONFIG.AUTH.session_key); localStorage.removeItem('nodalys_auth'); }catch(e){}
+  if(!CONFIG.AUTH.enabled){
     showApp();
   }
   // Failsafe: si tras 4s el timeline sigue con "Cargando" pero ALL ya tiene datos, forzar render
