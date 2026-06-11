@@ -88,7 +88,7 @@ body{font-family:'Inter',sans-serif;background:#f5f0e8;color:#1a1a18;font-size:1
   color:rgba(26,26,24,.4);font-size:10px;gap:3px;
 }
 .nav-item:hover{background:rgba(26,26,24,.04);color:rgba(26,26,24,.75)}
-.nav-item.active{border-left-color:#1a6bc4;background:rgba(26,107,196,.07);color:#1a1a18}
+.nav-item.active{border-left-color:#399439;background:rgba(57,148,57,.08);color:#1a1a18}
 .nav-item .nav-icon{font-size:16px;flex-shrink:0;margin:0;width:auto;opacity:.65;transition:opacity .15s,transform .15s}
 .nav-item:hover .nav-icon{opacity:.9}
 .nav-item.active .nav-icon{opacity:1;transform:scale(1.08)}
@@ -904,21 +904,21 @@ const CONFIG = {
 
   <nav style="width:100%;padding:8px 0">
     <div class="nav-item" onclick="setView('inicio')" title="Dashboard" id="nav-inicio">
-      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1a6bc4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></span>
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></span>
       <span class="nav-label-sm">Dashboard</span>
     </div>
     <div class="nav-item" onclick="setView('busqueda')" title="Búsqueda de proyectos" id="nav-busqueda">
-      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1a6bc4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
       <span class="nav-label-sm">Búsqueda</span>
       <span id="cnt-total" style="display:none"></span>
     </div>
     <div class="nav-item" onclick="setView('subestaciones')" title="Subestaciones" id="nav-subestaciones">
-      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1a6bc4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
       <span class="nav-label-sm">SETs</span>
       
     </div>
     <div class="nav-item" onclick="setView('proyectos')" title="Proyectos" id="nav-proyectos">
-      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1a6bc4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
       <span class="nav-label-sm">Proyectos</span>
       <span id="cnt-proyectos" style="display:none"></span>
     </div>
@@ -1002,7 +1002,7 @@ const CONFIG = {
   <div class="topbar">
     <div class="page-title" id="page-title">Dashboard</div>
     <div class="topbar-right">
-      <span id="welcome-user" style="display:none;font-size:12px;color:rgba(26,26,24,.6);margin-right:6px;font-family:'Inter',sans-serif">👋 <span style="font-weight:600;color:#1a1a18" id="welcome-user-name"></span></span>
+      <span id="welcome-user" style="display:none;font-size:12px;color:rgba(26,26,24,.6);margin-right:6px;font-family:'Inter',sans-serif">👋 <span style="font-weight:600;color:#05233D" id="welcome-user-name"></span></span>
       <div class="updated-badge">
         <div class="updated-dot" id="updated-dot"></div>
         <span id="updated-txt">Cargando...</span> <span style="font-size:9px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.3);margin-left:4px" id="ver-badge">v50</span>
