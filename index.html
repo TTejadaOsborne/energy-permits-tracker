@@ -963,10 +963,17 @@ const CONFIG = {
     </div>
     <div class="login-field">
       <label for="login-pwd">Contraseña</label>
-      <input type="password" id="login-pwd" placeholder="••••••••••••"
-        autocomplete="current-password"
-        onkeydown="if(event.key==='Enter') checkLogin()">
+      <div style="position:relative">
+        <input type="password" id="login-pwd" placeholder="••••••••••••" style="width:100%;padding-right:38px;box-sizing:border-box"
+          autocomplete="current-password"
+          onkeydown="if(event.key==='Enter') checkLogin()">
+        <button type="button" onclick="togglePwdVisibility()" title="Mostrar/ocultar contraseña"
+          style="position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;padding:4px;color:rgba(26,26,24,.45);font-size:14px" id="login-pwd-eye">👁</button>
+      </div>
     </div>
+    <label style="display:flex;align-items:center;gap:7px;font-size:11.5px;color:rgba(26,26,24,.6);margin:2px 0 10px;cursor:pointer">
+      <input type="checkbox" id="login-remember" style="accent-color:#1a1a18"> Recordar usuario y contraseña
+    </label>
     <button class="login-btn" onclick="checkLogin()">Acceder →</button>
     <div class="login-error" id="login-error">Usuario o contraseña incorrectos.</div>
     <div class="login-footer">Acceso restringido · Nodalys v1.0</div>
@@ -1873,6 +1880,29 @@ const CONFIG = {
 // ── AUTH ──────────────────────────────────────────────────────────────────────
 
 
+function togglePwdVisibility(){
+  var inp = document.getElementById('login-pwd');
+  var eye = document.getElementById('login-pwd-eye');
+  if(!inp) return;
+  var show = inp.type === 'password';
+  inp.type = show ? 'text' : 'password';
+  if(eye) eye.style.color = show ? '#1a1a18' : 'rgba(26,26,24,.45)';
+}
+
+// Restaurar credenciales recordadas al cargar
+(function(){
+  try{
+    var saved = localStorage.getItem('nodalys_cred');
+    if(saved){
+      var c = JSON.parse(atob(saved));
+      var u = document.getElementById('login-user'), p = document.getElementById('login-pwd'), r = document.getElementById('login-remember');
+      if(u && c.u) u.value = c.u;
+      if(p && c.p) p.value = c.p;
+      if(r) r.checked = true;
+    }
+  }catch(e){}
+})();
+
 async function checkLogin(){
   if(!CONFIG.AUTH.enabled){ showApp(); return; }
   const userInput = (document.getElementById('login-user').value||'').trim().toLowerCase();
@@ -1893,6 +1923,12 @@ async function checkLogin(){
   const user = CONFIG.AUTH.users.find(u => u.user === userInput && u.hash === hashHex);
   if(user){
     window._authFails = 0;
+    // Recordar credenciales (opcional, codificadas en localStorage)
+    try{
+      var _rememb = document.getElementById('login-remember');
+      if(_rememb && _rememb.checked) localStorage.setItem('nodalys_cred', btoa(JSON.stringify({u:userInput, p:pwd})));
+      else localStorage.removeItem('nodalys_cred');
+    }catch(e){}
     // Sesion SOLO en memoria: cada refresco/reinicio exige volver a logearse
     window._NODALYS_SESSION = {name:user.name, role:user.role, t:Date.now()};
     try{ localStorage.removeItem(CONFIG.AUTH.session_key); localStorage.removeItem('nodalys_auth'); }catch(e){}
@@ -5346,8 +5382,11 @@ function _renderSdpCapacity(key){
       ocup=(gOcup!=null&&dOcup!=null)?Math.min(gOcup,dOcup):(gOcup??dOcup);
       tram=(gTram!=null&&dTram!=null)?Math.min(gTram,dTram):(gTram??dTram);
       neta=(gNeta!=null&&dNeta!=null)?Math.min(gNeta,dNeta):(gNeta??dNeta);
-      if(gDisp!=null&&dDisp!=null) disp=Math.min(gDisp,dDisp);
-      else if(gDisp!=null||dDisp!=null) disp=gDisp??dDisp;
+      // Disponible Alm = la mas restrictiva entre Gen y Dem.
+      // Fallback por lado: si el historico no trae disp de un lado, usar el del capacity JSON
+      var _gEff = gDisp!=null ? gDisp : genDisp;
+      var _dEff = dDisp!=null ? dDisp : (demDisp!=null ? demDisp : _sh(latest,'cap_dem',4));
+      disp = (_gEff!=null&&_dEff!=null) ? Math.min(_gEff,_dEff) : (_gEff??_dEff);
     } else if(isGen){
       var _gd=_sh(latest,'cap_gen_disp',8);
       if(_gd!=null) disp=_gd;
