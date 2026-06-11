@@ -3551,6 +3551,14 @@ function buildSetsFiltered(){
   if(countEl) countEl.textContent = SETS_DATA_FILTERED.length.toLocaleString()+' / '+Object.keys(SETS_CAPACITY).length.toLocaleString()+' SETs';
 }
 
+window.toggleProjPubs = function(gi){
+  var det = document.getElementById('sdp-pg-det-'+gi);
+  var chev = document.getElementById('sdp-pg-chev-'+gi);
+  if(!det) return;
+  var show = det.style.display==='none';
+  det.style.display = show ? '' : 'none';
+  if(chev) chev.style.transform = show ? 'rotate(90deg)' : '';
+};
 window.toggleBasemapPanel = function(ev){
   if(ev) ev.stopPropagation();
   var p = document.getElementById('sets-basemap-panel');
@@ -5035,19 +5043,42 @@ function openSetDetail(key){
   document.getElementById('sdp-proj-count').textContent = grouped.length ? '('+grouped.length+')' : '';
   var projTbody = document.getElementById('sdp-proj-tbody');
   if(grouped.length){
-    projTbody.innerHTML = grouped.map(function(g){
+    var RESL3={otorgado:'Otorgado',favorable:'Favorable',informacion_publica:'Inf. Pública',en_tramitacion:'En Trámite',denegado:'Denegado',desistido:'Desistido',desfavorable:'Desfavorable',archivado:'Archivado'};
+    projTbody.innerHTML = grouped.map(function(g, gi){
       var est = ESTADOS[g.estado]||{label:g.estado||'—',color:'#555',bg:'#f3f4f6'};
       var r = g.rep;
       var _bUrl=boletinUrl(r);var linkCell=_bUrl?'<a href="'+_bUrl+'" target="_blank" onclick="event.stopPropagation()" style="color:#1a6bc4;font-family:IBM Plex Mono,monospace;font-size:9.5px;white-space:nowrap;text-decoration:none;padding:2px 5px;border-radius:4px;border:1px solid rgba(26,26,24,.12)">'+(r.boletin||'BOE')+' ↗</a>':'<span style="opacity:.3">—</span>';
-      var pubsBadge = g.nPubs>1 ? ' <span style="background:rgba(26,26,24,.08);color:rgba(26,26,24,.55);padding:1px 6px;border-radius:8px;font-size:9px;font-weight:600" title="'+g.nPubs+' publicaciones">'+g.nPubs+'</span>' : '';
-      return '<tr onclick="openModal('+JSON.stringify(r)+')" title="Ver detalle (última publicación)">'
-        +'<td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(g.nombre||'—')+pubsBadge+'</td>'
+      // publicaciones del proyecto (PROJECTS_INLINE) o, si no, los records vinculados
+      var pubs = [];
+      if(g.proj && g.proj.publicaciones) pubs = g.proj.publicaciones.slice();
+      else pubs = g.recs ? g.recs.map(function(x){ return {id_boe:x.id_boe, fecha:x.fecha_publicacion, boletin:x.boletin, tipo_permiso:x.tipo_permiso, estado:x.estado_permiso, url:boletinUrl(x)}; }) : [];
+      pubs.sort(function(a,b){ return (b.fecha||'').localeCompare(a.fecha||''); });
+      var canExpand = pubs.length>1;
+      var chev = canExpand ? '<span id="sdp-pg-chev-'+gi+'" style="display:inline-block;width:13px;color:rgba(26,26,24,.45);font-size:9px;transition:transform .15s">▶</span>' : '<span style="display:inline-block;width:13px"></span>';
+      var pubsBadge = canExpand ? ' <span style="background:rgba(26,26,24,.08);color:rgba(26,26,24,.55);padding:1px 6px;border-radius:8px;font-size:9px;font-weight:600" title="'+pubs.length+' publicaciones — clic para desglosar">'+pubs.length+'</span>' : '';
+      var mainRow = '<tr onclick="'+(canExpand?'toggleProjPubs('+gi+')':'openModal('+JSON.stringify(r)+')')+'" title="'+(canExpand?'Desglosar publicaciones':'Ver detalle')+'" style="cursor:pointer">'
+        +'<td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+chev+(g.nombre||'—')+pubsBadge+'</td>'
         +'<td>'+(TECH_ICONS[g.tecnologia]||'')+'</td>'
         +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(g.mw!=null?g.mw:'—')+' MW</td>'
         +'<td><span style="padding:2px 6px;border-radius:3px;font-size:9px;font-weight:500;background:'+est.bg+';color:'+est.color+'">'+est.label+'</span></td>'
         +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(g.fecha||'—')+'</td>'
         +'<td style="white-space:nowrap">'+linkCell+'</td>'
-        +'</tr>';}).join('');
+        +'</tr>';
+      if(!canExpand) return mainRow;
+      var sub = pubs.map(function(pub){
+        var rl = RESL3[pub.estado]||pub.estado||'—';
+        var fch = pub.fecha ? String(pub.fecha).replace(/(\d{4})(\d{2})(\d{2})/,'$3/$2/$1') : '—';
+        var lk = pub.url ? '<a href="'+pub.url+'" target="_blank" onclick="event.stopPropagation()" style="color:#1a6bc4;text-decoration:none">'+(pub.id_boe||'ver')+' ↗</a>' : (pub.id_boe||'—');
+        return '<div style="display:flex;gap:14px;padding:4px 0;border-bottom:1px solid rgba(26,26,24,.05);font-size:10.5px">'
+          +'<span style="font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.65);min-width:72px">'+fch+'</span>'
+          +'<span style="font-family:IBM Plex Mono,monospace;min-width:170px">'+lk+'</span>'
+          +'<span style="color:rgba(26,26,24,.6);min-width:70px">'+(pub.tipo_permiso||'—')+'</span>'
+          +'<span style="font-weight:600">'+rl+'</span>'
+          +'</div>';
+      }).join('');
+      var subRow = '<tr id="sdp-pg-det-'+gi+'" style="display:none"><td colspan="6" style="background:#fbfaf7;padding:6px 14px 8px 30px">'+sub+'</td></tr>';
+      return mainRow + subRow;
+    }).join('');
   } else {
     projTbody.innerHTML = '<tr><td colspan="6" style="padding:14px;text-align:center;color:rgba(26,26,24,.3);font-size:11px">Sin proyectos vinculados</td></tr>';
   }
