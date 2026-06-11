@@ -6628,8 +6628,13 @@ function renderRadar(){
   html += '<div style="font-size:10.5px;color:rgba(26,26,24,.45);margin-bottom:8px">Clic en una fila para ver la justificación completa · Pilares: ventana 35% · señal trámite 30% · estancados 20% · hitos RDL 15% · Generado '+(RADAR_DATA.generado||'')+'</div>';
   html += '<table style="width:100%;border-collapse:collapse;font-size:12px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05)">';
   html += '<thead><tr style="background:#05233D;color:#fff">';
-  ['#','Subestación','Score','Por qué es oportunidad','Ventana','Trámite 3m','Estancados','Hitos'].forEach(function(h,i2){
-    html += '<th style="padding:9px 12px;text-align:'+(i2>=4?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em">'+h+'</th>';
+  [['#',''],['Subestación',''],['Score',''],['Por qué es oportunidad',''],
+   ['Disp. hoy','MW disponibles AHORA en el Monitor — si >0, se puede solicitar ya'],
+   ['Ventana','MW de proyectos caídos en ventana de afloramiento (0-6m)'],
+   ['Trámite 3m','MW de capacidad en trámite liberándose (últimos 3 meses)'],
+   ['Estancados','MW en tramitación sin avances >24m'],
+   ['Hitos ≤6m','MW con hito RD-L 23/2020 venciendo en 6 meses']].forEach(function(hh,i2){
+    html += '<th title="'+hh[1]+'" style="padding:9px 12px;text-align:'+(i2>=4?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em;white-space:nowrap">'+hh[0]+(i2>=4?' <span style="opacity:.55;font-weight:400">MW</span>':'')+'</th>';
   });
   html += '</tr></thead><tbody>';
   RADAR_DATA.sets.slice(0,100).forEach(function(r,i){
@@ -6643,12 +6648,18 @@ function renderRadar(){
       +   '<div style="display:inline-flex;align-items:center;gap:7px"><div style="width:54px;height:6px;border-radius:3px;background:#efece5"><div style="width:'+Math.min(100,sc)+'%;height:100%;border-radius:3px;background:'+scColor+'"></div></div>'
       +   '<span style="font-family:IBM Plex Mono,monospace;font-weight:700;color:'+scColor+'">'+sc+'</span></div></td>'
       + '<td style="padding:8px 12px;font-size:11px;color:rgba(26,26,24,.65);max-width:340px">'+rz.join(' · ')+'</td>'
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_ventana?fmt(r.mw_ventana)+' MW':'—')+'</td>'
+      + (function(){
+          var dHoy = null;
+          try{ var sc = (typeof SETS_CAPACITY!=='undefined'&&SETS_CAPACITY)?SETS_CAPACITY[r.set]:null; if(sc && sc[5]!=null) dHoy = sc[5]; }catch(e){}
+          var col = dHoy==null?'rgba(26,26,24,.3)':dHoy>5?'#16a34a':dHoy>0?'#d97706':'#dc2626';
+          return '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;font-weight:700;color:'+col+'" title="Capacidad gen disponible actual en el Monitor">'+(dHoy!=null?fmt(dHoy):'—')+'</td>';
+        })()
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_ventana?fmt(r.mw_ventana):'—')+'</td>'
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;color:'+(r.tram_drop_3m?'#399439':'rgba(26,26,24,.3)')+'">'+(r.tram_drop_3m?'▼ '+fmt(r.tram_drop_3m):'—')+'</td>'
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_estancado?fmt(r.mw_estancado):'—')+'</td>'
       + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_hitos_6m?fmt(r.mw_hitos_6m):'—')+'</td>'
       + '</tr>'
-      + '<tr id="rd-det-'+i+'" style="display:none"><td colspan="8" style="background:#fbfaf7;padding:12px 18px 12px 34px;border-bottom:1px solid rgba(26,26,24,.07)">'+detalleHtml(r)+'</td></tr>';
+      + '<tr id="rd-det-'+i+'" style="display:none"><td colspan="9" style="background:#fbfaf7;padding:12px 18px 12px 34px;border-bottom:1px solid rgba(26,26,24,.07)">'+detalleHtml(r)+'</td></tr>';
   });
   html += '</tbody></table>';
   w.innerHTML = html;
