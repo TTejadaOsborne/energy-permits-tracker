@@ -4988,13 +4988,66 @@ function openSetDetail(key){
     if(od!==0) return od;
     return (b.fecha_publicacion||'').localeCompare(a.fecha_publicacion||'');
   });
-  document.getElementById('sdp-proj-count').textContent = linked.length ? '('+linked.length+')' : '';
+  // ── Agrupar publicaciones por proyecto (via PROJECTS_INLINE id_boe -> proyecto) ──
+  if(!window._pubToProjIdx && window.PROJECTS_INLINE && window.PROJECTS_INLINE.proyectos){
+    window._pubToProjIdx = {};
+    window.PROJECTS_INLINE.proyectos.forEach(function(p){
+      (p.publicaciones||[]).forEach(function(pub){ if(pub.id_boe) window._pubToProjIdx[pub.id_boe]=p; });
+      (p.publicaciones_infra||[]).forEach(function(pub){ if(pub.id_boe) window._pubToProjIdx[pub.id_boe]=p; });
+    });
+  }
+  var _p2p = window._pubToProjIdx||{};
+  var _groups = {}, _gOrder = [];
+  linked.forEach(function(r){
+    var proj = r.id_boe ? _p2p[r.id_boe] : null;
+    var gid = proj ? proj.id : 'rec_'+(r.id_boe||r.nombre_proyecto||Math.random());
+    if(!_groups[gid]){ _groups[gid] = {proj:proj, recs:[]}; _gOrder.push(gid); }
+    _groups[gid].recs.push(r);
+    if(proj && !_groups[gid].proj) _groups[gid].proj = proj;
+  });
+  var grouped = _gOrder.map(function(gid){
+    var g = _groups[gid];
+    g.recs.sort(function(a,b){ return (b.fecha_publicacion||'').localeCompare(a.fecha_publicacion||''); });
+    var rep = g.recs[0];
+    return {
+      nombre: g.proj ? g.proj.nombre : rep.nombre_proyecto,
+      tecnologia: g.proj ? g.proj.tecnologia : rep.tecnologia,
+      mw: g.proj && g.proj.potencia_mw!=null ? g.proj.potencia_mw : rep.potencia_mw,
+      estado: g.proj && g.proj.estado_actual ? g.proj.estado_actual : rep.estado_permiso,
+      fecha: g.proj && g.proj.fecha_ultima ? g.proj.fecha_ultima : rep.fecha_publicacion,
+      nPubs: g.proj && g.proj.n_publicaciones ? g.proj.n_publicaciones : g.recs.length,
+      rep: rep,
+      libMW: Math.max.apply(null, g.recs.map(function(r){ return parseFloat(r.capacidad_mw_liberada)||0; }))
+    };
+  });
+  var _estOrdG = function(e){
+    if(e==='denegado'||e==='archivado'||e==='desfavorable') return 0;
+    if(e==='desistido') return 1;
+    if(e==='en_tramitacion'||e==='informacion_publica') return 2;
+    if(e==='favorable'||e==='otorgado') return 3;
+    return 4;
+  };
+  grouped.sort(function(a,b){
+    var od = _estOrdG(a.estado) - _estOrdG(b.estado);
+    if(od!==0) return od;
+    return (b.fecha||'').localeCompare(a.fecha||'');
+  });
+  document.getElementById('sdp-proj-count').textContent = grouped.length ? '('+grouped.length+')' : '';
   var projTbody = document.getElementById('sdp-proj-tbody');
-  if(linked.length){
-    projTbody.innerHTML = linked.map(function(r){
-      var est = ESTADOS[r.estado_permiso]||{label:r.estado_permiso||'—',color:'#555',bg:'#f3f4f6'};
+  if(grouped.length){
+    projTbody.innerHTML = grouped.map(function(g){
+      var est = ESTADOS[g.estado]||{label:g.estado||'—',color:'#555',bg:'#f3f4f6'};
+      var r = g.rep;
       var _bUrl=boletinUrl(r);var linkCell=_bUrl?'<a href="'+_bUrl+'" target="_blank" onclick="event.stopPropagation()" style="color:#1a6bc4;font-family:IBM Plex Mono,monospace;font-size:9.5px;white-space:nowrap;text-decoration:none;padding:2px 5px;border-radius:4px;border:1px solid rgba(26,26,24,.12)">'+(r.boletin||'BOE')+' ↗</a>':'<span style="opacity:.3">—</span>';
-      return '<tr onclick="openModal('+JSON.stringify(r)+')" title="Ver detalle">'        +'<td style="max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+r.nombre_proyecto+'</td>'        +'<td>'+(TECH_ICONS[r.tecnologia]||'')+'</td>'        +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(r.potencia_mw||'—')+' MW</td>'        +'<td><span style="padding:2px 6px;border-radius:3px;font-size:9px;font-weight:500;background:'+est.bg+';color:'+est.color+'">'+est.label+'</span></td>'        +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(r.fecha_publicacion||'—')+'</td>'        +'<td style="white-space:nowrap">'+linkCell+'</td>'        +'</tr>';}).join('');
+      var pubsBadge = g.nPubs>1 ? ' <span style="background:rgba(26,26,24,.08);color:rgba(26,26,24,.55);padding:1px 6px;border-radius:8px;font-size:9px;font-weight:600" title="'+g.nPubs+' publicaciones">'+g.nPubs+'</span>' : '';
+      return '<tr onclick="openModal('+JSON.stringify(r)+')" title="Ver detalle (última publicación)">'
+        +'<td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(g.nombre||'—')+pubsBadge+'</td>'
+        +'<td>'+(TECH_ICONS[g.tecnologia]||'')+'</td>'
+        +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(g.mw!=null?g.mw:'—')+' MW</td>'
+        +'<td><span style="padding:2px 6px;border-radius:3px;font-size:9px;font-weight:500;background:'+est.bg+';color:'+est.color+'">'+est.label+'</span></td>'
+        +'<td style="font-family:IBM Plex Mono,monospace;white-space:nowrap">'+(g.fecha||'—')+'</td>'
+        +'<td style="white-space:nowrap">'+linkCell+'</td>'
+        +'</tr>';}).join('');
   } else {
     projTbody.innerHTML = '<tr><td colspan="6" style="padding:14px;text-align:center;color:rgba(26,26,24,.3);font-size:11px">Sin proyectos vinculados</td></tr>';
   }
@@ -5002,11 +5055,11 @@ function openSetDetail(key){
   // ── Afloramientos por SET ──────────────────────────────────────────────
   (function(){
     var denMW=0, desMW=0, libMW=0, nDen=0, nDes=0;
-    linked.forEach(function(r){
-      var mw = parseFloat(r.potencia_mw)||0;
-      var lib = parseFloat(r.capacidad_mw_liberada)||0;
-      var est = r.estado_permiso;
-      if(est==='denegado'||est==='archivado'){
+    grouped.forEach(function(g){
+      var mw = parseFloat(g.mw)||0;
+      var lib = g.libMW||0;
+      var est = g.estado;
+      if(est==='denegado'||est==='archivado'||est==='desfavorable'){
         denMW += mw; nDen++;
         if(lib>0) libMW += lib;
       } else if(est==='desistido'){
