@@ -6416,7 +6416,6 @@ function renderOportunidades(){
     return true;
   });
 
-  // Orden de decision: En ventana (MW desc) -> Fuera de plazo -> Confirmados
   var ord = {EN_VENTANA:0, SOBREPLAZO:1, CONFIRMADO:2};
   rows.sort(function(a,b){
     var d = (ord[a.estado_ventana]??3) - (ord[b.estado_ventana]??3);
@@ -6427,8 +6426,6 @@ function renderOportunidades(){
 
   var statsEl=document.getElementById('op-stats');
   if(statsEl) statsEl.textContent=rows.length+' oportunidad'+(rows.length!==1?'es':'');
-
-  // KPI: MW en ventana
   var mwVent = ADVERSE_FORECAST_DATA.filter(function(r){return r.estado_ventana==='EN_VENTANA';})
     .reduce(function(s,r){return s+(parseFloat(r.mw_proyecto)||0);},0);
   var mwEl=document.getElementById('op-kpi-mwvent');
@@ -6437,68 +6434,67 @@ function renderOportunidades(){
   var cont=document.getElementById('op-cards');
   var empty=document.getElementById('op-empty');
   if(!cont) return;
-  if(!rows.length){
-    cont.innerHTML='';
-    if(empty) empty.style.display='block';
-    return;
-  }
+  if(!rows.length){ cont.innerHTML=''; if(empty) empty.style.display='block'; return; }
   if(empty) empty.style.display='none';
 
   var stats=typeof ADVERSE_LAG_STATS!=='undefined'?ADVERSE_LAG_STATS:{p25:30,mediana:90,p75:180};
-  var HORIZ = 540; // 18 meses de horizonte visual
+  var MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  function fmtMes(d){ return MESES[d.getMonth()]+' '+String(d.getFullYear()).slice(2); }
   var TECHI = {'Eólica':'🌀','Fotovoltaica':'☀️','BESS':'🔋','Eólica+BESS':'🌀','FV+BESS':'☀️','FV+Eólica':'☀️','Termosolar':'🌡️','Hidráulica':'💧'};
 
   cont.innerHTML = rows.map(function(r){
     var es = ESTADO_ADVERSE_LABEL[r.estado_ventana]||{label:r.estado_ventana||'—',color:'#555',bg:'#f3f4f6'};
     var conf = r.estado_ventana==='CONFIRMADO';
-    var dias = null;
-    if(r.fecha_adversa){ dias = Math.round((new Date() - new Date(r.fecha_adversa))/86400000); }
+    var dAdv = r.fecha_adversa ? new Date(r.fecha_adversa) : null;
+    var dias = dAdv ? Math.round((new Date()-dAdv)/86400000) : null;
     var lagReal = (conf && r.lag_real_dias!=null && !isNaN(r.lag_real_dias)) ? Math.round(r.lag_real_dias) : null;
+    var mwTxt = r.mw_proyecto!=null && !isNaN(r.mw_proyecto) ? Math.round(r.mw_proyecto).toLocaleString('es-ES') : '—';
+    var fadv = dAdv ? ('0'+dAdv.getDate()).slice(-2)+'/'+('0'+(dAdv.getMonth()+1)).slice(-2)+'/'+dAdv.getFullYear() : '—';
 
-    // Linea temporal: zona ventana 0-P75 en verde suave, marcador hoy / lag real
-    var posHoy = dias!=null ? Math.min(100, dias/HORIZ*100) : null;
-    var posVent = Math.min(100, stats.p75/HORIZ*100);
-    var posMark = lagReal!=null ? Math.min(100, lagReal/HORIZ*100) : posHoy;
+    // Mensaje clave: cuando esperar el afloramiento
+    var punchline='';
+    if(conf){
+      punchline = '<span style="color:#399439;font-weight:700">✓ Capacidad aflorada'+(lagReal!=null?' a los '+lagReal+' días':'')+'</span>';
+    } else if(dAdv){
+      var vIni = new Date(dAdv.getTime()+stats.p25*86400000);
+      var vFin = new Date(dAdv.getTime()+stats.p75*86400000);
+      if(dias>stats.p75){
+        punchline = '<span style="color:#b45309;font-weight:700">Ventana principal superada</span> <span style="color:rgba(26,26,24,.5)">— sigue posible hasta ~18 meses</span>';
+      } else {
+        punchline = '<span style="color:rgba(26,26,24,.55)">Afloramiento esperado:</span> <span style="color:#05233D;font-weight:700">'+fmtMes(vIni)+' – '+fmtMes(vFin)+'</span>';
+      }
+    }
+
+    // Timeline simple: ventana verde + marcador hoy
+    var HORIZ=540;
+    var posVent=Math.min(100, stats.p75/HORIZ*100);
+    var posMark=(lagReal!=null?lagReal:dias);
+    posMark = posMark!=null ? Math.min(98, Math.max(1, posMark/HORIZ*100)) : null;
     var markColor = conf ? '#399439' : (dias!=null && dias>stats.p75 ? '#b45309' : '#05233D');
-    var timeline = '<div style="position:relative;height:10px;border-radius:5px;background:#f0ede6;margin:10px 0 2px;overflow:visible">'
-      + '<div style="position:absolute;left:0;top:0;bottom:0;width:'+posVent.toFixed(1)+'%;background:rgba(57,148,57,.22);border-radius:5px 0 0 5px"></div>'
-      + (posMark!=null ? '<div style="position:absolute;left:'+posMark.toFixed(1)+'%;top:-3px;bottom:-3px;width:3px;border-radius:2px;background:'+markColor+';transform:translateX(-50%)" title="'+(lagReal!=null?('Afloró a los '+lagReal+' días'):('Hoy: '+dias+' días desde la decisión'))+'"></div>' : '')
-      + '</div>'
-      + '<div style="display:flex;justify-content:space-between;font-size:8.5px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.35)">'
-      + '<span>decisión</span><span style="color:#399439">ventana '+Math.round(stats.p75/30)+'m</span><span>18m</span></div>';
-
-    var fadv = r.fecha_adversa ? r.fecha_adversa.slice(0,10).split('-').reverse().join('/') : '—';
-    var mwTxt = r.mw_proyecto!=null && !isNaN(r.mw_proyecto) ? (Math.round(r.mw_proyecto*10)/10).toLocaleString('es-ES') : '—';
-    var setKey = r.sets_capacity_key||'';
-    var estadoAdv = (r.estado_adverso||'').charAt(0).toUpperCase()+(r.estado_adverso||'').slice(1);
-    var diasTxt = lagReal!=null ? 'afloró a los '+lagReal+'d' : (dias!=null ? dias+' días transcurridos' : '');
+    var timeline = '<div style="position:relative;height:8px;border-radius:4px;background:#efece5;margin-top:10px">'
+      + '<div style="position:absolute;left:0;top:0;bottom:0;width:'+posVent.toFixed(1)+'%;background:rgba(57,148,57,.3);border-radius:4px 0 0 4px"></div>'
+      + (posMark!=null?'<div style="position:absolute;left:'+posMark.toFixed(1)+'%;top:-4px;width:2.5px;height:16px;border-radius:2px;background:'+markColor+'"></div>':'')
+      + '</div>';
 
     return '<div onclick="openOportModal(\''+r.proyecto_id+'\')" style="background:#fff;border:1px solid rgba(26,26,24,.09);border-left:4px solid '+es.color+';border-radius:12px;padding:14px 16px;cursor:pointer;transition:box-shadow .15s" onmouseenter="this.style.boxShadow=\'0 4px 16px rgba(0,0,0,.08)\'" onmouseleave="this.style.boxShadow=\'none\'">'
-      // cabecera: SET + estado
-      + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">'
-      +   '<div style="min-width:0">'
-      +     '<div style="font-size:14px;font-weight:700;color:#05233D;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+_esc(r.subestacion||setKey||'—')
-      +       (r.tension_kv?' <span style="font-size:9.5px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.4);font-weight:400">'+Math.round(r.tension_kv)+' kV</span>':'')+'</div>'
-      +     '<div style="font-size:10px;color:rgba(26,26,24,.45)">'+_esc(r.distribuidora||'—')+(r.provincia?' · '+_esc(r.provincia):'')+'</div>'
-      +   '</div>'
+      // 1. SET + estado
+      + '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px">'
+      +   '<div style="font-size:14.5px;font-weight:700;color:#05233D;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+_esc(r.subestacion||r.sets_capacity_key||'—')
+      +     (r.tension_kv?' <span style="font-size:10px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.45);font-weight:400">'+Math.round(r.tension_kv)+' kV</span>':'')+'</div>'
       +   '<span style="flex-shrink:0;padding:3px 9px;border-radius:10px;font-size:9.5px;font-weight:700;background:'+(es.bg||'#f3f4f6')+';color:'+es.color+'">'+es.label+'</span>'
       + '</div>'
-      // MW liberables
-      + '<div style="display:flex;align-items:baseline;gap:7px;margin-top:8px">'
-      +   '<span style="font-family:\'Playfair Display\',serif;font-size:25px;color:#1a1a18;line-height:1">'+mwTxt+'</span>'
-      +   '<span style="font-size:11px;color:rgba(26,26,24,.5)">MW liberables</span>'
+      // 2. MW protagonista
+      + '<div style="display:flex;align-items:baseline;gap:8px;margin:10px 0 2px">'
+      +   '<span style="font-family:\'Playfair Display\',serif;font-size:30px;color:#1a1a18;line-height:1">'+mwTxt+'</span>'
+      +   '<span style="font-size:11.5px;color:rgba(26,26,24,.5)">MW liberables · '+_esc(r.distribuidora||'')+'</span>'
       + '</div>'
-      // justificacion
-      + '<div style="margin-top:7px;padding:7px 9px;background:#fafaf8;border-radius:8px;font-size:10.5px;line-height:1.45;color:rgba(26,26,24,.65)">'
-      +   (TECHI[r.tecnologia]||'⚡')+' <b style="color:#1a1a18">'+_esc(r.proyecto_nombre||'—')+'</b><br>'
-      +   _esc(r.tipo_adverso||'')+' '+_esc(estadoAdv)+' · '+fadv+(diasTxt?' · <span style="color:'+markColor+';font-weight:600">'+diasTxt+'</span>':'')
+      // 3. origen en una linea
+      + '<div style="font-size:10.5px;color:rgba(26,26,24,.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:4px">'
+      +   (TECHI[r.tecnologia]||'⚡')+' '+_esc(r.proyecto_nombre||'—')+' · '+_esc(r.tipo_adverso||'')+' '+_esc((r.estado_adverso||''))+' · '+fadv
       + '</div>'
+      // 4. mensaje clave + timeline
+      + '<div style="font-size:11.5px;margin-top:9px">'+punchline+'</div>'
       + timeline
-      // pie
-      + '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:9px">'
-      +   '<span style="font-size:9.5px;color:rgba(26,26,24,.4)">'+(r.n_proyectos_set>1?r.n_proyectos_set+' proyectos en esta SET':'')+'</span>'
-      +   (setKey?'<button onclick="event.stopPropagation();setTimeout(function(){try{jumpToSet(null,null,\''+_esc(setKey)+'\');}catch(e){}},10)" style="border:1px solid rgba(5,35,61,.25);background:#fff;color:#05233D;border-radius:7px;padding:4px 10px;font-size:10px;font-weight:600;cursor:pointer">Ver SET →</button>':'')
-      + '</div>'
       + '</div>';
   }).join('');
 }
