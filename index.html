@@ -839,7 +839,7 @@ z-index:1199;
 .srch-hist-row{border-bottom:1px solid rgba(26,26,24,.06);transition:background .1s}
 .srch-hist-row:hover{background:#fafaf8}
 /* ── Project detail ──────────────────────────────────── */
-.det-char-row{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid rgba(26,26,24,.05)}
+.det-char-row{display:flex;align-items:flex-start;gap:8px;padding:4px 0;border-bottom:1px solid rgba(26,26,24,.05)}
 .det-char-row:last-child{border-bottom:none}
 .det-char-label{font-size:10px;color:rgba(26,26,24,.4);min-width:90px;margin-top:2px}
 .det-char-val{font-size:12px;color:#1a1a18;font-weight:500;flex:1;min-width:0;word-break:break-word}
@@ -916,6 +916,10 @@ const CONFIG = {
       <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
       <span class="nav-label-sm">SETs</span>
       
+    </div>
+    <div class="nav-item" onclick="setView('oportunidades')" title="Oportunidades — potenciales afloramientos de capacidad" id="nav-oportunidades">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.8" fill="#05233D"/></svg></span>
+      <span class="nav-label-sm">Oportunidades</span>
     </div>
     <div class="nav-item" onclick="setView('proyectos')" title="Proyectos" id="nav-proyectos">
       <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#05233D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
@@ -1152,7 +1156,7 @@ const CONFIG = {
       <!-- Project detail view -->
       <div id="srch-detail-view" style="display:none;flex:1;overflow:hidden">
         <div style="display:flex;height:100%">
-          <div id="srch-det-left" style="width:280px;flex-shrink:0;overflow-y:auto;padding:20px 18px;border-right:1px solid rgba(26,26,24,.08);background:#fff"></div>
+          <div id="srch-det-left" style="width:264px;flex-shrink:0;overflow-y:auto;padding:12px 14px;border-right:1px solid rgba(26,26,24,.08);background:#fff"></div>
           <div id="srch-det-right" style="flex:1;overflow:auto;padding:20px;background:#fafaf8"></div>
         </div>
       </div>
@@ -1198,10 +1202,7 @@ const CONFIG = {
         style="padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all .15s;background:#1a1a18;color:#fff;border-bottom:2px solid #1a1a18;margin-bottom:-2px">
         📊 Capacidades
       </button>
-      <button id="sets-main-tab-aflor" onclick="setSetsMainView('afloramiento')"
-        style="padding:8px 18px;border:none;border-radius:8px 8px 0 0;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all .15s;background:rgba(26,26,24,.06);color:rgba(26,26,24,.5);border-bottom:2px solid transparent;margin-bottom:-2px">
-        ⚡ Potenciales Afloramientos
-      </button>
+
     </div>
 
     <!-- ── CAPACIDADES VIEW ─────────────────────────────────────────── -->
@@ -3159,11 +3160,9 @@ function setView(v, _noPush){
   document.getElementById("view-busqueda").style.display=v==="busqueda"?"flex":"none";
   document.getElementById("view-subestaciones").style.display=v==="subestaciones"?"flex":"none";
   document.getElementById("view-proyectos").style.display=v==="proyectos"?"flex":"none";
-  document.getElementById("view-oportunidades").style.display="none";  // content moved into SETs tab
-  // When navigating to oportunidades, show subestaciones view instead
-  if(v==="oportunidades") document.getElementById("view-subestaciones").style.display="flex";
+  document.getElementById("view-oportunidades").style.display=v==="oportunidades"?"flex":"none";
   document.querySelectorAll(".nav-item").forEach(el=>el.classList.remove("active"));
-  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos"};
+  var navMap={"inicio":"nav-inicio","busqueda":"nav-busqueda","subestaciones":"nav-subestaciones","proyectos":"nav-proyectos","oportunidades":"nav-oportunidades"};
   var activeEl=document.getElementById(navMap[v]||"nav-busqueda");
   if(activeEl) activeEl.classList.add("active");
   if(v==="busqueda"){
@@ -3191,9 +3190,15 @@ function setView(v, _noPush){
     try{ renderDashboard(); }catch(e){ console.error('Dashboard render error:',e); }
     setTimeout(function(){ try{ renderDashboard(); }catch(e){}; }, 400);
   } else if(v==="oportunidades"){
-    document.getElementById("page-title").textContent="Potenciales Afloramientos";
-    // Override the capacidades tab set by subestaciones branch above
-    setTimeout(function(){ setSetsMainView('afloramiento'); initOportunidades(); }, 10);
+    document.getElementById("page-title").textContent="Oportunidades";
+    // Si el panel fue movido a la pestaña de SETs en versiones previas, devolverlo
+    var _ov = document.getElementById('view-oportunidades');
+    var _inner = document.getElementById('sets-aflor-inner');
+    if(_ov && _inner && _inner.hasChildNodes() && !_ov.querySelector('.oport-kpis')){
+      while(_inner.firstChild) _ov.appendChild(_inner.firstChild);
+    }
+    _ov.style.display='flex'; _ov.style.flexDirection='column'; _ov.style.overflowY='auto';
+    setTimeout(function(){ try{ initOportunidades(); _buildOportKpis(); renderOportunidades(); }catch(e){console.warn(e);} }, 10);
   }
 }
 
@@ -8119,9 +8124,9 @@ function renderProjDetail(p){
     return'<div class="det-char-row"><span style="font-size:13px;flex-shrink:0;opacity:.55;width:18px;text-align:center">'+icon+'</span><div style="flex:1;min-width:0"><div class="det-char-label">'+label+'</div>'+vHtml+'</div></div>';
   }
 
-  var lft='<div style="font-size:14px;font-weight:700;color:#1a1a18;margin-bottom:16px;line-height:1.3">'+escHtml(p.nombre||'Proyecto')+'</div>';
+  var lft='<div style="font-size:13.5px;font-weight:700;color:#1a1a18;margin-bottom:8px;line-height:1.25">'+escHtml(p.nombre||'Proyecto')+'</div>';
   lft+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Características</div>';
-  lft+='<div style="background:#fafaf8;border-radius:8px;padding:4px 12px;margin-bottom:20px">';
+  lft+='<div style="background:#fafaf8;border-radius:8px;padding:2px 10px;margin-bottom:10px">';
   lft+=row('🗺️','Provincia',p.provincia);
   // SET: show as clickable link if SETS_CAPACITY has the key
   if(p.subestacion){
@@ -8142,7 +8147,7 @@ function renderProjDetail(p){
   if(p.comunidad_autonoma) lft+=row('🏛️','CCAA',p.comunidad_autonoma);
   lft+='</div>';
   lft+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:rgba(26,26,24,.4);margin-bottom:8px">Ver en Mapa</div>';
-  lft+='<div id="det-mini-map" style="background:#f0f0ec;border-radius:8px;overflow:hidden;height:160px;display:flex;align-items:center;justify-content:center;padding:8px"></div>';
+  lft+='<div id="det-mini-map" style="background:#f0f0ec;border-radius:8px;overflow:hidden;height:110px;display:flex;align-items:center;justify-content:center;padding:6px"></div>';
   document.getElementById('srch-det-left').innerHTML=lft;
   setTimeout(function(){renderDetMiniMap(p.provincia, p.municipio);},50);
 
@@ -8225,7 +8230,7 @@ function renderProjDetail(p){
 function renderDetMiniMap(prov, muni){
   var el=document.getElementById('det-mini-map');if(!el)return;
   // Leaflet real map with Nominatim geocoding
-  el.style.height='170px';
+  el.style.height='110px';
   el.style.padding='0';
   el.style.background='#e8e8e4';
   // Destroy previous map instance
