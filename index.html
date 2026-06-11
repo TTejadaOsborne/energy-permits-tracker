@@ -3538,10 +3538,23 @@ function renderSetsMap(){
       zoomControl: false
     });
     L.control.zoom({ position: 'bottomright' }).addTo(_leafletMap);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 18
-    }).addTo(_leafletMap);
+    // Base "Satelite": Esri World Imagery (global) + PNOA IGN (ortofoto 25cm, solo Espana, encima)
+    var _lyrEsri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '© Esri, Maxar, Earthstar Geographics', maxZoom: 19
+    });
+    var _lyrPNOA = L.tileLayer('https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/{z}/{x}/{-y}.jpeg', {
+      attribution: '© IGN PNOA', maxZoom: 19, bounds: [[27.5,-18.5],[44.0,4.5]]
+    });
+    // Etiquetas (nombres de ciudades/limites) en blanco sobre la ortofoto
+    var _lyrLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 19, pane: 'shadowPane'
+    });
+    var _baseSat = L.layerGroup([_lyrEsri, _lyrPNOA, _lyrLabels]);
+    var _baseOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 18
+    });
+    _baseSat.addTo(_leafletMap);
+    L.control.layers({'Satélite':_baseSat,'Callejero':_baseOSM}, null, {position:'bottomleft', collapsed:false}).addTo(_leafletMap);
     // Fix Leaflet size after flex display
     setTimeout(()=>{ if(_leafletMap) _leafletMap.invalidateSize(); }, 50);
     // Sidebar actualiza con el viewport del mapa
