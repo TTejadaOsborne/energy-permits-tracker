@@ -528,6 +528,11 @@ tbody tr.fallido:hover td{background:rgba(220,38,38,.07)}
 .sdp-cap-bar-mw{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;color:#1a1a18}
 .sdp-cap-bar-track{height:5px;background:#f0ede8;border-radius:3px;overflow:hidden}
 .sdp-cap-bar-fill{height:100%;border-radius:4px;transition:width .4s cubic-bezier(.4,0,.2,1)}
+.sdp-neta-divtrack{position:relative;height:16px;background:linear-gradient(90deg,rgba(220,38,38,.08) 0%,rgba(220,38,38,.08) 50%,rgba(22,163,74,.08) 50%,rgba(22,163,74,.08) 100%);border-radius:8px}
+.sdp-neta-zero{position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:rgba(26,26,24,.4);transform:translateX(-50%);border-radius:1px;z-index:1}
+.sdp-neta-fill{position:absolute;top:3px;bottom:3px;width:0;border-radius:5px;transition:all .4s cubic-bezier(.4,0,.2,1)}
+.sdp-neta-badge{position:absolute;top:50%;transform:translate(-50%,-50%);font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;padding:1px 7px;border-radius:9px;white-space:nowrap;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.18);z-index:2}
+.sdp-neta-axis{display:flex;justify-content:space-between;font-size:9px;color:rgba(26,26,24,.4);font-family:'IBM Plex Mono',monospace;margin-top:3px}
 .sdp-cap-summary{display:flex;gap:16px;margin-top:8px;padding-top:7px;border-top:1px solid rgba(26,26,24,.07)}
 .sdp-cap-sum-item{display:flex;flex-direction:column;gap:2px}
 .sdp-cap-sum-lbl{font-size:9px;color:rgba(26,26,24,.4);text-transform:uppercase;letter-spacing:.08em;font-family:'IBM Plex Mono',monospace}
@@ -1391,12 +1396,17 @@ const CONFIG = {
                 </div>
                 <div class="sdp-cap-bar-track"><div class="sdp-cap-bar-fill" id="sdp-bar-tram-fill" style="background:#f59e0b;width:0%"></div></div>
               </div>
-              <div class="sdp-cap-bar-wrap">
+              <div class="sdp-cap-bar-wrap" style="margin-top:10px;padding-top:9px;border-top:1px dashed rgba(26,26,24,.15)">
                 <div class="sdp-cap-bar-lbl">
-                  <div class="sdp-cap-bar-name"><div class="sdp-cap-bar-dot" style="background:#9ca3af"></div>Neta</div>
+                  <div class="sdp-cap-bar-name"><div class="sdp-cap-bar-dot" id="sdp-neta-dot" style="background:#9ca3af"></div>Neta <span style="opacity:.45;font-size:10px;margin-left:2px">= Disponible &minus; En tr&aacute;mite</span></div>
                   <div class="sdp-cap-bar-mw" id="sdp-bar-neta-mw">— MW</div>
                 </div>
-                <div class="sdp-cap-bar-track"><div class="sdp-cap-bar-fill" id="sdp-bar-neta-fill" style="background:#9ca3af;width:0%"></div></div>
+                <div class="sdp-neta-divtrack" id="sdp-neta-divtrack">
+                  <div class="sdp-neta-zero"></div>
+                  <div class="sdp-neta-fill" id="sdp-neta-fill"></div>
+                  <div class="sdp-neta-badge" id="sdp-neta-badge" style="display:none">—</div>
+                </div>
+                <div class="sdp-neta-axis"><span id="sdp-neta-min">&minus;</span><span style="font-weight:600">0</span><span id="sdp-neta-max">+</span></div>
               </div>
             </div>
             <div style="min-width:130px;flex-shrink:0;border-left:1px solid rgba(26,26,24,.07);padding-left:16px;padding-top:2px">
@@ -5034,16 +5044,38 @@ window._paintCapBars=function(disp, ocup, tram, neta){
     if(dispFl) dispFl.style.width = wpct(disp);
     if(ocupFl) ocupFl.style.width = wpct(ocup);
     if(tramFl) tramFl.style.width = wpct(tram);
-    // Neta: si es negativa, NO mostrar barra; si es positiva, mostrar
-    if(netaFl){
-      if(neta==null || neta<0){
-        netaFl.style.width = '0%';
-        netaFl.style.background = 'transparent';
+    // Neta: barra divergente desde 0 (negativa hacia la izq. en rojo, positiva hacia la dcha. en verde)
+    var netaFill2 = document.getElementById('sdp-neta-fill');
+    var netaBadge = document.getElementById('sdp-neta-badge');
+    var netaMinEl = document.getElementById('sdp-neta-min');
+    var netaMaxEl = document.getElementById('sdp-neta-max');
+    var netaDot   = document.getElementById('sdp-neta-dot');
+    if(netaFill2){
+      if(neta==null){
+        netaFill2.style.width='0%';
+        if(netaBadge) netaBadge.style.display='none';
+        if(netaMinEl) netaMinEl.innerHTML='&minus;';
+        if(netaMaxEl) netaMaxEl.textContent='+';
+        if(netaDot) netaDot.style.background='#9ca3af';
       } else {
-        netaFl.style.width = wpct(neta);
-        var netaColor = (neta<15 ? '#fde68a' : '#bbf7d0');
-        netaFl.style.background = netaColor;
-        netaFl.style.boxShadow = '0 0 8px '+netaColor+'40';
+        var scaleN = Math.max(grandTotal, Math.abs(neta), 1);
+        var halfPct = Math.min(50, Math.abs(neta)/scaleN*50);
+        var colN = neta<0 ? '#dc2626' : (neta<15 ? '#f59e0b' : '#16a34a');
+        netaFill2.style.background = colN;
+        netaFill2.style.width = halfPct.toFixed(2)+'%';
+        netaFill2.style.left = (neta<0 ? (50-halfPct) : 50).toFixed(2)+'%';
+        if(netaBadge){
+          netaBadge.style.display='';
+          var bp = neta<0 ? 50-halfPct : 50+halfPct;
+          bp = Math.max(11, Math.min(89, bp));
+          netaBadge.style.left = bp.toFixed(2)+'%';
+          netaBadge.textContent = (neta>0?'+':'')+fmt(neta);
+          netaBadge.style.color = colN;
+          netaBadge.style.border = '1px solid '+colN+'55';
+        }
+        if(netaDot) netaDot.style.background = colN;
+        if(netaMinEl) netaMinEl.innerHTML = '&minus;'+fmt(scaleN);
+        if(netaMaxEl) netaMaxEl.textContent = '+'+fmt(scaleN);
       }
     }
     if(totEl)  totEl.textContent  = total > 0 ? total.toFixed(1)+' MW' : '— MW';
