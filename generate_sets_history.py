@@ -139,9 +139,8 @@ def extract_ree(ws, year, mes):
             "cap_gen_neta": (round(_gen_disp - (_gen_tram or 0.0), 4) if _gen_disp is not None else None),
             "cap_dem_disp": None,
             "cap_dem_neta": _cd,
-            # acept = Cap. acceso disponible MPE RdD - Cap. solicitada en curso MPE
-            "acept":        (round(_rdd - _gen_tram, 4)
-                             if (_rdd is not None and _gen_tram is not None) else None),
+            # acept: columna precalculada "ACEPTABILIDAD NETA" del Monitor
+            "acept":        to_float(row[10]),
             "cap_gen_RdD":  _rdd,
         }
     return entries
