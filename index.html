@@ -533,6 +533,12 @@ tbody tr.fallido:hover td{background:rgba(220,38,38,.07)}
 .sdp-neta-fill{position:absolute;top:3px;bottom:3px;width:0;border-radius:5px;transition:all .4s cubic-bezier(.4,0,.2,1)}
 .sdp-neta-badge{position:absolute;top:50%;transform:translate(-50%,-50%);font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;padding:1px 7px;border-radius:9px;white-space:nowrap;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.18);z-index:2}
 .sdp-neta-axis{display:flex;justify-content:space-between;font-size:9px;color:rgba(26,26,24,.4);font-family:'IBM Plex Mono',monospace;margin-top:3px}
+.bm-opt{display:flex;align-items:center;gap:9px;padding:4px;border-radius:9px;cursor:pointer;border:2px solid transparent;margin-bottom:2px}
+.bm-opt:hover{background:#f5f3ef}
+.bm-opt img{width:46px;height:32px;border-radius:7px;object-fit:cover;border:1px solid rgba(26,26,24,.1);flex-shrink:0}
+.bm-opt span{font-size:11.5px;color:#1a1a18}
+.bm-opt.active{border-color:#1a1a18;background:#f5f3ef}
+.bm-opt.active span{font-weight:700}
 .sdp-cap-summary{display:flex;gap:16px;margin-top:8px;padding-top:7px;border-top:1px solid rgba(26,26,24,.07)}
 .sdp-cap-sum-item{display:flex;flex-direction:column;gap:2px}
 .sdp-cap-sum-lbl{font-size:9px;color:rgba(26,26,24,.4);text-transform:uppercase;letter-spacing:.08em;font-family:'IBM Plex Mono',monospace}
@@ -1275,6 +1281,20 @@ const CONFIG = {
             style="position:absolute;top:10px;right:10px;z-index:500;background:rgba(255,255,255,.93);border:1px solid #ddd;border-radius:6px;padding:5px 10px;font-size:11px;cursor:pointer;font-family:inherit">
             📍 Sin coords <span id="sets-no-coords-count" style="opacity:.5"></span>
           </button>
+          <div id="sets-basemap-ctrl" style="position:absolute;top:48px;right:10px;z-index:500">
+            <button onclick="toggleBasemapPanel(event)" title="Capa base"
+              style="width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.95);border:1px solid #ddd;box-shadow:0 2px 8px rgba(0,0,0,.12);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1a1a18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 12 12 17 22 12"/><polyline points="2 17 12 22 22 17"/></svg>
+            </button>
+            <div id="sets-basemap-panel" style="display:none;position:absolute;top:0;right:46px;background:#fff;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.18);padding:10px;width:184px">
+              <div style="font-size:9.5px;font-weight:700;letter-spacing:.08em;color:rgba(26,26,24,.45);margin:0 2px 7px">CAPA BASE</div>
+              <div class="bm-opt" data-bm="sat" onclick="setBasemap('sat')"><img src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/6/24/31"><span>Satélite (PNOA)</span></div>
+              <div class="bm-opt" data-bm="osm" onclick="setBasemap('osm')"><img src="https://a.tile.openstreetmap.org/6/31/24.png"><span>Callejero</span></div>
+              <div class="bm-opt" data-bm="light" onclick="setBasemap('light')"><img src="https://a.basemaps.cartocdn.com/light_all/6/31/24.png"><span>Claro</span></div>
+              <div class="bm-opt" data-bm="dark" onclick="setBasemap('dark')"><img src="https://a.basemaps.cartocdn.com/dark_all/6/31/24.png"><span>Oscuro</span></div>
+              <div class="bm-opt" data-bm="topo" onclick="setBasemap('topo')"><img src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/6/24/31"><span>Topográfico</span></div>
+            </div>
+          </div>
           <div id="sets-red-toggle" style="position:absolute;top:10px;left:10px;z-index:500;display:flex;gap:4px">
             <button id="btn-tog-dso" class="sets-eye-btn active" onclick="toggleRedFilter('dso')" title="DSO" style="background:rgba(26,26,24,.82);color:#fff;border-color:transparent">
               <svg class="sets-eye-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/><line class="eye-slash" x1="3" y1="3" x2="21" y2="21"/></svg>DSO
@@ -3531,6 +3551,30 @@ function buildSetsFiltered(){
   if(countEl) countEl.textContent = SETS_DATA_FILTERED.length.toLocaleString()+' / '+Object.keys(SETS_CAPACITY).length.toLocaleString()+' SETs';
 }
 
+window.toggleBasemapPanel = function(ev){
+  if(ev) ev.stopPropagation();
+  var p = document.getElementById('sets-basemap-panel');
+  if(!p) return;
+  var show = p.style.display==='none';
+  p.style.display = show ? 'block' : 'none';
+  if(show){
+    document.querySelectorAll('#sets-basemap-panel .bm-opt').forEach(function(o){
+      o.classList.toggle('active', o.getAttribute('data-bm')===window._bmActive);
+    });
+    setTimeout(function(){
+      document.addEventListener('click', function _c(){ p.style.display='none'; document.removeEventListener('click',_c); });
+    }, 0);
+  }
+};
+window.setBasemap = function(key){
+  if(!window._bmLayers || !window._bmLayers[key] || !_leafletMap) return;
+  if(window._bmActive && window._bmLayers[window._bmActive]) _leafletMap.removeLayer(window._bmLayers[window._bmActive]);
+  window._bmLayers[key].addTo(_leafletMap);
+  window._bmActive = key;
+  document.querySelectorAll('#sets-basemap-panel .bm-opt').forEach(function(o){
+    o.classList.toggle('active', o.getAttribute('data-bm')===key);
+  });
+};
 function renderSetsMap(){
   const container = document.getElementById('sets-map');
   if(!container) return;
@@ -3542,23 +3586,20 @@ function renderSetsMap(){
       zoomControl: false
     });
     L.control.zoom({ position: 'bottomright' }).addTo(_leafletMap);
-    // Base "Satelite": Esri World Imagery (global) + PNOA IGN (ortofoto 25cm, solo Espana, encima)
-    var _lyrEsri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '© Esri, Maxar, Earthstar Geographics', maxZoom: 19
-    });
-    var _lyrPNOA = L.tileLayer('https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/{z}/{x}/{-y}.jpeg', {
-      attribution: '© IGN PNOA', maxZoom: 19, bounds: [[27.5,-18.5],[44.0,4.5]]
-    });
-    // Etiquetas (nombres de ciudades/limites) en blanco sobre la ortofoto
-    var _lyrLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
-      maxZoom: 19, pane: 'shadowPane'
-    });
-    var _baseSat = L.layerGroup([_lyrEsri, _lyrPNOA, _lyrLabels]);
-    var _baseOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 18
-    });
-    _baseSat.addTo(_leafletMap);
-    L.control.layers({'Satélite':_baseSat,'Callejero':_baseOSM}, null, {position:'bottomleft', collapsed:false}).addTo(_leafletMap);
+    // ── Capas base (selector personalizado, esquina superior derecha) ──
+    window._bmLayers = {
+      sat: L.layerGroup([
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution:'© Esri, Maxar, Earthstar Geographics', maxZoom:19}),
+        L.tileLayer('https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/{z}/{x}/{-y}.jpeg', {attribution:'© IGN PNOA', maxZoom:19, bounds:[[27.5,-18.5],[44.0,4.5]]}),
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {maxZoom:19, pane:'shadowPane'})
+      ]),
+      osm:   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap', maxZoom:18}),
+      light: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {attribution:'© CARTO © OpenStreetMap', subdomains:'abcd', maxZoom:19}),
+      dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {attribution:'© CARTO © OpenStreetMap', subdomains:'abcd', maxZoom:19}),
+      topo:  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {attribution:'© Esri', maxZoom:19})
+    };
+    window._bmActive = 'sat';
+    window._bmLayers.sat.addTo(_leafletMap);
     // Fix Leaflet size after flex display
     setTimeout(()=>{ if(_leafletMap) _leafletMap.invalidateSize(); }, 50);
     // Sidebar actualiza con el viewport del mapa
