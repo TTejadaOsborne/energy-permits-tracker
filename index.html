@@ -1261,8 +1261,8 @@ const CONFIG = {
         <div id="sets-map-sidebar" style="width:240px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid rgba(26,26,24,.1);background:#fff;overflow:hidden">
           <div style="padding:8px 12px;border-bottom:1px solid rgba(26,26,24,.08);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:#fafaf8">
             <span id="sets-map-count" style="font-size:11px;font-weight:600;opacity:.65"></span>
-            <div style="display:flex;align-items:center;gap:4px;font-size:10px;opacity:.5">
-              <span style="font-weight:700;letter-spacing:.03em">CAPACIDAD (centro):</span>
+            <div id="sets-leg-cap" style="display:flex;align-items:center;gap:4px;font-size:10px;opacity:1">
+              <span style="font-weight:700;letter-spacing:.03em">CAPACIDAD:</span>
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#22c55e"></span>Libre
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#f59e0b;margin-left:3px"></span>Parcial
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#ef4444;margin-left:3px"></span>Llena
@@ -1275,12 +1275,12 @@ const CONFIG = {
           <div id="sets-map" style="height:100%;width:100%;min-height:400px"></div>
           <!-- Leyenda titular (bottom-left) -->
           <div id="sets-map-legend" style="position:absolute;bottom:30px;left:10px;z-index:500;background:rgba(255,255,255,.93);border-radius:8px;padding:7px 11px;font-size:10px;box-shadow:0 2px 8px rgba(0,0,0,.12);pointer-events:none">
-            <div style="font-weight:600;margin-bottom:3px;opacity:.5;font-size:9px;letter-spacing:.05em">TITULAR <span style="font-weight:400;opacity:.55">(halo)</span></div>
-            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#3b82f6;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>Endesa</div>
-            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>iDE</div>
-            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f97316;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>UFD</div>
-            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>Viesgo</div>
-            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#9ca3af;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>REE</div>
+            <div id="sets-leg-tit" data-init="1" style="font-weight:600;margin-bottom:3px;opacity:.5;font-size:9px;letter-spacing:.05em">TITULAR</div>
+            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3b82f6;margin-right:5px"></span>Endesa</div>
+            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px"></span>iDE</div>
+            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f97316;margin-right:5px"></span>UFD</div>
+            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ef4444;margin-right:5px"></span>Viesgo</div>
+            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#9ca3af;margin-right:5px"></span>REE</div>
           </div>
           <button onclick="exportSinCoords()" title="Ver y exportar SETs sin coordenadas"
             style="position:absolute;top:10px;right:10px;z-index:500;background:rgba(255,255,255,.93);border:1px solid #ddd;border-radius:6px;padding:5px 10px;font-size:11px;cursor:pointer;font-family:inherit">
@@ -1299,6 +1299,10 @@ const CONFIG = {
               <div class="bm-opt" data-bm="dark" onclick="setBasemap('dark')"><img src="https://a.basemaps.cartocdn.com/dark_all/6/31/24.png"><span>Oscuro</span></div>
               <div class="bm-opt" data-bm="topo" onclick="setBasemap('topo')"><img src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/6/24/31"><span>Topográfico</span></div>
             </div>
+          </div>
+          <div id="sets-color-toggle" style="position:absolute;top:48px;left:10px;z-index:500;display:flex;background:rgba(255,255,255,.95);border:1px solid #ddd;border-radius:9px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.1)">
+            <button id="btn-col-cap" onclick="setSetsColorMode('cap')" style="border:none;padding:6px 12px;font-size:10.5px;font-weight:700;cursor:pointer;background:#05233D;color:#fff;font-family:'Inter',sans-serif">🟢 Capacidad</button>
+            <button id="btn-col-tit" onclick="setSetsColorMode('tit')" style="border:none;padding:6px 12px;font-size:10.5px;font-weight:700;cursor:pointer;background:transparent;color:rgba(26,26,24,.55);font-family:'Inter',sans-serif">🏛 Titular</button>
           </div>
           <div id="sets-red-toggle" style="position:absolute;top:10px;left:10px;z-index:500;display:flex;gap:4px">
             <button id="btn-tog-dso" class="sets-eye-btn active" onclick="toggleRedFilter('dso')" title="DSO" style="background:rgba(26,26,24,.82);color:#fff;border-color:transparent">
@@ -3494,14 +3498,16 @@ function highlightMarker(key){
   // Reset previous
   if(_selectedMapKey && _visDotMap.has(_selectedMapKey)){
     var prev = _visDotMap.get(_selectedMapKey);
-    prev.setRadius(3.4);
-    prev.setStyle({weight:1.7, color:'#fff', fillColor:prev.options._baseColor});
+    prev.setRadius(4);
+    var _pc = (window._setsColorMode==='tit') ? prev.options._titColor : prev.options._capColor;
+    prev.setStyle({weight:1.1, color:'#fff', fillColor:_pc});
   }
   _selectedMapKey = key;
   if(key && _visDotMap.has(key)){
     var curr = _visDotMap.get(key);
     curr.setRadius(9);
-    curr.setStyle({weight:3, color:'#1a1a18', fillColor:curr.options._baseColor});
+    var _cc = (window._setsColorMode==='tit') ? curr.options._titColor : curr.options._capColor;
+    curr.setStyle({weight:3, color:'#1a1a18', fillColor:_cc});
     curr.bringToFront();
   }
 }
@@ -3700,6 +3706,25 @@ window.setBasemap = function(key){
     o.classList.toggle('active', o.getAttribute('data-bm')===key);
   });
 };
+window._setsColorMode = 'cap';
+window.setSetsColorMode = function(m){
+  window._setsColorMode = m;
+  var bC = document.getElementById('btn-col-cap');
+  var bT = document.getElementById('btn-col-tit');
+  if(bC){ bC.style.background = m==='cap' ? '#05233D' : 'transparent'; bC.style.color = m==='cap' ? '#fff' : 'rgba(26,26,24,.55)'; }
+  if(bT){ bT.style.background = m==='tit' ? '#05233D' : 'transparent'; bT.style.color = m==='tit' ? '#fff' : 'rgba(26,26,24,.55)'; }
+  // Recolorear sin re-render
+  _visDotMap.forEach(function(dot, key){
+    if(key === _selectedMapKey) return;
+    var c = m==='tit' ? dot.options._titColor : dot.options._capColor;
+    dot.setStyle({fillColor: c});
+  });
+  // Resaltar leyenda activa
+  var lc = document.getElementById('sets-leg-cap');
+  var lt = document.getElementById('sets-leg-tit');
+  if(lc) lc.style.opacity = m==='cap' ? '1' : '.35';
+  if(lt) lt.style.opacity = m==='tit' ? '1' : '.35';
+};
 function renderSetsMap(){
   const container = document.getElementById('sets-map');
   if(!container) return;
@@ -3756,17 +3781,12 @@ function renderSetsMapMarkers(){
     if(lat==null || lon==null){ noCoord++; return; }
 
     // Visual dot — stored so we can highlight it
-    // Halo exterior = titular; separador blanco; centro = capacidad
-    const halo = L.circleMarker([lat,lon], {
-      radius:6, color:titularColor, fillColor:titularColor,
-      fillOpacity:0.95, weight:0, opacity:1, interactive:false
-    });
-    halo.addTo(grupo);
+    const _activeCol = (window._setsColorMode==='tit') ? titularColor : capColor;
     const visDot = L.circleMarker([lat,lon], {
-      radius:3.4, color:'#fff', fillColor:capColor,
-      fillOpacity:1, weight:1.7, opacity:1, interactive:false,
-      _baseColor: capColor,        // relleno = capacidad
-      _ringColor: titularColor     // halo = titular
+      radius:4, color:'#fff', fillColor:_activeCol,
+      fillOpacity:0.95, weight:1.1, opacity:0.9, interactive:false,
+      _capColor: capColor, _titColor: titularColor,
+      _baseColor: _activeCol
     });
     visDot.addTo(grupo);
     _visDotMap.set(key, visDot);
