@@ -5348,7 +5348,7 @@ function renderHistoryChart(key){
     _histMonthData.push({
       date:_sdate,
       label:_mFull+' '+dp[0],
-      gen:{disp:_s(s,'cap_gen_disp',8),ocup:_s(s,'cap_gen_ocup',2),tram:_s(s,'cap_gen_tram',3),neta:_s(s,'cap_gen_neta',9)},
+      gen:{disp:_s(s,'cap_gen_disp',8),ocup:_s(s,'cap_gen_ocup',2),tram:_s(s,'cap_gen_tram',3),neta:_s(s,'cap_gen_neta',9),acept:_s(s,'acept',7)},
       dem:{disp:_s(s,'cap_dem_disp',10),ocup:_s(s,'cap_dem_ocup',5),tram:_s(s,'cap_dem_tram',6),neta:_s(s,'cap_dem_neta',11)}
     });
 
@@ -5452,7 +5452,8 @@ window._histSelectMonth=function(idx, _skipRerender){
     // Actualizar Aceptabilidad: disponible - en trámite
     var acEl = document.getElementById('sdp-sum-acept');
     if(acEl && m){
-      var acept_val = (src.disp_bruta != null || src.disp != null) && src.tram != null ? ((src.disp_bruta || src.disp) - src.tram) : null;
+      var acept_val = (_sdpMode!=='dem' && m.gen && m.gen.acept != null) ? m.gen.acept
+        : ((src.disp_bruta != null || src.disp != null) && src.tram != null ? ((src.disp_bruta || src.disp) - src.tram) : null);
       acEl.textContent = acept_val != null ? acept_val.toFixed(1)+' MW' : '—';
       acEl.style.color = acept_val != null && acept_val > 0 ? '#166534' : '#991b1b';
     }
@@ -5489,7 +5490,8 @@ window._histSelectMonth=function(idx, _skipRerender){
     // Actualizar Aceptabilidad: disponible - en trámite
     var acEl = document.getElementById('sdp-sum-acept');
     if(acEl && m){
-      var acept_val = (src.disp_bruta != null || src.disp != null) && src.tram != null ? ((src.disp_bruta || src.disp) - src.tram) : null;
+      var acept_val = (_sdpMode!=='dem' && m.gen && m.gen.acept != null) ? m.gen.acept
+        : ((src.disp_bruta != null || src.disp != null) && src.tram != null ? ((src.disp_bruta || src.disp) - src.tram) : null);
       acEl.textContent = acept_val != null ? acept_val.toFixed(1)+' MW' : '—';
       acEl.style.color = acept_val != null && acept_val > 0 ? '#166534' : '#991b1b';
     }
