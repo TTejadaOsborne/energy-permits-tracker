@@ -1761,7 +1761,7 @@ const CONFIG = {
 <div id="view-oportunidades" class="content" style="display:none">
   <div style="display:flex;gap:6px;padding:14px 24px 0;flex-shrink:0">
     <button id="op-tab-radar" onclick="setOportTab('radar')" style="padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:#05233D;color:#fff;font-family:'Inter',sans-serif">📡 Radar de posicionamiento</button>
-    <button id="op-tab-vent" onclick="setOportTab('ventanas')" style="padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:rgba(26,26,24,.06);color:rgba(26,26,24,.55);font-family:'Inter',sans-serif">Ventanas de afloramiento</button>
+    <button id="op-tab-vent" onclick="setOportTab('ventanas')" style="padding:7px 16px;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;background:rgba(26,26,24,.06);color:rgba(26,26,24,.55);font-family:'Inter',sans-serif">⏳ Ventanas de afloramiento</button>
   </div>
   <div id="op-radar-wrap" style="display:none;flex:1;overflow-y:auto;padding:14px 24px 24px"></div>
   <div id="op-vent-wrap" style="display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden">
@@ -6437,17 +6437,45 @@ window.showAfloraInfo = function(){
       + '<div style="flex:1;height:14px;border-radius:4px;background:#f0ede6"><div style="width:'+(v/maxS*100).toFixed(0)+'%;height:100%;border-radius:4px;background:#399439;opacity:.8"></div></div>'
       + '<span style="font-size:11px;font-weight:700;font-family:IBM Plex Mono,monospace;width:24px;text-align:right">'+v+'</span></div>';
   };
-  var rows = (d.casos||[]).map(function(c){
-    return '<tr style="border-bottom:1px solid rgba(26,26,24,.05)">'
-      + '<td style="padding:6px 10px;font-size:11px"><b>'+_esc(c.proyecto)+'</b>'+(c.mw_proyecto?' <span style="color:rgba(26,26,24,.45)">('+Math.round(c.mw_proyecto)+' MW)</span>':'')+'</td>'
-      + '<td style="padding:6px 10px;font-size:11px;font-weight:700;color:#05233D;white-space:nowrap;cursor:pointer" onclick="document.getElementById(&quot;aflora-info-bg&quot;).style.display=&quot;none&quot;;jumpToSet(&quot;'+_esc(c.set)+'&quot;,null,&quot;'+_esc(c.set)+'&quot;)" title="Ver SET">'+_esc(c.set)+' ↗</td>'
-      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;white-space:nowrap">'+fch(c.fecha_adversa)+'</td>'
-      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;text-align:right;color:#399439;font-weight:700">+'+c.delta_mw+' MW</td>'
-      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;text-align:right">'+(c.ratio!==''&&c.ratio!=null?Math.round(c.ratio*100)+'%':'—')+'</td>'
-      + '<td style="padding:6px 10px;font-size:12px;font-family:IBM Plex Mono,monospace;text-align:right;font-weight:800;color:#05233D">'+c.lag_meses+' m</td>'
-      + '</tr>';
+  // Agrupar casos por SET
+  var porSet = {};
+  (d.casos||[]).forEach(function(c){ (porSet[c.set] = porSet[c.set]||[]).push(c); });
+  var setsOrd = Object.keys(porSet).sort(function(a,b){
+    var sa = porSet[a].reduce(function(s,c){return s+(c.delta_mw||0);},0);
+    var sb = porSet[b].reduce(function(s,c){return s+(c.delta_mw||0);},0);
+    return sb-sa;
+  });
+  var MES_=['','ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  var fmes = function(ym){ if(!ym) return '—'; var p=ym.split('-'); return MES_[parseInt(p[1],10)]+' '+p[0]; };
+  var rows = setsOrd.map(function(s, si){
+    var cs = porSet[s];
+    var totAflora = cs.reduce(function(x,c){return x+(c.delta_mw||0);},0);
+    var head = '<div onclick="var d2=document.getElementById(\'afl-set-'+si+'\');var ch=document.getElementById(\'afl-ch-'+si+'\');var sh=d2.style.display===\'none\';d2.style.display=sh?\'\':\'none\';if(ch)ch.style.transform=sh?\'rotate(90deg)\':\'\'" '
+      + 'style="display:flex;justify-content:space-between;align-items:center;padding:9px 12px;background:#f5f5f0;border-radius:9px;cursor:pointer;margin-top:8px">'
+      + '<div style="display:flex;align-items:center;gap:8px">'
+      +   '<span id="afl-ch-'+si+'" style="font-size:9px;color:rgba(26,26,24,.45);transition:transform .15s;display:inline-block">▶</span>'
+      +   '<span style="font-size:12.5px;font-weight:800;color:#05233D">'+_esc(s)+'</span>'
+      +   '<span style="font-size:10px;color:rgba(26,26,24,.45)">'+cs.length+' caso'+(cs.length>1?'s':'')+' de éxito</span>'
+      + '</div>'
+      + '<span style="font-size:12px;font-weight:800;color:#399439;font-family:IBM Plex Mono,monospace">+'+Math.round(totAflora)+' MW aflorados</span>'
+      + '</div>';
+    var det = '<div id="afl-set-'+si+'" style="display:none;padding:4px 12px 8px 28px">'
+      + cs.map(function(c){
+          var fch = c.fecha_adversa ? c.fecha_adversa.slice(6,8)+'/'+c.fecha_adversa.slice(4,6)+'/'+c.fecha_adversa.slice(0,4) : '—';
+          var pct = (c.ratio!==''&&c.ratio!=null) ? Math.round(c.ratio*100) : null;
+          return '<div style="padding:8px 0;border-bottom:1px solid rgba(26,26,24,.06);font-size:11px;line-height:1.6">'
+            + '<div><span style="color:#399439;font-weight:800">⤴ '+fmes(c.aflora_mes)+':</span> afloraron <b style="color:#399439">+'+c.delta_mw+' MW</b> en los mapas de esta SET'
+            + (pct!=null?' <span style="color:rgba(26,26,24,.5)">(≈'+pct+'% del proyecto caído)</span>':'')+'</div>'
+            + '<div style="color:rgba(26,26,24,.65)">Justificación: <b>'+_esc(c.proyecto)+'</b>'
+            + (c.mw_proyecto?' ('+Math.round(c.mw_proyecto)+' MW)':'')
+            + ' recibió resolución desfavorable el '+fch+' — <b>'+c.lag_meses+' mes'+(c.lag_meses>1?'es':'')+' antes</b> del afloramiento.</div>'
+            + '<div style="margin-top:2px"><span onclick="document.getElementById(\'aflora-info-bg\').style.display=\'none\';jumpToSet(&quot;'+_esc(c.set)+'&quot;,null,&quot;'+_esc(c.set)+'&quot;)" style="font-size:10px;color:#05233D;font-weight:700;cursor:pointer">Ver histórico de la SET →</span></div>'
+            + '</div>';
+        }).join('')
+      + '</div>';
+    return head + det;
   }).join('');
-  bg.innerHTML = '<div style="background:#fff;border-radius:16px;width:min(880px,92vw);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3)" onclick="event.stopPropagation()">'
+  bg.innerHTML =  bg.innerHTML = '<div style="background:#fff;border-radius:16px;width:min(880px,92vw);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3)" onclick="event.stopPropagation()">'
     + '<div style="background:linear-gradient(135deg,#05233D,#0a3a5c);color:#fff;padding:18px 22px;display:flex;justify-content:space-between;align-items:center">'
     +   '<div><div style="font-size:15px;font-weight:800">Base empírica del patrón de afloramientos</div>'
     +   '<div style="font-size:11px;opacity:.7;margin-top:2px">Casos de éxito verificados: permiso desfavorable → capacidad publicada en los mapas de la SET</div></div>'
@@ -6463,10 +6491,8 @@ window.showAfloraInfo = function(){
     +   '<div style="font-size:11px;color:rgba(26,26,24,.6);line-height:1.6;background:#fafaf8;border-radius:10px;padding:10px 14px;margin-bottom:14px">'
     +     '<b style="color:#05233D">Metodología.</b> Para cada proyecto con permiso adverso decisivo (AAP/AAC/DIA denegado, desistido o caducado) y SET de conexión identificada en el Monitor, se busca en el histórico mensual de capacidad la primera subida de disponible ≥ '+d.umbral_mw+' MW cuya magnitud esté entre el '+Math.round(d.ratio_min*100)+'% y el '+Math.round(d.ratio_max*100)+'% de los MW del proyecto caído, dentro de los '+d.ventana_meses+' meses siguientes. Solo cuentan afloramientos <b>observados en los mapas oficiales</b>, no menciones en resoluciones. El primer semestre concentra la mayor frecuencia; el patrón pierde fuerza pero no desaparece hasta ~18 meses.'
     +   '</div>'
-    +   '<table style="width:100%;border-collapse:collapse">'
-    +   '<thead><tr style="background:#f5f5f0">'
-    +     ['Proyecto desfavorable','SET de conexión','Decisión','Afloramiento','% del proyecto','Lag'].map(function(h,i){return '<th style="padding:7px 10px;text-align:'+(i>=3?'right':'left')+';font-size:9.5px;color:rgba(26,26,24,.5);font-weight:700;letter-spacing:.04em">'+h.toUpperCase()+'</th>';}).join('')
-    +   '</tr></thead><tbody>'+rows+'</tbody></table>'
+    +   '<div style="font-size:10px;font-weight:800;color:#05233D;letter-spacing:.05em;margin-bottom:2px">CASOS DE ÉXITO POR SUBESTACIÓN <span style="font-weight:400;color:rgba(26,26,24,.4)">— clic para desglosar</span></div>'
+    +   rows
     + '</div></div>';
   bg.style.display = 'flex';
 };

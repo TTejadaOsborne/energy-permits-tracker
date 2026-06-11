@@ -86,8 +86,10 @@ def main():
                     found = (mdiff(fa_ym, k2), delta, ratio); break
             last = s[k2]
         if found:
+            _am = (fa_ym[0] + (fa_ym[1]-1+found[0])//12, (fa_ym[1]-1+found[0])%12 + 1)
             casos.append({'proyecto': p['nombre'], 'proyecto_id': p['id'], 'set': key,
                           'fecha_adversa': fa, 'lag_meses': found[0],
+                          'aflora_mes': f'{_am[0]:04d}-{_am[1]:02d}',
                           'delta_mw': round(found[1],1), 'mw_proyecto': mw,
                           'ratio': round(found[2],2) if found[2] is not None else ''})
         else:
