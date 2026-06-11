@@ -89,7 +89,8 @@ body{font-family:'Inter',sans-serif;background:#f5f0e8;color:#1a1a18;font-size:1
 }
 .nav-item:hover{background:rgba(26,26,24,.04);color:rgba(26,26,24,.75)}
 .nav-item.active{border-left-color:#399439;background:rgba(57,148,57,.08);color:#1a1a18}
-.nav-item .nav-icon{font-size:16px;flex-shrink:0;margin:0;width:auto;opacity:.65;transition:opacity .15s,transform .15s}
+.nav-item .nav-icon{font-size:16px;flex-shrink:0;margin:0;width:18px;height:18px;display:flex;align-items:center;justify-content:center;opacity:.65;transition:opacity .15s,transform .15s}
+.nav-item .nav-icon svg{width:18px;height:18px;flex-shrink:0;display:block}
 .nav-item:hover .nav-icon{opacity:.9}
 .nav-item.active .nav-icon{opacity:1;transform:scale(1.08)}
 .nav-item .nav-label-sm{
@@ -3492,9 +3493,9 @@ function highlightMarker(key){
   // Reset previous
   if(_selectedMapKey && _visDotMap.has(_selectedMapKey)){
     var prev = _visDotMap.get(_selectedMapKey);
-    prev.setRadius(4);
+    prev.setRadius(3.6);
     var _pc = (window._setsColorMode==='tit') ? prev.options._titColor : prev.options._capColor;
-    prev.setStyle({weight:1.1, color:'#fff', fillColor:_pc});
+    prev.setStyle({weight:0, color:'transparent', fillColor:_pc});
   }
   _selectedMapKey = key;
   if(key && _visDotMap.has(key)){
@@ -3782,8 +3783,8 @@ function renderSetsMapMarkers(){
     // Visual dot — stored so we can highlight it
     const _activeCol = (window._setsColorMode==='tit') ? titularColor : capColor;
     const visDot = L.circleMarker([lat,lon], {
-      radius:4, color:'#fff', fillColor:_activeCol,
-      fillOpacity:0.95, weight:1.1, opacity:0.9, interactive:false,
+      radius:3.6, color:'transparent', fillColor:_activeCol,
+      fillOpacity:0.92, weight:0, opacity:0, interactive:false,
       _capColor: capColor, _titColor: titularColor,
       _baseColor: _activeCol
     });
