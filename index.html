@@ -1262,7 +1262,7 @@ const CONFIG = {
           <div style="padding:8px 12px;border-bottom:1px solid rgba(26,26,24,.08);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:#fafaf8">
             <span id="sets-map-count" style="font-size:11px;font-weight:600;opacity:.65"></span>
             <div style="display:flex;align-items:center;gap:4px;font-size:10px;opacity:.5">
-              <span style="font-weight:700;letter-spacing:.03em">CAPACIDAD (relleno):</span>
+              <span style="font-weight:700;letter-spacing:.03em">CAPACIDAD (centro):</span>
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#22c55e"></span>Libre
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#f59e0b;margin-left:3px"></span>Parcial
               <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#ef4444;margin-left:3px"></span>Llena
@@ -1275,12 +1275,12 @@ const CONFIG = {
           <div id="sets-map" style="height:100%;width:100%;min-height:400px"></div>
           <!-- Leyenda titular (bottom-left) -->
           <div id="sets-map-legend" style="position:absolute;bottom:30px;left:10px;z-index:500;background:rgba(255,255,255,.93);border-radius:8px;padding:7px 11px;font-size:10px;box-shadow:0 2px 8px rgba(0,0,0,.12);pointer-events:none">
-            <div style="font-weight:600;margin-bottom:3px;opacity:.5;font-size:9px;letter-spacing:.05em">TITULAR <span style="font-weight:400;opacity:.55">(borde)</span></div>
-            <div><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;border:2px solid #3b82f6;margin-right:5px;box-sizing:border-box"></span>Endesa</div>
-            <div><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;border:2px solid #22c55e;margin-right:5px;box-sizing:border-box"></span>iDE</div>
-            <div><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;border:2px solid #f97316;margin-right:5px;box-sizing:border-box"></span>UFD</div>
-            <div><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;border:2px solid #ef4444;margin-right:5px;box-sizing:border-box"></span>Viesgo</div>
-            <div><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;border:2px solid #9ca3af;margin-right:5px;box-sizing:border-box"></span>REE</div>
+            <div style="font-weight:600;margin-bottom:3px;opacity:.5;font-size:9px;letter-spacing:.05em">TITULAR <span style="font-weight:400;opacity:.55">(halo)</span></div>
+            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#3b82f6;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>Endesa</div>
+            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>iDE</div>
+            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f97316;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>UFD</div>
+            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>Viesgo</div>
+            <div><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#9ca3af;margin-right:5px;position:relative"><span style="position:absolute;inset:2.5px;border-radius:50%;background:#fff"></span></span>REE</div>
           </div>
           <button onclick="exportSinCoords()" title="Ver y exportar SETs sin coordenadas"
             style="position:absolute;top:10px;right:10px;z-index:500;background:rgba(255,255,255,.93);border:1px solid #ddd;border-radius:6px;padding:5px 10px;font-size:11px;cursor:pointer;font-family:inherit">
@@ -3494,14 +3494,14 @@ function highlightMarker(key){
   // Reset previous
   if(_selectedMapKey && _visDotMap.has(_selectedMapKey)){
     var prev = _visDotMap.get(_selectedMapKey);
-    prev.setRadius(3);
-    prev.setStyle({weight:1.8, color:prev.options._ringColor||prev.options._baseColor, fillColor:prev.options._baseColor});
+    prev.setRadius(3.4);
+    prev.setStyle({weight:1.7, color:'#fff', fillColor:prev.options._baseColor});
   }
   _selectedMapKey = key;
   if(key && _visDotMap.has(key)){
     var curr = _visDotMap.get(key);
     curr.setRadius(9);
-    curr.setStyle({weight:2.5, color:'#fff', fillColor:curr.options._baseColor});
+    curr.setStyle({weight:3, color:'#1a1a18', fillColor:curr.options._baseColor});
     curr.bringToFront();
   }
 }
@@ -3756,11 +3756,17 @@ function renderSetsMapMarkers(){
     if(lat==null || lon==null){ noCoord++; return; }
 
     // Visual dot — stored so we can highlight it
+    // Halo exterior = titular; separador blanco; centro = capacidad
+    const halo = L.circleMarker([lat,lon], {
+      radius:6, color:titularColor, fillColor:titularColor,
+      fillOpacity:0.95, weight:0, opacity:1, interactive:false
+    });
+    halo.addTo(grupo);
     const visDot = L.circleMarker([lat,lon], {
-      radius:4.2, color:titularColor, fillColor:capColor,
-      fillOpacity:0.92, weight:1.8, opacity:1, interactive:false,
+      radius:3.4, color:'#fff', fillColor:capColor,
+      fillOpacity:1, weight:1.7, opacity:1, interactive:false,
       _baseColor: capColor,        // relleno = capacidad
-      _ringColor: titularColor     // borde = titular
+      _ringColor: titularColor     // halo = titular
     });
     visDot.addTo(grupo);
     _visDotMap.set(key, visDot);
