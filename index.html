@@ -1786,7 +1786,10 @@ const CONFIG = {
       <div style="font-size:9.5px;color:rgba(26,26,24,.35)" id="op-kpi-total-sub"></div>
     </div>
     <div style="flex:1.6;min-width:230px;background:#f5f9f5;border:1px solid rgba(57,148,57,.25);border-radius:12px;padding:12px 16px;display:flex;flex-direction:column;justify-content:center">
-      <div style="font-size:10px;font-weight:700;color:#399439;letter-spacing:.05em;margin-bottom:4px">VENTANA EMPÍRICA DE AFLORAMIENTO</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <span style="font-size:10px;font-weight:700;color:#399439;letter-spacing:.05em">VENTANA EMPÍRICA DE AFLORAMIENTO</span>
+        <button onclick="showAfloraInfo()" title="Ver base empírica: casos de éxito que definen el patrón" style="width:20px;height:20px;border-radius:50%;border:1.5px solid #399439;background:#fff;color:#399439;font-size:11px;font-weight:800;cursor:pointer;line-height:1;padding:0;flex-shrink:0">i</button>
+      </div>
       <div style="font-size:11px;color:rgba(26,26,24,.6);line-height:1.45">Tras un permiso adverso decisivo, la capacidad suele aflorar entre <b><span id="op-kpi-p25">30</span></b> y <b><span id="op-kpi-p75">180</span></b> días (mediana <span id="op-kpi-med">90</span>d · <span id="op-kpi-n">19</span> casos verificados en mapas).</div>
     </div>
     <div style="align-self:center">
@@ -1870,6 +1873,7 @@ const CONFIG = {
 <script src="forecast_data.js"></script>
 <script src="adverse_forecast_data.js"></script>
 <script src="radar_data.js"></script>
+<script src="aflora_cases.js"></script>
 <script>
 // ── AUTH (isolated script – runs before main block) ─────────────────────
 // ── AUTH ──────────────────────────────────────────────────────────────────────
@@ -6414,6 +6418,58 @@ function _buildOportKpis(){
   sv('op-kpi-med', stats.mediana);
   sv('op-kpi-n',   stats.n);
 }
+
+window.showAfloraInfo = function(){
+  var d = window.AFLORA_CASES;
+  var bg = document.getElementById('aflora-info-bg');
+  if(!bg){
+    bg = document.createElement('div');
+    bg.id = 'aflora-info-bg';
+    bg.style.cssText = 'position:fixed;inset:0;z-index:9000;background:rgba(5,35,61,.45);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px)';
+    bg.onclick = function(e){ if(e.target===bg) bg.style.display='none'; };
+    document.body.appendChild(bg);
+  }
+  if(!d){ bg.innerHTML='<div style="background:#fff;border-radius:14px;padding:30px;font-size:12px">Sin datos — ejecuta analyze_aflora_pattern.py</div>'; bg.style.display='flex'; return; }
+  var fch = function(f){ return f ? f.slice(6,8)+'/'+f.slice(4,6)+'/'+f.slice(0,4) : '—'; };
+  var maxS = Math.max(d.semestres.S1, d.semestres.S2, d.semestres.S3, 1);
+  var semBar = function(lbl, v){
+    return '<div style="display:flex;align-items:center;gap:8px;margin:3px 0"><span style="font-size:10px;font-family:IBM Plex Mono,monospace;color:rgba(26,26,24,.5);width:64px">'+lbl+'</span>'
+      + '<div style="flex:1;height:14px;border-radius:4px;background:#f0ede6"><div style="width:'+(v/maxS*100).toFixed(0)+'%;height:100%;border-radius:4px;background:#399439;opacity:.8"></div></div>'
+      + '<span style="font-size:11px;font-weight:700;font-family:IBM Plex Mono,monospace;width:24px;text-align:right">'+v+'</span></div>';
+  };
+  var rows = (d.casos||[]).map(function(c){
+    return '<tr style="border-bottom:1px solid rgba(26,26,24,.05)">'
+      + '<td style="padding:6px 10px;font-size:11px"><b>'+_esc(c.proyecto)+'</b>'+(c.mw_proyecto?' <span style="color:rgba(26,26,24,.45)">('+Math.round(c.mw_proyecto)+' MW)</span>':'')+'</td>'
+      + '<td style="padding:6px 10px;font-size:11px;font-weight:700;color:#05233D;white-space:nowrap;cursor:pointer" onclick="document.getElementById(&quot;aflora-info-bg&quot;).style.display=&quot;none&quot;;jumpToSet(&quot;'+_esc(c.set)+'&quot;,null,&quot;'+_esc(c.set)+'&quot;)" title="Ver SET">'+_esc(c.set)+' ↗</td>'
+      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;white-space:nowrap">'+fch(c.fecha_adversa)+'</td>'
+      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;text-align:right;color:#399439;font-weight:700">+'+c.delta_mw+' MW</td>'
+      + '<td style="padding:6px 10px;font-size:11px;font-family:IBM Plex Mono,monospace;text-align:right">'+(c.ratio!==''&&c.ratio!=null?Math.round(c.ratio*100)+'%':'—')+'</td>'
+      + '<td style="padding:6px 10px;font-size:12px;font-family:IBM Plex Mono,monospace;text-align:right;font-weight:800;color:#05233D">'+c.lag_meses+' m</td>'
+      + '</tr>';
+  }).join('');
+  bg.innerHTML = '<div style="background:#fff;border-radius:16px;width:min(880px,92vw);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3)" onclick="event.stopPropagation()">'
+    + '<div style="background:linear-gradient(135deg,#05233D,#0a3a5c);color:#fff;padding:18px 22px;display:flex;justify-content:space-between;align-items:center">'
+    +   '<div><div style="font-size:15px;font-weight:800">Base empírica del patrón de afloramientos</div>'
+    +   '<div style="font-size:11px;opacity:.7;margin-top:2px">Casos de éxito verificados: permiso desfavorable → capacidad publicada en los mapas de la SET</div></div>'
+    +   '<button onclick="document.getElementById(\'aflora-info-bg\').style.display=\'none\'" style="background:none;border:none;color:#fff;font-size:18px;cursor:pointer;opacity:.7">✕</button>'
+    + '</div>'
+    + '<div style="padding:16px 22px;overflow-y:auto">'
+    +   '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px">'
+    +     '<div style="background:#f5f9f5;border-radius:10px;padding:10px 14px;text-align:center"><div style="font-family:Playfair Display,serif;font-size:24px;color:#399439">'+d.n+'</div><div style="font-size:9px;color:rgba(26,26,24,.5);letter-spacing:.05em">CASOS VERIFICADOS</div></div>'
+    +     '<div style="background:#f5f9f5;border-radius:10px;padding:10px 14px;text-align:center"><div style="font-family:Playfair Display,serif;font-size:24px;color:#05233D">'+Math.round(d.mediana_d/30)+' m</div><div style="font-size:9px;color:rgba(26,26,24,.5);letter-spacing:.05em">MEDIANA</div></div>'
+    +     '<div style="background:#f5f9f5;border-radius:10px;padding:10px 14px;text-align:center"><div style="font-family:Playfair Display,serif;font-size:24px;color:#05233D">'+Math.round(d.p25_d/30)+'–'+Math.round(d.p75_d/30)+' m</div><div style="font-size:9px;color:rgba(26,26,24,.5);letter-spacing:.05em">RANGO P25–P75</div></div>'
+    +     '<div style="background:#f5f9f5;border-radius:10px;padding:8px 14px">'+semBar('0–6 m',d.semestres.S1)+semBar('7–12 m',d.semestres.S2)+semBar('13–18 m',d.semestres.S3)+'</div>'
+    +   '</div>'
+    +   '<div style="font-size:11px;color:rgba(26,26,24,.6);line-height:1.6;background:#fafaf8;border-radius:10px;padding:10px 14px;margin-bottom:14px">'
+    +     '<b style="color:#05233D">Metodología.</b> Para cada proyecto con permiso adverso decisivo (AAP/AAC/DIA denegado, desistido o caducado) y SET de conexión identificada en el Monitor, se busca en el histórico mensual de capacidad la primera subida de disponible ≥ '+d.umbral_mw+' MW cuya magnitud esté entre el '+Math.round(d.ratio_min*100)+'% y el '+Math.round(d.ratio_max*100)+'% de los MW del proyecto caído, dentro de los '+d.ventana_meses+' meses siguientes. Solo cuentan afloramientos <b>observados en los mapas oficiales</b>, no menciones en resoluciones. El primer semestre concentra la mayor frecuencia; el patrón pierde fuerza pero no desaparece hasta ~18 meses.'
+    +   '</div>'
+    +   '<table style="width:100%;border-collapse:collapse">'
+    +   '<thead><tr style="background:#f5f5f0">'
+    +     ['Proyecto desfavorable','SET de conexión','Decisión','Afloramiento','% del proyecto','Lag'].map(function(h,i){return '<th style="padding:7px 10px;text-align:'+(i>=3?'right':'left')+';font-size:9.5px;color:rgba(26,26,24,.5);font-weight:700;letter-spacing:.04em">'+h.toUpperCase()+'</th>';}).join('')
+    +   '</tr></thead><tbody>'+rows+'</tbody></table>'
+    + '</div></div>';
+  bg.style.display = 'flex';
+};
 
 function _renderDashOportStrip(){
   var el = document.getElementById('dash-oport-strip');
