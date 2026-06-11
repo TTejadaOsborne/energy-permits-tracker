@@ -6429,40 +6429,90 @@ function renderRadar(){
     return;
   }
   var fmt = function(v){ return v ? Math.round(v).toLocaleString('es-ES') : '—'; };
-  var tip = function(arr, f){ return (arr||[]).map(f).join('&#10;'); };
-  var html = '<div style="font-size:11px;color:rgba(26,26,24,.5);margin-bottom:10px;line-height:1.5">'
-    + 'Clasificación de subestaciones por probabilidad de capacidad próxima, combinando 4 pilares: '
-    + '<b>Ventana</b> (MW fallidos en ventana 0–6m) · <b>Señal trámite</b> (caída de capacidad en trámite últimos 3m — indicador adelantado) · '
-    + '<b>Zombis</b> (MW en tramitación sin publicaciones &gt;24m) · <b>Hitos RDL</b> (MW con hito 23/2020 venciendo en ≤6m). '
-    + 'Generado: '+(RADAR_DATA.generado||'')+'</div>';
+
+  function razon(r){
+    var parts = [];
+    if(r.tram_drop_3m) parts.push({v:r.tram_drop_3m*1.2, t:'▼ '+fmt(r.tram_drop_3m)+' MW de trámite liberándose ahora'});
+    if(r.mw_ventana)   parts.push({v:r.mw_ventana*1.4,   t:fmt(r.mw_ventana)+' MW caídos en ventana de afloramiento'});
+    if(r.mw_zombi)     parts.push({v:r.mw_zombi*0.7,     t:fmt(r.mw_zombi)+' MW zombis ('+r.n_zombis+' proy. parados >24m)'});
+    if(r.mw_hitos_6m)  parts.push({v:r.mw_hitos_6m*0.9,  t:fmt(r.mw_hitos_6m)+' MW con hito RDL venciendo en ≤6m'});
+    parts.sort(function(a,b){return b.v-a.v;});
+    return parts.slice(0,2).map(function(p){return p.t;});
+  }
+
+  function detalleHtml(r){
+    var h = '';
+    function bloque(titulo, color, items, linea){
+      if(!items || !items.length) return '';
+      var s = '<div style="margin-bottom:10px"><div style="font-size:10px;font-weight:700;color:'+color+';letter-spacing:.04em;margin-bottom:4px">'+titulo+'</div>';
+      items.forEach(function(x){ s += '<div style="font-size:11px;color:rgba(26,26,24,.7);padding:2px 0">'+linea(x)+'</div>'; });
+      return s + '</div>';
+    }
+    h += bloque('⏳ FALLIDOS EN VENTANA', '#05233D', r.fallidos, function(x){
+      return '<b>'+_esc(x.p)+'</b> · '+x.mw+' MW · adverso hace '+x.dias+' días'; });
+    h += bloque('💤 PROYECTOS ZOMBI (sin publicaciones >24m)', '#7c3aed', r.zombis, function(x){
+      return '<b>'+_esc(x.p)+'</b> · '+x.mw+' MW · '+x.meses_sin_pub+' meses sin publicar'; });
+    h += bloque('📅 HITOS RD-L 23/2020 PRÓXIMOS', '#b45309', r.hitos, function(x){
+      return '<b>'+_esc(x.p)+'</b> · '+x.mw+' MW · '+x.hito+' vence '+x.vence.split('-').reverse().join('/')+' <span style="opacity:.5">(confianza '+x.confianza+')</span>'; });
+    if(r.tram_drop_3m) h += '<div style="font-size:11px;color:#399439;font-weight:600">▼ Señal adelantada: la capacidad en trámite ha caído '+fmt(r.tram_drop_3m)+' MW en 3 meses sin pasar a ocupada — liberación en curso.</div>';
+    h += '<div style="margin-top:10px"><button onclick="event.stopPropagation();jumpToSet(null,null,&quot;'+_esc(r.set)+'&quot;)" style="border:1px solid rgba(5,35,61,.3);background:#fff;color:#05233D;border-radius:8px;padding:6px 14px;font-size:11px;font-weight:700;cursor:pointer">Ver subestación →</button></div>';
+    return h;
+  }
+
+  var top3 = RADAR_DATA.sets.slice(0,3);
+  var medal = ['🥇','🥈','🥉'];
+  var html = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-bottom:16px">';
+  top3.forEach(function(r,i){
+    var rz = razon(r);
+    html += '<div onclick="jumpToSet(null,null,&quot;'+_esc(r.set)+'&quot;)" style="background:linear-gradient(135deg,#05233D,#0a3a5c);border-radius:14px;padding:16px 18px;color:#fff;cursor:pointer" title="Ver subestación">'
+      + '<div style="display:flex;justify-content:space-between;align-items:center">'
+      +   '<span style="font-size:16px">'+medal[i]+' <b>'+_esc(r.set)+'</b></span>'
+      +   '<span style="background:rgba(57,148,57,.95);border-radius:10px;padding:2px 10px;font-size:11px;font-weight:700">'+r.score+'</span>'
+      + '</div>'
+      + '<div style="margin-top:9px;font-size:11.5px;line-height:1.55;opacity:.92">'
+      +   rz.map(function(t){return '· '+t;}).join('<br>')
+      + '</div>'
+      + '</div>';
+  });
+  html += '</div>';
+
+  html += '<div style="font-size:10.5px;color:rgba(26,26,24,.45);margin-bottom:8px">Clic en una fila para ver la justificación completa · Pilares: ventana 35% · señal trámite 30% · zombis 20% · hitos RDL 15% · Generado '+(RADAR_DATA.generado||'')+'</div>';
   html += '<table style="width:100%;border-collapse:collapse;font-size:12px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05)">';
   html += '<thead><tr style="background:#05233D;color:#fff">';
-  ['#','Subestación','Score','Ventana 0-6m','Señal trámite 3m','Zombis','Hitos ≤6m'].forEach(function(h,i){
-    html += '<th style="padding:9px 12px;text-align:'+(i>=2?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em">'+h+'</th>';
+  ['#','Subestación','Score','Por qué es oportunidad','Ventana','Trámite 3m','Zombis','Hitos'].forEach(function(h,i2){
+    html += '<th style="padding:9px 12px;text-align:'+(i2>=4?'right':'left')+';font-size:10.5px;font-weight:600;letter-spacing:.03em">'+h+'</th>';
   });
   html += '</tr></thead><tbody>';
   RADAR_DATA.sets.slice(0,100).forEach(function(r,i){
     var sc = r.score||0;
     var scColor = sc>=50?'#399439':sc>=30?'#b45309':'rgba(26,26,24,.45)';
-    var tF = tip(r.fallidos, function(x){return x.p+' ('+x.mw+' MW, hace '+x.dias+'d)';});
-    var tZ = tip(r.zombis,   function(x){return x.p+' ('+x.mw+' MW, '+x.meses_sin_pub+'m sin publicar)';});
-    var tH = tip(r.hitos,    function(x){return x.p+' ('+x.mw+' MW, '+x.hito+' vence '+x.vence+', conf. '+x.confianza+')';});
-    html += '<tr onclick="jumpToSet(null,null,\''+_esc(r.set)+'\')" style="cursor:pointer;border-bottom:1px solid rgba(26,26,24,.05)" onmouseenter="this.style.background=\'#fafaf8\'" onmouseleave="this.style.background=\'\'" title="Ver subestación">'
-      + '<td style="padding:8px 12px;color:rgba(26,26,24,.35);font-family:IBM Plex Mono,monospace;font-size:10px">'+(i+1)+'</td>'
-      + '<td style="padding:8px 12px;font-weight:700;color:#05233D">'+_esc(r.set)+'</td>'
-      + '<td style="padding:8px 12px;text-align:right;white-space:nowrap">'
-      +   '<div style="display:inline-flex;align-items:center;gap:7px"><div style="width:60px;height:6px;border-radius:3px;background:#efece5"><div style="width:'+Math.min(100,sc)+'%;height:100%;border-radius:3px;background:'+scColor+'"></div></div>'
+    var rz = razon(r);
+    html += '<tr onclick="toggleRadarDetail('+i+')" style="cursor:pointer;border-bottom:1px solid rgba(26,26,24,.05)" onmouseenter="this.style.background=&quot;#fafaf8&quot;" onmouseleave="this.style.background=&quot;&quot;">'
+      + '<td style="padding:8px 10px;color:rgba(26,26,24,.35);font-family:IBM Plex Mono,monospace;font-size:10px"><span id="rd-chev-'+i+'" style="display:inline-block;font-size:8px;color:rgba(26,26,24,.4);transition:transform .15s;margin-right:3px">▶</span>'+(i+1)+'</td>'
+      + '<td style="padding:8px 12px;font-weight:700;color:#05233D;white-space:nowrap">'+_esc(r.set)+'</td>'
+      + '<td style="padding:8px 12px;white-space:nowrap">'
+      +   '<div style="display:inline-flex;align-items:center;gap:7px"><div style="width:54px;height:6px;border-radius:3px;background:#efece5"><div style="width:'+Math.min(100,sc)+'%;height:100%;border-radius:3px;background:'+scColor+'"></div></div>'
       +   '<span style="font-family:IBM Plex Mono,monospace;font-weight:700;color:'+scColor+'">'+sc+'</span></div></td>'
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tF+'">'+(r.mw_ventana?fmt(r.mw_ventana)+' MW':'—')+(r.n_fallidos?' <span style="font-size:9px;color:rgba(26,26,24,.4)">('+r.n_fallidos+')</span>':'')+'</td>'
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;color:'+(r.tram_drop_3m?'#399439':'rgba(26,26,24,.3)')+'">'+(r.tram_drop_3m?'▼ '+fmt(r.tram_drop_3m)+' MW':'—')+'</td>'
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tZ+'">'+(r.mw_zombi?fmt(r.mw_zombi)+' MW':'—')+(r.n_zombis?' <span style="font-size:9px;color:rgba(26,26,24,.4)">('+r.n_zombis+')</span>':'')+'</td>'
-      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace" title="'+tH+'">'+(r.mw_hitos_6m?fmt(r.mw_hitos_6m)+' MW':'—')+'</td>'
-      + '</tr>';
+      + '<td style="padding:8px 12px;font-size:11px;color:rgba(26,26,24,.65);max-width:340px">'+rz.join(' · ')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_ventana?fmt(r.mw_ventana)+' MW':'—')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace;color:'+(r.tram_drop_3m?'#399439':'rgba(26,26,24,.3)')+'">'+(r.tram_drop_3m?'▼ '+fmt(r.tram_drop_3m):'—')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_zombi?fmt(r.mw_zombi):'—')+'</td>'
+      + '<td style="padding:8px 12px;text-align:right;font-family:IBM Plex Mono,monospace">'+(r.mw_hitos_6m?fmt(r.mw_hitos_6m):'—')+'</td>'
+      + '</tr>'
+      + '<tr id="rd-det-'+i+'" style="display:none"><td colspan="8" style="background:#fbfaf7;padding:12px 18px 12px 34px;border-bottom:1px solid rgba(26,26,24,.07)">'+detalleHtml(r)+'</td></tr>';
   });
   html += '</tbody></table>';
   w.innerHTML = html;
 }
 
+window.toggleRadarDetail = function(i){
+  var det = document.getElementById('rd-det-'+i);
+  var chev = document.getElementById('rd-chev-'+i);
+  if(!det) return;
+  var show = det.style.display==='none';
+  det.style.display = show ? '' : 'none';
+  if(chev) chev.style.transform = show ? 'rotate(90deg)' : '';
+};
 function renderOportunidades(){
   if(typeof ADVERSE_FORECAST_DATA === 'undefined') return;
   var estado = (document.getElementById('op-fil-estado')||{}).value||'';
@@ -6550,12 +6600,13 @@ function renderOportunidades(){
       + '</div>'
       // 2. MW protagonista
       + '<div style="display:flex;align-items:baseline;gap:8px;margin:10px 0 2px">'
+      +   '<span style="font-size:19px;line-height:1">'+(TECHI[r.tecnologia]||'⚡')+'</span>'
       +   '<span style="font-family:\'Playfair Display\',serif;font-size:30px;color:#1a1a18;line-height:1">'+mwTxt+'</span>'
-      +   '<span style="font-size:11.5px;color:rgba(26,26,24,.5)">MW liberables · '+_esc(r.distribuidora||'')+'</span>'
+      +   '<span style="font-size:11.5px;color:rgba(26,26,24,.5)">MW liberables · 🏛 '+_esc(r.distribuidora||'')+'</span>'
       + '</div>'
       // 3. origen en una linea
       + '<div style="font-size:10.5px;color:rgba(26,26,24,.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:4px">'
-      +   (TECHI[r.tecnologia]||'⚡')+' '+_esc(r.proyecto_nombre||'—')+' · '+_esc(r.tipo_adverso||'')+' '+_esc((r.estado_adverso||''))+' · '+fadv
+      +   '⚠️ '+_esc(r.proyecto_nombre||'—')+' · '+_esc(r.tipo_adverso||'')+' '+_esc((r.estado_adverso||''))+' · 📅 '+fadv
       + '</div>'
       // 4. mensaje clave + timeline
       + '<div style="font-size:11.5px;margin-top:9px">'+punchline+'</div>'
