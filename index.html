@@ -3523,7 +3523,8 @@ function getCapColor(d){
   else if(SETS_GENDEM==='dem')  cap = d.length>15 ? (d[15]??null) : null;
   else {
     const cg=d[5]!=null?d[5]:null, cd=d.length>15&&d[15]!=null?d[15]:null;
-    cap=(cg!=null&&cd!=null)?Math.min(cg,cd):null;  // Alm requiere gen Y dem
+    // Alm = la mas restrictiva; si falta un lado, usar el conocido (coherente con Panel de Capacidad)
+    cap=(cg!=null&&cd!=null)?Math.min(cg,cd):(cg!=null?cg:cd);
   }
   if(cap==null)  return '#9ca3af';  // sin datos
   if(cap<=0)     return '#ef4444';  // llena (0 MW disponibles)
