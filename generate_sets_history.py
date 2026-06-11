@@ -318,9 +318,6 @@ def build_from_csvs(refs_dir, raw):
             fecha = r["fecha"]
             lbl = label(fecha.year, fecha.month)
 
-            if key in raw and lbl in raw[key]:
-                continue  # Monitor ya tiene este snapshot — no sobreescribir
-
             cap_gen = to_float(r["disponible_neta"])
             # Ocupada/trámite si el CSV las tiene (ej: ree_capacidad.csv)
             cap_gen_ocup = to_float(r["cap_gen_ocup"]) if has_ocup else None
@@ -344,8 +341,20 @@ def build_from_csvs(refs_dir, raw):
                 "cap_gen_RdD":  _cap_gen_RdD,
             }
             if key not in raw: raw[key] = {}
-            raw[key][lbl] = snap
-            added += 1
+            if lbl in raw[key]:
+                # Ya existe (Monitor o Mapas): rellenar solo campos null,
+                # sin sobreescribir (Monitor/Mapas tienen prioridad)
+                ex = raw[key][lbl]
+                merged = False
+                for f, v in snap.items():
+                    if f != "date" and ex.get(f) is None and v is not None:
+                        ex[f] = v
+                        merged = True
+                if merged:
+                    added += 1
+            else:
+                raw[key][lbl] = snap
+                added += 1
 
         total_added += added
         print(f"  {dist} ({fname}): +{added} snapshots añadidos (gen only, dem=null)")
