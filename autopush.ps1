@@ -13,6 +13,7 @@ $watchFiles = @(
     "forecast_data.js",
     "sets_capacity.json",
     "sets_history.json",
+    "sets_history.json.gz",
     "logo.png",
     ".gitignore",
     ".nojekyll",
