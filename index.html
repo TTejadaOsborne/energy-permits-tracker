@@ -1480,6 +1480,19 @@ const CONFIG = {
         </div>
       </div>
 
+
+      <!-- Anticipación: predicciones de capacidad al estilo Temos -->
+      <div id="sdp-anticip-section" style="display:none;margin-top:20px;padding-top:16px;border-top:1px solid rgba(26,26,24,.08)">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div style="font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:#1a1a18;letter-spacing:-.02em">
+            Predicción de capacidad
+            <span id="sdp-anticip-count" style="font-size:12px;color:rgba(26,26,24,.4);font-weight:400;font-family:'Inter',sans-serif;margin-left:6px"></span>
+          </div>
+          <span style="font-size:10px;color:rgba(26,26,24,.35);font-family:'IBM Plex Mono',monospace" id="sdp-anticip-fecha"></span>
+        </div>
+        <div id="sdp-anticip-list" style="display:flex;flex-direction:column;gap:8px"></div>
+      </div>
+
       <!-- Pronóstico de liberación de capacidad -->
       <div class="sdp-forecast-section" id="sdp-forecast-section" style="display:none">
         <div class="sdp-forecast-title">Pronóstico de liberación <span id="sdp-fc-conf-badge" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif"></span></div>
@@ -5319,6 +5332,9 @@ function openSetDetail(key){
   // Forecast section
   updateSdpForecast(d[10]||'', key, d[4]);
 
+  // Anticipación: predicciones desde RADAR_DATA
+  renderSdpAnticipacion(key);
+
   panel.classList.add('open');
   overlay.classList.add('open');
 }
@@ -7605,6 +7621,50 @@ function updateSdpForecast(distribuidora, subestacion, tension_kv){
     var fechas = String(rec.fechas_historicas).split('|').slice(-6);
     histEl.textContent = 'Últimas liberaciones: ' + fechas.join('  ·  ');
   }
+}
+
+
+// ── Anticipación: predicciones de capacidad desde RADAR_DATA ──────────────
+function renderSdpAnticipacion(setKey) {
+  var sec   = document.getElementById('sdp-anticip-section');
+  var list  = document.getElementById('sdp-anticip-list');
+  var count = document.getElementById('sdp-anticip-count');
+  var fecha = document.getElementById('sdp-anticip-fecha');
+  if (!sec || !list) return;
+  if (typeof RADAR_DATA === 'undefined' || !RADAR_DATA.sets) { sec.style.display='none'; return; }
+  var row = RADAR_DATA.sets.find(function(s){ return s.set === setKey; });
+  if (!row || !row.predicciones || !row.predicciones.length) { sec.style.display='none'; return; }
+
+  var PROB_CFG = {
+    alta:  {label:'Alta',  bg:'#fff7ed', border:'#f97316', dot:'#f97316', text:'#9a3412'},
+    media: {label:'Media', bg:'#fffbeb', border:'#f59e0b', dot:'#f59e0b', text:'#92400e'},
+    baja:  {label:'Baja',  bg:'#f9fafb', border:'#9ca3af', dot:'#9ca3af', text:'#4b5563'},
+  };
+  var SENTIDO_LBL = {gen:'Generaci\u00f3n', dem:'Demanda', ambos:'Gen+Dem'};
+  var MECA_ICON   = {caducidad_solicitud:'\ud83d\udccb', decaimiento_tramite:'\ud83d\udcc9', estancado:'\u23f3', hito_rdl:'\ud83d\udcc5'};
+
+  var html = row.predicciones.map(function(pred){
+    var cfg  = PROB_CFG[pred.prob] || PROB_CFG.baja;
+    var icon = MECA_ICON[pred.mecanismo] || '\u2022';
+    var mwTxt = pred.mw > 0 ? pred.mw.toFixed(2)+' MW' : '\u2014';
+    return '<div style="border:1px solid '+cfg.border+';border-radius:8px;padding:10px 13px;background:'+cfg.bg+'">'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;gap:8px">'
+      +  '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">'
+      +    '<span style="width:8px;height:8px;border-radius:50%;background:'+cfg.dot+';flex-shrink:0;display:inline-block"></span>'
+      +    '<span style="font-size:10px;font-weight:700;color:'+cfg.text+';font-family:\'IBM Plex Mono\',monospace;letter-spacing:.04em">prob: '+cfg.label+'</span>'
+      +    '<span style="padding:1px 7px;border-radius:8px;font-size:9.5px;font-weight:600;background:rgba(26,26,24,.07);color:rgba(26,26,24,.6)">'+(SENTIDO_LBL[pred.sentido]||pred.sentido)+'</span>'
+      +    '<span style="font-size:10px;color:rgba(26,26,24,.45);font-family:\'IBM Plex Mono\',monospace">Ventana: '+(pred.ventana||'\u2014')+'</span>'
+      +  '</div>'
+      +  '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;font-weight:700;color:#1a1a18;white-space:nowrap">'+mwTxt+'</span>'
+      +'</div>'
+      +'<div style="font-size:11.5px;color:#1a1a18;line-height:1.45;font-style:italic">'+icon+' \u201c'+_esc(pred.texto)+'\u201d</div>'
+      +'</div>';
+  }).join('');
+
+  list.innerHTML = html;
+  if(count) count.textContent = '('+row.predicciones.length+')';
+  if(fecha && RADAR_DATA.generado) fecha.textContent = 'Generado '+RADAR_DATA.generado;
+  sec.style.display = 'block';
 }
 
 function togglePrjDetail(id){
