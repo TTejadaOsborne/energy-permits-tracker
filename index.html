@@ -1480,6 +1480,18 @@ const CONFIG = {
         </div>
       </div>
 
+      <!-- Anticipación: predicciones de capacidad al estilo Temos -->
+      <div id="sdp-anticip-section" style="display:none;margin-top:20px;padding-top:16px;border-top:1px solid rgba(26,26,24,.08)">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div style="font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:#1a1a18;letter-spacing:-.02em">
+            Predicción de capacidad
+            <span id="sdp-anticip-count" style="font-size:12px;color:rgba(26,26,24,.4);font-weight:400;font-family:'Inter',sans-serif;margin-left:6px"></span>
+          </div>
+          <span style="font-size:10px;color:rgba(26,26,24,.35);font-family:'IBM Plex Mono',monospace" id="sdp-anticip-fecha"></span>
+        </div>
+        <div id="sdp-anticip-list" style="display:flex;flex-direction:column;gap:8px"></div>
+      </div>
+
       <!-- Pronóstico de liberación de capacidad -->
       <div class="sdp-forecast-section" id="sdp-forecast-section" style="display:none">
         <div class="sdp-forecast-title">Pronóstico de liberación <span id="sdp-fc-conf-badge" style="font-size:12px;color:rgba(26,26,24,.45);font-weight:400;font-family:'Inter',sans-serif"></span></div>
@@ -5319,6 +5331,9 @@ function openSetDetail(key){
   // Forecast section
   updateSdpForecast(d[10]||'', key, d[4]);
 
+  // Anticipación: predicciones desde RADAR_DATA
+  renderSdpAnticipacion(key);
+
   panel.classList.add('open');
   overlay.classList.add('open');
 }
@@ -7607,6 +7622,51 @@ function updateSdpForecast(distribuidora, subestacion, tension_kv){
   }
 }
 
+// ── Anticipación: predicciones de capacidad desde RADAR_DATA ──────────────
+function renderSdpAnticipacion(setKey) {
+  var sec   = document.getElementById('sdp-anticip-section');
+  var list  = document.getElementById('sdp-anticip-list');
+  var count = document.getElementById('sdp-anticip-count');
+  var fecha = document.getElementById('sdp-anticip-fecha');
+  console.log('[anticip] setKey='+setKey+' sec='+!!sec+' RADAR_DATA='+typeof RADAR_DATA);
+  if (!sec || !list) return;
+  if (typeof RADAR_DATA === 'undefined' || !RADAR_DATA.sets) { sec.style.display='none'; return; }
+  var row = RADAR_DATA.sets.find(function(s){ return s.set === setKey; });
+  console.log('[anticip] row='+!!row+' preds='+(row&&row.predicciones?row.predicciones.length:0));
+  if (!row || !row.predicciones || !row.predicciones.length) { sec.style.display='none'; return; }
+
+  var PROB_CFG = {
+    alta:  {label:'Alta',  bg:'#fff7ed', border:'#f97316', dot:'#f97316', text:'#9a3412'},
+    media: {label:'Media', bg:'#fffbeb', border:'#f59e0b', dot:'#f59e0b', text:'#92400e'},
+    baja:  {label:'Baja',  bg:'#f9fafb', border:'#9ca3af', dot:'#9ca3af', text:'#4b5563'},
+  };
+  var SENTIDO_LBL = {gen:'Generación', dem:'Demanda', ambos:'Gen+Dem'};
+  var MECA_ICON   = {caducidad_solicitud:'📋', decaimiento_tramite:'📉', estancado:'⏳', hito_rdl:'📅'};
+
+  var html = row.predicciones.map(function(pred){
+    var cfg  = PROB_CFG[pred.prob] || PROB_CFG.baja;
+    var icon = MECA_ICON[pred.mecanismo] || '•';
+    var mwTxt = pred.mw > 0 ? pred.mw.toFixed(2)+' MW' : '—';
+    return '<div style="border:1px solid '+cfg.border+';border-radius:8px;padding:10px 13px;background:'+cfg.bg+'">'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;gap:8px">'
+      +  '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">'
+      +    '<span style="width:8px;height:8px;border-radius:50%;background:'+cfg.dot+';flex-shrink:0;display:inline-block"></span>'
+      +    '<span style="font-size:10px;font-weight:700;color:'+cfg.text+';font-family:\'IBM Plex Mono\',monospace;letter-spacing:.04em">prob: '+cfg.label+'</span>'
+      +    '<span style="padding:1px 7px;border-radius:8px;font-size:9.5px;font-weight:600;background:rgba(26,26,24,.07);color:rgba(26,26,24,.6)">'+(SENTIDO_LBL[pred.sentido]||pred.sentido)+'</span>'
+      +    '<span style="font-size:10px;color:rgba(26,26,24,.45);font-family:\'IBM Plex Mono\',monospace">Ventana: '+(pred.ventana||'—')+'</span>'
+      +  '</div>'
+      +  '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;font-weight:700;color:#1a1a18;white-space:nowrap">'+mwTxt+'</span>'
+      +'</div>'
+      +'<div style="font-size:11.5px;color:#1a1a18;line-height:1.45;font-style:italic">'+icon+' &ldquo;'+_esc(pred.texto)+'&rdquo;</div>'
+      +'</div>';
+  }).join('');
+
+  list.innerHTML = html;
+  if(count) count.textContent = '('+row.predicciones.length+')';
+  if(fecha && RADAR_DATA.generado) fecha.textContent = 'Generado '+RADAR_DATA.generado;
+  sec.style.display = 'block';
+}
+
 function togglePrjDetail(id){
   if(PRJ_EXPANDED.has(id)) PRJ_EXPANDED.delete(id);
   else PRJ_EXPANDED.add(id);
@@ -8520,80 +8580,4 @@ function renderDetMiniMap(prov, muni){
   var query=(muni&&muni.split(',')[0].trim()||prov)+', España';
   var zoom=muni?10:7;
   fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(query)+'&limit=1&countrycodes=es',
-    {headers:{'Accept-Language':'es'}})
-    .then(function(r){return r.json();})
-    .then(function(res){
-      if(!res||!res.length) throw new Error('no results');
-      var lat=parseFloat(res[0].lat), lon=parseFloat(res[0].lon);
-      el.innerHTML='';
-      var map=L.map(el,{zoomControl:true,attributionControl:false,scrollWheelZoom:false}).setView([lat,lon],zoom);
-      window._detLeafMap=map;
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18}).addTo(map);
-      var icon=L.divIcon({className:'',html:'<div style="width:12px;height:12px;background:#1a1a18;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>',iconSize:[12,12],iconAnchor:[6,6]});
-      L.marker([lat,lon],{icon:icon}).addTo(map);
-    })
-    .catch(function(){
-      // Fallback: CCAA SVG from dashboard or simple label
-      el.style.padding='8px';
-      var ccaaId=_PROV_TO_CCAA[prov]||null;
-      if(ccaaId){ el.innerHTML=_buildCCAAFallbackSVG(ccaaId); }
-      else { el.innerHTML='<div style="font-size:11px;color:rgba(26,26,24,.35);text-align:center;padding:20px">'+escHtml(prov||'—')+'</div>'; }
-    });
-}
-
-// ── FULL APP INIT (all fns now defined — loadData, setView, showApp, etc.) ────
-(function(){
-  // Pre-load project data from inline bundle
-  if(window.PROJECTS_INLINE && window.PROJECTS_INLINE.proyectos){
-    if(!PROJECTS_DATA || !PROJECTS_DATA.length) PROJECTS_DATA = window.PROJECTS_INLINE.proyectos;
-  }
-  // Determine initial view from URL hash or default
-  var initView = 'inicio';  // siempre abrir en Dashboard al refrescar
-  setView(initView, /*noPush=*/true);
-  // Renderizar dashboard inmediatamente con datos estáticos (no espera Sheets)
-  setTimeout(function(){ try{ renderDashboard(); }catch(e){} }, 0);
-  // Fallback: si búsqueda sigue vacía tras 200ms, forzar initBusqueda
-  setTimeout(function(){
-    if(!SRCH_INIT_DONE && PROJECTS_DATA && PROJECTS_DATA.length){ try{ initBusqueda(); }catch(e){} }
-    else if(SRCH_INIT_DONE){ try{ renderBusqueda(); }catch(e){} }
-  }, 200);
-  // Start the app: verify session then call loadData()
-  // Refresco/reinicio: sesion en memoria desaparece -> login obligatorio
-  try{ localStorage.removeItem(CONFIG.AUTH.session_key); localStorage.removeItem('nodalys_auth'); }catch(e){}
-  if(!CONFIG.AUTH.enabled){
-    showApp();
-  }
-  // Failsafe: si tras 4s el timeline sigue con "Cargando" pero ALL ya tiene datos, forzar render
-  setTimeout(function(){
-    var tl=document.getElementById('dash-timeline-chart');
-    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && ALL && ALL.length){
-      try{ renderDashboard(); }catch(e){}
-    }
-  }, 4000);
-  // Si tras 8s ALL sigue vacío, mostrar botón de reintento en el timeline
-  setTimeout(function(){
-    var tl=document.getElementById('dash-timeline-chart');
-    if(tl && tl.innerHTML.indexOf('Cargando')!==-1 && (!ALL || !ALL.length)){
-      tl.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:6px">'
-        +'<span style="font-size:10px;color:rgba(26,26,24,.45);font-family:Inter,sans-serif">No se pudieron cargar datos históricos</span>'
-        +'<button onclick="loadData().then(function(){try{renderDashboard();}catch(e){}}).catch(function(){})" style="padding:4px 12px;border:1px solid rgba(26,26,24,.2);border-radius:12px;background:#fff;font-size:10px;cursor:pointer;font-family:Inter,sans-serif">&#8635; Reintentar</button>'
-        +'</div>';
-    }
-  }, 8000);
-})();
-
-
-</script>
-
-<!-- OPORT DETAIL MODAL -->
-<div class="oport-modal-bg" id="oport-modal-bg" onclick="if(event.target===this)this.classList.remove('open')">
-  <div class="oport-modal">
-    <div class="oport-modal-hdr">
-      <div>
-        <div class="oport-modal-title" id="oport-modal-title">—</div>
-        <div class="oport-modal-sub" id="oport-modal-sub">—</div>
-      </div>
-      <button class="oport-modal-close" onclick="document.getElementById('oport-modal-bg').classList.remove('open')">✕</button>
-    </div>
-    <div class="oport-modal-body" id="oport-modal-body"></div>
-  </
+    {headers:{'Accept
