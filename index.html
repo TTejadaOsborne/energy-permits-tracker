@@ -7641,7 +7641,7 @@ function renderSdpAnticipacion(setKey) {
     baja:  {label:'Baja',  bg:'#f9fafb', border:'#9ca3af', dot:'#9ca3af', text:'#4b5563'},
   };
   var SENTIDO_LBL = {gen:'Generaci\u00f3n', dem:'Demanda', ambos:'Gen+Dem'};
-  var MECA_ICON   = {caducidad_solicitud:'\ud83d\udccb', decaimiento_tramite:'\ud83d\udcc9', estancado:'\u23f3', hito_rdl:'\ud83d\udcc5'};
+  var MECA_ICON   = {caducidad_solicitud:'\ud83d\udccb', decaimiento_tramite:'\ud83d\udcc9', estancado:'\u23f3', hito_rdl:'\ud83d\udcc5', anomalia_historica:'\u26a1'};
 
   var html = row.predicciones.map(function(pred){
     var cfg  = PROB_CFG[pred.prob] || PROB_CFG.baja;
